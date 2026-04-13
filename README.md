@@ -1,194 +1,103 @@
-<<<<<<< HEAD
 # Arcanine Go Project
 
-Arcanine Go Project is a static multi-page website built with pure HTML and CSS.
+A clean, modern **Pokémon GO raid guide website** built with HTML and CSS.
 
-The website presents a Pokémon GO raid guide focused on the April 2026 rotation, with an overview of active Mega and Tier 5 raid bosses, their weaknesses, and both best and budget counter suggestions.
+This project focuses on:
 
-## Project purpose
+* Active raid bosses
+* Counter recommendations
+* Raid schedule overview
+* Clean UI/UX with themed styling
 
-The purpose of this project is to create a clean, responsive and semantically structured static website without JavaScript.
+---
 
-The site was created as a faculty project for practicing core web development concepts such as:
+## 🔗 Pages
 
-- semantic HTML
-- CSS layout and styling
-- responsive design
-- accessibility basics
-- multi-page site structure
-- GitHub Pages deployment
+* **Home** – Overview and entry point
+* **Raids** – Active raids + full schedule
+* **Counters** – Best counters per boss
+* **Contact** – Support-style form page
 
-## Pages
+---
 
-The project contains four main pages:
+## ✨ Features
 
-- **Home** (`index.html`)  
-  Introduction to the project, featured raid bosses and a short overview of the website goals.
+### 🎯 Raid Overview
 
-- **Raids** (`raids.html`)  
-  A simple overview of the April 2026 raid rotation, organized by date ranges.
+* Active raids clearly highlighted
+* Upcoming raids with exact dates (no more "Soon")
+* Clean card-based layout
 
-- **Counters** (`counters.html`)  
-  The main guide page, containing counter cards for all active Mega and Tier 5 raid bosses in the selected rotation window.
+### 📅 Raid Schedule
 
-- **Contact** (`contact.html`)  
-  A contact form page with labels, required fields and basic HTML validation.
+* Dedicated schedule section with:
 
-## Main features
+  * Full date ranges
+  * Boss icons/sprites
+  * Clear rotation breakdown
 
-- Pure **HTML5** and **CSS3**
-- No JavaScript
-- Responsive layout for mobile and desktop screens
-- Shared navigation across all pages
-- CSS-only hamburger menu
-- Semantic page structure using `header`, `nav`, `main`, `section` and `footer`
-- Skip to content link
-- Visible keyboard focus states
-- Pokémon type colour badges
-- Card-based layout for raid bosses and counters
-- Contact form with basic validation
-- Project structure ready for GitHub Pages
+### ⚔️ Counters Page
 
-## Raid content included
+* Direct linking from raids → counters
+* Smooth scrolling to selected boss
+* Fixed anchor offset (no more jumping to wrong position)
 
-The counters page includes active **Mega Raids** and **Tier 5 Raids** from the April 2026 rotation:
+### 🎨 Visual Design
 
-### Mega Raids
-- Mega Aerodactyl
-- Mega Alakazam
-- Mega Sharpedo
-- Mega Banette
+* Type-based glow system (Water, Rock, Psychic, etc.)
+* Hover effects with stronger visual feedback
+* Consistent dark theme UI
 
-### Tier 5 Raids
-- Kyogre
-- Groudon
-- Tapu Koko
-- Tapu Lele
+### 📩 Contact Page
 
-Each boss card includes:
-- boss name
-- raid category
-- Pokémon types
-- weakness summary
-- best counters
-- budget counters
+* Structured support-style form
+* Built-in HTML validation
+* Topic-based submission categories
 
-## Technologies used
+---
 
-- HTML5
-- CSS3
-- GitHub
-- GitHub Pages
+## 🛠️ Tech Stack
 
-## Folder structure
+* HTML5
+* CSS3 (no frameworks)
+* Responsive layout
+* No JavaScript (by design)
 
-```text
-arcanine-go-project/
-│
-├── index.html
-├── raids.html
-├── counters.html
-├── contact.html
-│
-├── css/
-│   └── style.css
-│
-├── README.md
-=======
-# Arcanine Go Project
+---
 
-Arcanine Go Project is a static multi-page website built with pure HTML and CSS.
+## 📌 Project Goals
 
-The website presents a Pokémon GO raid guide focused on the April 2026 rotation, with an overview of active Mega and Tier 5 raid bosses, their weaknesses, and both best and budget counter suggestions.
+This project was built to:
 
-## Project purpose
+* Practice semantic HTML structure
+* Build a multi-page responsive website
+* Create a consistent UI system
+* Simulate a real-world gaming guide
 
-The purpose of this project is to create a clean, responsive and semantically structured static website without JavaScript.
+---
 
-The site was created as a faculty project for practicing core web development concepts such as:
+## ⚠️ Notes
 
-- semantic HTML
-- CSS layout and styling
-- responsive design
-- accessibility basics
-- multi-page site structure
-- GitHub Pages deployment
+* The contact form is currently **static** (no backend)
+* To enable real submissions, a form service or backend is required
 
-## Pages
+---
 
-The project contains four main pages:
+## 🚀 Future Improvements
 
-- **Home** (`index.html`)  
-  Introduction to the project, featured raid bosses and a short overview of the website goals.
+* Add backend or form service integration
+* Add filtering/search for counters
+* Add animations or micro-interactions
+* Improve mobile navigation UX
 
-- **Raids** (`raids.html`)  
-  A simple overview of the April 2026 raid rotation, organized by date ranges.
+---
 
-- **Counters** (`counters.html`)  
-  The main guide page, containing counter cards for all active Mega and Tier 5 raid bosses in the selected rotation window.
+## 👤 Author
 
-- **Contact** (`contact.html`)  
-  A contact form page with labels, required fields and basic HTML validation.
+StormHB
 
-## Main features
+---
 
-- Pure **HTML5** and **CSS3**
-- No JavaScript
-- Responsive layout for mobile and desktop screens
-- Shared navigation across all pages
-- CSS-only hamburger menu
-- Semantic page structure using `header`, `nav`, `main`, `section` and `footer`
-- Skip to content link
-- Visible keyboard focus states
-- Pokémon type colour badges
-- Card-based layout for raid bosses and counters
-- Contact form with basic validation
-- Project structure ready for GitHub Pages
+## 📄 License
 
-## Raid content included
-
-The counters page includes active **Mega Raids** and **Tier 5 Raids** from the April 2026 rotation:
-
-### Mega Raids
-- Mega Aerodactyl
-- Mega Alakazam
-- Mega Sharpedo
-- Mega Banette
-
-### Tier 5 Raids
-- Kyogre
-- Groudon
-- Tapu Koko
-- Tapu Lele
-
-Each boss card includes:
-- boss name
-- raid category
-- Pokémon types
-- weakness summary
-- best counters
-- budget counters
-
-## Technologies used
-
-- HTML5
-- CSS3
-- GitHub
-- GitHub Pages
-
-## Folder structure
-
-```text
-arcanine-go-project/
-│
-├── index.html
-├── raids.html
-├── counters.html
-├── contact.html
-│
-├── css/
-│   └── style.css
-│
-├── README.md
->>>>>>> 8b9b4315992ad3cb589239297cb997e72badb58a
-└── CHANGELOG.md
+This project is for educational and portfolio purposes.
