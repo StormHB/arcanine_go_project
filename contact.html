@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arcanine Go Project | Contact</title>
+  <meta
+    name="description"
+    content="Contact the Arcanine Go Project to suggest raid bosses, report outdated counters, or send feedback."
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-logo">A</span>
+        <span class="brand-text">
+          Arcanine Go Project
+          <small>Pokemon GO Raid Guide</small>
+        </span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" />
+      <label class="menu-toggle" for="nav-toggle" aria-label="Open navigation menu">
+        <span></span>
+      </label>
+
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="raids.html">Raids</a></li>
+          <li><a href="counters.html">Counters</a></li>
+          <li><a class="active" href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-card">
+          <span class="eyebrow">Support & Feedback</span>
+          <h1>Contact the guide team</h1>
+          <p>
+            Send feedback, suggest raid bosses, report outdated counters, or ask for an update
+            to the current lineup. This page is designed as a simple support-style contact form
+            for the Arcanine Go Project.
+          </p>
+
+          <div class="hero-meta">
+            <span class="pill">Raid suggestions</span>
+            <span class="pill">Counter updates</span>
+            <span class="pill">Bug reports</span>
+            <span class="pill">General feedback</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="form-layout">
+          <div class="form-card">
+            <h2 id="contact-heading">Send a message</h2>
+            <p class="form-help">
+              Use the form below to suggest a raid boss, request a counter update, or send
+              general feedback about the website.
+            </p>
+
+            <form action="#" method="post">
+              <div class="form-row">
+                <label for="full-name">Full name</label>
+                <input
+                  type="text"
+                  id="full-name"
+                  name="full-name"
+                  placeholder="Enter your full name"
+                  required
+                />
+              </div>
+
+              <div class="form-row">
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+
+              <div class="form-row">
+                <label for="topic">Topic</label>
+                <select id="topic" name="topic" required>
+                  <option value="">Choose a topic</option>
+                  <option value="feedback">General feedback</option>
+                  <option value="raid-request">Raid request</option>
+                  <option value="counter-update">Counter update</option>
+                  <option value="bug-report">Bug report</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="boss">Raid boss</label>
+                <select id="boss" name="boss">
+                  <option value="">Choose a raid boss (optional)</option>
+                  <option value="mega-aerodactyl">Mega Aerodactyl</option>
+                  <option value="kyogre">Kyogre</option>
+                  <option value="mega-alakazam">Mega Alakazam</option>
+                  <option value="groudon">Groudon</option>
+                  <option value="mega-sharpedo">Mega Sharpedo</option>
+                  <option value="tapu-koko">Tapu Koko</option>
+                  <option value="mega-banette">Mega Banette</option>
+                  <option value="tapu-lele">Tapu Lele</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Describe your suggestion, issue, or requested update"
+                  required
+                ></textarea>
+              </div>
+
+              <button class="btn btn-primary" type="submit">Send message</button>
+
+              <p class="form-note">
+                This is currently a static project form. To make it send real submissions,
+                connect it to a form backend service or your own server-side handler.
+              </p>
+            </form>
+          </div>
+
+          <aside class="form-card" aria-labelledby="support-info-heading">
+            <h2 id="support-info-heading">Support information</h2>
+
+            <div class="info-grid">
+              <article class="info-card">
+                <div class="card-icon">✉</div>
+                <h3>What to send</h3>
+                <p class="card-text">
+                  Suggestions for raid bosses, missing counters, balance tweaks, or feedback
+                  on the site layout and usability.
+                </p>
+              </article>
+
+              <article class="info-card">
+                <div class="card-icon">⚠</div>
+                <h3>Best for updates</h3>
+                <p class="card-text">
+                  Use this page if a raid rotation changes, a counter list looks outdated,
+                  or a boss page needs correction.
+                </p>
+              </article>
+
+              <article class="info-card">
+                <div class="card-icon">✓</div>
+                <h3>Built-in validation</h3>
+                <p class="card-text">
+                  Required fields and the email input type provide simple built-in HTML validation
+                  without JavaScript.
+                </p>
+              </article>
+
+              <article class="info-card">
+                <div class="card-icon">ℹ</div>
+                <h3>Project note</h3>
+                <p class="card-text">
+                  This page is part of the Arcanine Go Project and is currently presented as a
+                  static support/contact interface.
+                </p>
+              </article>
+            </div>
+
+            <div class="note-box">
+              <strong>Want real submissions?</strong>
+              <p>
+                Static HTML alone cannot store or email messages. To make this fully functional,
+                connect the form to a form handler service or a backend with storage.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Arcanine Go Project</strong> • Contact and support page</p>
+      <p>Built with HTML and CSS.</p>
+    </div>
+  </footer>
+</body>
+</html>
