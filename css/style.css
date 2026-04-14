@@ -883,6 +883,7 @@ label:focus-visible {
 
 .summary-top {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   gap: 0.75rem;
@@ -897,17 +898,18 @@ label:focus-visible {
 
 .summary-title-wrap {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.65rem;
   min-width: 0;
 }
 
 .summary-icon {
-  width: 40px;
-  height: 40px;
+  max-width: 52px;
+  max-height: 52px;
+  width: auto;
+  height: auto;
   object-fit: contain;
-  flex-shrink: 0;
-  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.35));
 }
 
 .summary-label {
@@ -1204,12 +1206,16 @@ label:focus-visible {
 }
 
 .summary-icon-link {
-  display: inline-block;
-  line-height: 0;
-  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 64px;
 }
 
 .raid-card-title-link {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
   cursor: pointer;
@@ -1537,3 +1543,43 @@ label:focus-visible {
   border: 1px solid rgba(76, 175, 80, 0.35);
   color: #9be38c;
 }
+
+.summary-icon-link {
+  width: 72px;
+  height: 72px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 72px;
+}
+
+.summary-icon {
+  display: block;
+  max-width: 60px;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.summary-icon-kyogre {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.summary-icon-aerodactyl {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.summary-icon-groudon {
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.summary-icon-alakazam {
+  max-width: 90px;
+  max-height: 90px;
+}
+
