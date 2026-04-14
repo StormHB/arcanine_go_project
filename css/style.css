@@ -1457,3 +1457,63 @@ label:focus-visible {
   background: rgba(255, 152, 0, 0.16);
   border-color: rgba(255, 152, 0, 0.35);
 }
+
+.methodology {
+  margin-top: 1.5rem;
+}
+
+.methodology-box {
+  padding: 1.4rem 1.6rem;
+  border-radius: 20px;
+  background: linear-gradient(145deg, rgba(20,30,50,0.9), rgba(10,15,30,0.9));
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+}
+
+.methodology-box h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.35rem;
+}
+
+.methodology-intro {
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.methodology-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.methodology-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  padding: 0.35rem 0;
+}
+
+.method-icon {
+  font-size: 1.1rem;
+}
+
+.methodology-note {
+  font-size: 0.95rem;
+  margin-bottom: 0.6rem;
+}
+
+.methodology-credit {
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
+.methodology-item {
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.methodology-item:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
