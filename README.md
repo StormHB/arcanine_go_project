@@ -27,6 +27,12 @@ This project focuses on:
 * Active raids clearly highlighted
 * Upcoming raids with exact dates (no more "Soon")
 * Clean card-based layout
+* **Balanced 2-column grid layout for raid cards**
+* Clear separation of:
+  * **5★ raids (left)**
+  * **Mega raids (right)**
+
+---
 
 ### 📅 Raid Schedule
 
@@ -35,6 +41,9 @@ This project focuses on:
   * Full date ranges
   * Boss icons/sprites
   * Clear rotation breakdown
+* Improved visual clarity and readability of raid rotations
+
+---
 
 ### ⚔️ Counters Page
 
@@ -44,6 +53,11 @@ This project focuses on:
 * Percentage difference shown relative to the best counter
 * Smooth scrolling from raids → counters
 * Fixed anchor offset (no incorrect scroll positions)
+* Support for:
+  * ⭐ Legacy moves
+  * Type indicators (e.g. Hidden Power variants)
+
+---
 
 ### 🧠 Counter Methodology
 
@@ -64,8 +78,10 @@ Raid performance data is based on **Pokebattler simulations**.
 ### 🎨 Visual Design
 
 * Type-based glow system (Water, Rock, Psychic, etc.)
-* Hover effects with stronger visual feedback
+* Improved hover feedback for raid and counter cards
 * Consistent dark theme UI
+* Improved alignment and spacing across all components
+* Standardized Pokémon sprite scaling and positioning
 * Dedicated methodology info section for clarity
 
 ---

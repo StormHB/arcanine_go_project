@@ -4,6 +4,30 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.5.0] - Raid Card Layout & Visual Consistency
+
+### Changed
+
+* Reworked raid cards into a **proper 2-column grid layout**
+* Interleaved raid ordering:
+  * 5★ raids on the left
+  * Mega raids on the right
+* Ensured consistent **row alignment across all raid cards**
+* Removed previous column-based layout causing uneven alignment
+
+### Improved
+
+* Better visual grouping of raid types (Mega vs 5★)
+* More balanced spacing and structure across raid page
+* Improved readability and scanability of raid cards
+* More consistent Pokémon image sizing and positioning
+
+### Fixed
+
+* Raid cards no longer misaligned due to varying content height
+* Fixed inconsistent Mega icon rendering (correct sprites used)
+* Resolved issues with small or unevenly scaled Pokémon images
+
 ## [1.4.0] - Counter Methodology & TTW System
 
 ### Added
