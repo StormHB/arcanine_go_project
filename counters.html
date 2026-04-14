@@ -1,1306 +1,1347 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Arcanine Go Project | Counters</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta
-    name="description"
-    content="Pokemon GO April 2026 raid counter guide with best and budget counters for Mega and Tier 5 raids."
-  >
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-<a href="#main-content" class="skip-link">Skip to content</a>
-
-<header class="site-header">
-  <div class="container nav-wrap">
-    <a class="brand" href="index.html">
-      <span class="brand-logo">A</span>
-      <span class="brand-text">
-        Arcanine Go Project
-        <small>Pokemon GO Raid Guide</small>
-      </span>
-    </a>
-
-    <input type="checkbox" id="nav-toggle">
-    <label class="menu-toggle" for="nav-toggle" aria-label="Open navigation menu">
-      <span></span>
-    </label>
-
-    <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="raids.html">Raids</a></li>
-        <li><a href="counters.html" class="active" aria-current="page">Counters</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<main id="main-content">
-  <section class="hero">
-    <div class="container">
-      <div class="hero-card">
-        <span class="eyebrow">April 2026</span>
-        <h1>Raid counters</h1>
-        <p>
-          Best and budget picks for every active Mega and Tier 5 raid boss shown in the
-          April rotation. This page is built as a clean static guide for GitHub Pages,
-          using only HTML and CSS.
-        </p>
-
-        <div class="hero-meta">
-          <span class="pill">8 bosses covered</span>
-          <span class="pill">Best + budget picks</span>
-          <span class="pill">Type colour badges</span>
-          <span class="pill">CSS-only mobile menu</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="methodology">
-    <div class="container">
-      <div class="methodology-box">
-
-        <h2>Methodology</h2>
-
-        <p class="methodology-intro">
-          Counter performance on this page is evaluated using a consistent simulation standard
-          to ensure fair comparison across all raid bosses.
-        </p>
-
-        <div class="methodology-grid">
-
-          <div class="methodology-item">
-            <span class="method-icon">⚔️</span>
-            <span>Level 40 counters</span>
-          </div>
-
-          <div class="methodology-item">
-            <span class="method-icon">🌩️</span>
-            <span>Extreme weather conditions</span>
-          </div>
-
-          <div class="methodology-item">
-            <span class="method-icon">🤝</span>
-            <span>No friendship bonus</span>
-          </div>
-
-          <div class="methodology-item">
-            <span class="method-icon">👥</span>
-            <span>No party power boost</span>
-          </div>
-
-          <div class="methodology-item">
-            <span class="method-icon">🔥</span>
-            <span>Hardest boss moveset selected</span>
-          </div>
-
-          <div class="methodology-item">
-            <span class="method-icon">⏱️</span>
-            <span>Performance measured using TTW</span>
-          </div>
-
-        </div>
-
-        <p class="methodology-note">
-          Results are displayed as <strong>Time to Win (TTW)</strong> and the percentage difference
-          compared to the best-performing counter.
-        </p>
-
-        <p class="methodology-credit">
-          Raid performance data based on Pokebattler simulations.
-        </p>
-
-      </div>
-    </div>
-  </section>
-
-  <section aria-labelledby="active-raids-heading">
-    <div class="container">
-      <div class="section-title">
-        <h2 id="active-raids-heading">Current rotation overview</h2>
-        <p>
-          Every active Mega and Tier 5 boss up to the end of the monthly rotation window.
-        </p>
-      </div>
-
-      <div class="boss-grid">
-
-        <!-- Mega Aerodactyl -->
-        <article id="mega-aerodactyl" class="boss-card rock-theme">
-          <div class="boss-top">
-            <img
-              class="boss-art"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png"
-              alt="Official artwork of Mega Aerodactyl"
-            >
-            <div class="boss-info">
-              <h3>Mega Aerodactyl</h3>
-              <p class="boss-subtitle">Mega Raid • until April 14</p>
-              <div class="type-badges">
-                <span class="type-badge type-rock">Rock</span>
-                <span class="type-badge type-flying">Flying</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="boss-body">
-            <div class="boss-meta">
-              <div class="meta-box">
-                <strong>Weak to</strong>
-                Rock, Steel, Water, Electric, Ice
-              </div>
-              <div class="meta-box">
-                <strong>Focus</strong>
-                Strong Steel, Water and Rock attackers
-              </div>
-            </div>
-
-            <div class="counter-columns">
-              <div class="counter-group">
-                <h4>Best counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Zamazenta (Crowned Shield)</span>
-                    <span class="move">Metal Claw</span>
-                    <span class="move">Behemoth Bash</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Zacian (Crowned Sword)</span>
-                    <span class="move">Metal Claw</span>
-                    <span class="move">Behemoth Blade</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Necrozma (Dusk Mane)</span>
-                    <span class="move">Metal Claw</span>
-                    <span class="move">
-                      Sunsteel Strike
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Primal Kyogre</span>
-                    <span class="move">Waterfall</span>
-                    <span class="move">
-                      Origin Pulse
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Shadow Metagross</span>
-                    <span class="move">Bullet Punch</span>
-                    <span class="move">
-                      Meteor Mash
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Metagross</span>
-                    <span class="move">Bullet Punch</span>
-                    <span class="move">
-                      Meteor Mash
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="counter-group">
-                <h4>Budget counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Metagross</span>
-                    <span class="move">Bullet Punch</span>
-                    <span class="move">
-                      Meteor Mash
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Rhyperior</span>
-                    <span class="move">
-                      Smack Down
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                    <span class="move">
-                      Rock Wrecker
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Rampardos</span>
-                    <span class="move">Smack Down</span>
-                    <span class="move">Rock Slide</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Magnezone</span>
-                    <span class="move">Spark</span>
-                    <span class="move">Wild Charge</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Kingler</span>
-                    <span class="move">Bubble</span>
-                    <span class="move">Crabhammer</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Swampert</span>
-                    <span class="move">Water Gun</span>
-                    <span class="move">
-                      Hydro Cannon
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- Kyogre -->
-        <article id="kyogre" class="boss-card water-theme">
-          <div class="boss-top">
-            <img
-              class="boss-art"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png"
-              alt="Official artwork of Kyogre"
-            >
-            <div class="boss-info">
-              <h3>Kyogre</h3>
-              <p class="boss-subtitle">Tier 5 • until April 14</p>
-              <div class="type-badges">
-                <span class="type-badge type-water">Water</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="boss-body">
-            <div class="boss-meta">
-              <div class="meta-box">
-                <strong>Weak to</strong>
-                Grass, Electric
-              </div>
-              <div class="meta-box">
-                <strong>Difficulty</strong>
-                Strong legendary raid, not built for solo play
-              </div>
-            </div>
-
-            <div class="counter-columns">
-              <div class="counter-group">
-                <h4>Best counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Shadow Raikou</span>
-                    <span class="move">Thunder Shock</span>
-                    <span class="move">Wild Charge</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Zekrom</span>
-                    <span class="move">Charge Beam</span>
-                    <span class="move">
-                      Fusion Bolt
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Kartana</span>
-                    <span class="move">Razor Leaf</span>
-                    <span class="move">Leaf Blade</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Venusaur</span>
-                    <span class="move">Vine Whip</span>
-                    <span class="move">
-                      Frenzy Plant
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Shadow Electivire</span>
-                    <span class="move">Thunder Shock</span>
-                    <span class="move">Wild Charge</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Xurkitree</span>
-                    <span class="move">Thunder Shock</span>
-                    <span class="move">Discharge</span>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="counter-group">
-                <h4>Budget counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Electivire</span>
-                    <span class="move">Thunder Shock</span>
-                    <span class="move">Wild Charge</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Magnezone</span>
-                    <span class="move">Spark</span>
-                    <span class="move">Wild Charge</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Roserade</span>
-                    <span class="move">Razor Leaf</span>
-                    <span class="move">Grass Knot</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Sceptile</span>
-                    <span class="move">Fury Cutter</span>
-                    <span class="move">
-                      Frenzy Plant
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Jolteon</span>
-                    <span class="move">Thunder Shock</span>
-                    <span class="move">Thunderbolt</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Luxray</span>
-                    <span class="move">Spark</span>
-                    <span class="move">Wild Charge</span>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- Mega Alakazam -->
-        <article id="mega-alakazam" class="boss-card psychic-theme">
-          <div class="boss-top">
-            <img
-              class="boss-art"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png"
-              alt="Official artwork of Mega Alakazam"
-            >
-            <div class="boss-info">
-              <h3>Mega Alakazam</h3>
-              <p class="boss-subtitle">Mega Raid • April 15 to April 21</p>
-              <div class="type-badges">
-                <span class="type-badge type-psychic">Psychic</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="boss-body">
-            <div class="boss-meta">
-              <div class="meta-box">
-                <strong>Weak to</strong>
-                Bug, Ghost, Dark
-              </div>
-              <div class="meta-box">
-                <strong>Focus</strong>
-                Dark and Ghost attackers
-              </div>
-            </div>
-
-            <div class="counter-columns">
-              <div class="counter-group">
-                <h4>Best counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Shadow Hydreigon</span>
-                    <span class="move">Bite</span>
-                    <span class="move">Brutal Swing</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Tyranitar</span>
-                    <span class="move">Bite</span>
-                    <span class="move">Brutal Swing</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Shadow Tyranitar</span>
-                    <span class="move">Bite</span>
-                    <span class="move">Brutal Swing</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Absol</span>
-                    <span class="move">Snarl</span>
-                    <span class="move">Brutal Swing</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Necrozma (Dawn Wings)</span>
-                    <span class="move">Shadow Claw</span>
-                    <span class="move">
-                      Moongeist Beam
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Darkrai</span>
-                    <span class="move">Snarl</span>
-                    <span class="move">Shadow Ball</span>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="counter-group">
-                <h4>Budget counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Tyranitar</span>
-                    <span class="move">Bite</span>
-                    <span class="move">Brutal Swing</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Hydreigon</span>
-                    <span class="move">Bite</span>
-                    <span class="move">Brutal Swing</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Chandelure</span>
-                    <span class="move">Hex</span>
-                    <span class="move">Shadow Ball</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Gengar</span>
-                    <span class="move">Lick</span>
-                    <span class="move">Shadow Ball</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Houndoom</span>
-                    <span class="move">Snarl</span>
-                    <span class="move">Foul Play</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Scizor</span>
-                    <span class="move">Fury Cutter</span>
-                    <span class="move">X-Scissor</span>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- Groudon -->
-        <article id="groudon" class="boss-card ground-theme">
-          <div class="boss-top">
-            <img
-              class="boss-art"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png"
-              alt="Official artwork of Groudon"
-            >
-            <div class="boss-info">
-              <h3>Groudon</h3>
-              <p class="boss-subtitle">Tier 5 • April 15 to April 21</p>
-              <div class="type-badges">
-                <span class="type-badge type-ground">Ground</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="boss-body">
-            <div class="boss-meta">
-              <div class="meta-box">
-                <strong>Weak to</strong>
-                Water, Grass, Ice
-              </div>
-              <div class="meta-box">
-                <strong>Difficulty</strong>
-                Legendary raid with strong offensive pressure
-              </div>
-            </div>
-
-            <div class="counter-columns">
-              <div class="counter-group">
-                <h4>Best counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Primal Kyogre</span>
-                    <span class="move">Waterfall</span>
-                    <span class="move">
-                      Origin Pulse
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Sceptile</span>
-                    <span class="move">Bullet Seed</span>
-                    <span class="move">
-                      Frenzy Plant
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">White Kyurem</span>
-                    <span class="move">Ice Fang</span>
-                    <span class="move">
-                      Ice Burn
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Black Kyurem</span>
-                    <span class="move">Dragon Tail</span>
-                    <span class="move">
-                      Freeze Shock
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Rayquaza</span>
-                    <span class="move">Dragon Tail</span>
-                    <span class="move">
-                      Dragon Ascent
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Kartana</span>
-                    <span class="move">Razor Leaf</span>
-                    <span class="move">Leaf Blade</span>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="counter-group">
-                <h4>Budget counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Swampert</span>
-                    <span class="move">Water Gun</span>
-                    <span class="move">
-                      Hydro Cannon
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Feraligatr</span>
-                    <span class="move">Water Gun</span>
-                    <span class="move">
-                      Hydro Cannon
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Roserade</span>
-                    <span class="move">Razor Leaf</span>
-                    <span class="move">Grass Knot</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Sceptile</span>
-                    <span class="move">Bullet Seed</span>
-                    <span class="move">
-                      Frenzy Plant
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Glaceon</span>
-                    <span class="move">Frost Breath</span>
-                    <span class="move">Avalanche</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Mamoswine</span>
-                    <span class="move">Powder Snow</span>
-                    <span class="move">Avalanche</span>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- Mega Sharpedo -->
-        <article id="mega-sharpedo" class="boss-card water-theme">
-          <div class="boss-top">
-            <img
-              class="boss-art"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png"
-              alt="Official artwork of Mega Sharpedo"
-            >
-            <div class="boss-info">
-              <h3>Mega Sharpedo</h3>
-              <p class="boss-subtitle">Mega Raid • April 22 to April 28</p>
-              <div class="type-badges">
-                <span class="type-badge type-water">Water</span>
-                <span class="type-badge type-dark">Dark</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="boss-body">
-            <div class="boss-meta">
-              <div class="meta-box">
-                <strong>Weak to</strong>
-                Fighting, Bug, Grass, Electric, Fairy
-              </div>
-              <div class="meta-box">
-                <strong>Focus</strong>
-                Fighting attackers are especially strong
-              </div>
-            </div>
-
-            <div class="counter-columns">
-              <div class="counter-group">
-                <h4>Best counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Lucario</span>
-                    <span class="move">
-                      Force Palm
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                    <span class="move">Aura Sphere</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Keldeo</span>
-                    <span class="move">Low Kick</span>
-                    <span class="move">Sacred Sword</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Sceptile</span>
-                    <span class="move">Bullet Seed</span>
-                    <span class="move">
-                      Frenzy Plant
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Blaziken</span>
-                    <span class="move">Counter</span>
-                    <span class="move">Focus Blast</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Heracross</span>
-                    <span class="move">Counter</span>
-                    <span class="move">Close Combat</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Shadow Blaziken</span>
-                    <span class="move">Counter</span>
-                    <span class="move">Focus Blast</span>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="counter-group">
-                <h4>Budget counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Lucario</span>
-                    <span class="move">Counter</span>
-                    <span class="move">Aura Sphere</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Machamp</span>
-                    <span class="move">Counter</span>
-                    <span class="move">Dynamic Punch</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Hariyama</span>
-                    <span class="move">Counter</span>
-                    <span class="move">Dynamic Punch</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Electivire</span>
-                    <span class="move">Thunder Shock</span>
-                    <span class="move">Wild Charge</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Roserade</span>
-                    <span class="move">Razor Leaf</span>
-                    <span class="move">Grass Knot</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Togekiss</span>
-                    <span class="move">Charm</span>
-                    <span class="move">Dazzling Gleam</span>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- Tapu Koko -->
-        <article id="tapu-koko" class="boss-card electric-theme">
-          <div class="boss-top">
-            <img
-              class="boss-art"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/785.png"
-              alt="Official artwork of Tapu Koko"
-            >
-            <div class="boss-info">
-              <h3>Tapu Koko</h3>
-              <p class="boss-subtitle">Tier 5 • April 22 to April 28</p>
-              <div class="type-badges">
-                <span class="type-badge type-electric">Electric</span>
-                <span class="type-badge type-fairy">Fairy</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="boss-body">
-            <div class="boss-meta">
-              <div class="meta-box">
-                <strong>Weak to</strong>
-                Poison, Ground
-              </div>
-              <div class="meta-box">
-                <strong>Focus</strong>
-                Ground attackers are the most natural answer
-              </div>
-            </div>
-
-            <div class="counter-columns">
-              <div class="counter-group">
-                <h4>Best counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Primal Groudon</span>
-                    <span class="move">Mud Shot</span>
-                    <span class="move">
-                      Precipice Blades
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Shadow Groudon</span>
-                    <span class="move">Mud Shot</span>
-                    <span class="move">
-                      Precipice Blades
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Garchomp</span>
-                    <span class="move">Mud Shot</span>
-                    <span class="move">
-                      Earth Power
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Excadrill</span>
-                    <span class="move">Mud-Slap</span>
-                    <span class="move">Scorching Sands</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Eternatus</span>
-                    <span class="move">Poison Jab</span>
-                    <span class="move">Sludge Bomb</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Landorus</span>
-                    <span class="move">Mud Shot</span>
-                    <span class="move">
-                      Earth Power
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="counter-group">
-                <h4>Budget counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Excadrill</span>
-                    <span class="move">Mud-Slap</span>
-                    <span class="move">Scorching Sands</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Garchomp</span>
-                    <span class="move">Mud Shot</span>
-                    <span class="move">
-                      Earth Power
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Rhyperior</span>
-                    <span class="move">Mud-Slap</span>
-                    <span class="move">Earthquake</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Mamoswine</span>
-                    <span class="move">Mud-Slap</span>
-                    <span class="move">High Horsepower</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Nidoking</span>
-                    <span class="move">Poison Jab</span>
-                    <span class="move">Earth Power</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Roserade</span>
-                    <span class="move">Poison Jab</span>
-                    <span class="move">Sludge Bomb</span>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- Mega Banette -->
-        <article id="mega-banette" class="boss-card ghost-theme">
-          <div class="boss-top">
-            <img
-              class="boss-art"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png"
-              alt="Official artwork of Mega Banette"
-            >
-            <div class="boss-info">
-              <h3>Mega Banette</h3>
-              <p class="boss-subtitle">Mega Raid • April 29 to May 5</p>
-              <div class="type-badges">
-                <span class="type-badge type-ghost">Ghost</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="boss-body">
-            <div class="boss-meta">
-              <div class="meta-box">
-                <strong>Weak to</strong>
-                Ghost, Dark
-              </div>
-              <div class="meta-box">
-                <strong>Focus</strong>
-                Dark attackers are very easy to build
-              </div>
-            </div>
-
-            <div class="counter-columns">
-              <div class="counter-group">
-                <h4>Best counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Tyranitar</span>
-                    <span class="move">Bite</span>
-                    <span class="move">Brutal Swing</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Shadow Tyranitar</span>
-                    <span class="move">Bite</span>
-                    <span class="move">Brutal Swing</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Gengar</span>
-                    <span class="move">Lick</span>
-                    <span class="move">Shadow Ball</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Absol</span>
-                    <span class="move">Snarl</span>
-                    <span class="move">Brutal Swing</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Houndoom</span>
-                    <span class="move">Snarl</span>
-                    <span class="move">Foul Play</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Shadow Hydreigon</span>
-                    <span class="move">Bite</span>
-                    <span class="move">Brutal Swing</span>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="counter-group">
-                <h4>Budget counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Tyranitar</span>
-                    <span class="move">Bite</span>
-                    <span class="move">Brutal Swing</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Hydreigon</span>
-                    <span class="move">Bite</span>
-                    <span class="move">Brutal Swing</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Gengar</span>
-                    <span class="move">Lick</span>
-                    <span class="move">Shadow Ball</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Chandelure</span>
-                    <span class="move">Hex</span>
-                    <span class="move">Shadow Ball</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Houndoom</span>
-                    <span class="move">Snarl</span>
-                    <span class="move">Foul Play</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Weavile</span>
-                    <span class="move">Snarl</span>
-                    <span class="move">Foul Play</span>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- Tapu Lele -->
-        <article id="tapu-lele" class="boss-card psychic-theme">
-          <div class="boss-top">
-            <img
-              class="boss-art"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png"
-              alt="Official artwork of Tapu Lele"
-            >
-            <div class="boss-info">
-              <h3>Tapu Lele</h3>
-              <p class="boss-subtitle">Tier 5 • April 29 to May 5</p>
-              <div class="type-badges">
-                <span class="type-badge type-psychic">Psychic</span>
-                <span class="type-badge type-fairy">Fairy</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="boss-body">
-            <div class="boss-meta">
-              <div class="meta-box">
-                <strong>Weak to</strong>
-                Poison, Ghost, Steel
-              </div>
-              <div class="meta-box">
-                <strong>Focus</strong>
-                Steel and Ghost attackers work especially well
-              </div>
-            </div>
-
-            <div class="counter-columns">
-              <div class="counter-group">
-                <h4>Best counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Necrozma (Dusk Mane)</span>
-                    <span class="move">Metal Claw</span>
-                    <span class="move">
-                      Sunsteel Strike
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Necrozma (Dawn Wings)</span>
-                    <span class="move">Shadow Claw</span>
-                    <span class="move">
-                      Moongeist Beam
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Shadow Metagross</span>
-                    <span class="move">Bullet Punch</span>
-                    <span class="move">
-                      Meteor Mash
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Metagross</span>
-                    <span class="move">Bullet Punch</span>
-                    <span class="move">
-                      Meteor Mash
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Mega Gengar</span>
-                    <span class="move">Lick</span>
-                    <span class="move">Shadow Ball</span>
-                  </div>
-
-                  <div class="counter-chip best">
-                    <span class="pokemon-name">Zacian (Crowned Sword)</span>
-                    <span class="move">Metal Claw</span>
-                    <span class="move">Behemoth Blade</span>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="counter-group">
-                <h4>Budget counters</h4>
-                <div class="counter-list">
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Metagross</span>
-                    <span class="move">Bullet Punch</span>
-                    <span class="move">
-                      Meteor Mash
-                      <span class="tooltip" tabindex="0">
-                        <span class="legacy">★</span>
-                        <span class="tooltip-text">Legacy / event-exclusive move</span>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Gengar</span>
-                    <span class="move">Lick</span>
-                    <span class="move">Shadow Ball</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Chandelure</span>
-                    <span class="move">Hex</span>
-                    <span class="move">Shadow Ball</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Excadrill</span>
-                    <span class="move">Metal Claw</span>
-                    <span class="move">Iron Head</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Roserade</span>
-                    <span class="move">Poison Jab</span>
-                    <span class="move">Sludge Bomb</span>
-                  </div>
-
-                  <div class="counter-chip budget">
-                    <span class="pokemon-name">Scizor</span>
-                    <span class="move">Bullet Punch</span>
-                    <span class="move">Iron Head</span>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-      </div>
-
-      <div class="note-box">
-        <strong>Note:</strong> this page is designed as a static guide. “Best counters” represent top raid-oriented picks,
-        while “budget counters” are easier-to-build alternatives that still hit for super-effective damage.
-        <br><br>
-        <span class="tooltip" tabindex="0">
-          <strong class="legacy">★</strong>
-          <span class="tooltip-text">Legacy / event-exclusive move</span>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Arcanine Go Project | Counters</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Pokemon GO April 2026 raid counter guide with best and budget counters for Mega and Tier 5 raids."
+    >
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-logo">A</span>
+        <span class="brand-text">
+          Arcanine Go Project
+          <small>Pokemon GO Raid Guide</small>
         </span>
-        = legacy / event-exclusive move
-      </div>
+      </a>
+
+      <input type="checkbox" id="nav-toggle">
+      <label class="menu-toggle" for="nav-toggle" aria-label="Open navigation menu">
+        <span></span>
+      </label>
+
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="raids.html">Raids</a></li>
+          <li><a href="counters.html" class="active" aria-current="page">Counters</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-  </section>
-</main>
+  </header>
 
-<footer class="site-footer">
-  <div class="container">
-    <p><strong>Arcanine Go Project</strong> • Static HTML/CSS faculty project</p>
-    <p>Focused on clear structure, responsive design and accessible basics.</p>
-  </div>
-</footer>
+  <main id="main-content">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-card">
+          <span class="eyebrow">April 2026</span>
+          <h1>Raid counters</h1>
+          <p>
+            Best and budget picks for every active Mega and Tier 5 raid boss shown in the
+            April rotation. This page is built as a clean static guide for GitHub Pages,
+            using only HTML and CSS.
+          </p>
 
-</body>
-</html>
+          <div class="hero-meta">
+            <span class="pill">8 bosses covered</span>
+            <span class="pill">Best + budget picks</span>
+            <span class="pill">Type colour badges</span>
+            <span class="pill">CSS-only mobile menu</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="methodology">
+      <div class="container">
+        <div class="methodology-box">
+
+          <h2>Methodology</h2>
+
+          <p class="methodology-intro">
+            Counter performance on this page is evaluated using a consistent simulation standard
+            to ensure fair comparison across all raid bosses.
+          </p>
+
+          <div class="methodology-grid">
+
+            <div class="methodology-item">
+              <span class="method-icon">⚔️</span>
+              <span>Level 40 counters</span>
+            </div>
+
+            <div class="methodology-item">
+              <span class="method-icon">🌩️</span>
+              <span>Extreme weather conditions</span>
+            </div>
+
+            <div class="methodology-item">
+              <span class="method-icon">🤝</span>
+              <span>No friendship bonus</span>
+            </div>
+
+            <div class="methodology-item">
+              <span class="method-icon">👥</span>
+              <span>No party power boost</span>
+            </div>
+
+            <div class="methodology-item">
+              <span class="method-icon">🔥</span>
+              <span>Hardest boss moveset selected</span>
+            </div>
+
+            <div class="methodology-item">
+              <span class="method-icon">⏱️</span>
+              <span>Performance measured using TTW</span>
+            </div>
+
+          </div>
+
+          <p class="methodology-note">
+            Results are displayed as <strong>Time to Win (TTW)</strong> and the percentage difference
+            compared to the best-performing counter.
+          </p>
+
+          <p class="methodology-credit">
+            Raid performance data based on Pokebattler simulations.
+          </p>
+
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="active-raids-heading">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="active-raids-heading">Current rotation overview</h2>
+          <p>
+            Every active Mega and Tier 5 boss up to the end of the monthly rotation window.
+          </p>
+        </div>
+
+        <div class="boss-grid">
+
+          <!-- Mega Aerodactyl -->
+          <article id="mega-aerodactyl" class="boss-card rock-theme">
+            <div class="boss-top">
+              <img
+                class="boss-art"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png"
+                alt="Official artwork of Mega Aerodactyl"
+              >
+              <div class="boss-info">
+                <h3>Mega Aerodactyl</h3>
+                <p class="boss-subtitle">Mega Raid • until April 14</p>
+                <div class="type-badges">
+                  <span class="type-badge type-rock">Rock</span>
+                  <span class="type-badge type-flying">Flying</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="boss-body">
+              <div class="boss-meta">
+                <div class="meta-box">
+                  <strong>Weak to</strong>
+                  Rock, Steel, Water, Electric, Ice
+                </div>
+                <div class="meta-box">
+                  <strong>Focus</strong>
+                  Strong Steel, Water and Rock attackers
+                </div>
+              </div>
+
+              <div class="counter-columns">
+                <div class="counter-group">
+                  <h4>Best counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Zamazenta (Crowned Shield)</span>
+                      <span class="move">Metal Claw</span>
+                      <span class="move">Behemoth Bash</span>
+
+                      <div class="counter-stats">
+                        <span class="stat-chip">TTW: 275s</span>
+                        <span class="stat-chip stat-diff">Best</span>
+                      </div>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Zacian (Crowned Sword)</span>
+                      <span class="move">Metal Claw</span>
+                      <span class="move">Behemoth Blade</span>
+
+                      <div class="counter-stats">
+                        <span class="stat-chip">TTW: 284s</span>
+                        <span class="stat-chip stat-diff">+3%</span>
+                      </div>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Necrozma (Dusk Mane)</span>
+                      <span class="move">Metal Claw</span>
+                      <span class="move">
+                        Sunsteel Strike
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+
+                      <div class="counter-stats">
+                        <span class="stat-chip">TTW: 286s</span>
+                        <span class="stat-chip stat-diff">+4%</span>
+                      </div>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">White Kyurem</span>
+                      <span class="move">Ice Fang</span>
+                      <span class="move">
+                        Ice Burn
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+
+                      <div class="counter-stats">
+                        <span class="stat-chip">TTW: 299s</span>
+                        <span class="stat-chip stat-diff">+9%</span>
+                      </div>
+                    </div>        
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Primal Kyogre</span>
+                      <span class="move">Waterfall</span>
+                      <span class="move">
+                        Origin Pulse
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+
+                      <div class="counter-stats">
+                        <span class="stat-chip">TTW: 300s</span>
+                        <span class="stat-chip stat-diff">+9%</span>
+                      </div>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Shadow Metagross</span>
+                      <span class="move">Bullet Punch</span>
+                      <span class="move">
+                        Meteor Mash
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+
+                      <div class="counter-stats">
+                        <span class="stat-chip">TTW: 316s</span>
+                        <span class="stat-chip stat-diff">+15%</span>
+                      </div>
+                    </div>  
+                  </div>
+              </div>             
+
+                <div class="counter-group">
+                  <h4>Budget counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Metagross</span>
+                      <span class="move">Bullet Punch</span>
+                      <span class="move">
+                        Meteor Mash
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+
+                      <div class="counter-stats">
+                        <span class="stat-chip">TTW: 388s</span>
+                        <span class="stat-chip stat-diff">+41%</span>
+                      </div>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Greninja</span>
+                      <span class="move">Water Shuriken</span>
+                      <span class="move">Hydro Cannon</span>
+
+                      <div class="counter-stats">
+                        <span class="stat-chip">TTW: 404s</span>
+                        <span class="stat-chip stat-diff">+47%</span>
+                      </div>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Quaquaval</span>
+                      <span class="move">Water Gun</span>
+                      <span class="move">Hydro Cannon</span>
+
+                      <div class="counter-stats">
+                        <span class="stat-chip">TTW: 408s</span>
+                        <span class="stat-chip stat-diff">+49%</span>
+                      </div>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Kingler</span>
+                      <span class="move">Bubble</span>
+                      <span class="move">Crabhammer</span>
+
+                      <div class="counter-stats">
+                        <span class="stat-chip">TTW: 413s</span>
+                        <span class="stat-chip stat-diff">+50%</span>
+                      </div>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Galarian Darmanitan</span>
+                      <span class="move">Ice Fang</span>
+                      <span class="move">Avalanche</span>
+
+                      <div class="counter-stats">
+                        <span class="stat-chip">TTW: 417s</span>
+                        <span class="stat-chip stat-diff">+52%</span>
+                      </div>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Empoleon</span>
+                      <span class="move">Steel Wing</span>
+                      <span class="move">Hydro Cannon</span>
+
+                      <div class="counter-stats">
+                        <span class="stat-chip">TTW: 424s</span>
+                        <span class="stat-chip stat-diff">+54%</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Kyogre -->
+          <article id="kyogre" class="boss-card water-theme">
+            <div class="boss-top">
+              <img
+                class="boss-art"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png"
+                alt="Official artwork of Kyogre"
+              >
+              <div class="boss-info">
+                <h3>Kyogre</h3>
+                <p class="boss-subtitle">Tier 5 • until April 14</p>
+                <div class="type-badges">
+                  <span class="type-badge type-water">Water</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="boss-body">
+              <div class="boss-meta">
+                <div class="meta-box">
+                  <strong>Weak to</strong>
+                  Grass, Electric
+                </div>
+                <div class="meta-box">
+                  <strong>Difficulty</strong>
+                  Strong legendary raid, not built for solo play
+                </div>
+              </div>
+
+              <div class="counter-columns">
+                <div class="counter-group">
+                  <h4>Best counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Shadow Raikou</span>
+                      <span class="move">Thunder Shock</span>
+                      <span class="move">Wild Charge</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Zekrom</span>
+                      <span class="move">Charge Beam</span>
+                      <span class="move">
+                        Fusion Bolt
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Kartana</span>
+                      <span class="move">Razor Leaf</span>
+                      <span class="move">Leaf Blade</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Venusaur</span>
+                      <span class="move">Vine Whip</span>
+                      <span class="move">
+                        Frenzy Plant
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Shadow Electivire</span>
+                      <span class="move">Thunder Shock</span>
+                      <span class="move">Wild Charge</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Xurkitree</span>
+                      <span class="move">Thunder Shock</span>
+                      <span class="move">Discharge</span>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="counter-group">
+                  <h4>Budget counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Electivire</span>
+                      <span class="move">Thunder Shock</span>
+                      <span class="move">Wild Charge</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Magnezone</span>
+                      <span class="move">Spark</span>
+                      <span class="move">Wild Charge</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Roserade</span>
+                      <span class="move">Razor Leaf</span>
+                      <span class="move">Grass Knot</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Sceptile</span>
+                      <span class="move">Fury Cutter</span>
+                      <span class="move">
+                        Frenzy Plant
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Jolteon</span>
+                      <span class="move">Thunder Shock</span>
+                      <span class="move">Thunderbolt</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Luxray</span>
+                      <span class="move">Spark</span>
+                      <span class="move">Wild Charge</span>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Mega Alakazam -->
+          <article id="mega-alakazam" class="boss-card psychic-theme">
+            <div class="boss-top">
+              <img
+                class="boss-art"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png"
+                alt="Official artwork of Mega Alakazam"
+              >
+              <div class="boss-info">
+                <h3>Mega Alakazam</h3>
+                <p class="boss-subtitle">Mega Raid • April 15 to April 21</p>
+                <div class="type-badges">
+                  <span class="type-badge type-psychic">Psychic</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="boss-body">
+              <div class="boss-meta">
+                <div class="meta-box">
+                  <strong>Weak to</strong>
+                  Bug, Ghost, Dark
+                </div>
+                <div class="meta-box">
+                  <strong>Focus</strong>
+                  Dark and Ghost attackers
+                </div>
+              </div>
+
+              <div class="counter-columns">
+                <div class="counter-group">
+                  <h4>Best counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Shadow Hydreigon</span>
+                      <span class="move">Bite</span>
+                      <span class="move">Brutal Swing</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Tyranitar</span>
+                      <span class="move">Bite</span>
+                      <span class="move">Brutal Swing</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Shadow Tyranitar</span>
+                      <span class="move">Bite</span>
+                      <span class="move">Brutal Swing</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Absol</span>
+                      <span class="move">Snarl</span>
+                      <span class="move">Brutal Swing</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Necrozma (Dawn Wings)</span>
+                      <span class="move">Shadow Claw</span>
+                      <span class="move">
+                        Moongeist Beam
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Darkrai</span>
+                      <span class="move">Snarl</span>
+                      <span class="move">Shadow Ball</span>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="counter-group">
+                  <h4>Budget counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Tyranitar</span>
+                      <span class="move">Bite</span>
+                      <span class="move">Brutal Swing</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Hydreigon</span>
+                      <span class="move">Bite</span>
+                      <span class="move">Brutal Swing</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Chandelure</span>
+                      <span class="move">Hex</span>
+                      <span class="move">Shadow Ball</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Gengar</span>
+                      <span class="move">Lick</span>
+                      <span class="move">Shadow Ball</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Houndoom</span>
+                      <span class="move">Snarl</span>
+                      <span class="move">Foul Play</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Scizor</span>
+                      <span class="move">Fury Cutter</span>
+                      <span class="move">X-Scissor</span>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Groudon -->
+          <article id="groudon" class="boss-card ground-theme">
+            <div class="boss-top">
+              <img
+                class="boss-art"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png"
+                alt="Official artwork of Groudon"
+              >
+              <div class="boss-info">
+                <h3>Groudon</h3>
+                <p class="boss-subtitle">Tier 5 • April 15 to April 21</p>
+                <div class="type-badges">
+                  <span class="type-badge type-ground">Ground</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="boss-body">
+              <div class="boss-meta">
+                <div class="meta-box">
+                  <strong>Weak to</strong>
+                  Water, Grass, Ice
+                </div>
+                <div class="meta-box">
+                  <strong>Difficulty</strong>
+                  Legendary raid with strong offensive pressure
+                </div>
+              </div>
+
+              <div class="counter-columns">
+                <div class="counter-group">
+                  <h4>Best counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Primal Kyogre</span>
+                      <span class="move">Waterfall</span>
+                      <span class="move">
+                        Origin Pulse
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Sceptile</span>
+                      <span class="move">Bullet Seed</span>
+                      <span class="move">
+                        Frenzy Plant
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">White Kyurem</span>
+                      <span class="move">Ice Fang</span>
+                      <span class="move">
+                        Ice Burn
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Black Kyurem</span>
+                      <span class="move">Dragon Tail</span>
+                      <span class="move">
+                        Freeze Shock
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Rayquaza</span>
+                      <span class="move">Dragon Tail</span>
+                      <span class="move">
+                        Dragon Ascent
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Kartana</span>
+                      <span class="move">Razor Leaf</span>
+                      <span class="move">Leaf Blade</span>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="counter-group">
+                  <h4>Budget counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Swampert</span>
+                      <span class="move">Water Gun</span>
+                      <span class="move">
+                        Hydro Cannon
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Feraligatr</span>
+                      <span class="move">Water Gun</span>
+                      <span class="move">
+                        Hydro Cannon
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Roserade</span>
+                      <span class="move">Razor Leaf</span>
+                      <span class="move">Grass Knot</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Sceptile</span>
+                      <span class="move">Bullet Seed</span>
+                      <span class="move">
+                        Frenzy Plant
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Glaceon</span>
+                      <span class="move">Frost Breath</span>
+                      <span class="move">Avalanche</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Mamoswine</span>
+                      <span class="move">Powder Snow</span>
+                      <span class="move">Avalanche</span>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Mega Sharpedo -->
+          <article id="mega-sharpedo" class="boss-card water-theme">
+            <div class="boss-top">
+              <img
+                class="boss-art"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png"
+                alt="Official artwork of Mega Sharpedo"
+              >
+              <div class="boss-info">
+                <h3>Mega Sharpedo</h3>
+                <p class="boss-subtitle">Mega Raid • April 22 to April 28</p>
+                <div class="type-badges">
+                  <span class="type-badge type-water">Water</span>
+                  <span class="type-badge type-dark">Dark</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="boss-body">
+              <div class="boss-meta">
+                <div class="meta-box">
+                  <strong>Weak to</strong>
+                  Fighting, Bug, Grass, Electric, Fairy
+                </div>
+                <div class="meta-box">
+                  <strong>Focus</strong>
+                  Fighting attackers are especially strong
+                </div>
+              </div>
+
+              <div class="counter-columns">
+                <div class="counter-group">
+                  <h4>Best counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Lucario</span>
+                      <span class="move">
+                        Force Palm
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                      <span class="move">Aura Sphere</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Keldeo</span>
+                      <span class="move">Low Kick</span>
+                      <span class="move">Sacred Sword</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Sceptile</span>
+                      <span class="move">Bullet Seed</span>
+                      <span class="move">
+                        Frenzy Plant
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Blaziken</span>
+                      <span class="move">Counter</span>
+                      <span class="move">Focus Blast</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Heracross</span>
+                      <span class="move">Counter</span>
+                      <span class="move">Close Combat</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Shadow Blaziken</span>
+                      <span class="move">Counter</span>
+                      <span class="move">Focus Blast</span>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="counter-group">
+                  <h4>Budget counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Lucario</span>
+                      <span class="move">Counter</span>
+                      <span class="move">Aura Sphere</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Machamp</span>
+                      <span class="move">Counter</span>
+                      <span class="move">Dynamic Punch</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Hariyama</span>
+                      <span class="move">Counter</span>
+                      <span class="move">Dynamic Punch</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Electivire</span>
+                      <span class="move">Thunder Shock</span>
+                      <span class="move">Wild Charge</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Roserade</span>
+                      <span class="move">Razor Leaf</span>
+                      <span class="move">Grass Knot</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Togekiss</span>
+                      <span class="move">Charm</span>
+                      <span class="move">Dazzling Gleam</span>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tapu Koko -->
+          <article id="tapu-koko" class="boss-card electric-theme">
+            <div class="boss-top">
+              <img
+                class="boss-art"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/785.png"
+                alt="Official artwork of Tapu Koko"
+              >
+              <div class="boss-info">
+                <h3>Tapu Koko</h3>
+                <p class="boss-subtitle">Tier 5 • April 22 to April 28</p>
+                <div class="type-badges">
+                  <span class="type-badge type-electric">Electric</span>
+                  <span class="type-badge type-fairy">Fairy</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="boss-body">
+              <div class="boss-meta">
+                <div class="meta-box">
+                  <strong>Weak to</strong>
+                  Poison, Ground
+                </div>
+                <div class="meta-box">
+                  <strong>Focus</strong>
+                  Ground attackers are the most natural answer
+                </div>
+              </div>
+
+              <div class="counter-columns">
+                <div class="counter-group">
+                  <h4>Best counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Primal Groudon</span>
+                      <span class="move">Mud Shot</span>
+                      <span class="move">
+                        Precipice Blades
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Shadow Groudon</span>
+                      <span class="move">Mud Shot</span>
+                      <span class="move">
+                        Precipice Blades
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Garchomp</span>
+                      <span class="move">Mud Shot</span>
+                      <span class="move">
+                        Earth Power
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Excadrill</span>
+                      <span class="move">Mud-Slap</span>
+                      <span class="move">Scorching Sands</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Eternatus</span>
+                      <span class="move">Poison Jab</span>
+                      <span class="move">Sludge Bomb</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Landorus</span>
+                      <span class="move">Mud Shot</span>
+                      <span class="move">
+                        Earth Power
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="counter-group">
+                  <h4>Budget counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Excadrill</span>
+                      <span class="move">Mud-Slap</span>
+                      <span class="move">Scorching Sands</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Garchomp</span>
+                      <span class="move">Mud Shot</span>
+                      <span class="move">
+                        Earth Power
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Rhyperior</span>
+                      <span class="move">Mud-Slap</span>
+                      <span class="move">Earthquake</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Mamoswine</span>
+                      <span class="move">Mud-Slap</span>
+                      <span class="move">High Horsepower</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Nidoking</span>
+                      <span class="move">Poison Jab</span>
+                      <span class="move">Earth Power</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Roserade</span>
+                      <span class="move">Poison Jab</span>
+                      <span class="move">Sludge Bomb</span>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Mega Banette -->
+          <article id="mega-banette" class="boss-card ghost-theme">
+            <div class="boss-top">
+              <img
+                class="boss-art"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png"
+                alt="Official artwork of Mega Banette"
+              >
+              <div class="boss-info">
+                <h3>Mega Banette</h3>
+                <p class="boss-subtitle">Mega Raid • April 29 to May 5</p>
+                <div class="type-badges">
+                  <span class="type-badge type-ghost">Ghost</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="boss-body">
+              <div class="boss-meta">
+                <div class="meta-box">
+                  <strong>Weak to</strong>
+                  Ghost, Dark
+                </div>
+                <div class="meta-box">
+                  <strong>Focus</strong>
+                  Dark attackers are very easy to build
+                </div>
+              </div>
+
+              <div class="counter-columns">
+                <div class="counter-group">
+                  <h4>Best counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Tyranitar</span>
+                      <span class="move">Bite</span>
+                      <span class="move">Brutal Swing</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Shadow Tyranitar</span>
+                      <span class="move">Bite</span>
+                      <span class="move">Brutal Swing</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Gengar</span>
+                      <span class="move">Lick</span>
+                      <span class="move">Shadow Ball</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Absol</span>
+                      <span class="move">Snarl</span>
+                      <span class="move">Brutal Swing</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Houndoom</span>
+                      <span class="move">Snarl</span>
+                      <span class="move">Foul Play</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Shadow Hydreigon</span>
+                      <span class="move">Bite</span>
+                      <span class="move">Brutal Swing</span>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="counter-group">
+                  <h4>Budget counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Tyranitar</span>
+                      <span class="move">Bite</span>
+                      <span class="move">Brutal Swing</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Hydreigon</span>
+                      <span class="move">Bite</span>
+                      <span class="move">Brutal Swing</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Gengar</span>
+                      <span class="move">Lick</span>
+                      <span class="move">Shadow Ball</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Chandelure</span>
+                      <span class="move">Hex</span>
+                      <span class="move">Shadow Ball</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Houndoom</span>
+                      <span class="move">Snarl</span>
+                      <span class="move">Foul Play</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Weavile</span>
+                      <span class="move">Snarl</span>
+                      <span class="move">Foul Play</span>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tapu Lele -->
+          <article id="tapu-lele" class="boss-card psychic-theme">
+            <div class="boss-top">
+              <img
+                class="boss-art"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png"
+                alt="Official artwork of Tapu Lele"
+              >
+              <div class="boss-info">
+                <h3>Tapu Lele</h3>
+                <p class="boss-subtitle">Tier 5 • April 29 to May 5</p>
+                <div class="type-badges">
+                  <span class="type-badge type-psychic">Psychic</span>
+                  <span class="type-badge type-fairy">Fairy</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="boss-body">
+              <div class="boss-meta">
+                <div class="meta-box">
+                  <strong>Weak to</strong>
+                  Poison, Ghost, Steel
+                </div>
+                <div class="meta-box">
+                  <strong>Focus</strong>
+                  Steel and Ghost attackers work especially well
+                </div>
+              </div>
+
+              <div class="counter-columns">
+                <div class="counter-group">
+                  <h4>Best counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Necrozma (Dusk Mane)</span>
+                      <span class="move">Metal Claw</span>
+                      <span class="move">
+                        Sunsteel Strike
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Necrozma (Dawn Wings)</span>
+                      <span class="move">Shadow Claw</span>
+                      <span class="move">
+                        Moongeist Beam
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Shadow Metagross</span>
+                      <span class="move">Bullet Punch</span>
+                      <span class="move">
+                        Meteor Mash
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Metagross</span>
+                      <span class="move">Bullet Punch</span>
+                      <span class="move">
+                        Meteor Mash
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Mega Gengar</span>
+                      <span class="move">Lick</span>
+                      <span class="move">Shadow Ball</span>
+                    </div>
+
+                    <div class="counter-chip best">
+                      <span class="pokemon-name">Zacian (Crowned Sword)</span>
+                      <span class="move">Metal Claw</span>
+                      <span class="move">Behemoth Blade</span>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="counter-group">
+                  <h4>Budget counters</h4>
+                  <div class="counter-list">
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Metagross</span>
+                      <span class="move">Bullet Punch</span>
+                      <span class="move">
+                        Meteor Mash
+                        <span class="tooltip" tabindex="0">
+                          <span class="legacy">★</span>
+                          <span class="tooltip-text">Legacy / event-exclusive move</span>
+                        </span>
+                      </span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Gengar</span>
+                      <span class="move">Lick</span>
+                      <span class="move">Shadow Ball</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Chandelure</span>
+                      <span class="move">Hex</span>
+                      <span class="move">Shadow Ball</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Excadrill</span>
+                      <span class="move">Metal Claw</span>
+                      <span class="move">Iron Head</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Roserade</span>
+                      <span class="move">Poison Jab</span>
+                      <span class="move">Sludge Bomb</span>
+                    </div>
+
+                    <div class="counter-chip budget">
+                      <span class="pokemon-name">Scizor</span>
+                      <span class="move">Bullet Punch</span>
+                      <span class="move">Iron Head</span>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="note-box">
+          <strong>Note:</strong> this page is designed as a static guide. “Best counters” represent top raid-oriented picks,
+          while “budget counters” are easier-to-build alternatives that still hit for super-effective damage.
+          <br><br>
+          <span class="tooltip" tabindex="0">
+            <strong class="legacy">★</strong>
+            <span class="tooltip-text">Legacy / event-exclusive move</span>
+          </span>
+          = legacy / event-exclusive move
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Arcanine Go Project</strong> • Static HTML/CSS faculty project</p>
+      <p>Focused on clear structure, responsive design and accessible basics.</p>
+    </div>
+  </footer>
+
+  </body>
+  </html>
