@@ -4,6 +4,31 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.4.0] - Counter Methodology & TTW System
+
+### Added
+
+* Dedicated **Methodology section** on counters page
+* Clear explanation of counter evaluation standard
+* **Time to Win (TTW)** as primary performance metric
+* Percentage difference vs best counter (ΔTTW)
+* Pokebattler credit for raid performance data
+
+### Changed
+
+* Standardized all counters using:
+  * Level 40
+  * Extreme weather
+  * No friendship bonus
+  * No party power
+  * Hardest boss moveset
+* Refactored counters to show:
+  * **Top 6 best**
+  * **Top 6 budget**
+* Improved clarity and consistency of counter comparisons
+
+---
+
 ## [1.3.0] - Raid Schedule + UI Improvements
 
 ### Added

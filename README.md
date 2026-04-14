@@ -15,7 +15,7 @@ This project focuses on:
 
 * **Home** – Overview and entry point
 * **Raids** – Active raids + full schedule
-* **Counters** – Best counters per boss
+* **Counters** – Best and budget counters per boss
 * **Contact** – Support-style form page
 
 ---
@@ -38,15 +38,37 @@ This project focuses on:
 
 ### ⚔️ Counters Page
 
-* Direct linking from raids → counters
-* Smooth scrolling to selected boss
-* Fixed anchor offset (no more jumping to wrong position)
+* Best and budget counters for each boss
+* Top 6 best + top 6 budget picks per raid
+* Performance displayed using **Time to Win (TTW)**
+* Percentage difference shown relative to the best counter
+* Smooth scrolling from raids → counters
+* Fixed anchor offset (no incorrect scroll positions)
+
+### 🧠 Counter Methodology
+
+All counters are evaluated using a consistent simulation standard:
+
+* Level 40 counters
+* Extreme weather conditions
+* No friendship bonus
+* No party power boost
+* Hardest boss moveset selected
+
+This ensures fair comparison across all bosses and between best and budget options.
+
+Raid performance data is based on **Pokebattler simulations**.
+
+---
 
 ### 🎨 Visual Design
 
 * Type-based glow system (Water, Rock, Psychic, etc.)
 * Hover effects with stronger visual feedback
 * Consistent dark theme UI
+* Dedicated methodology info section for clarity
+
+---
 
 ### 📩 Contact Page
 
@@ -72,6 +94,7 @@ This project was built to:
 * Practice semantic HTML structure
 * Build a multi-page responsive website
 * Create a consistent UI system
+* Present data in a clear and structured way
 * Simulate a real-world gaming guide
 
 ---
@@ -80,6 +103,7 @@ This project was built to:
 
 * The contact form is currently **static** (no backend)
 * To enable real submissions, a form service or backend is required
+* Counter data is adapted manually for presentation purposes
 
 ---
 
@@ -89,6 +113,7 @@ This project was built to:
 * Add filtering/search for counters
 * Add animations or micro-interactions
 * Improve mobile navigation UX
+* Possibly introduce dynamic data loading
 
 ---
 
