@@ -31,6 +31,7 @@ This project focuses on:
 * Clear separation of:
   * **5★ raids (left)**
   * **Mega raids (right)**
+* Manually updated to reflect current in-game raid rotation
 
 ---
 
@@ -42,6 +43,7 @@ This project focuses on:
   * Boss icons/sprites
   * Clear rotation breakdown
 * Improved visual clarity and readability of raid rotations
+* Consistent formatting across all rotation blocks
 
 ---
 
@@ -51,11 +53,32 @@ This project focuses on:
 * Top 6 best + top 6 budget picks per raid
 * Performance displayed using **Time to Win (TTW)**
 * Percentage difference shown relative to the best counter
+* Counters are **strictly sorted by TTW performance**
 * Smooth scrolling from raids → counters
 * Fixed anchor offset (no incorrect scroll positions)
-* Support for:
-  * ⭐ Legacy moves
-  * Type indicators (e.g. Hidden Power variants)
+
+#### Advanced counter features
+
+* **Legacy / event-exclusive moves**
+  * Unified format across entire project:
+    ```html
+    <span class="move legacy-move" tabindex="0">Move Name</span>
+    ```
+  * Tooltip-based explanation
+  * Removed inconsistent legacy indicators (★, mixed formats)
+
+* **Move-specific indicators**
+  * Hidden Power type support (e.g. Grass variant)
+  * Clean inline type display
+
+#### Layout improvements
+
+* Center-aligned counter cards
+* Consistent chip sizing across all bosses
+* Cleaner visual hierarchy for:
+  * Pokémon name
+  * Moves
+  * TTW + % difference
 
 ---
 
@@ -83,6 +106,10 @@ Raid performance data is based on **Pokebattler simulations**.
 * Improved alignment and spacing across all components
 * Standardized Pokémon sprite scaling and positioning
 * Dedicated methodology info section for clarity
+* Refactored legacy move tooltip system for cleaner UI and consistency
+* Improved visual distinction between:
+  * Best counters
+  * Budget counters
 
 ---
 
@@ -101,6 +128,18 @@ Raid performance data is based on **Pokebattler simulations**.
 * Structured support-style form
 * Built-in HTML validation
 * Topic-based submission categories
+
+---
+
+## Current Raid Rotation (April 2026)
+
+**Active:**
+* Groudon (5★)
+* Mega Alakazam
+
+**Upcoming:**
+* Tapu Koko (5★)
+* Mega Sharpedo
 
 ---
 
@@ -130,6 +169,7 @@ This project was built to:
 * The contact form is currently **static** (no backend)
 * To enable real submissions, a form service or backend is required
 * Counter data is adapted manually for presentation purposes
+* Raid rotations are updated manually to match current in-game events
 
 ---
 
