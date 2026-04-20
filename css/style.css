@@ -295,9 +295,27 @@ h2 {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  padding: 0.55rem 0.85rem;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(148, 163, 184, 0.12);
+  padding: 0;
+
+  background: none;
+  border: none;
+
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+
+  cursor: default;
+}
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.pill:not(:last-child)::after {
+  content: "•";
+  margin-left: 0.75rem;
+  opacity: 0.4;
 }
 
 .btn {
@@ -824,6 +842,31 @@ label:focus-visible {
   overflow: hidden;
 }
 
+.raid-card-link,
+.summary-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.raid-card-link:hover,
+.summary-card-link:hover {
+  transform: translateY(-6px);
+  text-decoration: none;
+}
+
+.raid-card-link *,
+.summary-card-link * {
+  color: inherit;
+}
+
+.raid-card-link:hover .raid-card-image,
+.summary-card-link:hover .summary-icon {
+  transform: scale(1.05);
+}
+
 .summary-card.legendary {
   border-color: rgba(90, 175, 255, 0.35);
 }
@@ -857,14 +900,6 @@ label:focus-visible {
   align-items: center;
   gap: 0.65rem;
   min-width: 0;
-}
-
-.summary-icon {
-  max-width: 52px;
-  max-height: 52px;
-  width: auto;
-  height: auto;
-  object-fit: contain;
 }
 
 .summary-label {
@@ -916,7 +951,6 @@ label:focus-visible {
 .raid-card:hover {
   transform: translateY(-4px) scale(1.01);
   border-color: rgba(255,255,255,0.16);
-  box-shadow: 0 14px 35px rgba(0,0,0,0.22);
 }
 
 .raid-card-image-wrap {
@@ -1152,86 +1186,57 @@ label:focus-visible {
   }
 }
 
-.raid-card-image {
-  cursor: pointer;
-}
-
-.raid-card-image-link {
-  display: inline-block;
-  line-height: 0;
-}
-
-.summary-icon-link {
-  width: 64px;
-  height: 64px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex: 0 0 64px;
-}
-
-.raid-card-title-link {
-  display: inline-block;
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-  position: relative;
-  z-index: 5;
-}
-
-.raid-card-title-link:hover {
-  text-decoration: underline;
-}
-
-.summary-icon-link:hover,
-.raid-card-image-link:hover,
-.raid-card-title-link:hover {
-  opacity: 0.92;
-}
-
 /* base glow */
+.summary-card.water-glow,
 .raid-card.water-glow {
   box-shadow:
     0 0 0 1px rgba(80, 144, 214, 0.18),
     0 12px 30px rgba(80, 144, 214, 0.10);
 }
 
+.summary-card.rock-glow,
 .raid-card.rock-glow {
   box-shadow:
     0 0 0 1px rgba(197, 183, 140, 0.18),
     0 12px 30px rgba(197, 183, 140, 0.10);
 }
 
+.summary-card.ground-glow,
 .raid-card.ground-glow {
   box-shadow:
     0 0 0 1px rgba(217, 120, 69, 0.18),
     0 12px 30px rgba(217, 120, 69, 0.10);
 }
 
+.summary-card.psychic-glow,
 .raid-card.psychic-glow {
   box-shadow:
     0 0 0 1px rgba(250, 113, 121, 0.18),
     0 12px 30px rgba(250, 113, 121, 0.10);
 }
 
+.summary-card.electric-glow,
 .raid-card.electric-glow {
   box-shadow:
     0 0 0 1px rgba(240, 208, 44, 0.18),
     0 12px 30px rgba(240, 208, 44, 0.10);
 }
 
+.summary-card.ghost-glow,
 .raid-card.ghost-glow {
   box-shadow:
     0 0 0 1px rgba(82, 105, 173, 0.18),
     0 12px 30px rgba(82, 105, 173, 0.10);
 }
 
+.summary-card.dark-glow,
 .raid-card.dark-glow {
   box-shadow:
     0 0 0 1px rgba(91, 88, 112, 0.18),
     0 12px 30px rgba(91, 88, 112, 0.10);
 }
 
+.summary-card.fairy-glow,
 .raid-card.fairy-glow {
   box-shadow:
     0 0 0 1px rgba(238, 153, 172, 0.18),
@@ -1239,48 +1244,56 @@ label:focus-visible {
 }
 
 /* hover boost */
+.summary-card.water-glow:hover,
 .raid-card.water-glow:hover {
   box-shadow:
     0 0 0 1px rgba(80, 144, 214, 0.32),
     0 18px 40px rgba(80, 144, 214, 0.18);
 }
 
+.summary-card.rock-glow:hover,
 .raid-card.rock-glow:hover {
   box-shadow:
     0 0 0 1px rgba(197, 183, 140, 0.32),
     0 18px 40px rgba(197, 183, 140, 0.18);
 }
 
+.summary-card.ground-glow:hover,
 .raid-card.ground-glow:hover {
   box-shadow:
     0 0 0 1px rgba(217, 120, 69, 0.32),
     0 18px 40px rgba(217, 120, 69, 0.18);
 }
 
+.summary-card.psychic-glow:hover,
 .raid-card.psychic-glow:hover {
   box-shadow:
     0 0 0 1px rgba(250, 113, 121, 0.32),
     0 18px 40px rgba(250, 113, 121, 0.18);
 }
 
+.summary-card.electric-glow:hover,
 .raid-card.electric-glow:hover {
   box-shadow:
     0 0 0 1px rgba(240, 208, 44, 0.32),
     0 18px 40px rgba(240, 208, 44, 0.18);
 }
 
+.summary-card.ghost-glow:hover,
 .raid-card.ghost-glow:hover {
   box-shadow:
     0 0 0 1px rgba(82, 105, 173, 0.32),
     0 18px 40px rgba(82, 105, 173, 0.18);
 }
 
+.summary-card.dark-glow:hover,
 .raid-card.dark-glow:hover {
   box-shadow:
     0 0 0 1px rgba(91, 88, 112, 0.32),
     0 12px 30px rgba(91, 88, 112, 0.18);
 }
 
+.summary-card.fairy-glow:hover,
 .raid-card.fairy-glow:hover {
   box-shadow:
     0 0 0 1px rgba(238, 153, 172, 0.32),
@@ -1500,15 +1513,6 @@ label:focus-visible {
   color: #9be38c;
 }
 
-.summary-icon-link {
-  width: 72px;
-  height: 72px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex: 0 0 72px;
-}
-
 .summary-icon {
   display: block;
   max-width: 60px;
@@ -1517,6 +1521,7 @@ label:focus-visible {
   height: auto;
   object-fit: contain;
   margin: 0 auto;
+  transition: transform 0.25s ease;
 }
 
 .summary-icon-kyogre {
