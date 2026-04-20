@@ -4,6 +4,61 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.6.1] - Clickable Cards & Glow System Refinement
+
+### Changed
+
+* Reworked `raids.html` structure to use **fully clickable cards**
+  * Replaced nested links (image + title) with single anchor wrappers
+  * Simplified markup for better maintainability and accessibility
+* Updated summary cards to follow the same clickable pattern
+
+### Fixed
+
+* Fixed **Electric glow inconsistency** (Tapu Koko no longer displays incorrect blue tint)
+* Removed conflicting hover styles that overrode type-based glow system
+
+### Improved
+
+* Unified **type-based glow system** across:
+  * Raid cards
+  * Summary cards
+* Improved hover animations:
+  * Moved `transition` to base elements for smoother scaling
+* Cleaned up unused CSS:
+  * Removed redundant link styles and duplicate rules
+* Enhanced visual consistency across the raids page
+
+---
+
+## [1.6.0] - Raid Rotation Update & Counter Accuracy Fixes
+
+### Changed
+
+* Updated **raid rotation** on `raids.html` to reflect current in-game schedule
+  * Groudon + Mega Alakazam now set as active raids
+  * Kyogre + Mega Aerodactyl moved out of active state
+* Updated all **date labels and schedule blocks** to match new rotation window
+* Adjusted **raid card statuses** (Active / Upcoming) across the page
+
+### Fixed
+
+* Corrected **counter ordering issues** on multiple bosses (sorted strictly by TTW)
+* Fixed **incorrect TTW percentage differences** (ΔTTW now always based on best counter)
+* Resolved inconsistencies where:
+  * Lower TTW counters were showing worse ranking
+  * Delta values did not match actual performance differences
+
+### Improved
+
+* Ensured full consistency of **legacy move system** across all counters
+* Unified formatting for:
+  * Legacy-tagged moves
+  * Counter chip layout
+* Minor UI polish across counters and raid cards for better visual consistency
+
+---
+
 ## [1.5.2] - Legacy System & Counter UI Improvements
 
 ### Changed
