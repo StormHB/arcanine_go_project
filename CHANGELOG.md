@@ -4,6 +4,26 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.5.2] - Legacy System & Counter UI Improvements
+
+### Changed
+- Replaced the old legacy move tooltip system with a cleaner `legacy-move` class approach
+- Updated all legacy / event-exclusive moves on `counters.html` to use the new unified markup
+- Added keyboard focus support for legacy move indicators with `tabindex="0"`
+- Reworked the note box legend at the bottom of the counters page to match the new legacy move system
+- Reduced and softened the explanatory legend text for improved visual hierarchy
+
+### Removed
+- Removed the old tooltip-based legacy markup from counter entries
+- Removed obsolete star/tooltip dependency from the counters page structure
+
+### Improved
+- Center-aligned counter chips inside the best/budget counter group panels
+- Standardized chip width for cleaner visual balance across raid boss cards
+- Kept existing chip layout while improving spacing and consistency
+
+---
+
 ## [1.5.1] - SEO & Structure Improvements
 
 ### Added
@@ -19,6 +39,7 @@ All notable changes to this project are documented here.
 * Incorrect `og:url` values (all pages now point to correct URLs)
 * Inconsistent HTML indentation across pages
 * Improved structure inside `<body>` for readability
+* Standardized Open Graph metadata across all pages
 
 ### Improved
 
