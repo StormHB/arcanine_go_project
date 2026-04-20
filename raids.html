@@ -1,518 +1,528 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Raids</title>
+  <meta name="description" content="View active and upcoming Pokemon GO Mega and 5-star raids, including the April 2026 raid schedule.">
+  <meta name="author" content="StormHB">
+  <meta property="og:title" content="Raids | Arcanine Go Project">
+  <meta property="og:description" content="Active and upcoming Pokemon GO raids with schedule details and featured bosses.">
+  <meta property="og:image" content="img/preview.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://stormhb.github.io/arcanine_go_project/raids.html">
+  <meta property="og:site_name" content="Arcanine Go Project">
+  <title>Raids | Arcanine Go Project</title>
+  <link rel="icon" href="img/favicon.ico">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">
+        <div class="brand-logo">A</div>
+        <div class="brand-text">
+          Arcanine Go Project
+          <small>Pokemon GO Raid Guide</small>
+        </div>
+      </a>
 
-<a class="skip-link" href="#main-content">Skip to content</a>
+      <input type="checkbox" id="nav-toggle" aria-label="Open navigation menu">
+      <label for="nav-toggle" class="menu-toggle" aria-hidden="true">
+        <span></span>
+      </label>
 
-<header class="site-header">
-  <div class="container nav-wrap">
-    <a href="index.html" class="brand">
-      <div class="brand-logo">A</div>
-      <div class="brand-text">
-        Arcanine Go Project
-        <small>Pokemon GO Raid Guide</small>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="raids.html" class="active">Raids</a></li>
+          <li><a href="counters.html">Counters</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="raids-page">
+      <div class="section-header">
+        <h1>Active Raids</h1>
+        <p class="section-subtitle">
+          Current bosses, their typings, and why they matter in the PvE meta.
+        </p>
       </div>
-    </a>
 
-    <input type="checkbox" id="nav-toggle" aria-label="Open navigation menu">
-    <label for="nav-toggle" class="menu-toggle" aria-hidden="true">
-      <span></span>
-    </label>
+    <!-- SUMMARY CARDS -->
+    <div class="raid-summary-grid">
+      <article class="summary-card legendary">
+        <div class="summary-top">
+          <div class="summary-title-wrap">
+            <a href="counters.html#kyogre" class="summary-icon-link">
+              <img
+                class="summary-icon summary-icon-kyogre"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png"
+                alt="Kyogre"
+              >
+            </a>
+            <span class="summary-label">5★ Active</span>
+          </div>
+          <h2>
+            <a href="counters.html#kyogre" class="raid-card-title-link">Kyogre</a>
+          </h2>
+        </div>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="raids.html" class="active">Raids</a></li>
-        <li><a href="counters.html">Counters</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+        <p class="dialgadex-line">
+          DialgaDex: <strong>#1 Primal Water</strong> / <strong>#2 Shadow Water</strong>
+        </p>
 
-<main id="main-content">
-  <section class="raids-page">
-    <div class="section-header">
-      <h1>Active Raids</h1>
-      <p class="section-subtitle">
-        Current bosses, their typings, and why they matter in the PvE meta.
-      </p>
+        <p class="meta-copy">
+          Elite Water investment. Even if you are raiding base Kyogre, this is still one of the
+          most valuable Water lines to build around long term.
+        </p>
+      </article>
+
+      <article class="summary-card mega">
+        <div class="summary-top">
+          <div class="summary-title-wrap">
+            <a href="counters.html#mega-aerodactyl" class="summary-icon-link">
+              <img
+                class="summary-icon summary-icon-aerodactyl"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10042.png"
+                alt="Mega Aerodactyl"
+              >
+            </a>
+            <span class="summary-label">Mega Active</span>
+          </div>
+          <h2>
+            <a href="counters.html#mega-aerodactyl" class="raid-card-title-link">Mega Aerodactyl</a>
+          </h2>
+        </div>
+
+        <p class="dialgadex-line">
+          DialgaDex: <strong>Top-end Rock mega</strong>
+        </p>
+
+        <p class="meta-copy">
+          Strong Rock mega for raid teams. Best when you want both solid Rock damage and a team mega boost.
+        </p>
+      </article>
+
+      <article class="summary-card upcoming">
+        <div class="summary-top">
+          <div class="summary-title-wrap">
+            <a href="counters.html#groudon" class="summary-icon-link">
+              <img
+                class="summary-icon summary-icon-groudon"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png"
+                alt="Groudon"
+              >
+            </a>
+            <span class="summary-label">Next Up</span>
+          </div>
+          <h2>
+            <a href="counters.html#groudon" class="raid-card-title-link">Groudon</a>
+          </h2>
+        </div>
+
+        <p class="dialgadex-line">
+          DialgaDex: <strong>#1 Primal Ground</strong>
+        </p>
+
+        <p class="meta-copy">
+          One of the best Ground investments in the game and a very high-priority future raid.
+        </p>
+      </article>
+
+      <article class="summary-card upcoming">
+        <div class="summary-top">
+          <div class="summary-title-wrap">
+            <a href="counters.html#mega-alakazam" class="summary-icon-link">
+              <img
+                class="summary-icon summary-icon-alakazam"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10037.png"
+                alt="Mega Alakazam"
+              >
+            </a>
+            <span class="summary-label">Next Up</span>
+          </div>
+          <h2>
+            <a href="counters.html#mega-alakazam" class="raid-card-title-link">Mega Alakazam</a>
+          </h2>
+        </div>
+
+        <p class="dialgadex-line">
+          DialgaDex: <strong>#2 Psychic attacker</strong>
+        </p>
+
+        <p class="meta-copy">
+          Premium Psychic mega with real raid value and excellent offensive relevance.
+        </p>
+      </article>
     </div>
 
-  <!-- SUMMARY CARDS -->
-  <div class="raid-summary-grid">
-    <article class="summary-card legendary">
-      <div class="summary-top">
-        <div class="summary-title-wrap">
-          <a href="counters.html#kyogre" class="summary-icon-link">
+    <!-- RAID SCHEDULE -->
+
+    <section class="panel raid-schedule-panel">
+    <div class="section-title">
+      <h2>Raid Schedule</h2>
+      <p>Current and upcoming 5★ and Mega raid rotations.</p>
+    </div>
+
+    <div class="timeline raid-schedule-timeline">
+      <div class="timeline-item raid-schedule-item">
+        <div class="raid-schedule-head">
+          <img
+            class="raid-schedule-icon"
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png"
+            alt="Kyogre"
+          >
+          <img
+            class="raid-schedule-icon"
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10042.png"
+            alt="Mega Aerodactyl"
+          >
+          <div>
+            <h3>Apr 8 – Apr 14</h3>
+            <p class="raid-schedule-dates">6:00 AM → 10:00 PM local time</p>
+          </div>
+        </div>
+
+        <p><strong>5★:</strong> Kyogre</p>
+        <p><strong>Mega:</strong> Mega Aerodactyl</p>
+      </div>
+
+      <div class="timeline-item raid-schedule-item">
+        <div class="raid-schedule-head">
+          <img
+            class="raid-schedule-icon"
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png"
+            alt="Groudon"
+          >
+          <img
+            class="raid-schedule-icon"
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10037.png"
+            alt="Mega Alakazam"
+          >
+          <div>
+            <h3>Apr 15 – Apr 21</h3>
+            <p class="raid-schedule-dates">6:00 AM → 10:00 PM local time</p>
+          </div>
+        </div>
+
+        <p><strong>5★:</strong> Groudon</p>
+        <p><strong>Mega:</strong> Mega Alakazam</p>
+      </div>
+
+      <div class="timeline-item raid-schedule-item">
+        <div class="raid-schedule-head">
+          <img
+            class="raid-schedule-icon"
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/785.png"
+            alt="Tapu Koko"
+          >
+          <img
+            class="raid-schedule-icon"
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10070.png"
+            alt="Mega Sharpedo"
+          >
+          <div>
+            <h3>Apr 22 – Apr 28</h3>
+            <p class="raid-schedule-dates">6:00 AM → 10:00 PM local time</p>
+          </div>
+        </div>
+
+        <p><strong>5★:</strong> Tapu Koko</p>
+        <p><strong>Mega:</strong> Mega Sharpedo</p>
+      </div>
+
+      <div class="timeline-item raid-schedule-item">
+        <div class="raid-schedule-head">
+          <img
+            class="raid-schedule-icon"
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png"
+            alt="Tapu Lele"
+          >
+          <img
+            class="raid-schedule-icon"
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10056.png"
+            alt="Mega Banette"
+          >
+          <div>
+            <h3>Apr 29 – May 5</h3>
+            <p class="raid-schedule-dates">6:00 AM → 10:00 PM local time</p>
+          </div>
+        </div>
+
+        <p><strong>5★:</strong> Tapu Lele</p>
+        <p><strong>Mega:</strong> Mega Banette</p>
+      </div>
+    </div>
+  </section>
+
+    <!-- RAID CARDS -->
+    <div class="raid-card-grid">
+      <article class="raid-card water-glow">
+        <div class="raid-card-image-wrap">
+          <a href="counters.html#kyogre" class="raid-card-image-link">
             <img
-              class="summary-icon summary-icon-kyogre"
+              class="raid-card-image"
               src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png"
               alt="Kyogre"
             >
           </a>
-          <span class="summary-label">5★ Active</span>
+          <span class="raid-badge legendary-badge">5★</span>
         </div>
-        <h2>
-          <a href="counters.html#kyogre" class="raid-card-title-link">Kyogre</a>
-        </h2>
-      </div>
 
-      <p class="dialgadex-line">
-        DialgaDex: <strong>#1 Primal Water</strong> / <strong>#2 Shadow Water</strong>
-      </p>
+        <div class="raid-card-body">
+          <div class="raid-card-head">
+            <h3>
+              <a href="counters.html#kyogre" class="raid-card-title-link">Kyogre</a>
+            </h3>
+            <span class="raid-status">Active</span>
+          </div>
 
-      <p class="meta-copy">
-        Elite Water investment. Even if you are raiding base Kyogre, this is still one of the
-        most valuable Water lines to build around long term.
-      </p>
-    </article>
+          <div class="type-row">
+            <span class="type-pill water">Water</span>
+          </div>
 
-    <article class="summary-card mega">
-      <div class="summary-top">
-        <div class="summary-title-wrap">
-          <a href="counters.html#mega-aerodactyl" class="summary-icon-link">
+          <p class="raid-dex-rank">DialgaDex: #1 Primal Water / #2 Shadow Water</p>
+          <p class="raid-meta-text">
+            One of the most valuable Water raid lines in the game. Excellent long-term PvE target.
+          </p>
+        </div>
+      </article>
+      
+      <article class="raid-card rock-glow">
+        <div class="raid-card-image-wrap">
+          <a href="counters.html#mega-aerodactyl" class="raid-card-image-link">
             <img
-              class="summary-icon summary-icon-aerodactyl"
+              class="raid-card-image"
               src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10042.png"
               alt="Mega Aerodactyl"
             >
           </a>
-          <span class="summary-label">Mega Active</span>
+          <span class="raid-badge mega-badge">Mega</span>
         </div>
-        <h2>
-          <a href="counters.html#mega-aerodactyl" class="raid-card-title-link">Mega Aerodactyl</a>
-        </h2>
-      </div>
 
-      <p class="dialgadex-line">
-        DialgaDex: <strong>Top-end Rock mega</strong>
-      </p>
+        <div class="raid-card-body">
+          <div class="raid-card-head">
+            <h3>
+              <a href="counters.html#mega-aerodactyl" class="raid-card-title-link">Mega Aerodactyl</a>
+            </h3>
+            <span class="raid-status">Active</span>
+          </div>
 
-      <p class="meta-copy">
-        Strong Rock mega for raid teams. Best when you want both solid Rock damage and a team mega boost.
-      </p>
-    </article>
+          <div class="type-row">
+            <span class="type-pill rock">Rock</span>
+            <span class="type-pill flying">Flying</span>
+          </div>
 
-    <article class="summary-card upcoming">
-      <div class="summary-top">
-        <div class="summary-title-wrap">
-          <a href="counters.html#groudon" class="summary-icon-link">
+          <p class="raid-dex-rank">DialgaDex: Top-end Rock mega</p>
+          <p class="raid-meta-text">
+            Strong Rock mega for raid teams. Best when you want both solid Rock damage and a team mega boost.
+          </p>
+        </div>
+      </article>
+
+      <article class="raid-card upcoming-card ground-glow">
+        <div class="raid-card-image-wrap">
+          <a href="counters.html#groudon" class="raid-card-image-link">
             <img
-              class="summary-icon summary-icon-groudon"
+              class="raid-card-image"
               src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png"
               alt="Groudon"
             >
           </a>
-          <span class="summary-label">Next Up</span>
+          <span class="raid-badge legendary-badge">5★</span>
         </div>
-        <h2>
-          <a href="counters.html#groudon" class="raid-card-title-link">Groudon</a>
-        </h2>
-      </div>
 
-      <p class="dialgadex-line">
-        DialgaDex: <strong>#1 Primal Ground</strong>
-      </p>
+        <div class="raid-card-body">
+          <div class="raid-card-head">
+            <h3>
+              <a href="counters.html#groudon" class="raid-card-title-link">Groudon</a>
+            </h3>
+            <span class="raid-status upcoming">Apr 15 → Apr 21</span>
+          </div>
 
-      <p class="meta-copy">
-        One of the best Ground investments in the game and a very high-priority future raid.
-      </p>
-    </article>
+          <div class="type-row">
+            <span class="type-pill ground">Ground</span>
+          </div>
 
-    <article class="summary-card upcoming">
-      <div class="summary-top">
-        <div class="summary-title-wrap">
-          <a href="counters.html#mega-alakazam" class="summary-icon-link">
+          <p class="raid-dex-rank">DialgaDex: #1 Primal Ground</p>
+          <p class="raid-meta-text">
+            One of the best Ground investments in the game and a very high-priority future raid.
+          </p>
+        </div>
+      </article>
+      
+      <article class="raid-card upcoming-card psychic-glow">
+        <div class="raid-card-image-wrap">
+          <a href="counters.html#mega-alakazam" class="raid-card-image-link">
             <img
-              class="summary-icon summary-icon-alakazam"
+              class="raid-card-image"
               src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10037.png"
               alt="Mega Alakazam"
             >
           </a>
-          <span class="summary-label">Next Up</span>
+          <span class="raid-badge mega-badge">Mega</span>
         </div>
-        <h2>
-          <a href="counters.html#mega-alakazam" class="raid-card-title-link">Mega Alakazam</a>
-        </h2>
-      </div>
 
-      <p class="dialgadex-line">
-        DialgaDex: <strong>#2 Psychic attacker</strong>
-      </p>
+        <div class="raid-card-body">
+          <div class="raid-card-head">
+            <h3>
+              <a href="counters.html#mega-alakazam" class="raid-card-title-link">Mega Alakazam</a>
+            </h3>
+            <span class="raid-status upcoming">Apr 15 → Apr 21</span>
+          </div>
 
-      <p class="meta-copy">
-        Premium Psychic mega with real raid value and excellent offensive relevance.
-      </p>
-    </article>
-  </div>
+          <div class="type-row">
+            <span class="type-pill psychic">Psychic</span>
+          </div>
 
-  <!-- RAID SCHEDULE -->
-
-  <section class="panel raid-schedule-panel">
-  <div class="section-title">
-    <h2>Raid Schedule</h2>
-    <p>Current and upcoming 5★ and Mega raid rotations.</p>
-  </div>
-
-  <div class="timeline raid-schedule-timeline">
-    <div class="timeline-item raid-schedule-item">
-      <div class="raid-schedule-head">
-        <img
-          class="raid-schedule-icon"
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png"
-          alt="Kyogre"
-        >
-        <img
-          class="raid-schedule-icon"
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10042.png"
-          alt="Mega Aerodactyl"
-        >
-        <div>
-          <h3>Apr 8 – Apr 14</h3>
-          <p class="raid-schedule-dates">6:00 AM → 10:00 PM local time</p>
+          <p class="raid-dex-rank">DialgaDex: #2 Psychic attacker</p>
+          <p class="raid-meta-text">
+            Premium Psychic mega with real raid value and great offensive upside.
+          </p>
         </div>
-      </div>
+      </article>
 
-      <p><strong>5★:</strong> Kyogre</p>
-      <p><strong>Mega:</strong> Mega Aerodactyl</p>
+      <article class="raid-card upcoming-card electric-glow">
+        <div class="raid-card-image-wrap">
+          <a href="counters.html#tapu-koko" class="raid-card-image-link">
+            <img
+              class="raid-card-image"
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/785.png"
+              alt="Tapu Koko"
+            >
+          </a>
+          <span class="raid-badge legendary-badge">5★</span>
+        </div>
+
+        <div class="raid-card-body">
+          <div class="raid-card-head">
+            <h3>
+              <a href="counters.html#tapu-koko" class="raid-card-title-link">Tapu Koko</a>
+            </h3>
+            <span class="raid-status upcoming">Apr 22 → Apr 28</span>
+          </div>
+
+          <div class="type-row">
+            <span class="type-pill electric">Electric</span>
+            <span class="type-pill fairy">Fairy</span>
+          </div>
+
+          <p class="raid-dex-rank">DialgaDex: Fast Electric/Fairy pressure</p>
+          <p class="raid-meta-text">
+            Strong typing and useful offensive coverage make it a solid raid target for collectors and specialists.
+          </p>
+        </div>
+      </article>
+      
+      <article class="raid-card upcoming-card water-glow">
+        <div class="raid-card-image-wrap">
+          <a href="counters.html#mega-sharpedo" class="raid-card-image-link">
+            <img
+              class="raid-card-image"
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10070.png"
+              alt="Mega Sharpedo"
+            >
+          </a>
+          <span class="raid-badge mega-badge">Mega</span>
+        </div>
+
+        <div class="raid-card-body">
+          <div class="raid-card-head">
+            <h3>
+              <a href="counters.html#mega-sharpedo" class="raid-card-title-link">Mega Sharpedo</a>
+            </h3>
+            <span class="raid-status upcoming">Apr 22 → Apr 28</span>
+          </div>
+
+          <div class="type-row">
+            <span class="type-pill water">Water</span>
+            <span class="type-pill dark">Dark</span>
+          </div>
+
+          <p class="raid-dex-rank">DialgaDex: Water / Dark mega utility</p>
+          <p class="raid-meta-text">
+            Valuable for players looking for a Water-aligned mega with extra Dark-type flexibility.
+          </p>
+        </div>
+      </article>
+
+      <article class="raid-card upcoming-card psychic-glow">
+        <div class="raid-card-image-wrap">
+          <a href="counters.html#tapu-lele" class="raid-card-image-link">
+            <img
+              class="raid-card-image"
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png"
+              alt="Tapu Lele"
+            >
+          </a>
+          <span class="raid-badge legendary-badge">5★</span>
+        </div>
+
+        <div class="raid-card-body">
+          <div class="raid-card-head">
+            <h3>
+              <a href="counters.html#tapu-lele" class="raid-card-title-link">Tapu Lele</a>
+            </h3>
+            <span class="raid-status upcoming">Apr 29 → May 5</span>
+          </div>
+
+          <div class="type-row">
+            <span class="type-pill psychic">Psychic</span>
+            <span class="type-pill fairy">Fairy</span>
+          </div>
+
+          <p class="raid-dex-rank">DialgaDex: Psychic/Fairy offensive value</p>
+          <p class="raid-meta-text">
+            A strong dual-type legendary with good raid appeal and strong collector value.
+          </p>
+        </div>
+      </article>
+
+      <article class="raid-card upcoming-card ghost-glow">
+        <div class="raid-card-image-wrap">
+          <a href="counters.html#mega-banette" class="raid-card-image-link">
+            <img
+              class="raid-card-image"
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10056.png"
+              alt="Mega Banette"
+            >
+          </a>
+          <span class="raid-badge mega-badge">Mega</span>
+        </div>
+
+        <div class="raid-card-body">
+          <div class="raid-card-head">
+            <h3>
+              <a href="counters.html#mega-banette" class="raid-card-title-link">Mega Banette</a>
+            </h3>
+            <span class="raid-status upcoming">Apr 29 → May 5</span>
+          </div>
+
+          <div class="type-row">
+            <span class="type-pill ghost">Ghost</span>
+          </div>
+
+          <p class="raid-dex-rank">DialgaDex: Ghost mega niche</p>
+          <p class="raid-meta-text">
+            A more specialized mega, but still useful when you want Ghost damage with mega support.
+          </p>
+        </div>
+      </article>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Built for raid planning, counters, and quick reference.</p>
     </div>
-
-    <div class="timeline-item raid-schedule-item">
-      <div class="raid-schedule-head">
-        <img
-          class="raid-schedule-icon"
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png"
-          alt="Groudon"
-        >
-        <img
-          class="raid-schedule-icon"
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10037.png"
-          alt="Mega Alakazam"
-        >
-        <div>
-          <h3>Apr 15 – Apr 21</h3>
-          <p class="raid-schedule-dates">6:00 AM → 10:00 PM local time</p>
-        </div>
-      </div>
-
-      <p><strong>5★:</strong> Groudon</p>
-      <p><strong>Mega:</strong> Mega Alakazam</p>
-    </div>
-
-    <div class="timeline-item raid-schedule-item">
-      <div class="raid-schedule-head">
-        <img
-          class="raid-schedule-icon"
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/785.png"
-          alt="Tapu Koko"
-        >
-        <img
-          class="raid-schedule-icon"
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10070.png"
-          alt="Mega Sharpedo"
-        >
-        <div>
-          <h3>Apr 22 – Apr 28</h3>
-          <p class="raid-schedule-dates">6:00 AM → 10:00 PM local time</p>
-        </div>
-      </div>
-
-      <p><strong>5★:</strong> Tapu Koko</p>
-      <p><strong>Mega:</strong> Mega Sharpedo</p>
-    </div>
-
-    <div class="timeline-item raid-schedule-item">
-      <div class="raid-schedule-head">
-        <img
-          class="raid-schedule-icon"
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png"
-          alt="Tapu Lele"
-        >
-        <img
-          class="raid-schedule-icon"
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10056.png"
-          alt="Mega Banette"
-        >
-        <div>
-          <h3>Apr 29 – May 5</h3>
-          <p class="raid-schedule-dates">6:00 AM → 10:00 PM local time</p>
-        </div>
-      </div>
-
-      <p><strong>5★:</strong> Tapu Lele</p>
-      <p><strong>Mega:</strong> Mega Banette</p>
-    </div>
-  </div>
-</section>
-
-  <!-- RAID CARDS -->
-  <div class="raid-card-grid">
-    <article class="raid-card water-glow">
-      <div class="raid-card-image-wrap">
-        <a href="counters.html#kyogre" class="raid-card-image-link">
-          <img
-            class="raid-card-image"
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png"
-            alt="Kyogre"
-          >
-        </a>
-        <span class="raid-badge legendary-badge">5★</span>
-      </div>
-
-      <div class="raid-card-body">
-        <div class="raid-card-head">
-          <h3>
-            <a href="counters.html#kyogre" class="raid-card-title-link">Kyogre</a>
-          </h3>
-          <span class="raid-status">Active</span>
-        </div>
-
-        <div class="type-row">
-          <span class="type-pill water">Water</span>
-        </div>
-
-        <p class="raid-dex-rank">DialgaDex: #1 Primal Water / #2 Shadow Water</p>
-        <p class="raid-meta-text">
-          One of the most valuable Water raid lines in the game. Excellent long-term PvE target.
-        </p>
-      </div>
-    </article>
-    
-    <article class="raid-card rock-glow">
-      <div class="raid-card-image-wrap">
-        <a href="counters.html#mega-aerodactyl" class="raid-card-image-link">
-          <img
-            class="raid-card-image"
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10042.png"
-            alt="Mega Aerodactyl"
-          >
-        </a>
-        <span class="raid-badge mega-badge">Mega</span>
-      </div>
-
-      <div class="raid-card-body">
-        <div class="raid-card-head">
-          <h3>
-            <a href="counters.html#mega-aerodactyl" class="raid-card-title-link">Mega Aerodactyl</a>
-          </h3>
-          <span class="raid-status">Active</span>
-        </div>
-
-        <div class="type-row">
-          <span class="type-pill rock">Rock</span>
-          <span class="type-pill flying">Flying</span>
-        </div>
-
-        <p class="raid-dex-rank">DialgaDex: Top-end Rock mega</p>
-        <p class="raid-meta-text">
-          Strong Rock mega for raid teams. Best when you want both solid Rock damage and a team mega boost.
-        </p>
-      </div>
-    </article>
-
-    <article class="raid-card upcoming-card ground-glow">
-      <div class="raid-card-image-wrap">
-        <a href="counters.html#groudon" class="raid-card-image-link">
-          <img
-            class="raid-card-image"
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png"
-            alt="Groudon"
-          >
-        </a>
-        <span class="raid-badge legendary-badge">5★</span>
-      </div>
-
-      <div class="raid-card-body">
-        <div class="raid-card-head">
-          <h3>
-            <a href="counters.html#groudon" class="raid-card-title-link">Groudon</a>
-          </h3>
-          <span class="raid-status upcoming">Apr 15 → Apr 21</span>
-        </div>
-
-        <div class="type-row">
-          <span class="type-pill ground">Ground</span>
-        </div>
-
-        <p class="raid-dex-rank">DialgaDex: #1 Primal Ground</p>
-        <p class="raid-meta-text">
-          One of the best Ground investments in the game and a very high-priority future raid.
-        </p>
-      </div>
-    </article>
-    
-    <article class="raid-card upcoming-card psychic-glow">
-      <div class="raid-card-image-wrap">
-        <a href="counters.html#mega-alakazam" class="raid-card-image-link">
-          <img
-            class="raid-card-image"
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10037.png"
-            alt="Mega Alakazam"
-          >
-        </a>
-        <span class="raid-badge mega-badge">Mega</span>
-      </div>
-
-      <div class="raid-card-body">
-        <div class="raid-card-head">
-          <h3>
-            <a href="counters.html#mega-alakazam" class="raid-card-title-link">Mega Alakazam</a>
-          </h3>
-          <span class="raid-status upcoming">Apr 15 → Apr 21</span>
-        </div>
-
-        <div class="type-row">
-          <span class="type-pill psychic">Psychic</span>
-        </div>
-
-        <p class="raid-dex-rank">DialgaDex: #2 Psychic attacker</p>
-        <p class="raid-meta-text">
-          Premium Psychic mega with real raid value and great offensive upside.
-        </p>
-      </div>
-    </article>
-
-    <article class="raid-card upcoming-card electric-glow">
-      <div class="raid-card-image-wrap">
-        <a href="counters.html#tapu-koko" class="raid-card-image-link">
-          <img
-            class="raid-card-image"
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/785.png"
-            alt="Tapu Koko"
-          >
-        </a>
-        <span class="raid-badge legendary-badge">5★</span>
-      </div>
-
-      <div class="raid-card-body">
-        <div class="raid-card-head">
-          <h3>
-            <a href="counters.html#tapu-koko" class="raid-card-title-link">Tapu Koko</a>
-          </h3>
-          <span class="raid-status upcoming">Apr 22 → Apr 28</span>
-        </div>
-
-        <div class="type-row">
-          <span class="type-pill electric">Electric</span>
-          <span class="type-pill fairy">Fairy</span>
-        </div>
-
-        <p class="raid-dex-rank">DialgaDex: Fast Electric/Fairy pressure</p>
-        <p class="raid-meta-text">
-          Strong typing and useful offensive coverage make it a solid raid target for collectors and specialists.
-        </p>
-      </div>
-    </article>
-    
-    <article class="raid-card upcoming-card water-glow">
-      <div class="raid-card-image-wrap">
-        <a href="counters.html#mega-sharpedo" class="raid-card-image-link">
-          <img
-            class="raid-card-image"
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10070.png"
-            alt="Mega Sharpedo"
-          >
-        </a>
-        <span class="raid-badge mega-badge">Mega</span>
-      </div>
-
-      <div class="raid-card-body">
-        <div class="raid-card-head">
-          <h3>
-            <a href="counters.html#mega-sharpedo" class="raid-card-title-link">Mega Sharpedo</a>
-          </h3>
-          <span class="raid-status upcoming">Apr 22 → Apr 28</span>
-        </div>
-
-        <div class="type-row">
-          <span class="type-pill water">Water</span>
-          <span class="type-pill dark">Dark</span>
-        </div>
-
-        <p class="raid-dex-rank">DialgaDex: Water / Dark mega utility</p>
-        <p class="raid-meta-text">
-          Valuable for players looking for a Water-aligned mega with extra Dark-type flexibility.
-        </p>
-      </div>
-    </article>
-
-    <article class="raid-card upcoming-card psychic-glow">
-      <div class="raid-card-image-wrap">
-        <a href="counters.html#tapu-lele" class="raid-card-image-link">
-          <img
-            class="raid-card-image"
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png"
-            alt="Tapu Lele"
-          >
-        </a>
-        <span class="raid-badge legendary-badge">5★</span>
-      </div>
-
-      <div class="raid-card-body">
-        <div class="raid-card-head">
-          <h3>
-            <a href="counters.html#tapu-lele" class="raid-card-title-link">Tapu Lele</a>
-          </h3>
-          <span class="raid-status upcoming">Apr 29 → May 5</span>
-        </div>
-
-        <div class="type-row">
-          <span class="type-pill psychic">Psychic</span>
-          <span class="type-pill fairy">Fairy</span>
-        </div>
-
-        <p class="raid-dex-rank">DialgaDex: Psychic/Fairy offensive value</p>
-        <p class="raid-meta-text">
-          A strong dual-type legendary with good raid appeal and strong collector value.
-        </p>
-      </div>
-    </article>
-
-    <article class="raid-card upcoming-card ghost-glow">
-      <div class="raid-card-image-wrap">
-        <a href="counters.html#mega-banette" class="raid-card-image-link">
-          <img
-            class="raid-card-image"
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10056.png"
-            alt="Mega Banette"
-          >
-        </a>
-        <span class="raid-badge mega-badge">Mega</span>
-      </div>
-
-      <div class="raid-card-body">
-        <div class="raid-card-head">
-          <h3>
-            <a href="counters.html#mega-banette" class="raid-card-title-link">Mega Banette</a>
-          </h3>
-          <span class="raid-status upcoming">Apr 29 → May 5</span>
-        </div>
-
-        <div class="type-row">
-          <span class="type-pill ghost">Ghost</span>
-        </div>
-
-        <p class="raid-dex-rank">DialgaDex: Ghost mega niche</p>
-        <p class="raid-meta-text">
-          A more specialized mega, but still useful when you want Ghost damage with mega support.
-        </p>
-      </div>
-    </article>
-</section>
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <p>Built for raid planning, counters, and quick reference.</p>
-  </div>
-</footer>
+  </footer>
 
 </body>
 </html>

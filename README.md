@@ -11,7 +11,7 @@ This project focuses on:
 
 ---
 
-## 🔗 Pages
+## Pages
 
 * **Home** – Overview and entry point
 * **Raids** – Active raids + full schedule
@@ -20,9 +20,9 @@ This project focuses on:
 
 ---
 
-## ✨ Features
+## Features
 
-### 🎯 Raid Overview
+### Raid Overview
 
 * Active raids clearly highlighted
 * Upcoming raids with exact dates (no more "Soon")
@@ -34,7 +34,7 @@ This project focuses on:
 
 ---
 
-### 📅 Raid Schedule
+### Raid Schedule
 
 * Dedicated schedule section with:
 
@@ -45,7 +45,7 @@ This project focuses on:
 
 ---
 
-### ⚔️ Counters Page
+### Counters Page
 
 * Best and budget counters for each boss
 * Top 6 best + top 6 budget picks per raid
@@ -59,7 +59,7 @@ This project focuses on:
 
 ---
 
-### 🧠 Counter Methodology
+### Counter Methodology
 
 All counters are evaluated using a consistent simulation standard:
 
@@ -75,7 +75,7 @@ Raid performance data is based on **Pokebattler simulations**.
 
 ---
 
-### 🎨 Visual Design
+### Visual Design
 
 * Type-based glow system (Water, Rock, Psychic, etc.)
 * Improved hover feedback for raid and counter cards
@@ -86,7 +86,7 @@ Raid performance data is based on **Pokebattler simulations**.
 
 ---
 
-### 📩 Contact Page
+### Contact Page
 
 * Structured support-style form
 * Built-in HTML validation
@@ -94,7 +94,7 @@ Raid performance data is based on **Pokebattler simulations**.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * HTML5
 * CSS3 (no frameworks)
@@ -103,7 +103,7 @@ Raid performance data is based on **Pokebattler simulations**.
 
 ---
 
-## 📌 Project Goals
+## Project Goals
 
 This project was built to:
 
@@ -115,7 +115,7 @@ This project was built to:
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 * The contact form is currently **static** (no backend)
 * To enable real submissions, a form service or backend is required
@@ -123,7 +123,7 @@ This project was built to:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Add backend or form service integration
 * Add filtering/search for counters
@@ -133,12 +133,12 @@ This project was built to:
 
 ---
 
-## 👤 Author
+## Author
 
 StormHB
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational and portfolio purposes.
