@@ -4,6 +4,27 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.5.1] - SEO & Structure Improvements
+
+### Added
+
+* Open Graph (OG) meta tags on all pages:
+  * `og:title`, `og:description`, `og:image`
+  * `og:url` per page
+  * `og:site_name`
+* Page-specific meta descriptions for better SEO
+
+### Fixed
+
+* Incorrect `og:url` values (all pages now point to correct URLs)
+* Inconsistent HTML indentation across pages
+* Improved structure inside `<body>` for readability
+
+### Improved
+
+* Better link previews when sharing pages (Discord, WhatsApp, etc.)
+* More consistent and maintainable HTML structure
+
 ## [1.5.0] - Raid Card Layout & Visual Consistency
 
 ### Changed

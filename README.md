@@ -86,6 +86,16 @@ Raid performance data is based on **Pokebattler simulations**.
 
 ---
 
+### SEO & Metadata
+
+* Page-specific meta descriptions for all pages
+* Open Graph (OG) support for link previews:
+  * Title, description, and preview image
+  * Correct page URLs
+* Improved structure for better indexing and sharing
+
+---
+
 ### Contact Page
 
 * Structured support-style form
