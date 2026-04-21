@@ -4,6 +4,31 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.7.0] - Accessibility & Semantic Structure Improvements
+
+### Added
+
+* Added ARIA labels to navigation, interactive elements, and sections
+* Added descriptive `aria-label` attributes to all clickable cards
+* Introduced skip link for improved keyboard navigation
+* Improved form accessibility (`aria-describedby`, `autocomplete`)
+
+### Changed
+
+* Updated navigation to include proper `aria-label` and `aria-current`
+* Converted raid schedule timeline to semantic list structure (`ul` / `li`)
+* Standardized semantic sectioning across all pages (`section`, `main`, `nav`)
+* Improved mobile navigation toggle accessibility (checkbox + label pattern)
+
+### Improved
+
+* Enhanced screen reader compatibility across all pages
+* Improved keyboard navigation usability
+* Increased consistency of HTML structure and readability
+* Refined overall accessibility compliance of the project
+
+---
+
 ## [1.6.1] - Clickable Cards & Glow System Refinement
 
 ### Changed

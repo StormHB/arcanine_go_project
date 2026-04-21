@@ -8,13 +8,14 @@ This project focuses on:
 - Counter recommendations  
 - Raid schedule overview  
 - Clean UI/UX with themed styling  
+- Accessibility and semantic structure  
 
 ---
 
 ## Pages
 
 - Home – Overview and entry point  
-- Raids – Active raids + full schedule  
+- Raids – Active raids and full schedule  
 - Counters – Best and budget counters per boss  
 - Contact – Support-style form page  
 
@@ -33,6 +34,7 @@ This project focuses on:
   - 5★ raids (left)  
   - Mega raids (right)  
 - Manually updated to reflect current in-game raid rotation  
+- Accessible clickable cards with descriptive labels  
 
 ---
 
@@ -44,6 +46,7 @@ This project focuses on:
   - Clear rotation breakdown  
 - Improved visual clarity and readability  
 - Consistent formatting across all rotation blocks  
+- Semantic list structure for better accessibility  
 
 ---
 
@@ -54,7 +57,7 @@ This project focuses on:
 - Performance displayed using Time to Win (TTW)  
 - Percentage difference relative to the best counter  
 - Counters strictly sorted by TTW performance  
-- Smooth scrolling from raids → counters  
+- Smooth scrolling from raids to counters  
 - Fixed anchor offset (no incorrect scroll positions)  
 
 #### Advanced counter features
@@ -65,7 +68,7 @@ This project focuses on:
     <span class="move legacy-move" tabindex="0">Move Name</span>
     ```
   - Tooltip-based explanation  
-  - Removed inconsistent legacy indicators  
+  - Consistent usage across all counters  
 
 - Move-specific indicators  
   - Hidden Power type support  
@@ -75,10 +78,10 @@ This project focuses on:
 
 - Center-aligned counter cards  
 - Consistent chip sizing across all bosses  
-- Cleaner visual hierarchy for:
+- Clear visual hierarchy for:
   - Pokémon name  
   - Moves  
-  - TTW + % difference  
+  - TTW and percentage difference  
 
 ---
 
@@ -98,6 +101,17 @@ Raid performance data is based on Pokebattler simulations.
 
 ---
 
+### Accessibility
+
+- Semantic HTML structure (`header`, `nav`, `main`, `section`, `footer`)  
+- ARIA labels for navigation and interactive elements  
+- Skip link for keyboard navigation  
+- Accessible clickable cards using descriptive labels  
+- Improved navigation usability for screen readers  
+- Form accessibility with labels, descriptions, and autocomplete  
+
+---
+
 ### Visual Design
 
 - Unified type-based glow system across raid and summary cards  
@@ -106,7 +120,6 @@ Raid performance data is based on Pokebattler simulations.
 - Clean dark theme UI  
 - Improved alignment and spacing across all components  
 - Standardized Pokémon sprite scaling and positioning  
-- Refactored legacy move tooltip system  
 - Clear distinction between best and budget counters  
 
 ---
@@ -117,6 +130,7 @@ Raid performance data is based on Pokebattler simulations.
 - Open Graph (OG) support:
   - Title, description, preview image  
   - Correct page URLs  
+- Twitter card metadata  
 - Improved structure for indexing and sharing  
 
 ---
@@ -126,6 +140,7 @@ Raid performance data is based on Pokebattler simulations.
 - Structured support-style form  
 - Built-in HTML validation  
 - Topic-based submission categories  
+- Accessibility improvements for form usability  
 
 ---
 
@@ -157,8 +172,8 @@ This project was built to:
 - Practice semantic HTML structure  
 - Build a multi-page responsive website  
 - Create a consistent UI system  
-- Present data in a structured way  
-- Simulate a real-world gaming guide  
+- Improve accessibility and usability  
+- Present data in a structured and clear way  
 
 ---
 
