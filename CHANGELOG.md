@@ -26,6 +26,8 @@ All notable changes to this project are documented here.
 * Improved keyboard navigation usability
 * Increased consistency of HTML structure and readability
 * Refined overall accessibility compliance of the project
+* Added mobile-friendly and accessibility indicators to hero section
+* Improved project metadata clarity on homepage
 
 ---
 

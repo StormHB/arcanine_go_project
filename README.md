@@ -112,6 +112,14 @@ Raid performance data is based on Pokebattler simulations.
 
 ---
 
+### 🔧 Technical Features
+- Fully responsive, mobile-friendly layout  
+- Basic accessibility support (ARIA, keyboard navigation, focus states)  
+- Semantic HTML structure  
+- Deployed on GitHub Pages and Netlify  
+
+---
+
 ### Visual Design
 
 - Unified type-based glow system across raid and summary cards  
