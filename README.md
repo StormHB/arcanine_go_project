@@ -187,16 +187,16 @@ This project was built to:
 
 ## Notes
 
-- The contact form is currently static (no backend)  
-- Backend or form service required for real submissions  
-- Counter data is adapted manually  
-- Raid rotations are updated manually  
+- The contact form is currently static and does not process submissions  
+- Backend support for handling form submissions is planned for a future update  
+- Counter data is adapted manually
+- Raid rotations are updated manually
 
 ---
 
 ## Future Improvements
 
-- Add backend or form service integration  
+- Implement backend support for contact form submissions  
 - Add filtering/search for counters  
 - Add animations or micro-interactions  
 - Improve mobile navigation UX  
