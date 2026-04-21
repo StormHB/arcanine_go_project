@@ -230,6 +230,7 @@ section {
   height: 240px;
   background: radial-gradient(circle, rgba(249, 115, 22, 0.24), transparent 65%);
   border-radius: 50%;
+  pointer-events: none;
 }
 
 .eyebrow {
@@ -324,6 +325,8 @@ h2 {
   border-radius: 999px;
   font-weight: 700;
   transition: 0.2s ease;
+  position: relative;
+  z-index: 2;
 }
 
 .btn-primary {
