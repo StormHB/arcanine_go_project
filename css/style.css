@@ -1656,3 +1656,19 @@ label:focus-visible {
   color: var(--muted);
   line-height: 1.2;
 }
+
+.month-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.month-selector label {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.month-selector select {
+  max-width: 260px;
+}

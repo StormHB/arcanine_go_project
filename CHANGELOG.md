@@ -4,6 +4,23 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.8.0] - JS Raid System (Initial Refactor)
+
+### Added
+- JavaScript-based raid schedule rendering (`render-raids.js`)
+- Month selector for raid rotations
+- `rotations.js` data structure for managing raid data
+
+### Changed
+- Replaced static raid schedule HTML with dynamic JS rendering
+- Introduced modular data → render architecture
+
+### Notes
+- Initial step towards full JS-driven site
+- Only partial raid card migration (Kyogre)
+
+---
+
 ## [1.7.0] - Accessibility & Semantic Structure Improvements
 
 ### Added

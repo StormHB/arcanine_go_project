@@ -1,0 +1,126 @@
+import { raidRotations } from "./data/rotations.js";
+
+
+const monthSelect = document.querySelector("#month-select");
+const scheduleList = document.querySelector("#raid-schedule-list");
+
+function renderMonthOptions() {
+  raidRotations.forEach((month) => {
+    const option = document.createElement("option");
+
+    option.value = month.id;
+    option.textContent = `${month.label} (${month.status})`;
+
+    if (month.status === "current") {
+      option.selected = true;
+    }
+
+    monthSelect.appendChild(option);
+  });
+}
+
+function renderSchedule(monthId) {
+  const selectedMonth = raidRotations.find((month) => month.id === monthId);
+
+  scheduleList.innerHTML = "";
+
+  if (!selectedMonth || selectedMonth.schedule.length === 0) {
+    scheduleList.innerHTML = `
+      <li class="timeline-item raid-schedule-item">
+        <p>No raid schedule added for this month yet.</p>
+      </li>
+    `;
+    return;
+  }
+
+  selectedMonth.schedule.forEach((rotation) => {
+    const item = document.createElement("li");
+    item.className = "timeline-item raid-schedule-item";
+
+    item.innerHTML = `
+      <div class="raid-schedule-head">
+        ${rotation.icons
+          .map(
+            (icon) => `
+              <img
+                class="raid-schedule-icon"
+                src="${icon.image}"
+                alt="${icon.name}"
+              >
+            `
+          )
+          .join("")}
+
+        <div>
+          <h3>${rotation.date}</h3>
+          <p class="raid-schedule-dates">${rotation.time}</p>
+        </div>
+      </div>
+
+      <p><strong>5★:</strong> ${rotation.fiveStar}</p>
+      <p><strong>Mega:</strong> ${rotation.mega}</p>
+    `;
+
+    scheduleList.appendChild(item);
+  });
+}
+
+const raidCardGrid = document.querySelector("#raid-card-grid");
+
+function renderRaidCards(monthId) {
+  const selectedMonth = raidRotations.find((month) => month.id === monthId);
+
+  raidCardGrid.innerHTML = "";
+
+  if (!selectedMonth || !selectedMonth.raidCards || selectedMonth.raidCards.length === 0) {
+    raidCardGrid.innerHTML = `
+      <p class="meta-copy">No raid cards added for this month yet.</p>
+    `;
+    return;
+  }
+
+  selectedMonth.raidCards.forEach((raid) => {
+    const card = document.createElement("a");
+    card.href = raid.href;
+    card.className = `raid-card ${raid.cardClass} raid-card-link`;
+    card.setAttribute("aria-label", `View ${raid.name} counters and raid details`);
+
+    card.innerHTML = `
+      <div class="raid-card-image-wrap">
+        <img
+          class="raid-card-image"
+          src="${raid.image}"
+          alt="${raid.imageAlt}"
+        >
+        <span class="raid-badge ${raid.badgeClass}">${raid.badge}</span>
+      </div>
+
+      <div class="raid-card-body">
+        <div class="raid-card-head">
+          <h3>${raid.name}</h3>
+          <span class="raid-status ${raid.statusClass}">${raid.status}</span>
+        </div>
+
+        <div class="type-row">
+          ${raid.types
+            .map((type) => `<span class="type-pill ${type}">${type.toUpperCase()}</span>`)
+            .join("")}
+        </div>
+
+        <p class="raid-dex-rank">${raid.dexRank}</p>
+        <p class="raid-meta-text">${raid.description}</p>
+      </div>
+    `;
+
+    raidCardGrid.appendChild(card);
+  });
+}
+
+renderMonthOptions();
+renderSchedule(monthSelect.value);
+renderRaidCards(monthSelect.value);
+
+monthSelect.addEventListener("change", () => {
+  renderSchedule(monthSelect.value);
+  renderRaidCards(monthSelect.value);
+});
