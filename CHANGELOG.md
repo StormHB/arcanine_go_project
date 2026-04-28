@@ -16,6 +16,7 @@ All notable changes to this project are documented here.
 ### Improved
 - Reduced HTML size and duplication
 - Centralized raid data management
+- Raid status is now calculated dynamically based on date ranges (Active / Upcoming / Ended)
 
 ### Notes
 - Raids page is now fully data-driven

@@ -80,8 +80,7 @@ export const raidRotations = [
         cardClass: "water-glow",
         badge: "5★",
         badgeClass: "legendary-badge",
-        status: "April 8 → April 14",
-        statusClass: "upcoming",
+        dateRange: ["2026-04-08", "2026-04-14"],
         types: ["water"],
         dexRank: "DialgaDex: #1 Primal Water / #2 Shadow Water",
         description: "One of the most valuable Water raid lines in the game. Excellent long-term PvE target."
@@ -96,8 +95,7 @@ export const raidRotations = [
         cardClass: "rock-glow",
         badge: "Mega",
         badgeClass: "mega-badge",
-        status: "April 8 → April 14",
-        statusClass: "upcoming",
+        dateRange: ["2026-04-08", "2026-04-14"],
         types: ["rock", "flying"],
         dexRank: "DialgaDex: Top-end Rock mega",
         description: "Strong Rock mega for raid teams. Best when you want both solid Rock damage and a team mega boost."
@@ -112,8 +110,7 @@ export const raidRotations = [
         cardClass: "ground-glow",
         badge: "5★",
         badgeClass: "legendary-badge",
-        status: "Active",
-        statusClass: "active",
+        dateRange: ["2026-04-15", "2026-04-21"],
         types: ["ground"],
         dexRank: "DialgaDex: #1 Primal Ground",
         description: "One of the best Ground investments in the game and a very high-priority future raid."
@@ -128,8 +125,7 @@ export const raidRotations = [
         cardClass: "psychic-glow",
         badge: "Mega",
         badgeClass: "mega-badge",
-        status: "Active",
-        statusClass: "active",
+        dateRange: ["2026-04-15", "2026-04-21"],
         types: ["psychic"],
         dexRank: "DialgaDex: #2 Psychic attacker",
         description: "Premium Psychic mega with real raid value and great offensive upside."
@@ -144,8 +140,7 @@ export const raidRotations = [
         cardClass: "electric-glow",
         badge: "5★",
         badgeClass: "legendary-badge",
-        status: "Apr 22 → Apr 28",
-        statusClass: "upcoming",
+        dateRange: ["2026-04-22", "2026-04-28"],
         types: ["electric", "fairy"],
         dexRank: "DialgaDex: Fast Electric/Fairy pressure",
         description: "Strong typing and useful offensive coverage make it a solid raid target for collectors and specialists."
@@ -160,8 +155,7 @@ export const raidRotations = [
         cardClass: "water-glow",
         badge: "Mega",
         badgeClass: "mega-badge",
-        status: "Apr 22 → Apr 28",
-        statusClass: "upcoming",
+        dateRange: ["2026-04-22", "2026-04-28"],
         types: ["water", "dark"],
         dexRank: "DialgaDex: Water / Dark mega utility",
         description: "Valuable for players looking for a Water-aligned mega with extra Dark-type flexibility."
@@ -176,8 +170,7 @@ export const raidRotations = [
         cardClass: "psychic-glow",
         badge: "5★",
         badgeClass: "legendary-badge",
-        status: "Apr 29 → May 5",
-        statusClass: "upcoming",
+        dateRange: ["2026-04-29", "2026-05-05"],
         types: ["psychic", "fairy"],
         dexRank: "DialgaDex: Strong Fairy/Psychic option",
         description: "Solid dual typing and raid utility make it a worthwhile addition to many teams."
@@ -192,8 +185,7 @@ export const raidRotations = [
         cardClass: "ghost-glow",
         badge: "Mega",
         badgeClass: "mega-badge",
-        status: "Apr 29 → May 5",
-        statusClass: "upcoming",
+        dateRange: ["2026-04-29", "2026-05-05"],
         types: ["ghost"],
         dexRank: "DialgaDex: Ghost mega attacker",
         description: "Useful Ghost-type mega with niche but valuable raid applications."

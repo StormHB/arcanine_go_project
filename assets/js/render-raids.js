@@ -1,8 +1,34 @@
 import { raidRotations } from "./data/rotations.js";
 
-
 const monthSelect = document.querySelector("#month-select");
 const scheduleList = document.querySelector("#raid-schedule-list");
+const raidCardGrid = document.querySelector("#raid-card-grid");
+
+function getRaidStatus(dateRange) {
+  const today = new Date();
+
+  const start = new Date(dateRange[0]);
+  const end = new Date(dateRange[1]);
+
+  if (today >= start && today <= end) {
+    return {
+      text: "Active",
+      class: "active"
+    };
+  }
+
+  if (today < start) {
+    return {
+      text: `${start.toLocaleDateString("en-US", { month: "short", day: "numeric" })} → ${end.toLocaleDateString("en-US", { month: "short", day: "numeric" })}`,
+      class: "upcoming"
+    };
+  }
+
+  return {
+    text: "Ended",
+    class: "ended"
+  };
+}
 
 function renderMonthOptions() {
   raidRotations.forEach((month) => {
@@ -65,8 +91,6 @@ function renderSchedule(monthId) {
   });
 }
 
-const raidCardGrid = document.querySelector("#raid-card-grid");
-
 function renderRaidCards(monthId) {
   const selectedMonth = raidRotations.find((month) => month.id === monthId);
 
@@ -80,6 +104,8 @@ function renderRaidCards(monthId) {
   }
 
   selectedMonth.raidCards.forEach((raid) => {
+    const status = getRaidStatus(raid.dateRange);
+
     const card = document.createElement("a");
     card.href = raid.href;
     card.className = `raid-card ${raid.cardClass} raid-card-link`;
@@ -98,7 +124,7 @@ function renderRaidCards(monthId) {
       <div class="raid-card-body">
         <div class="raid-card-head">
           <h3>${raid.name}</h3>
-          <span class="raid-status ${raid.statusClass}">${raid.status}</span>
+          <span class="raid-status ${status.class}">${status.text}</span>
         </div>
 
         <div class="type-row">
