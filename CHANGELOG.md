@@ -4,6 +4,24 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.8.1] - Raid Cards Migration to JS
+
+### Added
+- Full raid card dataset for April 2026 in `rotations.js`
+
+### Changed
+- Replaced all static raid cards with dynamic JS rendering
+- Unified raid card generation through `render-raids.js`
+
+### Improved
+- Reduced HTML size and duplication
+- Centralized raid data management
+
+### Notes
+- Raids page is now fully data-driven
+
+---
+
 ## [1.8.0] - JS Raid System (Initial Refactor)
 
 ### Added
