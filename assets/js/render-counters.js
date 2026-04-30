@@ -1,15 +1,45 @@
-import { counterBosses } from "./data/counters.js";
+import { counterMonths } from "./data/counters.js";
 
+const monthSelect = document.querySelector("#counter-month-select");
 const countersGrid = document.querySelector("#counters-grid");
 
 function formatType(type) {
   return type.charAt(0).toUpperCase() + type.slice(1);
 }
 
+function getMonthStatus(monthId) {
+  const now = new Date();
+  const [year, month] = monthId.split("-").map(Number);
+
+  const start = new Date(year, month - 1, 1, 10, 0, 0);
+  const end = new Date(year, month, 1, 10, 0, 0);
+
+  if (now >= start && now < end) return "current";
+  if (now < start) return "upcoming";
+  return "history";
+}
+
+function getBossStatus(subtitle) {
+  const now = new Date();
+  const match = subtitle.match(/([A-Za-z]+) (\d+) to ([A-Za-z]+) (\d+)/);
+
+  if (!match) return "";
+
+  const [, startMonthName, startDay, endMonthName, endDay] = match;
+  const year = 2026;
+
+  const start = new Date(`${startMonthName} ${startDay}, ${year} 10:00:00`);
+  const end = new Date(`${endMonthName} ${endDay}, ${year} 10:00:00`);
+
+  if (now >= start && now < end) return "current-boss";
+  if (now < start) return "upcoming-boss";
+  return "ended-boss";
+}
+
 function renderMove(move) {
   const miniType = move.type
     ? `<span class="mini-type mini-type-${move.type}">
-         ${move.type.charAt(0).toUpperCase() + move.type.slice(1)}
+         ${formatType(move.type)}
        </span>`
     : "";
 
@@ -24,6 +54,31 @@ function renderMove(move) {
     ${move.name}
     ${miniType}
   </span>`;
+}
+
+function renderMonthOptions() {
+  monthSelect.innerHTML = "";
+
+  const defaultMonth =
+    counterMonths.find((month) => getMonthStatus(month.id) === "current" && month.bosses.length > 0) ||
+    counterMonths.find((month) => month.bosses.length > 0) ||
+    counterMonths[0];
+
+  counterMonths.forEach((month) => {
+    const option = document.createElement("option");
+    const computedStatus = getMonthStatus(month.id);
+
+    option.value = month.id;
+    option.textContent = `${month.label} (${computedStatus})`;
+
+    if (month.id === defaultMonth.id) {
+      option.selected = true;
+    }
+
+    monthSelect.appendChild(option);
+  });
+
+  return defaultMonth.id;
 }
 
 function renderCounterChip(counter, type) {
@@ -54,15 +109,29 @@ function renderCounterGroup(title, counters, type) {
 }
 
 function renderBossCard(boss) {
+  const bossStatus = getBossStatus(boss.subtitle);
+
+  const bossStatusLabel =
+  bossStatus === "current-boss"
+    ? "Active"
+    : bossStatus === "upcoming-boss"
+      ? "Upcoming"
+      : "Ended";
+
   return `
     <article
       id="${boss.id}"
-      class="boss-card ${boss.themeClass}"
+      class="boss-card ${boss.themeClass} ${bossStatus} ${bossStatus === "current-boss" ? "is-active" : ""}"
       style="
         --primary-glow: var(--${boss.types[0]});
         --secondary-glow: ${boss.types[1] ? `var(--${boss.types[1]})` : "transparent"};
       "
     >
+
+      <span class="raid-status ${bossStatus.replace("-boss", "")}">
+        ${bossStatusLabel}
+      </span>
+
       <div class="boss-top">
         <img
           class="boss-art"
@@ -76,8 +145,8 @@ function renderBossCard(boss) {
 
           <div class="type-badges">
             ${boss.types
-      .map((type) => `<span class="type-badge type-${type}">${formatType(type)}</span>`)
-      .join("")}
+              .map((type) => `<span class="type-badge type-${type}">${formatType(type)}</span>`)
+              .join("")}
           </div>
         </div>
       </div>
@@ -104,8 +173,26 @@ function renderBossCard(boss) {
   `;
 }
 
-function renderCounters() {
-  countersGrid.innerHTML = counterBosses.map(renderBossCard).join("");
+function renderCounters(monthId) {
+  const selectedMonth = counterMonths.find((month) => month.id === monthId);
+
+  countersGrid.innerHTML = "";
+
+  if (!selectedMonth || selectedMonth.bosses.length === 0) {
+    countersGrid.innerHTML = `
+      <p class="meta-copy">No counter data for this month yet.</p>
+    `;
+    return;
+  }
+
+  countersGrid.innerHTML = selectedMonth.bosses
+    .map(renderBossCard)
+    .join("");
 }
 
-renderCounters();
+const defaultMonthId = renderMonthOptions();
+renderCounters(defaultMonthId);
+
+monthSelect.addEventListener("change", () => {
+  renderCounters(monthSelect.value);
+});
