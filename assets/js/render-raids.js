@@ -5,6 +5,10 @@ const scheduleList = document.querySelector("#raid-schedule-list");
 const summaryGrid = document.querySelector("#raid-summary-grid");
 const raidCardGrid = document.querySelector("#raid-card-grid");
 
+function formatType(type) {
+  return type.charAt(0).toUpperCase() + type.slice(1);
+}
+
 function getRaidStatus(dateRange) {
   const today = new Date();
 
@@ -67,16 +71,16 @@ function renderSchedule(monthId) {
     item.innerHTML = `
       <div class="raid-schedule-head">
         ${rotation.icons
-          .map(
-            (icon) => `
+        .map(
+          (icon) => `
               <img
                 class="raid-schedule-icon"
                 src="${icon.image}"
                 alt="${icon.name}"
               >
             `
-          )
-          .join("")}
+        )
+        .join("")}
 
         <div>
           <h3>${rotation.date}</h3>
@@ -125,10 +129,19 @@ function renderSummaryCards(monthId) {
   }
 
   featuredRaids.forEach((raid) => {
+    const [primaryType, secondaryType] = raid.types;
     const card = document.createElement("a");
 
     card.href = raid.href;
-    card.className = `summary-card ${raid.cardClass} summary-card-link`;
+    card.className = `summary-card ${secondaryType ? "dual-glow" : "single-glow"} summary-card-link`;
+    card.dataset.primaryType = primaryType;
+    card.style.setProperty("--primary-glow", `var(--${primaryType})`);
+
+    if (secondaryType) {
+      card.dataset.secondaryType = secondaryType;
+      card.style.setProperty("--secondary-glow", `var(--${secondaryType})`);
+    }
+
     card.setAttribute("aria-label", `View ${raid.name} counters and details`);
 
     card.innerHTML = `
@@ -173,10 +186,20 @@ function renderRaidCards(monthId) {
 
   selectedMonth.raidCards.forEach((raid) => {
     const status = getRaidStatus(raid.dateRange);
+    const [primaryType, secondaryType] = raid.types;
 
     const card = document.createElement("a");
+
     card.href = raid.href;
-    card.className = `raid-card ${raid.cardClass} raid-card-link`;
+    card.className = `raid-card ${secondaryType ? "dual-glow" : "single-glow"} raid-card-link`;
+    card.dataset.primaryType = primaryType;
+    card.style.setProperty("--primary-glow", `var(--${primaryType})`);
+
+    if (secondaryType) {
+      card.dataset.secondaryType = secondaryType;
+      card.style.setProperty("--secondary-glow", `var(--${secondaryType})`);
+    }
+
     card.setAttribute("aria-label", `View ${raid.name} counters and raid details`);
 
     card.innerHTML = `
@@ -197,8 +220,8 @@ function renderRaidCards(monthId) {
 
         <div class="type-row">
           ${raid.types
-            .map((type) => `<span class="type-pill ${type}">${type.toUpperCase()}</span>`)
-            .join("")}
+        .map((type) => `<span class="type-pill ${type}">${formatType(type)}</span>`)
+        .join("")}
         </div>
 
         <p class="raid-dex-rank">${raid.dexRank}</p>

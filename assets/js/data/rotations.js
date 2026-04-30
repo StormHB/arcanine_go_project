@@ -77,7 +77,6 @@ export const raidRotations = [
         href: "counters.html#kyogre",
         image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png",
         imageAlt: "Kyogre",
-        cardClass: "water-glow",
         badge: "5★",
         badgeClass: "legendary-badge",
         dateRange: ["2026-04-08", "2026-04-14"],
@@ -92,7 +91,6 @@ export const raidRotations = [
         href: "counters.html#mega-aerodactyl",
         image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10042.png",
         imageAlt: "Mega Aerodactyl",
-        cardClass: "rock-glow",
         badge: "Mega",
         badgeClass: "mega-badge",
         dateRange: ["2026-04-08", "2026-04-14"],
@@ -107,7 +105,6 @@ export const raidRotations = [
         href: "counters.html#groudon",
         image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png",
         imageAlt: "Groudon",
-        cardClass: "ground-glow",
         badge: "5★",
         badgeClass: "legendary-badge",
         dateRange: ["2026-04-15", "2026-04-21"],
@@ -122,7 +119,6 @@ export const raidRotations = [
         href: "counters.html#mega-alakazam",
         image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10037.png",
         imageAlt: "Mega Alakazam",
-        cardClass: "psychic-glow",
         badge: "Mega",
         badgeClass: "mega-badge",
         dateRange: ["2026-04-15", "2026-04-21"],
@@ -137,7 +133,6 @@ export const raidRotations = [
         href: "counters.html#tapu-koko",
         image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/785.png",
         imageAlt: "Tapu Koko",
-        cardClass: "electric-glow",
         badge: "5★",
         badgeClass: "legendary-badge",
         dateRange: ["2026-04-22", "2026-04-28"],
@@ -152,7 +147,6 @@ export const raidRotations = [
         href: "counters.html#mega-sharpedo",
         image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10070.png",
         imageAlt: "Mega Sharpedo",
-        cardClass: "water-glow",
         badge: "Mega",
         badgeClass: "mega-badge",
         dateRange: ["2026-04-22", "2026-04-28"],
@@ -167,7 +161,6 @@ export const raidRotations = [
         href: "counters.html#tapu-lele",
         image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png",
         imageAlt: "Tapu Lele",
-        cardClass: "psychic-glow",
         badge: "5★",
         badgeClass: "legendary-badge",
         dateRange: ["2026-04-29", "2026-05-05"],
@@ -182,7 +175,6 @@ export const raidRotations = [
         href: "counters.html#mega-banette",
         image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10056.png",
         imageAlt: "Mega Banette",
-        cardClass: "ghost-glow",
         badge: "Mega",
         badgeClass: "mega-badge",
         dateRange: ["2026-04-29", "2026-05-05"],
@@ -197,6 +189,238 @@ export const raidRotations = [
     id: "2026-05",
     label: "May 2026",
     status: "upcoming",
-    schedule: []
+
+    schedule: [
+      {
+        date: "Apr 29 – May 5",
+        time: "10:00 AM → 10:00 AM local time",
+        fiveStar: "Tapu Lele",
+        mega: "Mega Banette",
+        icons: [
+          {
+            name: "Tapu Lele",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png"
+          },
+          {
+            name: "Mega Banette",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10056.png"
+          }
+        ]
+      },
+      {
+        date: "May 6 – May 12",
+        time: "10:00 AM → 10:00 AM local time",
+        fiveStar: "Nihilego",
+        mega: "Mega Camerupt",
+        icons: [
+          {
+            name: "Nihilego",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/793.png"
+          },
+          {
+            name: "Mega Camerupt",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10087.png"
+          }
+        ]
+      },
+      {
+        date: "May 13 – May 19",
+        time: "10:00 AM → 10:00 AM local time",
+        fiveStar: "Blacephalon / Stakataka",
+        mega: "Mega Glalie",
+        icons: [
+          {
+            name: "Blacephalon",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/806.png"
+          },
+          {
+            name: "Stakataka",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/805.png"
+          },
+          {
+            name: "Mega Glalie",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10074.png"
+          }
+        ]
+      },
+      {
+        date: "May 20 – May 26",
+        time: "10:00 AM → 10:00 AM local time",
+        fiveStar: "Tapu Bulu",
+        mega: "Mega Altaria",
+        icons: [
+          {
+            name: "Tapu Bulu",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/787.png"
+          },
+          {
+            name: "Mega Altaria",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10067.png"
+          }
+        ]
+      },
+      {
+        date: "May 27 – Jun 2",
+        time: "10:00 AM → 10:00 AM local time",
+        fiveStar: "Tapu Fini",
+        mega: "Mega Medicham",
+        icons: [
+          {
+            name: "Tapu Fini",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/788.png"
+          },
+          {
+            name: "Mega Medicham",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10054.png"
+          }
+        ]
+      }
+    ],
+
+    raidCards: [
+      {
+        id: "tapu-lele",
+        name: "Tapu Lele",
+        href: "counters.html#tapu-lele",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png",
+        imageAlt: "Tapu Lele",
+        badge: "5★",
+        badgeClass: "legendary-badge",
+        dateRange: ["2026-04-29", "2026-05-05"],
+        types: ["psychic", "fairy"],
+        dexRank: "DialgaDex: Strong Fairy/Psychic option",
+        description: "Solid dual typing and raid utility make it a worthwhile addition to many teams."
+      },
+      {
+        id: "mega-banette",
+        name: "Mega Banette",
+        href: "counters.html#mega-banette",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10056.png",
+        imageAlt: "Mega Banette",
+        badge: "Mega",
+        badgeClass: "mega-badge",
+        dateRange: ["2026-04-29", "2026-05-05"],
+        types: ["ghost"],
+        dexRank: "DialgaDex: Ghost mega attacker",
+        description: "Useful Ghost-type mega with niche but valuable raid applications."
+      },
+      {
+        id: "nihilego",
+        name: "Nihilego",
+        href: "counters.html#nihilego",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/793.png",
+        imageAlt: "Nihilego",
+        badge: "5★",
+        badgeClass: "legendary-badge",
+        dateRange: ["2026-05-06", "2026-05-12"],
+        types: ["rock", "poison"],
+        dexRank: "DialgaDex: Strong Poison/Rock raid option",
+        description: "Useful Poison-type pressure with solid Rock-type coverage."
+      },
+      {
+        id: "mega-camerupt",
+        name: "Mega Camerupt",
+        href: "counters.html#mega-camerupt",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10087.png",
+        imageAlt: "Mega Camerupt",
+        badge: "Mega",
+        badgeClass: "mega-badge",
+        dateRange: ["2026-05-06", "2026-05-12"],
+        types: ["fire", "ground"],
+        dexRank: "DialgaDex: Fire/Ground mega utility",
+        description: "A niche mega with useful typing for specific raid matchups."
+      },
+      {
+        id: "blacephalon",
+        name: "Blacephalon",
+        href: "counters.html#blacephalon",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/806.png",
+        imageAlt: "Blacephalon",
+        badge: "5★",
+        badgeClass: "legendary-badge",
+        dateRange: ["2026-05-13", "2026-05-19"],
+        types: ["fire", "ghost"],
+        dexRank: "DialgaDex: High Ghost/Fire raid pressure",
+        description: "Powerful offensive Ultra Beast with strong Ghost and Fire potential."
+      },
+      {
+        id: "stakataka",
+        name: "Stakataka",
+        href: "counters.html#stakataka",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/805.png",
+        imageAlt: "Stakataka",
+        badge: "5★",
+        badgeClass: "legendary-badge",
+        dateRange: ["2026-05-13", "2026-05-19"],
+        types: ["rock", "steel"],
+        dexRank: "DialgaDex: Rock/Steel Ultra Beast",
+        description: "Defensive Ultra Beast with niche value and regional availability."
+      },
+      {
+        id: "mega-glalie",
+        name: "Mega Glalie",
+        href: "counters.html#mega-glalie",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10074.png",
+        imageAlt: "Mega Glalie",
+        badge: "Mega",
+        badgeClass: "mega-badge",
+        dateRange: ["2026-05-13", "2026-05-19"],
+        types: ["ice"],
+        dexRank: "DialgaDex: Ice mega attacker",
+        description: "Useful Ice-type mega for Dragon, Flying, Grass and Ground raid matchups."
+      },
+      {
+        id: "tapu-bulu",
+        name: "Tapu Bulu",
+        href: "counters.html#tapu-bulu",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/787.png",
+        imageAlt: "Tapu Bulu",
+        badge: "5★",
+        badgeClass: "legendary-badge",
+        dateRange: ["2026-05-20", "2026-05-26"],
+        types: ["grass", "fairy"],
+        dexRank: "DialgaDex: Grass/Fairy raid option",
+        description: "Useful dual typing with Grass and Fairy coverage."
+      },
+      {
+        id: "mega-altaria",
+        name: "Mega Altaria",
+        href: "counters.html#mega-altaria",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10067.png",
+        imageAlt: "Mega Altaria",
+        badge: "Mega",
+        badgeClass: "mega-badge",
+        dateRange: ["2026-05-20", "2026-05-26"],
+        types: ["dragon", "fairy"],
+        dexRank: "DialgaDex: Dragon/Fairy mega utility",
+        description: "A defensive mega with unique typing and useful support value."
+      },
+      {
+        id: "tapu-fini",
+        name: "Tapu Fini",
+        href: "counters.html#tapu-fini",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/788.png",
+        imageAlt: "Tapu Fini",
+        badge: "5★",
+        badgeClass: "legendary-badge",
+        dateRange: ["2026-05-27", "2026-06-02"],
+        types: ["water", "fairy"],
+        dexRank: "DialgaDex: Water/Fairy utility",
+        description: "Bulky dual-type legendary with useful coverage and collection value."
+      },
+      {
+        id: "mega-medicham",
+        name: "Mega Medicham",
+        href: "counters.html#mega-medicham",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10054.png",
+        imageAlt: "Mega Medicham",
+        badge: "Mega",
+        badgeClass: "mega-badge",
+        dateRange: ["2026-05-27", "2026-06-02"],
+        types: ["fighting", "psychic"],
+        dexRank: "DialgaDex: Fighting/Psychic mega",
+        description: "A niche mega with unique typing and useful matchup coverage."
+      }
+    ]
   }
 ];

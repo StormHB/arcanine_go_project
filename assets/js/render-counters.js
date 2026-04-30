@@ -2,6 +2,10 @@ import { counterBosses } from "./data/counters.js";
 
 const countersGrid = document.querySelector("#counters-grid");
 
+function formatType(type) {
+  return type.charAt(0).toUpperCase() + type.slice(1);
+}
+
 function renderMove(move) {
   const miniType = move.type
     ? `<span class="mini-type mini-type-${move.type}">
@@ -51,7 +55,14 @@ function renderCounterGroup(title, counters, type) {
 
 function renderBossCard(boss) {
   return `
-    <article id="${boss.id}" class="boss-card ${boss.themeClass}">
+    <article
+      id="${boss.id}"
+      class="boss-card ${boss.themeClass}"
+      style="
+        --primary-glow: var(--${boss.types[0]});
+        --secondary-glow: ${boss.types[1] ? `var(--${boss.types[1]})` : "transparent"};
+      "
+    >
       <div class="boss-top">
         <img
           class="boss-art"
@@ -65,8 +76,8 @@ function renderBossCard(boss) {
 
           <div class="type-badges">
             ${boss.types
-              .map((type) => `<span class="type-badge type-${type.toLowerCase()}">${type}</span>`)
-              .join("")}
+      .map((type) => `<span class="type-badge type-${type}">${formatType(type)}</span>`)
+      .join("")}
           </div>
         </div>
       </div>
