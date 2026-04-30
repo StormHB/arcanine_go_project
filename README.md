@@ -23,6 +23,13 @@ This project focuses on:
 
 ## Features
 
+### Dynamic Raid System
+
+- Fully JavaScript-driven raid rendering
+- Automatic status detection (Active / Upcoming / Ended)
+- Dynamic summary cards based on current rotation
+- Designed for future automation (scraping / API integration)
+
 ### Raid Overview
 
 - Active raids clearly highlighted  
@@ -152,15 +159,16 @@ Raid performance data is based on Pokebattler simulations.
 
 ---
 
-## Current Raid Rotation (April 2026)
+## Raid Rotations
 
-Active:
-- Groudon (5★)  
-- Mega Alakazam  
+Raid rotations are now dynamically managed through JavaScript.
 
-Upcoming:
-- Tapu Koko (5★)  
-- Mega Sharpedo  
+The site automatically displays:
+- Current (active) raids  
+- Upcoming raid rotations  
+- Featured raids based on real-time status  
+
+All raid data is stored in structured JavaScript files and rendered dynamically, removing the need for manual updates.
 
 ---
 
