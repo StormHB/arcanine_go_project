@@ -33,7 +33,8 @@ This project focuses on:
   - Ended  
 - Dynamic summary cards based on current rotation  
 - No manual updates required for status or featured raids  
-- Designed for future automation (scraping / API integration)  
+- Designed for future automation (scraping / API integration) 
+- Monthly rotation support with history/current/upcoming states 
 
 ---
 
@@ -72,9 +73,7 @@ This project focuses on:
 - Data is defined in `assets/js/data/counters.js`  
 - UI is rendered dynamically via `assets/js/render-counters.js`  
 - No manual HTML editing required for boss cards  
-- Supports advanced move metadata:
-  - Legacy moves  
-  - Hidden Power type indicators  
+- Supports advanced move metadata (legacy moves, Hidden Power types)
 
 #### Updating counters
 
@@ -146,6 +145,8 @@ Raid performance data is based on Pokebattler simulations.
 - Fully responsive, mobile-friendly design  
 - Clean and maintainable codebase  
 - Deployed via GitHub Pages  
+- Unified type color system using CSS variables
+- Automatic single-type and dual-type glow rendering
 
 ---
 
@@ -156,7 +157,10 @@ Raid performance data is based on Pokebattler simulations.
 - Smooth scaling transitions  
 - Clean dark theme UI  
 - Improved spacing and alignment  
-- Standardized Pokémon sprite presentation  
+- Standardized Pokémon sprite presentation 
+- Unified type colors shared across pills, badges and glow effects
+- Dual-type glow blending for raid cards
+- Type-based glow effects for counter boss cards 
 
 ---
 
