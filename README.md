@@ -1,13 +1,13 @@
 # Arcanine Go Project
 
-A clean, modern Pokémon GO raid guide website built with HTML and CSS.
+A clean, modern Pokémon GO raid guide website built with a data-driven JavaScript architecture.
 
 This project focuses on:
 
-- Active raid bosses  
+- Dynamic raid rotations  
 - Counter recommendations  
-- Raid schedule overview  
-- Clean UI/UX with themed styling  
+- Scalable UI system  
+- Clean and responsive design  
 - Accessibility and semantic structure  
 
 ---
@@ -15,7 +15,7 @@ This project focuses on:
 ## Pages
 
 - Home – Overview and entry point  
-- Raids – Active raids and full schedule  
+- Raids – Dynamic raid rotations and featured bosses  
 - Counters – Best and budget counters per boss  
 - Contact – Support-style form page  
 
@@ -25,35 +25,35 @@ This project focuses on:
 
 ### Dynamic Raid System
 
-- Fully JavaScript-driven raid rendering
-- Automatic status detection (Active / Upcoming / Ended)
-- Dynamic summary cards based on current rotation
-- Designed for future automation (scraping / API integration)
+- Fully JavaScript-driven raid rendering  
+- Centralized data structure (`rotations.js`)  
+- Automatic status detection:
+  - Active  
+  - Upcoming  
+  - Ended  
+- Dynamic summary cards based on current rotation  
+- No manual updates required for status or featured raids  
+- Designed for future automation (scraping / API integration)  
+
+---
 
 ### Raid Overview
 
-- Active raids clearly highlighted  
-- Upcoming raids with exact dates (no more "Soon")  
+- Featured raids automatically selected (current + upcoming)  
 - Clean card-based layout  
 - Fully clickable raid and summary cards  
-- Balanced 2-column grid layout for raid cards  
-- Clear separation of:
-  - 5★ raids (left)  
-  - Mega raids (right)  
-- Manually updated to reflect current in-game raid rotation  
-- Accessible clickable cards with descriptive labels  
+- Type-based visual styling  
+- Consistent and scalable component structure  
 
 ---
 
 ### Raid Schedule
 
-- Dedicated schedule section with:
-  - Full date ranges  
-  - Boss icons/sprites  
-  - Clear rotation breakdown  
-- Improved visual clarity and readability  
+- Fully dynamic schedule rendering  
+- Clear timeline of raid rotations  
+- Boss icons and structured layout  
+- Semantic list structure for accessibility  
 - Consistent formatting across all rotation blocks  
-- Semantic list structure for better accessibility  
 
 ---
 
@@ -65,17 +65,31 @@ This project focuses on:
 - Percentage difference relative to the best counter  
 - Counters strictly sorted by TTW performance  
 - Smooth scrolling from raids to counters  
-- Fixed anchor offset (no incorrect scroll positions)  
+- Fixed anchor offset (accurate scroll positioning)  
 
-#### Advanced counter features
+#### JS-driven system
 
-- Legacy / event-exclusive moves  
-  - Unified format across entire project:
+- Data is defined in `assets/js/data/counters.js`  
+- UI is rendered dynamically via `assets/js/render-counters.js`  
+- No manual HTML editing required for boss cards  
+- Supports advanced move metadata:
+  - Legacy moves  
+  - Hidden Power type indicators  
+
+#### Updating counters
+
+1. Add or update a boss object in `counters.js`  
+2. Save — the page automatically re-renders all counters  
+
+#### Counter system features
+
+- Legacy / event-exclusive move support  
+  - Unified format:
     ```html
     <span class="move legacy-move" tabindex="0">Move Name</span>
     ```
   - Tooltip-based explanation  
-  - Consistent usage across all counters  
+  - Consistent across all counters  
 
 - Move-specific indicators  
   - Hidden Power type support  
@@ -84,11 +98,11 @@ This project focuses on:
 #### Layout improvements
 
 - Center-aligned counter cards  
-- Consistent chip sizing across all bosses  
-- Clear visual hierarchy for:
+- Consistent chip sizing  
+- Clear hierarchy:
   - Pokémon name  
   - Moves  
-  - TTW and percentage difference  
+  - TTW and performance difference  
 
 ---
 
@@ -102,7 +116,7 @@ All counters are evaluated using a consistent simulation standard:
 - No party power boost  
 - Hardest boss moveset selected  
 
-This ensures fair comparison across all bosses.
+This ensures fair and comparable results.
 
 Raid performance data is based on Pokebattler simulations.
 
@@ -113,29 +127,36 @@ Raid performance data is based on Pokebattler simulations.
 - Semantic HTML structure (`header`, `nav`, `main`, `section`, `footer`)  
 - ARIA labels for navigation and interactive elements  
 - Skip link for keyboard navigation  
-- Accessible clickable cards using descriptive labels  
-- Improved navigation usability for screen readers  
-- Form accessibility with labels, descriptions, and autocomplete  
+- Accessible clickable cards with descriptive labels  
+- Improved screen reader compatibility  
+- Form accessibility (labels, descriptions, autocomplete)  
 
 ---
 
-### 🔧 Technical Features
-- Fully responsive, mobile-friendly layout  
-- Basic accessibility support (ARIA, keyboard navigation, focus states)  
-- Semantic HTML structure  
-- Deployed on GitHub Pages and Netlify  
+### Technical Features
+
+- Data-driven architecture (JavaScript + structured data)  
+- Modular JavaScript (ES Modules)  
+- Modular separation:
+  - Raid data (`rotations.js`)  
+  - Counter data (`counters.js`)  
+  - Raid rendering (`render-raids.js`)  
+  - Counter rendering (`render-counters.js`)  
+  - Layout (HTML + CSS)  
+- Fully responsive, mobile-friendly design  
+- Clean and maintainable codebase  
+- Deployed via GitHub Pages  
 
 ---
 
 ### Visual Design
 
-- Unified type-based glow system across raid and summary cards  
-- Fully consistent hover effects and animations  
-- Smooth scaling animations using transition-based hover system  
+- Type-based glow system for raid and summary cards  
+- Consistent hover effects and animations  
+- Smooth scaling transitions  
 - Clean dark theme UI  
-- Improved alignment and spacing across all components  
-- Standardized Pokémon sprite scaling and positioning  
-- Clear distinction between best and budget counters  
+- Improved spacing and alignment  
+- Standardized Pokémon sprite presentation  
 
 ---
 
@@ -143,8 +164,9 @@ Raid performance data is based on Pokebattler simulations.
 
 - Page-specific meta descriptions  
 - Open Graph (OG) support:
-  - Title, description, preview image  
-  - Correct page URLs  
+  - Title  
+  - Description  
+  - Preview image  
 - Twitter card metadata  
 - Improved structure for indexing and sharing  
 
@@ -155,20 +177,20 @@ Raid performance data is based on Pokebattler simulations.
 - Structured support-style form  
 - Built-in HTML validation  
 - Topic-based submission categories  
-- Accessibility improvements for form usability  
+- Accessibility improvements  
 
 ---
 
 ## Raid Rotations
 
-Raid rotations are now dynamically managed through JavaScript.
+Raid rotations are dynamically managed through JavaScript.
 
 The site automatically displays:
 - Current (active) raids  
 - Upcoming raid rotations  
 - Featured raids based on real-time status  
 
-All raid data is stored in structured JavaScript files and rendered dynamically, removing the need for manual updates.
+All raid data is stored in structured JavaScript files and rendered dynamically.
 
 ---
 
@@ -176,8 +198,8 @@ All raid data is stored in structured JavaScript files and rendered dynamically,
 
 - HTML5  
 - CSS3 (no frameworks)  
-- Responsive layout  
-- No JavaScript (by design)  
+- JavaScript (ES Modules)  
+- Responsive design  
 
 ---
 
@@ -185,30 +207,30 @@ All raid data is stored in structured JavaScript files and rendered dynamically,
 
 This project was built to:
 
-- Practice semantic HTML structure  
-- Build a multi-page responsive website  
-- Create a consistent UI system  
-- Improve accessibility and usability  
-- Present data in a structured and clear way  
+- Transition from static HTML to a dynamic data-driven system  
+- Improve maintainability and scalability  
+- Build reusable UI components  
+- Practice modern frontend architecture  
+- Improve accessibility and UX  
 
 ---
 
 ## Notes
 
-- The contact form is currently static and does not process submissions  
-- Backend support for handling form submissions is planned for a future update  
-- Counter data is adapted manually
-- Raid rotations are updated manually
+- The contact form is currently static (no backend processing)  
+- Backend integration is planned for future updates  
+- Counter data is currently maintained manually via structured JavaScript  
+- Raid data is structured for future automation  
 
 ---
 
 ## Future Improvements
 
-- Implement backend support for contact form submissions  
-- Add filtering/search for counters  
-- Add animations or micro-interactions  
-- Improve mobile navigation UX  
-- Possibly introduce dynamic data loading  
+- Backend support for contact form submissions  
+- Automated raid data updates (scraper / API integration)  
+- Counter filtering and search system  
+- Additional UI interactions and animations  
+- Performance optimizations  
 
 ---
 
