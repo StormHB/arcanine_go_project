@@ -4,6 +4,26 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.9.1] - Unified Type Styling and May Raid Rotation
+
+### Added
+- May 2026 raid rotation data
+- Unified type-based glow system for raid and summary cards
+- Type-based glow effects for counter boss cards
+- Complete type color support for all Pokémon types
+
+### Changed
+- Unified type data handling using lowercase type keys
+- Updated raid rendering to generate glow colors from type data
+- Replaced manual glow classes with CSS variable-based styling
+
+### Improved
+- Dual-type raid cards now display blended glow effects
+- Counter boss cards now use matching type-based glow styling
+- Visual consistency across raids, summaries, counters and type badges
+
+---
+
 ## [1.9.0] - JS Counters System
 
 ### Added
