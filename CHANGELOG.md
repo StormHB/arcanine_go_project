@@ -4,6 +4,48 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.9.0] - JS Counters System
+
+### Added
+- Fully JavaScript-driven counters page
+- Centralized counter data (`counters.js`)
+- Dynamic rendering of boss cards and counter lists
+- Support for advanced move metadata:
+  - Legacy / event-exclusive moves
+  - Hidden Power type indicators
+
+### Changed
+- Removed static HTML boss cards from `counters.html`
+- Converted all counters to structured JavaScript data
+- Standardized best vs budget counter logic
+
+### Improved
+- Maintainability and scalability of counter data
+- Consistency across all boss entries
+- Prepared foundation for future filtering, search and scraping
+
+---
+
+## [1.8.2] - Complete Raids Page JS Refactor
+
+### Added
+- Automatic summary card generation based on raid data
+- Dynamic raid status calculation (Active / Upcoming / Ended)
+
+### Changed
+- Replaced static summary cards with dynamic JS rendering
+- Unified raid rendering system across summary, schedule, and cards
+
+### Improved
+- Raids page is now fully data-driven
+- Removed need for manual updates of raid status and featured cards
+- Reduced HTML duplication and improved maintainability
+
+### Notes
+- Raids page now automatically reflects current and upcoming rotations
+
+---
+
 ## [1.8.1] - Raid Cards Migration to JS
 
 ### Added
