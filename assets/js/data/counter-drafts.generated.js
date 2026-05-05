@@ -1,5 +1,796 @@
 export const counterDrafts = [
   {
+    "id": "buzzwole",
+    "name": "Buzzwole",
+    "source": "Pokebattler",
+    "sourceUrl": "https://www.pokebattler.com/raids/defenders/BUZZWOLE/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+    "budgetSourceUrl": "https://www.pokebattler.com/raids/defenders/BUZZWOLE/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+    "settings": {
+      "attackerLevel": 40,
+      "weather": "No weather",
+      "friendship": "Not friends",
+      "partyPower": false,
+      "strategy": "No Dodging / Cinematic attack when possible",
+      "sort": "Estimator"
+    },
+    "meta": {
+      "tier": "5★ Raid",
+      "themeClass": "bug-theme",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/794.png",
+      "imageAlt": "Official artwork of Buzzwole",
+      "subtitle": "Regional 5★ Raid • May 13 to May 19",
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "weaknesses": "Flying, Fire, Psychic, Fairy",
+      "difficultyLabel": "Regional"
+    },
+    "hardestMovesetsRaw": [
+      {
+        "fastMove": "Poison Jab",
+        "chargedMove": "Superpower"
+      },
+      {
+        "fastMove": "Counter",
+        "chargedMove": "Power-Up Punch"
+      },
+      {
+        "fastMove": "Counter",
+        "chargedMove": "Superpower"
+      },
+      {
+        "fastMove": "Poison Jab",
+        "chargedMove": "Power-Up Punch"
+      },
+      {
+        "fastMove": "Counter",
+        "chargedMove": "Lunge"
+      },
+      {
+        "fastMove": "Counter",
+        "chargedMove": "Fell Stinger"
+      },
+      {
+        "fastMove": "Poison Jab",
+        "chargedMove": "Fell Stinger"
+      },
+      {
+        "fastMove": "Poison Jab",
+        "chargedMove": "Lunge"
+      }
+    ],
+    "selectedHardestMoveset": {
+      "fastMove": "Poison Jab",
+      "chargedMove": "Superpower"
+    },
+    "bestCountersRaw": [
+      {
+        "rank": 1,
+        "name": "Mega Rayquaza",
+        "fastMove": "Air Slash",
+        "chargedMove": "Dragon Ascent",
+        "legacyDate": "8/4/2023",
+        "power": 136,
+        "cp": 5713,
+        "timeToWin": 230.3,
+        "estimator": 0.79,
+        "deaths": 4
+      },
+      {
+        "rank": 2,
+        "name": "Shadow Moltres",
+        "fastMove": "Wing Attack",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 99.4,
+        "cp": 3465,
+        "timeToWin": 303.8,
+        "estimator": 1.06,
+        "deaths": 8
+      },
+      {
+        "rank": 3,
+        "name": "Rayquaza",
+        "fastMove": "Air Slash",
+        "chargedMove": "Dragon Ascent",
+        "legacyDate": "8/4/2023",
+        "power": 99.2,
+        "cp": 3835,
+        "timeToWin": 304.5,
+        "estimator": 1.06,
+        "deaths": 8
+      },
+      {
+        "rank": 4,
+        "name": "Shadow Toucannon",
+        "fastMove": "Peck",
+        "chargedMove": "Beak Blast",
+        "legacyDate": null,
+        "power": 98.8,
+        "cp": 2689,
+        "timeToWin": 305.9,
+        "estimator": 1.11,
+        "deaths": 15
+      },
+      {
+        "rank": 5,
+        "name": "Shadow Salamence",
+        "fastMove": "Fire Fang",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 93.4,
+        "cp": 3749,
+        "timeToWin": 323,
+        "estimator": 1.13,
+        "deaths": 10
+      },
+      {
+        "rank": 6,
+        "name": "Shadow Staraptor",
+        "fastMove": "Gust",
+        "chargedMove": "Fly",
+        "legacyDate": "7/17/2022",
+        "power": 95.2,
+        "cp": 2825,
+        "timeToWin": 317.6,
+        "estimator": 1.15,
+        "deaths": 15
+      },
+      {
+        "rank": 7,
+        "name": "Mega Salamence",
+        "fastMove": "Fire Fang",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 93.7,
+        "cp": 5031,
+        "timeToWin": 352.5,
+        "estimator": 1.19,
+        "deaths": 6
+      },
+      {
+        "rank": 8,
+        "name": "Enamorus",
+        "fastMove": "Fairy Wind",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 87.9,
+        "cp": 3425,
+        "timeToWin": 351.3,
+        "estimator": 1.21,
+        "deaths": 9
+      },
+      {
+        "rank": 9,
+        "name": "Shadow Ho-Oh",
+        "fastMove": "Hidden Power",
+        "chargedMove": "Brave Bird",
+        "legacyDate": null,
+        "power": 89,
+        "cp": 3863,
+        "timeToWin": 365.3,
+        "estimator": 1.24,
+        "deaths": 7
+      },
+      {
+        "rank": 10,
+        "name": "Moltres",
+        "fastMove": "Wing Attack",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 84.8,
+        "cp": 3465,
+        "timeToWin": 361.1,
+        "estimator": 1.25,
+        "deaths": 8
+      },
+      {
+        "rank": 11,
+        "name": "Mega Pidgeot",
+        "fastMove": "Gust",
+        "chargedMove": "Brave Bird",
+        "legacyDate": "11/4/2020",
+        "power": 84.8,
+        "cp": 3680,
+        "timeToWin": 356.3,
+        "estimator": 1.26,
+        "deaths": 13
+      },
+      {
+        "rank": 12,
+        "name": "Yveltal",
+        "fastMove": "Gust",
+        "chargedMove": "Oblivion Wing",
+        "legacyDate": "8/16/2023",
+        "power": 83.5,
+        "cp": 3781,
+        "timeToWin": 361.2,
+        "estimator": 1.26,
+        "deaths": 11
+      },
+      {
+        "rank": 13,
+        "name": "Toucannon",
+        "fastMove": "Peck",
+        "chargedMove": "Beak Blast",
+        "legacyDate": null,
+        "power": 83.9,
+        "cp": 2689,
+        "timeToWin": 360.2,
+        "estimator": 1.29,
+        "deaths": 15
+      },
+      {
+        "rank": 14,
+        "name": "Shadow Honchkrow",
+        "fastMove": "Peck",
+        "chargedMove": "Sky Attack",
+        "legacyDate": null,
+        "power": 87.5,
+        "cp": 2711,
+        "timeToWin": 346,
+        "estimator": 1.29,
+        "deaths": 21
+      },
+      {
+        "rank": 15,
+        "name": "Shadow Unfezant",
+        "fastMove": "Air Slash",
+        "chargedMove": "Sky Attack",
+        "legacyDate": null,
+        "power": 83.1,
+        "cp": 2734,
+        "timeToWin": 363.8,
+        "estimator": 1.32,
+        "deaths": 17
+      },
+      {
+        "rank": 16,
+        "name": "Shadow Tornadus",
+        "fastMove": "Air Slash",
+        "chargedMove": "Hurricane",
+        "legacyDate": null,
+        "power": 80.5,
+        "cp": 3345,
+        "timeToWin": 374.8,
+        "estimator": 1.32,
+        "deaths": 13
+      },
+      {
+        "rank": 17,
+        "name": "Galarian Articuno",
+        "fastMove": "Psycho Cut",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 82.5,
+        "cp": 3590,
+        "timeToWin": 389.9,
+        "estimator": 1.34,
+        "deaths": 9
+      },
+      {
+        "rank": 18,
+        "name": "Shadow Zapdos",
+        "fastMove": "Thunder Shock",
+        "chargedMove": "Drill Peck",
+        "legacyDate": "9/20/2018",
+        "power": 78.4,
+        "cp": 3527,
+        "timeToWin": 384.6,
+        "estimator": 1.34,
+        "deaths": 11
+      },
+      {
+        "rank": 19,
+        "name": "Shadow Lugia",
+        "fastMove": "Extrasensory",
+        "chargedMove": "Aeroblast+",
+        "legacyDate": "2/26/2022",
+        "power": 94.8,
+        "cp": 3703,
+        "timeToWin": 402.3,
+        "estimator": 1.36,
+        "deaths": 6
+      },
+      {
+        "rank": 20,
+        "name": "Staraptor",
+        "fastMove": "Gust",
+        "chargedMove": "Fly",
+        "legacyDate": "7/17/2022",
+        "power": 79.3,
+        "cp": 2825,
+        "timeToWin": 380.8,
+        "estimator": 1.36,
+        "deaths": 16
+      },
+      {
+        "rank": 21,
+        "name": "Salamence",
+        "fastMove": "Fire Fang",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 77.4,
+        "cp": 3749,
+        "timeToWin": 389.9,
+        "estimator": 1.36,
+        "deaths": 10
+      },
+      {
+        "rank": 22,
+        "name": "Tornadus Therian",
+        "fastMove": "Gust",
+        "chargedMove": "Bleakwind Storm",
+        "legacyDate": "1/10/2024",
+        "power": 76,
+        "cp": 3215,
+        "timeToWin": 397.4,
+        "estimator": 1.39,
+        "deaths": 10
+      },
+      {
+        "rank": 23,
+        "name": "Mega Charizard Y",
+        "fastMove": "Air Slash",
+        "chargedMove": "Blast Burn",
+        "legacyDate": "4/24/2020",
+        "power": 76.5,
+        "cp": 4455,
+        "timeToWin": 405,
+        "estimator": 1.39,
+        "deaths": 9
+      },
+      {
+        "rank": 24,
+        "name": "Braviary",
+        "fastMove": "Air Slash",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 76,
+        "cp": 3088,
+        "timeToWin": 397,
+        "estimator": 1.4,
+        "deaths": 14
+      },
+      {
+        "rank": 25,
+        "name": "Mega Blaziken",
+        "fastMove": "Fire Spin",
+        "chargedMove": "Brave Bird",
+        "legacyDate": null,
+        "power": 74,
+        "cp": 4161,
+        "timeToWin": 407.9,
+        "estimator": 1.45,
+        "deaths": 14
+      },
+      {
+        "rank": 26,
+        "name": "Ho-Oh",
+        "fastMove": "Hidden Power",
+        "chargedMove": "Brave Bird",
+        "legacyDate": null,
+        "power": 82.3,
+        "cp": 3863,
+        "timeToWin": 434.6,
+        "estimator": 1.47,
+        "deaths": 7
+      },
+      {
+        "rank": 27,
+        "name": "Lugia",
+        "fastMove": "Extrasensory",
+        "chargedMove": "Aeroblast++",
+        "legacyDate": "2/26/2022",
+        "power": 96,
+        "cp": 3703,
+        "timeToWin": 440.4,
+        "estimator": 1.47,
+        "deaths": 6
+      },
+      {
+        "rank": 28,
+        "name": "Hisuian Braviary",
+        "fastMove": "Air Slash",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 71.6,
+        "cp": 2814,
+        "timeToWin": 430.6,
+        "estimator": 1.49,
+        "deaths": 11
+      },
+      {
+        "rank": 29,
+        "name": "Shadow Vikavolt",
+        "fastMove": "Volt Switch",
+        "chargedMove": "Fly",
+        "legacyDate": "9/23/2023",
+        "power": 72.5,
+        "cp": 3117,
+        "timeToWin": 416.5,
+        "estimator": 1.5,
+        "deaths": 18
+      },
+      {
+        "rank": 30,
+        "name": "Shadow Mewtwo",
+        "fastMove": "Confusion",
+        "chargedMove": "Psystrike",
+        "legacyDate": "5/8/2020",
+        "power": 71.5,
+        "cp": 4178,
+        "timeToWin": 422.3,
+        "estimator": 1.5,
+        "deaths": 16
+      }
+    ],
+    "budgetCountersRaw": [
+      {
+        "rank": 1,
+        "name": "Toucannon",
+        "fastMove": "Peck",
+        "chargedMove": "Beak Blast",
+        "legacyDate": null,
+        "power": 83.9,
+        "cp": 2689,
+        "timeToWin": 360.2,
+        "estimator": 1.29,
+        "deaths": 15
+      },
+      {
+        "rank": 2,
+        "name": "Staraptor",
+        "fastMove": "Gust",
+        "chargedMove": "Fly",
+        "legacyDate": "7/17/2022",
+        "power": 79.3,
+        "cp": 2825,
+        "timeToWin": 380.8,
+        "estimator": 1.36,
+        "deaths": 16
+      },
+      {
+        "rank": 3,
+        "name": "Salamence",
+        "fastMove": "Fire Fang",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 77.4,
+        "cp": 3749,
+        "timeToWin": 389.9,
+        "estimator": 1.36,
+        "deaths": 10
+      },
+      {
+        "rank": 4,
+        "name": "Braviary",
+        "fastMove": "Air Slash",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 76,
+        "cp": 3088,
+        "timeToWin": 397,
+        "estimator": 1.4,
+        "deaths": 14
+      },
+      {
+        "rank": 5,
+        "name": "Hisuian Braviary",
+        "fastMove": "Air Slash",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 71.6,
+        "cp": 2814,
+        "timeToWin": 430.6,
+        "estimator": 1.49,
+        "deaths": 11
+      },
+      {
+        "rank": 6,
+        "name": "Honchkrow",
+        "fastMove": "Peck",
+        "chargedMove": "Sky Attack",
+        "legacyDate": null,
+        "power": 73.4,
+        "cp": 2711,
+        "timeToWin": 411.8,
+        "estimator": 1.51,
+        "deaths": 21
+      },
+      {
+        "rank": 7,
+        "name": "Flamigo",
+        "fastMove": "Wing Attack",
+        "chargedMove": "Brave Bird",
+        "legacyDate": null,
+        "power": 68,
+        "cp": 2757,
+        "timeToWin": 443.3,
+        "estimator": 1.55,
+        "deaths": 13
+      },
+      {
+        "rank": 8,
+        "name": "Unfezant",
+        "fastMove": "Air Slash",
+        "chargedMove": "Sky Attack",
+        "legacyDate": null,
+        "power": 69,
+        "cp": 2734,
+        "timeToWin": 437.6,
+        "estimator": 1.56,
+        "deaths": 18
+      },
+      {
+        "rank": 9,
+        "name": "Bombirdier",
+        "fastMove": "Wing Attack",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 65.5,
+        "cp": 2487,
+        "timeToWin": 461.1,
+        "estimator": 1.66,
+        "deaths": 20
+      },
+      {
+        "rank": 10,
+        "name": "Vikavolt",
+        "fastMove": "Spark",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 61.6,
+        "cp": 3117,
+        "timeToWin": 489.4,
+        "estimator": 1.72,
+        "deaths": 18
+      },
+      {
+        "rank": 11,
+        "name": "Hawlucha",
+        "fastMove": "Wing Attack",
+        "chargedMove": "Sky Attack",
+        "legacyDate": "2/28/2022",
+        "power": 60.5,
+        "cp": 2410,
+        "timeToWin": 498.2,
+        "estimator": 1.74,
+        "deaths": 15
+      },
+      {
+        "rank": 12,
+        "name": "Swanna",
+        "fastMove": "Air Slash",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 60.3,
+        "cp": 2088,
+        "timeToWin": 500,
+        "estimator": 1.77,
+        "deaths": 19
+      },
+      {
+        "rank": 13,
+        "name": "Dodrio",
+        "fastMove": "Peck",
+        "chargedMove": "Brave Bird",
+        "legacyDate": null,
+        "power": 60.2,
+        "cp": 2362,
+        "timeToWin": 503.2,
+        "estimator": 1.84,
+        "deaths": 26
+      },
+      {
+        "rank": 14,
+        "name": "Talonflame",
+        "fastMove": "Peck",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 56.8,
+        "cp": 2205,
+        "timeToWin": 530.5,
+        "estimator": 1.86,
+        "deaths": 16
+      },
+      {
+        "rank": 15,
+        "name": "Togekiss",
+        "fastMove": "Air Slash",
+        "chargedMove": "Aerial Ace",
+        "legacyDate": null,
+        "power": 64.9,
+        "cp": 3332,
+        "timeToWin": 543.8,
+        "estimator": 1.86,
+        "deaths": 11
+      },
+      {
+        "rank": 16,
+        "name": "Yanmega",
+        "fastMove": "Wing Attack",
+        "chargedMove": "Aerial Ace",
+        "legacyDate": null,
+        "power": 56.7,
+        "cp": 2946,
+        "timeToWin": 540.7,
+        "estimator": 1.87,
+        "deaths": 13
+      },
+      {
+        "rank": 17,
+        "name": "Kilowattrel",
+        "fastMove": "Air Slash",
+        "chargedMove": "Acrobatics",
+        "legacyDate": null,
+        "power": 57.1,
+        "cp": 2443,
+        "timeToWin": 528.7,
+        "estimator": 1.88,
+        "deaths": 21
+      },
+      {
+        "rank": 18,
+        "name": "Fearow",
+        "fastMove": "Peck",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 58.2,
+        "cp": 1997,
+        "timeToWin": 519.6,
+        "estimator": 1.9,
+        "deaths": 27
+      },
+      {
+        "rank": 19,
+        "name": "Noivern",
+        "fastMove": "Air Slash",
+        "chargedMove": "Hurricane",
+        "legacyDate": null,
+        "power": 54.5,
+        "cp": 2764,
+        "timeToWin": 553.3,
+        "estimator": 1.93,
+        "deaths": 15
+      },
+      {
+        "rank": 20,
+        "name": "Hydreigon",
+        "fastMove": "Dragon Breath",
+        "chargedMove": "Fly",
+        "legacyDate": null,
+        "power": 57.1,
+        "cp": 3625,
+        "timeToWin": 530.2,
+        "estimator": 1.93,
+        "deaths": 26
+      },
+      {
+        "rank": 21,
+        "name": "Scyther",
+        "fastMove": "Air Slash",
+        "chargedMove": "Aerial Ace",
+        "legacyDate": null,
+        "power": 54.6,
+        "cp": 2706,
+        "timeToWin": 556.3,
+        "estimator": 1.93,
+        "deaths": 15
+      },
+      {
+        "rank": 22,
+        "name": "Blaziken",
+        "fastMove": "Fire Spin",
+        "chargedMove": "Brave Bird",
+        "legacyDate": null,
+        "power": 55.9,
+        "cp": 2848,
+        "timeToWin": 540.7,
+        "estimator": 1.93,
+        "deaths": 21
+      },
+      {
+        "rank": 23,
+        "name": "Charizard",
+        "fastMove": "Air Slash",
+        "chargedMove": "Blast Burn",
+        "legacyDate": "12/14/2019",
+        "power": 52.6,
+        "cp": 2889,
+        "timeToWin": 574.3,
+        "estimator": 2,
+        "deaths": 15
+      },
+      {
+        "rank": 24,
+        "name": "Volcarona",
+        "fastMove": "Fire Spin",
+        "chargedMove": "Hurricane",
+        "legacyDate": null,
+        "power": 52.3,
+        "cp": 3632,
+        "timeToWin": 578.2,
+        "estimator": 2.02,
+        "deaths": 15
+      },
+      {
+        "rank": 25,
+        "name": "Swellow",
+        "fastMove": "Wing Attack",
+        "chargedMove": "Sky Attack",
+        "legacyDate": null,
+        "power": 55,
+        "cp": 1920,
+        "timeToWin": 550.6,
+        "estimator": 2.04,
+        "deaths": 31
+      },
+      {
+        "rank": 26,
+        "name": "Chatot",
+        "fastMove": "Peck",
+        "chargedMove": "Sky Attack",
+        "legacyDate": null,
+        "power": 54.8,
+        "cp": 1791,
+        "timeToWin": 552.9,
+        "estimator": 2.07,
+        "deaths": 34
+      },
+      {
+        "rank": 27,
+        "name": "Chandelure",
+        "fastMove": "Fire Spin",
+        "chargedMove": "Overheat",
+        "legacyDate": null,
+        "power": 51.1,
+        "cp": 3268,
+        "timeToWin": 605.2,
+        "estimator": 2.08,
+        "deaths": 13
+      },
+      {
+        "rank": 28,
+        "name": "Oricorio",
+        "fastMove": "Air Slash",
+        "chargedMove": "Hurricane",
+        "legacyDate": null,
+        "power": 50.5,
+        "cp": 2333,
+        "timeToWin": 597,
+        "estimator": 2.1,
+        "deaths": 19
+      },
+      {
+        "rank": 29,
+        "name": "Pidgeot",
+        "fastMove": "Gust",
+        "chargedMove": "Brave Bird",
+        "legacyDate": "11/4/2020",
+        "power": 51.2,
+        "cp": 2129,
+        "timeToWin": 589.6,
+        "estimator": 2.1,
+        "deaths": 23
+      },
+      {
+        "rank": 30,
+        "name": "Gliscor",
+        "fastMove": "Wing Attack",
+        "chargedMove": "Acrobatics",
+        "legacyDate": null,
+        "power": 49.7,
+        "cp": 2692,
+        "timeToWin": 611.3,
+        "estimator": 2.12,
+        "deaths": 14
+      }
+    ],
+    "reviewStatus": "needs-check"
+  },
+  {
     "id": "mega-glalie",
     "name": "Mega Glalie",
     "source": "Pokebattler",
@@ -10,8 +801,20 @@ export const counterDrafts = [
       "weather": "No weather",
       "friendship": "Not friends",
       "partyPower": false,
-      "strategy": "CINEMATIC_ATTACK_WHEN_POSSIBLE / No Dodging",
+      "strategy": "No Dodging / Cinematic attack when possible",
       "sort": "Estimator"
+    },
+    "meta": {
+      "tier": "Mega Raid",
+      "themeClass": "ice-theme",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10074.png",
+      "imageAlt": "Official artwork of Mega Glalie",
+      "subtitle": "Mega Raid • May 13 to May 19",
+      "types": [
+        "ice"
+      ],
+      "weaknesses": "Fighting, Rock, Steel, Fire",
+      "difficultyLabel": "Focus"
     },
     "hardestMovesetsRaw": [
       {
@@ -65,8 +868,7 @@ export const counterDrafts = [
     ],
     "selectedHardestMoveset": {
       "fastMove": "Powder Snow",
-      "chargedMove": "Shadow Ball",
-      "note": "Selected manually from hardest movesets, ignoring Unknown / Unknown."
+      "chargedMove": "Shadow Ball"
     },
     "bestCountersRaw": [
       {
@@ -507,7 +1309,7 @@ export const counterDrafts = [
         "rank": 7,
         "name": "Tinkaton",
         "fastMove": "Fairy Wind",
-        "chargedMove": "Gigaton Hammer",
+        "chargedMove": "moves.GIGATON_HAMMER",
         "legacyDate": "4/11/2026",
         "power": 89.3,
         "cp": 2250,

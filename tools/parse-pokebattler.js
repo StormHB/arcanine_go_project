@@ -1,44 +1,61 @@
 import fs from "fs";
+import { scrapeTargets } from "./scrape-targets.js";
 
-const raw = fs.readFileSync("raw.txt", "utf8");
-const rawBudget = fs.readFileSync("raw-budget.txt", "utf8");
+const targetId = process.argv[2];
 
-const bossName = raw.match(/Mega Glalie Counters/) ? "Mega Glalie" : "Unknown Boss";
+if (!targetId || !scrapeTargets[targetId]) {
+  console.error("Usage: node tools/parse-pokebattler.js <target-id>");
+  console.error("Available targets:", Object.keys(scrapeTargets).join(", "));
+  process.exit(1);
+}
+
+const target = scrapeTargets[targetId];
+
+const raw = fs.readFileSync(`raw/${target.id}.txt`, "utf8");
+const rawBudget = fs.readFileSync(`raw/${target.id}-budget.txt`, "utf8");
+
+const outputPath = "assets/js/data/counter-drafts.generated.js";
 
 function parseHardestMovesets(text) {
-    const section = text.split("Hardest movesets to raid against")[1]?.split("Custom Raid")[0];
+  const section = text
+    .split("Hardest movesets to raid against")[1]
+    ?.split("Custom Raid")[0];
 
-    if (!section) return [];
+  if (!section) return [];
 
-    const movePairs = [
-        "Ice ShardShadow Ball",
-        "Powder SnowShadow Ball",
-        "Frost BreathShadow Ball",
-        "RolloutShadow Ball",
-        "Frost BreathAvalanche",
-        "Ice ShardAvalanche",
-        "Ice ShardGyro Ball",
-        "RolloutAvalanche",
-        "Powder SnowAvalanche",
-        "RolloutGyro Ball",
-        "Frost BreathGyro Ball",
-        "Powder SnowGyro Ball"
-    ];
+  const rows = section
+    .split("\n")
+    .map(line => line.trim())
+    .filter(Boolean);
 
-    return movePairs
-        .filter(pair => section.includes(pair))
-        .map(pair => {
-            const split = pair
-                .replace("Shadow Ball", "|Shadow Ball")
-                .replace("Avalanche", "|Avalanche")
-                .replace("Gyro Ball", "|Gyro Ball")
-                .split("|");
+  const chargedMoves = [
+    "Shadow Ball",
+    "Avalanche",
+    "Gyro Ball",
+    "Superpower",
+    "Power-Up Punch",
+    "Lunge",
+    "Fell Stinger",
+    "Brave Bird",
+    "Fly",
+    "Thunder",
+    "Discharge",
+    "Dazzling Gleam"
+  ];
 
-            return {
-                fastMove: split[0],
-                chargedMove: split[1]
-            };
-        });
+  return rows
+    .filter(row => !row.includes("UnknownUnknown"))
+    .map(row => {
+      const chargedMove = chargedMoves.find(move => row.endsWith(move));
+
+      if (!chargedMove) return null;
+
+      return {
+        fastMove: row.replace(chargedMove, ""),
+        chargedMove
+      };
+    })
+    .filter(Boolean);
 }
 
 function parseCounters(text, limit = 30) {
@@ -58,31 +75,22 @@ function parseCounters(text, limit = 30) {
 
     const lines = block
       .split("\n")
-      .map(l => l.trim())
+      .map(line => line.trim())
       .filter(Boolean);
 
-    // zadnja linija je rank
     const rank = Number(lines.at(-1));
 
     if (!Number.isInteger(rank)) continue;
 
-    // ime je prva linija
-    const name = lines[0];
-
-    // moves su odmah ispod
-    const fastMove = lines[1] ?? null;
-    const chargedMove = lines[2] ?? null;
-
-    // opcionalni datum
-    const dateLine = lines.find(l =>
-      /^\d{1,2}\/\d{1,2}\/\d{4}$/.test(l)
+    const dateLine = lines.find(line =>
+      /^\d{1,2}\/\d{1,2}\/\d{4}$/.test(line)
     );
 
     counters.push({
       rank,
-      name,
-      fastMove,
-      chargedMove,
+      name: lines[0],
+      fastMove: lines[1] ?? null,
+      chargedMove: lines[2] ?? null,
       legacyDate: dateLine ?? null,
       power: Number(power),
       cp: Number(cp),
@@ -97,34 +105,72 @@ function parseCounters(text, limit = 30) {
     .slice(0, limit);
 }
 
+function readExistingDrafts() {
+  if (!fs.existsSync(outputPath)) return [];
+
+  const fileText = fs.readFileSync(outputPath, "utf8");
+
+  const jsonText = fileText
+    .replace(/^export const counterDrafts = /, "")
+    .replace(/;\s*$/, "");
+
+  try {
+    return JSON.parse(jsonText);
+  } catch {
+    return [];
+  }
+}
+
+const hardestMovesetsRaw = parseHardestMovesets(raw);
+
+const selectedHardestMoveset =
+  target.selectedHardestMoveset ??
+  hardestMovesetsRaw[0] ?? {
+    fastMove: "Unknown",
+    chargedMove: "Unknown"
+  };
+
 const draft = {
-    id: "mega-glalie",
-    name: bossName,
-    source: "Pokebattler",
-    sourceUrl: "manual-check-url-here",
-    settings: {
-        attackerLevel: 40,
-        weather: "No weather",
-        friendship: "Not friends",
-        partyPower: false,
-        strategy: "No Dodging / Cinematic attack when possible",
-        sort: "Estimator"
-    },
-    hardestMovesetsRaw: parseHardestMovesets(raw),
-    selectedHardestMoveset: {
-        fastMove: "Powder Snow",
-        chargedMove: "Shadow Ball",
-        note: "Selected manually from hardest movesets, ignoring Unknown / Unknown."
-    },
-    bestCountersRaw: parseCounters(raw, 30),
-    budgetCountersRaw: parseCounters(rawBudget, 30),
-    reviewStatus: "needs-check"
+  id: target.id,
+  name: target.name,
+  source: "Pokebattler",
+  sourceUrl: target.bestUrl,
+  budgetSourceUrl: target.budgetUrl,
+  settings: {
+    attackerLevel: 40,
+    weather: "No weather",
+    friendship: "Not friends",
+    partyPower: false,
+    strategy: "No Dodging / Cinematic attack when possible",
+    sort: "Estimator"
+  },
+  meta: {
+    tier: target.tier,
+    themeClass: target.themeClass,
+    image: target.image,
+    imageAlt: target.imageAlt,
+    subtitle: target.subtitle,
+    types: target.types,
+    weaknesses: target.weaknesses,
+    difficultyLabel: target.difficultyLabel
+  },
+  hardestMovesetsRaw,
+  selectedHardestMoveset,
+  bestCountersRaw: parseCounters(raw, 30),
+  budgetCountersRaw: parseCounters(rawBudget, 30),
+  reviewStatus: "needs-check"
 };
 
+const existingDrafts = readExistingDrafts();
+const mergedDrafts = [
+  ...existingDrafts.filter(existing => existing.id !== draft.id),
+  draft
+];
+
 fs.writeFileSync(
-    "assets/js/data/counter-drafts.generated.js",
-    `export const counterDrafts = ${JSON.stringify([draft], null, 2)};\n`,
-    "utf8"
+  outputPath,
+  `export const counterDrafts = ${JSON.stringify(mergedDrafts, null, 2)};\n`,
+  "utf8"
 );
 
-console.log("Generated assets/js/data/counter-drafts.generated.js");
+console.log(`Generated/updated ${outputPath} for ${target.name}`);

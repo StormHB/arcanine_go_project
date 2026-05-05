@@ -1,7 +1,35 @@
 import { counterMonths } from "./data/counters.js";
+import { raidRotations } from "./data/rotations.js";
 
 const monthSelect = document.querySelector("#counter-month-select");
 const countersGrid = document.querySelector("#counters-grid");
+
+function findRaidCardByBossId(bossId) {
+  return raidRotations
+    .flatMap(rotation => rotation.raidCards ?? [])
+    .find(card => card.id === bossId);
+}
+
+function formatCounterSubtitle(boss) {
+  const raidCard = findRaidCardByBossId(boss.id);
+
+  if (!raidCard?.dateRange) {
+    return boss.subtitle;
+  }
+
+  const [start, end] = raidCard.dateRange;
+
+  const startDate = new Date(start);
+  const endDate = new Date(end);
+
+  const month = startDate.toLocaleString("en-US", { month: "short" });
+  const startDay = startDate.getDate();
+  const endDay = endDate.getDate();
+
+  const tier = raidCard.badge === "Mega" ? "Mega Raid" : boss.subtitle?.split("•")[0]?.trim() ?? "Raid";
+
+  return `${tier} • ${month} ${startDay} to ${month} ${endDay}`;
+}
 
 function formatType(type) {
   return type.charAt(0).toUpperCase() + type.slice(1);
@@ -141,7 +169,7 @@ function renderBossCard(boss) {
 
         <div class="boss-info">
           <h3>${boss.name}</h3>
-          <p class="boss-subtitle">${boss.subtitle}</p>
+          <p class="boss-subtitle">${formatCounterSubtitle(boss)}</p>
 
           <div class="type-badges">
             ${boss.types

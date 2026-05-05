@@ -5,6 +5,7 @@
   "description": "A clean, modern Pokémon GO raid guide website built with a data-driven JavaScript architecture.",
   "main": "index.js",
   "scripts": {
+    "update-counters": "node tools/scrape.js && node tools/parse-pokebattler.js && node tools/transform-counter-draft.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

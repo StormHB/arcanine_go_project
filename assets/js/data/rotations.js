@@ -207,6 +207,7 @@ export const raidRotations = [
           }
         ]
       },
+
       {
         date: "May 6 – May 12",
         time: "10:00 AM → 10:00 AM local time",
@@ -223,19 +224,24 @@ export const raidRotations = [
           }
         ]
       },
+
       {
         date: "May 13 – May 19",
         time: "10:00 AM → 10:00 AM local time",
-        fiveStar: "Blacephalon / Stakataka",
+        fiveStar: "Buzzwole / Pheromosa / Xurkitree",
         mega: "Mega Glalie",
         icons: [
           {
-            name: "Blacephalon",
-            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/806.png"
+            name: "Buzzwole",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/794.png"
           },
           {
-            name: "Stakataka",
-            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/805.png"
+            name: "Pheromosa",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/795.png"
+          },
+          {
+            name: "Xurkitree",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/796.png"
           },
           {
             name: "Mega Glalie",
@@ -243,6 +249,7 @@ export const raidRotations = [
           }
         ]
       },
+
       {
         date: "May 20 – May 26",
         time: "10:00 AM → 10:00 AM local time",
@@ -259,6 +266,7 @@ export const raidRotations = [
           }
         ]
       },
+
       {
         date: "May 27 – Jun 2",
         time: "10:00 AM → 10:00 AM local time",
@@ -291,6 +299,7 @@ export const raidRotations = [
         dexRank: "DialgaDex: Strong Fairy/Psychic option",
         description: "Solid dual typing and raid utility make it a worthwhile addition to many teams."
       },
+
       {
         id: "mega-banette",
         name: "Mega Banette",
@@ -304,6 +313,7 @@ export const raidRotations = [
         dexRank: "DialgaDex: Ghost mega attacker",
         description: "Useful Ghost-type mega with niche but valuable raid applications."
       },
+
       {
         id: "nihilego",
         name: "Nihilego",
@@ -317,6 +327,7 @@ export const raidRotations = [
         dexRank: "DialgaDex: Strong Poison/Rock raid option",
         description: "Useful Poison-type pressure with solid Rock-type coverage."
       },
+
       {
         id: "mega-camerupt",
         name: "Mega Camerupt",
@@ -330,32 +341,49 @@ export const raidRotations = [
         dexRank: "DialgaDex: Fire/Ground mega utility",
         description: "A niche mega with useful typing for specific raid matchups."
       },
+
       {
-        id: "blacephalon",
-        name: "Blacephalon",
-        href: "counters.html#blacephalon",
-        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/806.png",
-        imageAlt: "Blacephalon",
-        badge: "5★",
+        id: "buzzwole",
+        name: "Buzzwole",
+        href: "counters.html#buzzwole",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/794.png",
+        imageAlt: "Buzzwole",
+        badge: "Regional",
         badgeClass: "legendary-badge",
         dateRange: ["2026-05-13", "2026-05-19"],
-        types: ["fire", "ghost"],
-        dexRank: "DialgaDex: High Ghost/Fire raid pressure",
-        description: "Powerful offensive Ultra Beast with strong Ghost and Fire potential."
+        types: ["bug", "fighting"],
+        dexRank: "Regional: Americas and Greenland",
+        description: "Regional Ultra Beast raid available in the Americas and Greenland."
       },
+
       {
-        id: "stakataka",
-        name: "Stakataka",
-        href: "counters.html#stakataka",
-        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/805.png",
-        imageAlt: "Stakataka",
-        badge: "5★",
+        id: "pheromosa",
+        name: "Pheromosa",
+        href: "counters.html#pheromosa",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/795.png",
+        imageAlt: "Pheromosa",
+        badge: "Regional",
         badgeClass: "legendary-badge",
         dateRange: ["2026-05-13", "2026-05-19"],
-        types: ["rock", "steel"],
-        dexRank: "DialgaDex: Rock/Steel Ultra Beast",
-        description: "Defensive Ultra Beast with niche value and regional availability."
+        types: ["bug", "fighting"],
+        dexRank: "Regional: Europe, Middle East, Africa and India",
+        description: "Regional Ultra Beast raid available in Europe, the Middle East, Africa and India."
       },
+
+      {
+        id: "xurkitree",
+        name: "Xurkitree",
+        href: "counters.html#xurkitree",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/796.png",
+        imageAlt: "Xurkitree",
+        badge: "Regional",
+        badgeClass: "legendary-badge",
+        dateRange: ["2026-05-13", "2026-05-19"],
+        types: ["electric"],
+        dexRank: "Regional: Asia-Pacific",
+        description: "Regional Ultra Beast raid available in the Asia-Pacific region."
+      },
+
       {
         id: "mega-glalie",
         name: "Mega Glalie",
@@ -369,6 +397,7 @@ export const raidRotations = [
         dexRank: "DialgaDex: Ice mega attacker",
         description: "Useful Ice-type mega for Dragon, Flying, Grass and Ground raid matchups."
       },
+
       {
         id: "tapu-bulu",
         name: "Tapu Bulu",
@@ -382,6 +411,7 @@ export const raidRotations = [
         dexRank: "DialgaDex: Grass/Fairy raid option",
         description: "Useful dual typing with Grass and Fairy coverage."
       },
+
       {
         id: "mega-altaria",
         name: "Mega Altaria",
@@ -395,6 +425,7 @@ export const raidRotations = [
         dexRank: "DialgaDex: Dragon/Fairy mega utility",
         description: "A defensive mega with unique typing and useful support value."
       },
+
       {
         id: "tapu-fini",
         name: "Tapu Fini",
@@ -408,6 +439,7 @@ export const raidRotations = [
         dexRank: "DialgaDex: Water/Fairy utility",
         description: "Bulky dual-type legendary with useful coverage and collection value."
       },
+
       {
         id: "mega-medicham",
         name: "Mega Medicham",
