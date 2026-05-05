@@ -35,6 +35,8 @@ This project focuses on:
 - No manual updates required for status or featured raids  
 - Designed for future automation (scraping / API integration)  
 - Monthly rotation support with history/current/upcoming states  
+- Support for multiple simultaneous raid bosses in a single rotation period  
+- Support for regional raid distributions (region-specific bosses)  
 
 ---
 
@@ -55,6 +57,15 @@ This project focuses on:
 - Boss icons and structured layout  
 - Semantic list structure for accessibility  
 - Consistent formatting across all rotation blocks  
+
+---
+
+### Regional Raids
+
+- Support for region-specific raid bosses (Americas, EMEA, Asia-Pacific)  
+- Multiple bosses can appear in the same time window depending on region  
+- Region information is displayed directly on raid cards  
+- Integrated seamlessly into both raid overview and counter pages  
 
 ---
 
@@ -177,6 +188,7 @@ The pipeline is used to:
 - Limit teams to one Mega/Primal attacker  
 - Detect legacy/event-exclusive moves per move  
 - Generate draft and final counter datasets  
+- Supports multiple bosses without overwriting existing data  
 
 ### Commands
 
@@ -254,7 +266,6 @@ This project was built to:
 
 - Backend support for contact form submissions  
 - Full automation of raid and counter updates  
-- Counter filtering and search system  
 - Additional UI interactions and animations  
 - Performance optimizations  
 

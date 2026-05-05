@@ -4,6 +4,28 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.11.0] - Regional Raid Support and Multi-Boss Handling
+
+### Added
+- Support for regional 5★ raid bosses (Buzzwole, Pheromosa, Xurkitree)
+- Region-specific descriptions displayed directly on raid cards
+- Ability to handle multiple simultaneous 5★ bosses in a single rotation period
+
+### Changed
+- Updated May 2026 rotation to replace Blacephalon/Stakataka with regional Ultra Beasts
+- Raid schedule now displays multiple bosses in the same time window
+- Counter pages now correctly integrate regional bosses
+
+### Improved
+- Synchronised raid and counter dates using shared rotation data
+- Cleaner rendering of multi-boss schedule entries
+
+### Fixed
+- Mega Glalie start date mismatch (May 12 → May 13)
+- Scraper/parse pipeline now supports multiple bosses without overwriting data
+
+---
+
 ## [1.10.0] - Pokebattler Integration and Dynamic Counter Pipeline
 
 ### Added
