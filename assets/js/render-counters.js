@@ -29,7 +29,7 @@ function getBossStatus(subtitle) {
   const year = 2026;
 
   const start = new Date(`${startMonthName} ${startDay}, ${year} 10:00:00`);
-  const end = new Date(`${endMonthName} ${endDay}, ${year} 10:00:00`);
+  const end = new Date(`${endMonthName} ${endDay}, ${year} 20:00:00`);
 
   if (now >= start && now < end) return "current-boss";
   if (now < start) return "upcoming-boss";

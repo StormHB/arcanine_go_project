@@ -4,6 +4,25 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.9.2] - Counter Month Selector and Active Boss Highlighting
+
+### Added
+- Month selector support on the counters page
+- Automatic counter month status detection
+- Active / upcoming / ended boss status badges
+- Active boss highlighting on current counter cards
+
+### Changed
+- Reworked counter data into month-based structure
+- Updated counter rendering to support historical, current and upcoming months
+- Improved counters page behavior when a month has no boss data yet
+
+### Improved
+- Counter cards now stay aligned with the same monthly rotation model used by raids
+- Active raid bosses are easier to identify on the counters page
+
+---
+
 ## [1.9.1] - Unified Type Styling and May Raid Rotation
 
 ### Added

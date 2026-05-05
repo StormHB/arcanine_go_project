@@ -67,6 +67,9 @@ This project focuses on:
 - Counters strictly sorted by TTW performance  
 - Smooth scrolling from raids to counters  
 - Fixed anchor offset (accurate scroll positioning)  
+- Month selector for historical, current and upcoming counter rotations
+- Automatic month status detection
+- Active boss highlighting for current counter rotations
 
 #### JS-driven system
 
@@ -147,6 +150,8 @@ Raid performance data is based on Pokebattler simulations.
 - Deployed via GitHub Pages  
 - Unified type color system using CSS variables
 - Automatic single-type and dual-type glow rendering
+- Shared month-based data model for raids and counters
+- Dynamic rendering for counter rotations
 
 ---
 
