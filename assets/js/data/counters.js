@@ -1022,6 +1022,694 @@ export const counterMonths = [
         id: "2026-05",
         label: "May 2026",
         status: "upcoming",
-        bosses: []
+        bosses: [
+            {
+                id: "tapu-lele",
+                name: "Tapu Lele",
+                themeClass: "psychic-theme",
+                image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png",
+                imageAlt: "Official artwork of Tapu Lele",
+                subtitle: "Tier 5 • April 29 to May 5",
+                types: ["psychic", "fairy"],
+                weaknesses: "Poison, Ghost, Steel",
+                difficulty: "Steel and Ghost attackers work especially well",
+
+                bestCounters: [
+                    {
+                        name: "Zamazenta (Crowned Shield)",
+                        moves: [
+                            { name: "Metal Claw" },
+                            { name: "Behemoth Bash", legacy: true }
+                        ],
+                        ttw: "442s",
+                        diff: "Best"
+                    },
+                    {
+                        name: "Zacian (Crowned Sword)",
+                        moves: [
+                            { name: "Metal Claw" },
+                            { name: "Behemoth Blade", legacy: true }
+                        ],
+                        ttw: "445s",
+                        diff: "+1%"
+                    },
+                    {
+                        name: "Necrozma (Dusk Mane)",
+                        moves: [
+                            { name: "Metal Claw" },
+                            { name: "Sunsteel Strike", legacy: true }
+                        ],
+                        ttw: "460s",
+                        diff: "+4%"
+                    },
+                    {
+                        name: "Necrozma (Dawn Wings)",
+                        moves: [
+                            { name: "Metal Claw" },
+                            { name: "Moongeist Beam", legacy: true }
+                        ],
+                        ttw: "487s",
+                        diff: "+10%"
+                    },
+                    {
+                        name: "Shadow Metagross",
+                        moves: [
+                            { name: "Bullet Punch" },
+                            { name: "Meteor Mash", legacy: true }
+                        ],
+                        ttw: "508s",
+                        diff: "+15%"
+                    },
+                    {
+                        name: "Mega Gengar",
+                        moves: [
+                            { name: "Lick" },
+                            { name: "Shadow Ball" }
+                        ],
+                        ttw: "511s",
+                        diff: "+16%"
+                    }
+                ],
+
+                budgetCounters: [
+                    {
+                        name: "Metagross",
+                        moves: [
+                            { name: "Bullet Punch" },
+                            { name: "Meteor Mash", legacy: true }
+                        ],
+                        ttw: "611s",
+                        diff: "Best"
+                    },
+                    {
+                        name: "Gholdengo",
+                        moves: [
+                            { name: "Hex" },
+                            { name: "Shadow Ball" }
+                        ],
+                        ttw: "678s",
+                        diff: "+11%"
+                    },
+                    {
+                        name: "Dragapult",
+                        moves: [
+                            { name: "Astonish" },
+                            { name: "Shadow Ball" }
+                        ],
+                        ttw: "685s",
+                        diff: "+12%"
+                    },
+                    {
+                        name: "Chandelure",
+                        moves: [
+                            { name: "Hex" },
+                            { name: "Shadow Ball" }
+                        ],
+                        ttw: "736s",
+                        diff: "+20%"
+                    },
+                    {
+                        name: "Excadrill",
+                        moves: [
+                            { name: "Metal Claw" },
+                            { name: "Iron Head" }
+                        ],
+                        ttw: "740s",
+                        diff: "+21%"
+                    },
+                    {
+                        name: "Overqwil",
+                        moves: [
+                            { name: "Poison Jab" },
+                            { name: "Sludge Bomb" }
+                        ],
+                        ttw: "742s",
+                        diff: "+21%"
+                    }
+                ]
+            },
+
+            {
+                id: "mega-banette",
+                name: "Mega Banette",
+                themeClass: "ghost-theme",
+                image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10056.png",
+                imageAlt: "Official artwork of Mega Banette",
+                subtitle: "Mega Raid • April 29 to May 5",
+                types: ["ghost"],
+                weaknesses: "Ghost, Dark",
+                difficultyLabel: "Focus",
+                difficulty: "Dark attackers are very easy to build",
+
+                bestCounters: [
+                    {
+                        name: "Mega Absol",
+                        moves: [
+                            { name: "Snarl" },
+                            { name: "Brutal Swing", legacy: true }
+                        ],
+                        ttw: "252s",
+                        diff: "Best"
+                    },
+                    {
+                        name: "Shadow Hydreigon",
+                        moves: [
+                            { name: "Bite" },
+                            { name: "Brutal Swing", legacy: true }
+                        ],
+                        ttw: "255s",
+                        diff: "+1%"
+                    },
+                    {
+                        name: "Shadow Tyranitar",
+                        moves: [
+                            { name: "Bite" },
+                            { name: "Brutal Swing", legacy: true }
+                        ],
+                        ttw: "260s",
+                        diff: "+3%"
+                    },
+                    {
+                        name: "Shadow Absol",
+                        moves: [
+                            { name: "Snarl" },
+                            { name: "Brutal Swing", legacy: true }
+                        ],
+                        ttw: "269s",
+                        diff: "+7%"
+                    },
+                    {
+                        name: "Shadow Darkrai",
+                        moves: [
+                            { name: "Snarl" },
+                            { name: "Shadow Ball" }
+                        ],
+                        ttw: "270s",
+                        diff: "+7%"
+                    },
+                    {
+                        name: "Shadow Weavile",
+                        moves: [
+                            { name: "Snarl" },
+                            { name: "Foul Play" }
+                        ],
+                        ttw: "291s",
+                        diff: "+15%"
+                    }
+                ],
+
+                budgetCounters: [
+                    {
+                        name: "Hydreigon",
+                        moves: [
+                            { name: "Bite" },
+                            { name: "Brutal Swing", legacy: true }
+                        ],
+                        ttw: "313s",
+                        diff: "Best"
+                    },
+                    {
+                        name: "Tyranitar",
+                        moves: [
+                            { name: "Bite" },
+                            { name: "Brutal Swing", legacy: true }
+                        ],
+                        ttw: "316s",
+                        diff: "+1%"
+                    },
+                    {
+                        name: "Absol",
+                        moves: [
+                            { name: "Snarl" },
+                            { name: "Brutal Swing", legacy: true }
+                        ],
+                        ttw: "316s",
+                        diff: "+1%"
+                    },
+                    {
+                        name: "Zoroark",
+                        moves: [
+                            { name: "Shadow Claw" },
+                            { name: "Shadow Ball" }
+                        ],
+                        ttw: "317s",
+                        diff: "+1%"
+                    },
+                    {
+                        name: "Kingambit",
+                        moves: [
+                            { name: "Snarl" },
+                            { name: "Foul Play" }
+                        ],
+                        ttw: "333s",
+                        diff: "+6%"
+                    },
+                    {
+                        name: "Incineroar",
+                        moves: [
+                            { name: "Snarl" },
+                            { name: "Darkest Lariat" }
+                        ],
+                        ttw: "341s",
+                        diff: "+9%"
+                    }
+                ]
+            },
+
+            {
+                id: "nihilego",
+                name: "Nihilego",
+                themeClass: "rock-theme",
+                image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/793.png",
+                imageAlt: "Official artwork of Nihilego",
+                subtitle: "Tier 5 • May 6 to May 12",
+                types: ["rock", "poison"],
+                weaknesses: "Ground, Psychic, Steel, Water",
+                difficulty: "Ground attackers dominate due to double weakness",
+
+                bestCounters: [
+                    {
+                        name: "Primal Groudon",
+                        moves: [
+                            { name: "Mud Shot" },
+                            { name: "Precipice Blades", legacy: true }
+                        ],
+                        ttw: "309s",
+                        diff: "Best"
+                    },
+                    {
+                        name: "Shadow Groudon",
+                        moves: [
+                            { name: "Mud Shot" },
+                            { name: "Precipice Blades", legacy: true }
+                        ],
+                        ttw: "337s",
+                        diff: "+9%"
+                    },
+                    {
+                        name: "Shadow Excadrill",
+                        moves: [
+                            { name: "Mud-Slap" },
+                            { name: "Scorching Sands" }
+                        ],
+                        ttw: "359s",
+                        diff: "+16%"
+                    },
+                    {
+                        name: "Shadow Garchomp",
+                        moves: [
+                            { name: "Mud Shot" },
+                            { name: "Earth Power", legacy: true }
+                        ],
+                        ttw: "369s",
+                        diff: "+19%"
+                    },
+                    {
+                        name: "Landorus (Therian)",
+                        moves: [
+                            { name: "Mud Shot" },
+                            { name: "Sandsear Storm", legacy: true }
+                        ],
+                        ttw: "369s",
+                        diff: "+19%"
+                    },
+                    {
+                        name: "Shadow Mamoswine",
+                        moves: [
+                            { name: "Mud-Slap" },
+                            { name: "High Horsepower" }
+                        ],
+                        ttw: "379s",
+                        diff: "+22%"
+                    }
+                ],
+
+                budgetCounters: [
+                    {
+                        name: "Excadrill",
+                        moves: [
+                            { name: "Mud-Slap" },
+                            { name: "Scorching Sands" }
+                        ],
+                        ttw: "431s",
+                        diff: "Best"
+                    },
+                    {
+                        name: "Garchomp",
+                        moves: [
+                            { name: "Mud Shot" },
+                            { name: "Earth Power", legacy: true }
+                        ],
+                        ttw: "448s",
+                        diff: "+4%"
+                    },
+                    {
+                        name: "Mamoswine",
+                        moves: [
+                            { name: "Mud-Slap" },
+                            { name: "High Horsepower" }
+                        ],
+                        ttw: "450s",
+                        diff: "+4%"
+                    },
+                    {
+                        name: "Rhyperior",
+                        moves: [
+                            { name: "Mud-Slap" },
+                            { name: "Earthquake" }
+                        ],
+                        ttw: "460s",
+                        diff: "+7%"
+                    },
+                    {
+                        name: "Rhydon",
+                        moves: [
+                            { name: "Mud-Slap" },
+                            { name: "Earthquake" }
+                        ],
+                        ttw: "496s",
+                        diff: "+15%"
+                    },
+                    {
+                        name: "Golurk",
+                        moves: [
+                            { name: "Mud-Slap" },
+                            { name: "Earth Power" }
+                        ],
+                        ttw: "507s",
+                        diff: "+18%"
+                    }
+                ]
+            },
+
+            {
+                id: "mega-camerupt",
+                name: "Mega Camerupt",
+                themeClass: "fire-theme",
+                image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10087.png",
+                imageAlt: "Official artwork of Mega Camerupt",
+                subtitle: "Mega Raid • May 6 to May 12",
+                types: ["fire", "ground"],
+                weaknesses: "Water, Ground",
+                difficultyLabel: "Focus",
+                difficulty: "Use Water attackers due to double weakness.",
+
+                bestCounters: [
+                    {
+                        name: "Primal Kyogre",
+                        moves: [
+                            { name: "Waterfall" },
+                            { name: "Origin Pulse", legacy: true }
+                        ],
+                        ttw: "170s",
+                        diff: "Best"
+                    },
+                    {
+                        name: "Shadow Empoleon",
+                        moves: [
+                            { name: "Waterfall" },
+                            { name: "Hydro Cannon", legacy: true }
+                        ],
+                        ttw: "217s",
+                        diff: "+27%"
+                    },
+                    {
+                        name: "Shadow Gyarados",
+                        moves: [
+                            { name: "Waterfall" },
+                            { name: "Hydro Pump" }
+                        ],
+                        ttw: "229s",
+                        diff: "+34%"
+                    },
+                    {
+                        name: "Kyogre",
+                        moves: [
+                            { name: "Waterfall" },
+                            { name: "Origin Pulse", legacy: true }
+                        ],
+                        ttw: "230s",
+                        diff: "+35%"
+                    },
+                    {
+                        name: "Shadow Kyogre",
+                        moves: [
+                            { name: "Waterfall" },
+                            { name: "Surf" }
+                        ],
+                        ttw: "231s",
+                        diff: "+36%"
+                    },
+                    {
+                        name: "Shadow Greninja",
+                        moves: [
+                            { name: "Bubble" },
+                            { name: "Hydro Cannon", legacy: true }
+                        ],
+                        ttw: "234s",
+                        diff: "+37%"
+                    }
+                ],
+
+                budgetCounters: [
+                    {
+                        name: "Empoleon",
+                        moves: [
+                            { name: "Waterfall" },
+                            { name: "Hydro Cannon", legacy: true }
+                        ],
+                        ttw: "252s",
+                        diff: "Best"
+                    },
+                    {
+                        name: "Golisopod",
+                        moves: [
+                            { name: "Waterfall" },
+                            { name: "Razor Shell" }
+                        ],
+                        ttw: "259s",
+                        diff: "+3%"
+                    },
+                    {
+                        name: "Gyarados",
+                        moves: [
+                            { name: "Waterfall" },
+                            { name: "Hydro Pump" }
+                        ],
+                        ttw: "267s",
+                        diff: "+6%"
+                    },
+                    {
+                        name: "Kingler",
+                        moves: [
+                            { name: "Bubble" },
+                            { name: "Razor Shell" }
+                        ],
+                        ttw: "269s",
+                        diff: "+7%"
+                    },
+                    {
+                        name: "Greninja",
+                        moves: [
+                            { name: "Bubble" },
+                            { name: "Hydro Cannon", legacy: true }
+                        ],
+                        ttw: "281s",
+                        diff: "+12%"
+                    },
+                    {
+                        name: "Tatsugiri",
+                        moves: [
+                            { name: "Water Gun" },
+                            { name: "Surf" }
+                        ],
+                        ttw: "296s",
+                        diff: "+18%"
+                    }
+                ]
+            },
+
+            {
+                "id": "mega-glalie",
+                "name": "Mega Glalie",
+                "themeClass": "ice-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10074.png",
+                "imageAlt": "Official artwork of Mega Glalie",
+                "subtitle": "Mega Raid • May 12 to May 19",
+                "types": [
+                    "ice"
+                ],
+                "weaknesses": "Fighting, Rock, Steel, Fire",
+                "difficultyLabel": "Focus",
+                "difficulty": "Use Fighting and Steel attackers for best results.",
+                "bestCounters": [
+                    {
+                        "name": "Mega Lucario",
+                        "moves": [
+                            {
+                                "name": "Force Palm",
+                                "legacy": true
+                            },
+                            {
+                                "name": "Aura Sphere"
+                            }
+                        ],
+                        "ttw": "211s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Zamazenta (Crowned Shield)",
+                        "moves": [
+                            {
+                                "name": "Metal Claw"
+                            },
+                            {
+                                "name": "Behemoth Bash",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "216s",
+                        "diff": "+3%"
+                    },
+                    {
+                        "name": "Zacian (Crowned Sword)",
+                        "moves": [
+                            {
+                                "name": "Metal Claw"
+                            },
+                            {
+                                "name": "Behemoth Blade",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "220s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Necrozma (Dusk Mane)",
+                        "moves": [
+                            {
+                                "name": "Metal Claw"
+                            },
+                            {
+                                "name": "Sunsteel Strike",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "222s",
+                        "diff": "+5%"
+                    },
+                    {
+                        "name": "Keldeo",
+                        "moves": [
+                            {
+                                "name": "Low Kick"
+                            },
+                            {
+                                "name": "Secret Sword",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "240s",
+                        "diff": "+14%"
+                    },
+                    {
+                        "name": "Shadow Blaziken",
+                        "moves": [
+                            {
+                                "name": "Fire Spin"
+                            },
+                            {
+                                "name": "Aura Sphere"
+                            }
+                        ],
+                        "ttw": "244s",
+                        "diff": "+16%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Lucario",
+                        "moves": [
+                            {
+                                "name": "Force Palm",
+                                "legacy": true
+                            },
+                            {
+                                "name": "Aura Sphere"
+                            }
+                        ],
+                        "ttw": "272s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Blaziken",
+                        "moves": [
+                            {
+                                "name": "Fire Spin"
+                            },
+                            {
+                                "name": "Aura Sphere"
+                            }
+                        ],
+                        "ttw": "291s",
+                        "diff": "+7%"
+                    },
+                    {
+                        "name": "Metagross",
+                        "moves": [
+                            {
+                                "name": "Bullet Punch"
+                            },
+                            {
+                                "name": "Meteor Mash",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "306s",
+                        "diff": "+13%"
+                    },
+                    {
+                        "name": "Cinderace",
+                        "moves": [
+                            {
+                                "name": "Fire Spin"
+                            },
+                            {
+                                "name": "Pyro Ball"
+                            }
+                        ],
+                        "ttw": "318s",
+                        "diff": "+17%"
+                    },
+                    {
+                        "name": "Rampardos",
+                        "moves": [
+                            {
+                                "name": "Smack Down"
+                            },
+                            {
+                                "name": "Rock Slide"
+                            }
+                        ],
+                        "ttw": "320s",
+                        "diff": "+18%"
+                    },
+                    {
+                        "name": "Volcarona",
+                        "moves": [
+                            {
+                                "name": "Fire Spin"
+                            },
+                            {
+                                "name": "Overheat"
+                            }
+                        ],
+                        "ttw": "327s",
+                        "diff": "+20%"
+                    }
+                ]
+            }
+        ]
     }
 ];
