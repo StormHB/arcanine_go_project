@@ -4,6 +4,26 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.10.0] - Pokebattler Integration and Dynamic Counter Pipeline
+
+### Added
+- Node.js tooling for scraping Pokebattler raid counter data
+- Parser for extracting best and budget counters from simulations
+- Draft and final counter data generation pipeline
+- Support for Time to Win (TTW) based counter evaluation
+
+### Changed
+- Replaced static counter data with generated data from Pokebattler simulations
+- Counter rendering now uses dynamically generated datasets instead of manual entries
+
+### Improved
+- Best and budget counters are now sorted by TTW automatically
+- Counter teams now limit to one Mega or Primal Pokémon
+- Legacy move detection improved with move-specific mapping (e.g. Force Palm on Lucario)
+- More accurate and consistent counter recommendations based on simulation data
+
+---
+
 ## [1.9.2] - Counter Month Selector and Active Boss Highlighting
 
 ### Added
