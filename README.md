@@ -33,8 +33,8 @@ This project focuses on:
   - Ended  
 - Dynamic summary cards based on current rotation  
 - No manual updates required for status or featured raids  
-- Designed for future automation (scraping / API integration) 
-- Monthly rotation support with history/current/upcoming states 
+- Designed for future automation (scraping / API integration)  
+- Monthly rotation support with history/current/upcoming states  
 
 ---
 
@@ -65,37 +65,20 @@ This project focuses on:
 - Performance displayed using Time to Win (TTW)  
 - Percentage difference relative to the best counter  
 - Counters strictly sorted by TTW performance  
+- One Mega or Primal attacker per team  
+- Legacy move detection per move  
 - Smooth scrolling from raids to counters  
 - Fixed anchor offset (accurate scroll positioning)  
-- Month selector for historical, current and upcoming counter rotations
-- Automatic month status detection
-- Active boss highlighting for current counter rotations
+- Month selector for historical, current and upcoming counter rotations  
+- Automatic month status detection  
+- Active boss highlighting for current counter rotations  
 
 #### JS-driven system
 
-- Data is defined in `assets/js/data/counters.js`  
+- Data is generated and stored in structured files  
 - UI is rendered dynamically via `assets/js/render-counters.js`  
 - No manual HTML editing required for boss cards  
-- Supports advanced move metadata (legacy moves, Hidden Power types)
-
-#### Updating counters
-
-1. Add or update a boss object in `counters.js`  
-2. Save — the page automatically re-renders all counters  
-
-#### Counter system features
-
-- Legacy / event-exclusive move support  
-  - Unified format:
-    ```html
-    <span class="move legacy-move" tabindex="0">Move Name</span>
-    ```
-  - Tooltip-based explanation  
-  - Consistent across all counters  
-
-- Move-specific indicators  
-  - Hidden Power type support  
-  - Clean inline type display  
+- Supports advanced move metadata (legacy moves, Hidden Power types)  
 
 #### Layout improvements
 
@@ -141,17 +124,18 @@ Raid performance data is based on Pokebattler simulations.
 - Modular JavaScript (ES Modules)  
 - Modular separation:
   - Raid data (`rotations.js`)  
-  - Counter data (`counters.js`)  
+  - Counter data (generated pipeline output)  
   - Raid rendering (`render-raids.js`)  
   - Counter rendering (`render-counters.js`)  
   - Layout (HTML + CSS)  
+- Fully reproducible counter generation pipeline (scrape → parse → transform)  
 - Fully responsive, mobile-friendly design  
 - Clean and maintainable codebase  
 - Deployed via GitHub Pages  
-- Unified type color system using CSS variables
-- Automatic single-type and dual-type glow rendering
-- Shared month-based data model for raids and counters
-- Dynamic rendering for counter rotations
+- Unified type color system using CSS variables  
+- Automatic single-type and dual-type glow rendering  
+- Shared month-based data model for raids and counters  
+- Dynamic rendering for counter rotations  
 
 ---
 
@@ -162,10 +146,10 @@ Raid performance data is based on Pokebattler simulations.
 - Smooth scaling transitions  
 - Clean dark theme UI  
 - Improved spacing and alignment  
-- Standardized Pokémon sprite presentation 
-- Unified type colors shared across pills, badges and glow effects
-- Dual-type glow blending for raid cards
-- Type-based glow effects for counter boss cards 
+- Standardized Pokémon sprite presentation  
+- Unified type colors shared across pills, badges and glow effects  
+- Dual-type glow blending for raid cards  
+- Type-based glow effects for counter boss cards  
 
 ---
 
@@ -178,6 +162,36 @@ Raid performance data is based on Pokebattler simulations.
   - Preview image  
 - Twitter card metadata  
 - Improved structure for indexing and sharing  
+
+---
+
+## Pokebattler Counter Pipeline
+
+This project includes a Node.js-based tooling pipeline for preparing raid counter data from Pokebattler simulations.
+
+The pipeline is used to:
+
+- Scrape raw Pokebattler counter data  
+- Parse best and budget counters  
+- Sort counters by Time to Win (TTW)  
+- Limit teams to one Mega/Primal attacker  
+- Detect legacy/event-exclusive moves per move  
+- Generate draft and final counter datasets  
+
+### Commands
+
+```bash
+node tools/scrape.js
+node tools/parse-pokebattler.js
+node tools/transform-counter-draft.js
+```
+
+### Output files
+
+- `counter-drafts.generated.js` – parsed raw data  
+- `counter-final.generated.js` – final UI-ready data  
+
+Generated data is reviewed manually before being used in the application.
 
 ---
 
@@ -195,6 +209,7 @@ Raid performance data is based on Pokebattler simulations.
 Raid rotations are dynamically managed through JavaScript.
 
 The site automatically displays:
+
 - Current (active) raids  
 - Upcoming raid rotations  
 - Featured raids based on real-time status  
@@ -208,6 +223,7 @@ All raid data is stored in structured JavaScript files and rendered dynamically.
 - HTML5  
 - CSS3 (no frameworks)  
 - JavaScript (ES Modules)  
+- Node.js (tooling pipeline)  
 - Responsive design  
 
 ---
@@ -220,6 +236,7 @@ This project was built to:
 - Improve maintainability and scalability  
 - Build reusable UI components  
 - Practice modern frontend architecture  
+- Integrate external simulation data into a frontend project  
 - Improve accessibility and UX  
 
 ---
@@ -228,7 +245,7 @@ This project was built to:
 
 - The contact form is currently static (no backend processing)  
 - Backend integration is planned for future updates  
-- Counter data is currently maintained manually via structured JavaScript  
+- Counter data is generated via a Pokebattler-based pipeline and reviewed before publishing  
 - Raid data is structured for future automation  
 
 ---
@@ -236,7 +253,7 @@ This project was built to:
 ## Future Improvements
 
 - Backend support for contact form submissions  
-- Automated raid data updates (scraper / API integration)  
+- Full automation of raid and counter updates  
 - Counter filtering and search system  
 - Additional UI interactions and animations  
 - Performance optimizations  
