@@ -2,67 +2,38 @@ import fs from "fs";
 import { scrapeTargets } from "./scrape-targets.js";
 
 const targetId = process.argv[2];
-
-if (!targetId || !scrapeTargets[targetId]) {
-  console.error("Usage: node tools/parse-pokebattler.js <target-id>");
-  console.error("Available targets:", Object.keys(scrapeTargets).join(", "));
-  process.exit(1);
-}
-
-const target = scrapeTargets[targetId];
-
-const raw = fs.readFileSync(`raw/${target.id}.txt`, "utf8");
-const rawBudget = fs.readFileSync(`raw/${target.id}-budget.txt`, "utf8");
-
+const targets = getTargets(targetId);
 const outputPath = "assets/js/data/counter-drafts.generated.js";
 
-function parseHardestMovesets(text) {
-  const section = text
-    .split("Hardest movesets to raid against")[1]
-    ?.split("Custom Raid")[0];
+function getTargets(id) {
+  if (!id || id === "all") {
+    return Object.values(scrapeTargets);
+  }
 
-  if (!section) return [];
+  if (!scrapeTargets[id]) {
+    console.error("Usage: node tools/parse-pokebattler.js [target-id|all]");
+    console.error("Available targets:", Object.keys(scrapeTargets).join(", "));
+    process.exit(1);
+  }
 
-  const rows = section
-    .split("\n")
-    .map(line => line.trim())
-    .filter(Boolean);
+  return [scrapeTargets[id]];
+}
 
-  const chargedMoves = [
-    "Shadow Ball",
-    "Avalanche",
-    "Gyro Ball",
-    "Superpower",
-    "Power-Up Punch",
-    "Lunge",
-    "Fell Stinger",
-    "Brave Bird",
-    "Fly",
-    "Thunder",
-    "Discharge",
-    "Dazzling Gleam"
-  ];
+function readRawFile(path) {
+  if (!fs.existsSync(path)) {
+    throw new Error(`Missing raw file: ${path}. Run tools/scrape.js first.`);
+  }
 
-  return rows
-    .filter(row => !row.includes("UnknownUnknown"))
-    .map(row => {
-      const chargedMove = chargedMoves.find(move => row.endsWith(move));
-
-      if (!chargedMove) return null;
-
-      return {
-        fastMove: row.replace(chargedMove, ""),
-        chargedMove
-      };
-    })
-    .filter(Boolean);
+  return fs.readFileSync(path, "utf8");
 }
 
 function parseCounters(text, limit = 30) {
   const start = text.indexOf("Choose Moveset");
   const end = text.indexOf("Most Difficult Raids");
 
-  const section = text.slice(start, end);
+  if (start === -1) return [];
+
+  const section = text.slice(start, end === -1 ? undefined : end);
 
   const regex =
     /Power([\d.]+)%\s*CP\s*(\d+)\s*Time to Win([\d.]+)s\s*Estimator([\d.]+)\s*×(\d+)\s*([\s\S]*?)(?=\nPower[\d.]+%|\nMost Difficult Raids|$)/g;
@@ -121,50 +92,48 @@ function readExistingDrafts() {
   }
 }
 
-const hardestMovesetsRaw = parseHardestMovesets(raw);
+function buildDraft(target) {
+  const raw = readRawFile(`raw/${target.id}.txt`);
+  const rawBudget = readRawFile(`raw/${target.id}-budget.txt`);
 
-const selectedHardestMoveset =
-  target.selectedHardestMoveset ??
-  hardestMovesetsRaw[0] ?? {
-    fastMove: "Unknown",
-    chargedMove: "Unknown"
+  return {
+    id: target.id,
+    name: target.name,
+    source: "Pokebattler",
+    sourceUrl: target.bestUrl,
+    budgetSourceUrl: target.budgetUrl,
+    settings: {
+      attackerLevel: 40,
+      weather: "No weather",
+      friendship: "Not friends",
+      partyPower: false,
+      strategy: "Cinematic attack when possible",
+      defense: "Pokebattler default/random movesets",
+      sort: "Estimator"
+    },
+    meta: {
+      tier: target.tier,
+      themeClass: target.themeClass,
+      image: target.image,
+      imageAlt: target.imageAlt,
+      subtitle: target.subtitle,
+      types: target.types,
+      weaknesses: target.weaknesses,
+      difficultyLabel: target.difficultyLabel
+    },
+    bestCountersRaw: parseCounters(raw, 30),
+    budgetCountersRaw: parseCounters(rawBudget, 30),
+    reviewStatus: "needs-check"
   };
-
-const draft = {
-  id: target.id,
-  name: target.name,
-  source: "Pokebattler",
-  sourceUrl: target.bestUrl,
-  budgetSourceUrl: target.budgetUrl,
-  settings: {
-    attackerLevel: 40,
-    weather: "No weather",
-    friendship: "Not friends",
-    partyPower: false,
-    strategy: "No Dodging / Cinematic attack when possible",
-    sort: "Estimator"
-  },
-  meta: {
-    tier: target.tier,
-    themeClass: target.themeClass,
-    image: target.image,
-    imageAlt: target.imageAlt,
-    subtitle: target.subtitle,
-    types: target.types,
-    weaknesses: target.weaknesses,
-    difficultyLabel: target.difficultyLabel
-  },
-  hardestMovesetsRaw,
-  selectedHardestMoveset,
-  bestCountersRaw: parseCounters(raw, 30),
-  budgetCountersRaw: parseCounters(rawBudget, 30),
-  reviewStatus: "needs-check"
-};
+}
 
 const existingDrafts = readExistingDrafts();
+const newDrafts = targets.map(buildDraft);
+const newDraftIds = new Set(newDrafts.map(draft => draft.id));
+
 const mergedDrafts = [
-  ...existingDrafts.filter(existing => existing.id !== draft.id),
-  draft
+  ...existingDrafts.filter(existing => !newDraftIds.has(existing.id)),
+  ...newDrafts
 ];
 
 fs.writeFileSync(
@@ -173,4 +142,6 @@ fs.writeFileSync(
   "utf8"
 );
 
-console.log(`Generated/updated ${outputPath} for ${target.name}`);
+console.log(
+  `Generated/updated ${outputPath} for ${newDrafts.map(draft => draft.name).join(", ")}`
+);

@@ -44,7 +44,7 @@ function transformDraft(draft) {
         types: draft.meta.types,
         weaknesses: draft.meta.weaknesses,
         difficultyLabel: draft.meta.difficultyLabel,
-        difficulty: `Hardest checked moveset: ${draft.selectedHardestMoveset.fastMove} / ${draft.selectedHardestMoveset.chargedMove}`,
+        difficulty: "Default Pokebattler simulation",
 
         bestCounters: bestTop.map(counter => transformCounter(counter, bestTime)),
         budgetCounters: budgetTop.map(counter => transformCounter(counter, budgetBestTime))
@@ -82,7 +82,22 @@ function isLegacyMove(counterName, moveName) {
         "Necrozma - Dusk Mane": ["Sunsteel Strike"],
         "Keldeo": ["Secret Sword"],
         "Metagross": ["Meteor Mash"],
-        "Shadow Metagross": ["Meteor Mash"]
+        "Shadow Metagross": ["Meteor Mash"],
+        "Mega Rayquaza": ["Dragon Ascent"],
+        "Rayquaza": ["Dragon Ascent"],
+        "Shadow Moltres": ["Fly"],
+        "Moltres": ["Fly"],
+        "Shadow Staraptor": ["Gust"],
+        "Staraptor": ["Gust"],
+        "Primal Groudon": ["Precipice Blades"],
+        "Shadow Groudon": ["Precipice Blades"],
+        "Groudon": ["Precipice Blades"],
+        "Shadow Garchomp": ["Earth Power"],
+        "Garchomp": ["Earth Power"],
+        "Shadow Regigigas": ["Crush Grip"],
+        "Regigigas": ["Crush Grip"],
+        "Mamoswine": ["High Horsepower"],
+        "Shadow Mamoswine": ["High Horsepower"]
     };
 
     return legacyMoves[counterName]?.includes(moveName) ?? false;

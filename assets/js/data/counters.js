@@ -1542,7 +1542,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Flying, Fire, Psychic, Fairy",
                 "difficultyLabel": "Regional",
-                "difficulty": "Regional raid available in the Americas and Greenland.",
+                "difficulty": "Default Pokebattler simulation",
                 "bestCounters": [
                     {
                         "name": "Mega Rayquaza",
@@ -1551,7 +1551,8 @@ export const counterMonths = [
                                 "name": "Air Slash"
                             },
                             {
-                                "name": "Dragon Ascent"
+                                "name": "Dragon Ascent",
+                                "legacy": true
                             }
                         ],
                         "ttw": "230s",
@@ -1564,7 +1565,8 @@ export const counterMonths = [
                                 "name": "Wing Attack"
                             },
                             {
-                                "name": "Fly"
+                                "name": "Fly",
+                                "legacy": true
                             }
                         ],
                         "ttw": "304s",
@@ -1577,7 +1579,8 @@ export const counterMonths = [
                                 "name": "Air Slash"
                             },
                             {
-                                "name": "Dragon Ascent"
+                                "name": "Dragon Ascent",
+                                "legacy": true
                             }
                         ],
                         "ttw": "305s",
@@ -1600,7 +1603,8 @@ export const counterMonths = [
                         "name": "Shadow Staraptor",
                         "moves": [
                             {
-                                "name": "Gust"
+                                "name": "Gust",
+                                "legacy": true
                             },
                             {
                                 "name": "Fly"
@@ -1641,7 +1645,8 @@ export const counterMonths = [
                         "name": "Staraptor",
                         "moves": [
                             {
-                                "name": "Gust"
+                                "name": "Gust",
+                                "legacy": true
                             },
                             {
                                 "name": "Fly"
@@ -1704,6 +1709,366 @@ export const counterMonths = [
                     }
                 ]
             },
+            {
+                "id": "pheromosa",
+                "name": "Pheromosa",
+                "themeClass": "bug-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/795.png",
+                "imageAlt": "Official artwork of Pheromosa",
+                "subtitle": "Regional 5★ Raid • May 13 to May 19",
+                "types": [
+                    "bug",
+                    "fighting"
+                ],
+                "weaknesses": "Flying, Fire, Psychic, Fairy",
+                "difficultyLabel": "Regional",
+                "difficulty": "Default Pokebattler simulation",
+                "bestCounters": [
+                    {
+                        "name": "Mega Rayquaza",
+                        "moves": [
+                            {
+                                "name": "Air Slash"
+                            },
+                            {
+                                "name": "Dragon Ascent",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "112s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Shadow Moltres",
+                        "moves": [
+                            {
+                                "name": "Wing Attack"
+                            },
+                            {
+                                "name": "Fly",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "147s",
+                        "diff": "+32%"
+                    },
+                    {
+                        "name": "Rayquaza",
+                        "moves": [
+                            {
+                                "name": "Air Slash"
+                            },
+                            {
+                                "name": "Dragon Ascent",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "151s",
+                        "diff": "+35%"
+                    },
+                    {
+                        "name": "Shadow Salamence",
+                        "moves": [
+                            {
+                                "name": "Fire Fang"
+                            },
+                            {
+                                "name": "Fly"
+                            }
+                        ],
+                        "ttw": "157s",
+                        "diff": "+41%"
+                    },
+                    {
+                        "name": "Enamorus",
+                        "moves": [
+                            {
+                                "name": "Fairy Wind"
+                            },
+                            {
+                                "name": "Fly"
+                            }
+                        ],
+                        "ttw": "171s",
+                        "diff": "+53%"
+                    },
+                    {
+                        "name": "Moltres",
+                        "moves": [
+                            {
+                                "name": "Wing Attack"
+                            },
+                            {
+                                "name": "Fly",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "177s",
+                        "diff": "+59%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Salamence",
+                        "moves": [
+                            {
+                                "name": "Fire Fang"
+                            },
+                            {
+                                "name": "Fly"
+                            }
+                        ],
+                        "ttw": "191s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Braviary",
+                        "moves": [
+                            {
+                                "name": "Air Slash"
+                            },
+                            {
+                                "name": "Fly"
+                            }
+                        ],
+                        "ttw": "194s",
+                        "diff": "+2%"
+                    },
+                    {
+                        "name": "Hisuian Braviary",
+                        "moves": [
+                            {
+                                "name": "Air Slash"
+                            },
+                            {
+                                "name": "Fly"
+                            }
+                        ],
+                        "ttw": "204s",
+                        "diff": "+7%"
+                    },
+                    {
+                        "name": "Toucannon",
+                        "moves": [
+                            {
+                                "name": "Peck"
+                            },
+                            {
+                                "name": "Beak Blast"
+                            }
+                        ],
+                        "ttw": "204s",
+                        "diff": "+7%"
+                    },
+                    {
+                        "name": "Staraptor",
+                        "moves": [
+                            {
+                                "name": "Wing Attack"
+                            },
+                            {
+                                "name": "Fly"
+                            }
+                        ],
+                        "ttw": "205s",
+                        "diff": "+7%"
+                    },
+                    {
+                        "name": "Flamigo",
+                        "moves": [
+                            {
+                                "name": "Wing Attack"
+                            },
+                            {
+                                "name": "Brave Bird"
+                            }
+                        ],
+                        "ttw": "221s",
+                        "diff": "+16%"
+                    }
+                ]
+            },
+            {
+                "id": "xurkitree",
+                "name": "Xurkitree",
+                "themeClass": "electric-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/796.png",
+                "imageAlt": "Official artwork of Xurkitree",
+                "subtitle": "Regional 5★ Raid • May 13 to May 19",
+                "types": [
+                    "electric"
+                ],
+                "weaknesses": "Ground",
+                "difficultyLabel": "Regional",
+                "difficulty": "Default Pokebattler simulation",
+                "bestCounters": [
+                    {
+                        "name": "Primal Groudon",
+                        "moves": [
+                            {
+                                "name": "Mud Shot"
+                            },
+                            {
+                                "name": "Precipice Blades",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "360s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Shadow Groudon",
+                        "moves": [
+                            {
+                                "name": "Mud Shot"
+                            },
+                            {
+                                "name": "Precipice Blades",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "393s",
+                        "diff": "+9%"
+                    },
+                    {
+                        "name": "Shadow Regigigas",
+                        "moves": [
+                            {
+                                "name": "Hidden Power"
+                            },
+                            {
+                                "name": "Crush Grip",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "416s",
+                        "diff": "+16%"
+                    },
+                    {
+                        "name": "Shadow Garchomp",
+                        "moves": [
+                            {
+                                "name": "Mud Shot"
+                            },
+                            {
+                                "name": "Earth Power",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "419s",
+                        "diff": "+16%"
+                    },
+                    {
+                        "name": "Shadow Excadrill",
+                        "moves": [
+                            {
+                                "name": "Mud-Slap"
+                            },
+                            {
+                                "name": "Scorching Sands"
+                            }
+                        ],
+                        "ttw": "423s",
+                        "diff": "+18%"
+                    },
+                    {
+                        "name": "Shadow Mamoswine",
+                        "moves": [
+                            {
+                                "name": "Mud-Slap"
+                            },
+                            {
+                                "name": "High Horsepower",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "425s",
+                        "diff": "+18%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Mamoswine",
+                        "moves": [
+                            {
+                                "name": "Mud-Slap"
+                            },
+                            {
+                                "name": "High Horsepower",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "509s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Excadrill",
+                        "moves": [
+                            {
+                                "name": "Mud-Slap"
+                            },
+                            {
+                                "name": "Scorching Sands"
+                            }
+                        ],
+                        "ttw": "511s",
+                        "diff": "+0%"
+                    },
+                    {
+                        "name": "Garchomp",
+                        "moves": [
+                            {
+                                "name": "Mud Shot"
+                            },
+                            {
+                                "name": "Earth Power",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "514s",
+                        "diff": "+1%"
+                    },
+                    {
+                        "name": "Rhyperior",
+                        "moves": [
+                            {
+                                "name": "Mud-Slap"
+                            },
+                            {
+                                "name": "Earthquake"
+                            }
+                        ],
+                        "ttw": "551s",
+                        "diff": "+8%"
+                    },
+                    {
+                        "name": "Krookodile",
+                        "moves": [
+                            {
+                                "name": "Mud-Slap"
+                            },
+                            {
+                                "name": "Earthquake"
+                            }
+                        ],
+                        "ttw": "588s",
+                        "diff": "+16%"
+                    },
+                    {
+                        "name": "Golurk",
+                        "moves": [
+                            {
+                                "name": "Mud-Slap"
+                            },
+                            {
+                                "name": "Earth Power"
+                            }
+                        ],
+                        "ttw": "596s",
+                        "diff": "+17%"
+                    }
+                ]
+            },
 
             {
                 "id": "mega-glalie",
@@ -1717,7 +2082,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fighting, Rock, Steel, Fire",
                 "difficultyLabel": "Focus",
-                "difficulty": "Use Fighting and Steel attackers for best results.",
+                "difficulty": "Default Pokebattler simulation",
                 "bestCounters": [
                     {
                         "name": "Mega Lucario",
@@ -1885,7 +2250,9 @@ export const counterMonths = [
                         "diff": "+20%"
                     }
                 ]
-            }
+            },
+
+
         ]
     }
 ];

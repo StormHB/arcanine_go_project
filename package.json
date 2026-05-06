@@ -2,11 +2,14 @@
   "name": "arcanine_go_project",
   "version": "1.0.0",
   "type": "module",
-  "description": "A clean, modern Pokémon GO raid guide website built with a data-driven JavaScript architecture.",
+  "description": "A clean, modern Pok\u00e9mon GO raid guide website built with a data-driven JavaScript architecture.",
   "main": "index.js",
   "scripts": {
-    "update-counters": "node tools/scrape.js && node tools/parse-pokebattler.js && node tools/transform-counter-draft.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update-counters": "node tools/scrape.js all && node tools/parse-pokebattler.js all && node tools/transform-counter-draft.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape-counters": "node tools/scrape.js all",
+    "parse-counters": "node tools/parse-pokebattler.js all",
+    "transform-counters": "node tools/transform-counter-draft.js"
   },
   "repository": {
     "type": "git",

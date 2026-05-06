@@ -4,6 +4,17 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.12.0] - Default Pokebattler Counter Workflow
+
+### Changed
+- Removed custom boss moveset selection from the scraper workflow
+- Simplified `tools/scrape.js` so it only opens the default Pokebattler pages and saves raw page text
+- Cleaned `tools/parse-pokebattler.js` by removing legacy selected-moveset parsing and metadata
+- Updated generated counter difficulty labels to use default Pokebattler simulations
+- Updated methodology text for the default Pokebattler simulation workflow
+
+---
+
 ## [1.11.0] - Regional Raid Support and Multi-Boss Handling
 
 ### Added
@@ -325,10 +336,10 @@ All notable changes to this project are documented here.
 
 * Standardized all counters using:
   * Level 40
-  * Extreme weather
+  * No weather boost
   * No friendship bonus
   * No party power
-  * Hardest boss moveset
+  * Pokebattler default/random boss movesets
 * Refactored counters to show:
   * **Top 6 best**
   * **Top 6 budget**

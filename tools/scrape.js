@@ -3,51 +3,60 @@ import fs from "fs";
 import { scrapeTargets } from "./scrape-targets.js";
 
 const targetId = process.argv[2];
+const targets = getTargets(targetId);
 
-if (!targetId || !scrapeTargets[targetId]) {
-  console.error("Usage: node tools/scrape.js <target-id>");
-  console.error("Available targets:", Object.keys(scrapeTargets).join(", "));
-  process.exit(1);
+function getTargets(id) {
+  if (!id || id === "all") {
+    return Object.values(scrapeTargets);
+  }
+
+  if (!scrapeTargets[id]) {
+    console.error("Usage: node tools/scrape.js [target-id|all]");
+    console.error("Available targets:", Object.keys(scrapeTargets).join(", "));
+    process.exit(1);
+  }
+
+  return [scrapeTargets[id]];
 }
 
-const target = scrapeTargets[targetId];
+async function saveBodyText(page, url, outputPath) {
+  console.log(`Opening ${url}`);
 
-fs.mkdirSync("raw", { recursive: true });
+  await page.goto(url, {
+    waitUntil: "domcontentloaded",
+    timeout: 60000
+  });
 
-async function saveBodyText(page, fileName) {
-  await page.waitForTimeout(8000);
+  await page.waitForTimeout(5000);
+
   const text = await page.locator("body").innerText();
-  fs.writeFileSync(fileName, text, "utf8");
-  console.log(`Saved ${fileName}`);
+  fs.writeFileSync(outputPath, text, "utf8");
+  console.log(`Saved ${outputPath}`);
+}
+
+async function scrapeTarget(page, target) {
+  console.log(`\nStarting scraper for ${target.name}...`);
+
+  await saveBodyText(page, target.bestUrl, `raw/${target.id}.txt`);
+  await saveBodyText(page, target.budgetUrl, `raw/${target.id}-budget.txt`);
 }
 
 (async () => {
+  const browser = await chromium.launch({ headless: false });
+  const page = await browser.newPage();
+
   try {
-    console.log(`Starting scraper for ${target.name}...`);
+    fs.mkdirSync("raw", { recursive: true });
 
-    const browser = await chromium.launch({ headless: false });
-    const page = await browser.newPage();
+    for (const target of targets) {
+      await scrapeTarget(page, target);
+    }
 
-    await page.goto(target.bestUrl, {
-      waitUntil: "domcontentloaded",
-      timeout: 60000
-    });
-
-    console.log("Best page loaded");
-    await saveBodyText(page, `raw/${target.id}.txt`);
-
-    await page.goto(target.budgetUrl, {
-      waitUntil: "domcontentloaded",
-      timeout: 60000
-    });
-
-    console.log("Budget page loaded");
-    await saveBodyText(page, `raw/${target.id}-budget.txt`);
-
-    await browser.close();
-
-    console.log("Done.");
+    console.log("\nDone.");
   } catch (err) {
     console.error("ERROR:", err);
+    process.exitCode = 1;
+  } finally {
+    await browser.close();
   }
 })();

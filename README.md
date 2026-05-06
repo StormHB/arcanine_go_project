@@ -107,12 +107,12 @@ This project focuses on:
 All counters are evaluated using a consistent simulation standard:
 
 - Level 40 counters  
-- Extreme weather conditions  
+- No weather boost  
 - No friendship bonus  
 - No party power boost  
-- Hardest boss moveset selected  
+- Pokebattler default/random boss movesets  
 
-This ensures fair and comparable results.
+This keeps the workflow close to the standard Pokebattler raid page and avoids maintaining manual selector logic.
 
 Raid performance data is based on Pokebattler simulations.
 
@@ -182,8 +182,8 @@ This project includes a Node.js-based tooling pipeline for preparing raid counte
 
 The pipeline is used to:
 
-- Scrape raw Pokebattler counter data  
-- Parse best and budget counters  
+- Scrape raw Pokebattler counter data from the default raid pages  
+- Parse best and budget counters without interacting with Pokebattler selectors  
 - Sort counters by Time to Win (TTW)  
 - Limit teams to one Mega/Primal attacker  
 - Detect legacy/event-exclusive moves per move  
@@ -193,8 +193,13 @@ The pipeline is used to:
 ### Commands
 
 ```bash
-node tools/scrape.js
-node tools/parse-pokebattler.js
+node tools/scrape.js <target-id>
+node tools/parse-pokebattler.js <target-id>
+node tools/transform-counter-draft.js
+
+# or run scrape/parse for every target
+node tools/scrape.js all
+node tools/parse-pokebattler.js all
 node tools/transform-counter-draft.js
 ```
 

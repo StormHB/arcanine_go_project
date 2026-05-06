@@ -26,7 +26,12 @@ function formatCounterSubtitle(boss) {
   const startDay = startDate.getDate();
   const endDay = endDate.getDate();
 
-  const tier = raidCard.badge === "Mega" ? "Mega Raid" : boss.subtitle?.split("•")[0]?.trim() ?? "Raid";
+  const tier =
+  raidCard.badge === "Mega"
+    ? "Mega Raid"
+    : raidCard.badge === "Regional"
+      ? "Regional 5★"
+      : boss.subtitle?.split("•")[0]?.trim() ?? "Raid";
 
   return `${tier} • ${month} ${startDay} to ${month} ${endDay}`;
 }

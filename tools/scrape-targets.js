@@ -10,10 +10,6 @@ export const scrapeTargets = {
         types: ["ice"],
         weaknesses: "Fighting, Rock, Steel, Fire",
         difficultyLabel: "Focus",
-        selectedHardestMoveset: {
-            fastMove: "Powder Snow",
-            chargedMove: "Shadow Ball"
-        },
         bestUrl: "https://www.pokebattler.com/raids/defenders/GLALIE_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
         budgetUrl: "https://www.pokebattler.com/raids/defenders/GLALIE_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
     },
@@ -29,7 +25,37 @@ export const scrapeTargets = {
         types: ["bug", "fighting"],
         weaknesses: "Flying, Fire, Psychic, Fairy",
         difficultyLabel: "Regional",
-        bestUrl: "https://www.pokebattler.com/raids/defenders/BUZZWOLE/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
-        budgetUrl: "https://www.pokebattler.com/raids/defenders/BUZZWOLE/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+        bestUrl: "https://www.pokebattler.com/raids/defenders/BUZZWOLE/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+        budgetUrl: "https://www.pokebattler.com/raids/defenders/BUZZWOLE/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+    },
+
+    pheromosa: {
+        id: "pheromosa",
+        name: "Pheromosa",
+        tier: "5★ Raid",
+        themeClass: "bug-theme",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/795.png",
+        imageAlt: "Official artwork of Pheromosa",
+        subtitle: "Regional 5★ Raid • May 13 to May 19",
+        types: ["bug", "fighting"],
+        weaknesses: "Flying, Fire, Psychic, Fairy",
+        difficultyLabel: "Regional",
+        bestUrl: "https://www.pokebattler.com/raids/defenders/PHEROMOSA/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+        budgetUrl: "https://www.pokebattler.com/raids/defenders/PHEROMOSA/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+    },
+
+    xurkitree: {
+        id: "xurkitree",
+        name: "Xurkitree",
+        tier: "5★ Raid",
+        themeClass: "electric-theme",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/796.png",
+        imageAlt: "Official artwork of Xurkitree",
+        subtitle: "Regional 5★ Raid • May 13 to May 19",
+        types: ["electric"],
+        weaknesses: "Ground",
+        difficultyLabel: "Regional",
+        bestUrl: "https://www.pokebattler.com/raids/defenders/XURKITREE/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+        budgetUrl: "https://www.pokebattler.com/raids/defenders/XURKITREE/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
     }
 };

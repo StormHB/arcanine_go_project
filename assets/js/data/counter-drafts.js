@@ -11,13 +11,8 @@ export const counterDrafts = [
       friendship: "Not friends",
       partyPower: false,
       strategy: "Cinematic attack when possible",
+      defense: "Pokebattler default/random movesets",
       sort: "Estimator"
-    },
-
-    hardestMoveset: {
-      fastMove: "Powder Snow",
-      chargedMove: "Shadow Ball",
-      note: "Chosen from Pokebattler hardest movesets table"
     },
 
     bestCountersRaw: [
