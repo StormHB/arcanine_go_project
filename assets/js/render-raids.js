@@ -159,7 +159,7 @@ function renderSummaryCards(monthId) {
     const [primaryType, secondaryType] = raid.types;
     const card = document.createElement("a");
 
-    card.href = raid.href;
+    card.href = `boss.html?id=${raid.id}`;
     card.className = `summary-card ${secondaryType ? "dual-glow" : "single-glow"} summary-card-link`;
     card.dataset.primaryType = primaryType;
     card.style.setProperty("--primary-glow", `var(--${primaryType})`);
@@ -217,7 +217,7 @@ function renderRaidCards(monthId) {
 
     const card = document.createElement("a");
 
-    card.href = raid.href;
+    card.href = `boss.html?id=${raid.id}`;
     card.className = `raid-card ${secondaryType ? "dual-glow" : "single-glow"} raid-card-link`;
     card.dataset.primaryType = primaryType;
     card.style.setProperty("--primary-glow", `var(--${primaryType})`);

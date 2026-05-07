@@ -1703,3 +1703,353 @@ label:focus-visible {
 .month-selector select {
   max-width: 260px;
 }
+
+.boss-detail-root {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.boss-detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.back-link {
+  display: inline-block;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.boss-detail-card {
+  border: 1px solid color-mix(in srgb, var(--primary-glow), transparent 60%);
+  border-radius: 2rem;
+  padding: 2rem;
+  background:
+    radial-gradient(circle at 12% 12%, color-mix(in srgb, var(--primary-glow), transparent 74%), transparent 34%),
+    radial-gradient(circle at 88% 14%, color-mix(in srgb, var(--secondary-glow), transparent 76%), transparent 34%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.015)),
+    var(--card-bg);
+
+  box-shadow:
+    0 0 34px color-mix(in srgb, var(--primary-glow), transparent 74%),
+    0 0 28px color-mix(in srgb, var(--secondary-glow), transparent 78%),
+    0 18px 60px rgba(0, 0, 0, 0.35);
+}
+
+.boss-detail-hero {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.boss-detail-art-wrap {
+  width: 190px;
+  height: 190px;
+  display: grid;
+  place-items: center;
+  border-radius: 1.5rem;
+
+  background:
+    radial-gradient(circle at 35% 35%, color-mix(in srgb, var(--primary-glow), transparent 38%), transparent 68%),
+    radial-gradient(circle at 70% 70%, color-mix(in srgb, var(--secondary-glow), transparent 45%), transparent 72%);
+
+  box-shadow:
+    0 0 28px color-mix(in srgb, var(--primary-glow), transparent 42%),
+    0 0 22px color-mix(in srgb, var(--secondary-glow), transparent 48%),
+    inset 0 0 24px rgba(255, 255, 255, 0.08);
+}
+
+.boss-detail-art {
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+
+  filter:
+    drop-shadow(0 0 14px color-mix(in srgb, var(--primary-glow), transparent 40%))
+    drop-shadow(0 0 22px color-mix(in srgb, var(--secondary-glow), transparent 52%));
+}
+
+.boss-detail-heading {
+  text-align: left;
+}
+
+.boss-detail-heading h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2.8rem, 6vw, 4.8rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+.boss-detail-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.boss-raid-badge {
+  position: static;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: fit-content;
+
+  border-radius: 999px;
+  padding: 0.6rem 1rem;
+
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1;
+
+  color: var(--text-main);
+
+  background: rgba(255, 255, 255, 0.08);
+
+  border: 1px solid color-mix(
+    in srgb,
+    var(--primary-glow),
+    transparent 45%
+  );
+
+  box-shadow:
+    0 0 14px color-mix(
+      in srgb,
+      var(--primary-glow),
+      transparent 76%
+    );
+}
+
+.boss-detail-date-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.boss-subtitle {
+  margin: 0;
+  color: var(--text-main);
+  font-weight: 700;
+}
+
+.boss-detail-status {
+  position: static !important;
+  inset: unset !important;
+  box-shadow: none !important;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: fit-content;
+
+  padding: 0.45rem 0.85rem;
+
+  border-radius: 999px;
+
+  font-size: 0.82rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.boss-detail-status.active {
+  background: rgba(46, 204, 113, 0.16);
+  color: #4ade80;
+  border: 1px solid rgba(74, 222, 128, 0.3);
+}
+
+.boss-detail-status.upcoming {
+  background: rgba(59, 130, 246, 0.16);
+  color: #60a5fa;
+  border: 1px solid rgba(96, 165, 250, 0.3);
+}
+
+.boss-detail-status.ended {
+  background: rgba(148, 163, 184, 0.12);
+  color: #94a3b8;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.boss-detail-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.boss-detail-meta-box {
+  min-height: 110px;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.65rem;
+
+  text-align: center;
+}
+
+.boss-detail-meta-box strong,
+.boss-detail-meta-box span {
+  width: 100%;
+  text-align: center;
+}
+
+.boss-detail-meta-box strong {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted-text);
+}
+
+.boss-detail-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.boss-detail-counter-group {
+  width: 100%;
+}
+
+.boss-detail-counter-group h2 {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.boss-detail-counter {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+
+  gap: 1rem;
+  align-items: center;
+
+  padding: 1rem;
+
+  border-radius: 1rem;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  margin-bottom: 0.75rem;
+
+  box-sizing: border-box;
+}
+
+.boss-detail-counter > div {
+  min-width: 0;
+}
+
+.counter-rank {
+  font-weight: 900;
+  opacity: 0.75;
+  font-size: 1.15rem;
+  text-align: center;
+}
+
+.boss-detail-moves {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0.5rem 0;
+}
+
+.boss-detail-move {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.move-label {
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted-text);
+  opacity: 0.8;
+  min-width: 4.2rem;
+}
+
+@media (max-width: 800px) {
+  .boss-detail-root {
+    padding: 1rem;
+  }
+
+  .boss-detail-hero,
+  .boss-detail-meta-grid,
+  .boss-detail-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .boss-detail-heading {
+    text-align: center;
+  }
+
+  .boss-detail-badges,
+  .boss-detail-date-row {
+    justify-content: center;
+  }
+
+  .boss-detail-art-wrap {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 520px) {
+  .boss-detail-card {
+    padding: 1.25rem;
+  }
+
+  .boss-detail-heading h1 {
+    font-size: clamp(2.2rem, 13vw, 3.4rem);
+  }
+
+  .boss-detail-counter {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .boss-detail-move {
+    justify-content: center;
+  }
+
+  .move-label {
+    min-width: auto;
+  }
+
+  .counter-stats {
+    justify-content: center;
+  }
+}
+
+.boss-detail-status.planned {
+  background: rgba(168, 85, 247, 0.16);
+  color: #c084fc;
+  border: 1px solid rgba(192, 132, 252, 0.3);
+}
+
+.boss-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.boss-card-link:hover {
+  transform: translateY(-4px);
+}
+
+.boss-card-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}

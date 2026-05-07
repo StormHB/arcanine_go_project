@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boss Details | Arcanine Go Project</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="assets/js/render-boss.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="Arcanine Go Project home page">
+      <span class="brand-logo">A</span>
+
+      <span class="brand-text">
+        Arcanine Go Project
+        <small>Pokemon GO Raid Guide</small>
+      </span>
+    </a>
+
+    <input
+      type="checkbox"
+      id="nav-toggle"
+      aria-label="Toggle navigation menu"
+    >
+
+    <label
+      class="menu-toggle"
+      for="nav-toggle"
+      aria-label="Open navigation menu"
+    >
+      <span></span>
+    </label>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+
+        <li>
+          <a href="raids.html">Raids</a>
+        </li>
+
+        <li>
+          <a
+            href="counters.html"
+            class="active"
+            aria-current="page"
+          >
+            Counters
+          </a>
+        </li>
+
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+  <div id="boss-detail-root" class="boss-detail-root">
+    <p class="meta-copy">Loading boss details...</p>
+  </div>
+</main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Arcanine Go Project</strong> • Static faculty project made with HTML and CSS</p>
+      <p>Deployed through GitHub Pages.</p>
+    </div>
+  </footer>
+</body>
+</html>

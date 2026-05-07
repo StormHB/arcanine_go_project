@@ -155,9 +155,10 @@ function renderBossCard(boss) {
       : "Ended";
 
   return `
-    <article
+    <a  
       id="${boss.id}"
-      class="boss-card ${boss.themeClass} ${bossStatus} ${bossStatus === "current-boss" ? "is-active" : ""}"
+      href="boss.html?id=${boss.id}"
+      class="boss-card boss-card-link ${boss.themeClass} ${bossStatus} ${bossStatus === "current-boss" ? "is-active" : ""}"
       style="
         --primary-glow: var(--${boss.types[0]});
         --secondary-glow: ${boss.types[1] ? `var(--${boss.types[1]})` : "transparent"};
@@ -205,7 +206,7 @@ function renderBossCard(boss) {
           ${renderCounterGroup("Budget counters", boss.budgetCounters, "budget")}
         </div>
       </div>
-    </article>
+    </a>
   `;
 }
 
