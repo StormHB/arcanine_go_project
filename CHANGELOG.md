@@ -4,6 +4,26 @@ All notable changes to this project are documented here.
 
 ---
 
+## 1.15.0 - Homepage Redesign & CSS Cleanup
+
+### Added
+- Redesigned homepage hero section with updated project messaging
+- Added clearer focus on dynamic raid rotations and generated counter data
+- Improved mobile layout spacing and responsive hero scaling
+
+### Changed
+- Updated homepage content to reflect current JavaScript-driven architecture
+- Refined responsive navigation/header behavior on smaller screens
+- Improved hero metadata layout on mobile devices
+
+### Refactored
+- Removed redundant and outdated CSS rules
+- Cleaned up duplicated `.boss-card` and `.counter-chip` styles
+- Simplified mobile counter card layout after flexbox migration
+- Unified shared color/text utility variables
+
+---
+
 ## [1.14.0] - Boss Detail Pages & Contact Form Backend Integration
 
 ### Added
