@@ -1,17 +1,153 @@
 export const scrapeTargets = {
-    "mega-glalie": {
-        id: "mega-glalie",
-        name: "Mega Glalie",
-        tier: "Mega Raid",
-        themeClass: "ice-theme",
-        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10074.png",
-        imageAlt: "Official artwork of Mega Glalie",
-        subtitle: "Mega Raid • May 13 to May 19",
-        types: ["ice"],
-        weaknesses: "Fighting, Rock, Steel, Fire",
+
+    kyogre: {
+        id: "kyogre",
+        name: "Kyogre",
+        tier: "5★ Raid",
+        themeClass: "water-theme",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png",
+        imageAlt: "Official artwork of Kyogre",
+        subtitle: "5★ Raid • April 8 to April 14",
+        types: ["water"],
+        weaknesses: "Grass, Electric",
         difficultyLabel: "Focus",
-        bestUrl: "https://www.pokebattler.com/raids/defenders/GLALIE_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
-        budgetUrl: "https://www.pokebattler.com/raids/defenders/GLALIE_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+        bestUrl: "https://www.pokebattler.com/raids/defenders/KYOGRE/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+        budgetUrl: "https://www.pokebattler.com/raids/defenders/KYOGRE/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+    },
+
+    megaAerodactyl: {
+        id: "mega-aerodactyl",
+        name: "Mega Aerodactyl",
+        tier: "Mega Raid",
+        themeClass: "rock-theme",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10042.png",
+        imageAlt: "Official artwork of Mega Aerodactyl",
+        subtitle: "Mega Raid • April 8 to April 14",
+        types: ["rock", "flying"],
+        weaknesses: "Rock, Steel, Water, Electric, Ice",
+        difficultyLabel: "Focus",
+        bestUrl: "https://www.pokebattler.com/raids/defenders/AERODACTYL_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+        budgetUrl: "https://www.pokebattler.com/raids/defenders/AERODACTYL_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+    },
+
+    groudon: {
+        id: "groudon",
+        name: "Groudon",
+        tier: "5★ Raid",
+        themeClass: "ground-theme",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png",
+        imageAlt: "Official artwork of Groudon",
+        subtitle: "5★ Raid • April 15 to April 21",
+        types: ["ground"],
+        weaknesses: "Water, Grass, Ice",
+        difficultyLabel: "Focus",
+        bestUrl: "https://www.pokebattler.com/raids/defenders/GROUDON/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+        budgetUrl: "https://www.pokebattler.com/raids/defenders/GROUDON/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+    },
+
+    megaAlakazam: {
+        id: "mega-alakazam",
+        name: "Mega Alakazam",
+        tier: "Mega Raid",
+        themeClass: "psychic-theme",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10037.png",
+        imageAlt: "Official artwork of Mega Alakazam",
+        subtitle: "Mega Raid • April 15 to April 21",
+        types: ["psychic"],
+        weaknesses: "Bug, Ghost, Dark",
+        difficultyLabel: "Focus",
+        bestUrl: "https://www.pokebattler.com/raids/defenders/ALAKAZAM_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+        budgetUrl: "https://www.pokebattler.com/raids/defenders/ALAKAZAM_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+    },
+
+    tapuKoko: {
+        id: "tapu-koko",
+        name: "Tapu Koko",
+        tier: "5★ Raid",
+        themeClass: "electric-theme",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/785.png",
+        imageAlt: "Official artwork of Tapu Koko",
+        subtitle: "5★ Raid • April 22 to April 28",
+        types: ["electric", "fairy"],
+        weaknesses: "Poison, Ground",
+        difficultyLabel: "Focus",
+        bestUrl: "https://www.pokebattler.com/raids/defenders/TAPU_KOKO/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+        budgetUrl: "https://www.pokebattler.com/raids/defenders/TAPU_KOKO/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+    },
+
+    megaSharpedo: {
+        id: "mega-sharpedo",
+        name: "Mega Sharpedo",
+        tier: "Mega Raid",
+        themeClass: "water-theme",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10070.png",
+        imageAlt: "Official artwork of Mega Sharpedo",
+        subtitle: "Mega Raid • April 22 to April 28",
+        types: ["water", "dark"],
+        weaknesses: "Fighting, Bug, Grass, Electric, Fairy",
+        difficultyLabel: "Focus",
+        bestUrl: "https://www.pokebattler.com/raids/defenders/SHARPEDO_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+        budgetUrl: "https://www.pokebattler.com/raids/defenders/SHARPEDO_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+    },
+
+    tapuLele: {
+        id: "tapu-lele",
+        name: "Tapu Lele",
+        tier: "5★ Raid",
+        themeClass: "psychic-theme",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png",
+        imageAlt: "Official artwork of Tapu Lele",
+        subtitle: "5★ Raid • April 29 to May 5",
+        types: ["psychic", "fairy"],
+        weaknesses: "Poison, Ghost, Steel",
+        difficultyLabel: "Focus",
+        bestUrl: "https://www.pokebattler.com/raids/defenders/TAPU_LELE/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+        budgetUrl: "https://www.pokebattler.com/raids/defenders/TAPU_LELE/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+    },
+
+    megaBanette: {
+        id: "mega-banette",
+        name: "Mega Banette",
+        tier: "Mega Raid",
+        themeClass: "ghost-theme",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10056.png",
+        imageAlt: "Official artwork of Mega Banette",
+        subtitle: "Mega Raid • April 29 to May 5",
+        types: ["ghost"],
+        weaknesses: "Ghost, Dark",
+        difficultyLabel: "Focus",
+        bestUrl: "https://www.pokebattler.com/raids/defenders/BANETTE_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+        budgetUrl: "https://www.pokebattler.com/raids/defenders/BANETTE_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+    },
+
+    nihilego: {
+        id: "nihilego",
+        name: "Nihilego",
+        tier: "5★ Raid",
+        themeClass: "rock-theme",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/793.png",
+        imageAlt: "Official artwork of Nihilego",
+        subtitle: "5★ Raid • May 6 to May 12",
+        types: ["rock", "poison"],
+        weaknesses: "Ground, Psychic, Steel, Water",
+        difficultyLabel: "Focus",
+        bestUrl: "https://www.pokebattler.com/raids/defenders/NIHILEGO/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+        budgetUrl: "https://www.pokebattler.com/raids/defenders/NIHILEGO/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+    },
+
+    megaCamerupt: {
+        id: "mega-camerupt",
+        name: "Mega Camerupt",
+        tier: "Mega Raid",
+        themeClass: "fire-theme",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10087.png",
+        imageAlt: "Official artwork of Mega Camerupt",
+        subtitle: "Mega Raid • May 6 to May 12",
+        types: ["fire", "ground"],
+        weaknesses: "Water, Ground",
+        difficultyLabel: "Focus",
+        bestUrl: "https://www.pokebattler.com/raids/defenders/CAMERUPT_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+        budgetUrl: "https://www.pokebattler.com/raids/defenders/CAMERUPT_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
     },
 
     buzzwole: {
@@ -57,6 +193,21 @@ export const scrapeTargets = {
         difficultyLabel: "Regional",
         bestUrl: "https://www.pokebattler.com/raids/defenders/XURKITREE/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
         budgetUrl: "https://www.pokebattler.com/raids/defenders/XURKITREE/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+    },
+
+    megaGlalie: {
+        id: "mega-glalie",
+        name: "Mega Glalie",
+        tier: "Mega Raid",
+        themeClass: "ice-theme",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10074.png",
+        imageAlt: "Official artwork of Mega Glalie",
+        subtitle: "Mega Raid • May 13 to May 19",
+        types: ["ice"],
+        weaknesses: "Fighting, Rock, Steel, Fire",
+        difficultyLabel: "Focus",
+        bestUrl: "https://www.pokebattler.com/raids/defenders/GLALIE_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+        budgetUrl: "https://www.pokebattler.com/raids/defenders/GLALIE_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
     },
 
     tapuBulu: {
