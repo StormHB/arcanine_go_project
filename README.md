@@ -36,6 +36,8 @@ This project focuses on:
 - Designed for future automation (scraping / API integration)  
 - Monthly rotation support with history/current/upcoming states  
 - Support for multiple simultaneous raid bosses in a single rotation period  
+- Automatic month status calculation based on raid activity windows
+- No manual “current/upcoming/history” maintenance required
 - Support for regional raid distributions (region-specific bosses)  
 
 ---
@@ -189,6 +191,8 @@ The pipeline is used to:
 - Detect legacy/event-exclusive moves per move  
 - Generate draft and final counter datasets  
 - Supports multiple bosses without overwriting existing data  
+- Standardized JSON-style generated datasets
+- Shared metadata structure across generated and manual counter data
 
 ### Commands
 
