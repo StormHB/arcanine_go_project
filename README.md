@@ -200,6 +200,9 @@ Raid performance data is based on Pokebattler simulations.
   * Preview image
 * Twitter card metadata
 * Improved structure for indexing and sharing
+* `robots.txt` support for crawler/indexing control
+* Dynamic `sitemap.xml` generation
+* Search-engine-friendly page structure
 
 ---
 
@@ -214,6 +217,21 @@ The project follows a data-driven frontend architecture:
 * Styling is centralized through reusable CSS systems and type variables
 
 This approach improves scalability, maintainability and future automation support.
+
+---
+
+## Automation Tooling
+
+The project includes lightweight tooling scripts for automating structured frontend data generation.
+
+Current automation features include:
+
+* Pokebattler counter scraping and transformation
+* Generated counter datasets
+* Dynamic sitemap generation
+* Shared metadata handling across raids and counters
+
+This reduces manual maintenance and keeps frontend content synchronized with structured data sources.
 
 ---
 
@@ -266,6 +284,11 @@ node tools/scrape.js all
 node tools/parse-pokebattler.js all
 node tools/transform-counter-draft.js
 ```
+
+```bash
+node tools/generate-sitemap.js
+```
+Generates a dynamic `sitemap.xml` file based on all current pages and boss routes.
 
 ### Output files
 

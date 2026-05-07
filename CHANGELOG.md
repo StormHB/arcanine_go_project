@@ -4,6 +4,30 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.16.0] - SEO Improvements & Main Branch Integration
+
+### Added
+- Added `robots.txt` support for crawler indexing
+- Added dynamically generated `sitemap.xml`
+- Added automated sitemap generation tooling
+- Improved search engine discoverability for boss detail pages
+
+### Changed
+- Updated README documentation with architecture and SEO details
+- Expanded project structure and tooling documentation
+- Improved documentation consistency across frontend and tooling systems
+
+### Improved
+- Better long-term maintainability of deployable site metadata
+- Improved synchronization between frontend routes and sitemap entries
+
+### Infrastructure
+- Merged `js-refactor` branch into `main`
+- Unified GitHub Pages deployment with the new JavaScript-driven architecture
+- Preserved legacy `main` state through backup branch before merge
+
+---
+
 ## 1.15.0 - Homepage Redesign & CSS Cleanup
 
 ### Added
