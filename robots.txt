@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://stormhb.github.io/arcanine_go_project/sitemap.xml
