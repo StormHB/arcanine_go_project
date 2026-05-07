@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0b0f1a">
 
   <title>Contact & Support | Arcanine Go Project</title>
-  <meta name="description" content="Contact the Arcanine Go Project for feedback, raid suggestions and general website inquiries.">
+  <meta name="description"
+    content="Contact the Arcanine Go Project for feedback, raid suggestions and general website inquiries.">
   <meta name="author" content="StormHB">
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="Contact | Arcanine Go Project">
-  <meta property="og:description" content="Contact the Arcanine Go Project for feedback, raid suggestions and general website inquiries.">
+  <meta property="og:description"
+    content="Contact the Arcanine Go Project for feedback, raid suggestions and general website inquiries.">
   <meta property="og:image" content="https://stormhb.github.io/arcanine_go_project/assets/img/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -21,7 +23,8 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Contact | Arcanine Go Project">
-  <meta name="twitter:description" content="Contact the Arcanine Go Project for feedback, raid suggestions and general website inquiries.">
+  <meta name="twitter:description"
+    content="Contact the Arcanine Go Project for feedback, raid suggestions and general website inquiries.">
   <meta name="twitter:image" content="https://stormhb.github.io/arcanine_go_project/assets/img/og-image.jpg">
 
   <link rel="icon" href="/favicon.ico">
@@ -62,6 +65,12 @@
   </header>
 
   <main id="main-content">
+    <div id="success-message" class="note-box" style="display: none; margin-bottom: 2rem;">
+      <strong>Message received</strong>
+      <p>
+        Thanks for the feedback. Your submission was sent successfully.
+      </p>
+    </div>
     <section class="hero">
       <div class="container">
         <div class="hero-card">
@@ -93,29 +102,22 @@
               general feedback about the website.
             </p>
 
-            <form action="#" method="post" aria-labelledby="contact-heading" aria-describedby="contact-help form-note">
+            <form action="https://formspree.io/f/mjgleyyw" method="POST" aria-labelledby="contact-heading"
+              aria-describedby="contact-help form-note">
+              <input type="hidden" name="_subject" value="New Arcanine Go Project submission">
+              <input type="hidden" name="_next"
+                value="https://stormhb.github.io/arcanine_go_project/contact.html?success=true">
+              <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
               <div class="form-row">
                 <label for="full-name">Full name</label>
-                <input
-                  type="text"
-                  id="full-name"
-                  name="full-name"
-                  placeholder="Enter your full name"
-                  autocomplete="name"
-                  required
-                >
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name"
+                  autocomplete="name" required>
               </div>
 
               <div class="form-row">
                 <label for="email">Email address</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Enter your email"
-                  autocomplete="email"
-                  required
-                >
+                <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email"
+                  required>
               </div>
 
               <div class="form-row">
@@ -146,19 +148,17 @@
 
               <div class="form-row">
                 <label for="message">Message</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder="Describe your suggestion, issue, or requested update"
-                  required
-                ></textarea>
+                <textarea id="message" name="message" placeholder="Describe your suggestion, issue, or requested update"
+                  required></textarea>
               </div>
 
               <button class="btn btn-primary" type="submit">Send message</button>
 
               <p class="form-note" id="form-note">
-                This form is currently static and does not process submissions.
-                Backend support for handling messages is planned for a future update.
+                Messages submitted through this form are processed using Formspree
+                and delivered directly to the project inbox.
+
+                Please allow time for review and future raid/counter updates.
               </p>
             </form>
           </div>
@@ -190,7 +190,7 @@
                 <h3>Built-in validation</h3>
                 <p class="card-text">
                   Required fields and the email input type provide simple built-in HTML validation
-                  without JavaScript.
+                  before submission.
                 </p>
               </article>
 
@@ -198,19 +198,18 @@
                 <div class="card-icon">ℹ</div>
                 <h3>Project note</h3>
                 <p class="card-text">
-                  This page is part of the Arcanine Go Project and is currently a static
-                  support/contact interface. Backend functionality for submissions will be
-                  introduced in a future update.
+                  This page is part of the Arcanine Go Project and uses a lightweight form
+                  service to collect feedback, raid suggestions and counter corrections.
                 </p>
               </article>
             </div>
 
             <div class="note-box" id="support-note">
-              <strong>Submission support coming soon</strong>
-                <p>
-                  This form currently does not send or store messages. Full backend support
-                  for handling submissions is planned for an upcoming release.
-                </p>
+              <strong>Community feedback</strong>
+              <p>
+                Feedback submitted through this page helps improve raid rotations,
+                counter recommendations and future project features.
+              </p>
             </div>
           </aside>
         </div>
@@ -220,9 +219,24 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p><strong>Arcanine Go Project</strong> • Contact and support page</p>
-      <p>Built with HTML and CSS.</p>
+      <p>
+        <strong>Arcanine Go Project</strong> • Contact and support page
+      </p>
+
+      <p>
+        Built with HTML, CSS and JavaScript.
+        Contact submissions powered by Formspree.
+      </p>
     </div>
   </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+
+    if (params.get("success") === "true") {
+      document.getElementById("success-message").style.display = "block";
+    }
+  </script>
 </body>
+
 </html>
