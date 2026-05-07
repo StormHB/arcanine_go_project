@@ -4,6 +4,29 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.14.0] - Boss Detail Pages & Contact Form Backend Integration
+
+### Added
+- Dedicated `boss.html` pages for individual raid bosses
+- Fully clickable counter boss cards linking directly to detailed boss pages
+- Formspree integration for contact form submissions
+- Success message handling for completed contact submissions
+- Spam protection support using hidden honeypot field (`_gotcha`)
+
+### Changed
+- Removed redundant “View on counters page” navigation from boss detail pages
+- Updated contact page footer to reflect JavaScript and Formspree usage
+- Improved mobile navigation consistency across all pages
+- Updated contact form wording to reflect active backend submission support
+
+### Improved
+- Better mobile responsiveness for boss detail layouts
+- Cleaner navigation flow between raids, counters and boss pages
+- Improved maintainability of counter-to-detail-page routing
+- More realistic production-style contact/support workflow
+
+---
+
 ## [1.13.0] - Rotation Automation & Data Standardization
 
 ### Added

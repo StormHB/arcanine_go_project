@@ -85,6 +85,9 @@ This project focuses on:
 - Month selector for historical, current and upcoming counter rotations  
 - Automatic month status detection  
 - Active boss highlighting for current counter rotations  
+- Fully clickable counter boss cards
+- Dedicated boss detail pages (`boss.html`)
+- Direct navigation from counters to individual boss analysis pages
 
 #### JS-driven system
 
@@ -218,10 +221,14 @@ Generated data is reviewed manually before being used in the application.
 
 ### Contact Page
 
-- Structured support-style form  
-- Built-in HTML validation  
-- Topic-based submission categories  
-- Accessibility improvements  
+- Structured support-style form
+- Built-in HTML validation
+- Topic-based submission categories
+- Accessibility improvements
+- Formspree-powered backend form handling
+- Direct email delivery for submissions
+- Success message handling after form submission
+- Lightweight spam protection via honeypot field
 
 ---
 
@@ -264,8 +271,9 @@ This project was built to:
 
 ## Notes
 
-- The contact form is currently static (no backend processing)  
-- Backend integration is planned for future updates  
+- Contact submissions are handled through Formspree
+- Counter data is generated via a Pokebattler-based pipeline and reviewed before publishing
+- Raid data is structured for future automation
 - Counter data is generated via a Pokebattler-based pipeline and reviewed before publishing  
 - Raid data is structured for future automation  
 
@@ -273,7 +281,7 @@ This project was built to:
 
 ## Future Improvements
 
-- Backend support for contact form submissions  
+- Custom backend/API integration for advanced submission handling
 - Full automation of raid and counter updates  
 - Additional UI interactions and animations  
 - Performance optimizations  
