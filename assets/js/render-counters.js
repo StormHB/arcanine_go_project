@@ -22,18 +22,20 @@ function formatCounterSubtitle(boss) {
   const startDate = new Date(start);
   const endDate = new Date(end);
 
-  const month = startDate.toLocaleString("en-US", { month: "short" });
+  const startMonth = startDate.toLocaleString("en-US", { month: "short" });
+  const endMonth = endDate.toLocaleString("en-US", { month: "short" });
+
   const startDay = startDate.getDate();
   const endDay = endDate.getDate();
 
   const tier =
-  raidCard.badge === "Mega"
-    ? "Mega Raid"
-    : raidCard.badge === "Regional"
-      ? "Regional 5★"
-      : boss.subtitle?.split("•")[0]?.trim() ?? "Raid";
+    raidCard.badge === "Mega"
+      ? "Mega Raid"
+      : raidCard.badge === "Regional"
+        ? "Regional 5★"
+        : boss.subtitle?.split("•")[0]?.trim() ?? "Raid";
 
-  return `${tier} • ${month} ${startDay} to ${month} ${endDay}`;
+  return `${tier} • ${startMonth} ${startDay} to ${endMonth} ${endDay}`;
 }
 
 function formatType(type) {
@@ -142,7 +144,8 @@ function renderCounterGroup(title, counters, type) {
 }
 
 function renderBossCard(boss) {
-  const bossStatus = getBossStatus(boss.subtitle);
+  const displaySubtitle = formatCounterSubtitle(boss);
+  const bossStatus = getBossStatus(displaySubtitle);
 
   const bossStatusLabel =
   bossStatus === "current-boss"
@@ -174,7 +177,7 @@ function renderBossCard(boss) {
 
         <div class="boss-info">
           <h3>${boss.name}</h3>
-          <p class="boss-subtitle">${formatCounterSubtitle(boss)}</p>
+          <p class="boss-subtitle">${displaySubtitle}</p>
 
           <div class="type-badges">
             ${boss.types

@@ -116,7 +116,7 @@ function buildDraft(target) {
       themeClass: target.themeClass,
       image: target.image,
       imageAlt: target.imageAlt,
-      subtitle: target.subtitle,
+      subtitle: target.subtitle || target.tier,
       types: target.types,
       weaknesses: target.weaknesses,
       difficultyLabel: target.difficultyLabel

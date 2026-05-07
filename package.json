@@ -2,7 +2,7 @@
   "name": "arcanine_go_project",
   "version": "1.0.0",
   "type": "module",
-  "description": "A clean, modern Pok\u00e9mon GO raid guide website built with a data-driven JavaScript architecture.",
+  "description": "A clean, modern Pokémon GO raid guide website built with a data-driven JavaScript architecture.",
   "main": "index.js",
   "scripts": {
     "update-counters": "node tools/scrape.js all && node tools/parse-pokebattler.js all && node tools/transform-counter-draft.js",
