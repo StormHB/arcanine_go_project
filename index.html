@@ -7,12 +7,14 @@
   <meta name="theme-color" content="#0b0f1a">
 
   <title>Arcanine Go Project | Pokémon GO Raid Guide</title>
-  <meta name="description" content="Arcanine Go Project is a responsive Pokémon GO raid guide with current 5-star and Mega raid bosses, weakness summaries, counter recommendations, and a clean multi-page HTML/CSS layout.">
+  <meta name="description"
+    content="Arcanine Go Project is a responsive Pokémon GO raid guide with dynamic raid rotations, boss detail pages, Pokebattler-based counters, and a data-driven JavaScript architecture.">
   <meta name="author" content="StormHB">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Arcanine Go Project | Home">
-  <meta property="og:description" content="Pokemon GO raid guide with active bosses, raid schedule, best counters and clean UI.">
+  <meta property="og:title" content="Arcanine Go Project | Pokémon GO Raid Guide">
+  <meta property="og:description"
+    content="A data-driven Pokémon GO raid guide with dynamic rotations, boss detail pages, best counters and budget counter recommendations.">
   <meta property="og:image" content="https://stormhb.github.io/arcanine_go_project/assets/img/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -20,8 +22,9 @@
   <meta property="og:site_name" content="Arcanine Go Project">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Arcanine Go Project | Home">
-  <meta name="twitter:description" content="Pokemon GO raid guide with active bosses, raid schedule, best counters and clean UI.">
+  <meta name="twitter:title" content="Arcanine Go Project | Pokémon GO Raid Guide">
+  <meta name="twitter:description"
+    content="Dynamic Pokémon GO raid guide with current raids, boss pages, best counters and budget options.">
   <meta name="twitter:image" content="https://stormhb.github.io/arcanine_go_project/assets/img/og-image.jpg">
 
   <link rel="icon" href="/favicon.ico">
@@ -34,7 +37,7 @@
 
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
-  
+
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="index.html">
@@ -65,26 +68,26 @@
     <section class="hero">
       <div class="container">
         <div class="hero-card">
-          <span class="eyebrow">Static HTML/CSS project</span>
-          <h1>Pokemon GO raid guide for April 2026</h1>
+          <span class="eyebrow">Data-driven Pokémon GO raid guide</span>
+
+          <h1>Dynamic raids, boss pages and counter recommendations</h1>
+
           <p>
-            Arcanine Go Project is a clean multi-page website focused on the current
-            Mega and 5-star raid rotation. The site presents raid bosses, their
-            weaknesses, and both best and budget counter options in a simple card-based layout.
+            Arcanine Go Project is a responsive Pokémon GO raid guide built around dynamic raid data,
+            generated counter recommendations and dedicated boss detail pages. The site combines
+            clean frontend design with a Pokebattler-based counter pipeline.
           </p>
 
           <div class="hero-meta">
-            <span class="pill">Pure HTML5</span>
-            <span class="pill">Pure CSS3</span>
-            <span class="pill">Responsive layout</span>
-            <span class="pill">Mobile-friendly</span>
-            <span class="pill">Accessible (ARIA)</span>
-            <span class="pill">Deployed on GitHub Pages & Netlify</span>
+            <span class="pill">JavaScript-driven UI</span>
+            <span class="pill">Pokebattler pipeline</span>
+            <span class="pill">Boss detail pages</span>
+            <span class="pill">Formspree support</span>
           </div>
 
           <div class="quick-links" style="margin-top: 1.25rem;">
-            <a class="btn btn-primary" href="counters.html">View counters</a>
-            <a class="btn btn-secondary" href="raids.html">Raid Overview</a>
+            <a class="btn btn-primary" href="raids.html">View raid rotations</a>
+            <a class="btn btn-secondary" href="counters.html">Browse counters</a>
           </div>
         </div>
       </div>
@@ -95,40 +98,45 @@
         <div class="section-title">
           <h2 id="highlights-heading">What this project includes</h2>
           <p>
-            The website is designed to satisfy the main faculty requirements while keeping the theme focused and easy to explain.
+            The project has evolved from a static page layout into a small data-driven raid guide
+            with reusable rendering logic, generated counter data and support tooling.
           </p>
         </div>
 
         <div class="card-grid">
           <article class="info-card">
             <div class="card-icon">01</div>
-            <h3>Raid overview</h3>
+            <h3>Dynamic raid rotations</h3>
             <p class="card-text">
-              A dedicated raid page shows the active Mega and Tier 5 bosses for the current monthly rotation.
+              Raid schedules, summary cards and raid cards are rendered from structured JavaScript data.
+              Active, upcoming and ended states are calculated automatically.
             </p>
           </article>
 
           <article class="info-card">
             <div class="card-icon">02</div>
-            <h3>Counter cards</h3>
+            <h3>Boss detail pages</h3>
             <p class="card-text">
-              Every featured boss has a card with weaknesses, best counters and budget alternatives.
+              Each raid boss can open a dedicated detail page with typing, weaknesses, status,
+              best counters, budget counters and move metadata.
             </p>
           </article>
 
           <article class="info-card">
             <div class="card-icon">03</div>
-            <h3>Responsive design</h3>
+            <h3>Counter pipeline</h3>
             <p class="card-text">
-              The layout adjusts to smaller screens and uses a CSS-only hamburger menu without JavaScript.
+              Counter data is prepared through a scrape → parse → transform workflow using default
+              Pokebattler simulations and reviewed before publishing.
             </p>
           </article>
 
           <article class="info-card">
             <div class="card-icon">04</div>
-            <h3>Accessible basics</h3>
+            <h3>Contact support</h3>
             <p class="card-text">
-              The project includes semantic sections, a skip link, visible focus styles and alt text for images.
+              Feedback, raid requests and counter corrections can be submitted through a Formspree-powered
+              contact form with built-in validation.
             </p>
           </article>
         </div>
@@ -138,81 +146,41 @@
     <section aria-labelledby="featured-heading">
       <div class="container">
         <div class="section-title">
-          <h2 id="featured-heading">Featured bosses</h2>
+          <h2 id="featured-heading">Featured systems</h2>
           <p>
-            These are some of the raid bosses highlighted in the April rotation.
+            The site is built around reusable data and rendering patterns instead of manually duplicated cards.
           </p>
         </div>
 
         <div class="raid-grid">
-          <article class="boss-card">
-            <div class="boss-top">
-              <img
-                class="boss-art"
-                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png"
-                alt="Official artwork of Kyogre"
-              >
-              <div class="boss-info">
-                <h3>Kyogre</h3>
-                <p class="boss-subtitle">Tier 5 boss</p>
-                <div class="type-badges">
-                  <span class="type-badge type-water">Water</span>
-                </div>
-              </div>
-            </div>
-            <div class="boss-body">
-              <p class="meta-text">
-                A strong Water-type legendary that usually requires solid Electric or Grass attackers.
-              </p>
-              <a class="btn btn-secondary" href="counters.html#kyogre">View counters</a>
-            </div>
+          <article class="info-card">
+            <div class="card-icon">⚔</div>
+            <h3>Best and budget counters</h3>
+            <p class="card-text">
+              Boss pages show both high-end attacker recommendations and budget-friendly alternatives,
+              with TTW and percentage difference from the best option.
+            </p>
+            <a class="btn btn-secondary" href="counters.html">View counters</a>
           </article>
 
-          <article class="boss-card">
-            <div class="boss-top">
-              <img
-                class="boss-art"
-                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png"
-                alt="Official artwork of Groudon"
-              >
-              <div class="boss-info">
-                <h3>Groudon</h3>
-                <p class="boss-subtitle">Tier 5 boss</p>
-                <div class="type-badges">
-                  <span class="type-badge type-ground">Ground</span>
-                </div>
-              </div>
-            </div>
-            <div class="boss-body">
-              <p class="meta-text">
-                One of the most iconic Ground-type raids, with Water, Grass and Ice weaknesses.
-              </p>
-              <a class="btn btn-secondary" href="counters.html#groudon">View counters</a>
-            </div>
+          <article class="info-card">
+            <div class="card-icon">🧭</div>
+            <h3>Raid overview</h3>
+            <p class="card-text">
+              The raids page highlights current and upcoming bosses, regional raid rotations,
+              type badges and direct links into boss detail pages.
+            </p>
+            <a class="btn btn-secondary" href="raids.html">View raids</a>
           </article>
 
-          <article class="boss-card">
-            <div class="boss-top">
-              <img
-                class="boss-art"
-                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/785.png"
-                alt="Official artwork of Tapu Koko"
-              >
-              <div class="boss-info">
-                <h3>Tapu Koko</h3>
-                <p class="boss-subtitle">Tier 5 boss</p>
-                <div class="type-badges">
-                  <span class="type-badge type-electric">Electric</span>
-                  <span class="type-badge type-fairy">Fairy</span>
-                </div>
-              </div>
-            </div>
-            <div class="boss-body">
-              <p class="meta-text">
-                A fast Electric/Fairy raid boss that is most naturally answered by Ground-type attackers.
-              </p>
-              <a class="btn btn-secondary" href="counters.html#tapu-koko">View counters</a>
-            </div>
+          <article class="info-card">
+            <div class="card-icon">✉</div>
+            <h3>Feedback workflow</h3>
+            <p class="card-text">
+              The contact page supports raid suggestions, bug reports, counter corrections and general
+              project feedback through a lightweight external form service.
+            </p>
+            <a class="btn btn-secondary" href="contact.html">Contact project</a>
           </article>
         </div>
       </div>
@@ -222,13 +190,17 @@
       <div class="container">
         <div class="panel">
           <h2 id="project-goals-heading">Project goals</h2>
+
           <p class="lead">
-            The main goal of the site is not to be a live tool, but a well-structured static guide
-            that demonstrates semantic HTML, organized CSS, responsive layout and clear content sections.
+            The goal of Arcanine Go Project is to build a maintainable, responsive and accessible raid guide
+            that demonstrates modern frontend structure without using a framework. The project focuses on
+            reusable data, clean rendering logic, practical tooling and a polished user experience.
           </p>
+
           <div class="quick-links">
             <a class="btn btn-primary" href="raids.html">Go to raids</a>
-            <a class="btn btn-secondary" href="contact.html">Open contact form</a>
+            <a class="btn btn-secondary" href="counters.html">Browse counters</a>
+            <a class="btn btn-secondary" href="contact.html">Send feedback</a>
           </div>
         </div>
       </div>
@@ -237,9 +209,10 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p><strong>Arcanine Go Project</strong> • Static faculty project made with HTML and CSS</p>
-      <p>Deployed through GitHub Pages.</p>
+      <p><strong>Arcanine Go Project</strong> • Data-driven Pokémon GO raid guide</p>
+      <p>Built with HTML, CSS, JavaScript, Node.js tooling and Formspree support.</p>
     </div>
   </footer>
 </body>
+
 </html>
