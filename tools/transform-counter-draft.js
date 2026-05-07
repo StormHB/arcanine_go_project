@@ -1,5 +1,6 @@
 import fs from "fs";
 import { counterDrafts } from "../assets/js/data/counter-drafts.generated.js";
+import { legacyMoves } from "./legacy-moves.js";
 
 function normalizeName(name) {
     return name
@@ -44,7 +45,7 @@ function transformDraft(draft) {
         types: draft.meta.types,
         weaknesses: draft.meta.weaknesses,
         difficultyLabel: draft.meta.difficultyLabel,
-        difficulty: "Default Pokebattler simulation",
+        difficulty: draft.meta.difficulty,
 
         bestCounters: bestTop.map(counter => transformCounter(counter, bestTime)),
         budgetCounters: budgetTop.map(counter => transformCounter(counter, budgetBestTime))
@@ -74,33 +75,19 @@ function pickCountersWithMegaLimit(counters, limit = 6) {
 }
 
 function isLegacyMove(counterName, moveName) {
-    const legacyMoves = {
-        "Mega Lucario": ["Force Palm"],
-        "Lucario": ["Force Palm"],
-        "Zamazenta - Crowned Shield": ["Behemoth Bash"],
-        "Zacian - Crowned Sword": ["Behemoth Blade"],
-        "Necrozma - Dusk Mane": ["Sunsteel Strike"],
-        "Keldeo": ["Secret Sword"],
-        "Metagross": ["Meteor Mash"],
-        "Shadow Metagross": ["Meteor Mash"],
-        "Mega Rayquaza": ["Dragon Ascent"],
-        "Rayquaza": ["Dragon Ascent"],
-        "Shadow Moltres": ["Fly"],
-        "Moltres": ["Fly"],
-        "Shadow Staraptor": ["Gust"],
-        "Staraptor": ["Gust"],
-        "Primal Groudon": ["Precipice Blades"],
-        "Shadow Groudon": ["Precipice Blades"],
-        "Groudon": ["Precipice Blades"],
-        "Shadow Garchomp": ["Earth Power"],
-        "Garchomp": ["Earth Power"],
-        "Shadow Regigigas": ["Crush Grip"],
-        "Regigigas": ["Crush Grip"],
-        "Mamoswine": ["High Horsepower"],
-        "Shadow Mamoswine": ["High Horsepower"]
-    };
+    const normalizedName = normalizeName(counterName);
 
-    return legacyMoves[counterName]?.includes(moveName) ?? false;
+    const baseName = normalizedName
+        .replace(/^Mega /, "")
+        .replace(/^Shadow /, "")
+        .replace(/^Primal /, "");
+
+    return (
+        legacyMoves[counterName]?.includes(moveName) ||
+        legacyMoves[normalizedName]?.includes(moveName) ||
+        legacyMoves[baseName]?.includes(moveName) ||
+        false
+    );
 }
 
 function transformCounter(counter, bestTime) {

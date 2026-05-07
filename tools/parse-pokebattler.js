@@ -119,7 +119,8 @@ function buildDraft(target) {
       subtitle: target.subtitle || target.tier,
       types: target.types,
       weaknesses: target.weaknesses,
-      difficultyLabel: target.difficultyLabel
+      difficultyLabel: target.difficultyLabel,
+      difficulty: target.difficulty
     },
     bestCountersRaw: parseCounters(raw, 30),
     budgetCountersRaw: parseCounters(rawBudget, 30),

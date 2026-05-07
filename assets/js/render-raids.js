@@ -35,29 +35,36 @@ function getRaidStatus(dateRange) {
   };
 }
 
-function getMonthStatus(monthId) {
-  const now = new Date();
-  const [year, month] = monthId.split("-").map(Number);
+function getMonthComputedStatus(month) {
+  const raidCards = month.raidCards ?? [];
 
-  const start = new Date(year, month - 1, 1, 10, 0, 0);
-  const end = new Date(year, month, 1, 10, 0, 0);
+  if (raidCards.some((raid) => getRaidStatus(raid.dateRange).class === "active")) {
+    return "current";
+  }
 
-  if (now >= start && now < end) return "current";
-  if (now < start) return "upcoming";
+  if (raidCards.some((raid) => getRaidStatus(raid.dateRange).class === "upcoming")) {
+    return "upcoming";
+  }
+
   return "history";
+}
+
+function getDefaultMonth() {
+  return (
+    raidRotations.find((month) => getMonthComputedStatus(month) === "current") ||
+    raidRotations.find((month) => getMonthComputedStatus(month) === "upcoming") ||
+    raidRotations.at(-1)
+  );
 }
 
 function renderMonthOptions() {
   monthSelect.innerHTML = "";
 
-  const defaultMonth =
-    raidRotations.find((month) => getMonthStatus(month.id) === "current") ||
-    raidRotations.find((month) => month.raidCards?.length > 0) ||
-    raidRotations[0];
+  const defaultMonth = getDefaultMonth();
 
   raidRotations.forEach((month) => {
     const option = document.createElement("option");
-    const computedStatus = getMonthStatus(month.id);
+    const computedStatus = getMonthComputedStatus(month);
 
     option.value = month.id;
     option.textContent = `${month.label} (${computedStatus})`;

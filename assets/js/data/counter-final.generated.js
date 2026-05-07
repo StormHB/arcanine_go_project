@@ -101,7 +101,8 @@ export const generatedCounters = [
                         "name": "Razor Leaf"
                     },
                     {
-                        "name": "Frenzy Plant"
+                        "name": "Frenzy Plant",
+                        "legacy": true
                     }
                 ],
                 "ttw": "721s",
@@ -127,7 +128,8 @@ export const generatedCounters = [
                         "name": "Vine Whip"
                     },
                     {
-                        "name": "Frenzy Plant"
+                        "name": "Frenzy Plant",
+                        "legacy": true
                     }
                 ],
                 "ttw": "767s",
@@ -140,7 +142,8 @@ export const generatedCounters = [
                         "name": "Leafage"
                     },
                     {
-                        "name": "Frenzy Plant"
+                        "name": "Frenzy Plant",
+                        "legacy": true
                     }
                 ],
                 "ttw": "777s",
@@ -166,7 +169,8 @@ export const generatedCounters = [
                         "name": "Vine Whip"
                     },
                     {
-                        "name": "Frenzy Plant"
+                        "name": "Frenzy Plant",
+                        "legacy": true
                     }
                 ],
                 "ttw": "786s",
@@ -238,7 +242,8 @@ export const generatedCounters = [
                         "name": "Waterfall"
                     },
                     {
-                        "name": "Origin Pulse"
+                        "name": "Origin Pulse",
+                        "legacy": true
                     }
                 ],
                 "ttw": "301s",
@@ -251,7 +256,8 @@ export const generatedCounters = [
                         "name": "Steel Wing"
                     },
                     {
-                        "name": "Ice Burn"
+                        "name": "Ice Burn",
+                        "legacy": true
                     }
                 ],
                 "ttw": "308s",
@@ -295,7 +301,8 @@ export const generatedCounters = [
                         "name": "Ice Fang"
                     },
                     {
-                        "name": "Ice Burn"
+                        "name": "Ice Burn",
+                        "legacy": true
                     }
                 ],
                 "ttw": "552s",
@@ -308,7 +315,8 @@ export const generatedCounters = [
                         "name": "Waterfall"
                     },
                     {
-                        "name": "Origin Pulse"
+                        "name": "Origin Pulse",
+                        "legacy": true
                     }
                 ],
                 "ttw": "553s",
@@ -321,7 +329,8 @@ export const generatedCounters = [
                         "name": "Dragon Tail"
                     },
                     {
-                        "name": "Freeze Shock"
+                        "name": "Freeze Shock",
+                        "legacy": true
                     }
                 ],
                 "ttw": "606s",
@@ -376,7 +385,8 @@ export const generatedCounters = [
                         "name": "Razor Leaf"
                     },
                     {
-                        "name": "Frenzy Plant"
+                        "name": "Frenzy Plant",
+                        "legacy": true
                     }
                 ],
                 "ttw": "728s",
@@ -389,7 +399,8 @@ export const generatedCounters = [
                         "name": "Vine Whip"
                     },
                     {
-                        "name": "Frenzy Plant"
+                        "name": "Frenzy Plant",
+                        "legacy": true
                     }
                 ],
                 "ttw": "771s",
@@ -428,7 +439,8 @@ export const generatedCounters = [
                         "name": "Water Gun"
                     },
                     {
-                        "name": "Hydro Cannon"
+                        "name": "Hydro Cannon",
+                        "legacy": true
                     }
                 ],
                 "ttw": "816s",
@@ -441,7 +453,8 @@ export const generatedCounters = [
                         "name": "Waterfall"
                     },
                     {
-                        "name": "Hydro Cannon"
+                        "name": "Hydro Cannon",
+                        "legacy": true
                     }
                 ],
                 "ttw": "817s",
@@ -470,7 +483,8 @@ export const generatedCounters = [
                         "name": "Snarl"
                     },
                     {
-                        "name": "Brutal Swing"
+                        "name": "Brutal Swing",
+                        "legacy": true
                     }
                 ],
                 "ttw": "333s",
@@ -483,7 +497,8 @@ export const generatedCounters = [
                         "name": "Bite"
                     },
                     {
-                        "name": "Brutal Swing"
+                        "name": "Brutal Swing",
+                        "legacy": true
                     }
                 ],
                 "ttw": "341s",
@@ -496,7 +511,8 @@ export const generatedCounters = [
                         "name": "Shadow Claw"
                     },
                     {
-                        "name": "Moongeist Beam"
+                        "name": "Moongeist Beam",
+                        "legacy": true
                     }
                 ],
                 "ttw": "343s",
@@ -509,7 +525,8 @@ export const generatedCounters = [
                         "name": "Snarl"
                     },
                     {
-                        "name": "Brutal Swing"
+                        "name": "Brutal Swing",
+                        "legacy": true
                     }
                 ],
                 "ttw": "347s",
@@ -522,7 +539,8 @@ export const generatedCounters = [
                         "name": "Bite"
                     },
                     {
-                        "name": "Brutal Swing"
+                        "name": "Brutal Swing",
+                        "legacy": true
                     }
                 ],
                 "ttw": "347s",
@@ -550,7 +568,8 @@ export const generatedCounters = [
                         "name": "Bite"
                     },
                     {
-                        "name": "Brutal Swing"
+                        "name": "Brutal Swing",
+                        "legacy": true
                     }
                 ],
                 "ttw": "400s",
@@ -563,7 +582,8 @@ export const generatedCounters = [
                         "name": "Snarl"
                     },
                     {
-                        "name": "Brutal Swing"
+                        "name": "Brutal Swing",
+                        "legacy": true
                     }
                 ],
                 "ttw": "414s",
@@ -602,7 +622,8 @@ export const generatedCounters = [
                         "name": "Bite"
                     },
                     {
-                        "name": "Brutal Swing"
+                        "name": "Brutal Swing",
+                        "legacy": true
                     }
                 ],
                 "ttw": "430s",
@@ -687,7 +708,8 @@ export const generatedCounters = [
                         "name": "Mud-Slap"
                     },
                     {
-                        "name": "Scorching Sands"
+                        "name": "Scorching Sands",
+                        "legacy": true
                     }
                 ],
                 "ttw": "506s",
@@ -729,7 +751,8 @@ export const generatedCounters = [
                         "name": "Mud-Slap"
                     },
                     {
-                        "name": "Scorching Sands"
+                        "name": "Scorching Sands",
+                        "legacy": true
                     }
                 ],
                 "ttw": "600s",
@@ -793,7 +816,8 @@ export const generatedCounters = [
                 "name": "Gengar",
                 "moves": [
                     {
-                        "name": "Lick"
+                        "name": "Lick",
+                        "legacy": true
                     },
                     {
                         "name": "Sludge Bomb"
@@ -949,7 +973,8 @@ export const generatedCounters = [
                         "name": "Force Palm"
                     },
                     {
-                        "name": "Grass Knot"
+                        "name": "Grass Knot",
+                        "legacy": true
                     }
                 ],
                 "ttw": "285s",
@@ -962,7 +987,8 @@ export const generatedCounters = [
                         "name": "Razor Leaf"
                     },
                     {
-                        "name": "Frenzy Plant"
+                        "name": "Frenzy Plant",
+                        "legacy": true
                     }
                 ],
                 "ttw": "288s",
@@ -1047,7 +1073,8 @@ export const generatedCounters = [
                         "name": "Metal Claw"
                     },
                     {
-                        "name": "Moongeist Beam"
+                        "name": "Moongeist Beam",
+                        "legacy": true
                     }
                 ],
                 "ttw": "473s",
@@ -1074,7 +1101,8 @@ export const generatedCounters = [
                         "name": "Bullet Punch"
                     },
                     {
-                        "name": "Meteor Mash"
+                        "name": "Meteor Mash",
+                        "legacy": true
                     }
                 ],
                 "ttw": "529s",
@@ -1184,7 +1212,8 @@ export const generatedCounters = [
                         "name": "Bite"
                     },
                     {
-                        "name": "Brutal Swing"
+                        "name": "Brutal Swing",
+                        "legacy": true
                     }
                 ],
                 "ttw": "261s",
@@ -1197,7 +1226,8 @@ export const generatedCounters = [
                         "name": "Bite"
                     },
                     {
-                        "name": "Brutal Swing"
+                        "name": "Brutal Swing",
+                        "legacy": true
                     }
                 ],
                 "ttw": "265s",
@@ -1210,7 +1240,8 @@ export const generatedCounters = [
                         "name": "Bite"
                     },
                     {
-                        "name": "Brutal Swing"
+                        "name": "Brutal Swing",
+                        "legacy": true
                     }
                 ],
                 "ttw": "281s",
@@ -1223,7 +1254,8 @@ export const generatedCounters = [
                         "name": "Shadow Claw"
                     },
                     {
-                        "name": "Moongeist Beam"
+                        "name": "Moongeist Beam",
+                        "legacy": true
                     }
                 ],
                 "ttw": "286s",
@@ -1264,7 +1296,8 @@ export const generatedCounters = [
                         "name": "Bite"
                     },
                     {
-                        "name": "Brutal Swing"
+                        "name": "Brutal Swing",
+                        "legacy": true
                     }
                 ],
                 "ttw": "317s",
@@ -1290,7 +1323,8 @@ export const generatedCounters = [
                         "name": "Snarl"
                     },
                     {
-                        "name": "Brutal Swing"
+                        "name": "Brutal Swing",
+                        "legacy": true
                     }
                 ],
                 "ttw": "341s",
@@ -1316,7 +1350,8 @@ export const generatedCounters = [
                         "name": "Bite"
                     },
                     {
-                        "name": "Brutal Swing"
+                        "name": "Brutal Swing",
+                        "legacy": true
                     }
                 ],
                 "ttw": "346s",
@@ -1387,7 +1422,8 @@ export const generatedCounters = [
                         "name": "Mud-Slap"
                     },
                     {
-                        "name": "Scorching Sands"
+                        "name": "Scorching Sands",
+                        "legacy": true
                     }
                 ],
                 "ttw": "361s",
@@ -1443,7 +1479,8 @@ export const generatedCounters = [
                         "name": "Mud-Slap"
                     },
                     {
-                        "name": "Scorching Sands"
+                        "name": "Scorching Sands",
+                        "legacy": true
                     }
                 ],
                 "ttw": "432s",
@@ -1540,7 +1577,8 @@ export const generatedCounters = [
                         "name": "Waterfall"
                     },
                     {
-                        "name": "Origin Pulse"
+                        "name": "Origin Pulse",
+                        "legacy": true
                     }
                 ],
                 "ttw": "167s",
@@ -1553,7 +1591,8 @@ export const generatedCounters = [
                         "name": "Waterfall"
                     },
                     {
-                        "name": "Origin Pulse"
+                        "name": "Origin Pulse",
+                        "legacy": true
                     }
                 ],
                 "ttw": "189s",
@@ -1566,7 +1605,8 @@ export const generatedCounters = [
                         "name": "Water Shuriken"
                     },
                     {
-                        "name": "Hydro Cannon"
+                        "name": "Hydro Cannon",
+                        "legacy": true
                     }
                 ],
                 "ttw": "204s",
@@ -1579,7 +1619,8 @@ export const generatedCounters = [
                         "name": "Waterfall"
                     },
                     {
-                        "name": "Hydro Cannon"
+                        "name": "Hydro Cannon",
+                        "legacy": true
                     }
                 ],
                 "ttw": "212s",
@@ -1592,7 +1633,8 @@ export const generatedCounters = [
                         "name": "Water Gun"
                     },
                     {
-                        "name": "Hydro Cannon"
+                        "name": "Hydro Cannon",
+                        "legacy": true
                     }
                 ],
                 "ttw": "216s",
@@ -1602,10 +1644,12 @@ export const generatedCounters = [
                 "name": "Shadow Feraligatr",
                 "moves": [
                     {
-                        "name": "Water Gun"
+                        "name": "Water Gun",
+                        "legacy": true
                     },
                     {
-                        "name": "Hydro Cannon"
+                        "name": "Hydro Cannon",
+                        "legacy": true
                     }
                 ],
                 "ttw": "221s",
@@ -1620,7 +1664,8 @@ export const generatedCounters = [
                         "name": "Water Shuriken"
                     },
                     {
-                        "name": "Hydro Cannon"
+                        "name": "Hydro Cannon",
+                        "legacy": true
                     }
                 ],
                 "ttw": "235s",
@@ -1633,7 +1678,8 @@ export const generatedCounters = [
                         "name": "Water Gun"
                     },
                     {
-                        "name": "Hydro Cannon"
+                        "name": "Hydro Cannon",
+                        "legacy": true
                     }
                 ],
                 "ttw": "236s",
@@ -1659,7 +1705,8 @@ export const generatedCounters = [
                         "name": "Waterfall"
                     },
                     {
-                        "name": "Hydro Cannon"
+                        "name": "Hydro Cannon",
+                        "legacy": true
                     }
                 ],
                 "ttw": "238s",
@@ -1757,7 +1804,8 @@ export const generatedCounters = [
                         "name": "Peck"
                     },
                     {
-                        "name": "Beak Blast"
+                        "name": "Beak Blast",
+                        "legacy": true
                     }
                 ],
                 "ttw": "306s",
@@ -1784,7 +1832,8 @@ export const generatedCounters = [
                         "name": "Fire Fang"
                     },
                     {
-                        "name": "Fly"
+                        "name": "Fly",
+                        "legacy": true
                     }
                 ],
                 "ttw": "323s",
@@ -1799,7 +1848,8 @@ export const generatedCounters = [
                         "name": "Peck"
                     },
                     {
-                        "name": "Beak Blast"
+                        "name": "Beak Blast",
+                        "legacy": true
                     }
                 ],
                 "ttw": "360s",
@@ -1826,7 +1876,8 @@ export const generatedCounters = [
                         "name": "Fire Fang"
                     },
                     {
-                        "name": "Fly"
+                        "name": "Fly",
+                        "legacy": true
                     }
                 ],
                 "ttw": "390s",
@@ -1937,7 +1988,8 @@ export const generatedCounters = [
                         "name": "Fire Fang"
                     },
                     {
-                        "name": "Fly"
+                        "name": "Fly",
+                        "legacy": true
                     }
                 ],
                 "ttw": "157s",
@@ -1979,7 +2031,8 @@ export const generatedCounters = [
                         "name": "Fire Fang"
                     },
                     {
-                        "name": "Fly"
+                        "name": "Fly",
+                        "legacy": true
                     }
                 ],
                 "ttw": "191s",
@@ -2018,7 +2071,8 @@ export const generatedCounters = [
                         "name": "Peck"
                     },
                     {
-                        "name": "Beak Blast"
+                        "name": "Beak Blast",
+                        "legacy": true
                     }
                 ],
                 "ttw": "204s",
@@ -2129,7 +2183,8 @@ export const generatedCounters = [
                         "name": "Mud-Slap"
                     },
                     {
-                        "name": "Scorching Sands"
+                        "name": "Scorching Sands",
+                        "legacy": true
                     }
                 ],
                 "ttw": "423s",
@@ -2172,7 +2227,8 @@ export const generatedCounters = [
                         "name": "Mud-Slap"
                     },
                     {
-                        "name": "Scorching Sands"
+                        "name": "Scorching Sands",
+                        "legacy": true
                     }
                 ],
                 "ttw": "511s",
@@ -2653,7 +2709,8 @@ export const generatedCounters = [
                         "name": "Ice Fang"
                     },
                     {
-                        "name": "Ice Burn"
+                        "name": "Ice Burn",
+                        "legacy": true
                     }
                 ],
                 "ttw": "317s",
@@ -2791,7 +2848,8 @@ export const generatedCounters = [
                         "name": "Bullet Seed"
                     },
                     {
-                        "name": "Frenzy Plant"
+                        "name": "Frenzy Plant",
+                        "legacy": true
                     }
                 ],
                 "ttw": "639s",
@@ -2872,7 +2930,8 @@ export const generatedCounters = [
                         "name": "Razor Leaf"
                     },
                     {
-                        "name": "Frenzy Plant"
+                        "name": "Frenzy Plant",
+                        "legacy": true
                     }
                 ],
                 "ttw": "793s",
@@ -2911,7 +2970,8 @@ export const generatedCounters = [
                         "name": "Leafage"
                     },
                     {
-                        "name": "Frenzy Plant"
+                        "name": "Frenzy Plant",
+                        "legacy": true
                     }
                 ],
                 "ttw": "830s",
@@ -2924,7 +2984,8 @@ export const generatedCounters = [
                         "name": "Poison Jab"
                     },
                     {
-                        "name": "Wild Charge"
+                        "name": "Wild Charge",
+                        "legacy": true
                     }
                 ],
                 "ttw": "856s",
@@ -2981,7 +3042,8 @@ export const generatedCounters = [
                         "name": "Psycho Cut"
                     },
                     {
-                        "name": "Moongeist Beam"
+                        "name": "Moongeist Beam",
+                        "legacy": true
                     }
                 ],
                 "ttw": "243s",
@@ -3008,7 +3070,8 @@ export const generatedCounters = [
                         "name": "Peck"
                     },
                     {
-                        "name": "Beak Blast"
+                        "name": "Beak Blast",
+                        "legacy": true
                     }
                 ],
                 "ttw": "275s",
@@ -3035,7 +3098,8 @@ export const generatedCounters = [
                         "name": "Dragon Tail"
                     },
                     {
-                        "name": "Fly"
+                        "name": "Fly",
+                        "legacy": true
                     }
                 ],
                 "ttw": "280s",
@@ -3050,7 +3114,8 @@ export const generatedCounters = [
                         "name": "Peck"
                     },
                     {
-                        "name": "Beak Blast"
+                        "name": "Beak Blast",
+                        "legacy": true
                     }
                 ],
                 "ttw": "330s",
@@ -3063,7 +3128,8 @@ export const generatedCounters = [
                         "name": "Dragon Tail"
                     },
                     {
-                        "name": "Fly"
+                        "name": "Fly",
+                        "legacy": true
                     }
                 ],
                 "ttw": "333s",

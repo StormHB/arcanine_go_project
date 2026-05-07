@@ -24,7 +24,8 @@ export const counterDrafts = [
         "water"
       ],
       "weaknesses": "Grass, Electric",
-      "difficultyLabel": "Focus"
+      "difficultyLabel": "Focus",
+      "difficulty": "Strong legendary raid, not built for solo play"
     },
     "bestCountersRaw": [
       {
@@ -778,7 +779,8 @@ export const counterDrafts = [
         "flying"
       ],
       "weaknesses": "Rock, Steel, Water, Electric, Ice",
-      "difficultyLabel": "Focus"
+      "difficultyLabel": "Focus",
+      "difficulty": "Strong Steel, Water and Rock attackers"
     },
     "bestCountersRaw": [
       {
@@ -1170,7 +1172,8 @@ export const counterDrafts = [
         "ground"
       ],
       "weaknesses": "Water, Grass, Ice",
-      "difficultyLabel": "Focus"
+      "difficultyLabel": "Focus",
+      "difficulty": "Legendary raid with strong offensive pressure"
     },
     "bestCountersRaw": [
       {
@@ -1923,7 +1926,8 @@ export const counterDrafts = [
         "psychic"
       ],
       "weaknesses": "Bug, Ghost, Dark",
-      "difficultyLabel": "Focus"
+      "difficultyLabel": "Focus",
+      "difficulty": "Dark and Ghost attackers"
     },
     "bestCountersRaw": [
       {
@@ -2677,7 +2681,8 @@ export const counterDrafts = [
         "fairy"
       ],
       "weaknesses": "Poison, Ground",
-      "difficultyLabel": "Focus"
+      "difficultyLabel": "Focus",
+      "difficulty": "Ground attackers are the most natural answer"
     },
     "bestCountersRaw": [
       {
@@ -3431,7 +3436,8 @@ export const counterDrafts = [
         "dark"
       ],
       "weaknesses": "Fighting, Bug, Grass, Electric, Fairy",
-      "difficultyLabel": "Focus"
+      "difficultyLabel": "Focus",
+      "difficulty": "Fighting attackers are especially strong"
     },
     "bestCountersRaw": [
       {
@@ -4185,7 +4191,8 @@ export const counterDrafts = [
         "fairy"
       ],
       "weaknesses": "Poison, Ghost, Steel",
-      "difficultyLabel": "Focus"
+      "difficultyLabel": "Focus",
+      "difficulty": "Steel and Ghost attackers work especially well"
     },
     "bestCountersRaw": [
       {
@@ -4938,7 +4945,8 @@ export const counterDrafts = [
         "ghost"
       ],
       "weaknesses": "Ghost, Dark",
-      "difficultyLabel": "Focus"
+      "difficultyLabel": "Focus",
+      "difficulty": "Dark attackers are very easy to build"
     },
     "bestCountersRaw": [
       {
@@ -5692,7 +5700,8 @@ export const counterDrafts = [
         "poison"
       ],
       "weaknesses": "Ground, Psychic, Steel, Water",
-      "difficultyLabel": "Focus"
+      "difficultyLabel": "Focus",
+      "difficulty": "Ground attackers dominate due to double weakness"
     },
     "bestCountersRaw": [
       {
@@ -6446,7 +6455,8 @@ export const counterDrafts = [
         "ground"
       ],
       "weaknesses": "Water, Ground",
-      "difficultyLabel": "Focus"
+      "difficultyLabel": "Focus",
+      "difficulty": "Use Water attackers due to double weakness."
     },
     "bestCountersRaw": [
       {
@@ -7200,7 +7210,8 @@ export const counterDrafts = [
         "fighting"
       ],
       "weaknesses": "Flying, Fire, Psychic, Fairy",
-      "difficultyLabel": "Regional"
+      "difficultyLabel": "Regional",
+      "difficulty": "Flying attackers dominate due to double weakness"
     },
     "bestCountersRaw": [
       {
@@ -7954,7 +7965,8 @@ export const counterDrafts = [
         "fighting"
       ],
       "weaknesses": "Flying, Fire, Psychic, Fairy",
-      "difficultyLabel": "Regional"
+      "difficultyLabel": "Regional",
+      "difficulty": "Flying attackers dominate due to double weakness"
     },
     "bestCountersRaw": [
       {
@@ -8707,7 +8719,8 @@ export const counterDrafts = [
         "electric"
       ],
       "weaknesses": "Ground",
-      "difficultyLabel": "Regional"
+      "difficultyLabel": "Regional",
+      "difficulty": "Ground attackers completely dominate due to single weakness"
     },
     "bestCountersRaw": [
       {
@@ -9460,7 +9473,8 @@ export const counterDrafts = [
         "ice"
       ],
       "weaknesses": "Fighting, Rock, Steel, Fire",
-      "difficultyLabel": "Focus"
+      "difficultyLabel": "Focus",
+      "difficulty": "Steel and Fighting attackers perform best overall"
     },
     "bestCountersRaw": [
       {
@@ -10214,7 +10228,8 @@ export const counterDrafts = [
         "fairy"
       ],
       "weaknesses": "Poison, Flying, Fire, Ice, Steel",
-      "difficultyLabel": "Standard"
+      "difficultyLabel": "Standard",
+      "difficulty": "Poison attackers dominate due to double weakness"
     },
     "bestCountersRaw": [
       {
@@ -10968,7 +10983,8 @@ export const counterDrafts = [
         "fairy"
       ],
       "weaknesses": "Ice, Poison, Steel, Fairy",
-      "difficultyLabel": "Mega"
+      "difficultyLabel": "Mega",
+      "difficulty": "Steel and Poison attackers are the safest general picks"
     },
     "bestCountersRaw": [
       {
@@ -11722,7 +11738,8 @@ export const counterDrafts = [
         "fairy"
       ],
       "weaknesses": "Electric, Grass, Poison",
-      "difficultyLabel": "Standard"
+      "difficultyLabel": "Standard",
+      "difficulty": "Electric, Grass, and Poison attackers all perform well"
     },
     "bestCountersRaw": [
       {
@@ -12476,7 +12493,8 @@ export const counterDrafts = [
         "psychic"
       ],
       "weaknesses": "Flying, Ghost, Fairy",
-      "difficultyLabel": "Mega"
+      "difficultyLabel": "Mega",
+      "difficulty": "Flying and Ghost attackers are strong"
     },
     "bestCountersRaw": [
       {
