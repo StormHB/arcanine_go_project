@@ -35,14 +35,34 @@ function getRaidStatus(dateRange) {
   };
 }
 
+function getMonthStatus(monthId) {
+  const now = new Date();
+  const [year, month] = monthId.split("-").map(Number);
+
+  const start = new Date(year, month - 1, 1, 10, 0, 0);
+  const end = new Date(year, month, 1, 10, 0, 0);
+
+  if (now >= start && now < end) return "current";
+  if (now < start) return "upcoming";
+  return "history";
+}
+
 function renderMonthOptions() {
+  monthSelect.innerHTML = "";
+
+  const defaultMonth =
+    raidRotations.find((month) => getMonthStatus(month.id) === "current") ||
+    raidRotations.find((month) => month.raidCards?.length > 0) ||
+    raidRotations[0];
+
   raidRotations.forEach((month) => {
     const option = document.createElement("option");
+    const computedStatus = getMonthStatus(month.id);
 
     option.value = month.id;
-    option.textContent = `${month.label} (${month.status})`;
+    option.textContent = `${month.label} (${computedStatus})`;
 
-    if (month.status === "current") {
+    if (month.id === defaultMonth.id) {
       option.selected = true;
     }
 

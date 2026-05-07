@@ -2,7 +2,7 @@ export const raidRotations = [
   {
     id: "2026-04",
     label: "April 2026",
-    status: "current",
+    status: "history",
     schedule: [
       {
         date: "Apr 8 – Apr 14",
@@ -188,7 +188,7 @@ export const raidRotations = [
   {
     id: "2026-05",
     label: "May 2026",
-    status: "upcoming",
+    status: "current",
 
     schedule: [
       {
