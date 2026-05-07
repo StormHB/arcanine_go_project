@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "scrape-counters": "node tools/scrape.js all",
     "parse-counters": "node tools/parse-pokebattler.js all",
-    "transform-counters": "node tools/transform-counter-draft.js"
+    "transform-counters": "node tools/transform-counter-draft.js",
+    "generate:sitemap": "node tools/generate-sitemap.js"
   },
   "repository": {
     "type": "git",
