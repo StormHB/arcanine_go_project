@@ -4,6 +4,24 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.13.0] - Rotation Automation & Data Standardization
+
+### Added
+- Automatic raid month status detection based on active raid windows
+- Unified difficulty metadata system across all counter entries
+
+### Changed
+- Standardized counter datasets to use fully quoted JSON-style object formatting
+- Unified camelCase formatting across generated counter data
+- Synchronized counter metadata structure between generated and manual datasets
+
+### Improved
+- Reduced manual maintenance for raid rotation updates
+- Improved long-term maintainability of generated counter files
+- Cleaner consistency between scraper output and frontend rendering
+
+---
+
 ## [1.12.0] - Default Pokebattler Counter Workflow
 
 ### Changed
