@@ -20,12 +20,17 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Mega Mewtwo Y",
+                        "types": [
+                            "psychic"
+                        ],
                         "moves": [
                             {
-                                "name": "Psycho Cut"
+                                "name": "Psycho Cut",
+                                "type": "psychic"
                             },
                             {
-                                "name": "Thunderbolt"
+                                "name": "Thunderbolt",
+                                "type": "electric"
                             }
                         ],
                         "ttw": "584s",
@@ -33,12 +38,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Raikou",
+                        "types": [
+                            "electric"
+                        ],
                         "moves": [
                             {
-                                "name": "Thunder Shock"
+                                "name": "Thunder Shock",
+                                "type": "electric"
                             },
                             {
-                                "name": "Wild Charge"
+                                "name": "Wild Charge",
+                                "type": "electric"
                             }
                         ],
                         "ttw": "620s",
@@ -46,12 +56,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Electivire",
+                        "types": [
+                            "electric"
+                        ],
                         "moves": [
                             {
-                                "name": "Thunder Shock"
+                                "name": "Thunder Shock",
+                                "type": "electric"
                             },
                             {
-                                "name": "Wild Charge"
+                                "name": "Wild Charge",
+                                "type": "electric"
                             }
                         ],
                         "ttw": "626s",
@@ -59,12 +74,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Kartana",
+                        "types": [
+                            "grass",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Razor Leaf"
+                                "name": "Razor Leaf",
+                                "type": "grass"
                             },
                             {
-                                "name": "Leaf Blade"
+                                "name": "Leaf Blade",
+                                "type": "grass"
                             }
                         ],
                         "ttw": "632s",
@@ -72,12 +93,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Regigigas",
+                        "types": [
+                            "normal"
+                        ],
                         "moves": [
                             {
-                                "name": "Hidden Power"
+                                "name": "Hidden Power",
+                                "type": "grass"
                             },
                             {
                                 "name": "Crush Grip",
+                                "type": "normal",
                                 "legacy": true
                             }
                         ],
@@ -86,12 +112,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Xurkitree",
+                        "types": [
+                            "electric"
+                        ],
                         "moves": [
                             {
-                                "name": "Thunder Shock"
+                                "name": "Thunder Shock",
+                                "type": "electric"
                             },
                             {
-                                "name": "Discharge"
+                                "name": "Discharge",
+                                "type": "electric"
                             }
                         ],
                         "ttw": "648s",
@@ -101,12 +132,17 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Rillaboom",
+                        "types": [
+                            "grass"
+                        ],
                         "moves": [
                             {
-                                "name": "Razor Leaf"
+                                "name": "Razor Leaf",
+                                "type": "grass"
                             },
                             {
                                 "name": "Frenzy Plant",
+                                "type": "grass",
                                 "legacy": true
                             }
                         ],
@@ -115,12 +151,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Electivire",
+                        "types": [
+                            "electric"
+                        ],
                         "moves": [
                             {
-                                "name": "Thunder Shock"
+                                "name": "Thunder Shock",
+                                "type": "electric"
                             },
                             {
-                                "name": "Wild Charge"
+                                "name": "Wild Charge",
+                                "type": "electric"
                             }
                         ],
                         "ttw": "728s",
@@ -128,12 +169,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Chesnaught",
+                        "types": [
+                            "grass",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Vine Whip"
+                                "name": "Vine Whip",
+                                "type": "grass"
                             },
                             {
                                 "name": "Frenzy Plant",
+                                "type": "grass",
                                 "legacy": true
                             }
                         ],
@@ -142,12 +189,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Meowscarada",
+                        "types": [
+                            "grass",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Leafage"
+                                "name": "Leafage",
+                                "type": "grass"
                             },
                             {
                                 "name": "Frenzy Plant",
+                                "type": "grass",
                                 "legacy": true
                             }
                         ],
@@ -156,12 +209,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Roserade",
+                        "types": [
+                            "grass",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Magical Leaf"
+                                "name": "Magical Leaf",
+                                "type": "grass"
                             },
                             {
-                                "name": "Grass Knot"
+                                "name": "Grass Knot",
+                                "type": "grass"
                             }
                         ],
                         "ttw": "785s",
@@ -169,12 +228,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Venusaur",
+                        "types": [
+                            "grass",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Vine Whip"
+                                "name": "Vine Whip",
+                                "type": "grass"
                             },
                             {
                                 "name": "Frenzy Plant",
+                                "type": "grass",
                                 "legacy": true
                             }
                         ],
@@ -182,108 +247,6 @@ export const counterMonths = [
                         "diff": "+9%"
                     }
                 ]
-            },
-            {
-                "id": "mega-aerodactyl",
-                "name": "Mega Aerodactyl",
-                "themeClass": "rock-theme",
-                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10042.png",
-                "imageAlt": "Official artwork of Mega Aerodactyl",
-                "subtitle": "Mega Raid • April 8 to April 14",
-                "types": [
-                    "rock",
-                    "flying"
-                ],
-                "weaknesses": "Rock, Steel, Water, Electric, Ice",
-                "difficultyLabel": "Focus",
-                "difficulty": "Strong Steel, Water and Rock attackers",
-                "bestCounters": [
-                    {
-                        "name": "Zamazenta (Crowned Shield)",
-                        "moves": [
-                            {
-                                "name": "Metal Claw"
-                            },
-                            {
-                                "name": "Behemoth Bash",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "272s",
-                        "diff": "Best"
-                    },
-                    {
-                        "name": "Zacian (Crowned Sword)",
-                        "moves": [
-                            {
-                                "name": "Metal Claw"
-                            },
-                            {
-                                "name": "Behemoth Blade",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "274s",
-                        "diff": "+1%"
-                    },
-                    {
-                        "name": "Necrozma (Dusk Mane)",
-                        "moves": [
-                            {
-                                "name": "Metal Claw"
-                            },
-                            {
-                                "name": "Sunsteel Strike",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "276s",
-                        "diff": "+2%"
-                    },
-                    {
-                        "name": "Primal Kyogre",
-                        "moves": [
-                            {
-                                "name": "Waterfall"
-                            },
-                            {
-                                "name": "Origin Pulse",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "301s",
-                        "diff": "+11%"
-                    },
-                    {
-                        "name": "White Kyurem",
-                        "moves": [
-                            {
-                                "name": "Steel Wing"
-                            },
-                            {
-                                "name": "Ice Burn",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "308s",
-                        "diff": "+13%"
-                    },
-                    {
-                        "name": "Shadow Metagross",
-                        "moves": [
-                            {
-                                "name": "Bullet Punch"
-                            },
-                            {
-                                "name": "Meteor Mash",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "317s",
-                        "diff": "+17%"
-                    }
-                ],
-                "budgetCounters": []
             },
             {
                 "id": "groudon",
@@ -301,12 +264,18 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "White Kyurem",
+                        "types": [
+                            "dragon",
+                            "ice"
+                        ],
                         "moves": [
                             {
-                                "name": "Ice Fang"
+                                "name": "Ice Fang",
+                                "type": "ice"
                             },
                             {
                                 "name": "Ice Burn",
+                                "type": "ice",
                                 "legacy": true
                             }
                         ],
@@ -315,12 +284,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Primal Kyogre",
+                        "types": [
+                            "water"
+                        ],
                         "moves": [
                             {
-                                "name": "Waterfall"
+                                "name": "Waterfall",
+                                "type": "water"
                             },
                             {
                                 "name": "Origin Pulse",
+                                "type": "water",
                                 "legacy": true
                             }
                         ],
@@ -329,12 +303,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Black Kyurem",
+                        "types": [
+                            "dragon",
+                            "ice"
+                        ],
                         "moves": [
                             {
-                                "name": "Dragon Tail"
+                                "name": "Dragon Tail",
+                                "type": "dragon"
                             },
                             {
                                 "name": "Freeze Shock",
+                                "type": "ice",
                                 "legacy": true
                             }
                         ],
@@ -343,12 +323,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Regigigas",
+                        "types": [
+                            "normal"
+                        ],
                         "moves": [
                             {
-                                "name": "Hidden Power"
+                                "name": "Hidden Power",
+                                "type": "grass"
                             },
                             {
                                 "name": "Crush Grip",
+                                "type": "normal",
                                 "legacy": true
                             }
                         ],
@@ -357,12 +342,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Kyogre",
+                        "types": [
+                            "water"
+                        ],
                         "moves": [
                             {
-                                "name": "Waterfall"
+                                "name": "Waterfall",
+                                "type": "water"
                             },
                             {
-                                "name": "Surf"
+                                "name": "Surf",
+                                "type": "water"
                             }
                         ],
                         "ttw": "654s",
@@ -370,12 +360,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Zarude",
+                        "types": [
+                            "dark",
+                            "grass"
+                        ],
                         "moves": [
                             {
-                                "name": "Vine Whip"
+                                "name": "Vine Whip",
+                                "type": "grass"
                             },
                             {
-                                "name": "Power Whip"
+                                "name": "Power Whip",
+                                "type": "grass"
                             }
                         ],
                         "ttw": "688s",
@@ -385,12 +381,17 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Rillaboom",
+                        "types": [
+                            "grass"
+                        ],
                         "moves": [
                             {
-                                "name": "Razor Leaf"
+                                "name": "Razor Leaf",
+                                "type": "grass"
                             },
                             {
                                 "name": "Frenzy Plant",
+                                "type": "grass",
                                 "legacy": true
                             }
                         ],
@@ -399,12 +400,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Chesnaught",
+                        "types": [
+                            "grass",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Vine Whip"
+                                "name": "Vine Whip",
+                                "type": "grass"
                             },
                             {
                                 "name": "Frenzy Plant",
+                                "type": "grass",
                                 "legacy": true
                             }
                         ],
@@ -413,12 +420,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Baxcalibur",
+                        "types": [
+                            "dragon",
+                            "ice"
+                        ],
                         "moves": [
                             {
-                                "name": "Ice Fang"
+                                "name": "Ice Fang",
+                                "type": "ice"
                             },
                             {
-                                "name": "Avalanche"
+                                "name": "Avalanche",
+                                "type": "ice"
                             }
                         ],
                         "ttw": "785s",
@@ -426,12 +439,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Tangrowth",
+                        "types": [
+                            "grass"
+                        ],
                         "moves": [
                             {
-                                "name": "Vine Whip"
+                                "name": "Vine Whip",
+                                "type": "grass"
                             },
                             {
-                                "name": "Power Whip"
+                                "name": "Power Whip",
+                                "type": "grass"
                             }
                         ],
                         "ttw": "810s",
@@ -439,12 +457,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Quaquaval",
+                        "types": [
+                            "water",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Water Gun"
+                                "name": "Water Gun",
+                                "type": "water"
                             },
                             {
                                 "name": "Hydro Cannon",
+                                "type": "water",
                                 "legacy": true
                             }
                         ],
@@ -453,12 +477,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Primarina",
+                        "types": [
+                            "water",
+                            "fairy"
+                        ],
                         "moves": [
                             {
-                                "name": "Waterfall"
+                                "name": "Waterfall",
+                                "type": "water"
                             },
                             {
                                 "name": "Hydro Cannon",
+                                "type": "water",
                                 "legacy": true
                             }
                         ],
@@ -483,12 +513,17 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Mega Absol",
+                        "types": [
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Snarl"
+                                "name": "Snarl",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -497,12 +532,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Hydreigon",
+                        "types": [
+                            "dark",
+                            "dragon"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -511,12 +552,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Necrozma - Dawn Wings",
+                        "types": [
+                            "psychic",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Shadow Claw"
+                                "name": "Shadow Claw",
+                                "type": "ghost"
                             },
                             {
                                 "name": "Moongeist Beam",
+                                "type": "ghost",
                                 "legacy": true
                             }
                         ],
@@ -525,12 +572,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Absol",
+                        "types": [
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Snarl"
+                                "name": "Snarl",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -539,12 +591,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Tyranitar",
+                        "types": [
+                            "rock",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -553,12 +611,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Darkrai",
+                        "types": [
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Snarl"
+                                "name": "Snarl",
+                                "type": "dark"
                             },
                             {
-                                "name": "Shadow Ball"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
                         "ttw": "349s",
@@ -568,12 +631,18 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Hydreigon",
+                        "types": [
+                            "dark",
+                            "dragon"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -582,12 +651,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Absol",
+                        "types": [
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Snarl"
+                                "name": "Snarl",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -596,12 +670,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Gholdengo",
+                        "types": [
+                            "steel",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Hex"
+                                "name": "Hex",
+                                "type": "ghost"
                             },
                             {
-                                "name": "Shadow Ball"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
                         "ttw": "423s",
@@ -609,12 +689,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
-                                "name": "Brutal Swing"
+                                "name": "Brutal Swing",
+                                "type": "dark"
                             }
                         ],
                         "ttw": "427s",
@@ -622,12 +708,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Tyranitar",
+                        "types": [
+                            "rock",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -636,12 +728,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Dragapult",
+                        "types": [
+                            "dragon",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Astonish"
+                                "name": "Astonish",
+                                "type": "ghost"
                             },
                             {
-                                "name": "Shadow Ball"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
                         "ttw": "434s",
@@ -666,12 +764,17 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Primal Groudon",
+                        "types": [
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud Shot"
+                                "name": "Mud Shot",
+                                "type": "ground"
                             },
                             {
                                 "name": "Precipice Blades",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -680,12 +783,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Groudon",
+                        "types": [
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud Shot"
+                                "name": "Mud Shot",
+                                "type": "ground"
                             },
                             {
                                 "name": "Precipice Blades",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -694,12 +802,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Regigigas",
+                        "types": [
+                            "normal"
+                        ],
                         "moves": [
                             {
-                                "name": "Hidden Power"
+                                "name": "Hidden Power",
+                                "type": "grass"
                             },
                             {
                                 "name": "Crush Grip",
+                                "type": "normal",
                                 "legacy": true
                             }
                         ],
@@ -708,12 +821,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Excadrill",
+                        "types": [
+                            "ground",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
                                 "name": "Scorching Sands",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -722,12 +841,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Eternatus",
+                        "types": [
+                            "poison",
+                            "dragon"
+                        ],
                         "moves": [
                             {
-                                "name": "Poison Jab"
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "517s",
@@ -735,12 +860,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Mamoswine",
+                        "types": [
+                            "ice",
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
                                 "name": "High Horsepower",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -751,12 +882,18 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Excadrill",
+                        "types": [
+                            "ground",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
                                 "name": "Scorching Sands",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -765,12 +902,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Garchomp",
+                        "types": [
+                            "dragon",
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud Shot"
+                                "name": "Mud Shot",
+                                "type": "ground"
                             },
                             {
                                 "name": "Earth Power",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -779,12 +922,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Mamoswine",
+                        "types": [
+                            "ice",
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
                                 "name": "High Horsepower",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -793,12 +942,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Rhyperior",
+                        "types": [
+                            "ground",
+                            "rock"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
-                                "name": "Earthquake"
+                                "name": "Earthquake",
+                                "type": "ground"
                             }
                         ],
                         "ttw": "652s",
@@ -806,12 +961,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Roserade",
+                        "types": [
+                            "grass",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Poison Jab"
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "655s",
@@ -819,13 +980,19 @@ export const counterMonths = [
                     },
                     {
                         "name": "Gengar",
+                        "types": [
+                            "ghost",
+                            "poison"
+                        ],
                         "moves": [
                             {
                                 "name": "Lick",
+                                "type": "ghost",
                                 "legacy": true
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "666s",
@@ -850,13 +1017,19 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Mega Lucario",
+                        "types": [
+                            "fighting",
+                            "steel"
+                        ],
                         "moves": [
                             {
                                 "name": "Force Palm",
+                                "type": "fighting",
                                 "legacy": true
                             },
                             {
-                                "name": "Aura Sphere"
+                                "name": "Aura Sphere",
+                                "type": "fighting"
                             }
                         ],
                         "ttw": "187s",
@@ -864,12 +1037,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Keldeo",
+                        "types": [
+                            "water",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Low Kick"
+                                "name": "Low Kick",
+                                "type": "fighting"
                             },
                             {
                                 "name": "Secret Sword",
+                                "type": "fighting",
                                 "legacy": true
                             }
                         ],
@@ -878,12 +1057,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Blaziken",
+                        "types": [
+                            "fire",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Counter"
+                                "name": "Counter",
+                                "type": "fighting"
                             },
                             {
-                                "name": "Aura Sphere"
+                                "name": "Aura Sphere",
+                                "type": "fighting"
                             }
                         ],
                         "ttw": "224s",
@@ -891,12 +1076,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Raikou",
+                        "types": [
+                            "electric"
+                        ],
                         "moves": [
                             {
-                                "name": "Thunder Shock"
+                                "name": "Thunder Shock",
+                                "type": "electric"
                             },
                             {
-                                "name": "Aura Sphere"
+                                "name": "Aura Sphere",
+                                "type": "fighting"
                             }
                         ],
                         "ttw": "238s",
@@ -904,12 +1094,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Kartana",
+                        "types": [
+                            "grass",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Razor Leaf"
+                                "name": "Razor Leaf",
+                                "type": "grass"
                             },
                             {
-                                "name": "Sacred Sword"
+                                "name": "Sacred Sword",
+                                "type": "fighting"
                             }
                         ],
                         "ttw": "244s",
@@ -917,12 +1113,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Regigigas",
+                        "types": [
+                            "normal"
+                        ],
                         "moves": [
                             {
-                                "name": "Hidden Power"
+                                "name": "Hidden Power",
+                                "type": "grass"
                             },
                             {
                                 "name": "Crush Grip",
+                                "type": "normal",
                                 "legacy": true
                             }
                         ],
@@ -933,13 +1134,19 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Lucario",
+                        "types": [
+                            "fighting",
+                            "steel"
+                        ],
                         "moves": [
                             {
                                 "name": "Force Palm",
+                                "type": "fighting",
                                 "legacy": true
                             },
                             {
-                                "name": "Aura Sphere"
+                                "name": "Aura Sphere",
+                                "type": "fighting"
                             }
                         ],
                         "ttw": "255s",
@@ -947,12 +1154,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Blaziken",
+                        "types": [
+                            "fire",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Counter"
+                                "name": "Counter",
+                                "type": "fighting"
                             },
                             {
-                                "name": "Aura Sphere"
+                                "name": "Aura Sphere",
+                                "type": "fighting"
                             }
                         ],
                         "ttw": "269s",
@@ -960,12 +1173,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Hisuian Decidueye",
+                        "types": [
+                            "grass",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Magical Leaf"
+                                "name": "Magical Leaf",
+                                "type": "grass"
                             },
                             {
-                                "name": "Aura Sphere"
+                                "name": "Aura Sphere",
+                                "type": "fighting"
                             }
                         ],
                         "ttw": "281s",
@@ -973,12 +1192,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Breloom",
+                        "types": [
+                            "grass",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Force Palm"
+                                "name": "Force Palm",
+                                "type": "fighting"
                             },
                             {
                                 "name": "Grass Knot",
+                                "type": "grass",
                                 "legacy": true
                             }
                         ],
@@ -987,12 +1212,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Rillaboom",
+                        "types": [
+                            "grass"
+                        ],
                         "moves": [
                             {
-                                "name": "Razor Leaf"
+                                "name": "Razor Leaf",
+                                "type": "grass"
                             },
                             {
                                 "name": "Frenzy Plant",
+                                "type": "grass",
                                 "legacy": true
                             }
                         ],
@@ -1001,12 +1231,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Conkeldurr",
+                        "types": [
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Counter"
+                                "name": "Counter",
+                                "type": "fighting"
                             },
                             {
-                                "name": "Dynamic Punch"
+                                "name": "Dynamic Punch",
+                                "type": "fighting"
                             }
                         ],
                         "ttw": "293s",
@@ -1031,12 +1266,18 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Zamazenta (Crowned Shield)",
+                        "types": [
+                            "fighting",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Metal Claw"
+                                "name": "Metal Claw",
+                                "type": "steel"
                             },
                             {
                                 "name": "Behemoth Bash",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -1045,12 +1286,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Zacian (Crowned Sword)",
+                        "types": [
+                            "fairy",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Metal Claw"
+                                "name": "Metal Claw",
+                                "type": "steel"
                             },
                             {
                                 "name": "Behemoth Blade",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -1059,12 +1306,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Necrozma (Dusk Mane)",
+                        "types": [
+                            "psychic",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Metal Claw"
+                                "name": "Metal Claw",
+                                "type": "steel"
                             },
                             {
                                 "name": "Sunsteel Strike",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -1073,12 +1326,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Necrozma - Dawn Wings",
+                        "types": [
+                            "psychic",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Metal Claw"
+                                "name": "Metal Claw",
+                                "type": "steel"
                             },
                             {
                                 "name": "Moongeist Beam",
+                                "type": "ghost",
                                 "legacy": true
                             }
                         ],
@@ -1087,12 +1346,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Metagross",
+                        "types": [
+                            "steel",
+                            "psychic"
+                        ],
                         "moves": [
                             {
-                                "name": "Bullet Punch"
+                                "name": "Bullet Punch",
+                                "type": "steel"
                             },
                             {
                                 "name": "Meteor Mash",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -1101,12 +1366,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Mega Metagross",
+                        "types": [
+                            "steel",
+                            "psychic"
+                        ],
                         "moves": [
                             {
-                                "name": "Bullet Punch"
+                                "name": "Bullet Punch",
+                                "type": "steel"
                             },
                             {
                                 "name": "Meteor Mash",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -1117,12 +1388,18 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Metagross",
+                        "types": [
+                            "steel",
+                            "psychic"
+                        ],
                         "moves": [
                             {
-                                "name": "Bullet Punch"
+                                "name": "Bullet Punch",
+                                "type": "steel"
                             },
                             {
                                 "name": "Meteor Mash",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -1131,12 +1408,19 @@ export const counterMonths = [
                     },
                     {
                         "name": "Tinkaton",
+                        "types": [
+                            "fairy",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Fairy Wind"
+                                "name": "Fairy Wind",
+                                "type": "fairy"
                             },
                             {
-                                "name": "moves.GIGATON_HAMMER"
+                                "name": "Gigaton Hammer",
+                                "type": "steel",
+                                "legacy": true
                             }
                         ],
                         "ttw": "674s",
@@ -1144,12 +1428,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Chandelure",
+                        "types": [
+                            "ghost",
+                            "fire"
+                        ],
                         "moves": [
                             {
-                                "name": "Hex"
+                                "name": "Hex",
+                                "type": "ghost"
                             },
                             {
-                                "name": "Shadow Ball"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
                         "ttw": "680s",
@@ -1157,12 +1447,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Gholdengo",
+                        "types": [
+                            "steel",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Hex"
+                                "name": "Hex",
+                                "type": "ghost"
                             },
                             {
-                                "name": "Shadow Ball"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
                         "ttw": "681s",
@@ -1170,12 +1466,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Gengar",
+                        "types": [
+                            "ghost",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Shadow Claw"
+                                "name": "Shadow Claw",
+                                "type": "ghost"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "700s",
@@ -1183,12 +1485,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Dragapult",
+                        "types": [
+                            "dragon",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Astonish"
+                                "name": "Astonish",
+                                "type": "ghost"
                             },
                             {
-                                "name": "Shadow Ball"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
                         "ttw": "718s",
@@ -1212,12 +1520,18 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Mega Tyranitar",
+                        "types": [
+                            "rock",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -1226,12 +1540,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Tyranitar",
+                        "types": [
+                            "rock",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -1240,12 +1560,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Hydreigon",
+                        "types": [
+                            "dark",
+                            "dragon"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -1254,12 +1580,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Necrozma - Dawn Wings",
+                        "types": [
+                            "psychic",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Shadow Claw"
+                                "name": "Shadow Claw",
+                                "type": "ghost"
                             },
                             {
                                 "name": "Moongeist Beam",
+                                "type": "ghost",
                                 "legacy": true
                             }
                         ],
@@ -1268,12 +1600,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Darkrai",
+                        "types": [
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Snarl"
+                                "name": "Snarl",
+                                "type": "dark"
                             },
                             {
-                                "name": "Shadow Ball"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
                         "ttw": "286s",
@@ -1281,12 +1618,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
-                                "name": "Brutal Swing"
+                                "name": "Brutal Swing",
+                                "type": "dark"
                             }
                         ],
                         "ttw": "303s",
@@ -1296,12 +1639,18 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Tyranitar",
+                        "types": [
+                            "rock",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -1310,12 +1659,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Kingambit",
+                        "types": [
+                            "dark",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Snarl"
+                                "name": "Snarl",
+                                "type": "dark"
                             },
                             {
-                                "name": "Foul Play"
+                                "name": "Foul Play",
+                                "type": "dark"
                             }
                         ],
                         "ttw": "333s",
@@ -1323,12 +1678,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Absol",
+                        "types": [
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Snarl"
+                                "name": "Snarl",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -1337,12 +1697,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
-                                "name": "Brutal Swing"
+                                "name": "Brutal Swing",
+                                "type": "dark"
                             }
                         ],
                         "ttw": "341s",
@@ -1350,12 +1716,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Hydreigon",
+                        "types": [
+                            "dark",
+                            "dragon"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -1364,12 +1736,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Incineroar",
+                        "types": [
+                            "fire",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Snarl"
+                                "name": "Snarl",
+                                "type": "dark"
                             },
                             {
-                                "name": "Darkest Lariat"
+                                "name": "Darkest Lariat",
+                                "type": "dark"
                             }
                         ],
                         "ttw": "348s",
@@ -1377,12 +1755,268 @@ export const counterMonths = [
                     }
                 ]
             },
+            {
+                "id": "mega-aerodactyl",
+                "name": "Mega Aerodactyl",
+                "themeClass": "rock-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10042.png",
+                "imageAlt": "Official artwork of Mega Aerodactyl",
+                "subtitle": "Mega Raid • April 8 to April 14",
+                "types": [
+                    "rock",
+                    "flying"
+                ],
+                "weaknesses": "Rock, Steel, Water, Electric, Ice",
+                "difficultyLabel": "Focus",
+                "difficulty": "Strong Steel, Water and Rock attackers",
+                "bestCounters": [
+                    {
+                        "name": "Zamazenta (Crowned Shield)",
+                        "types": [
+                            "fighting",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Metal Claw",
+                                "type": "steel"
+                            },
+                            {
+                                "name": "Behemoth Bash",
+                                "type": "steel",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "272s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Zacian (Crowned Sword)",
+                        "types": [
+                            "fairy",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Metal Claw",
+                                "type": "steel"
+                            },
+                            {
+                                "name": "Behemoth Blade",
+                                "type": "steel",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "274s",
+                        "diff": "+1%"
+                    },
+                    {
+                        "name": "Necrozma (Dusk Mane)",
+                        "types": [
+                            "psychic",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Metal Claw",
+                                "type": "steel"
+                            },
+                            {
+                                "name": "Sunsteel Strike",
+                                "type": "steel",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "276s",
+                        "diff": "+2%"
+                    },
+                    {
+                        "name": "Primal Kyogre",
+                        "types": [
+                            "water"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Waterfall",
+                                "type": "water"
+                            },
+                            {
+                                "name": "Origin Pulse",
+                                "type": "water",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "301s",
+                        "diff": "+11%"
+                    },
+                    {
+                        "name": "White Kyurem",
+                        "types": [
+                            "dragon",
+                            "ice"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Steel Wing",
+                                "type": "steel"
+                            },
+                            {
+                                "name": "Ice Burn",
+                                "type": "ice",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "308s",
+                        "diff": "+13%"
+                    },
+                    {
+                        "name": "Shadow Metagross",
+                        "types": [
+                            "steel",
+                            "psychic"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Bullet Punch",
+                                "type": "steel"
+                            },
+                            {
+                                "name": "Meteor Mash",
+                                "type": "steel",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "317s",
+                        "diff": "+17%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Metagross",
+                        "types": [
+                            "steel",
+                            "psychic"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Bullet Punch",
+                                "type": "steel"
+                            },
+                            {
+                                "name": "Meteor Mash",
+                                "type": "steel",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "376s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Quaquaval",
+                        "types": [
+                            "water",
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Water Gun",
+                                "type": "water"
+                            },
+                            {
+                                "name": "Hydro Cannon",
+                                "type": "water",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "399s",
+                        "diff": "+6%"
+                    },
+                    {
+                        "name": "Greninja",
+                        "types": [
+                            "water",
+                            "dark"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Water Shuriken",
+                                "type": "water"
+                            },
+                            {
+                                "name": "Hydro Cannon",
+                                "type": "water",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "413s",
+                        "diff": "+10%"
+                    },
+                    {
+                        "name": "Rampardos",
+                        "types": [
+                            "rock"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Smack Down",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Rock Slide",
+                                "type": "rock"
+                            }
+                        ],
+                        "ttw": "413s",
+                        "diff": "+10%"
+                    },
+                    {
+                        "name": "Tinkaton",
+                        "types": [
+                            "fairy",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fairy Wind",
+                                "type": "fairy"
+                            },
+                            {
+                                "name": "Gigaton Hammer",
+                                "type": "steel",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "415s",
+                        "diff": "+10%"
+                    },
+                    {
+                        "name": "Primarina",
+                        "types": [
+                            "water",
+                            "fairy"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Waterfall",
+                                "type": "water"
+                            },
+                            {
+                                "name": "Hydro Cannon",
+                                "type": "water",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "417s",
+                        "diff": "+11%"
+                    }
+                ]
+            }
         ]
     },
     {
         "id": "2026-05",
         "label": "May 2026",
-        "status": "upcoming",
+        "status": "current",
         "bosses": [
             {
                 "id": "tapu-lele",
@@ -1401,12 +2035,18 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Zamazenta (Crowned Shield)",
+                        "types": [
+                            "fighting",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Metal Claw"
+                                "name": "Metal Claw",
+                                "type": "steel"
                             },
                             {
                                 "name": "Behemoth Bash",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -1415,12 +2055,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Zacian (Crowned Sword)",
+                        "types": [
+                            "fairy",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Metal Claw"
+                                "name": "Metal Claw",
+                                "type": "steel"
                             },
                             {
                                 "name": "Behemoth Blade",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -1429,12 +2075,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Necrozma (Dusk Mane)",
+                        "types": [
+                            "psychic",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Metal Claw"
+                                "name": "Metal Claw",
+                                "type": "steel"
                             },
                             {
                                 "name": "Sunsteel Strike",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -1443,12 +2095,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Necrozma - Dawn Wings",
+                        "types": [
+                            "psychic",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Metal Claw"
+                                "name": "Metal Claw",
+                                "type": "steel"
                             },
                             {
                                 "name": "Moongeist Beam",
+                                "type": "ghost",
                                 "legacy": true
                             }
                         ],
@@ -1457,12 +2115,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Metagross",
+                        "types": [
+                            "steel",
+                            "psychic"
+                        ],
                         "moves": [
                             {
-                                "name": "Bullet Punch"
+                                "name": "Bullet Punch",
+                                "type": "steel"
                             },
                             {
                                 "name": "Meteor Mash",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -1471,12 +2135,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Mega Metagross",
+                        "types": [
+                            "steel",
+                            "psychic"
+                        ],
                         "moves": [
                             {
-                                "name": "Bullet Punch"
+                                "name": "Bullet Punch",
+                                "type": "steel"
                             },
                             {
                                 "name": "Meteor Mash",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -1487,12 +2157,18 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Metagross",
+                        "types": [
+                            "steel",
+                            "psychic"
+                        ],
                         "moves": [
                             {
-                                "name": "Bullet Punch"
+                                "name": "Bullet Punch",
+                                "type": "steel"
                             },
                             {
                                 "name": "Meteor Mash",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -1501,12 +2177,19 @@ export const counterMonths = [
                     },
                     {
                         "name": "Tinkaton",
+                        "types": [
+                            "fairy",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Fairy Wind"
+                                "name": "Fairy Wind",
+                                "type": "fairy"
                             },
                             {
-                                "name": "moves.GIGATON_HAMMER"
+                                "name": "Gigaton Hammer",
+                                "type": "steel",
+                                "legacy": true
                             }
                         ],
                         "ttw": "674s",
@@ -1514,12 +2197,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Chandelure",
+                        "types": [
+                            "ghost",
+                            "fire"
+                        ],
                         "moves": [
                             {
-                                "name": "Hex"
+                                "name": "Hex",
+                                "type": "ghost"
                             },
                             {
-                                "name": "Shadow Ball"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
                         "ttw": "680s",
@@ -1527,12 +2216,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Gholdengo",
+                        "types": [
+                            "steel",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Hex"
+                                "name": "Hex",
+                                "type": "ghost"
                             },
                             {
-                                "name": "Shadow Ball"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
                         "ttw": "681s",
@@ -1540,12 +2235,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Gengar",
+                        "types": [
+                            "ghost",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Shadow Claw"
+                                "name": "Shadow Claw",
+                                "type": "ghost"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "700s",
@@ -1553,12 +2254,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Dragapult",
+                        "types": [
+                            "dragon",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Astonish"
+                                "name": "Astonish",
+                                "type": "ghost"
                             },
                             {
-                                "name": "Shadow Ball"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
                         "ttw": "718s",
@@ -1582,12 +2289,18 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Mega Tyranitar",
+                        "types": [
+                            "rock",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -1596,12 +2309,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Tyranitar",
+                        "types": [
+                            "rock",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -1610,12 +2329,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Hydreigon",
+                        "types": [
+                            "dark",
+                            "dragon"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -1624,12 +2349,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Necrozma - Dawn Wings",
+                        "types": [
+                            "psychic",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Shadow Claw"
+                                "name": "Shadow Claw",
+                                "type": "ghost"
                             },
                             {
                                 "name": "Moongeist Beam",
+                                "type": "ghost",
                                 "legacy": true
                             }
                         ],
@@ -1638,12 +2369,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Darkrai",
+                        "types": [
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Snarl"
+                                "name": "Snarl",
+                                "type": "dark"
                             },
                             {
-                                "name": "Shadow Ball"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
                         "ttw": "286s",
@@ -1651,12 +2387,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
-                                "name": "Brutal Swing"
+                                "name": "Brutal Swing",
+                                "type": "dark"
                             }
                         ],
                         "ttw": "303s",
@@ -1666,12 +2408,18 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Tyranitar",
+                        "types": [
+                            "rock",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -1680,12 +2428,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Kingambit",
+                        "types": [
+                            "dark",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Snarl"
+                                "name": "Snarl",
+                                "type": "dark"
                             },
                             {
-                                "name": "Foul Play"
+                                "name": "Foul Play",
+                                "type": "dark"
                             }
                         ],
                         "ttw": "333s",
@@ -1693,12 +2447,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Absol",
+                        "types": [
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Snarl"
+                                "name": "Snarl",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -1707,12 +2466,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
-                                "name": "Brutal Swing"
+                                "name": "Brutal Swing",
+                                "type": "dark"
                             }
                         ],
                         "ttw": "341s",
@@ -1720,12 +2485,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Hydreigon",
+                        "types": [
+                            "dark",
+                            "dragon"
+                        ],
                         "moves": [
                             {
-                                "name": "Bite"
+                                "name": "Bite",
+                                "type": "dark"
                             },
                             {
                                 "name": "Brutal Swing",
+                                "type": "dark",
                                 "legacy": true
                             }
                         ],
@@ -1734,12 +2505,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Incineroar",
+                        "types": [
+                            "fire",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Snarl"
+                                "name": "Snarl",
+                                "type": "dark"
                             },
                             {
-                                "name": "Darkest Lariat"
+                                "name": "Darkest Lariat",
+                                "type": "dark"
                             }
                         ],
                         "ttw": "348s",
@@ -1764,12 +2541,17 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Primal Groudon",
+                        "types": [
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud Shot"
+                                "name": "Mud Shot",
+                                "type": "ground"
                             },
                             {
                                 "name": "Precipice Blades",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -1778,12 +2560,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Groudon",
+                        "types": [
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud Shot"
+                                "name": "Mud Shot",
+                                "type": "ground"
                             },
                             {
                                 "name": "Precipice Blades",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -1792,12 +2579,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Excadrill",
+                        "types": [
+                            "ground",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
                                 "name": "Scorching Sands",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -1806,12 +2599,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Garchomp",
+                        "types": [
+                            "dragon",
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud Shot"
+                                "name": "Mud Shot",
+                                "type": "ground"
                             },
                             {
                                 "name": "Earth Power",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -1820,12 +2619,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Landorus Therian",
+                        "types": [
+                            "ground",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud Shot"
+                                "name": "Mud Shot",
+                                "type": "ground"
                             },
                             {
-                                "name": "Sandsear Storm"
+                                "name": "Sandsear Storm",
+                                "type": "ground"
                             }
                         ],
                         "ttw": "370s",
@@ -1833,12 +2638,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Mamoswine",
+                        "types": [
+                            "ice",
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
                                 "name": "High Horsepower",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -1849,12 +2660,18 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Excadrill",
+                        "types": [
+                            "ground",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
                                 "name": "Scorching Sands",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -1863,12 +2680,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Garchomp",
+                        "types": [
+                            "dragon",
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud Shot"
+                                "name": "Mud Shot",
+                                "type": "ground"
                             },
                             {
                                 "name": "Earth Power",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -1877,12 +2700,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Mamoswine",
+                        "types": [
+                            "ice",
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
                                 "name": "High Horsepower",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -1891,12 +2720,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Rhyperior",
+                        "types": [
+                            "ground",
+                            "rock"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
-                                "name": "Earthquake"
+                                "name": "Earthquake",
+                                "type": "ground"
                             }
                         ],
                         "ttw": "464s",
@@ -1904,12 +2739,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Krookodile",
+                        "types": [
+                            "ground",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
-                                "name": "Earthquake"
+                                "name": "Earthquake",
+                                "type": "ground"
                             }
                         ],
                         "ttw": "508s",
@@ -1917,12 +2758,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Golurk",
+                        "types": [
+                            "ground",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
-                                "name": "Earth Power"
+                                "name": "Earth Power",
+                                "type": "ground"
                             }
                         ],
                         "ttw": "508s",
@@ -1947,12 +2794,17 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Primal Kyogre",
+                        "types": [
+                            "water"
+                        ],
                         "moves": [
                             {
-                                "name": "Waterfall"
+                                "name": "Waterfall",
+                                "type": "water"
                             },
                             {
                                 "name": "Origin Pulse",
+                                "type": "water",
                                 "legacy": true
                             }
                         ],
@@ -1961,12 +2813,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Kyogre",
+                        "types": [
+                            "water"
+                        ],
                         "moves": [
                             {
-                                "name": "Waterfall"
+                                "name": "Waterfall",
+                                "type": "water"
                             },
                             {
                                 "name": "Origin Pulse",
+                                "type": "water",
                                 "legacy": true
                             }
                         ],
@@ -1975,12 +2832,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Greninja",
+                        "types": [
+                            "water",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Water Shuriken"
+                                "name": "Water Shuriken",
+                                "type": "water"
                             },
                             {
                                 "name": "Hydro Cannon",
+                                "type": "water",
                                 "legacy": true
                             }
                         ],
@@ -1989,12 +2852,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Samurott",
+                        "types": [
+                            "water"
+                        ],
                         "moves": [
                             {
-                                "name": "Waterfall"
+                                "name": "Waterfall",
+                                "type": "water"
                             },
                             {
                                 "name": "Hydro Cannon",
+                                "type": "water",
                                 "legacy": true
                             }
                         ],
@@ -2003,12 +2871,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Swampert",
+                        "types": [
+                            "water",
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Water Gun"
+                                "name": "Water Gun",
+                                "type": "water"
                             },
                             {
                                 "name": "Hydro Cannon",
+                                "type": "water",
                                 "legacy": true
                             }
                         ],
@@ -2017,13 +2891,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Feraligatr",
+                        "types": [
+                            "water"
+                        ],
                         "moves": [
                             {
                                 "name": "Water Gun",
+                                "type": "water",
                                 "legacy": true
                             },
                             {
                                 "name": "Hydro Cannon",
+                                "type": "water",
                                 "legacy": true
                             }
                         ],
@@ -2034,12 +2913,18 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Greninja",
+                        "types": [
+                            "water",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Water Shuriken"
+                                "name": "Water Shuriken",
+                                "type": "water"
                             },
                             {
                                 "name": "Hydro Cannon",
+                                "type": "water",
                                 "legacy": true
                             }
                         ],
@@ -2048,12 +2933,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Quaquaval",
+                        "types": [
+                            "water",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Water Gun"
+                                "name": "Water Gun",
+                                "type": "water"
                             },
                             {
                                 "name": "Hydro Cannon",
+                                "type": "water",
                                 "legacy": true
                             }
                         ],
@@ -2062,12 +2953,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Kingler",
+                        "types": [
+                            "water"
+                        ],
                         "moves": [
                             {
-                                "name": "Bubble"
+                                "name": "Bubble",
+                                "type": "water"
                             },
                             {
-                                "name": "Crabhammer"
+                                "name": "Crabhammer",
+                                "type": "water"
                             }
                         ],
                         "ttw": "237s",
@@ -2075,12 +2971,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Primarina",
+                        "types": [
+                            "water",
+                            "fairy"
+                        ],
                         "moves": [
                             {
-                                "name": "Waterfall"
+                                "name": "Waterfall",
+                                "type": "water"
                             },
                             {
                                 "name": "Hydro Cannon",
+                                "type": "water",
                                 "legacy": true
                             }
                         ],
@@ -2089,12 +2991,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Inteleon",
+                        "types": [
+                            "water"
+                        ],
                         "moves": [
                             {
-                                "name": "Water Gun"
+                                "name": "Water Gun",
+                                "type": "water"
                             },
                             {
-                                "name": "Surf"
+                                "name": "Surf",
+                                "type": "water"
                             }
                         ],
                         "ttw": "257s",
@@ -2102,12 +3009,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Clawitzer",
+                        "types": [
+                            "water"
+                        ],
                         "moves": [
                             {
-                                "name": "Water Gun"
+                                "name": "Water Gun",
+                                "type": "water"
                             },
                             {
-                                "name": "Crabhammer"
+                                "name": "Crabhammer",
+                                "type": "water"
                             }
                         ],
                         "ttw": "258s",
@@ -2132,12 +3044,18 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Mega Rayquaza",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Air Slash"
+                                "name": "Air Slash",
+                                "type": "flying"
                             },
                             {
                                 "name": "Dragon Ascent",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -2146,12 +3064,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Moltres",
+                        "types": [
+                            "fire",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Wing Attack"
+                                "name": "Wing Attack",
+                                "type": "flying"
                             },
                             {
                                 "name": "Fly",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -2160,12 +3084,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Rayquaza",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Air Slash"
+                                "name": "Air Slash",
+                                "type": "flying"
                             },
                             {
                                 "name": "Dragon Ascent",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -2174,12 +3104,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Toucannon",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Peck"
+                                "name": "Peck",
+                                "type": "flying"
                             },
                             {
                                 "name": "Beak Blast",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -2188,13 +3124,19 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Staraptor",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
                         "moves": [
                             {
                                 "name": "Gust",
+                                "type": "flying",
                                 "legacy": true
                             },
                             {
-                                "name": "Fly"
+                                "name": "Fly",
+                                "type": "flying"
                             }
                         ],
                         "ttw": "318s",
@@ -2202,12 +3144,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Fire Fang"
+                                "name": "Fire Fang",
+                                "type": "fire"
                             },
                             {
                                 "name": "Fly",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -2218,12 +3166,18 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Toucannon",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Peck"
+                                "name": "Peck",
+                                "type": "flying"
                             },
                             {
                                 "name": "Beak Blast",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -2232,13 +3186,19 @@ export const counterMonths = [
                     },
                     {
                         "name": "Staraptor",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
                         "moves": [
                             {
                                 "name": "Gust",
+                                "type": "flying",
                                 "legacy": true
                             },
                             {
-                                "name": "Fly"
+                                "name": "Fly",
+                                "type": "flying"
                             }
                         ],
                         "ttw": "381s",
@@ -2246,12 +3206,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Fire Fang"
+                                "name": "Fire Fang",
+                                "type": "fire"
                             },
                             {
                                 "name": "Fly",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -2260,12 +3226,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Braviary",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Air Slash"
+                                "name": "Air Slash",
+                                "type": "flying"
                             },
                             {
-                                "name": "Fly"
+                                "name": "Fly",
+                                "type": "flying"
                             }
                         ],
                         "ttw": "397s",
@@ -2273,12 +3245,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Honchkrow",
+                        "types": [
+                            "dark",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Peck"
+                                "name": "Peck",
+                                "type": "flying"
                             },
                             {
-                                "name": "Sky Attack"
+                                "name": "Sky Attack",
+                                "type": "flying"
                             }
                         ],
                         "ttw": "412s",
@@ -2286,12 +3264,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Hisuian Braviary",
+                        "types": [
+                            "psychic",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Air Slash"
+                                "name": "Air Slash",
+                                "type": "flying"
                             },
                             {
-                                "name": "Fly"
+                                "name": "Fly",
+                                "type": "flying"
                             }
                         ],
                         "ttw": "431s",
@@ -2316,12 +3300,18 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Mega Rayquaza",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Air Slash"
+                                "name": "Air Slash",
+                                "type": "flying"
                             },
                             {
                                 "name": "Dragon Ascent",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -2330,12 +3320,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Moltres",
+                        "types": [
+                            "fire",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Wing Attack"
+                                "name": "Wing Attack",
+                                "type": "flying"
                             },
                             {
                                 "name": "Fly",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -2344,12 +3340,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Rayquaza",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Air Slash"
+                                "name": "Air Slash",
+                                "type": "flying"
                             },
                             {
                                 "name": "Dragon Ascent",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -2358,12 +3360,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Fire Fang"
+                                "name": "Fire Fang",
+                                "type": "fire"
                             },
                             {
                                 "name": "Fly",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -2372,12 +3380,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Enamorus",
+                        "types": [
+                            "fairy",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Fairy Wind"
+                                "name": "Fairy Wind",
+                                "type": "fairy"
                             },
                             {
-                                "name": "Fly"
+                                "name": "Fly",
+                                "type": "flying"
                             }
                         ],
                         "ttw": "171s",
@@ -2385,12 +3399,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Moltres",
+                        "types": [
+                            "fire",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Wing Attack"
+                                "name": "Wing Attack",
+                                "type": "flying"
                             },
                             {
                                 "name": "Fly",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -2401,12 +3421,18 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Fire Fang"
+                                "name": "Fire Fang",
+                                "type": "fire"
                             },
                             {
                                 "name": "Fly",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -2415,12 +3441,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Braviary",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Air Slash"
+                                "name": "Air Slash",
+                                "type": "flying"
                             },
                             {
-                                "name": "Fly"
+                                "name": "Fly",
+                                "type": "flying"
                             }
                         ],
                         "ttw": "194s",
@@ -2428,12 +3460,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Hisuian Braviary",
+                        "types": [
+                            "psychic",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Air Slash"
+                                "name": "Air Slash",
+                                "type": "flying"
                             },
                             {
-                                "name": "Fly"
+                                "name": "Fly",
+                                "type": "flying"
                             }
                         ],
                         "ttw": "204s",
@@ -2441,12 +3479,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Toucannon",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Peck"
+                                "name": "Peck",
+                                "type": "flying"
                             },
                             {
                                 "name": "Beak Blast",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -2455,12 +3499,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Staraptor",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Wing Attack"
+                                "name": "Wing Attack",
+                                "type": "flying"
                             },
                             {
-                                "name": "Fly"
+                                "name": "Fly",
+                                "type": "flying"
                             }
                         ],
                         "ttw": "204s",
@@ -2468,12 +3518,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Flamigo",
+                        "types": [
+                            "flying",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Wing Attack"
+                                "name": "Wing Attack",
+                                "type": "flying"
                             },
                             {
-                                "name": "Brave Bird"
+                                "name": "Brave Bird",
+                                "type": "flying"
                             }
                         ],
                         "ttw": "221s",
@@ -2497,12 +3553,17 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Primal Groudon",
+                        "types": [
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud Shot"
+                                "name": "Mud Shot",
+                                "type": "ground"
                             },
                             {
                                 "name": "Precipice Blades",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -2511,12 +3572,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Groudon",
+                        "types": [
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud Shot"
+                                "name": "Mud Shot",
+                                "type": "ground"
                             },
                             {
                                 "name": "Precipice Blades",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -2525,12 +3591,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Regigigas",
+                        "types": [
+                            "normal"
+                        ],
                         "moves": [
                             {
-                                "name": "Hidden Power"
+                                "name": "Hidden Power",
+                                "type": "grass"
                             },
                             {
                                 "name": "Crush Grip",
+                                "type": "normal",
                                 "legacy": true
                             }
                         ],
@@ -2539,12 +3610,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Garchomp",
+                        "types": [
+                            "dragon",
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud Shot"
+                                "name": "Mud Shot",
+                                "type": "ground"
                             },
                             {
                                 "name": "Earth Power",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -2553,12 +3630,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Excadrill",
+                        "types": [
+                            "ground",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
                                 "name": "Scorching Sands",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -2567,12 +3650,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Mamoswine",
+                        "types": [
+                            "ice",
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
                                 "name": "High Horsepower",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -2583,12 +3672,18 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Mamoswine",
+                        "types": [
+                            "ice",
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
                                 "name": "High Horsepower",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -2597,12 +3692,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Excadrill",
+                        "types": [
+                            "ground",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
                                 "name": "Scorching Sands",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -2611,12 +3712,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Garchomp",
+                        "types": [
+                            "dragon",
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud Shot"
+                                "name": "Mud Shot",
+                                "type": "ground"
                             },
                             {
                                 "name": "Earth Power",
+                                "type": "ground",
                                 "legacy": true
                             }
                         ],
@@ -2625,12 +3732,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Rhyperior",
+                        "types": [
+                            "ground",
+                            "rock"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
-                                "name": "Earthquake"
+                                "name": "Earthquake",
+                                "type": "ground"
                             }
                         ],
                         "ttw": "551s",
@@ -2638,12 +3751,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Krookodile",
+                        "types": [
+                            "ground",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
-                                "name": "Earthquake"
+                                "name": "Earthquake",
+                                "type": "ground"
                             }
                         ],
                         "ttw": "588s",
@@ -2651,12 +3770,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Golurk",
+                        "types": [
+                            "ground",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Mud-Slap"
+                                "name": "Mud-Slap",
+                                "type": "ground"
                             },
                             {
-                                "name": "Earth Power"
+                                "name": "Earth Power",
+                                "type": "ground"
                             }
                         ],
                         "ttw": "596s",
@@ -2680,13 +3805,19 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Mega Lucario",
+                        "types": [
+                            "fighting",
+                            "steel"
+                        ],
                         "moves": [
                             {
                                 "name": "Force Palm",
+                                "type": "fighting",
                                 "legacy": true
                             },
                             {
-                                "name": "Aura Sphere"
+                                "name": "Aura Sphere",
+                                "type": "fighting"
                             }
                         ],
                         "ttw": "211s",
@@ -2694,12 +3825,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Zamazenta (Crowned Shield)",
+                        "types": [
+                            "fighting",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Metal Claw"
+                                "name": "Metal Claw",
+                                "type": "steel"
                             },
                             {
                                 "name": "Behemoth Bash",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -2708,12 +3845,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Zacian (Crowned Sword)",
+                        "types": [
+                            "fairy",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Metal Claw"
+                                "name": "Metal Claw",
+                                "type": "steel"
                             },
                             {
                                 "name": "Behemoth Blade",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -2722,12 +3865,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Necrozma (Dusk Mane)",
+                        "types": [
+                            "psychic",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Metal Claw"
+                                "name": "Metal Claw",
+                                "type": "steel"
                             },
                             {
                                 "name": "Sunsteel Strike",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -2736,12 +3885,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Keldeo",
+                        "types": [
+                            "water",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Low Kick"
+                                "name": "Low Kick",
+                                "type": "fighting"
                             },
                             {
                                 "name": "Secret Sword",
+                                "type": "fighting",
                                 "legacy": true
                             }
                         ],
@@ -2750,12 +3905,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Blaziken",
+                        "types": [
+                            "fire",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Fire Spin"
+                                "name": "Fire Spin",
+                                "type": "fire"
                             },
                             {
-                                "name": "Aura Sphere"
+                                "name": "Aura Sphere",
+                                "type": "fighting"
                             }
                         ],
                         "ttw": "244s",
@@ -2765,13 +3926,19 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Lucario",
+                        "types": [
+                            "fighting",
+                            "steel"
+                        ],
                         "moves": [
                             {
                                 "name": "Force Palm",
+                                "type": "fighting",
                                 "legacy": true
                             },
                             {
-                                "name": "Aura Sphere"
+                                "name": "Aura Sphere",
+                                "type": "fighting"
                             }
                         ],
                         "ttw": "272s",
@@ -2779,12 +3946,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Blaziken",
+                        "types": [
+                            "fire",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Fire Spin"
+                                "name": "Fire Spin",
+                                "type": "fire"
                             },
                             {
-                                "name": "Aura Sphere"
+                                "name": "Aura Sphere",
+                                "type": "fighting"
                             }
                         ],
                         "ttw": "291s",
@@ -2792,12 +3965,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Metagross",
+                        "types": [
+                            "steel",
+                            "psychic"
+                        ],
                         "moves": [
                             {
-                                "name": "Bullet Punch"
+                                "name": "Bullet Punch",
+                                "type": "steel"
                             },
                             {
                                 "name": "Meteor Mash",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -2806,12 +3985,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Cinderace",
+                        "types": [
+                            "fire"
+                        ],
                         "moves": [
                             {
-                                "name": "Fire Spin"
+                                "name": "Fire Spin",
+                                "type": "fire"
                             },
                             {
-                                "name": "Pyro Ball"
+                                "name": "Pyro Ball",
+                                "type": "fire"
                             }
                         ],
                         "ttw": "318s",
@@ -2819,12 +4003,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Rampardos",
+                        "types": [
+                            "rock"
+                        ],
                         "moves": [
                             {
-                                "name": "Smack Down"
+                                "name": "Smack Down",
+                                "type": "rock"
                             },
                             {
-                                "name": "Rock Slide"
+                                "name": "Rock Slide",
+                                "type": "rock"
                             }
                         ],
                         "ttw": "320s",
@@ -2832,12 +4021,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Volcarona",
+                        "types": [
+                            "bug",
+                            "fire"
+                        ],
                         "moves": [
                             {
-                                "name": "Fire Spin"
+                                "name": "Fire Spin",
+                                "type": "fire"
                             },
                             {
-                                "name": "Overheat"
+                                "name": "Overheat",
+                                "type": "fire"
                             }
                         ],
                         "ttw": "327s",
@@ -2862,12 +4057,18 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Mega Beedrill",
+                        "types": [
+                            "bug",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Poison Jab"
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "368s",
@@ -2875,12 +4076,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Eternatus",
+                        "types": [
+                            "poison",
+                            "dragon"
+                        ],
                         "moves": [
                             {
-                                "name": "Poison Jab"
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "380s",
@@ -2888,12 +4095,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Overqwil",
+                        "types": [
+                            "dark",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Poison Jab"
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "407s",
@@ -2901,12 +4114,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Naganadel",
+                        "types": [
+                            "poison",
+                            "dragon"
+                        ],
                         "moves": [
                             {
-                                "name": "Poison Jab"
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "416s",
@@ -2914,12 +4133,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Nihilego",
+                        "types": [
+                            "rock",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Poison Jab"
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "429s",
@@ -2927,12 +4152,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Toxicroak",
+                        "types": [
+                            "poison",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Poison Jab"
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "433s",
@@ -2942,12 +4173,18 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Roserade",
+                        "types": [
+                            "grass",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Poison Jab"
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "454s",
@@ -2955,12 +4192,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Revavroom",
+                        "types": [
+                            "steel",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Poison Jab"
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
-                                "name": "Gunk Shot"
+                                "name": "Gunk Shot",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "484s",
@@ -2968,12 +4211,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Overqwil",
+                        "types": [
+                            "dark",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Poison Jab"
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "490s",
@@ -2981,12 +4230,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Toxicroak",
+                        "types": [
+                            "poison",
+                            "fighting"
+                        ],
                         "moves": [
                             {
-                                "name": "Poison Jab"
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "510s",
@@ -2994,12 +4249,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Scolipede",
+                        "types": [
+                            "bug",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Poison Jab"
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "533s",
@@ -3007,12 +4268,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Victreebel",
+                        "types": [
+                            "grass",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Acid"
+                                "name": "Acid",
+                                "type": "poison"
                             },
                             {
-                                "name": "Sludge Bomb"
+                                "name": "Sludge Bomb",
+                                "type": "poison"
                             }
                         ],
                         "ttw": "535s",
@@ -3037,12 +4304,18 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Zacian (Crowned Sword)",
+                        "types": [
+                            "fairy",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Metal Claw"
+                                "name": "Metal Claw",
+                                "type": "steel"
                             },
                             {
                                 "name": "Behemoth Blade",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -3051,12 +4324,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Zamazenta (Crowned Shield)",
+                        "types": [
+                            "fighting",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Metal Claw"
+                                "name": "Metal Claw",
+                                "type": "steel"
                             },
                             {
                                 "name": "Behemoth Bash",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -3065,12 +4344,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Necrozma (Dusk Mane)",
+                        "types": [
+                            "psychic",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Metal Claw"
+                                "name": "Metal Claw",
+                                "type": "steel"
                             },
                             {
                                 "name": "Sunsteel Strike",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -3079,12 +4364,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "White Kyurem",
+                        "types": [
+                            "dragon",
+                            "ice"
+                        ],
                         "moves": [
                             {
-                                "name": "Ice Fang"
+                                "name": "Ice Fang",
+                                "type": "ice"
                             },
                             {
                                 "name": "Ice Burn",
+                                "type": "ice",
                                 "legacy": true
                             }
                         ],
@@ -3093,12 +4384,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Metagross",
+                        "types": [
+                            "steel",
+                            "psychic"
+                        ],
                         "moves": [
                             {
-                                "name": "Bullet Punch"
+                                "name": "Bullet Punch",
+                                "type": "steel"
                             },
                             {
                                 "name": "Meteor Mash",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -3107,12 +4404,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Mega Lucario",
+                        "types": [
+                            "fighting",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Bullet Punch"
+                                "name": "Bullet Punch",
+                                "type": "steel"
                             },
                             {
-                                "name": "Meteor Mash"
+                                "name": "Meteor Mash",
+                                "type": "steel"
                             }
                         ],
                         "ttw": "332s",
@@ -3122,12 +4425,18 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Metagross",
+                        "types": [
+                            "steel",
+                            "psychic"
+                        ],
                         "moves": [
                             {
-                                "name": "Bullet Punch"
+                                "name": "Bullet Punch",
+                                "type": "steel"
                             },
                             {
                                 "name": "Meteor Mash",
+                                "type": "steel",
                                 "legacy": true
                             }
                         ],
@@ -3136,12 +4445,19 @@ export const counterMonths = [
                     },
                     {
                         "name": "Tinkaton",
+                        "types": [
+                            "fairy",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Fairy Wind"
+                                "name": "Fairy Wind",
+                                "type": "fairy"
                             },
                             {
-                                "name": "moves.GIGATON_HAMMER"
+                                "name": "Gigaton Hammer",
+                                "type": "steel",
+                                "legacy": true
                             }
                         ],
                         "ttw": "393s",
@@ -3149,12 +4465,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Lucario",
+                        "types": [
+                            "fighting",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Bullet Punch"
+                                "name": "Bullet Punch",
+                                "type": "steel"
                             },
                             {
-                                "name": "Meteor Mash"
+                                "name": "Meteor Mash",
+                                "type": "steel"
                             }
                         ],
                         "ttw": "434s",
@@ -3162,12 +4484,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Galarian Darmanitan",
+                        "types": [
+                            "ice"
+                        ],
                         "moves": [
                             {
-                                "name": "Ice Fang"
+                                "name": "Ice Fang",
+                                "type": "ice"
                             },
                             {
-                                "name": "Avalanche"
+                                "name": "Avalanche",
+                                "type": "ice"
                             }
                         ],
                         "ttw": "440s",
@@ -3175,12 +4502,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Baxcalibur",
+                        "types": [
+                            "dragon",
+                            "ice"
+                        ],
                         "moves": [
                             {
-                                "name": "Ice Fang"
+                                "name": "Ice Fang",
+                                "type": "ice"
                             },
                             {
-                                "name": "Avalanche"
+                                "name": "Avalanche",
+                                "type": "ice"
                             }
                         ],
                         "ttw": "441s",
@@ -3188,12 +4521,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Mamoswine",
+                        "types": [
+                            "ice",
+                            "ground"
+                        ],
                         "moves": [
                             {
-                                "name": "Powder Snow"
+                                "name": "Powder Snow",
+                                "type": "ice"
                             },
                             {
-                                "name": "Avalanche"
+                                "name": "Avalanche",
+                                "type": "ice"
                             }
                         ],
                         "ttw": "454s",
@@ -3218,12 +4557,17 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Mega Sceptile",
+                        "types": [
+                            "grass"
+                        ],
                         "moves": [
                             {
-                                "name": "Bullet Seed"
+                                "name": "Bullet Seed",
+                                "type": "grass"
                             },
                             {
                                 "name": "Frenzy Plant",
+                                "type": "grass",
                                 "legacy": true
                             }
                         ],
@@ -3232,12 +4576,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Regieleki",
+                        "types": [
+                            "electric"
+                        ],
                         "moves": [
                             {
-                                "name": "Thunder Shock"
+                                "name": "Thunder Shock",
+                                "type": "electric"
                             },
                             {
-                                "name": "Thunder Cage"
+                                "name": "Thunder Cage",
+                                "type": "electric"
                             }
                         ],
                         "ttw": "664s",
@@ -3245,12 +4594,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Electivire",
+                        "types": [
+                            "electric"
+                        ],
                         "moves": [
                             {
-                                "name": "Thunder Shock"
+                                "name": "Thunder Shock",
+                                "type": "electric"
                             },
                             {
-                                "name": "Wild Charge"
+                                "name": "Wild Charge",
+                                "type": "electric"
                             }
                         ],
                         "ttw": "672s",
@@ -3258,12 +4612,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Raikou",
+                        "types": [
+                            "electric"
+                        ],
                         "moves": [
                             {
-                                "name": "Thunder Shock"
+                                "name": "Thunder Shock",
+                                "type": "electric"
                             },
                             {
-                                "name": "Wild Charge"
+                                "name": "Wild Charge",
+                                "type": "electric"
                             }
                         ],
                         "ttw": "678s",
@@ -3271,12 +4630,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Kartana",
+                        "types": [
+                            "grass",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Razor Leaf"
+                                "name": "Razor Leaf",
+                                "type": "grass"
                             },
                             {
-                                "name": "Leaf Blade"
+                                "name": "Leaf Blade",
+                                "type": "grass"
                             }
                         ],
                         "ttw": "682s",
@@ -3284,12 +4649,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Regigigas",
+                        "types": [
+                            "normal"
+                        ],
                         "moves": [
                             {
-                                "name": "Hidden Power"
+                                "name": "Hidden Power",
+                                "type": "grass"
                             },
                             {
                                 "name": "Crush Grip",
+                                "type": "normal",
                                 "legacy": true
                             }
                         ],
@@ -3300,12 +4670,17 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Rillaboom",
+                        "types": [
+                            "grass"
+                        ],
                         "moves": [
                             {
-                                "name": "Razor Leaf"
+                                "name": "Razor Leaf",
+                                "type": "grass"
                             },
                             {
                                 "name": "Frenzy Plant",
+                                "type": "grass",
                                 "legacy": true
                             }
                         ],
@@ -3314,12 +4689,17 @@ export const counterMonths = [
                     },
                     {
                         "name": "Electivire",
+                        "types": [
+                            "electric"
+                        ],
                         "moves": [
                             {
-                                "name": "Thunder Shock"
+                                "name": "Thunder Shock",
+                                "type": "electric"
                             },
                             {
-                                "name": "Wild Charge"
+                                "name": "Wild Charge",
+                                "type": "electric"
                             }
                         ],
                         "ttw": "810s",
@@ -3327,12 +4707,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Roserade",
+                        "types": [
+                            "grass",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Magical Leaf"
+                                "name": "Magical Leaf",
+                                "type": "grass"
                             },
                             {
-                                "name": "Grass Knot"
+                                "name": "Grass Knot",
+                                "type": "grass"
                             }
                         ],
                         "ttw": "823s",
@@ -3340,12 +4726,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Meowscarada",
+                        "types": [
+                            "grass",
+                            "dark"
+                        ],
                         "moves": [
                             {
-                                "name": "Leafage"
+                                "name": "Leafage",
+                                "type": "grass"
                             },
                             {
                                 "name": "Frenzy Plant",
+                                "type": "grass",
                                 "legacy": true
                             }
                         ],
@@ -3354,12 +4746,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Toxtricity Low Key",
+                        "types": [
+                            "electric",
+                            "poison"
+                        ],
                         "moves": [
                             {
-                                "name": "Poison Jab"
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
                                 "name": "Wild Charge",
+                                "type": "electric",
                                 "legacy": true
                             }
                         ],
@@ -3368,12 +4766,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Magnezone",
+                        "types": [
+                            "electric",
+                            "steel"
+                        ],
                         "moves": [
                             {
-                                "name": "Volt Switch"
+                                "name": "Volt Switch",
+                                "type": "electric"
                             },
                             {
-                                "name": "Wild Charge"
+                                "name": "Wild Charge",
+                                "type": "electric"
                             }
                         ],
                         "ttw": "861s",
@@ -3398,12 +4802,18 @@ export const counterMonths = [
                 "bestCounters": [
                     {
                         "name": "Mega Rayquaza",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Air Slash"
+                                "name": "Air Slash",
+                                "type": "flying"
                             },
                             {
                                 "name": "Dragon Ascent",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -3412,12 +4822,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Necrozma - Dawn Wings",
+                        "types": [
+                            "psychic",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Psycho Cut"
+                                "name": "Psycho Cut",
+                                "type": "psychic"
                             },
                             {
                                 "name": "Moongeist Beam",
+                                "type": "ghost",
                                 "legacy": true
                             }
                         ],
@@ -3426,12 +4842,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Moltres",
+                        "types": [
+                            "fire",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Wing Attack"
+                                "name": "Wing Attack",
+                                "type": "flying"
                             },
                             {
                                 "name": "Fly",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -3440,12 +4862,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Toucannon",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Peck"
+                                "name": "Peck",
+                                "type": "flying"
                             },
                             {
                                 "name": "Beak Blast",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -3454,12 +4882,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Rayquaza",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Air Slash"
+                                "name": "Air Slash",
+                                "type": "flying"
                             },
                             {
                                 "name": "Dragon Ascent",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -3468,12 +4902,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Shadow Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Dragon Tail"
+                                "name": "Dragon Tail",
+                                "type": "dragon"
                             },
                             {
                                 "name": "Fly",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -3484,12 +4924,18 @@ export const counterMonths = [
                 "budgetCounters": [
                     {
                         "name": "Toucannon",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Peck"
+                                "name": "Peck",
+                                "type": "flying"
                             },
                             {
                                 "name": "Beak Blast",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -3498,12 +4944,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Dragon Tail"
+                                "name": "Dragon Tail",
+                                "type": "dragon"
                             },
                             {
                                 "name": "Fly",
+                                "type": "flying",
                                 "legacy": true
                             }
                         ],
@@ -3512,12 +4964,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Chandelure",
+                        "types": [
+                            "ghost",
+                            "fire"
+                        ],
                         "moves": [
                             {
-                                "name": "Hex"
+                                "name": "Hex",
+                                "type": "ghost"
                             },
                             {
-                                "name": "Shadow Ball"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
                         "ttw": "343s",
@@ -3525,13 +4983,19 @@ export const counterMonths = [
                     },
                     {
                         "name": "Staraptor",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
                         "moves": [
                             {
                                 "name": "Gust",
+                                "type": "flying",
                                 "legacy": true
                             },
                             {
-                                "name": "Fly"
+                                "name": "Fly",
+                                "type": "flying"
                             }
                         ],
                         "ttw": "345s",
@@ -3539,12 +5003,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Dragapult",
+                        "types": [
+                            "dragon",
+                            "ghost"
+                        ],
                         "moves": [
                             {
-                                "name": "Astonish"
+                                "name": "Astonish",
+                                "type": "ghost"
                             },
                             {
-                                "name": "Shadow Ball"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
                         "ttw": "348s",
@@ -3552,12 +5022,18 @@ export const counterMonths = [
                     },
                     {
                         "name": "Braviary",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
                         "moves": [
                             {
-                                "name": "Air Slash"
+                                "name": "Air Slash",
+                                "type": "flying"
                             },
                             {
-                                "name": "Fly"
+                                "name": "Fly",
+                                "type": "flying"
                             }
                         ],
                         "ttw": "349s",
