@@ -10,7 +10,8 @@
     "scrape-counters": "node tools/scrape.js all",
     "parse-counters": "node tools/parse-pokebattler.js all",
     "transform-counters": "node tools/transform-counter-draft.js",
-    "generate:sitemap": "node tools/generate-sitemap.js"
+    "generate:sitemap": "node tools/generate-sitemap.js",
+    "download-counter-images": "node tools/download-counter-images.js"
   },
   "repository": {
     "type": "git",
