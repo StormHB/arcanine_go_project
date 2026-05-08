@@ -104,16 +104,6 @@ The project combines:
 * No manual HTML editing required for boss cards
 * Supports advanced move metadata (legacy moves, Hidden Power types)
 
-#### Layout improvements
-
-* Center-aligned counter cards
-* Consistent chip sizing
-* Clear hierarchy:
-
-  * Pokémon name
-  * Moves
-  * TTW and performance difference
-
 ---
 
 ### Counter Methodology
@@ -156,7 +146,6 @@ Raid performance data is based on Pokebattler simulations.
 
 ### Technical Features
 
-* Data-driven architecture (JavaScript + structured data)
 * Modular JavaScript (ES Modules)
 * Modular separation:
 
@@ -167,12 +156,10 @@ Raid performance data is based on Pokebattler simulations.
   * Layout (HTML + CSS)
 * Fully reproducible counter generation pipeline (scrape → parse → transform)
 * Fully responsive, mobile-friendly design
-* Clean and maintainable codebase
 * Deployed via GitHub Pages
 * Unified type color system using CSS variables
 * Automatic single-type and dual-type glow rendering
 * Shared month-based data model for raids and counters
-* Dynamic rendering for counter rotations
 
 ---
 
@@ -226,8 +213,6 @@ The project includes lightweight tooling scripts for automating structured front
 
 Current automation features include:
 
-* Pokebattler counter scraping and transformation
-* Generated counter datasets
 * Dynamic sitemap generation
 * Shared metadata handling across raids and counters
 
@@ -272,6 +257,73 @@ The pipeline is used to:
 * Standardized JSON-style generated datasets
 * Shared metadata structure across generated and manual counter data
 
+### Generated Type Metadata
+
+The project uses generated Pokémon and move type datasets to avoid manually maintaining rendering metadata.
+
+Generated datasets include:
+
+- Pokémon primary/secondary types
+- Move types
+- Hidden Power normalization
+- Form-specific Pokémon mappings
+
+These datasets are used across:
+- boss detail pages
+- counter rendering
+- automatic badge generation
+- counter artwork generation
+
+Generation tools:
+
+```bash
+node tools/generate-pokemon-types.js
+node tools/generate-move-types.js
+```
+
+---
+
+### Counter Artwork Generation
+
+Counter Pokémon artwork is generated automatically through a local asset pipeline.
+
+The system:
+
+- downloads missing artwork
+- generates image mapping files
+- supports form-specific Pokémon
+- supports Shadow overlays
+- reuses cached local assets
+
+Command:
+
+```bash
+node tools/download-counter-images.js
+```
+
+Generated output:
+
+- `assets/img/counters/`
+- `counter-image-map.generated.js`
+
+---
+
+### Boss Detail Pages
+
+Boss detail pages (`boss.html`) use a dedicated rendering system separate from the compact counters overview.
+
+Features include:
+
+- Pokémon artwork rendering
+- Pokémon type badges
+- Move type badges
+- Legacy move indicators
+- TTW comparison display
+- Shadow overlays
+- Responsive dual-column layouts
+
+---
+
 ### Commands
 
 ```bash
@@ -294,6 +346,7 @@ Generates a dynamic `sitemap.xml` file based on all current pages and boss route
 
 * `counter-drafts.generated.js` – parsed raw data
 * `counter-final.generated.js` – final UI-ready data
+* `counter-image-map.generated.js` – generated artwork mapping
 
 Generated data is reviewed manually before being used in the application.
 

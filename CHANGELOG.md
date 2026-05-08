@@ -4,6 +4,63 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.17.3] - Counter Layout Restoration
+
+### Changed
+- Restored cleaner compact counters overview layout
+- Simplified counter move presentation on overview cards
+
+### Improved
+- Better visual hierarchy on counters page
+- Cleaner readability for compact boss cards
+- Preserved detailed rendering on boss detail pages
+
+---
+
+## [1.17.2] - Regional Ultra Beast Integration
+
+### Fixed
+- Missing counter integration for Buzzwole, Pheromosa and Xurkitree
+- Missing boss detail routes for regional Ultra Beasts
+- Rotation synchronization issues between raids and counters
+
+### Improved
+- Regional raid rendering consistency
+- Multi-boss rotation support
+
+---
+
+## [1.17.1] - Generated Metadata Pipeline
+
+### Added
+- Generated Pokémon type datasets
+- Generated move type datasets
+- Hidden Power type normalization
+- Form override support for special Pokémon forms
+
+### Improved
+- Removed manual type maintenance from render layer
+- Improved consistency between generated data and UI rendering
+
+---
+
+## [1.17.0] - Boss Detail Rendering System
+
+### Added
+- Pokémon artwork rendering for boss detail counters
+- Generated image mapping system
+- Shadow overlay support
+- Move type badge rendering
+- Pokémon type badge rendering
+- Legacy move indicators on boss detail pages
+
+### Improved
+- Counter alignment and TTW layout consistency
+- Responsive boss detail rendering
+- Multi-column counter layouts
+
+---
+
 ## [1.16.0] - SEO Improvements & Main Branch Integration
 
 ### Added
