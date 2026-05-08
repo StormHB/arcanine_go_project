@@ -170,7 +170,7 @@ export const scrapeTargets = {
         subtitle: "Regional 5★ Raid • May 13 to May 19",
         types: ["bug", "fighting"],
         weaknesses: "Flying, Fire, Psychic, Fairy",
-        difficultyLabel: "Regional",
+        difficultyLabel: "Standard",
         difficulty: "Flying attackers dominate due to double weakness",
         bestUrl: "https://www.pokebattler.com/raids/defenders/BUZZWOLE/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
         budgetUrl: "https://www.pokebattler.com/raids/defenders/BUZZWOLE/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
@@ -186,7 +186,7 @@ export const scrapeTargets = {
         subtitle: "Regional 5★ Raid • May 13 to May 19",
         types: ["bug", "fighting"],
         weaknesses: "Flying, Fire, Psychic, Fairy",
-        difficultyLabel: "Regional",
+        difficultyLabel: "Standard",
         difficulty: "Flying attackers dominate due to double weakness",
         bestUrl: "https://www.pokebattler.com/raids/defenders/PHEROMOSA/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
         budgetUrl: "https://www.pokebattler.com/raids/defenders/PHEROMOSA/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
@@ -202,7 +202,7 @@ export const scrapeTargets = {
         subtitle: "Regional 5★ Raid • May 13 to May 19",
         types: ["electric"],
         weaknesses: "Ground",
-        difficultyLabel: "Regional",
+        difficultyLabel: "Standard",
         difficulty: "Ground attackers completely dominate due to single weakness",
         bestUrl: "https://www.pokebattler.com/raids/defenders/XURKITREE/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
         budgetUrl: "https://www.pokebattler.com/raids/defenders/XURKITREE/levels/RAID_LEVEL_ULTRA_BEAST/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"

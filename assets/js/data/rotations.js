@@ -6,7 +6,7 @@ export const raidRotations = [
     schedule: [
       {
         date: "Apr 8 – Apr 14",
-        time: "6:00 AM → 10:00 PM local time",
+        time: "10:00 AM → 10:00 PM local time",
         fiveStar: "Kyogre",
         mega: "Mega Aerodactyl",
         icons: [
@@ -22,7 +22,7 @@ export const raidRotations = [
       },
       {
         date: "Apr 15 – Apr 21",
-        time: "6:00 AM → 10:00 PM local time",
+        time: "10:00 AM → 10:00 PM local time",
         fiveStar: "Groudon",
         mega: "Mega Alakazam",
         icons: [
@@ -38,7 +38,7 @@ export const raidRotations = [
       },
       {
         date: "Apr 22 – Apr 28",
-        time: "6:00 AM → 10:00 PM local time",
+        time: "10:00 AM → 10:00 PM local time",
         fiveStar: "Tapu Koko",
         mega: "Mega Sharpedo",
         icons: [
@@ -54,7 +54,7 @@ export const raidRotations = [
       },
       {
         date: "Apr 29 – May 5",
-        time: "6:00 AM → 10:00 PM local time",
+        time: "10:00 AM → 10:00 PM local time",
         fiveStar: "Tapu Lele",
         mega: "Mega Banette",
         icons: [

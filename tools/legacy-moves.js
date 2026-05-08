@@ -9,7 +9,7 @@ export const legacyMoves = {
     "Hisuian Decidueye": ["Frenzy Plant"],
     "Rillaboom": ["Frenzy Plant"],
     "Meowscarada": ["Frenzy Plant"],
-
+    "Tinkaton": ["Gigaton Hammer"],
     "Charizard": ["Blast Burn", "Dragon Breath", "Ember", "Wing Attack", "Flamethrower"],
     "Typhlosion": ["Blast Burn"],
     "Blaziken": ["Blast Burn"],
