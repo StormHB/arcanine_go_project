@@ -72,23 +72,11 @@ function getBossStatus(subtitle) {
 }
 
 function renderMove(move) {
-  const miniType = move.type
-    ? `<span class="mini-type mini-type-${move.type}">
-         ${formatType(move.type)}
-       </span>`
-    : "";
-
-  if (move.legacy) {
-    return `<span class="move legacy-move" tabindex="0">
-      ${move.name}
-      ${miniType}
-    </span>`;
-  }
-
-  return `<span class="move">
-    ${move.name}
-    ${miniType}
-  </span>`;
+  return `
+    <span class="move${move.legacy ? " legacy-move" : ""}" ${move.legacy ? 'tabindex="0"' : ""}>
+      ${move.name}${move.legacy ? ' <span class="legacy-star-inline" aria-hidden="true">★</span>' : ""}
+    </span>
+  `;
 }
 
 function renderMonthOptions() {
