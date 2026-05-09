@@ -96,6 +96,9 @@ The project combines:
 * Fully clickable counter boss cards
 * Dedicated boss detail pages (`boss.html`)
 * Direct navigation from counters to individual boss analysis pages
+* Live counters search and status filtering
+* Persistent filters between monthly rotation changes
+* Mobile-friendly counters discovery system
 
 #### JS-driven system
 
@@ -427,6 +430,19 @@ This project was built to:
 * Improved offline/mobile caching
 * Additional UI interactions and animations
 * Performance optimizations
+
+--- 
+
+### Future Ideas
+
+* Historical archive expansion (January 2026 onward)
+* Optional advanced metadata:
+  * estimator
+  * deaths
+  * suggested team size
+  * difficulty indicators
+* Optional advanced filtering and sorting system
+* URL-persistent filters and shareable filtered views
 
 ---
 

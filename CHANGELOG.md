@@ -4,6 +4,28 @@ All notable changes to this project are documented here.
 
 ---
 
+## 1.18.0 – Counters Search & Filter System
+
+### Added
+- Added live search filtering for counters page
+- Added status filtering (Active / Upcoming / Ended)
+- Added persistent filters between month changes
+- Added clear filters action button
+- Added dynamic filtered result count display
+- Added empty-state messaging for no matching filters
+
+### Improved
+- Improved counters page discoverability and navigation
+- Improved mobile-friendly filter layout
+- Refined counters page UX while preserving compact design philosophy
+
+### Technical
+- Added scalable client-side filtering architecture in `render-counters.js`
+- Added reusable `getBossSearchText()` aggregation helper
+- Extended counters rendering pipeline without scraper or data format changes
+
+---
+
 ## [1.17.4] - Mobile Boss Detail Counter Layout Refinement
 
 ### Changed
