@@ -130,6 +130,9 @@ Raid performance data is based on Pokebattler simulations.
 * Scalable typography and spacing
 * Optimized layouts for small mobile screens
 * Improved touch targets and card interactions
+* Optimized mobile boss detail counter layouts
+* Improved responsive counter readability on compact devices
+* Better alignment consistency across mobile counter sections
 
 ---
 
@@ -321,6 +324,10 @@ Features include:
 - TTW comparison display
 - Shadow overlays
 - Responsive dual-column layouts
+- Optimized mobile counter card layouts
+- Structured responsive grid system for mobile boss detail rendering
+- Improved alignment for move metadata and TTW statistics
+- Better handling of multi-line Pokémon names on small screens
 
 ---
 

@@ -4,6 +4,23 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.17.4] - Mobile Boss Detail Counter Layout Refinement
+
+### Changed
+- Reworked mobile boss detail counter card layout into a cleaner structured grid
+- Improved alignment between Pokémon artwork, ranking, typing and move sections
+- Repositioned rank and type metadata for better spacing consistency
+- Standardized move section alignment across fast and charged attacks
+- Improved TTW and delta chip positioning on smaller screens
+
+### Improved
+- Better readability on compact mobile devices
+- More consistent vertical rhythm across counter cards
+- Improved handling of long Pokémon names and multi-line layouts
+- Cleaner responsive rendering for dual-type and Shadow counters
+
+---
+
 ## [1.17.3] - Counter Layout Restoration
 
 ### Changed
