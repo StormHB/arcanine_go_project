@@ -252,7 +252,10 @@ function renderCounters(monthId) {
 
   if (filteredBosses.length === 0) {
     countersGrid.innerHTML = `
-      <p class="meta-copy">No bosses match your current filters.</p>
+      <div class="empty-filter-state">
+        <p class="meta-copy">No raid bosses match your filters.</p>
+        <p class="meta-copy">Try another type, weakness, counter, or status.</p>
+      </div>
     `;
   } else {
     countersGrid.innerHTML = filteredBosses
@@ -268,8 +271,6 @@ const defaultMonthId = renderMonthOptions();
 renderCounters(defaultMonthId);
 
 monthSelect.addEventListener("change", () => {
-  searchInput.value = "";
-  statusFilter.value = "all";
   renderCounters(monthSelect.value);
 });
 

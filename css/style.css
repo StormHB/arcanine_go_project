@@ -577,6 +577,22 @@ h2 {
   font-size: 0.9rem;
 }
 
+.empty-filter-state {
+  grid-column: 1 / -1;
+  padding: 1.25rem;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 1rem;
+  background: rgba(15, 23, 42, 0.55);
+}
+
+.empty-filter-state .meta-copy {
+  margin: 0;
+}
+
+.empty-filter-state .meta-copy + .meta-copy {
+  margin-top: 0.35rem;
+}
+
 @media (max-width: 640px) {
   .counter-filters {
     grid-template-columns: 1fr;
