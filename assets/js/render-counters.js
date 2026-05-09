@@ -3,6 +3,9 @@ import { raidRotations } from "./data/rotations.js";
 
 const monthSelect = document.querySelector("#counter-month-select");
 const countersGrid = document.querySelector("#counters-grid");
+const searchInput = document.querySelector("#counter-search");
+const statusFilter = document.querySelector("#counter-status-filter");
+const filterResults = document.querySelector("#filter-results");
 
 function findRaidCardByBossId(bossId) {
   return raidRotations
@@ -205,8 +208,25 @@ function renderBossCard(boss) {
   `;
 }
 
+function getBossSearchText(boss) {
+  return [
+    boss.name,
+    boss.subtitle,
+    boss.types?.join(" "),
+    boss.weaknesses,
+    boss.difficulty,
+    boss.bestCounters?.map(counter => counter.name).join(" "),
+    boss.budgetCounters?.map(counter => counter.name).join(" "),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+}
+
 function renderCounters(monthId) {
   const selectedMonth = counterMonths.find((month) => month.id === monthId);
+  const searchTerm = searchInput.value.trim().toLowerCase();
+  const selectedStatus = statusFilter.value;
 
   countersGrid.innerHTML = "";
 
@@ -214,17 +234,49 @@ function renderCounters(monthId) {
     countersGrid.innerHTML = `
       <p class="meta-copy">No counter data for this month yet.</p>
     `;
+    filterResults.textContent = "";
     return;
   }
 
-  countersGrid.innerHTML = selectedMonth.bosses
-    .map(renderBossCard)
-    .join("");
+  const filteredBosses = selectedMonth.bosses.filter((boss) => {
+    const displaySubtitle = formatCounterSubtitle(boss);
+    const bossStatus = getBossStatus(displaySubtitle);
+    const matchesSearch =
+      searchTerm === "" || getBossSearchText(boss).includes(searchTerm);
+
+    const matchesStatus =
+      selectedStatus === "all" || bossStatus === selectedStatus;
+
+    return matchesSearch && matchesStatus;
+  });
+
+  if (filteredBosses.length === 0) {
+    countersGrid.innerHTML = `
+      <p class="meta-copy">No bosses match your current filters.</p>
+    `;
+  } else {
+    countersGrid.innerHTML = filteredBosses
+      .map(renderBossCard)
+      .join("");
+  }
+
+  filterResults.textContent =
+    `${filteredBosses.length} of ${selectedMonth.bosses.length} bosses shown`;
 }
 
 const defaultMonthId = renderMonthOptions();
 renderCounters(defaultMonthId);
 
 monthSelect.addEventListener("change", () => {
+  searchInput.value = "";
+  statusFilter.value = "all";
+  renderCounters(monthSelect.value);
+});
+
+searchInput.addEventListener("input", () => {
+  renderCounters(monthSelect.value);
+});
+
+statusFilter.addEventListener("change", () => {
   renderCounters(monthSelect.value);
 });

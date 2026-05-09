@@ -155,6 +155,25 @@ using structured JavaScript data and dynamic rendering.
           <select id="counter-month-select"></select>
         </div>
 
+        <div class="counter-filters" aria-label="Counter filters">
+          <div class="filter-field">
+            <label for="counter-search">Search counters:</label>
+            <input type="search" id="counter-search" placeholder="Search boss, type, weakness, counter..." autocomplete="off">
+          </div>
+
+          <div class="filter-field">
+            <label for="counter-status-filter">Status:</label>
+            <select id="counter-status-filter">
+              <option value="all">All statuses</option>
+              <option value="current-boss">Active</option>
+              <option value="upcoming-boss">Upcoming</option>
+              <option value="ended-boss">Ended</option>
+            </select>
+          </div>
+        </div>
+
+        <p class="filter-results" id="filter-results" aria-live="polite"></p>
+
         <div class="boss-grid" id="counters-grid"></div>
 
         <div class="note-box">
