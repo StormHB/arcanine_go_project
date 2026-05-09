@@ -373,8 +373,8 @@ function renderCounterTypes(counter) {
   return `
     <div class="counter-type-row">
       ${types
-        .map((type) => `<span class="type-badge type-${type}">${formatType(type)}</span>`)
-        .join("")}
+      .map((type) => `<span class="type-badge type-${type}">${formatType(type)}</span>`)
+      .join("")}
     </div>
   `;
 }
@@ -390,19 +390,21 @@ function renderCounter(counter, index) {
           onerror="this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png'"
         >
 
-        ${
-          isShadowCounter(counter)
-            ? `<img class="shadow-badge-overlay" src="assets/img/ui/shadow-badge.svg" alt="" aria-hidden="true">`
-            : ""
-        }
+        ${isShadowCounter(counter)
+      ? `<img class="shadow-badge-overlay" src="assets/img/ui/shadow-badge.svg" alt="" aria-hidden="true">`
+      : ""
+    }
       </div>
 
       <div class="counter-detail-title">
-        <span class="counter-rank">#${index + 1}</span>
         <strong class="counter-detail-name">${counter.name}</strong>
-        ${renderCounterTypes(counter)}
-      </div>
 
+        <div class="counter-title-meta">
+          <span class="counter-rank">#${index + 1}</span>
+          ${renderCounterTypes(counter)}
+        </div>
+      </div>
+      
       <div class="boss-detail-moves">
         ${counter.moves.map((move, index) => renderMove(move, index)).join("")}
       </div>

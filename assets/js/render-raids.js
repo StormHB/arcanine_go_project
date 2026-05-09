@@ -158,9 +158,13 @@ function renderSummaryCards(monthId) {
   featuredRaids.forEach((raid) => {
     const [primaryType, secondaryType] = raid.types;
     const card = document.createElement("a");
+    const statusClass =
+      raid.computedStatus.class === "active" ? "current-boss" :
+        raid.computedStatus.class === "upcoming" ? "upcoming-boss" :
+          "";
 
     card.href = `boss.html?id=${raid.id}`;
-    card.className = `summary-card ${secondaryType ? "dual-glow" : "single-glow"} summary-card-link`;
+    card.className = `summary-card ${secondaryType ? "dual-glow" : "single-glow"} summary-card-link ${statusClass}`;
     card.dataset.primaryType = primaryType;
     card.style.setProperty("--primary-glow", `var(--${primaryType})`);
 
@@ -179,7 +183,7 @@ function renderSummaryCards(monthId) {
             src="${raid.image}"
             alt="${raid.imageAlt}"
           >
-          <span class="summary-label">
+          <span class="summary-label ${raid.computedStatus.class}">
             ${raid.badge} ${raid.computedStatus.text}
           </span>
         </div>
@@ -214,11 +218,15 @@ function renderRaidCards(monthId) {
   selectedMonth.raidCards.forEach((raid) => {
     const status = getRaidStatus(raid.dateRange);
     const [primaryType, secondaryType] = raid.types;
-
     const card = document.createElement("a");
 
+    const statusClass =
+      status.class === "active" ? "current-boss" :
+        status.class === "upcoming" ? "upcoming-boss" :
+          "";
+
     card.href = `boss.html?id=${raid.id}`;
-    card.className = `raid-card ${secondaryType ? "dual-glow" : "single-glow"} raid-card-link`;
+    card.className = `raid-card ${secondaryType ? "dual-glow" : "single-glow"} raid-card-link ${statusClass}`;
     card.dataset.primaryType = primaryType;
     card.style.setProperty("--primary-glow", `var(--${primaryType})`);
 

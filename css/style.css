@@ -866,6 +866,7 @@ nav a.active {
 .boss-info h3 {
   margin-bottom: 0.35rem;
   font-size: 1.3rem;
+  padding-right: 4.25rem;
 }
 
 .boss-subtitle {
@@ -1285,8 +1286,6 @@ nav a.active {
 
 .raid-card,
 .summary-card {
-  --primary-glow: transparent;
-  --secondary-glow: transparent;
   position: relative;
 }
 
@@ -1388,6 +1387,14 @@ nav a.active {
   backdrop-filter: blur(6px);
 }
 
+.raid-card .raid-status.current,
+.summary-card .summary-label:has-text("Active") {
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  box-shadow: 0 0 14px rgba(34, 197, 94, 0.18);
+}
+
 .raid-status.current {
   background: rgba(34, 197, 94, 0.15);
   color: #22c55e;
@@ -1402,6 +1409,22 @@ nav a.active {
 .raid-status.ended {
   background: rgba(148, 163, 184, 0.12);
   color: #94a3b8;
+}
+
+.summary-card.current-boss,
+.raid-card.current-boss {
+  border-color: rgba(34, 197, 94, 0.45);
+  box-shadow:
+    0 0 0 1px rgba(34, 197, 94, 0.22),
+    0 16px 40px rgba(34, 197, 94, 0.16);
+}
+
+.summary-card.upcoming-boss,
+.raid-card.upcoming-boss {
+  border-color: rgba(59, 130, 246, 0.45);
+  box-shadow:
+    0 0 0 1px rgba(59, 130, 246, 0.22),
+    0 16px 40px rgba(59, 130, 246, 0.14);
 }
 
 .type-row {
@@ -1514,6 +1537,16 @@ nav a.active {
   max-height: 90px;
 }
 
+.raid-card.current-boss {
+  border-color: color-mix(in srgb, var(--primary-glow) 65%, rgba(255, 255, 255, 0.12));
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--primary-glow) 35%, transparent),
+    0 16px 40px color-mix(in srgb, var(--primary-glow) 18%, transparent);
+}
+
+.raid-card.is-active {
+  animation: active-glow 4s ease-in-out infinite;
+}
 
 
 /* =========================
@@ -1609,6 +1642,29 @@ label:focus-visible {
   font-size: 0.78rem;
   font-weight: 700;
   white-space: nowrap;
+}
+
+.summary-label.active,
+.raid-status.active {
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  box-shadow: 0 0 14px rgba(34, 197, 94, 0.18);
+}
+
+.summary-label.upcoming,
+.raid-status.upcoming {
+  background: rgba(59, 130, 246, 0.15);
+  color: #3b82f6;
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  box-shadow: 0 0 14px rgba(59, 130, 246, 0.16);
+}
+
+.summary-label.ended,
+.raid-status.ended {
+  background: rgba(148, 163, 184, 0.12);
+  color: #94a3b8;
+  border: 1px solid rgba(148, 163, 184, 0.2);
 }
 
 .form-card h2 {
@@ -1991,6 +2047,12 @@ label:focus-visible {
   margin-top: 0.45rem;
 }
 
+.counter-title-meta {
+  display: grid;
+  gap: 0.22rem;
+  justify-items: center;
+}
+
 .boss-detail-moves {
   display: contents;
 }
@@ -2231,16 +2293,56 @@ label:focus-visible {
   }
 
   .boss-top {
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 82px 1fr;
+    grid-template-areas:
+      "art info"
+      "types types";
+    gap: 0.75rem 1rem;
   }
 
   .boss-art {
-    width: 82px;
-    height: 82px;
+    grid-area: art;
+  }
+
+  .boss-info {
+    grid-area: info;
+  }
+
+  .boss-info .type-badges,
+  .boss-info .type-row {
+    grid-area: types;
+    justify-content: center;
+    margin-top: 0.25rem;
   }
 
   .boss-meta {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .type-badges,
+  .type-row {
+    margin-top: 0.15rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .meta-box {
+    gap: 0.45rem;
+  }
+
+  .boss-body {
+    gap: 0.85rem;
+  }
+
+  .boss-info h3 {
+    font-size: 1.35rem;
+    line-height: 1.15;
+    font-weight: 800;
+    letter-spacing: 0;
+    padding-right: 4.75rem;
+    margin-bottom: 0.35rem;
+    text-shadow: none;
   }
 
   .counter-chip {
@@ -2302,7 +2404,6 @@ label:focus-visible {
 
 
 @media (max-width: 520px) {
-
   .hero-meta {
     display: grid;
     grid-template-columns: 1fr;
@@ -2339,7 +2440,7 @@ label:focus-visible {
   }
 
   .boss-detail-card {
-    padding: 1.25rem;
+    gap: 1rem;
   }
 
   .boss-detail-heading h1 {
@@ -2347,20 +2448,151 @@ label:focus-visible {
   }
 
   .boss-detail-counter {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "art title"
+      "fast charged"
+      "ttw diff";
+    gap: 0.7rem 0.8rem;
+    padding: 0.9rem;
+    min-height: auto;
+  }
+
+  .boss-detail-counter .counter-pokemon-art-wrap {
+    grid-area: art;
+    width: 58px;
+    height: 58px;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .boss-detail-counter .counter-pokemon-art {
+    width: 54px;
+    height: 54px;
+  }
+
+  .boss-detail-counter .shadow-badge-overlay {
+    width: 17px;
+    height: 17px;
+  }
+
+  .boss-detail-counter .counter-detail-title {
+    grid-area: title;
+    display: grid;
+    gap: 0.25rem;
+    justify-items: center;
+    text-align: center;
+    align-self: center;
+  }
+
+  .boss-detail-counter .counter-title-meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  .boss-detail-counter .counter-rank,
+  .boss-detail-counter .counter-detail-name {
     text-align: center;
   }
 
-  .boss-detail-move {
+  .boss-detail-counter .counter-detail-name {
+    font-size: 0.82rem;
+    line-height: 1.1;
+    min-height: 2.2em;
+    max-width: 5ch;
+    display: flex;
+    align-items: center;
     justify-content: center;
+  }
+
+  .boss-detail-counter .counter-type-row {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .boss-detail-counter .boss-detail-moves {
+    display: contents;
+  }
+
+  .boss-detail-counter .boss-detail-move {
+    width: 100%;
+    min-width: 0;
+    display: grid;
+    justify-items: center;
+    align-items: start;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .boss-detail-counter .boss-detail-move:nth-child(1) {
+    grid-area: fast;
+  }
+
+  .boss-detail-counter .boss-detail-move:nth-child(2) {
+    grid-area: charged;
   }
 
   .boss-detail-counter .move-label {
     min-width: auto;
   }
 
+  .boss-detail-counter .move-name-wrap {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .boss-detail-counter .move-name {
+    max-width: 5.8rem;
+    text-align: center;
+    font-size: 0.72rem;
+  }
+
   .boss-detail-counter .counter-stats {
-    justify-content: center;
+    display: contents;
+    transform: none;
+  }
+
+  .boss-detail-counter .counter-stats .stat-chip:first-child {
+    grid-area: ttw;
+    justify-self: center;
+  }
+
+  .boss-detail-counter .counter-stats .stat-chip:last-child {
+    grid-area: diff;
+    justify-self: center;
+  }
+
+  .boss-detail-hero {
+    margin-bottom: 0;
+    gap: 1rem;
+  }
+
+  .boss-detail-meta-grid {
+    gap: 1rem;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .boss-detail-meta-box {
+    min-height: auto;
+    gap: 0.45rem;
+  }
+
+  .boss-detail-meta-box strong {
+    margin-bottom: 0;
+    margin-top: 0.35rem;
+  }
+
+  .boss-detail-meta-box:first-child {
+    padding-top: 0.25rem;
+  }
+
+  .boss-detail-columns {
+    gap: 1rem;
   }
 
   .container {
@@ -2384,5 +2616,4 @@ label:focus-visible {
     font-size: 0.75rem;
     letter-spacing: 0.06em;
   }
-
 }
