@@ -549,9 +549,10 @@ h2 {
 
 .counter-filters {
   display: grid;
-  grid-template-columns: minmax(180px, 1fr) minmax(140px, 180px);
+  grid-template-columns: minmax(220px, 1fr) minmax(140px, 180px) auto;
   gap: 0.75rem;
   margin: 0 0 0.75rem;
+  align-items: end;
 }
 
 .filter-field {
@@ -569,6 +570,12 @@ h2 {
 .counter-filters input,
 .counter-filters select {
   width: 100%;
+}
+
+.counter-filters input,
+.counter-filters select,
+#clear-filters-btn {
+  height: 56px;
 }
 
 .filter-results {
@@ -589,13 +596,42 @@ h2 {
   margin: 0;
 }
 
-.empty-filter-state .meta-copy + .meta-copy {
+.empty-filter-state .meta-copy+.meta-copy {
   margin-top: 0.35rem;
+}
+
+.filter-actions {
+  justify-content: flex-end;
+}
+
+#clear-filters-btn {
+  width: 64px;
+  min-width: 64px;
+  height: 56px;
+
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 0.9rem;
+  background: rgba(15, 23, 42, 0.75);
+
+  color: var(--text);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+
+  cursor: pointer;
 }
 
 @media (max-width: 640px) {
   .counter-filters {
     grid-template-columns: 1fr;
+  }
+
+  .filter-actions {
+    align-items: stretch;
+  }
+
+  #clear-filters-btn {
+    width: 100%;
   }
 }
 

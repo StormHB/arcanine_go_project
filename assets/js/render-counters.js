@@ -6,6 +6,7 @@ const countersGrid = document.querySelector("#counters-grid");
 const searchInput = document.querySelector("#counter-search");
 const statusFilter = document.querySelector("#counter-status-filter");
 const filterResults = document.querySelector("#filter-results");
+const clearFiltersBtn = document.querySelector("#clear-filters-btn");
 
 function findRaidCardByBossId(bossId) {
   return raidRotations
@@ -279,5 +280,11 @@ searchInput.addEventListener("input", () => {
 });
 
 statusFilter.addEventListener("change", () => {
+  renderCounters(monthSelect.value);
+});
+
+clearFiltersBtn.addEventListener("click", () => {
+  searchInput.value = "";
+  statusFilter.value = "all";
   renderCounters(monthSelect.value);
 });
