@@ -72,9 +72,16 @@ function getBossStatus(subtitle) {
 }
 
 function renderMove(move) {
+  const hiddenPowerType =
+    move.name.toLowerCase().includes("hidden power") && move.type
+      ? `<span class="mini-type mini-type-${move.type}">${formatType(move.type)}</span>`
+      : "";
+
   return `
     <span class="move${move.legacy ? " legacy-move" : ""}" ${move.legacy ? 'tabindex="0"' : ""}>
-      ${move.name}${move.legacy ? ' <span class="legacy-star-inline" aria-hidden="true">★</span>' : ""}
+      ${move.name}
+      ${hiddenPowerType}
+      ${move.legacy ? ' <span class="legacy-star-inline" aria-hidden="true">★</span>' : ""}
     </span>
   `;
 }
