@@ -24,6 +24,7 @@ const FORM_OVERRIDES = {
   "Dawn Wings Necrozma": "necrozma-dawn",
 
   "Giratina (Origin)": "giratina-origin",
+  "Landorus": "landorus-therian",
   "Landorus (Therian)": "landorus-therian",
   "Thundurus (Therian)": "thundurus-therian",
   "Tornadus (Therian)": "tornadus-therian",
@@ -36,6 +37,7 @@ const FORM_OVERRIDES = {
   "Primal Groudon": "groudon-primal",
 
   "Alolan Ninetales": "ninetales-alola",
+  "Darmanitan": "darmanitan-standard",
   "Galarian Darmanitan": "darmanitan-galar-standard",
   "Hisuian Decidueye": "decidueye-hisui",
   "Enamorus": "enamorus-incarnate",
