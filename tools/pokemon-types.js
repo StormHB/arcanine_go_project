@@ -1,6 +1,14 @@
 export const pokemonTypes = {
+  "Abomasnow": [
+    "grass",
+    "ice"
+  ],
   "Absol": [
     "dark"
+  ],
+  "Aerodactyl": [
+    "rock",
+    "flying"
   ],
   "Aggron": [
     "steel",
@@ -13,6 +21,10 @@ export const pokemonTypes = {
     "ground",
     "steel"
   ],
+  "Alola Exeggutor": [
+    "grass",
+    "dragon"
+  ],
   "Alola Golem": [
     "rock",
     "electric"
@@ -21,8 +33,16 @@ export const pokemonTypes = {
     "poison",
     "dark"
   ],
+  "Alola Ninetales": [
+    "ice",
+    "fairy"
+  ],
   "Ampharos": [
     "electric"
+  ],
+  "Annihilape": [
+    "fighting",
+    "ghost"
   ],
   "Arboliva": [
     "grass",
@@ -39,6 +59,9 @@ export const pokemonTypes = {
     "rock",
     "ice"
   ],
+  "Avalugg": [
+    "ice"
+  ],
   "Banette": [
     "ghost"
   ],
@@ -50,9 +73,19 @@ export const pokemonTypes = {
     "dragon",
     "ice"
   ],
+  "Beartic": [
+    "ice"
+  ],
   "Beedrill": [
     "bug",
     "poison"
+  ],
+  "Beheeyem": [
+    "psychic"
+  ],
+  "Bewear": [
+    "normal",
+    "fighting"
   ],
   "Bisharp": [
     "dark",
@@ -89,6 +122,21 @@ export const pokemonTypes = {
     "grass",
     "dark"
   ],
+  "Camerupt": [
+    "fire",
+    "ground"
+  ],
+  "Carnivine": [
+    "grass"
+  ],
+  "Carracosta": [
+    "water",
+    "rock"
+  ],
+  "Celebi": [
+    "psychic",
+    "grass"
+  ],
   "Cetitan": [
     "ice"
   ],
@@ -114,6 +162,13 @@ export const pokemonTypes = {
   "Clawitzer": [
     "water"
   ],
+  "Clefable": [
+    "fairy"
+  ],
+  "Cloyster": [
+    "water",
+    "ice"
+  ],
   "Conkeldurr": [
     "fighting"
   ],
@@ -128,6 +183,13 @@ export const pokemonTypes = {
   "Crobat": [
     "poison",
     "flying"
+  ],
+  "Crustle": [
+    "bug",
+    "rock"
+  ],
+  "Cryogonal": [
+    "ice"
   ],
   "Darkrai": [
     "dark"
@@ -181,6 +243,9 @@ export const pokemonTypes = {
     "poison",
     "dark"
   ],
+  "Druddigon": [
+    "dragon"
+  ],
   "Duraludon": [
     "steel",
     "dragon"
@@ -226,6 +291,10 @@ export const pokemonTypes = {
     "grass",
     "psychic"
   ],
+  "Farigiraf": [
+    "normal",
+    "psychic"
+  ],
   "Fearow": [
     "normal",
     "flying"
@@ -243,6 +312,9 @@ export const pokemonTypes = {
   "Floatzel": [
     "water"
   ],
+  "Florges": [
+    "fairy"
+  ],
   "Flygon": [
     "ground",
     "dragon"
@@ -254,6 +326,10 @@ export const pokemonTypes = {
   "Galarian Darmanitan": [
     "ice"
   ],
+  "Galarian Rapidash": [
+    "psychic",
+    "fairy"
+  ],
   "Galarian Slowbro": [
     "poison",
     "psychic"
@@ -262,6 +338,14 @@ export const pokemonTypes = {
     "poison",
     "psychic"
   ],
+  "Galarian Weezing": [
+    "poison",
+    "fairy"
+  ],
+  "Gallade": [
+    "psychic",
+    "fighting"
+  ],
   "Garchomp": [
     "dragon",
     "ground"
@@ -269,6 +353,9 @@ export const pokemonTypes = {
   "Gardevoir": [
     "psychic",
     "fairy"
+  ],
+  "Garganacl": [
+    "rock"
   ],
   "Gastrodon - East Sea": [
     "water",
@@ -319,9 +406,19 @@ export const pokemonTypes = {
     "ground",
     "ghost"
   ],
+  "Goodra": [
+    "dragon"
+  ],
+  "Gourgeist - Super": [
+    "ghost",
+    "grass"
+  ],
   "Grafaiai": [
     "poison",
     "normal"
+  ],
+  "Granbull": [
+    "fairy"
   ],
   "Greninja": [
     "water",
@@ -348,6 +445,13 @@ export const pokemonTypes = {
   "Haxorus": [
     "dragon"
   ],
+  "Heatmor": [
+    "fire"
+  ],
+  "Heatran": [
+    "fire",
+    "steel"
+  ],
   "Heracross": [
     "bug",
     "fighting"
@@ -357,6 +461,10 @@ export const pokemonTypes = {
   ],
   "Hisuian Arcanine": [
     "fire",
+    "rock"
+  ],
+  "Hisuian Avalugg": [
+    "ice",
     "rock"
   ],
   "Hisuian Braviary": [
@@ -399,6 +507,10 @@ export const pokemonTypes = {
     "dark",
     "fire"
   ],
+  "Hydrapple": [
+    "grass",
+    "dragon"
+  ],
   "Hydreigon": [
     "dark",
     "dragon"
@@ -416,6 +528,10 @@ export const pokemonTypes = {
   ],
   "Jolteon": [
     "electric"
+  ],
+  "Jynx": [
+    "ice",
+    "psychic"
   ],
   "Kartana": [
     "grass",
@@ -439,6 +555,9 @@ export const pokemonTypes = {
   ],
   "Kingler": [
     "water"
+  ],
+  "Klawf": [
+    "rock"
   ],
   "Kleavor": [
     "bug",
@@ -470,6 +589,10 @@ export const pokemonTypes = {
   "Leafeon": [
     "grass"
   ],
+  "Leavanny": [
+    "bug",
+    "grass"
+  ],
   "Lucario": [
     "fighting",
     "steel"
@@ -486,14 +609,31 @@ export const pokemonTypes = {
     "psychic",
     "ghost"
   ],
+  "Lunatone": [
+    "rock",
+    "psychic"
+  ],
+  "Lurantis": [
+    "grass"
+  ],
   "Luxray": [
     "electric"
+  ],
+  "Lycanroc - Midday": [
+    "rock"
+  ],
+  "Lycanroc - Midnight": [
+    "rock"
   ],
   "Machamp": [
     "fighting"
   ],
   "Magmortar": [
     "fire"
+  ],
+  "Magneton": [
+    "electric",
+    "steel"
   ],
   "Magnezone": [
     "electric",
@@ -506,8 +646,20 @@ export const pokemonTypes = {
   "Manectric": [
     "electric"
   ],
+  "Mega Abomasnow": [
+    "grass",
+    "ice"
+  ],
   "Mega Absol": [
     "dark"
+  ],
+  "Mega Aerodactyl": [
+    "rock",
+    "flying"
+  ],
+  "Mega Aggron": [
+    "steel",
+    "rock"
   ],
   "Mega Alakazam": [
     "psychic"
@@ -541,6 +693,10 @@ export const pokemonTypes = {
     "rock",
     "fairy"
   ],
+  "Mega Dragonite": [
+    "dragon",
+    "flying"
+  ],
   "Mega Gallade": [
     "psychic",
     "fighting"
@@ -556,6 +712,9 @@ export const pokemonTypes = {
   "Mega Gengar": [
     "ghost",
     "poison"
+  ],
+  "Mega Glalie": [
+    "ice"
   ],
   "Mega Gyarados": [
     "water",
@@ -644,6 +803,9 @@ export const pokemonTypes = {
     "steel",
     "psychic"
   ],
+  "Mewtwo": [
+    "psychic"
+  ],
   "Mienshao": [
     "fighting"
   ],
@@ -691,6 +853,9 @@ export const pokemonTypes = {
     "rock",
     "poison"
   ],
+  "Ninetales": [
+    "fire"
+  ],
   "Noctowl": [
     "normal",
     "flying"
@@ -699,6 +864,10 @@ export const pokemonTypes = {
     "flying",
     "dragon"
   ],
+  "Omastar": [
+    "rock",
+    "water"
+  ],
   "Oricorio": [
     "fire",
     "flying"
@@ -706,6 +875,14 @@ export const pokemonTypes = {
   "Overqwil": [
     "dark",
     "poison"
+  ],
+  "Palkia": [
+    "water",
+    "dragon"
+  ],
+  "Palkia - Origin": [
+    "water",
+    "dragon"
   ],
   "Palossand": [
     "ghost",
@@ -730,6 +907,10 @@ export const pokemonTypes = {
     "normal",
     "flying"
   ],
+  "Piloswine": [
+    "ice",
+    "ground"
+  ],
   "Pinsir": [
     "bug"
   ],
@@ -738,6 +919,9 @@ export const pokemonTypes = {
   ],
   "Polteageist": [
     "ghost"
+  ],
+  "Porygon-Z": [
+    "normal"
   ],
   "Primal Groudon": [
     "ground"
@@ -757,15 +941,24 @@ export const pokemonTypes = {
     "water",
     "fighting"
   ],
+  "Raichu": [
+    "electric"
+  ],
   "Raikou": [
     "electric"
   ],
   "Rampardos": [
     "rock"
   ],
+  "Rapidash": [
+    "fire"
+  ],
   "Rayquaza": [
     "dragon",
     "flying"
+  ],
+  "Regidrago": [
+    "dragon"
   ],
   "Regieleki": [
     "electric"
@@ -788,6 +981,10 @@ export const pokemonTypes = {
   "Rhyperior": [
     "ground",
     "rock"
+  ],
+  "Ribombee": [
+    "bug",
+    "fairy"
   ],
   "Rillaboom": [
     "grass"
@@ -840,12 +1037,51 @@ export const pokemonTypes = {
   "Serperior": [
     "grass"
   ],
+  "Shadow Abomasnow": [
+    "grass",
+    "ice"
+  ],
   "Shadow Absol": [
     "dark"
+  ],
+  "Shadow Aerodactyl": [
+    "rock",
+    "flying"
+  ],
+  "Shadow Aggron": [
+    "steel",
+    "rock"
+  ],
+  "Shadow Alola Exeggutor": [
+    "grass",
+    "dragon"
+  ],
+  "Shadow Alola Golem": [
+    "rock",
+    "electric"
   ],
   "Shadow Alola Muk": [
     "poison",
     "dark"
+  ],
+  "Shadow Alola Ninetales": [
+    "ice",
+    "fairy"
+  ],
+  "Shadow Arcanine": [
+    "fire"
+  ],
+  "Shadow Archeops": [
+    "rock",
+    "flying"
+  ],
+  "Shadow Articuno": [
+    "ice",
+    "flying"
+  ],
+  "Shadow Aurorus": [
+    "rock",
+    "ice"
   ],
   "Shadow Blaziken": [
     "fire",
@@ -854,6 +1090,10 @@ export const pokemonTypes = {
   "Shadow Chandelure": [
     "ghost",
     "fire"
+  ],
+  "Shadow Charizard": [
+    "fire",
+    "flying"
   ],
   "Shadow Chesnaught": [
     "grass",
@@ -865,6 +1105,10 @@ export const pokemonTypes = {
   "Shadow Crawdaunt": [
     "water",
     "dark"
+  ],
+  "Shadow Crustle": [
+    "bug",
+    "rock"
   ],
   "Shadow Darkrai": [
     "dark"
@@ -878,6 +1122,10 @@ export const pokemonTypes = {
   ],
   "Shadow Donphan": [
     "ground"
+  ],
+  "Shadow Dragonite": [
+    "dragon",
+    "flying"
   ],
   "Shadow Electivire": [
     "electric"
@@ -916,6 +1164,9 @@ export const pokemonTypes = {
     "ghost",
     "poison"
   ],
+  "Shadow Gigalith": [
+    "rock"
+  ],
   "Shadow Giratina": [
     "ghost",
     "dragon"
@@ -928,6 +1179,9 @@ export const pokemonTypes = {
     "ground",
     "ghost"
   ],
+  "Shadow Granbull": [
+    "fairy"
+  ],
   "Shadow Greninja": [
     "water",
     "dark"
@@ -938,6 +1192,9 @@ export const pokemonTypes = {
   "Shadow Gyarados": [
     "water",
     "flying"
+  ],
+  "Shadow Hariyama": [
+    "fighting"
   ],
   "Shadow Heatran": [
     "fire",
@@ -962,6 +1219,14 @@ export const pokemonTypes = {
     "dark",
     "dragon"
   ],
+  "Shadow Infernape": [
+    "fire",
+    "fighting"
+  ],
+  "Shadow Kleavor": [
+    "bug",
+    "rock"
+  ],
   "Shadow Kyogre": [
     "water"
   ],
@@ -969,9 +1234,22 @@ export const pokemonTypes = {
     "ground",
     "flying"
   ],
+  "Shadow Latios": [
+    "dragon",
+    "psychic"
+  ],
   "Shadow Lugia": [
     "psychic",
     "flying"
+  ],
+  "Shadow Luxray": [
+    "electric"
+  ],
+  "Shadow Machamp": [
+    "fighting"
+  ],
+  "Shadow Magmortar": [
+    "fire"
   ],
   "Shadow Magnezone": [
     "electric",
@@ -980,6 +1258,9 @@ export const pokemonTypes = {
   "Shadow Mamoswine": [
     "ice",
     "ground"
+  ],
+  "Shadow Meganium": [
+    "grass"
   ],
   "Shadow Metagross": [
     "steel",
@@ -998,6 +1279,10 @@ export const pokemonTypes = {
   "Shadow Muk": [
     "poison"
   ],
+  "Shadow Omastar": [
+    "rock",
+    "water"
+  ],
   "Shadow Overqwil": [
     "dark",
     "poison"
@@ -1011,6 +1296,9 @@ export const pokemonTypes = {
   ],
   "Shadow Raikou": [
     "electric"
+  ],
+  "Shadow Rampardos": [
+    "rock"
   ],
   "Shadow Regigigas": [
     "normal"
@@ -1037,6 +1325,13 @@ export const pokemonTypes = {
     "bug",
     "poison"
   ],
+  "Shadow Serperior": [
+    "grass"
+  ],
+  "Shadow Shiftry": [
+    "grass",
+    "dark"
+  ],
   "Shadow Skuntank": [
     "poison",
     "dark"
@@ -1044,6 +1339,9 @@ export const pokemonTypes = {
   "Shadow Staraptor": [
     "normal",
     "flying"
+  ],
+  "Shadow Sudowoodo": [
+    "rock"
   ],
   "Shadow Swampert": [
     "water",
@@ -1056,8 +1354,16 @@ export const pokemonTypes = {
   "Shadow Tangrowth": [
     "grass"
   ],
+  "Shadow Thundurus": [
+    "electric",
+    "flying"
+  ],
   "Shadow Tornadus": [
     "flying"
+  ],
+  "Shadow Torterra": [
+    "grass",
+    "ground"
   ],
   "Shadow Toucannon": [
     "normal",
@@ -1067,13 +1373,24 @@ export const pokemonTypes = {
     "poison",
     "fighting"
   ],
+  "Shadow Typhlosion": [
+    "fire"
+  ],
   "Shadow Tyranitar": [
     "rock",
     "dark"
   ],
+  "Shadow Tyrantrum": [
+    "rock",
+    "dragon"
+  ],
   "Shadow Unfezant": [
     "normal",
     "flying"
+  ],
+  "Shadow Ursaluna": [
+    "ground",
+    "normal"
   ],
   "Shadow Venusaur": [
     "grass",
@@ -1099,6 +1416,13 @@ export const pokemonTypes = {
     "electric",
     "flying"
   ],
+  "Sharpedo": [
+    "water",
+    "dark"
+  ],
+  "Shaymin - Land": [
+    "grass"
+  ],
   "Shaymin - Sky": [
     "grass",
     "flying"
@@ -1117,6 +1441,12 @@ export const pokemonTypes = {
   "Simisage": [
     "grass"
   ],
+  "Simisear": [
+    "fire"
+  ],
+  "Sirfetch'd": [
+    "fighting"
+  ],
   "Skarmory": [
     "steel",
     "flying"
@@ -1133,6 +1463,10 @@ export const pokemonTypes = {
     "fighting",
     "poison"
   ],
+  "Solrock": [
+    "rock",
+    "psychic"
+  ],
   "Staraptor": [
     "normal",
     "flying"
@@ -1140,6 +1474,12 @@ export const pokemonTypes = {
   "Starmie": [
     "water",
     "psychic"
+  ],
+  "Stonjourner": [
+    "rock"
+  ],
+  "Sudowoodo": [
+    "rock"
   ],
   "Swampert": [
     "water",
@@ -1162,6 +1502,14 @@ export const pokemonTypes = {
   ],
   "Tangrowth": [
     "grass"
+  ],
+  "Tapu Bulu": [
+    "grass",
+    "fairy"
+  ],
+  "Tapu Koko": [
+    "electric",
+    "fairy"
   ],
   "Tapu Lele": [
     "psychic",
@@ -1213,6 +1561,10 @@ export const pokemonTypes = {
   "Tsareena": [
     "grass"
   ],
+  "Turtonator": [
+    "fire",
+    "dragon"
+  ],
   "Typhlosion": [
     "fire"
   ],
@@ -1230,6 +1582,9 @@ export const pokemonTypes = {
   ],
   "Ursaluna": [
     "ground",
+    "normal"
+  ],
+  "Ursaring": [
     "normal"
   ],
   "Urshifu - Rapid Strike": [
@@ -1262,11 +1617,19 @@ export const pokemonTypes = {
     "grass",
     "poison"
   ],
+  "Volcanion": [
+    "fire",
+    "water"
+  ],
   "Volcarona": [
     "bug",
     "fire"
   ],
   "Wailord": [
+    "water"
+  ],
+  "Walrein": [
+    "ice",
     "water"
   ],
   "Weavile": [
@@ -1280,9 +1643,16 @@ export const pokemonTypes = {
     "dragon",
     "ice"
   ],
+  "Wyrdeer": [
+    "normal",
+    "psychic"
+  ],
   "Xatu": [
     "psychic",
     "flying"
+  ],
+  "Xerneas": [
+    "fairy"
   ],
   "Xurkitree": [
     "electric"
