@@ -37,11 +37,11 @@ function getCounterTypes(counterName) {
 }
 
 function slugify(name) {
-  return name
-    .toLowerCase()
-    .replace(/★/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
+    return name
+        .toLowerCase()
+        .replace(/★/g, "")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "");
 }
 
 function cleanBossName(name) {
@@ -93,19 +93,19 @@ function parseScheduleRange(dateLabel, fallbackYear) {
 }
 
 function monthBounds(monthId) {
-  const [year, month] = monthId.split("-").map(Number);
-  const start = new Date(year, month - 1, 1);
-  const end = new Date(year, month, 0);
+    const [year, month] = monthId.split("-").map(Number);
+    const start = new Date(year, month - 1, 1);
+    const end = new Date(year, month, 0);
 
-  return { start, end };
+    return { start, end };
 }
 
 function overlapsMonth(dateLabel, monthId) {
-  const [year] = monthId.split("-").map(Number);
-  const { startDate, endDate } = parseScheduleRange(dateLabel, year);
-  const { start, end } = monthBounds(monthId);
+    const [year] = monthId.split("-").map(Number);
+    const { startDate, endDate } = parseScheduleRange(dateLabel, year);
+    const { start, end } = monthBounds(monthId);
 
-  return startDate <= end && endDate >= start;
+    return startDate <= end && endDate >= start;
 }
 
 function splitBossNames(value) {
@@ -133,12 +133,26 @@ function getScheduleBossNames(item) {
     return names;
 }
 
+function getScheduleBossIds(item) {
+    const ids = [];
+
+    if (Array.isArray(item.bossIds)) ids.push(...item.bossIds);
+    if (Array.isArray(item.fiveStarIds)) ids.push(...item.fiveStarIds);
+    if (Array.isArray(item.megaIds)) ids.push(...item.megaIds);
+
+    return ids;
+}
+
 function getBossIdsForMonth(monthId) {
     const bossIds = new Set();
 
     for (const rotation of raidRotations) {
         for (const item of rotation.schedule ?? []) {
             if (!overlapsMonth(item.date, monthId)) continue;
+
+            for (const bossId of getScheduleBossIds(item)) {
+                bossIds.add(bossId);
+            }
 
             for (const bossName of getScheduleBossNames(item)) {
                 bossIds.add(slugify(cleanBossName(bossName)));
@@ -311,7 +325,9 @@ const counterMonths = raidRotations.map((rotation) => {
         id: rotation.id,
         label: rotation.label,
         status: rotation.status,
-        bosses: transformed.filter((boss) => bossIdsForMonth.has(boss.id))
+        bosses: [...bossIdsForMonth]
+            .map((id) => transformed.find((boss) => boss.id === id))
+            .filter(Boolean)
     };
 });
 
