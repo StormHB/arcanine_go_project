@@ -1,9 +1,266 @@
 export const raidRotations = [
   {
+    id: "2026-01",
+    label: "January 2026",
+    status: "history",
+    schedule: [
+      {
+        date: "Jan 1 – Jan 5",
+        fiveStar: ["Blacephalon"],
+        mega: ["Mega Swampert"],
+        bossIds: ["blacephalon", "mega-swampert"],
+        icons: [
+          {
+            name: "Blacephalon",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/806.png"
+          },
+          {
+            name: "Mega Swampert",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10064.png"
+          }
+        ]
+      },
+      {
+        date: "Jan 5 – Jan 16",
+        fiveStar: ["Genesect (Burn Drive)"],
+        mega: ["Mega Blaziken"],
+        bossIds: ["genesect-burn", "mega-blaziken"],
+        icons: [
+          {
+            name: "Genesect (Burn Drive)",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/649.png"
+          },
+          {
+            name: "Mega Blaziken",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10050.png"
+          }
+        ]
+      },
+      {
+        date: "Jan 16 – Jan 25",
+        fiveStar: ["Thundurus (Incarnate Forme)"],
+        mega: ["Mega Sceptile"],
+        bossIds: ["thundurus-incarnate", "mega-sceptile"],
+        icons: [
+          {
+            name: "Thundurus (Incarnate Forme)",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/642.png"
+          },
+          {
+            name: "Mega Sceptile",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10065.png"
+          }
+        ]
+      },
+      {
+        date: "Jan 25 – Feb 4",
+        fiveStar: ["Tornadus (Incarnate Forme)"],
+        mega: ["Mega Ampharos"],
+        bossIds: ["tornadus-incarnate", "mega-ampharos"],
+        icons: [
+          {
+            name: "Tornadus (Incarnate Forme)",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/641.png"
+          },
+          {
+            name: "Mega Ampharos",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10045.png"
+          }
+        ]
+      },
+    ]
+  },
+  {
+    id: "2026-02",
+    label: "February 2026",
+    status: "history",
+    schedule: [
+      {
+        date: "Jan 25 – Feb 4",
+        fiveStar: ["Tornadus (Incarnate Forme)"],
+        mega: ["Mega Ampharos"],
+        bossIds: ["tornadus-incarnate", "mega-ampharos"],
+        icons: [
+          {
+            name: "Tornadus (Incarnate Forme)",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/641.png"
+          },
+          {
+            name: "Mega Ampharos",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10045.png"
+          }
+        ]
+      },
+      {
+        date: "Feb 4 – Feb 16",
+        fiveStar: ["Dialga", "Palkia"],
+        mega: ["Mega Pidgeot"],
+        bossIds: ["dialga", "palkia", "mega-pidgeot"],
+        icons: [
+          {
+            name: "Dialga",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/483.png"
+          },
+          {
+            name: "Palkia",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/484.png"
+          },
+          {
+            name: "Mega Pidgeot",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10073.png"
+          }
+        ]
+      },
+      {
+        date: "Feb 16 – Feb 21",
+        fiveStar: ["Solgaleo"],
+        mega: ["Mega Sableye"],
+        bossIds: ["solgaleo", "mega-sableye"],
+        icons: [
+          {
+            name: "Solgaleo",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/791.png"
+          },
+          {
+            name: "Mega Sableye",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10066.png"
+          }
+        ]
+      },
+      {
+        date: "Feb 21 – Mar 4",
+        fiveStar: ["Lunala"],
+        mega: ["Mega Absol"],
+        bossIds: ["lunala", "mega-absol"],
+        icons: [
+          {
+            name: "Lunala",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/792.png"
+          },
+          {
+            name: "Mega Absol",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10057.png"
+          }
+        ]
+      },
+    ]
+  },
+  {
+    id: "2026-03",
+    label: "March 2026",
+    status: "history",
+    schedule: [
+      {
+        date: "Feb 21 – Mar 4",
+        fiveStar: ["Lunala"],
+        mega: ["Mega Absol"],
+        bossIds: ["lunala", "mega-absol"],
+        icons: [
+          {
+            name: "Lunala",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/792.png"
+          },
+          {
+            name: "Mega Absol",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10057.png"
+          }
+        ]
+      },
+      {
+        date: "Mar 4 – Mar 10",
+        fiveStar: ["Articuno", "Zapdos", "Moltres"],
+        mega: ["Mega Pinsir"],
+        bossIds: ["articuno", "zapdos", "moltres", "mega-pinsir"],
+        icons: [
+          {
+            name: "Articuno",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png"
+          },
+          {
+            name: "Zapdos",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png"
+          },
+          {
+            name: "Moltres",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png"
+          },
+          {
+            name: "Mega Pinsir",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10040.png"
+          }
+        ]
+      },
+      {
+        date: "Mar 11 – Mar 17",
+        fiveStar: ["Zacian"],
+        mega: ["Mega Steelix"],
+        bossIds: ["zacian", "mega-steelix"],
+        icons: [
+          {
+            name: "Zacian",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/888.png"
+          },
+          {
+            name: "Mega Steelix",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10072.png"
+          }
+        ]
+      },
+      {
+        date: "Mar 18 – Mar 24",
+        fiveStar: ["Zamazenta"],
+        mega: ["Mega Slowbro"],
+        bossIds: ["zamazenta", "mega-slowbro"],
+        icons: [
+          {
+            name: "Zamazenta",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/889.png"
+          },
+          {
+            name: "Mega Slowbro",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10071.png"
+          }
+        ]
+      },
+      {
+        date: "Mar 25 – Mar 31",
+        fiveStar: ["Regieleki"],
+        mega: ["Mega Houndoom"],
+        bossIds: ["regieleki", "mega-houndoom"],
+        icons: [
+          {
+            name: "Regieleki",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/894.png"
+          },
+          {
+            name: "Mega Houndoom",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10048.png"
+          }
+        ]
+      },
+    ]
+  },
+  {
     id: "2026-04",
     label: "April 2026",
     status: "history",
     schedule: [
+      {
+        date: "Apr 1 – Apr 7",
+        fiveStar: ["Regidrago"],
+        mega: ["Mega Manectric"],
+        bossIds: ["regidrago", "mega-manectric"],
+        icons: [
+          {
+            name: "Regidrago",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/895.png"
+          },
+          {
+            name: "Mega Manectric",
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10055.png"
+          }
+        ]
+      },
       {
         date: "Apr 8 – Apr 14",
         time: "10:00 AM → 10:00 PM local time",
@@ -71,6 +328,32 @@ export const raidRotations = [
     ],
 
     raidCards: [
+      {
+        id: "regidrago",
+        name: "Regidrago",
+        href: "counters.html#regidrago",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/895.png",
+        imageAlt: "Regidrago",
+        badge: "5★",
+        badgeClass: "legendary-badge",
+        dateRange: ["2026-04-01", "2026-04-07"],
+        types: ["dragon"],
+        dexRank: "DialgaDex: Dragon raid option",
+        description: "Single-type Dragon legendary with useful raid coverage."
+      },
+      {
+        id: "mega-manectric",
+        name: "Mega Manectric",
+        href: "counters.html#mega-manectric",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10055.png",
+        imageAlt: "Mega Manectric",
+        badge: "Mega",
+        badgeClass: "mega-badge",
+        dateRange: ["2026-04-01", "2026-04-07"],
+        types: ["electric"],
+        dexRank: "DialgaDex: Electric mega utility",
+        description: "Useful Electric-type mega for Water and Flying raid matchups."
+      },
       {
         id: "kyogre",
         name: "Kyogre",
