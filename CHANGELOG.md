@@ -4,6 +4,40 @@ All notable changes to this project are documented here.
 
 ---
 
+## 1.19.0 – Historical Raid Archive & Multi-Month Counter Support
+
+### Added
+- Added January, February and March 2026 historical raid rotations
+- Added April 1–7 raid rotation with Regidrago and Mega Manectric
+- Added expanded Pokebattler scrape targets for January–May 2026 raid coverage
+- Added generated counter coverage for archived raid bosses
+- Added schedule icons for historical raid rotation blocks
+- Added support for cross-month raid rotation windows
+
+### Improved
+- Improved raid archive navigation across historical months
+- Reworked raids page so Featured Raids stay tied to the current rotation
+- Updated monthly raid cards to reuse generated counter metadata
+- Improved synchronization between raids, counters and boss detail pages
+- Improved counter image generation with additional form aliases
+- Improved Pokémon type metadata generation for newly added counters
+
+### Fixed
+- Fixed missing historical bosses caused by cross-month date ranges
+- Fixed incorrect Mega Absol date metadata
+- Fixed missing budget counters for several archived bosses
+- Fixed missing counter images for Darmanitan and Landorus aliases
+- Fixed missing type badges for newly generated counter entries
+- Fixed raids page showing current-month cards when viewing historical schedules
+
+### Technical
+- Extended `rotations.js` with January–May 2026 schedule coverage
+- Extended `scrape-targets.js` with archive and current-month raid targets
+- Updated `transform-counter-draft.js` for ordered multi-month counter generation
+- Updated `render-raids.js` to separate Featured Raids from selected archive month rendering
+- Regenerated counter, type and image mapping datasets
+---
+
 ## 1.18.0 – Counters Search & Filter System
 
 ### Added

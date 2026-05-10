@@ -47,6 +47,9 @@ The project combines:
 * Automatic month status calculation based on raid activity windows
 * No manual “current/upcoming/history” maintenance required
 * Support for regional raid distributions (region-specific bosses)
+* Historical monthly raid archive support
+* Cross-month raid window handling
+* Shared rendering structure between raids and counters
 
 ---
 
@@ -57,6 +60,7 @@ The project combines:
 * Fully clickable raid and summary cards
 * Type-based visual styling
 * Consistent and scalable component structure
+* Featured raids automatically stay synced with the current active rotation
 
 ---
 
@@ -99,6 +103,8 @@ The project combines:
 * Live counters search and status filtering
 * Persistent filters between monthly rotation changes
 * Mobile-friendly counters discovery system
+* Historical counter browsing by month
+* Shared boss metadata between raids and counters
 
 #### JS-driven system
 
@@ -166,6 +172,8 @@ Raid performance data is based on Pokebattler simulations.
 * Unified type color system using CSS variables
 * Automatic single-type and dual-type glow rendering
 * Shared month-based data model for raids and counters
+* Generated Pokémon type and move metadata datasets
+* Automatic counter artwork generation pipeline
 
 ---
 
@@ -231,16 +239,37 @@ This reduces manual maintenance and keeps frontend content synchronized with str
 ```text
 assets/
 ├── js/
+│   ├── data/
+│   │   ├── rotations.js
+│   │   ├── counters.js
+│   │   ├── counter-drafts.generated.js
+│   │   ├── counter-final.generated.js
+│   │   ├── counter-image-map.generated.js
+│   │   ├── pokemon-types.generated.js
+│   │   └── move-types.generated.js
+│   │
 │   ├── render-raids.js
-│   └── render-counters.js
+│   ├── render-counters.js
+│   └── render-boss.js
 │
 ├── css/
 │   └── style.css
 │
+├── img/
+│   └── counters/
+│
 tools/
 ├── scrape.js
 ├── parse-pokebattler.js
-└── transform-counter-draft.js
+├── transform-counter-draft.js
+├── generate-pokemon-types.js
+├── generate-move-types.js
+├── download-counter-images.js
+└── generate-sitemap.js
+```
+
+Main application logic lives inside reusable rendering modules, while tooling scripts are isolated from frontend code.
+
 ```
 
 Main application logic lives inside reusable rendering modules, while tooling scripts are isolated from frontend code.
@@ -435,7 +464,7 @@ This project was built to:
 
 ### Future Ideas
 
-* Historical archive expansion (January 2026 onward)
+* Ongoing monthly raid rotation updates
 * Optional advanced metadata:
   * estimator
   * deaths
