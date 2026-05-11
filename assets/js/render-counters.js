@@ -1,10 +1,9 @@
 import { counterMonths } from "./data/counters.js";
 import { raidRotations } from "./data/rotations.js";
 
-const monthSelect = document.querySelector("#counter-month-select");
 const countersGrid = document.querySelector("#counters-grid");
 const searchInput = document.querySelector("#counter-search");
-const statusFilter = document.querySelector("#counter-status-filter");
+const monthFilter = document.querySelector("#counter-month-filter");
 const filterResults = document.querySelector("#filter-results");
 const clearFiltersBtn = document.querySelector("#clear-filters-btn");
 
@@ -90,29 +89,27 @@ function renderMove(move) {
   `;
 }
 
-function renderMonthOptions() {
-  monthSelect.innerHTML = "";
+function renderMonthFilterOptions() {
+    monthFilter.innerHTML = `
+        <option value="all">All months</option>
+    `;
 
-  const defaultMonth =
-    counterMonths.find((month) => getMonthStatus(month.id) === "current" && month.bosses.length > 0) ||
-    counterMonths.find((month) => month.bosses.length > 0) ||
-    counterMonths[0];
+    const currentMonth =
+        counterMonths.find((month) => getMonthStatus(month.id) === "current") ||
+        counterMonths[0];
 
-  counterMonths.forEach((month) => {
-    const option = document.createElement("option");
-    const computedStatus = getMonthStatus(month.id);
+    counterMonths.forEach((month) => {
+        const option = document.createElement("option");
 
-    option.value = month.id;
-    option.textContent = `${month.label} (${computedStatus})`;
+        option.value = month.id;
+        option.textContent = month.label;
 
-    if (month.id === defaultMonth.id) {
-      option.selected = true;
-    }
+        if (month.id === currentMonth.id) {
+            option.selected = true;
+        }
 
-    monthSelect.appendChild(option);
-  });
-
-  return defaultMonth.id;
+        monthFilter.appendChild(option);
+    });
 }
 
 function renderCounterChip(counter, type) {
@@ -147,11 +144,11 @@ function renderBossCard(boss) {
   const bossStatus = getBossStatus(displaySubtitle);
 
   const bossStatusLabel =
-  bossStatus === "current-boss"
-    ? "Active"
-    : bossStatus === "upcoming-boss"
-      ? "Upcoming"
-      : "Ended";
+    bossStatus === "current-boss"
+      ? "Active"
+      : bossStatus === "upcoming-boss"
+        ? "Upcoming"
+        : "Ended";
 
   return `
     <a  
@@ -181,8 +178,8 @@ function renderBossCard(boss) {
 
           <div class="type-badges">
             ${boss.types
-              .map((type) => `<span class="type-badge type-${type}">${formatType(type)}</span>`)
-              .join("")}
+      .map((type) => `<span class="type-badge type-${type}">${formatType(type)}</span>`)
+      .join("")}
           </div>
         </div>
       </div>
@@ -224,67 +221,82 @@ function getBossSearchText(boss) {
     .toLowerCase();
 }
 
-function renderCounters(monthId) {
-  const selectedMonth = counterMonths.find((month) => month.id === monthId);
+function renderCounters() {
+
+  const selectedFilterMonth = monthFilter.value;
   const searchTerm = searchInput.value.trim().toLowerCase();
-  const selectedStatus = statusFilter.value;
 
   countersGrid.innerHTML = "";
 
-  if (!selectedMonth || selectedMonth.bosses.length === 0) {
-    countersGrid.innerHTML = `
-      <p class="meta-copy">No counter data for this month yet.</p>
-    `;
-    filterResults.textContent = "";
-    return;
+  let bossesToRender = [];
+
+  if (selectedFilterMonth === "all") {
+    const seenBossIds = new Set();
+
+    bossesToRender = counterMonths
+      .flatMap((month) =>
+        month.bosses.map((boss) => ({
+          ...boss,
+          archiveMonth: month.label,
+        }))
+      )
+      .filter((boss) => {
+        if (seenBossIds.has(boss.id)) {
+          return false;
+        }
+
+        seenBossIds.add(boss.id);
+        return true;
+      });
+  } else {
+    const filteredMonth = counterMonths.find(
+      (month) => month.id === selectedFilterMonth
+    );
+
+    bossesToRender = filteredMonth?.bosses ?? [];
   }
 
-  const filteredBosses = selectedMonth.bosses.filter((boss) => {
-    const displaySubtitle = formatCounterSubtitle(boss);
-    const bossStatus = getBossStatus(displaySubtitle);
-    const matchesSearch =
-      searchTerm === "" || getBossSearchText(boss).includes(searchTerm);
-
-    const matchesStatus =
-      selectedStatus === "all" || bossStatus === selectedStatus;
-
-    return matchesSearch && matchesStatus;
+  const filteredBosses = bossesToRender.filter((boss) => {
+    return (
+      searchTerm === "" ||
+      getBossSearchText(boss).includes(searchTerm)
+    );
   });
 
   if (filteredBosses.length === 0) {
     countersGrid.innerHTML = `
       <div class="empty-filter-state">
         <p class="meta-copy">No raid bosses match your filters.</p>
-        <p class="meta-copy">Try another type, weakness, counter, or status.</p>
+        <p class="meta-copy">Try another type, weakness, or counter.</p>
       </div>
     `;
-  } else {
-    countersGrid.innerHTML = filteredBosses
-      .map(renderBossCard)
-      .join("");
+
+    filterResults.textContent = "";
+    return;
   }
 
+  countersGrid.innerHTML = filteredBosses
+    .map(renderBossCard)
+    .join("");
+
   filterResults.textContent =
-    `${filteredBosses.length} of ${selectedMonth.bosses.length} bosses shown`;
+    `${filteredBosses.length} bosses shown`;
 }
 
-const defaultMonthId = renderMonthOptions();
-renderCounters(defaultMonthId);
+renderMonthFilterOptions();
 
-monthSelect.addEventListener("change", () => {
-  renderCounters(monthSelect.value);
-});
+renderCounters();
 
 searchInput.addEventListener("input", () => {
-  renderCounters(monthSelect.value);
+  renderCounters();
 });
 
-statusFilter.addEventListener("change", () => {
-  renderCounters(monthSelect.value);
+monthFilter.addEventListener("change", () => {
+  renderCounters();
 });
 
 clearFiltersBtn.addEventListener("click", () => {
   searchInput.value = "";
-  statusFilter.value = "all";
-  renderCounters(monthSelect.value);
+  monthFilter.value = "all";
+  renderCounters();
 });
