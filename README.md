@@ -100,7 +100,7 @@ The project combines:
 * Fully clickable counter boss cards
 * Dedicated boss detail pages (`boss.html`)
 * Direct navigation from counters to individual boss analysis pages
-* Live counters search and status filtering
+* Live counters search and month-based archive filtering
 * Persistent filters between monthly rotation changes
 * Mobile-friendly counters discovery system
 * Historical counter browsing by month
@@ -188,6 +188,21 @@ Raid performance data is based on Pokebattler simulations.
 * Unified type colors shared across pills, badges and glow effects
 * Dual-type glow blending for raid cards
 * Type-based glow effects for counter boss cards
+
+---
+
+### Shared UI Components
+
+The frontend now uses reusable shared informational components across pages to improve consistency and reduce duplicated layout structures.
+
+Shared components currently include:
+
+* informational hint containers
+* reusable panel layouts
+* shared type-based visual systems
+* reusable filter and archive controls
+
+This approach keeps the UI scalable while preserving the lightweight no-framework architecture.
 
 ---
 
@@ -453,7 +468,8 @@ This project was built to:
 
 * Automated raid schedule ingestion
 * API-driven counter updates
-* Search and filtering system
+* Advanced archive search and filtering system
+* URL-persistent filters and shareable filtered views
 * Regional timezone handling
 * Advanced boss analytics pages
 * Improved offline/mobile caching

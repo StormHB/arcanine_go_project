@@ -4,6 +4,35 @@ All notable changes to this project are documented here.
 
 ---
 
+## [1.19.1] - Shared UI Components & Archive Filtering Refinement
+
+### Added
+
+* Shared “Interactive Boss Pages” informational component across overview pages
+* Month-based archive filtering system for the counters page
+* Automatic default selection of the current active counter month
+
+### Changed
+
+* Replaced old Active / Upcoming / Ended counter filtering with archive month filtering
+* Improved discoverability of historical counter rotations
+* Unified shared informational container styling between pages
+* Refined counters page filtering UX for archive scalability
+
+### Improved
+
+* Better consistency between raids and counters page layouts
+* Cleaner visual hierarchy for shared informational UI blocks
+* Improved long-term scalability of the counters archive system
+* Reduced UI clutter by simplifying filtering logic
+
+### Refactored
+
+* Simplified counter filtering architecture inside `render-counters.js`
+* Improved reuse of shared frontend component styling
+
+---
+
 ## 1.19.0 – Historical Raid Archive & Multi-Month Counter Support
 
 ### Added
