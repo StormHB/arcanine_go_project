@@ -170,6 +170,45 @@ h2 {
    04. SHARED COMPONENTS
 ========================= */
 
+.boss-page-hint-section {
+    margin-top: 1.5rem;
+}
+
+.boss-page-hint-card {
+    padding: 1.25rem 1.4rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    width: 100%;
+    max-width: none;
+    background: linear-gradient(
+        135deg,
+        rgba(20, 30, 52, 0.95),
+        rgba(10, 18, 38, 0.98)
+    );
+    backdrop-filter: blur(10px);
+}
+
+.boss-page-hint-card p {
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.hint-label {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    background: rgba(255, 166, 77, 0.12);
+    color: #ffb366;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
 .skip-link {
   position: absolute;
   left: 1rem;
