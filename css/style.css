@@ -1,25 +1,50 @@
-/* ========================= 01. ROOT VARIABLES ========================= */
+/* =========================
+   01. ROOT VARIABLES / THEME TOKENS
+========================= */
+
 :root {
   color-scheme: dark;
+
   --bg: #0f172a;
   --bg-soft: #1e293b;
   --surface: #111827;
   --surface-2: #1f2937;
+  --surface-gradient: linear-gradient(145deg, rgba(17, 24, 39, 0.96), rgba(30, 41, 59, 0.96));
+  --hint-gradient: linear-gradient(135deg, rgba(20, 30, 52, 0.95), rgba(10, 18, 38, 0.98));
+
   --text: #e5e7eb;
   --text-main: var(--text);
   --text-primary: var(--text);
   --muted: #94a3b8;
   --muted-text: var(--muted);
+
   --line: #334155;
+  --border-subtle: rgba(148, 163, 184, 0.16);
+
+  --header-bg: rgba(2, 6, 23, 0.92);
+  --mobile-nav-bg: rgba(2, 6, 23, 0.97);
+  --control-bg: rgba(255, 255, 255, 0.03);
+  --control-bg-hover: rgba(255, 255, 255, 0.08);
+  --menu-icon: var(--text);
+
+  --focus-bg: #ffffff;
+  --focus-text: #000000;
+
   --accent: #f97316;
   --accent-2: #fb923c;
   --success: #22c55e;
   --warning: #facc15;
   --danger: #ef4444;
+
   --max-width: 1200px;
   --radius: 18px;
   --shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
   --card-bg: var(--surface);
+
+  /* Default glow values are overridden by boss/type-specific inline styles when available. */
+  --primary-glow: rgba(249, 115, 22, 0.6);
+  --secondary-glow: rgba(251, 146, 60, 0.45);
+
   --normal: #a8a29e;
   --fighting: #f97316;
   --flying: #8ea7ff;
@@ -40,26 +65,47 @@
   --fairy: #f9a8d4;
 }
 
-/* ========================= LIGHT THEME ========================= */
+/* =========================
+   02. LIGHT THEME TOKENS
+========================= */
+
 [data-theme="light"] {
   color-scheme: light;
+
   --bg: #f5efe6;
   --bg-soft: #efe5d8;
   --surface: #ffffff;
   --surface-2: #f8fafc;
+  --surface-gradient: linear-gradient(145deg, #ffffff, #f8fafc);
+  --hint-gradient: linear-gradient(145deg, #ffffff, #f8fafc);
+
   --text: #14213d;
   --text-main: var(--text);
   --text-primary: var(--text);
   --muted: #54657d;
   --muted-text: var(--muted);
+
   --line: rgba(15, 23, 42, 0.14);
+  --border-subtle: rgba(15, 23, 42, 0.12);
+
+  --header-bg: rgba(255, 248, 240, 0.92);
+  --mobile-nav-bg: rgba(255, 255, 255, 0.97);
+  --control-bg: rgba(15, 23, 42, 0.04);
+  --control-bg-hover: rgba(15, 23, 42, 0.08);
+  --menu-icon: var(--text);
+
+  --focus-bg: #111827;
+  --focus-text: #ffffff;
+
   --shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
   --card-bg: var(--surface);
 }
 
-/* ========================= LIGHT THEME COMPONENT FIXES ========================= */
+/* =========================
+   03. LIGHT THEME COMPONENT OVERRIDES
+========================= */
+
 [data-theme="light"] .site-header {
-  background: rgba(255, 248, 240, 0.92);
   border-bottom-color: rgba(15, 23, 42, 0.12);
 }
 
@@ -83,8 +129,8 @@
 [data-theme="light"] .counter-group,
 [data-theme="light"] .boss-detail-counter,
 [data-theme="light"] .boss-detail-card {
-  background: linear-gradient(145deg, #ffffff, #f8fafc);
-  border-color: rgba(15, 23, 42, 0.12);
+  background: var(--surface-gradient);
+  border-color: var(--border-subtle);
   color: var(--text);
   box-shadow: var(--shadow);
 }
@@ -147,21 +193,10 @@
   border-color: rgba(15, 23, 42, 0.08);
 }
 
-[data-theme="light"] .menu-toggle {
-  background: rgba(15, 23, 42, 0.04);
-}
-
-[data-theme="light"] .menu-toggle span,
-[data-theme="light"] .menu-toggle span::before,
-[data-theme="light"] .menu-toggle span::after {
-  background: var(--text);
-}
-
 [data-theme="light"] #clear-filters-btn {
   background: #ffffff;
   color: var(--text);
-
-  border: 1px solid rgba(15, 23, 42, 0.12);
+  border-color: rgba(15, 23, 42, 0.12);
 }
 
 [data-theme="light"] #clear-filters-btn:hover,
@@ -170,27 +205,8 @@
   border-color: var(--accent);
 }
 
-/* ========================= THEME TOGGLE ========================= */
-.theme-toggle {
-  width: 48px;
-  height: 48px;
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  background: var(--surface-2);
-  color: var(--text);
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
-}
-
-.theme-toggle:hover,
-.theme-toggle:focus-visible {
-  transform: translateY(-2px);
-  border-color: var(--accent);
-}
-
 /* =========================
-   02. RESET / BASE
+   04. RESET / BASE
 ========================= */
 
 * {
@@ -204,7 +220,9 @@ html {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: radial-gradient(circle at top, rgba(249, 115, 22, 0.14), transparent 25%), linear-gradient(180deg, var(--bg-soft) 0%, var(--bg) 100%);
+  background:
+    radial-gradient(circle at top, rgba(249, 115, 22, 0.14), transparent 25%),
+    linear-gradient(180deg, var(--bg-soft) 0%, var(--bg) 100%);
   color: var(--text);
   line-height: 1.6;
 }
@@ -248,7 +266,7 @@ h2 {
 
 
 /* =========================
-   03. LAYOUT & TYPOGRAPHY
+   05. LAYOUT & TYPOGRAPHY
 ========================= */
 
 .container {
@@ -311,42 +329,42 @@ h2 {
 
 
 /* =========================
-   04. SHARED COMPONENTS
+   06. SHARED COMPONENTS
 ========================= */
 
 .boss-page-hint-section {
-  margin-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .boss-page-hint-card {
-  padding: 1.25rem 1.4rem;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 16px;
-  width: 100%;
-  max-width: none;
-  background: var(--hint-gradient);
-  backdrop-filter: blur(10px);
+    padding: 1.25rem 1.4rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    width: 100%;
+    max-width: none;
+    background: var(--hint-gradient);
+    backdrop-filter: blur(10px);
 }
 
 .boss-page-hint-card p {
-  font-size: 1.05rem;
-  font-weight: 500;
-  line-height: 1.6;
-  color: var(--text-primary);
-  margin: 0;
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--text-primary);
+    margin: 0;
 }
 
 .hint-label {
-  display: inline-block;
-  margin-bottom: 0.75rem;
-  padding: 0.35rem 0.85rem;
-  border-radius: 999px;
-  background: rgba(255, 166, 77, 0.12);
-  color: #ffb366;
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    background: rgba(255, 166, 77, 0.12);
+    color: #ffb366;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
 .skip-link {
@@ -822,7 +840,7 @@ h2 {
 }
 
 /* =========================
-   05. HEADER / NAVIGATION
+   07. HEADER / NAVIGATION
 ========================= */
 
 .site-header {
@@ -837,7 +855,6 @@ h2 {
 .nav-wrap {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 1rem;
   min-height: 76px;
   position: relative;
@@ -912,34 +929,26 @@ h2 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.4rem;
-  min-width: 46px;
-  min-height: 46px;
-  padding: 0.65rem 0.8rem;
+  margin-left: auto;
+  width: 48px;
+  height: 48px;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: var(--control-bg);
   color: var(--text);
+  font-size: 1.1rem;
   cursor: pointer;
-  font: inherit;
-  font-weight: 800;
-  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease;
 }
 
 .theme-toggle:hover,
 .theme-toggle:focus-visible {
-  background: var(--control-bg-hover);
+  transform: translateY(-2px);
   border-color: var(--accent);
-  transform: translateY(-1px);
-}
-
-.theme-toggle-icon {
-  font-size: 1rem;
-  line-height: 1;
-}
-
-.theme-toggle-text {
-  font-size: 0.82rem;
+  background: var(--control-bg-hover);
 }
 
 nav ul {
@@ -975,7 +984,7 @@ nav a.active {
 
 
 /* =========================
-   06. HOME PAGE
+   08. HOME PAGE
 ========================= */
 
 .hero {
@@ -1076,7 +1085,7 @@ nav a.active {
 
 
 /* =========================
-   07. COUNTERS OVERVIEW PAGE
+   09. COUNTERS OVERVIEW PAGE
 ========================= */
 
 .boss-card {
@@ -1171,9 +1180,10 @@ nav a.active {
 }
 
 .boss-subtitle {
-  color: var(--muted);
+  margin: 0;
+  color: var(--text-main);
   font-size: 0.95rem;
-  margin-bottom: 0.65rem;
+  font-weight: 700;
 }
 
 .boss-body {
@@ -1357,11 +1367,6 @@ nav a.active {
   border-color: rgba(255, 152, 0, 0.35);
 }
 
-.boss-subtitle {
-  margin: 0;
-  color: var(--text-main);
-  font-weight: 700;
-}
 
 .move-name {
   display: block;
@@ -1392,7 +1397,7 @@ nav a.active {
 }
 
 /* =========================
-   08. RAIDS PAGE
+   10. RAIDS PAGE
 ========================= */
 
 .raids-page {
@@ -1413,7 +1418,7 @@ nav a.active {
 
 .section-subtitle {
   margin: 0;
-  color: #b8bfd0;
+  color: var(--muted);
   font-size: 1rem;
 }
 
@@ -1688,8 +1693,7 @@ nav a.active {
   backdrop-filter: blur(6px);
 }
 
-.raid-card .raid-status.current,
-.summary-card .summary-label:has-text("Active") {
+.raid-card .raid-status.current {
   background: rgba(34, 197, 94, 0.15);
   color: #22c55e;
   border: 1px solid rgba(34, 197, 94, 0.35);
@@ -1851,7 +1855,7 @@ nav a.active {
 
 
 /* =========================
-   09. CONTACT / FORMS
+   11. CONTACT / FORMS
 ========================= */
 
 .form-layout {
@@ -1979,7 +1983,7 @@ label:focus-visible {
 
 
 /* =========================
-   10. METHODOLOGY / NOTES
+   12. METHODOLOGY / NOTES
 ========================= */
 
 .methodology {
@@ -2017,6 +2021,7 @@ label:focus-visible {
   gap: 0.5rem;
   font-size: 0.95rem;
   padding: 0.35rem 0;
+  transition: transform 0.15s ease, opacity 0.15s ease;
 }
 
 .method-icon {
@@ -2033,9 +2038,6 @@ label:focus-visible {
   opacity: 0.75;
 }
 
-.methodology-item {
-  transition: transform 0.15s ease, opacity 0.15s ease;
-}
 
 .methodology-item:hover {
   transform: translateY(-2px);
@@ -2045,7 +2047,7 @@ label:focus-visible {
 
 
 /* =========================
-   11. BOSS DETAIL PAGE
+   13. BOSS DETAIL PAGE
 ========================= */
 
 .boss-detail-root {
@@ -2425,7 +2427,7 @@ label:focus-visible {
 
 
 /* =========================
-   12. ANIMATIONS
+   14. ANIMATIONS
 ========================= */
 
 @keyframes active-glow {
@@ -2480,7 +2482,7 @@ label:focus-visible {
 
 
 /* =========================
-   13. RESPONSIVE
+   15. RESPONSIVE
 ========================= */
 
 @media (max-width: 980px) {
@@ -2499,8 +2501,16 @@ label:focus-visible {
 
 @media (max-width: 860px) {
 
+  .theme-toggle {
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
   .menu-toggle {
     display: inline-flex;
+    flex-shrink: 0;
+    background: var(--control-bg);
+    border-color: var(--line);
   }
 
   nav {
@@ -2736,13 +2746,8 @@ label:focus-visible {
     font-size: 0.75rem;
   }
 
-  .menu-toggle,
-  .theme-toggle {
+  .menu-toggle {
     flex-shrink: 0;
-  }
-
-  .theme-toggle-text {
-    display: none;
   }
 
   .boss-detail-card {

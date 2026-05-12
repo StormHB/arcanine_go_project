@@ -114,22 +114,43 @@ function findRaidCardByBossId(bossId) {
 
 function getBossDateRange(boss) {
   const raidCard = findRaidCardByBossId(boss.id);
-  return raidCard?.dateRange ?? null;
+
+  if (raidCard?.dateRange) {
+    return raidCard.dateRange;
+  }
+
+  const scheduleEntry = raidRotations
+    .flatMap((rotation) => rotation.schedule ?? [])
+    .find((entry) =>
+      entry.bosses?.some((scheduleBoss) => scheduleBoss.id === boss.id)
+    );
+
+  return scheduleEntry?.dateRange ?? null;
 }
 
 function getBossStatus(boss) {
   const dateRange = getBossDateRange(boss);
 
   if (!dateRange) {
-    return { text: "Planned", class: "planned" };
+    return { text: "Ended", class: "ended" };
   }
 
   const now = new Date();
-  const start = new Date(dateRange[0]);
-  const end = new Date(dateRange[1]);
 
-  if (now >= start && now <= end) return { text: "Active", class: "active" };
-  if (now < start) return { text: "Upcoming", class: "upcoming" };
+  const start = new Date(dateRange[0]);
+  start.setHours(10, 0, 0, 0);
+
+  const end = new Date(dateRange[1]);
+  end.setDate(end.getDate() + 1);
+  end.setHours(10, 0, 0, 0);
+
+  if (now >= start && now < end) {
+    return { text: "Active", class: "active" };
+  }
+
+  if (now < start) {
+    return { text: "Upcoming", class: "upcoming" };
+  }
 
   return { text: "Ended", class: "ended" };
 }
@@ -155,9 +176,6 @@ function renderBossDetail(boss) {
           <h1>${boss.name}</h1>
 
           <div class="boss-detail-badges">
-            <span class="raid-badge boss-raid-badge">
-              ${boss.subtitle.split("•")[0].trim()}
-            </span>
 
             ${boss.types
       .map((type) => `<span class="type-badge type-${type}">${formatType(type)}</span>`)
