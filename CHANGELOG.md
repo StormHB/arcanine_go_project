@@ -2,6 +2,50 @@
 
 All notable changes to this project are documented here.
 
+## [1.20.0] - Theme System, Responsive Navigation & Boss Status Refinement
+
+### Added
+
+* Added site-wide light/dark theme support
+* Added persistent theme preference using `localStorage`
+* Added reusable `theme.js` theme controller
+* Added shared theme toggle button to page navigation
+* Added light theme overrides for cards, forms, filters, navigation and boss detail layouts
+
+### Changed
+
+* Refactored theme styling around CSS custom properties and component-level overrides
+* Reworked header layout so navigation stays aligned to the right with the theme toggle beside it
+* Refactored homepage hero metadata into semantic list markup
+* Improved mobile navigation controls so the theme toggle and hamburger menu remain visible and usable
+* Removed redundant raid-tier pill from boss detail pages to improve mobile spacing
+* Updated visible UI copy from “Pokemon” to “Pokémon” where appropriate
+* Updated footer and page copy to better reflect the current JavaScript-driven architecture
+
+### Fixed
+
+* Fixed mobile hamburger visibility after theme toggle/navigation changes
+* Fixed light theme contrast issues across methodology, form, filter, raid schedule and boss detail components
+* Fixed clear filters button styling in light mode
+* Fixed boss detail status fallback so missing date metadata no longer shows misleading planned state
+* Fixed boss detail raid status timing so rotations remain active until the next-day 10:00 AM local handoff
+* Fixed active navigation state inconsistencies across pages
+
+### Improved
+
+* Improved responsive header behavior across desktop and mobile layouts
+* Improved visual consistency between light and dark themes
+* Improved boss detail mobile spacing and hierarchy
+* Improved accessibility through semantic list markup and clearer button behavior
+* Improved CSS organization by grouping theme tokens, light theme overrides, navigation controls and responsive rules more consistently
+
+### Refactored
+
+* Cleaned duplicate and misplaced CSS rules
+* Removed invalid CSS selector usage
+* Consolidated theme toggle styling into the navigation system
+* Reorganized CSS sections for better long-term maintainability
+
 ---
 
 ## [1.19.1] - Shared UI Components & Archive Filtering Refinement

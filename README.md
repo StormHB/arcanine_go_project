@@ -1,12 +1,13 @@
 # Arcanine Go Project
 
-Arcanine Go Project is a responsive Pokémon GO raid guide built around dynamic raid rendering, generated counter recommendations and reusable frontend architecture.
+Arcanine Go Project is a responsive Pokémon GO raid guide built around dynamic raid rendering, generated counter recommendations, reusable frontend architecture and a lightweight no-framework UI.
 
 The project combines:
 
-* JavaScript-driven raid rendering
+* JavaScript-driven raid and counter rendering
 * Dedicated boss detail pages
 * Pokebattler-based counter data
+* Persistent light/dark theme support
 * Responsive and accessible UI design
 * Reusable data structures for raid schedules and counters
 * Automated scraping and transformation tooling
@@ -15,16 +16,17 @@ The project combines:
 
 ## Live Demo
 
-[Arcanine Go Project Live Demo](https://stormhb.github.io/arcanine_go_project/?utm_source=chatgpt.com)
+[Arcanine Go Project Live Demo](https://stormhb.github.io/arcanine_go_project/)
 
 ---
 
 ## Pages
 
-* Home – Overview and entry point
-* Raids – Dynamic raid rotations and featured bosses
-* Counters – Best and budget counters per boss
-* Contact – Support-style form page
+* **Home** – Project overview and main entry point
+* **Raids** – Dynamic raid rotations, featured bosses and archive browsing
+* **Counters** – Best and budget counters with search and month filtering
+* **Boss Details** – Dedicated boss pages rendered through `boss.html?id=<boss-id>`
+* **Contact** – Support-style feedback form powered by Formspree
 
 ---
 
@@ -33,34 +35,32 @@ The project combines:
 ### Dynamic Raid System
 
 * Fully JavaScript-driven raid rendering
-* Centralized data structure (`rotations.js`)
-* Automatic status detection:
-
+* Centralized rotation data in `rotations.js`
+* Automatic raid status detection:
   * Active
   * Upcoming
   * Ended
-* Dynamic summary cards based on current rotation
-* No manual updates required for status or featured raids
-* Designed for future automation (scraping / API integration)
+* Date-based status handling for current, upcoming and historical rotations
+* Rotation timing aligned with Pokémon GO-style 10:00 AM local rotation windows
+* Dynamic summary cards based on current rotation state
 * Monthly rotation support with history/current/upcoming states
-* Support for multiple simultaneous raid bosses in a single rotation period
-* Automatic month status calculation based on raid activity windows
-* No manual “current/upcoming/history” maintenance required
-* Support for regional raid distributions (region-specific bosses)
-* Historical monthly raid archive support
+* Historical monthly raid archive support from January 2026 onward
 * Cross-month raid window handling
-* Shared rendering structure between raids and counters
+* Support for multiple simultaneous raid bosses in a single rotation period
+* Support for regional raid distributions
+* Shared rendering structure between raids, counters and boss detail pages
 
 ---
 
 ### Raid Overview
 
-* Featured raids automatically selected (current + upcoming)
+* Featured raids automatically selected from current and upcoming rotations
 * Clean card-based layout
 * Fully clickable raid and summary cards
 * Type-based visual styling
+* Automatic glow colors based on Pokémon typing
 * Consistent and scalable component structure
-* Featured raids automatically stay synced with the current active rotation
+* Featured raids stay synchronized with current active rotation data
 
 ---
 
@@ -70,16 +70,17 @@ The project combines:
 * Clear timeline of raid rotations
 * Boss icons and structured layout
 * Semantic list structure for accessibility
-* Consistent formatting across all rotation blocks
+* Consistent formatting across rotation blocks
+* Archive browsing through month selection
 
 ---
 
 ### Regional Raids
 
-* Support for region-specific raid bosses (Americas, EMEA, Asia-Pacific)
+* Support for region-specific raid bosses such as Americas, EMEA and Asia-Pacific rotations
 * Multiple bosses can appear in the same time window depending on region
 * Region information is displayed directly on raid cards
-* Integrated seamlessly into both raid overview and counter pages
+* Integrated into both raid overview and counter pages
 
 ---
 
@@ -89,11 +90,9 @@ The project combines:
 * Top 6 best + top 6 budget picks per raid
 * Performance displayed using Time to Win (TTW)
 * Percentage difference relative to the best counter
-* Counters strictly sorted by TTW performance
+* Counters sorted by TTW performance
 * One Mega or Primal attacker per team
 * Legacy move detection per move
-* Smooth scrolling from raids to counters
-* Fixed anchor offset (accurate scroll positioning)
 * Month selector for historical, current and upcoming counter rotations
 * Automatic month status detection
 * Active boss highlighting for current counter rotations
@@ -103,7 +102,6 @@ The project combines:
 * Live counters search and month-based archive filtering
 * Persistent filters between monthly rotation changes
 * Mobile-friendly counters discovery system
-* Historical counter browsing by month
 * Shared boss metadata between raids and counters
 
 #### JS-driven system
@@ -111,7 +109,27 @@ The project combines:
 * Data is generated and stored in structured files
 * UI is rendered dynamically via `assets/js/render-counters.js`
 * No manual HTML editing required for boss cards
-* Supports advanced move metadata (legacy moves, Hidden Power types)
+* Supports advanced move metadata such as legacy moves and Hidden Power types
+
+---
+
+### Boss Detail Pages
+
+Boss detail pages (`boss.html`) use a dedicated rendering system separate from the compact counters overview.
+
+Features include:
+
+* Pokémon artwork rendering
+* Pokémon type badges
+* Move type badges
+* Legacy move indicators
+* TTW comparison display
+* Shadow counter overlays
+* Responsive dual-column layouts
+* Optimized mobile counter card layouts
+* Date-based boss status detection from rotation metadata
+* Cleaner mobile spacing after removing redundant raid-tier pills
+* Shared boss metadata between counters, raids and schedule data
 
 ---
 
@@ -125,9 +143,35 @@ All counters are evaluated using a consistent simulation standard:
 * No party power boost
 * Pokebattler default/random boss movesets
 
-This keeps the workflow close to the standard Pokebattler raid page and avoids maintaining manual selector logic.
+This keeps the workflow close to the standard Pokebattler raid page and avoids maintaining manual selected-moveset logic.
 
 Raid performance data is based on Pokebattler simulations.
+
+---
+
+### Light/Dark Theme System
+
+The site includes a persistent theme system implemented without a frontend framework.
+
+* Site-wide light/dark mode support
+* Theme toggle in the shared navigation header
+* Saved preference using `localStorage`
+* Theme state applied through the root `data-theme` attribute
+* CSS variable-based theme tokens
+* Component-level light theme overrides for cards, forms, filters, navigation and boss detail layouts
+* Mobile navigation adjusted to keep both the theme toggle and hamburger menu usable
+
+Theme logic lives in:
+
+```text
+assets/js/theme.js
+```
+
+Theme styling lives in:
+
+```text
+css/style.css
+```
 
 ---
 
@@ -136,11 +180,11 @@ Raid performance data is based on Pokebattler simulations.
 * Mobile-first responsive layout
 * Adaptive boss card layouts
 * Responsive navigation menu
+* Mobile hamburger menu with visible theme-aware controls
 * Scalable typography and spacing
 * Optimized layouts for small mobile screens
 * Improved touch targets and card interactions
 * Optimized mobile boss detail counter layouts
-* Improved responsive counter readability on compact devices
 * Better alignment consistency across mobile counter sections
 
 ---
@@ -152,22 +196,25 @@ Raid performance data is based on Pokebattler simulations.
 * Skip link for keyboard navigation
 * Accessible clickable cards with descriptive labels
 * Improved screen reader compatibility
-* Form accessibility (labels, descriptions, autocomplete)
+* Form accessibility with labels, descriptions and autocomplete
+* `aria-current` used for the active navigation item
+* Theme toggle uses accessible button markup
+* Hero metadata refactored into semantic list structure where appropriate
 
 ---
 
 ### Technical Features
 
-* Modular JavaScript (ES Modules)
+* Modular JavaScript using ES Modules
 * Modular separation:
-
   * Raid data (`rotations.js`)
-  * Counter data (generated pipeline output)
+  * Counter data (`counters.js` and generated datasets)
   * Raid rendering (`render-raids.js`)
   * Counter rendering (`render-counters.js`)
-  * Layout (HTML + CSS)
-* Fully reproducible counter generation pipeline (scrape → parse → transform)
-* Fully responsive, mobile-friendly design
+  * Boss detail rendering (`render-boss.js`)
+  * Theme handling (`theme.js`)
+  * Layout and styling (`HTML + CSS`)
+* Fully reproducible counter generation pipeline (`scrape → parse → transform`)
 * Deployed via GitHub Pages
 * Unified type color system using CSS variables
 * Automatic single-type and dual-type glow rendering
@@ -182,18 +229,19 @@ Raid performance data is based on Pokebattler simulations.
 * Type-based glow system for raid and summary cards
 * Consistent hover effects and animations
 * Smooth scaling transitions
-* Clean dark theme UI
+* Light and dark theme support
 * Improved spacing and alignment
 * Standardized Pokémon sprite presentation
 * Unified type colors shared across pills, badges and glow effects
 * Dual-type glow blending for raid cards
 * Type-based glow effects for counter boss cards
+* Cleaner mobile boss detail hierarchy
 
 ---
 
 ### Shared UI Components
 
-The frontend now uses reusable shared informational components across pages to improve consistency and reduce duplicated layout structures.
+The frontend uses reusable shared informational components across pages to improve consistency and reduce duplicated layout structures.
 
 Shared components currently include:
 
@@ -201,6 +249,8 @@ Shared components currently include:
 * reusable panel layouts
 * shared type-based visual systems
 * reusable filter and archive controls
+* shared navigation/header pattern
+* reusable theme toggle behavior
 
 This approach keeps the UI scalable while preserving the lightweight no-framework architecture.
 
@@ -210,7 +260,6 @@ This approach keeps the UI scalable while preserving the lightweight no-framewor
 
 * Page-specific meta descriptions
 * Open Graph (OG) support:
-
   * Title
   * Description
   * Preview image
@@ -230,7 +279,8 @@ The project follows a data-driven frontend architecture:
 * Counter datasets are generated through a tooling pipeline
 * Pages consume shared structured data instead of hardcoded HTML
 * Rendering is handled through reusable JavaScript modules
-* Styling is centralized through reusable CSS systems and type variables
+* Styling is centralized through reusable CSS systems and theme variables
+* Theme state is handled independently from page rendering logic
 
 This approach improves scalability, maintainability and future automation support.
 
@@ -242,6 +292,12 @@ The project includes lightweight tooling scripts for automating structured front
 
 Current automation features include:
 
+* Pokebattler scraping and raw text collection
+* Counter draft parsing
+* Final counter dataset transformation
+* Pokémon type metadata generation
+* Move type metadata generation
+* Counter artwork download and image map generation
 * Dynamic sitemap generation
 * Shared metadata handling across raids and counters
 
@@ -253,26 +309,28 @@ This reduces manual maintenance and keeps frontend content synchronized with str
 
 ```text
 assets/
-├── js/
-│   ├── data/
-│   │   ├── rotations.js
-│   │   ├── counters.js
-│   │   ├── counter-drafts.generated.js
-│   │   ├── counter-final.generated.js
-│   │   ├── counter-image-map.generated.js
-│   │   ├── pokemon-types.generated.js
-│   │   └── move-types.generated.js
-│   │
-│   ├── render-raids.js
-│   ├── render-counters.js
-│   └── render-boss.js
-│
 ├── css/
 │   └── style.css
 │
 ├── img/
-│   └── counters/
+│   ├── counters/
+│   └── ui/
 │
+└── js/
+    ├── data/
+    │   ├── rotations.js
+    │   ├── counters.js
+    │   ├── counter-drafts.generated.js
+    │   ├── counter-final.generated.js
+    │   ├── counter-image-map.generated.js
+    │   ├── pokemon-types.generated.js
+    │   └── move-types.generated.js
+    │
+    ├── render-raids.js
+    ├── render-counters.js
+    ├── render-boss.js
+    └── theme.js
+
 tools/
 ├── scrape.js
 ├── parse-pokebattler.js
@@ -285,10 +343,6 @@ tools/
 
 Main application logic lives inside reusable rendering modules, while tooling scripts are isolated from frontend code.
 
-```
-
-Main application logic lives inside reusable rendering modules, while tooling scripts are isolated from frontend code.
-
 ---
 
 ## Pokebattler Counter Pipeline
@@ -297,15 +351,15 @@ This project includes a Node.js-based tooling pipeline for preparing raid counte
 
 The pipeline is used to:
 
-* Scrape raw Pokebattler counter data from the default raid pages
+* Scrape raw Pokebattler counter data from default raid pages
 * Parse best and budget counters without interacting with Pokebattler selectors
 * Sort counters by Time to Win (TTW)
 * Limit teams to one Mega/Primal attacker
 * Detect legacy/event-exclusive moves per move
 * Generate draft and final counter datasets
-* Supports multiple bosses without overwriting existing data
-* Standardized JSON-style generated datasets
-* Shared metadata structure across generated and manual counter data
+* Support multiple bosses without overwriting existing data
+* Standardize JSON-style generated datasets
+* Share metadata structure across generated and manual counter data
 
 ### Generated Type Metadata
 
@@ -313,16 +367,17 @@ The project uses generated Pokémon and move type datasets to avoid manually mai
 
 Generated datasets include:
 
-- Pokémon primary/secondary types
-- Move types
-- Hidden Power normalization
-- Form-specific Pokémon mappings
+* Pokémon primary/secondary types
+* Move types
+* Hidden Power normalization
+* Form-specific Pokémon mappings
 
 These datasets are used across:
-- boss detail pages
-- counter rendering
-- automatic badge generation
-- counter artwork generation
+
+* boss detail pages
+* counter rendering
+* automatic badge generation
+* counter artwork generation
 
 Generation tools:
 
@@ -339,11 +394,11 @@ Counter Pokémon artwork is generated automatically through a local asset pipeli
 
 The system:
 
-- downloads missing artwork
-- generates image mapping files
-- supports form-specific Pokémon
-- supports Shadow overlays
-- reuses cached local assets
+* downloads missing artwork
+* generates image mapping files
+* supports form-specific Pokémon
+* supports Shadow overlays
+* reuses cached local assets
 
 Command:
 
@@ -353,28 +408,8 @@ node tools/download-counter-images.js
 
 Generated output:
 
-- `assets/img/counters/`
-- `counter-image-map.generated.js`
-
----
-
-### Boss Detail Pages
-
-Boss detail pages (`boss.html`) use a dedicated rendering system separate from the compact counters overview.
-
-Features include:
-
-- Pokémon artwork rendering
-- Pokémon type badges
-- Move type badges
-- Legacy move indicators
-- TTW comparison display
-- Shadow overlays
-- Responsive dual-column layouts
-- Optimized mobile counter card layouts
-- Structured responsive grid system for mobile boss detail rendering
-- Improved alignment for move metadata and TTW statistics
-- Better handling of multi-line Pokémon names on small screens
+* `assets/img/counters/`
+* `counter-image-map.generated.js`
 
 ---
 
@@ -394,6 +429,7 @@ node tools/transform-counter-draft.js
 ```bash
 node tools/generate-sitemap.js
 ```
+
 Generates a dynamic `sitemap.xml` file based on all current pages and boss routes.
 
 ### Output files
@@ -406,7 +442,7 @@ Generated data is reviewed manually before being used in the application.
 
 ---
 
-### Contact Page
+## Contact Page
 
 * Structured support-style form
 * Built-in HTML validation
@@ -425,8 +461,9 @@ Raid rotations are dynamically managed through JavaScript.
 
 The site automatically displays:
 
-* Current (active) raids
+* Current active raids
 * Upcoming raid rotations
+* Ended historical rotations
 * Featured raids based on real-time status
 
 All raid data is stored in structured JavaScript files and rendered dynamically.
@@ -436,9 +473,11 @@ All raid data is stored in structured JavaScript files and rendered dynamically.
 ## Tech Stack
 
 * HTML5
-* CSS3 (no frameworks)
-* JavaScript (ES Modules)
-* Node.js (tooling pipeline)
+* CSS3 with custom properties
+* JavaScript ES Modules
+* Node.js tooling pipeline
+* GitHub Pages
+* Formspree
 * Responsive design
 
 ---
@@ -453,6 +492,7 @@ This project was built to:
 * Practice modern frontend architecture
 * Integrate external simulation data into a frontend project
 * Improve accessibility and UX
+* Preserve a lightweight no-framework approach
 
 ---
 
@@ -461,6 +501,20 @@ This project was built to:
 * Contact submissions are handled through Formspree
 * Counter data is generated via a Pokebattler-based pipeline and reviewed before publishing
 * Raid data is structured for future automation
+* Theme preference is stored locally in the browser
+
+---
+
+## README Refactor Notes
+
+The README is now accurate, but it is getting long. Future documentation cleanup could split some content into separate files:
+
+* `docs/architecture.md` for rendering and data architecture
+* `docs/pipeline.md` for Pokebattler scraping/parsing/transformation
+* `docs/theming.md` for the light/dark theme system
+* `docs/roadmap.md` for future improvements
+
+This would keep the README focused on project overview, setup, structure and core features.
 
 ---
 
@@ -475,10 +529,12 @@ This project was built to:
 * Improved offline/mobile caching
 * Additional UI interactions and animations
 * Performance optimizations
+* Shared status/date helper used across raids, counters and boss detail pages
+* Further CSS modularization once the stylesheet grows larger
 
---- 
+---
 
-### Future Ideas
+## Future Ideas
 
 * Ongoing monthly raid rotation updates
 * Optional advanced metadata:
