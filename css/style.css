@@ -1,14 +1,15 @@
-/* =========================
-   01. CSS VARIABLES
-========================= */
-
+/* ========================= 01. ROOT VARIABLES ========================= */
 :root {
+  color-scheme: dark;
   --bg: #0f172a;
   --bg-soft: #1e293b;
   --surface: #111827;
   --surface-2: #1f2937;
   --text: #e5e7eb;
+  --text-main: var(--text);
+  --text-primary: var(--text);
   --muted: #94a3b8;
+  --muted-text: var(--muted);
   --line: #334155;
   --accent: #f97316;
   --accent-2: #fb923c;
@@ -19,8 +20,6 @@
   --radius: 18px;
   --shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
   --card-bg: var(--surface);
-  --text-main: var(--text);
-  --muted-text: var(--muted);
   --normal: #a8a29e;
   --fighting: #f97316;
   --flying: #8ea7ff;
@@ -41,7 +40,154 @@
   --fairy: #f9a8d4;
 }
 
+/* ========================= LIGHT THEME ========================= */
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f5efe6;
+  --bg-soft: #efe5d8;
+  --surface: #ffffff;
+  --surface-2: #f8fafc;
+  --text: #14213d;
+  --text-main: var(--text);
+  --text-primary: var(--text);
+  --muted: #54657d;
+  --muted-text: var(--muted);
+  --line: rgba(15, 23, 42, 0.14);
+  --shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+  --card-bg: var(--surface);
+}
 
+/* ========================= LIGHT THEME COMPONENT FIXES ========================= */
+[data-theme="light"] .site-header {
+  background: rgba(255, 248, 240, 0.92);
+  border-bottom-color: rgba(15, 23, 42, 0.12);
+}
+
+[data-theme="light"] nav a:hover,
+[data-theme="light"] nav a:focus-visible {
+  background: rgba(15, 23, 42, 0.06);
+  color: var(--text);
+}
+
+[data-theme="light"] .hero-card,
+[data-theme="light"] .panel,
+[data-theme="light"] .form-card,
+[data-theme="light"] .info-card,
+[data-theme="light"] .boss-page-hint-card,
+[data-theme="light"] .methodology-box,
+[data-theme="light"] .summary-card,
+[data-theme="light"] .raid-card,
+[data-theme="light"] .boss-card,
+[data-theme="light"] .raid-schedule-item,
+[data-theme="light"] .timeline-item,
+[data-theme="light"] .counter-group,
+[data-theme="light"] .boss-detail-counter,
+[data-theme="light"] .boss-detail-card {
+  background: linear-gradient(145deg, #ffffff, #f8fafc);
+  border-color: rgba(15, 23, 42, 0.12);
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+
+[data-theme="light"] .hero p,
+[data-theme="light"] .section-title p,
+[data-theme="light"] .lead,
+[data-theme="light"] .card-text,
+[data-theme="light"] .info-card p,
+[data-theme="light"] .form-help,
+[data-theme="light"] .note-box,
+[data-theme="light"] .meta-text,
+[data-theme="light"] .meta-copy,
+[data-theme="light"] .raid-meta-text,
+[data-theme="light"] .dialgadex-line,
+[data-theme="light"] .section-subtitle,
+[data-theme="light"] .boss-subtitle,
+[data-theme="light"] .methodology-intro,
+[data-theme="light"] .methodology-credit {
+  color: var(--muted);
+}
+
+[data-theme="light"] .raid-dex-rank,
+[data-theme="light"] .boss-info h3,
+[data-theme="light"] .boss-detail-heading h1,
+[data-theme="light"] .methodology-box h2,
+[data-theme="light"] .section-header h1,
+[data-theme="light"] h1,
+[data-theme="light"] h2,
+[data-theme="light"] h3,
+[data-theme="light"] h4 {
+  color: var(--text);
+}
+
+[data-theme="light"] input,
+[data-theme="light"] select,
+[data-theme="light"] textarea {
+  background: #ffffff;
+  color: var(--text);
+  border-color: rgba(15, 23, 42, 0.16);
+}
+
+[data-theme="light"] input::placeholder,
+[data-theme="light"] textarea::placeholder {
+  color: #64748b;
+}
+
+[data-theme="light"] select {
+  color-scheme: light;
+}
+
+[data-theme="light"] .counter-chip,
+[data-theme="light"] .stat-chip {
+  background: rgba(15, 23, 42, 0.04);
+  border-color: rgba(15, 23, 42, 0.08);
+}
+
+[data-theme="light"] .note-box {
+  background: rgba(15, 23, 42, 0.03);
+  border-color: rgba(15, 23, 42, 0.08);
+}
+
+[data-theme="light"] .menu-toggle {
+  background: rgba(15, 23, 42, 0.04);
+}
+
+[data-theme="light"] .menu-toggle span,
+[data-theme="light"] .menu-toggle span::before,
+[data-theme="light"] .menu-toggle span::after {
+  background: var(--text);
+}
+
+[data-theme="light"] #clear-filters-btn {
+  background: #ffffff;
+  color: var(--text);
+
+  border: 1px solid rgba(15, 23, 42, 0.12);
+}
+
+[data-theme="light"] #clear-filters-btn:hover,
+[data-theme="light"] #clear-filters-btn:focus-visible {
+  background: rgba(15, 23, 42, 0.06);
+  border-color: var(--accent);
+}
+
+/* ========================= THEME TOGGLE ========================= */
+.theme-toggle {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
 
 /* =========================
    02. RESET / BASE
@@ -58,9 +204,7 @@ html {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background:
-    radial-gradient(circle at top, rgba(249, 115, 22, 0.14), transparent 25%),
-    linear-gradient(180deg, #020617 0%, #0f172a 100%);
+  background: radial-gradient(circle at top, rgba(249, 115, 22, 0.14), transparent 25%), linear-gradient(180deg, var(--bg-soft) 0%, var(--bg) 100%);
   color: var(--text);
   line-height: 1.6;
 }
@@ -117,8 +261,8 @@ h2 {
 .form-card,
 .boss-card,
 .info-card {
-  background: linear-gradient(145deg, rgba(17, 24, 39, 0.96), rgba(30, 41, 59, 0.96));
-  border: 1px solid rgba(148, 163, 184, 0.16);
+  background: var(--surface-gradient);
+  border: 1px solid var(--border-subtle);
   border-radius: 28px;
   box-shadow: var(--shadow);
 }
@@ -171,50 +315,46 @@ h2 {
 ========================= */
 
 .boss-page-hint-section {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .boss-page-hint-card {
-    padding: 1.25rem 1.4rem;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 16px;
-    width: 100%;
-    max-width: none;
-    background: linear-gradient(
-        135deg,
-        rgba(20, 30, 52, 0.95),
-        rgba(10, 18, 38, 0.98)
-    );
-    backdrop-filter: blur(10px);
+  padding: 1.25rem 1.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  width: 100%;
+  max-width: none;
+  background: var(--hint-gradient);
+  backdrop-filter: blur(10px);
 }
 
 .boss-page-hint-card p {
-    font-size: 1.05rem;
-    font-weight: 500;
-    line-height: 1.6;
-    color: var(--text-primary);
-    margin: 0;
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--text-primary);
+  margin: 0;
 }
 
 .hint-label {
-    display: inline-block;
-    margin-bottom: 0.75rem;
-    padding: 0.35rem 0.85rem;
-    border-radius: 999px;
-    background: rgba(255, 166, 77, 0.12);
-    color: #ffb366;
-    font-size: 0.82rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(255, 166, 77, 0.12);
+  color: #ffb366;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .skip-link {
   position: absolute;
   left: 1rem;
   top: -50px;
-  background: #ffffff;
-  color: #000000;
+  background: var(--focus-bg);
+  color: var(--focus-text);
   padding: 0.75rem 1rem;
   border-radius: 0.75rem;
   z-index: 999;
@@ -689,7 +829,7 @@ h2 {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(2, 6, 23, 0.92);
+  background: var(--header-bg);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(148, 163, 184, 0.16);
 }
@@ -743,7 +883,7 @@ h2 {
   border-radius: 12px;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--control-bg);
 }
 
 .menu-toggle span,
@@ -752,7 +892,7 @@ h2 {
   display: block;
   width: 22px;
   height: 2px;
-  background: white;
+  background: var(--menu-icon);
   position: relative;
   transition: 0.25s ease;
   content: "";
@@ -766,6 +906,40 @@ h2 {
 .menu-toggle span::after {
   position: absolute;
   top: 7px;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  min-width: 46px;
+  min-height: 46px;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--control-bg);
+  color: var(--text);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 800;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  background: var(--control-bg-hover);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.theme-toggle-icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.theme-toggle-text {
+  font-size: 0.82rem;
 }
 
 nav ul {
@@ -1038,7 +1212,7 @@ nav a.active {
 }
 
 .counter-group {
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--control-bg);
   border: 1px solid rgba(148, 163, 184, 0.1);
   border-radius: 14px;
   padding: 0.9rem;
@@ -2334,8 +2508,8 @@ label:focus-visible {
     left: 1rem;
     right: 1rem;
     top: 76px;
-    background: rgba(2, 6, 23, 0.97);
-    border: 1px solid rgba(148, 163, 184, 0.16);
+    background: var(--mobile-nav-bg);
+    border: 1px solid var(--border-subtle);
     border-radius: 18px;
     box-shadow: var(--shadow);
     padding: 0.75rem;
@@ -2562,8 +2736,13 @@ label:focus-visible {
     font-size: 0.75rem;
   }
 
-  .menu-toggle {
+  .menu-toggle,
+  .theme-toggle {
     flex-shrink: 0;
+  }
+
+  .theme-toggle-text {
+    display: none;
   }
 
   .boss-detail-card {
