@@ -25,6 +25,9 @@
   --mobile-nav-bg: rgba(2, 6, 23, 0.97);
   --control-bg: rgba(255, 255, 255, 0.03);
   --control-bg-hover: rgba(255, 255, 255, 0.08);
+  --button-border: rgba(148, 163, 184, 0.22);
+  --button-border-hover: rgba(249, 115, 22, 0.55);
+  --button-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
   --menu-icon: var(--text);
 
   --focus-bg: #ffffff;
@@ -92,6 +95,9 @@
   --mobile-nav-bg: rgba(255, 255, 255, 0.97);
   --control-bg: rgba(15, 23, 42, 0.04);
   --control-bg-hover: rgba(15, 23, 42, 0.08);
+  --button-border: rgba(15, 23, 42, 0.14);
+  --button-border-hover: rgba(249, 115, 22, 0.48);
+  --button-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
   --menu-icon: var(--text);
 
   --focus-bg: #111827;
@@ -385,9 +391,15 @@ h2 {
 .btn {
   display: inline-block;
   padding: 0.9rem 1.2rem;
+  border: 1px solid var(--button-border);
   border-radius: 999px;
+  box-shadow: var(--button-shadow);
   font-weight: 700;
-  transition: 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
   position: relative;
   z-index: 2;
 }
@@ -398,13 +410,15 @@ h2 {
 }
 
 .btn-secondary {
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(148, 163, 184, 0.12);
+  background: var(--control-bg);
+  border-color: var(--button-border);
 }
 
 .btn:hover,
 .btn:focus-visible {
   transform: translateY(-2px);
+  border-color: var(--button-border-hover);
+  background: var(--control-bg-hover);
 }
 
 .card-icon {
@@ -963,20 +977,27 @@ nav ul {
 nav a {
   display: inline-block;
   padding: 0.8rem 1rem;
+  border: 1px solid var(--button-border);
   border-radius: 999px;
   color: var(--muted);
-  transition: 0.2s ease;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
 }
 
 nav a:hover,
 nav a:focus-visible {
-  background: rgba(255, 255, 255, 0.07);
+  background: var(--control-bg-hover);
+  border-color: var(--button-border-hover);
   color: var(--text);
   outline: none;
 }
 
 nav a.active {
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  border-color: rgba(255, 255, 255, 0.24);
   color: white;
   font-weight: 700;
 }

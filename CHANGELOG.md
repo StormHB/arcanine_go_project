@@ -2,6 +2,16 @@
 
 All notable changes to this project are documented here.
 
+## [1.20.1] - Light Theme Contrast Polish
+
+### Improved
+- Added clearer outlines to navigation buttons in light mode
+- Improved CTA button separation from light card backgrounds
+- Refined interactive element visibility while preserving the minimalist UI style
+- Improved visual hierarchy consistency across desktop and mobile layouts
+
+---
+
 ## [1.20.0] - Theme System, Responsive Navigation & Boss Status Refinement
 
 ### Added
