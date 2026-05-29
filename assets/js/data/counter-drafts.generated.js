@@ -25,7 +25,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Grass, Electric",
       "difficultyLabel": "Focus",
-      "difficulty": "Strong legendary raid, not built for solo play"
+      "difficulty": "Strong legendary raid, not built for solo play",
+      "catchCp": {
+        "normal": {
+          "min": 2260,
+          "max": 2351,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": "Rainy",
+          "min": 2825,
+          "max": 2939,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -780,7 +793,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Rock, Steel, Water, Electric, Ice",
       "difficultyLabel": "Focus",
-      "difficulty": "Strong Steel, Water and Rock attackers"
+      "difficulty": "Strong Steel, Water and Rock attackers",
+      "catchCp": {
+        "normal": {
+          "min": 1515,
+          "max": 1590,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": "Partly Cloudy",
+          "min": 1894,
+          "max": 1988,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -1534,7 +1560,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Water, Grass, Ice",
       "difficultyLabel": "Focus",
-      "difficulty": "Legendary raid with strong offensive pressure"
+      "difficulty": "Legendary raid with strong offensive pressure",
+      "catchCp": {
+        "normal": {
+          "min": 2260,
+          "max": 2351,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2825,
+          "max": 2939,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -2288,7 +2327,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Bug, Ghost, Dark",
       "difficultyLabel": "Focus",
-      "difficulty": "Dark and Ghost attackers"
+      "difficulty": "Dark and Ghost attackers",
+      "catchCp": {
+        "normal": {
+          "min": 2475,
+          "max": 2577,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 3094,
+          "max": 3221,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -3043,7 +3095,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Poison, Ground",
       "difficultyLabel": "Focus",
-      "difficulty": "Ground attackers are the most natural answer"
+      "difficulty": "Ground attackers are the most natural answer",
+      "catchCp": {
+        "normal": {
+          "min": 1730,
+          "max": 1810,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2163,
+          "max": 2263,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -3798,7 +3863,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Fighting, Bug, Grass, Electric, Fairy",
       "difficultyLabel": "Focus",
-      "difficulty": "Fighting attackers are especially strong"
+      "difficulty": "Fighting attackers are especially strong",
+      "catchCp": {
+        "normal": {
+          "min": 1786,
+          "max": 1870,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2233,
+          "max": 2338,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -4553,7 +4631,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Poison, Ghost, Steel",
       "difficultyLabel": "Focus",
-      "difficulty": "Steel and Ghost attackers work especially well"
+      "difficulty": "Steel and Ghost attackers work especially well",
+      "catchCp": {
+        "normal": {
+          "min": 1912,
+          "max": 1996,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2390,
+          "max": 2495,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -5307,7 +5398,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Ghost, Dark",
       "difficultyLabel": "Focus",
-      "difficulty": "Dark attackers are very easy to build"
+      "difficulty": "Dark attackers are very easy to build",
+      "catchCp": {
+        "normal": {
+          "min": 1965,
+          "max": 2053,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2456,
+          "max": 2566,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -6062,7 +6166,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Ground, Psychic, Steel, Water",
       "difficultyLabel": "Focus",
-      "difficulty": "Ground attackers dominate due to double weakness"
+      "difficulty": "Ground attackers dominate due to double weakness",
+      "catchCp": {
+        "normal": {
+          "min": 2167,
+          "max": 2256,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2709,
+          "max": 2820,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -6817,7 +6934,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Water, Ground",
       "difficultyLabel": "Focus",
-      "difficulty": "Use Water attackers due to double weakness."
+      "difficulty": "Use Water attackers due to double weakness.",
+      "catchCp": {
+        "normal": {
+          "min": 1759,
+          "max": 1840,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2199,
+          "max": 2300,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -7572,7 +7702,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Flying, Fire, Psychic, Fairy",
       "difficultyLabel": "Standard",
-      "difficulty": "Flying attackers dominate due to double weakness"
+      "difficulty": "Flying attackers dominate due to double weakness",
+      "catchCp": {
+        "normal": {
+          "min": 1894,
+          "max": 1977,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2368,
+          "max": 2471,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -8327,7 +8470,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Flying, Fire, Psychic, Fairy",
       "difficultyLabel": "Standard",
-      "difficulty": "Flying attackers dominate due to double weakness"
+      "difficulty": "Flying attackers dominate due to double weakness",
+      "catchCp": {
+        "normal": {
+          "min": 1538,
+          "max": 1624,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 1923,
+          "max": 2030,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -9081,7 +9237,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Ground",
       "difficultyLabel": "Standard",
-      "difficulty": "Ground attackers completely dominate due to single weakness"
+      "difficulty": "Ground attackers completely dominate due to single weakness",
+      "catchCp": {
+        "normal": {
+          "min": 2155,
+          "max": 2249,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2694,
+          "max": 2811,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -9835,7 +10004,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Fighting, Rock, Steel, Fire",
       "difficultyLabel": "Focus",
-      "difficulty": "Steel and Fighting attackers perform best overall"
+      "difficulty": "Steel and Fighting attackers perform best overall",
+      "catchCp": {
+        "normal": {
+          "min": 1764,
+          "max": 1845,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2205,
+          "max": 2306,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -10590,7 +10772,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Poison, Flying, Fire, Ice, Steel",
       "difficultyLabel": "Standard",
-      "difficulty": "Poison attackers dominate due to double weakness"
+      "difficulty": "Poison attackers dominate due to double weakness",
+      "catchCp": {
+        "normal": {
+          "min": 1870,
+          "max": 1953,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2338,
+          "max": 2441,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -11345,7 +11540,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Ice, Poison, Steel, Fairy",
       "difficultyLabel": "Mega",
-      "difficulty": "Steel and Poison attackers are the safest general picks"
+      "difficulty": "Steel and Poison attackers are the safest general picks",
+      "catchCp": {
+        "normal": {
+          "min": 1727,
+          "max": 1807,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2159,
+          "max": 2259,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -12100,7 +12308,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Electric, Grass, Poison",
       "difficultyLabel": "Standard",
-      "difficulty": "Electric, Grass, and Poison attackers all perform well"
+      "difficulty": "Electric, Grass, and Poison attackers all perform well",
+      "catchCp": {
+        "normal": {
+          "min": 1556,
+          "max": 1632,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 1945,
+          "max": 2040,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -12855,7 +13076,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Flying, Ghost, Fairy",
       "difficultyLabel": "Mega",
-      "difficulty": "Flying and Ghost attackers are strong"
+      "difficulty": "Flying and Ghost attackers are strong",
+      "catchCp": {
+        "normal": {
+          "min": 1355,
+          "max": 1425,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 1694,
+          "max": 1781,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -13610,7 +13844,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Water, Rock, Ground, Ghost, Dark",
       "difficultyLabel": "Standard",
-      "difficulty": "Dark and Ghost attackers perform best against Blacephalon"
+      "difficulty": "Dark and Ghost attackers perform best against Blacephalon",
+      "catchCp": {
+        "normal": {
+          "min": 1797,
+          "max": 1884,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2246,
+          "max": 2355,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -14365,7 +14612,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Fire",
       "difficultyLabel": "Focus",
-      "difficulty": "Fire attackers dominate due to double weakness"
+      "difficulty": "Fire attackers dominate due to double weakness",
+      "catchCp": {
+        "normal": {
+          "min": 1833,
+          "max": 1916,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2291,
+          "max": 2395,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -15120,7 +15380,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Ice, Rock",
       "difficultyLabel": "Standard",
-      "difficulty": "Ice and Rock attackers perform consistently well"
+      "difficulty": "Ice and Rock attackers perform consistently well",
+      "catchCp": {
+        "normal": {
+          "min": 1828,
+          "max": 1911,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2285,
+          "max": 2389,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -15874,7 +16147,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Electric, Ice, Rock",
       "difficultyLabel": "Standard",
-      "difficulty": "Electric, Ice, and Rock attackers all perform well"
+      "difficulty": "Electric, Ice, and Rock attackers all perform well",
+      "catchCp": {
+        "normal": {
+          "min": 1828,
+          "max": 1911,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2285,
+          "max": 2389,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -16629,7 +16915,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Grass",
       "difficultyLabel": "Focus",
-      "difficulty": "Grass attackers dominate due to double weakness"
+      "difficulty": "Grass attackers dominate due to double weakness",
+      "catchCp": {
+        "normal": {
+          "min": 2420,
+          "max": 2514,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 3025,
+          "max": 3143,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -17384,7 +17683,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Water, Flying, Ground, Psychic",
       "difficultyLabel": "Standard",
-      "difficulty": "Water, Flying, Ground, and Psychic attackers all perform well"
+      "difficulty": "Water, Flying, Ground, and Psychic attackers all perform well",
+      "catchCp": {
+        "normal": {
+          "min": 2282,
+          "max": 2377,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2853,
+          "max": 2971,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -18139,7 +18451,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Ice, Fairy, Dragon, Flying, Poison, Bug",
       "difficultyLabel": "Focus",
-      "difficulty": "Ice attackers dominate due to double weakness"
+      "difficulty": "Ice attackers dominate due to double weakness",
+      "catchCp": {
+        "normal": {
+          "min": 2224,
+          "max": 2317,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2780,
+          "max": 2896,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -18868,6 +19193,773 @@ export const counterDrafts = [
     "reviewStatus": "needs-check"
   },
   {
+    "id": "mega-absol",
+    "name": "Mega Absol",
+    "source": "Pokebattler",
+    "sourceUrl": "https://www.pokebattler.com/raids/defenders/ABSOL_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+    "budgetSourceUrl": "https://www.pokebattler.com/raids/defenders/ABSOL_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+    "settings": {
+      "attackerLevel": 40,
+      "weather": "No weather",
+      "friendship": "Not friends",
+      "partyPower": false,
+      "strategy": "Cinematic attack when possible",
+      "defense": "Pokebattler default/random movesets",
+      "sort": "Estimator"
+    },
+    "meta": {
+      "tier": "Mega Raid",
+      "themeClass": "dark-theme",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10057.png",
+      "imageAlt": "Official artwork of Mega Absol",
+      "subtitle": "Mega Raid • Feb 21 to Mar 4",
+      "types": [
+        "dark"
+      ],
+      "weaknesses": "Fighting, Fairy, Bug",
+      "difficultyLabel": "Easy",
+      "difficulty": "Fairy, Fighting, and Bug attackers all perform well",
+      "catchCp": {
+        "normal": {
+          "min": 1799,
+          "max": 1886,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2249,
+          "max": 2358,
+          "label": "Level 25 weather boost"
+        }
+      }
+    },
+    "bestCountersRaw": [
+      {
+        "rank": 1,
+        "name": "Mega Lucario",
+        "fastMove": "Force Palm",
+        "chargedMove": "Aura Sphere",
+        "legacyDate": "7/27/2024",
+        "power": 181,
+        "cp": 3826,
+        "timeToWin": 168.4,
+        "estimator": 0.6,
+        "deaths": 7
+      },
+      {
+        "rank": 2,
+        "name": "Mega Blaziken",
+        "fastMove": "Counter",
+        "chargedMove": "Aura Sphere",
+        "legacyDate": null,
+        "power": 176,
+        "cp": 4161,
+        "timeToWin": 172.8,
+        "estimator": 0.62,
+        "deaths": 7
+      },
+      {
+        "rank": 3,
+        "name": "Mega Mewtwo X",
+        "fastMove": "Counter",
+        "chargedMove": "Focus Blast",
+        "legacyDate": "5/29/2026",
+        "power": 172,
+        "cp": 6491,
+        "timeToWin": 176.8,
+        "estimator": 0.63,
+        "deaths": 7
+      },
+      {
+        "rank": 4,
+        "name": "Keldeo",
+        "fastMove": "Low Kick",
+        "chargedMove": "Secret Sword",
+        "legacyDate": "10/1/2025",
+        "power": 160,
+        "cp": 3698,
+        "timeToWin": 189.1,
+        "estimator": 0.67,
+        "deaths": 7
+      },
+      {
+        "rank": 5,
+        "name": "Shadow Blaziken",
+        "fastMove": "Counter",
+        "chargedMove": "Aura Sphere",
+        "legacyDate": null,
+        "power": 156,
+        "cp": 2848,
+        "timeToWin": 194.8,
+        "estimator": 0.72,
+        "deaths": 11
+      },
+      {
+        "rank": 6,
+        "name": "Mega Heracross",
+        "fastMove": "Counter",
+        "chargedMove": "Megahorn",
+        "legacyDate": null,
+        "power": 140,
+        "cp": 4814,
+        "timeToWin": 216.5,
+        "estimator": 0.76,
+        "deaths": 8
+      },
+      {
+        "rank": 7,
+        "name": "Terrakion",
+        "fastMove": "Double Kick",
+        "chargedMove": "Sacred Sword",
+        "legacyDate": "11/4/2021",
+        "power": 137,
+        "cp": 3698,
+        "timeToWin": 221.4,
+        "estimator": 0.78,
+        "deaths": 8
+      },
+      {
+        "rank": 8,
+        "name": "Lucario",
+        "fastMove": "Force Palm",
+        "chargedMove": "Aura Sphere",
+        "legacyDate": "7/27/2024",
+        "power": 139,
+        "cp": 2703,
+        "timeToWin": 217.9,
+        "estimator": 0.79,
+        "deaths": 11
+      },
+      {
+        "rank": 9,
+        "name": "Mega Mewtwo Y",
+        "fastMove": "Counter",
+        "chargedMove": "Focus Blast",
+        "legacyDate": "5/29/2026",
+        "power": 139,
+        "cp": 6802,
+        "timeToWin": 219.8,
+        "estimator": 0.8,
+        "deaths": 12
+      },
+      {
+        "rank": 10,
+        "name": "Shadow Conkeldurr",
+        "fastMove": "Counter",
+        "chargedMove": "Dynamic Punch",
+        "legacyDate": null,
+        "power": 134,
+        "cp": 3337,
+        "timeToWin": 226.9,
+        "estimator": 0.82,
+        "deaths": 11
+      },
+      {
+        "rank": 11,
+        "name": "Kartana",
+        "fastMove": "Fury Cutter",
+        "chargedMove": "Sacred Sword",
+        "legacyDate": null,
+        "power": 137,
+        "cp": 3677,
+        "timeToWin": 221.9,
+        "estimator": 0.83,
+        "deaths": 14
+      },
+      {
+        "rank": 12,
+        "name": "Blaziken",
+        "fastMove": "Counter",
+        "chargedMove": "Aura Sphere",
+        "legacyDate": null,
+        "power": 130,
+        "cp": 2848,
+        "timeToWin": 233.7,
+        "estimator": 0.84,
+        "deaths": 11
+      },
+      {
+        "rank": 13,
+        "name": "Zacian - Crowned Sword",
+        "fastMove": "Metal Claw",
+        "chargedMove": "Play Rough",
+        "legacyDate": null,
+        "power": 126,
+        "cp": 4979,
+        "timeToWin": 243.6,
+        "estimator": 0.85,
+        "deaths": 7
+      },
+      {
+        "rank": 14,
+        "name": "Mega Rayquaza",
+        "fastMove": "Dragon Tail",
+        "chargedMove": "Dragon Ascent",
+        "legacyDate": "8/4/2023",
+        "power": 127,
+        "cp": 5713,
+        "timeToWin": 239.4,
+        "estimator": 0.85,
+        "deaths": 9
+      },
+      {
+        "rank": 15,
+        "name": "Shadow Raikou",
+        "fastMove": "Thunder Shock",
+        "chargedMove": "Aura Sphere",
+        "legacyDate": null,
+        "power": 130,
+        "cp": 3452,
+        "timeToWin": 233,
+        "estimator": 0.85,
+        "deaths": 12
+      },
+      {
+        "rank": 16,
+        "name": "Shadow Regigigas",
+        "fastMove": "Hidden Power",
+        "chargedMove": "Crush Grip",
+        "legacyDate": "6/27/2025",
+        "power": 129,
+        "cp": 4346,
+        "timeToWin": 234.9,
+        "estimator": 0.86,
+        "deaths": 12
+      },
+      {
+        "rank": 17,
+        "name": "Mega Gardevoir",
+        "fastMove": "Charm",
+        "chargedMove": "Dazzling Gleam",
+        "legacyDate": null,
+        "power": 127,
+        "cp": 4512,
+        "timeToWin": 239.7,
+        "estimator": 0.87,
+        "deaths": 12
+      },
+      {
+        "rank": 18,
+        "name": "Mega Latios",
+        "fastMove": "Dragon Breath",
+        "chargedMove": "Aura Sphere",
+        "legacyDate": null,
+        "power": 128,
+        "cp": 5007,
+        "timeToWin": 238.6,
+        "estimator": 0.87,
+        "deaths": 13
+      },
+      {
+        "rank": 19,
+        "name": "Shadow Machamp",
+        "fastMove": "Counter",
+        "chargedMove": "Dynamic Punch",
+        "legacyDate": null,
+        "power": 127,
+        "cp": 3056,
+        "timeToWin": 239.5,
+        "estimator": 0.87,
+        "deaths": 12
+      },
+      {
+        "rank": 20,
+        "name": "Shadow Hariyama",
+        "fastMove": "Force Palm",
+        "chargedMove": "Dynamic Punch",
+        "legacyDate": null,
+        "power": 122,
+        "cp": 2829,
+        "timeToWin": 248.3,
+        "estimator": 0.9,
+        "deaths": 12
+      },
+      {
+        "rank": 21,
+        "name": "Mega Pinsir",
+        "fastMove": "Fury Cutter",
+        "chargedMove": "X-Scissor",
+        "legacyDate": null,
+        "power": 122,
+        "cp": 4182,
+        "timeToWin": 249.6,
+        "estimator": 0.91,
+        "deaths": 13
+      },
+      {
+        "rank": 22,
+        "name": "Urshifu - Single Strike",
+        "fastMove": "Counter",
+        "chargedMove": "Dynamic Punch",
+        "legacyDate": null,
+        "power": 120,
+        "cp": 3606,
+        "timeToWin": 258.6,
+        "estimator": 0.91,
+        "deaths": 9
+      },
+      {
+        "rank": 23,
+        "name": "Eternatus",
+        "fastMove": "Poison Jab",
+        "chargedMove": "Dynamax Cannon",
+        "legacyDate": "8/23/2025",
+        "power": 117,
+        "cp": 4429,
+        "timeToWin": 260.4,
+        "estimator": 0.92,
+        "deaths": 9
+      },
+      {
+        "rank": 24,
+        "name": "Mega Latias",
+        "fastMove": "Charm",
+        "chargedMove": "Aura Sphere",
+        "legacyDate": null,
+        "power": 120,
+        "cp": 4801,
+        "timeToWin": 254.2,
+        "estimator": 0.92,
+        "deaths": 12
+      },
+      {
+        "rank": 25,
+        "name": "Urshifu - Rapid Strike",
+        "fastMove": "Counter",
+        "chargedMove": "Dynamic Punch",
+        "legacyDate": null,
+        "power": 117,
+        "cp": 3606,
+        "timeToWin": 258.6,
+        "estimator": 0.92,
+        "deaths": 11
+      },
+      {
+        "rank": 26,
+        "name": "Shadow Vikavolt",
+        "fastMove": "Bug Bite",
+        "chargedMove": "X-Scissor",
+        "legacyDate": null,
+        "power": 122,
+        "cp": 3117,
+        "timeToWin": 249,
+        "estimator": 0.94,
+        "deaths": 17
+      },
+      {
+        "rank": 27,
+        "name": "Zamazenta - Crowned Shield",
+        "fastMove": "Metal Claw",
+        "chargedMove": "Behemoth Bash",
+        "legacyDate": "5/31/2025",
+        "power": 114,
+        "cp": 4172,
+        "timeToWin": 272.4,
+        "estimator": 0.94,
+        "deaths": 7
+      },
+      {
+        "rank": 28,
+        "name": "Conkeldurr",
+        "fastMove": "Counter",
+        "chargedMove": "Dynamic Punch",
+        "legacyDate": null,
+        "power": 113,
+        "cp": 3337,
+        "timeToWin": 268.3,
+        "estimator": 0.96,
+        "deaths": 11
+      },
+      {
+        "rank": 29,
+        "name": "Mega Gallade",
+        "fastMove": "Low Kick",
+        "chargedMove": "Close Combat",
+        "legacyDate": null,
+        "power": 116,
+        "cp": 4521,
+        "timeToWin": 263.2,
+        "estimator": 0.96,
+        "deaths": 13
+      },
+      {
+        "rank": 30,
+        "name": "Regigigas",
+        "fastMove": "Hidden Power",
+        "chargedMove": "Crush Grip",
+        "legacyDate": "6/27/2025",
+        "power": 113,
+        "cp": 4346,
+        "timeToWin": 269.4,
+        "estimator": 0.96,
+        "deaths": 11
+      }
+    ],
+    "budgetCountersRaw": [
+      {
+        "rank": 1,
+        "name": "Lucario",
+        "fastMove": "Force Palm",
+        "chargedMove": "Aura Sphere",
+        "legacyDate": "7/27/2024",
+        "power": 139,
+        "cp": 2703,
+        "timeToWin": 217.9,
+        "estimator": 0.79,
+        "deaths": 11
+      },
+      {
+        "rank": 2,
+        "name": "Blaziken",
+        "fastMove": "Counter",
+        "chargedMove": "Aura Sphere",
+        "legacyDate": null,
+        "power": 130,
+        "cp": 2848,
+        "timeToWin": 233.7,
+        "estimator": 0.84,
+        "deaths": 11
+      },
+      {
+        "rank": 3,
+        "name": "Conkeldurr",
+        "fastMove": "Counter",
+        "chargedMove": "Dynamic Punch",
+        "legacyDate": null,
+        "power": 113,
+        "cp": 3337,
+        "timeToWin": 268.3,
+        "estimator": 0.96,
+        "deaths": 11
+      },
+      {
+        "rank": 4,
+        "name": "Togekiss",
+        "fastMove": "Charm",
+        "chargedMove": "Aura Sphere",
+        "legacyDate": "4/15/2023",
+        "power": 106,
+        "cp": 3332,
+        "timeToWin": 286.8,
+        "estimator": 1.01,
+        "deaths": 10
+      },
+      {
+        "rank": 5,
+        "name": "Machamp",
+        "fastMove": "Counter",
+        "chargedMove": "Dynamic Punch",
+        "legacyDate": null,
+        "power": 107,
+        "cp": 3056,
+        "timeToWin": 284.5,
+        "estimator": 1.02,
+        "deaths": 13
+      },
+      {
+        "rank": 6,
+        "name": "Hisuian Decidueye",
+        "fastMove": "Magical Leaf",
+        "chargedMove": "Aura Sphere",
+        "legacyDate": null,
+        "power": 105,
+        "cp": 2897,
+        "timeToWin": 288.2,
+        "estimator": 1.03,
+        "deaths": 12
+      },
+      {
+        "rank": 7,
+        "name": "Hariyama",
+        "fastMove": "Force Palm",
+        "chargedMove": "Dynamic Punch",
+        "legacyDate": null,
+        "power": 104,
+        "cp": 2829,
+        "timeToWin": 291.8,
+        "estimator": 1.04,
+        "deaths": 12
+      },
+      {
+        "rank": 8,
+        "name": "Volcarona",
+        "fastMove": "Bug Bite",
+        "chargedMove": "Bug Buzz",
+        "legacyDate": null,
+        "power": 104,
+        "cp": 3632,
+        "timeToWin": 292.7,
+        "estimator": 1.06,
+        "deaths": 14
+      },
+      {
+        "rank": 9,
+        "name": "Breloom",
+        "fastMove": "Force Palm",
+        "chargedMove": "Dynamic Punch",
+        "legacyDate": null,
+        "power": 107,
+        "cp": 2628,
+        "timeToWin": 284.2,
+        "estimator": 1.06,
+        "deaths": 17
+      },
+      {
+        "rank": 10,
+        "name": "Heracross",
+        "fastMove": "Counter",
+        "chargedMove": "Megahorn",
+        "legacyDate": null,
+        "power": 99.5,
+        "cp": 3101,
+        "timeToWin": 304.8,
+        "estimator": 1.09,
+        "deaths": 13
+      },
+      {
+        "rank": 11,
+        "name": "Vikavolt",
+        "fastMove": "Bug Bite",
+        "chargedMove": "X-Scissor",
+        "legacyDate": null,
+        "power": 102,
+        "cp": 3117,
+        "timeToWin": 296.7,
+        "estimator": 1.1,
+        "deaths": 17
+      },
+      {
+        "rank": 12,
+        "name": "Kleavor",
+        "fastMove": "Fury Cutter",
+        "chargedMove": "X-Scissor",
+        "legacyDate": null,
+        "power": 103,
+        "cp": 3146,
+        "timeToWin": 295.4,
+        "estimator": 1.1,
+        "deaths": 17
+      },
+      {
+        "rank": 13,
+        "name": "Mienshao",
+        "fastMove": "Force Palm",
+        "chargedMove": "Brick Break",
+        "legacyDate": null,
+        "power": 100,
+        "cp": 2710,
+        "timeToWin": 302.7,
+        "estimator": 1.14,
+        "deaths": 19
+      },
+      {
+        "rank": 14,
+        "name": "Passimian",
+        "fastMove": "Counter",
+        "chargedMove": "Superpower",
+        "legacyDate": null,
+        "power": 94.9,
+        "cp": 3033,
+        "timeToWin": 319.7,
+        "estimator": 1.14,
+        "deaths": 13
+      },
+      {
+        "rank": 15,
+        "name": "Emboar",
+        "fastMove": "Low Kick",
+        "chargedMove": "Focus Blast",
+        "legacyDate": null,
+        "power": 95.5,
+        "cp": 2982,
+        "timeToWin": 318.2,
+        "estimator": 1.14,
+        "deaths": 14
+      },
+      {
+        "rank": 16,
+        "name": "Haxorus",
+        "fastMove": "Counter",
+        "chargedMove": "Breaking Swipe",
+        "legacyDate": "6/10/2023",
+        "power": 97.3,
+        "cp": 3593,
+        "timeToWin": 311.6,
+        "estimator": 1.15,
+        "deaths": 17
+      },
+      {
+        "rank": 17,
+        "name": "Sirfetch'd",
+        "fastMove": "Counter",
+        "chargedMove": "Close Combat",
+        "legacyDate": null,
+        "power": 96,
+        "cp": 2985,
+        "timeToWin": 315.9,
+        "estimator": 1.16,
+        "deaths": 16
+      },
+      {
+        "rank": 18,
+        "name": "Hisuian Samurott",
+        "fastMove": "Fury Cutter",
+        "chargedMove": "Sacred Sword",
+        "legacyDate": null,
+        "power": 97.4,
+        "cp": 2802,
+        "timeToWin": 311.9,
+        "estimator": 1.16,
+        "deaths": 19
+      },
+      {
+        "rank": 19,
+        "name": "Toxicroak",
+        "fastMove": "Counter",
+        "chargedMove": "Dynamic Punch",
+        "legacyDate": null,
+        "power": 95.9,
+        "cp": 2488,
+        "timeToWin": 316.2,
+        "estimator": 1.16,
+        "deaths": 17
+      },
+      {
+        "rank": 20,
+        "name": "Scizor",
+        "fastMove": "Fury Cutter",
+        "chargedMove": "X-Scissor",
+        "legacyDate": null,
+        "power": 95.4,
+        "cp": 3001,
+        "timeToWin": 317.8,
+        "estimator": 1.17,
+        "deaths": 17
+      },
+      {
+        "rank": 21,
+        "name": "Pinsir",
+        "fastMove": "Bug Bite",
+        "chargedMove": "X-Scissor",
+        "legacyDate": null,
+        "power": 96.3,
+        "cp": 2959,
+        "timeToWin": 314.9,
+        "estimator": 1.18,
+        "deaths": 19
+      },
+      {
+        "rank": 22,
+        "name": "Bewear",
+        "fastMove": "Low Kick",
+        "chargedMove": "Superpower",
+        "legacyDate": null,
+        "power": 90.9,
+        "cp": 3117,
+        "timeToWin": 333.5,
+        "estimator": 1.18,
+        "deaths": 13
+      },
+      {
+        "rank": 23,
+        "name": "Annihilape",
+        "fastMove": "Counter",
+        "chargedMove": "Close Combat",
+        "legacyDate": null,
+        "power": 92,
+        "cp": 3268,
+        "timeToWin": 329.7,
+        "estimator": 1.19,
+        "deaths": 14
+      },
+      {
+        "rank": 24,
+        "name": "Hawlucha",
+        "fastMove": "Low Kick",
+        "chargedMove": "Flying Press",
+        "legacyDate": null,
+        "power": 95.9,
+        "cp": 2410,
+        "timeToWin": 320.9,
+        "estimator": 1.2,
+        "deaths": 20
+      },
+      {
+        "rank": 25,
+        "name": "Sylveon",
+        "fastMove": "Charm",
+        "chargedMove": "Dazzling Gleam",
+        "legacyDate": null,
+        "power": 88.1,
+        "cp": 3069,
+        "timeToWin": 343.9,
+        "estimator": 1.21,
+        "deaths": 12
+      },
+      {
+        "rank": 26,
+        "name": "Sneasler",
+        "fastMove": "Rock Smash",
+        "chargedMove": "X-Scissor",
+        "legacyDate": null,
+        "power": 90.9,
+        "cp": 3222,
+        "timeToWin": 333.4,
+        "estimator": 1.21,
+        "deaths": 16
+      },
+      {
+        "rank": 27,
+        "name": "Primarina",
+        "fastMove": "Charm",
+        "chargedMove": "Hydro Cannon",
+        "legacyDate": "8/31/2024",
+        "power": 89.3,
+        "cp": 3200,
+        "timeToWin": 339.4,
+        "estimator": 1.21,
+        "deaths": 14
+      },
+      {
+        "rank": 28,
+        "name": "Gardevoir",
+        "fastMove": "Charm",
+        "chargedMove": "Dazzling Gleam",
+        "legacyDate": null,
+        "power": 92.4,
+        "cp": 3093,
+        "timeToWin": 328.7,
+        "estimator": 1.22,
+        "deaths": 19
+      },
+      {
+        "rank": 29,
+        "name": "Golisopod",
+        "fastMove": "Fury Cutter",
+        "chargedMove": "X-Scissor",
+        "legacyDate": null,
+        "power": 91,
+        "cp": 3162,
+        "timeToWin": 333,
+        "estimator": 1.22,
+        "deaths": 17
+      },
+      {
+        "rank": 30,
+        "name": "Pangoro",
+        "fastMove": "Karate Chop",
+        "chargedMove": "Close Combat",
+        "legacyDate": null,
+        "power": 87.8,
+        "cp": 2902,
+        "timeToWin": 346.4,
+        "estimator": 1.23,
+        "deaths": 14
+      }
+    ],
+    "reviewStatus": "needs-check"
+  },
+  {
     "id": "mega-ampharos",
     "name": "Mega Ampharos",
     "source": "Pokebattler",
@@ -18894,7 +19986,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Ground, Ice, Dragon, Fairy",
       "difficultyLabel": "Standard",
-      "difficulty": "Ground, Ice, Dragon, and Fairy attackers all perform well"
+      "difficulty": "Ground, Ice, Dragon, and Fairy attackers all perform well",
+      "catchCp": {
+        "normal": {
+          "min": 2332,
+          "max": 2426,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2915,
+          "max": 3033,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -19649,7 +20754,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Fighting, Ground",
       "difficultyLabel": "Standard",
-      "difficulty": "Fighting and Ground attackers perform consistently well"
+      "difficulty": "Fighting and Ground attackers perform consistently well",
+      "catchCp": {
+        "normal": {
+          "min": 2217,
+          "max": 2307,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2771,
+          "max": 2884,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -20404,7 +21522,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Dragon, Fairy",
       "difficultyLabel": "Standard",
-      "difficulty": "Dragon and Fairy attackers perform consistently well"
+      "difficulty": "Dragon and Fairy attackers perform consistently well",
+      "catchCp": {
+        "normal": {
+          "min": 2190,
+          "max": 2280,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2738,
+          "max": 2850,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -21159,7 +22290,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Rock, Electric, Ice",
       "difficultyLabel": "Standard",
-      "difficulty": "Rock, Electric, and Ice attackers all perform well"
+      "difficulty": "Rock, Electric, and Ice attackers all perform well",
+      "catchCp": {
+        "normal": {
+          "min": 2015,
+          "max": 2102,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2519,
+          "max": 2628,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -21914,7 +23058,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Fire, Ground, Ghost, Dark",
       "difficultyLabel": "Standard",
-      "difficulty": "Fire, Ground, Ghost, and Dark attackers all perform well"
+      "difficulty": "Fire, Ground, Ghost, and Dark attackers all perform well",
+      "catchCp": {
+        "normal": {
+          "min": 2219,
+          "max": 2310,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2774,
+          "max": 2888,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -22669,7 +23826,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Fairy",
       "difficultyLabel": "Focus",
-      "difficulty": "Fairy attackers are the only super-effective option"
+      "difficulty": "Fairy attackers are the only super-effective option",
+      "catchCp": {
+        "normal": {
+          "min": 1047,
+          "max": 1110,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 1309,
+          "max": 1388,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -23424,7 +24594,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Ghost, Dark",
       "difficultyLabel": "Focus",
-      "difficulty": "Ghost and Dark attackers dominate due to double weakness"
+      "difficulty": "Ghost and Dark attackers dominate due to double weakness",
+      "catchCp": {
+        "normal": {
+          "min": 2219,
+          "max": 2310,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2774,
+          "max": 2888,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -24179,7 +25362,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Rock, Fire, Electric, Steel",
       "difficultyLabel": "Focus",
-      "difficulty": "Rock attackers dominate due to double weakness"
+      "difficulty": "Rock attackers dominate due to double weakness",
+      "catchCp": {
+        "normal": {
+          "min": 1665,
+          "max": 1743,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2081,
+          "max": 2179,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -24934,7 +26130,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Ice, Rock",
       "difficultyLabel": "Standard",
-      "difficulty": "Ice and Rock attackers perform consistently well"
+      "difficulty": "Ice and Rock attackers perform consistently well",
+      "catchCp": {
+        "normal": {
+          "min": 1930,
+          "max": 2015,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2413,
+          "max": 2519,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -25689,7 +26898,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Rock, Water, Electric",
       "difficultyLabel": "Focus",
-      "difficulty": "Rock attackers dominate due to double weakness"
+      "difficulty": "Rock attackers dominate due to double weakness",
+      "catchCp": {
+        "normal": {
+          "min": 1896,
+          "max": 1980,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2370,
+          "max": 2475,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -26444,7 +27666,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Rock, Fire, Electric, Ice, Flying",
       "difficultyLabel": "Focus",
-      "difficulty": "Rock attackers dominate due to double weakness"
+      "difficulty": "Rock attackers dominate due to double weakness",
+      "catchCp": {
+        "normal": {
+          "min": 2295,
+          "max": 2389,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2869,
+          "max": 2986,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -27198,7 +28433,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Poison, Steel",
       "difficultyLabel": "Standard",
-      "difficulty": "Poison and Steel attackers perform consistently well"
+      "difficulty": "Poison and Steel attackers perform consistently well",
+      "catchCp": {
+        "normal": {
+          "min": 2100,
+          "max": 2188,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2625,
+          "max": 2735,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -27953,7 +29201,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Fire, Water, Fighting, Ground",
       "difficultyLabel": "Standard",
-      "difficulty": "Fire, Water, Fighting, and Ground attackers all perform well"
+      "difficulty": "Fire, Water, Fighting, and Ground attackers all perform well",
+      "catchCp": {
+        "normal": {
+          "min": 2010,
+          "max": 2097,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2513,
+          "max": 2621,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -28707,7 +29968,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Flying, Psychic, Fairy",
       "difficultyLabel": "Standard",
-      "difficulty": "Flying, Psychic, and Fairy attackers all perform well"
+      "difficulty": "Flying, Psychic, and Fairy attackers all perform well",
+      "catchCp": {
+        "normal": {
+          "min": 2100,
+          "max": 2188,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2625,
+          "max": 2735,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -29462,7 +30736,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Electric, Grass, Bug, Ghost, Dark",
       "difficultyLabel": "Standard",
-      "difficulty": "Electric, Grass, Ghost, and Dark attackers all perform well"
+      "difficulty": "Electric, Grass, Ghost, and Dark attackers all perform well",
+      "catchCp": {
+        "normal": {
+          "min": 2059,
+          "max": 2145,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2574,
+          "max": 2681,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -30216,7 +31503,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Ground",
       "difficultyLabel": "Focus",
-      "difficulty": "Ground attackers are the only super-effective option"
+      "difficulty": "Ground attackers are the only super-effective option",
+      "catchCp": {
+        "normal": {
+          "min": 1524,
+          "max": 1602,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 1905,
+          "max": 2003,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -30971,7 +32271,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Water, Fighting, Ground, Rock",
       "difficultyLabel": "Standard",
-      "difficulty": "Water, Fighting, Ground, and Rock attackers all perform well"
+      "difficulty": "Water, Fighting, Ground, and Rock attackers all perform well",
+      "catchCp": {
+        "normal": {
+          "min": 2106,
+          "max": 2195,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2633,
+          "max": 2744,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -31725,7 +33038,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Ice, Dragon, Fairy",
       "difficultyLabel": "Standard",
-      "difficulty": "Ice, Dragon, and Fairy attackers all perform well"
+      "difficulty": "Ice, Dragon, and Fairy attackers all perform well",
+      "catchCp": {
+        "normal": {
+          "min": 1614,
+          "max": 1699,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2018,
+          "max": 2124,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -32479,7 +33805,20 @@ export const counterDrafts = [
       ],
       "weaknesses": "Ground",
       "difficultyLabel": "Focus",
-      "difficulty": "Ground attackers are the only super-effective option"
+      "difficulty": "Ground attackers are the only super-effective option",
+      "catchCp": {
+        "normal": {
+          "min": 1959,
+          "max": 2046,
+          "label": "Level 20"
+        },
+        "boosted": {
+          "weather": null,
+          "min": 2449,
+          "max": 2558,
+          "label": "Level 25 weather boost"
+        }
+      }
     },
     "bestCountersRaw": [
       {
@@ -33203,760 +34542,6 @@ export const counterDrafts = [
         "timeToWin": 531.9,
         "estimator": 1.88,
         "deaths": 19
-      }
-    ],
-    "reviewStatus": "needs-check"
-  },
-  {
-    "id": "mega-absol",
-    "name": "Mega Absol",
-    "source": "Pokebattler",
-    "sourceUrl": "https://www.pokebattler.com/raids/defenders/ABSOL_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
-    "budgetSourceUrl": "https://www.pokebattler.com/raids/defenders/ABSOL_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
-    "settings": {
-      "attackerLevel": 40,
-      "weather": "No weather",
-      "friendship": "Not friends",
-      "partyPower": false,
-      "strategy": "Cinematic attack when possible",
-      "defense": "Pokebattler default/random movesets",
-      "sort": "Estimator"
-    },
-    "meta": {
-      "tier": "Mega Raid",
-      "themeClass": "dark-theme",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10057.png",
-      "imageAlt": "Official artwork of Mega Absol",
-      "subtitle": "Mega Raid • Feb 21 to Mar 4",
-      "types": [
-        "dark"
-      ],
-      "weaknesses": "Fighting, Fairy, Bug",
-      "difficultyLabel": "Easy",
-      "difficulty": "Fairy, Fighting, and Bug attackers all perform well"
-    },
-    "bestCountersRaw": [
-      {
-        "rank": 1,
-        "name": "Mega Lucario",
-        "fastMove": "Force Palm",
-        "chargedMove": "Aura Sphere",
-        "legacyDate": "7/27/2024",
-        "power": 181,
-        "cp": 3826,
-        "timeToWin": 168.4,
-        "estimator": 0.6,
-        "deaths": 7
-      },
-      {
-        "rank": 2,
-        "name": "Mega Blaziken",
-        "fastMove": "Counter",
-        "chargedMove": "Aura Sphere",
-        "legacyDate": null,
-        "power": 176,
-        "cp": 4161,
-        "timeToWin": 172.8,
-        "estimator": 0.62,
-        "deaths": 7
-      },
-      {
-        "rank": 3,
-        "name": "Mega Mewtwo X",
-        "fastMove": "Counter",
-        "chargedMove": "Focus Blast",
-        "legacyDate": "5/29/2026",
-        "power": 172,
-        "cp": 6491,
-        "timeToWin": 176.8,
-        "estimator": 0.63,
-        "deaths": 7
-      },
-      {
-        "rank": 4,
-        "name": "Keldeo",
-        "fastMove": "Low Kick",
-        "chargedMove": "Secret Sword",
-        "legacyDate": "10/1/2025",
-        "power": 160,
-        "cp": 3698,
-        "timeToWin": 189.1,
-        "estimator": 0.67,
-        "deaths": 7
-      },
-      {
-        "rank": 5,
-        "name": "Shadow Blaziken",
-        "fastMove": "Counter",
-        "chargedMove": "Aura Sphere",
-        "legacyDate": null,
-        "power": 156,
-        "cp": 2848,
-        "timeToWin": 194.8,
-        "estimator": 0.72,
-        "deaths": 11
-      },
-      {
-        "rank": 6,
-        "name": "Mega Heracross",
-        "fastMove": "Counter",
-        "chargedMove": "Megahorn",
-        "legacyDate": null,
-        "power": 140,
-        "cp": 4814,
-        "timeToWin": 216.5,
-        "estimator": 0.76,
-        "deaths": 8
-      },
-      {
-        "rank": 7,
-        "name": "Terrakion",
-        "fastMove": "Double Kick",
-        "chargedMove": "Sacred Sword",
-        "legacyDate": "11/4/2021",
-        "power": 137,
-        "cp": 3698,
-        "timeToWin": 221.4,
-        "estimator": 0.78,
-        "deaths": 8
-      },
-      {
-        "rank": 8,
-        "name": "Lucario",
-        "fastMove": "Force Palm",
-        "chargedMove": "Aura Sphere",
-        "legacyDate": "7/27/2024",
-        "power": 139,
-        "cp": 2703,
-        "timeToWin": 217.9,
-        "estimator": 0.79,
-        "deaths": 11
-      },
-      {
-        "rank": 9,
-        "name": "Mega Mewtwo Y",
-        "fastMove": "Counter",
-        "chargedMove": "Focus Blast",
-        "legacyDate": "5/29/2026",
-        "power": 139,
-        "cp": 6802,
-        "timeToWin": 219.8,
-        "estimator": 0.8,
-        "deaths": 12
-      },
-      {
-        "rank": 10,
-        "name": "Shadow Conkeldurr",
-        "fastMove": "Counter",
-        "chargedMove": "Dynamic Punch",
-        "legacyDate": null,
-        "power": 134,
-        "cp": 3337,
-        "timeToWin": 226.9,
-        "estimator": 0.82,
-        "deaths": 11
-      },
-      {
-        "rank": 11,
-        "name": "Kartana",
-        "fastMove": "Fury Cutter",
-        "chargedMove": "Sacred Sword",
-        "legacyDate": null,
-        "power": 137,
-        "cp": 3677,
-        "timeToWin": 221.9,
-        "estimator": 0.83,
-        "deaths": 14
-      },
-      {
-        "rank": 12,
-        "name": "Blaziken",
-        "fastMove": "Counter",
-        "chargedMove": "Aura Sphere",
-        "legacyDate": null,
-        "power": 130,
-        "cp": 2848,
-        "timeToWin": 233.7,
-        "estimator": 0.84,
-        "deaths": 11
-      },
-      {
-        "rank": 13,
-        "name": "Zacian - Crowned Sword",
-        "fastMove": "Metal Claw",
-        "chargedMove": "Play Rough",
-        "legacyDate": null,
-        "power": 126,
-        "cp": 4979,
-        "timeToWin": 243.6,
-        "estimator": 0.85,
-        "deaths": 7
-      },
-      {
-        "rank": 14,
-        "name": "Mega Rayquaza",
-        "fastMove": "Dragon Tail",
-        "chargedMove": "Dragon Ascent",
-        "legacyDate": "8/4/2023",
-        "power": 127,
-        "cp": 5713,
-        "timeToWin": 239.4,
-        "estimator": 0.85,
-        "deaths": 9
-      },
-      {
-        "rank": 15,
-        "name": "Shadow Raikou",
-        "fastMove": "Thunder Shock",
-        "chargedMove": "Aura Sphere",
-        "legacyDate": null,
-        "power": 130,
-        "cp": 3452,
-        "timeToWin": 233,
-        "estimator": 0.85,
-        "deaths": 12
-      },
-      {
-        "rank": 16,
-        "name": "Shadow Regigigas",
-        "fastMove": "Hidden Power",
-        "chargedMove": "Crush Grip",
-        "legacyDate": "6/27/2025",
-        "power": 129,
-        "cp": 4346,
-        "timeToWin": 234.9,
-        "estimator": 0.86,
-        "deaths": 12
-      },
-      {
-        "rank": 17,
-        "name": "Mega Gardevoir",
-        "fastMove": "Charm",
-        "chargedMove": "Dazzling Gleam",
-        "legacyDate": null,
-        "power": 127,
-        "cp": 4512,
-        "timeToWin": 239.7,
-        "estimator": 0.87,
-        "deaths": 12
-      },
-      {
-        "rank": 18,
-        "name": "Mega Latios",
-        "fastMove": "Dragon Breath",
-        "chargedMove": "Aura Sphere",
-        "legacyDate": null,
-        "power": 128,
-        "cp": 5007,
-        "timeToWin": 238.6,
-        "estimator": 0.87,
-        "deaths": 13
-      },
-      {
-        "rank": 19,
-        "name": "Shadow Machamp",
-        "fastMove": "Counter",
-        "chargedMove": "Dynamic Punch",
-        "legacyDate": null,
-        "power": 127,
-        "cp": 3056,
-        "timeToWin": 239.5,
-        "estimator": 0.87,
-        "deaths": 12
-      },
-      {
-        "rank": 20,
-        "name": "Shadow Hariyama",
-        "fastMove": "Force Palm",
-        "chargedMove": "Dynamic Punch",
-        "legacyDate": null,
-        "power": 122,
-        "cp": 2829,
-        "timeToWin": 248.3,
-        "estimator": 0.9,
-        "deaths": 12
-      },
-      {
-        "rank": 21,
-        "name": "Mega Pinsir",
-        "fastMove": "Fury Cutter",
-        "chargedMove": "X-Scissor",
-        "legacyDate": null,
-        "power": 122,
-        "cp": 4182,
-        "timeToWin": 249.6,
-        "estimator": 0.91,
-        "deaths": 13
-      },
-      {
-        "rank": 22,
-        "name": "Urshifu - Single Strike",
-        "fastMove": "Counter",
-        "chargedMove": "Dynamic Punch",
-        "legacyDate": null,
-        "power": 120,
-        "cp": 3606,
-        "timeToWin": 258.6,
-        "estimator": 0.91,
-        "deaths": 9
-      },
-      {
-        "rank": 23,
-        "name": "Eternatus",
-        "fastMove": "Poison Jab",
-        "chargedMove": "Dynamax Cannon",
-        "legacyDate": "8/23/2025",
-        "power": 117,
-        "cp": 4429,
-        "timeToWin": 260.4,
-        "estimator": 0.92,
-        "deaths": 9
-      },
-      {
-        "rank": 24,
-        "name": "Mega Latias",
-        "fastMove": "Charm",
-        "chargedMove": "Aura Sphere",
-        "legacyDate": null,
-        "power": 120,
-        "cp": 4801,
-        "timeToWin": 254.2,
-        "estimator": 0.92,
-        "deaths": 12
-      },
-      {
-        "rank": 25,
-        "name": "Urshifu - Rapid Strike",
-        "fastMove": "Counter",
-        "chargedMove": "Dynamic Punch",
-        "legacyDate": null,
-        "power": 117,
-        "cp": 3606,
-        "timeToWin": 258.6,
-        "estimator": 0.92,
-        "deaths": 11
-      },
-      {
-        "rank": 26,
-        "name": "Shadow Vikavolt",
-        "fastMove": "Bug Bite",
-        "chargedMove": "X-Scissor",
-        "legacyDate": null,
-        "power": 122,
-        "cp": 3117,
-        "timeToWin": 249,
-        "estimator": 0.94,
-        "deaths": 17
-      },
-      {
-        "rank": 27,
-        "name": "Zamazenta - Crowned Shield",
-        "fastMove": "Metal Claw",
-        "chargedMove": "Behemoth Bash",
-        "legacyDate": "5/31/2025",
-        "power": 114,
-        "cp": 4172,
-        "timeToWin": 272.4,
-        "estimator": 0.94,
-        "deaths": 7
-      },
-      {
-        "rank": 28,
-        "name": "Conkeldurr",
-        "fastMove": "Counter",
-        "chargedMove": "Dynamic Punch",
-        "legacyDate": null,
-        "power": 113,
-        "cp": 3337,
-        "timeToWin": 268.3,
-        "estimator": 0.96,
-        "deaths": 11
-      },
-      {
-        "rank": 29,
-        "name": "Mega Gallade",
-        "fastMove": "Low Kick",
-        "chargedMove": "Close Combat",
-        "legacyDate": null,
-        "power": 116,
-        "cp": 4521,
-        "timeToWin": 263.2,
-        "estimator": 0.96,
-        "deaths": 13
-      },
-      {
-        "rank": 30,
-        "name": "Regigigas",
-        "fastMove": "Hidden Power",
-        "chargedMove": "Crush Grip",
-        "legacyDate": "6/27/2025",
-        "power": 113,
-        "cp": 4346,
-        "timeToWin": 269.4,
-        "estimator": 0.96,
-        "deaths": 11
-      }
-    ],
-    "budgetCountersRaw": [
-      {
-        "rank": 1,
-        "name": "Lucario",
-        "fastMove": "Force Palm",
-        "chargedMove": "Aura Sphere",
-        "legacyDate": "7/27/2024",
-        "power": 139,
-        "cp": 2703,
-        "timeToWin": 217.9,
-        "estimator": 0.79,
-        "deaths": 11
-      },
-      {
-        "rank": 2,
-        "name": "Blaziken",
-        "fastMove": "Counter",
-        "chargedMove": "Aura Sphere",
-        "legacyDate": null,
-        "power": 130,
-        "cp": 2848,
-        "timeToWin": 233.7,
-        "estimator": 0.84,
-        "deaths": 11
-      },
-      {
-        "rank": 3,
-        "name": "Conkeldurr",
-        "fastMove": "Counter",
-        "chargedMove": "Dynamic Punch",
-        "legacyDate": null,
-        "power": 113,
-        "cp": 3337,
-        "timeToWin": 268.3,
-        "estimator": 0.96,
-        "deaths": 11
-      },
-      {
-        "rank": 4,
-        "name": "Togekiss",
-        "fastMove": "Charm",
-        "chargedMove": "Aura Sphere",
-        "legacyDate": "4/15/2023",
-        "power": 106,
-        "cp": 3332,
-        "timeToWin": 286.8,
-        "estimator": 1.01,
-        "deaths": 10
-      },
-      {
-        "rank": 5,
-        "name": "Machamp",
-        "fastMove": "Counter",
-        "chargedMove": "Dynamic Punch",
-        "legacyDate": null,
-        "power": 107,
-        "cp": 3056,
-        "timeToWin": 284.5,
-        "estimator": 1.02,
-        "deaths": 13
-      },
-      {
-        "rank": 6,
-        "name": "Hisuian Decidueye",
-        "fastMove": "Magical Leaf",
-        "chargedMove": "Aura Sphere",
-        "legacyDate": null,
-        "power": 105,
-        "cp": 2897,
-        "timeToWin": 288.2,
-        "estimator": 1.03,
-        "deaths": 12
-      },
-      {
-        "rank": 7,
-        "name": "Hariyama",
-        "fastMove": "Force Palm",
-        "chargedMove": "Dynamic Punch",
-        "legacyDate": null,
-        "power": 104,
-        "cp": 2829,
-        "timeToWin": 291.8,
-        "estimator": 1.04,
-        "deaths": 12
-      },
-      {
-        "rank": 8,
-        "name": "Volcarona",
-        "fastMove": "Bug Bite",
-        "chargedMove": "Bug Buzz",
-        "legacyDate": null,
-        "power": 104,
-        "cp": 3632,
-        "timeToWin": 292.7,
-        "estimator": 1.06,
-        "deaths": 14
-      },
-      {
-        "rank": 9,
-        "name": "Breloom",
-        "fastMove": "Force Palm",
-        "chargedMove": "Dynamic Punch",
-        "legacyDate": null,
-        "power": 107,
-        "cp": 2628,
-        "timeToWin": 284.2,
-        "estimator": 1.06,
-        "deaths": 17
-      },
-      {
-        "rank": 10,
-        "name": "Heracross",
-        "fastMove": "Counter",
-        "chargedMove": "Megahorn",
-        "legacyDate": null,
-        "power": 99.5,
-        "cp": 3101,
-        "timeToWin": 304.8,
-        "estimator": 1.09,
-        "deaths": 13
-      },
-      {
-        "rank": 11,
-        "name": "Vikavolt",
-        "fastMove": "Bug Bite",
-        "chargedMove": "X-Scissor",
-        "legacyDate": null,
-        "power": 102,
-        "cp": 3117,
-        "timeToWin": 296.7,
-        "estimator": 1.1,
-        "deaths": 17
-      },
-      {
-        "rank": 12,
-        "name": "Kleavor",
-        "fastMove": "Fury Cutter",
-        "chargedMove": "X-Scissor",
-        "legacyDate": null,
-        "power": 103,
-        "cp": 3146,
-        "timeToWin": 295.4,
-        "estimator": 1.1,
-        "deaths": 17
-      },
-      {
-        "rank": 13,
-        "name": "Mienshao",
-        "fastMove": "Force Palm",
-        "chargedMove": "Brick Break",
-        "legacyDate": null,
-        "power": 100,
-        "cp": 2710,
-        "timeToWin": 302.7,
-        "estimator": 1.14,
-        "deaths": 19
-      },
-      {
-        "rank": 14,
-        "name": "Passimian",
-        "fastMove": "Counter",
-        "chargedMove": "Superpower",
-        "legacyDate": null,
-        "power": 94.9,
-        "cp": 3033,
-        "timeToWin": 319.7,
-        "estimator": 1.14,
-        "deaths": 13
-      },
-      {
-        "rank": 15,
-        "name": "Emboar",
-        "fastMove": "Low Kick",
-        "chargedMove": "Focus Blast",
-        "legacyDate": null,
-        "power": 95.5,
-        "cp": 2982,
-        "timeToWin": 318.2,
-        "estimator": 1.14,
-        "deaths": 14
-      },
-      {
-        "rank": 16,
-        "name": "Haxorus",
-        "fastMove": "Counter",
-        "chargedMove": "Breaking Swipe",
-        "legacyDate": "6/10/2023",
-        "power": 97.3,
-        "cp": 3593,
-        "timeToWin": 311.6,
-        "estimator": 1.15,
-        "deaths": 17
-      },
-      {
-        "rank": 17,
-        "name": "Sirfetch'd",
-        "fastMove": "Counter",
-        "chargedMove": "Close Combat",
-        "legacyDate": null,
-        "power": 96,
-        "cp": 2985,
-        "timeToWin": 315.9,
-        "estimator": 1.16,
-        "deaths": 16
-      },
-      {
-        "rank": 18,
-        "name": "Hisuian Samurott",
-        "fastMove": "Fury Cutter",
-        "chargedMove": "Sacred Sword",
-        "legacyDate": null,
-        "power": 97.4,
-        "cp": 2802,
-        "timeToWin": 311.9,
-        "estimator": 1.16,
-        "deaths": 19
-      },
-      {
-        "rank": 19,
-        "name": "Toxicroak",
-        "fastMove": "Counter",
-        "chargedMove": "Dynamic Punch",
-        "legacyDate": null,
-        "power": 95.9,
-        "cp": 2488,
-        "timeToWin": 316.2,
-        "estimator": 1.16,
-        "deaths": 17
-      },
-      {
-        "rank": 20,
-        "name": "Scizor",
-        "fastMove": "Fury Cutter",
-        "chargedMove": "X-Scissor",
-        "legacyDate": null,
-        "power": 95.4,
-        "cp": 3001,
-        "timeToWin": 317.8,
-        "estimator": 1.17,
-        "deaths": 17
-      },
-      {
-        "rank": 21,
-        "name": "Pinsir",
-        "fastMove": "Bug Bite",
-        "chargedMove": "X-Scissor",
-        "legacyDate": null,
-        "power": 96.3,
-        "cp": 2959,
-        "timeToWin": 314.9,
-        "estimator": 1.18,
-        "deaths": 19
-      },
-      {
-        "rank": 22,
-        "name": "Bewear",
-        "fastMove": "Low Kick",
-        "chargedMove": "Superpower",
-        "legacyDate": null,
-        "power": 90.9,
-        "cp": 3117,
-        "timeToWin": 333.5,
-        "estimator": 1.18,
-        "deaths": 13
-      },
-      {
-        "rank": 23,
-        "name": "Annihilape",
-        "fastMove": "Counter",
-        "chargedMove": "Close Combat",
-        "legacyDate": null,
-        "power": 92,
-        "cp": 3268,
-        "timeToWin": 329.7,
-        "estimator": 1.19,
-        "deaths": 14
-      },
-      {
-        "rank": 24,
-        "name": "Hawlucha",
-        "fastMove": "Low Kick",
-        "chargedMove": "Flying Press",
-        "legacyDate": null,
-        "power": 95.9,
-        "cp": 2410,
-        "timeToWin": 320.9,
-        "estimator": 1.2,
-        "deaths": 20
-      },
-      {
-        "rank": 25,
-        "name": "Sylveon",
-        "fastMove": "Charm",
-        "chargedMove": "Dazzling Gleam",
-        "legacyDate": null,
-        "power": 88.1,
-        "cp": 3069,
-        "timeToWin": 343.9,
-        "estimator": 1.21,
-        "deaths": 12
-      },
-      {
-        "rank": 26,
-        "name": "Sneasler",
-        "fastMove": "Rock Smash",
-        "chargedMove": "X-Scissor",
-        "legacyDate": null,
-        "power": 90.9,
-        "cp": 3222,
-        "timeToWin": 333.4,
-        "estimator": 1.21,
-        "deaths": 16
-      },
-      {
-        "rank": 27,
-        "name": "Primarina",
-        "fastMove": "Charm",
-        "chargedMove": "Hydro Cannon",
-        "legacyDate": "8/31/2024",
-        "power": 89.3,
-        "cp": 3200,
-        "timeToWin": 339.4,
-        "estimator": 1.21,
-        "deaths": 14
-      },
-      {
-        "rank": 28,
-        "name": "Gardevoir",
-        "fastMove": "Charm",
-        "chargedMove": "Dazzling Gleam",
-        "legacyDate": null,
-        "power": 92.4,
-        "cp": 3093,
-        "timeToWin": 328.7,
-        "estimator": 1.22,
-        "deaths": 19
-      },
-      {
-        "rank": 29,
-        "name": "Golisopod",
-        "fastMove": "Fury Cutter",
-        "chargedMove": "X-Scissor",
-        "legacyDate": null,
-        "power": 91,
-        "cp": 3162,
-        "timeToWin": 333,
-        "estimator": 1.22,
-        "deaths": 17
-      },
-      {
-        "rank": 30,
-        "name": "Pangoro",
-        "fastMove": "Karate Chop",
-        "chargedMove": "Close Combat",
-        "legacyDate": null,
-        "power": 87.8,
-        "cp": 2902,
-        "timeToWin": 346.4,
-        "estimator": 1.23,
-        "deaths": 14
       }
     ],
     "reviewStatus": "needs-check"

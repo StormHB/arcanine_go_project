@@ -92,9 +92,47 @@ function readExistingDrafts() {
   }
 }
 
+function parseCatchCp(text) {
+  const normalMatch =
+    text.match(/Catch CP:\s*(\d+)\s*-\s*(\d+)/i) ||
+    text.match(/Caught CP Range:\s*(\d+)\s*-\s*(\d+)/i);
+
+  const boostedMatch = text.match(/Boosted\s*\(([^)]+)\):\s*(\d+)\s*-\s*(\d+)/i);
+
+  const normal = normalMatch
+    ? {
+      min: Number(normalMatch[1]),
+      max: Number(normalMatch[2]),
+      label: "Level 20"
+    }
+    : null;
+
+  const boosted = boostedMatch
+    ? {
+      weather: boostedMatch[1],
+      min: Number(boostedMatch[2]),
+      max: Number(boostedMatch[3]),
+      label: "Level 25 weather boost"
+    }
+    : normal
+      ? {
+        weather: null,
+        min: Math.round(normal.min * 1.2500767),
+        max: Math.round(normal.max * 1.2500767),
+        label: "Level 25 weather boost"
+      }
+      : null;
+
+  return {
+    normal,
+    boosted
+  };
+}
+
 function buildDraft(target) {
   const raw = readRawFile(`raw/${target.id}.txt`);
   const rawBudget = readRawFile(`raw/${target.id}-budget.txt`);
+  const catchCp = parseCatchCp(raw);
 
   return {
     id: target.id,
@@ -120,7 +158,8 @@ function buildDraft(target) {
       types: target.types,
       weaknesses: target.weaknesses,
       difficultyLabel: target.difficultyLabel,
-      difficulty: target.difficulty
+      difficulty: target.difficulty,
+      catchCp
     },
     bestCountersRaw: parseCounters(raw, 30),
     budgetCountersRaw: parseCounters(rawBudget, 30),
