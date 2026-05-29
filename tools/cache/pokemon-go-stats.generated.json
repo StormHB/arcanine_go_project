@@ -1,0 +1,9942 @@
+[
+  {
+    "pokemonName": "Bulbasaur",
+    "form": "Fall_2019",
+    "attack": 118,
+    "defense": 111,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Bulbasaur",
+    "form": "Normal",
+    "attack": 118,
+    "defense": 111,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Ivysaur",
+    "form": "Normal",
+    "attack": 151,
+    "defense": 143,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Venusaur",
+    "form": "Copy_2019",
+    "attack": 198,
+    "defense": 189,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Venusaur",
+    "form": "Normal",
+    "attack": 198,
+    "defense": 189,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Charmander",
+    "form": "Fall_2019",
+    "attack": 116,
+    "defense": 93,
+    "stamina": 118
+  },
+  {
+    "pokemonName": "Charmander",
+    "form": "Normal",
+    "attack": 116,
+    "defense": 93,
+    "stamina": 118
+  },
+  {
+    "pokemonName": "Charmeleon",
+    "form": "Normal",
+    "attack": 158,
+    "defense": 126,
+    "stamina": 151
+  },
+  {
+    "pokemonName": "Charizard",
+    "form": "Copy_2019",
+    "attack": 223,
+    "defense": 173,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Charizard",
+    "form": "Normal",
+    "attack": 223,
+    "defense": 173,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Squirtle",
+    "form": "Fall_2019",
+    "attack": 94,
+    "defense": 121,
+    "stamina": 127
+  },
+  {
+    "pokemonName": "Squirtle",
+    "form": "Normal",
+    "attack": 94,
+    "defense": 121,
+    "stamina": 127
+  },
+  {
+    "pokemonName": "Wartortle",
+    "form": "Normal",
+    "attack": 126,
+    "defense": 155,
+    "stamina": 153
+  },
+  {
+    "pokemonName": "Blastoise",
+    "form": "Copy_2019",
+    "attack": 171,
+    "defense": 207,
+    "stamina": 188
+  },
+  {
+    "pokemonName": "Blastoise",
+    "form": "Normal",
+    "attack": 171,
+    "defense": 207,
+    "stamina": 188
+  },
+  {
+    "pokemonName": "Caterpie",
+    "form": "Normal",
+    "attack": 55,
+    "defense": 55,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Metapod",
+    "form": "Normal",
+    "attack": 45,
+    "defense": 80,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Butterfree",
+    "form": "Normal",
+    "attack": 167,
+    "defense": 137,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Weedle",
+    "form": "Normal",
+    "attack": 63,
+    "defense": 50,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Kakuna",
+    "form": "Normal",
+    "attack": 46,
+    "defense": 75,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Beedrill",
+    "form": "Normal",
+    "attack": 169,
+    "defense": 130,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Pidgey",
+    "form": "Normal",
+    "attack": 85,
+    "defense": 73,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Pidgeotto",
+    "form": "Normal",
+    "attack": 117,
+    "defense": 105,
+    "stamina": 160
+  },
+  {
+    "pokemonName": "Pidgeot",
+    "form": "Normal",
+    "attack": 166,
+    "defense": 154,
+    "stamina": 195
+  },
+  {
+    "pokemonName": "Rattata",
+    "form": "Alola",
+    "attack": 103,
+    "defense": 70,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Rattata",
+    "form": "Normal",
+    "attack": 103,
+    "defense": 70,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Raticate",
+    "form": "Alola",
+    "attack": 135,
+    "defense": 154,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Raticate",
+    "form": "Normal",
+    "attack": 161,
+    "defense": 139,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Spearow",
+    "form": "Normal",
+    "attack": 112,
+    "defense": 60,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Fearow",
+    "form": "Normal",
+    "attack": 182,
+    "defense": 133,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Ekans",
+    "form": "Normal",
+    "attack": 110,
+    "defense": 97,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Arbok",
+    "form": "Normal",
+    "attack": 167,
+    "defense": 153,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Adventure_hat_2020",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Copy_2019",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Costume_2020",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Diwali_2024",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Doctor",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Fall_2019",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Flying_01",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Flying_02",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Flying_03",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Flying_04",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Flying_5th_anniv",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Flying_okinawa",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gofest_2022",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gofest_2024_mtiara",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gofest_2024_stiara",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gofest_2025_goggles_blue",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gofest_2025_goggles_red",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gofest_2025_goggles_yellow",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gofest_2025_monocle_blue",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gofest_2025_monocle_red",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gofest_2025_monocle_yellow",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gotour_2024_a",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gotour_2024_a_02",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gotour_2024_b",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gotour_2024_b_02",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gotour_2025_a",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gotour_2025_a_02",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gotour_2025_b",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Gotour_2025_b_02",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Horizons",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Jeju",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Kariyushi",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Kurta",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Normal",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Pop_star",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Rock_star",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Summer_2023_a",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Summer_2023_b",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Summer_2023_c",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Summer_2023_d",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Summer_2023_e",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Tshirt_01",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Tshirt_02",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Tshirt_03",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Vs_2019",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Wcs_2022",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Wcs_2023",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Wcs_2024",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Wcs_2025",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Pikachu",
+    "form": "Winter_2020",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Raichu",
+    "form": "Alola",
+    "attack": 201,
+    "defense": 154,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Raichu",
+    "form": "Normal",
+    "attack": 193,
+    "defense": 151,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Sandshrew",
+    "form": "Alola",
+    "attack": 125,
+    "defense": 129,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Sandshrew",
+    "form": "Normal",
+    "attack": 126,
+    "defense": 120,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Sandslash",
+    "form": "Alola",
+    "attack": 177,
+    "defense": 195,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Sandslash",
+    "form": "Normal",
+    "attack": 182,
+    "defense": 175,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Nidoran♀",
+    "form": "Normal",
+    "attack": 86,
+    "defense": 89,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Nidorina",
+    "form": "Normal",
+    "attack": 117,
+    "defense": 120,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Nidoqueen",
+    "form": "Normal",
+    "attack": 180,
+    "defense": 173,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Nidoran♂",
+    "form": "Normal",
+    "attack": 105,
+    "defense": 76,
+    "stamina": 130
+  },
+  {
+    "pokemonName": "Nidorino",
+    "form": "Normal",
+    "attack": 137,
+    "defense": 111,
+    "stamina": 156
+  },
+  {
+    "pokemonName": "Nidoking",
+    "form": "Normal",
+    "attack": 204,
+    "defense": 156,
+    "stamina": 191
+  },
+  {
+    "pokemonName": "Clefairy",
+    "form": "Normal",
+    "attack": 107,
+    "defense": 108,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Clefable",
+    "form": "Normal",
+    "attack": 178,
+    "defense": 162,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Vulpix",
+    "form": "Alola",
+    "attack": 96,
+    "defense": 109,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Vulpix",
+    "form": "Normal",
+    "attack": 96,
+    "defense": 109,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Ninetales",
+    "form": "Alola",
+    "attack": 170,
+    "defense": 193,
+    "stamina": 177
+  },
+  {
+    "pokemonName": "Ninetales",
+    "form": "Normal",
+    "attack": 169,
+    "defense": 190,
+    "stamina": 177
+  },
+  {
+    "pokemonName": "Jigglypuff",
+    "form": "Normal",
+    "attack": 80,
+    "defense": 41,
+    "stamina": 251
+  },
+  {
+    "pokemonName": "Wigglytuff",
+    "form": "Normal",
+    "attack": 156,
+    "defense": 90,
+    "stamina": 295
+  },
+  {
+    "pokemonName": "Zubat",
+    "form": "Normal",
+    "attack": 83,
+    "defense": 73,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Golbat",
+    "form": "Normal",
+    "attack": 161,
+    "defense": 150,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Oddish",
+    "form": "Normal",
+    "attack": 131,
+    "defense": 112,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Gloom",
+    "form": "Normal",
+    "attack": 153,
+    "defense": 136,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Vileplume",
+    "form": "Normal",
+    "attack": 202,
+    "defense": 167,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Paras",
+    "form": "Normal",
+    "attack": 121,
+    "defense": 99,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Parasect",
+    "form": "Normal",
+    "attack": 165,
+    "defense": 146,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Venonat",
+    "form": "Normal",
+    "attack": 100,
+    "defense": 100,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Venomoth",
+    "form": "Normal",
+    "attack": 179,
+    "defense": 143,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Diglett",
+    "form": "Alola",
+    "attack": 108,
+    "defense": 81,
+    "stamina": 67
+  },
+  {
+    "pokemonName": "Diglett",
+    "form": "Normal",
+    "attack": 109,
+    "defense": 78,
+    "stamina": 67
+  },
+  {
+    "pokemonName": "Dugtrio",
+    "form": "Alola",
+    "attack": 201,
+    "defense": 142,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Dugtrio",
+    "form": "Normal",
+    "attack": 167,
+    "defense": 136,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Meowth",
+    "form": "Alola",
+    "attack": 99,
+    "defense": 78,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Meowth",
+    "form": "Galarian",
+    "attack": 115,
+    "defense": 92,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Meowth",
+    "form": "Normal",
+    "attack": 92,
+    "defense": 78,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Persian",
+    "form": "Alola",
+    "attack": 158,
+    "defense": 136,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Persian",
+    "form": "Normal",
+    "attack": 150,
+    "defense": 136,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Psyduck",
+    "form": "Normal",
+    "attack": 122,
+    "defense": 95,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Psyduck",
+    "form": "Swim_2025",
+    "attack": 122,
+    "defense": 95,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Golduck",
+    "form": "Normal",
+    "attack": 191,
+    "defense": 162,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Mankey",
+    "form": "Normal",
+    "attack": 148,
+    "defense": 82,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Primeape",
+    "form": "Normal",
+    "attack": 207,
+    "defense": 138,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Growlithe",
+    "form": "Hisuian",
+    "attack": 142,
+    "defense": 92,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Growlithe",
+    "form": "Normal",
+    "attack": 136,
+    "defense": 93,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Arcanine",
+    "form": "Hisuian",
+    "attack": 232,
+    "defense": 165,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Arcanine",
+    "form": "Normal",
+    "attack": 227,
+    "defense": 166,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Poliwag",
+    "form": "Normal",
+    "attack": 101,
+    "defense": 82,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Poliwhirl",
+    "form": "Normal",
+    "attack": 130,
+    "defense": 123,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Poliwrath",
+    "form": "Normal",
+    "attack": 182,
+    "defense": 184,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Abra",
+    "form": "Normal",
+    "attack": 195,
+    "defense": 82,
+    "stamina": 93
+  },
+  {
+    "pokemonName": "Kadabra",
+    "form": "Normal",
+    "attack": 232,
+    "defense": 117,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Alakazam",
+    "form": "Normal",
+    "attack": 271,
+    "defense": 167,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Machop",
+    "form": "Normal",
+    "attack": 137,
+    "defense": 82,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Machoke",
+    "form": "Normal",
+    "attack": 177,
+    "defense": 125,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Machamp",
+    "form": "Normal",
+    "attack": 234,
+    "defense": 159,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Bellsprout",
+    "form": "Normal",
+    "attack": 139,
+    "defense": 61,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Weepinbell",
+    "form": "Normal",
+    "attack": 172,
+    "defense": 92,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Victreebel",
+    "form": "Normal",
+    "attack": 207,
+    "defense": 135,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Tentacool",
+    "form": "Normal",
+    "attack": 97,
+    "defense": 149,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Tentacruel",
+    "form": "Normal",
+    "attack": 166,
+    "defense": 209,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Geodude",
+    "form": "Alola",
+    "attack": 132,
+    "defense": 132,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Geodude",
+    "form": "Normal",
+    "attack": 132,
+    "defense": 132,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Graveler",
+    "form": "Alola",
+    "attack": 164,
+    "defense": 164,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Graveler",
+    "form": "Normal",
+    "attack": 164,
+    "defense": 164,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Golem",
+    "form": "Alola",
+    "attack": 211,
+    "defense": 198,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Golem",
+    "form": "Normal",
+    "attack": 211,
+    "defense": 198,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Ponyta",
+    "form": "Galarian",
+    "attack": 170,
+    "defense": 127,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Ponyta",
+    "form": "Normal",
+    "attack": 170,
+    "defense": 127,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Rapidash",
+    "form": "Galarian",
+    "attack": 207,
+    "defense": 162,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Rapidash",
+    "form": "Normal",
+    "attack": 207,
+    "defense": 162,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Slowpoke",
+    "form": "2020",
+    "attack": 109,
+    "defense": 98,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Slowpoke",
+    "form": "Galarian",
+    "attack": 109,
+    "defense": 98,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Slowpoke",
+    "form": "Normal",
+    "attack": 109,
+    "defense": 98,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Slowbro",
+    "form": "2021",
+    "attack": 177,
+    "defense": 180,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Slowbro",
+    "form": "Galarian",
+    "attack": 182,
+    "defense": 156,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Slowbro",
+    "form": "Normal",
+    "attack": 177,
+    "defense": 180,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Magnemite",
+    "form": "Normal",
+    "attack": 165,
+    "defense": 121,
+    "stamina": 93
+  },
+  {
+    "pokemonName": "Magneton",
+    "form": "Normal",
+    "attack": 223,
+    "defense": 169,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Farfetch’d",
+    "form": "Galarian",
+    "attack": 174,
+    "defense": 114,
+    "stamina": 141
+  },
+  {
+    "pokemonName": "Farfetch’d",
+    "form": "Normal",
+    "attack": 124,
+    "defense": 115,
+    "stamina": 141
+  },
+  {
+    "pokemonName": "Doduo",
+    "form": "Normal",
+    "attack": 158,
+    "defense": 83,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Dodrio",
+    "form": "Normal",
+    "attack": 218,
+    "defense": 140,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Seel",
+    "form": "Normal",
+    "attack": 85,
+    "defense": 121,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Dewgong",
+    "form": "Normal",
+    "attack": 139,
+    "defense": 177,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Grimer",
+    "form": "Alola",
+    "attack": 135,
+    "defense": 90,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Grimer",
+    "form": "Normal",
+    "attack": 135,
+    "defense": 90,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Muk",
+    "form": "Alola",
+    "attack": 190,
+    "defense": 172,
+    "stamina": 233
+  },
+  {
+    "pokemonName": "Muk",
+    "form": "Normal",
+    "attack": 190,
+    "defense": 172,
+    "stamina": 233
+  },
+  {
+    "pokemonName": "Shellder",
+    "form": "Normal",
+    "attack": 116,
+    "defense": 134,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Cloyster",
+    "form": "Normal",
+    "attack": 186,
+    "defense": 256,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Gastly",
+    "form": "Normal",
+    "attack": 186,
+    "defense": 67,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Haunter",
+    "form": "Normal",
+    "attack": 223,
+    "defense": 107,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Gengar",
+    "form": "Costume_2020",
+    "attack": 261,
+    "defense": 149,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Gengar",
+    "form": "Normal",
+    "attack": 261,
+    "defense": 149,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Onix",
+    "form": "Normal",
+    "attack": 85,
+    "defense": 232,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Drowzee",
+    "form": "Normal",
+    "attack": 89,
+    "defense": 136,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Hypno",
+    "form": "Normal",
+    "attack": 144,
+    "defense": 193,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Krabby",
+    "form": "Normal",
+    "attack": 181,
+    "defense": 124,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Kingler",
+    "form": "Normal",
+    "attack": 240,
+    "defense": 181,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Voltorb",
+    "form": "Hisuian",
+    "attack": 109,
+    "defense": 111,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Voltorb",
+    "form": "Normal",
+    "attack": 109,
+    "defense": 111,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Electrode",
+    "form": "Hisuian",
+    "attack": 176,
+    "defense": 176,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Electrode",
+    "form": "Normal",
+    "attack": 173,
+    "defense": 173,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Exeggcute",
+    "form": "Normal",
+    "attack": 107,
+    "defense": 125,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Exeggutor",
+    "form": "Alola",
+    "attack": 230,
+    "defense": 153,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Exeggutor",
+    "form": "Normal",
+    "attack": 233,
+    "defense": 149,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Cubone",
+    "form": "Normal",
+    "attack": 90,
+    "defense": 144,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Marowak",
+    "form": "Alola",
+    "attack": 144,
+    "defense": 186,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Marowak",
+    "form": "Normal",
+    "attack": 144,
+    "defense": 186,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Hitmonlee",
+    "form": "Normal",
+    "attack": 224,
+    "defense": 181,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Hitmonchan",
+    "form": "Normal",
+    "attack": 193,
+    "defense": 197,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Lickitung",
+    "form": "Normal",
+    "attack": 108,
+    "defense": 137,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Koffing",
+    "form": "Normal",
+    "attack": 119,
+    "defense": 141,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Weezing",
+    "form": "Galarian",
+    "attack": 174,
+    "defense": 197,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Weezing",
+    "form": "Normal",
+    "attack": 174,
+    "defense": 197,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Rhyhorn",
+    "form": "Normal",
+    "attack": 140,
+    "defense": 127,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Rhydon",
+    "form": "Normal",
+    "attack": 222,
+    "defense": 171,
+    "stamina": 233
+  },
+  {
+    "pokemonName": "Chansey",
+    "form": "Normal",
+    "attack": 60,
+    "defense": 128,
+    "stamina": 487
+  },
+  {
+    "pokemonName": "Tangela",
+    "form": "Normal",
+    "attack": 183,
+    "defense": 169,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Kangaskhan",
+    "form": "Normal",
+    "attack": 181,
+    "defense": 165,
+    "stamina": 233
+  },
+  {
+    "pokemonName": "Horsea",
+    "form": "Normal",
+    "attack": 129,
+    "defense": 103,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Seadra",
+    "form": "Normal",
+    "attack": 187,
+    "defense": 156,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Goldeen",
+    "form": "Normal",
+    "attack": 123,
+    "defense": 110,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Seaking",
+    "form": "Normal",
+    "attack": 175,
+    "defense": 147,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Staryu",
+    "form": "Normal",
+    "attack": 137,
+    "defense": 112,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Starmie",
+    "form": "Normal",
+    "attack": 210,
+    "defense": 184,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Mr. Mime",
+    "form": "Galarian",
+    "attack": 183,
+    "defense": 169,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Mr. Mime",
+    "form": "Normal",
+    "attack": 192,
+    "defense": 205,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Scyther",
+    "form": "Normal",
+    "attack": 218,
+    "defense": 170,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Jynx",
+    "form": "Normal",
+    "attack": 223,
+    "defense": 151,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Electabuzz",
+    "form": "Normal",
+    "attack": 198,
+    "defense": 158,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Magmar",
+    "form": "Normal",
+    "attack": 206,
+    "defense": 154,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Pinsir",
+    "form": "Normal",
+    "attack": 238,
+    "defense": 182,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Tauros",
+    "form": "Normal",
+    "attack": 198,
+    "defense": 183,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Tauros",
+    "form": "Paldea_aqua",
+    "attack": 210,
+    "defense": 193,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Tauros",
+    "form": "Paldea_blaze",
+    "attack": 210,
+    "defense": 193,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Tauros",
+    "form": "Paldea_combat",
+    "attack": 210,
+    "defense": 193,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Magikarp",
+    "form": "Normal",
+    "attack": 29,
+    "defense": 85,
+    "stamina": 85
+  },
+  {
+    "pokemonName": "Gyarados",
+    "form": "Normal",
+    "attack": 237,
+    "defense": 186,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Lapras",
+    "form": "Costume_2020",
+    "attack": 165,
+    "defense": 174,
+    "stamina": 277
+  },
+  {
+    "pokemonName": "Lapras",
+    "form": "Normal",
+    "attack": 165,
+    "defense": 174,
+    "stamina": 277
+  },
+  {
+    "pokemonName": "Ditto",
+    "form": "Normal",
+    "attack": 91,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Eevee",
+    "form": "Gofest_2024_mtiara",
+    "attack": 104,
+    "defense": 114,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Eevee",
+    "form": "Gofest_2024_stiara",
+    "attack": 104,
+    "defense": 114,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Eevee",
+    "form": "Normal",
+    "attack": 104,
+    "defense": 114,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Vaporeon",
+    "form": "Normal",
+    "attack": 205,
+    "defense": 161,
+    "stamina": 277
+  },
+  {
+    "pokemonName": "Jolteon",
+    "form": "Normal",
+    "attack": 232,
+    "defense": 182,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Flareon",
+    "form": "Normal",
+    "attack": 246,
+    "defense": 179,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Porygon",
+    "form": "Normal",
+    "attack": 153,
+    "defense": 136,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Omanyte",
+    "form": "Normal",
+    "attack": 155,
+    "defense": 153,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Omastar",
+    "form": "Normal",
+    "attack": 207,
+    "defense": 201,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Kabuto",
+    "form": "Normal",
+    "attack": 148,
+    "defense": 140,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Kabutops",
+    "form": "Normal",
+    "attack": 220,
+    "defense": 186,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Aerodactyl",
+    "form": "Normal",
+    "attack": 221,
+    "defense": 159,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Aerodactyl",
+    "form": "Summer_2023",
+    "attack": 221,
+    "defense": 159,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Snorlax",
+    "form": "Normal",
+    "attack": 190,
+    "defense": 169,
+    "stamina": 330
+  },
+  {
+    "pokemonName": "Snorlax",
+    "form": "Wildarea_2024",
+    "attack": 190,
+    "defense": 169,
+    "stamina": 330
+  },
+  {
+    "pokemonName": "Articuno",
+    "form": "Galarian",
+    "attack": 250,
+    "defense": 197,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Articuno",
+    "form": "Normal",
+    "attack": 192,
+    "defense": 236,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Zapdos",
+    "form": "Galarian",
+    "attack": 252,
+    "defense": 189,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Zapdos",
+    "form": "Normal",
+    "attack": 253,
+    "defense": 185,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Moltres",
+    "form": "Galarian",
+    "attack": 202,
+    "defense": 231,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Moltres",
+    "form": "Normal",
+    "attack": 251,
+    "defense": 181,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Dratini",
+    "form": "Normal",
+    "attack": 119,
+    "defense": 91,
+    "stamina": 121
+  },
+  {
+    "pokemonName": "Dragonair",
+    "form": "Normal",
+    "attack": 163,
+    "defense": 135,
+    "stamina": 156
+  },
+  {
+    "pokemonName": "Dragonite",
+    "form": "Normal",
+    "attack": 263,
+    "defense": 198,
+    "stamina": 209
+  },
+  {
+    "pokemonName": "Mewtwo",
+    "form": "A",
+    "attack": 182,
+    "defense": 278,
+    "stamina": 214
+  },
+  {
+    "pokemonName": "Mewtwo",
+    "form": "Normal",
+    "attack": 300,
+    "defense": 182,
+    "stamina": 214
+  },
+  {
+    "pokemonName": "Mew",
+    "form": "Normal",
+    "attack": 210,
+    "defense": 210,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Chikorita",
+    "form": "Normal",
+    "attack": 92,
+    "defense": 122,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Bayleef",
+    "form": "Normal",
+    "attack": 122,
+    "defense": 155,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Meganium",
+    "form": "Normal",
+    "attack": 168,
+    "defense": 202,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Cyndaquil",
+    "form": "Normal",
+    "attack": 116,
+    "defense": 93,
+    "stamina": 118
+  },
+  {
+    "pokemonName": "Quilava",
+    "form": "Normal",
+    "attack": 158,
+    "defense": 126,
+    "stamina": 151
+  },
+  {
+    "pokemonName": "Typhlosion",
+    "form": "Hisuian",
+    "attack": 238,
+    "defense": 172,
+    "stamina": 177
+  },
+  {
+    "pokemonName": "Typhlosion",
+    "form": "Normal",
+    "attack": 223,
+    "defense": 173,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Totodile",
+    "form": "Normal",
+    "attack": 117,
+    "defense": 109,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Croconaw",
+    "form": "Normal",
+    "attack": 150,
+    "defense": 142,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Feraligatr",
+    "form": "Normal",
+    "attack": 205,
+    "defense": 188,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Sentret",
+    "form": "Normal",
+    "attack": 79,
+    "defense": 73,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Furret",
+    "form": "Normal",
+    "attack": 148,
+    "defense": 125,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Hoothoot",
+    "form": "Normal",
+    "attack": 67,
+    "defense": 88,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Noctowl",
+    "form": "Normal",
+    "attack": 145,
+    "defense": 156,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Ledyba",
+    "form": "Normal",
+    "attack": 72,
+    "defense": 118,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Ledian",
+    "form": "Normal",
+    "attack": 107,
+    "defense": 179,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Spinarak",
+    "form": "Normal",
+    "attack": 105,
+    "defense": 73,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Ariados",
+    "form": "Normal",
+    "attack": 161,
+    "defense": 124,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Crobat",
+    "form": "Normal",
+    "attack": 194,
+    "defense": 178,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Chinchou",
+    "form": "Normal",
+    "attack": 106,
+    "defense": 97,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Lanturn",
+    "form": "Normal",
+    "attack": 146,
+    "defense": 137,
+    "stamina": 268
+  },
+  {
+    "pokemonName": "Pichu",
+    "form": "Normal",
+    "attack": 77,
+    "defense": 53,
+    "stamina": 85
+  },
+  {
+    "pokemonName": "Cleffa",
+    "form": "Normal",
+    "attack": 75,
+    "defense": 79,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Igglybuff",
+    "form": "Normal",
+    "attack": 69,
+    "defense": 32,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Togepi",
+    "form": "Normal",
+    "attack": 67,
+    "defense": 116,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Togetic",
+    "form": "Normal",
+    "attack": 139,
+    "defense": 181,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Natu",
+    "form": "Normal",
+    "attack": 134,
+    "defense": 89,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Xatu",
+    "form": "Normal",
+    "attack": 192,
+    "defense": 146,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Mareep",
+    "form": "Normal",
+    "attack": 114,
+    "defense": 79,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Flaaffy",
+    "form": "Normal",
+    "attack": 145,
+    "defense": 109,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Ampharos",
+    "form": "Normal",
+    "attack": 211,
+    "defense": 169,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Bellossom",
+    "form": "Normal",
+    "attack": 169,
+    "defense": 186,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Marill",
+    "form": "Normal",
+    "attack": 37,
+    "defense": 93,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Azumarill",
+    "form": "Normal",
+    "attack": 112,
+    "defense": 152,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Sudowoodo",
+    "form": "Normal",
+    "attack": 167,
+    "defense": 176,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Politoed",
+    "form": "Normal",
+    "attack": 174,
+    "defense": 179,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Hoppip",
+    "form": "Normal",
+    "attack": 67,
+    "defense": 94,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Skiploom",
+    "form": "Normal",
+    "attack": 91,
+    "defense": 120,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Jumpluff",
+    "form": "Normal",
+    "attack": 118,
+    "defense": 183,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Aipom",
+    "form": "Normal",
+    "attack": 136,
+    "defense": 112,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Sunkern",
+    "form": "Normal",
+    "attack": 55,
+    "defense": 55,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Sunflora",
+    "form": "Normal",
+    "attack": 185,
+    "defense": 135,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Yanma",
+    "form": "Normal",
+    "attack": 154,
+    "defense": 94,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Wooper",
+    "form": "Normal",
+    "attack": 75,
+    "defense": 66,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Wooper",
+    "form": "Paldea",
+    "attack": 75,
+    "defense": 66,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Quagsire",
+    "form": "Normal",
+    "attack": 152,
+    "defense": 143,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Espeon",
+    "form": "Gofest_2024_sscarf",
+    "attack": 261,
+    "defense": 175,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Espeon",
+    "form": "Normal",
+    "attack": 261,
+    "defense": 175,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Umbreon",
+    "form": "Gofest_2024_mscarf",
+    "attack": 126,
+    "defense": 240,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Umbreon",
+    "form": "Normal",
+    "attack": 126,
+    "defense": 240,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Murkrow",
+    "form": "Normal",
+    "attack": 175,
+    "defense": 87,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Slowking",
+    "form": "2022",
+    "attack": 177,
+    "defense": 180,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Slowking",
+    "form": "Galarian",
+    "attack": 190,
+    "defense": 180,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Slowking",
+    "form": "Normal",
+    "attack": 177,
+    "defense": 180,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Misdreavus",
+    "form": "Normal",
+    "attack": 167,
+    "defense": 154,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "A",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "B",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "C",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "D",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "E",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "Exclamation_point",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "F",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "G",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "H",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "I",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "J",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "K",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "L",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "M",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "N",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "O",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "P",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "Q",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "Question_mark",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "R",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "S",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "T",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "U",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "V",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "W",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "X",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "Y",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Unown",
+    "form": "Z",
+    "attack": 136,
+    "defense": 91,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Wobbuffet",
+    "form": "Normal",
+    "attack": 60,
+    "defense": 106,
+    "stamina": 382
+  },
+  {
+    "pokemonName": "Girafarig",
+    "form": "Normal",
+    "attack": 182,
+    "defense": 133,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Pineco",
+    "form": "Normal",
+    "attack": 108,
+    "defense": 122,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Forretress",
+    "form": "Normal",
+    "attack": 161,
+    "defense": 205,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Dunsparce",
+    "form": "Normal",
+    "attack": 131,
+    "defense": 128,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Gligar",
+    "form": "Normal",
+    "attack": 143,
+    "defense": 184,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Steelix",
+    "form": "Normal",
+    "attack": 148,
+    "defense": 272,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Snubbull",
+    "form": "Normal",
+    "attack": 137,
+    "defense": 85,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Granbull",
+    "form": "Normal",
+    "attack": 212,
+    "defense": 131,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Qwilfish",
+    "form": "Hisuian",
+    "attack": 184,
+    "defense": 151,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Qwilfish",
+    "form": "Normal",
+    "attack": 184,
+    "defense": 138,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Scizor",
+    "form": "Normal",
+    "attack": 236,
+    "defense": 181,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Shuckle",
+    "form": "Normal",
+    "attack": 17,
+    "defense": 396,
+    "stamina": 85
+  },
+  {
+    "pokemonName": "Heracross",
+    "form": "Normal",
+    "attack": 234,
+    "defense": 179,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Sneasel",
+    "form": "Hisuian",
+    "attack": 189,
+    "defense": 146,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Sneasel",
+    "form": "Normal",
+    "attack": 189,
+    "defense": 146,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Teddiursa",
+    "form": "Normal",
+    "attack": 142,
+    "defense": 93,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Ursaring",
+    "form": "Normal",
+    "attack": 236,
+    "defense": 144,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Slugma",
+    "form": "Normal",
+    "attack": 118,
+    "defense": 71,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Magcargo",
+    "form": "Normal",
+    "attack": 139,
+    "defense": 191,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Swinub",
+    "form": "Normal",
+    "attack": 90,
+    "defense": 69,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Piloswine",
+    "form": "Normal",
+    "attack": 181,
+    "defense": 138,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Corsola",
+    "form": "Galarian",
+    "attack": 116,
+    "defense": 182,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Corsola",
+    "form": "Normal",
+    "attack": 118,
+    "defense": 156,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Remoraid",
+    "form": "Normal",
+    "attack": 127,
+    "defense": 69,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Octillery",
+    "form": "Normal",
+    "attack": 197,
+    "defense": 141,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Delibird",
+    "form": "Normal",
+    "attack": 128,
+    "defense": 90,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Delibird",
+    "form": "Winter_2020",
+    "attack": 128,
+    "defense": 90,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Mantine",
+    "form": "Normal",
+    "attack": 148,
+    "defense": 226,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Skarmory",
+    "form": "Normal",
+    "attack": 148,
+    "defense": 226,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Houndour",
+    "form": "Normal",
+    "attack": 152,
+    "defense": 83,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Houndoom",
+    "form": "Normal",
+    "attack": 224,
+    "defense": 144,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Kingdra",
+    "form": "Normal",
+    "attack": 194,
+    "defense": 194,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Phanpy",
+    "form": "Normal",
+    "attack": 107,
+    "defense": 98,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Donphan",
+    "form": "Normal",
+    "attack": 214,
+    "defense": 185,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Porygon2",
+    "form": "Normal",
+    "attack": 198,
+    "defense": 180,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Stantler",
+    "form": "Normal",
+    "attack": 192,
+    "defense": 131,
+    "stamina": 177
+  },
+  {
+    "pokemonName": "Smeargle",
+    "form": "Normal",
+    "attack": 40,
+    "defense": 83,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Tyrogue",
+    "form": "Normal",
+    "attack": 64,
+    "defense": 64,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Hitmontop",
+    "form": "Normal",
+    "attack": 173,
+    "defense": 207,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Smoochum",
+    "form": "Normal",
+    "attack": 153,
+    "defense": 91,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Elekid",
+    "form": "Normal",
+    "attack": 135,
+    "defense": 101,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Magby",
+    "form": "Normal",
+    "attack": 151,
+    "defense": 99,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Miltank",
+    "form": "Normal",
+    "attack": 157,
+    "defense": 193,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Blissey",
+    "form": "Normal",
+    "attack": 129,
+    "defense": 169,
+    "stamina": 496
+  },
+  {
+    "pokemonName": "Raikou",
+    "form": "Normal",
+    "attack": 241,
+    "defense": 195,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Raikou",
+    "form": "S",
+    "attack": 241,
+    "defense": 195,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Entei",
+    "form": "Normal",
+    "attack": 235,
+    "defense": 171,
+    "stamina": 251
+  },
+  {
+    "pokemonName": "Entei",
+    "form": "S",
+    "attack": 235,
+    "defense": 171,
+    "stamina": 251
+  },
+  {
+    "pokemonName": "Suicune",
+    "form": "Normal",
+    "attack": 180,
+    "defense": 235,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Suicune",
+    "form": "S",
+    "attack": 180,
+    "defense": 235,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Larvitar",
+    "form": "Normal",
+    "attack": 115,
+    "defense": 93,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Pupitar",
+    "form": "Normal",
+    "attack": 155,
+    "defense": 133,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Tyranitar",
+    "form": "Normal",
+    "attack": 251,
+    "defense": 207,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Lugia",
+    "form": "Normal",
+    "attack": 193,
+    "defense": 310,
+    "stamina": 235
+  },
+  {
+    "pokemonName": "Lugia",
+    "form": "S",
+    "attack": 193,
+    "defense": 310,
+    "stamina": 235
+  },
+  {
+    "pokemonName": "Ho-Oh",
+    "form": "Normal",
+    "attack": 239,
+    "defense": 244,
+    "stamina": 214
+  },
+  {
+    "pokemonName": "Ho-Oh",
+    "form": "S",
+    "attack": 239,
+    "defense": 244,
+    "stamina": 214
+  },
+  {
+    "pokemonName": "Celebi",
+    "form": "Normal",
+    "attack": 210,
+    "defense": 210,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Treecko",
+    "form": "Normal",
+    "attack": 124,
+    "defense": 94,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Grovyle",
+    "form": "Normal",
+    "attack": 172,
+    "defense": 120,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Sceptile",
+    "form": "Normal",
+    "attack": 223,
+    "defense": 169,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Torchic",
+    "form": "Normal",
+    "attack": 130,
+    "defense": 87,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Combusken",
+    "form": "Normal",
+    "attack": 163,
+    "defense": 115,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Blaziken",
+    "form": "Normal",
+    "attack": 240,
+    "defense": 141,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Mudkip",
+    "form": "Normal",
+    "attack": 126,
+    "defense": 93,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Marshtomp",
+    "form": "Normal",
+    "attack": 156,
+    "defense": 133,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Swampert",
+    "form": "Normal",
+    "attack": 208,
+    "defense": 175,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Poochyena",
+    "form": "Normal",
+    "attack": 96,
+    "defense": 61,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Mightyena",
+    "form": "Normal",
+    "attack": 171,
+    "defense": 132,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Zigzagoon",
+    "form": "Galarian",
+    "attack": 58,
+    "defense": 80,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Zigzagoon",
+    "form": "Normal",
+    "attack": 58,
+    "defense": 80,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Linoone",
+    "form": "Galarian",
+    "attack": 142,
+    "defense": 128,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Linoone",
+    "form": "Normal",
+    "attack": 142,
+    "defense": 128,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Wurmple",
+    "form": "Normal",
+    "attack": 75,
+    "defense": 59,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Silcoon",
+    "form": "Normal",
+    "attack": 60,
+    "defense": 77,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Beautifly",
+    "form": "Normal",
+    "attack": 189,
+    "defense": 98,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Cascoon",
+    "form": "Normal",
+    "attack": 60,
+    "defense": 77,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Dustox",
+    "form": "Normal",
+    "attack": 98,
+    "defense": 162,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Lotad",
+    "form": "Normal",
+    "attack": 71,
+    "defense": 77,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Lombre",
+    "form": "Normal",
+    "attack": 112,
+    "defense": 119,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Ludicolo",
+    "form": "Normal",
+    "attack": 173,
+    "defense": 176,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Seedot",
+    "form": "Normal",
+    "attack": 71,
+    "defense": 77,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Nuzleaf",
+    "form": "Normal",
+    "attack": 134,
+    "defense": 78,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Shiftry",
+    "form": "Normal",
+    "attack": 200,
+    "defense": 121,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Taillow",
+    "form": "Normal",
+    "attack": 106,
+    "defense": 61,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Swellow",
+    "form": "Normal",
+    "attack": 185,
+    "defense": 124,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Wingull",
+    "form": "Normal",
+    "attack": 106,
+    "defense": 61,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Pelipper",
+    "form": "Normal",
+    "attack": 175,
+    "defense": 174,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Ralts",
+    "form": "Normal",
+    "attack": 79,
+    "defense": 59,
+    "stamina": 99
+  },
+  {
+    "pokemonName": "Kirlia",
+    "form": "Normal",
+    "attack": 117,
+    "defense": 90,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Gardevoir",
+    "form": "Normal",
+    "attack": 237,
+    "defense": 195,
+    "stamina": 169
+  },
+  {
+    "pokemonName": "Surskit",
+    "form": "Normal",
+    "attack": 93,
+    "defense": 87,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Masquerain",
+    "form": "Normal",
+    "attack": 192,
+    "defense": 150,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Shroomish",
+    "form": "Normal",
+    "attack": 74,
+    "defense": 110,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Breloom",
+    "form": "Normal",
+    "attack": 241,
+    "defense": 144,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Slakoth",
+    "form": "Normal",
+    "attack": 104,
+    "defense": 92,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Vigoroth",
+    "form": "Normal",
+    "attack": 159,
+    "defense": 145,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Slaking",
+    "form": "Normal",
+    "attack": 290,
+    "defense": 166,
+    "stamina": 284
+  },
+  {
+    "pokemonName": "Nincada",
+    "form": "Normal",
+    "attack": 80,
+    "defense": 126,
+    "stamina": 104
+  },
+  {
+    "pokemonName": "Ninjask",
+    "form": "Normal",
+    "attack": 199,
+    "defense": 112,
+    "stamina": 156
+  },
+  {
+    "pokemonName": "Shedinja",
+    "form": "Normal",
+    "attack": 153,
+    "defense": 73,
+    "stamina": 1
+  },
+  {
+    "pokemonName": "Whismur",
+    "form": "Normal",
+    "attack": 92,
+    "defense": 42,
+    "stamina": 162
+  },
+  {
+    "pokemonName": "Loudred",
+    "form": "Normal",
+    "attack": 134,
+    "defense": 81,
+    "stamina": 197
+  },
+  {
+    "pokemonName": "Exploud",
+    "form": "Normal",
+    "attack": 179,
+    "defense": 137,
+    "stamina": 232
+  },
+  {
+    "pokemonName": "Makuhita",
+    "form": "Normal",
+    "attack": 99,
+    "defense": 54,
+    "stamina": 176
+  },
+  {
+    "pokemonName": "Hariyama",
+    "form": "Normal",
+    "attack": 209,
+    "defense": 114,
+    "stamina": 302
+  },
+  {
+    "pokemonName": "Azurill",
+    "form": "Normal",
+    "attack": 36,
+    "defense": 71,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Nosepass",
+    "form": "Normal",
+    "attack": 82,
+    "defense": 215,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Skitty",
+    "form": "Normal",
+    "attack": 84,
+    "defense": 79,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Delcatty",
+    "form": "Normal",
+    "attack": 132,
+    "defense": 127,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Sableye",
+    "form": "Costume_2020",
+    "attack": 141,
+    "defense": 136,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Sableye",
+    "form": "Normal",
+    "attack": 141,
+    "defense": 136,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Mawile",
+    "form": "Normal",
+    "attack": 155,
+    "defense": 141,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Aron",
+    "form": "Normal",
+    "attack": 121,
+    "defense": 141,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Lairon",
+    "form": "Normal",
+    "attack": 158,
+    "defense": 198,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Aggron",
+    "form": "Normal",
+    "attack": 198,
+    "defense": 257,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Meditite",
+    "form": "Normal",
+    "attack": 78,
+    "defense": 107,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Medicham",
+    "form": "Normal",
+    "attack": 121,
+    "defense": 152,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Electrike",
+    "form": "Normal",
+    "attack": 123,
+    "defense": 78,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Manectric",
+    "form": "Normal",
+    "attack": 215,
+    "defense": 127,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Plusle",
+    "form": "Normal",
+    "attack": 167,
+    "defense": 129,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Minun",
+    "form": "Normal",
+    "attack": 147,
+    "defense": 150,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Volbeat",
+    "form": "Normal",
+    "attack": 143,
+    "defense": 166,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Illumise",
+    "form": "Normal",
+    "attack": 143,
+    "defense": 166,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Roselia",
+    "form": "Normal",
+    "attack": 186,
+    "defense": 131,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Gulpin",
+    "form": "Normal",
+    "attack": 80,
+    "defense": 99,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Swalot",
+    "form": "Normal",
+    "attack": 140,
+    "defense": 159,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Carvanha",
+    "form": "Normal",
+    "attack": 171,
+    "defense": 39,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Sharpedo",
+    "form": "Normal",
+    "attack": 243,
+    "defense": 83,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Wailmer",
+    "form": "Normal",
+    "attack": 136,
+    "defense": 68,
+    "stamina": 277
+  },
+  {
+    "pokemonName": "Wailord",
+    "form": "Normal",
+    "attack": 175,
+    "defense": 87,
+    "stamina": 347
+  },
+  {
+    "pokemonName": "Numel",
+    "form": "Normal",
+    "attack": 119,
+    "defense": 79,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Camerupt",
+    "form": "Normal",
+    "attack": 194,
+    "defense": 136,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Torkoal",
+    "form": "Normal",
+    "attack": 151,
+    "defense": 203,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Spoink",
+    "form": "Normal",
+    "attack": 125,
+    "defense": 122,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Grumpig",
+    "form": "Normal",
+    "attack": 171,
+    "defense": 188,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "00",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "01",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "02",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "03",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "04",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "05",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "06",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "07",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "08",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "09",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "10",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "11",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "12",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "13",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "14",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "15",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "16",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "17",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "18",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spinda",
+    "form": "19",
+    "attack": 116,
+    "defense": 116,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Trapinch",
+    "form": "Normal",
+    "attack": 162,
+    "defense": 78,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Vibrava",
+    "form": "Normal",
+    "attack": 134,
+    "defense": 99,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Flygon",
+    "form": "Normal",
+    "attack": 205,
+    "defense": 168,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Cacnea",
+    "form": "Normal",
+    "attack": 156,
+    "defense": 74,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Cacturne",
+    "form": "Normal",
+    "attack": 221,
+    "defense": 115,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Swablu",
+    "form": "Normal",
+    "attack": 76,
+    "defense": 132,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Altaria",
+    "form": "Normal",
+    "attack": 141,
+    "defense": 201,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Zangoose",
+    "form": "Normal",
+    "attack": 222,
+    "defense": 124,
+    "stamina": 177
+  },
+  {
+    "pokemonName": "Seviper",
+    "form": "Normal",
+    "attack": 196,
+    "defense": 118,
+    "stamina": 177
+  },
+  {
+    "pokemonName": "Lunatone",
+    "form": "Normal",
+    "attack": 178,
+    "defense": 153,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Solrock",
+    "form": "Normal",
+    "attack": 178,
+    "defense": 153,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Barboach",
+    "form": "Normal",
+    "attack": 93,
+    "defense": 82,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Whiscash",
+    "form": "Normal",
+    "attack": 151,
+    "defense": 141,
+    "stamina": 242
+  },
+  {
+    "pokemonName": "Corphish",
+    "form": "Normal",
+    "attack": 141,
+    "defense": 99,
+    "stamina": 125
+  },
+  {
+    "pokemonName": "Crawdaunt",
+    "form": "Normal",
+    "attack": 224,
+    "defense": 142,
+    "stamina": 160
+  },
+  {
+    "pokemonName": "Baltoy",
+    "form": "Normal",
+    "attack": 77,
+    "defense": 124,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Claydol",
+    "form": "Normal",
+    "attack": 140,
+    "defense": 229,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Lileep",
+    "form": "Normal",
+    "attack": 105,
+    "defense": 150,
+    "stamina": 165
+  },
+  {
+    "pokemonName": "Cradily",
+    "form": "Normal",
+    "attack": 152,
+    "defense": 194,
+    "stamina": 200
+  },
+  {
+    "pokemonName": "Anorith",
+    "form": "Normal",
+    "attack": 176,
+    "defense": 100,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Armaldo",
+    "form": "Normal",
+    "attack": 222,
+    "defense": 174,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Feebas",
+    "form": "Normal",
+    "attack": 29,
+    "defense": 85,
+    "stamina": 85
+  },
+  {
+    "pokemonName": "Milotic",
+    "form": "Normal",
+    "attack": 192,
+    "defense": 219,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Castform",
+    "form": "Normal",
+    "attack": 139,
+    "defense": 139,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Castform",
+    "form": "Rainy",
+    "attack": 139,
+    "defense": 139,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Castform",
+    "form": "Snowy",
+    "attack": 139,
+    "defense": 139,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Castform",
+    "form": "Sunny",
+    "attack": 139,
+    "defense": 139,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Kecleon",
+    "form": "Normal",
+    "attack": 161,
+    "defense": 189,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Shuppet",
+    "form": "Normal",
+    "attack": 138,
+    "defense": 65,
+    "stamina": 127
+  },
+  {
+    "pokemonName": "Banette",
+    "form": "Normal",
+    "attack": 218,
+    "defense": 126,
+    "stamina": 162
+  },
+  {
+    "pokemonName": "Duskull",
+    "form": "Normal",
+    "attack": 70,
+    "defense": 162,
+    "stamina": 85
+  },
+  {
+    "pokemonName": "Dusclops",
+    "form": "Normal",
+    "attack": 124,
+    "defense": 234,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Tropius",
+    "form": "Normal",
+    "attack": 136,
+    "defense": 163,
+    "stamina": 223
+  },
+  {
+    "pokemonName": "Chimecho",
+    "form": "Normal",
+    "attack": 175,
+    "defense": 170,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Absol",
+    "form": "Normal",
+    "attack": 246,
+    "defense": 120,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Wynaut",
+    "form": "Normal",
+    "attack": 41,
+    "defense": 86,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Snorunt",
+    "form": "Normal",
+    "attack": 95,
+    "defense": 95,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Glalie",
+    "form": "Normal",
+    "attack": 162,
+    "defense": 162,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Spheal",
+    "form": "Normal",
+    "attack": 95,
+    "defense": 90,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Sealeo",
+    "form": "Normal",
+    "attack": 137,
+    "defense": 132,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Walrein",
+    "form": "Normal",
+    "attack": 182,
+    "defense": 176,
+    "stamina": 242
+  },
+  {
+    "pokemonName": "Clamperl",
+    "form": "Normal",
+    "attack": 133,
+    "defense": 135,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Huntail",
+    "form": "Normal",
+    "attack": 197,
+    "defense": 179,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Gorebyss",
+    "form": "Normal",
+    "attack": 211,
+    "defense": 179,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Relicanth",
+    "form": "Normal",
+    "attack": 162,
+    "defense": 203,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Luvdisc",
+    "form": "Normal",
+    "attack": 81,
+    "defense": 128,
+    "stamina": 125
+  },
+  {
+    "pokemonName": "Bagon",
+    "form": "Normal",
+    "attack": 134,
+    "defense": 93,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Shelgon",
+    "form": "Normal",
+    "attack": 172,
+    "defense": 155,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Salamence",
+    "form": "Normal",
+    "attack": 277,
+    "defense": 168,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Beldum",
+    "form": "Normal",
+    "attack": 96,
+    "defense": 132,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Metang",
+    "form": "Normal",
+    "attack": 138,
+    "defense": 176,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Metagross",
+    "form": "Normal",
+    "attack": 257,
+    "defense": 228,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Regirock",
+    "form": "Normal",
+    "attack": 179,
+    "defense": 309,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Regice",
+    "form": "Normal",
+    "attack": 179,
+    "defense": 309,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Registeel",
+    "form": "Normal",
+    "attack": 143,
+    "defense": 285,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Latias",
+    "form": "Normal",
+    "attack": 228,
+    "defense": 246,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Latias",
+    "form": "S",
+    "attack": 228,
+    "defense": 246,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Latios",
+    "form": "Normal",
+    "attack": 268,
+    "defense": 212,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Latios",
+    "form": "S",
+    "attack": 268,
+    "defense": 212,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Kyogre",
+    "form": "Normal",
+    "attack": 270,
+    "defense": 228,
+    "stamina": 205
+  },
+  {
+    "pokemonName": "Groudon",
+    "form": "Normal",
+    "attack": 270,
+    "defense": 228,
+    "stamina": 205
+  },
+  {
+    "pokemonName": "Rayquaza",
+    "form": "Normal",
+    "attack": 284,
+    "defense": 170,
+    "stamina": 213
+  },
+  {
+    "pokemonName": "Jirachi",
+    "form": "Normal",
+    "attack": 210,
+    "defense": 210,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Deoxys",
+    "form": "Attack",
+    "attack": 414,
+    "defense": 46,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Deoxys",
+    "form": "Defense",
+    "attack": 144,
+    "defense": 330,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Deoxys",
+    "form": "Normal",
+    "attack": 345,
+    "defense": 115,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Deoxys",
+    "form": "Speed",
+    "attack": 230,
+    "defense": 218,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Turtwig",
+    "form": "Normal",
+    "attack": 119,
+    "defense": 110,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Grotle",
+    "form": "Normal",
+    "attack": 157,
+    "defense": 143,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Torterra",
+    "form": "Normal",
+    "attack": 202,
+    "defense": 188,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Chimchar",
+    "form": "Normal",
+    "attack": 113,
+    "defense": 86,
+    "stamina": 127
+  },
+  {
+    "pokemonName": "Monferno",
+    "form": "Normal",
+    "attack": 158,
+    "defense": 105,
+    "stamina": 162
+  },
+  {
+    "pokemonName": "Infernape",
+    "form": "Normal",
+    "attack": 222,
+    "defense": 151,
+    "stamina": 183
+  },
+  {
+    "pokemonName": "Piplup",
+    "form": "Normal",
+    "attack": 112,
+    "defense": 102,
+    "stamina": 142
+  },
+  {
+    "pokemonName": "Prinplup",
+    "form": "Normal",
+    "attack": 150,
+    "defense": 139,
+    "stamina": 162
+  },
+  {
+    "pokemonName": "Empoleon",
+    "form": "Normal",
+    "attack": 210,
+    "defense": 186,
+    "stamina": 197
+  },
+  {
+    "pokemonName": "Starly",
+    "form": "Normal",
+    "attack": 101,
+    "defense": 58,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Staravia",
+    "form": "Normal",
+    "attack": 142,
+    "defense": 94,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Staraptor",
+    "form": "Normal",
+    "attack": 234,
+    "defense": 140,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Bidoof",
+    "form": "Normal",
+    "attack": 80,
+    "defense": 73,
+    "stamina": 153
+  },
+  {
+    "pokemonName": "Bibarel",
+    "form": "Normal",
+    "attack": 162,
+    "defense": 119,
+    "stamina": 188
+  },
+  {
+    "pokemonName": "Kricketot",
+    "form": "Normal",
+    "attack": 45,
+    "defense": 74,
+    "stamina": 114
+  },
+  {
+    "pokemonName": "Kricketune",
+    "form": "Normal",
+    "attack": 160,
+    "defense": 100,
+    "stamina": 184
+  },
+  {
+    "pokemonName": "Shinx",
+    "form": "Normal",
+    "attack": 117,
+    "defense": 64,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Luxio",
+    "form": "Normal",
+    "attack": 159,
+    "defense": 95,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Luxray",
+    "form": "Normal",
+    "attack": 232,
+    "defense": 156,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Budew",
+    "form": "Normal",
+    "attack": 91,
+    "defense": 109,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Roserade",
+    "form": "Normal",
+    "attack": 243,
+    "defense": 185,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Cranidos",
+    "form": "Normal",
+    "attack": 218,
+    "defense": 71,
+    "stamina": 167
+  },
+  {
+    "pokemonName": "Rampardos",
+    "form": "Normal",
+    "attack": 295,
+    "defense": 109,
+    "stamina": 219
+  },
+  {
+    "pokemonName": "Shieldon",
+    "form": "Normal",
+    "attack": 76,
+    "defense": 195,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Bastiodon",
+    "form": "Normal",
+    "attack": 94,
+    "defense": 286,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Burmy",
+    "form": "Plant",
+    "attack": 53,
+    "defense": 83,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Burmy",
+    "form": "Sandy",
+    "attack": 53,
+    "defense": 83,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Burmy",
+    "form": "Trash",
+    "attack": 53,
+    "defense": 83,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Wormadam",
+    "form": "Plant",
+    "attack": 141,
+    "defense": 180,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Wormadam",
+    "form": "Sandy",
+    "attack": 141,
+    "defense": 180,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Wormadam",
+    "form": "Trash",
+    "attack": 127,
+    "defense": 175,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Mothim",
+    "form": "Normal",
+    "attack": 185,
+    "defense": 98,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Combee",
+    "form": "Normal",
+    "attack": 59,
+    "defense": 83,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Vespiquen",
+    "form": "Normal",
+    "attack": 149,
+    "defense": 190,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Pachirisu",
+    "form": "Normal",
+    "attack": 94,
+    "defense": 172,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Buizel",
+    "form": "Normal",
+    "attack": 132,
+    "defense": 67,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Floatzel",
+    "form": "Normal",
+    "attack": 221,
+    "defense": 114,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Cherubi",
+    "form": "Normal",
+    "attack": 108,
+    "defense": 92,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Cherrim",
+    "form": "Overcast",
+    "attack": 170,
+    "defense": 153,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Cherrim",
+    "form": "Sunny",
+    "attack": 170,
+    "defense": 153,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Shellos",
+    "form": "East_sea",
+    "attack": 103,
+    "defense": 105,
+    "stamina": 183
+  },
+  {
+    "pokemonName": "Shellos",
+    "form": "West_sea",
+    "attack": 103,
+    "defense": 105,
+    "stamina": 183
+  },
+  {
+    "pokemonName": "Gastrodon",
+    "form": "East_sea",
+    "attack": 169,
+    "defense": 143,
+    "stamina": 244
+  },
+  {
+    "pokemonName": "Gastrodon",
+    "form": "West_sea",
+    "attack": 169,
+    "defense": 143,
+    "stamina": 244
+  },
+  {
+    "pokemonName": "Ambipom",
+    "form": "Normal",
+    "attack": 205,
+    "defense": 143,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Drifloon",
+    "form": "Normal",
+    "attack": 117,
+    "defense": 80,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Drifblim",
+    "form": "Normal",
+    "attack": 180,
+    "defense": 102,
+    "stamina": 312
+  },
+  {
+    "pokemonName": "Buneary",
+    "form": "Normal",
+    "attack": 130,
+    "defense": 105,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Lopunny",
+    "form": "Normal",
+    "attack": 156,
+    "defense": 194,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Mismagius",
+    "form": "Normal",
+    "attack": 211,
+    "defense": 187,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Honchkrow",
+    "form": "Normal",
+    "attack": 243,
+    "defense": 103,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Glameow",
+    "form": "Normal",
+    "attack": 109,
+    "defense": 82,
+    "stamina": 135
+  },
+  {
+    "pokemonName": "Purugly",
+    "form": "Normal",
+    "attack": 172,
+    "defense": 133,
+    "stamina": 174
+  },
+  {
+    "pokemonName": "Chingling",
+    "form": "Normal",
+    "attack": 114,
+    "defense": 94,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Stunky",
+    "form": "Normal",
+    "attack": 121,
+    "defense": 90,
+    "stamina": 160
+  },
+  {
+    "pokemonName": "Skuntank",
+    "form": "Normal",
+    "attack": 184,
+    "defense": 132,
+    "stamina": 230
+  },
+  {
+    "pokemonName": "Bronzor",
+    "form": "Normal",
+    "attack": 43,
+    "defense": 154,
+    "stamina": 149
+  },
+  {
+    "pokemonName": "Bronzong",
+    "form": "Normal",
+    "attack": 161,
+    "defense": 213,
+    "stamina": 167
+  },
+  {
+    "pokemonName": "Bonsly",
+    "form": "Normal",
+    "attack": 124,
+    "defense": 133,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Mime Jr.",
+    "form": "Normal",
+    "attack": 125,
+    "defense": 142,
+    "stamina": 85
+  },
+  {
+    "pokemonName": "Happiny",
+    "form": "Normal",
+    "attack": 25,
+    "defense": 77,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Chatot",
+    "form": "Normal",
+    "attack": 183,
+    "defense": 91,
+    "stamina": 183
+  },
+  {
+    "pokemonName": "Spiritomb",
+    "form": "Normal",
+    "attack": 169,
+    "defense": 199,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Gible",
+    "form": "Normal",
+    "attack": 124,
+    "defense": 84,
+    "stamina": 151
+  },
+  {
+    "pokemonName": "Gabite",
+    "form": "Normal",
+    "attack": 172,
+    "defense": 125,
+    "stamina": 169
+  },
+  {
+    "pokemonName": "Garchomp",
+    "form": "Normal",
+    "attack": 261,
+    "defense": 193,
+    "stamina": 239
+  },
+  {
+    "pokemonName": "Munchlax",
+    "form": "Normal",
+    "attack": 137,
+    "defense": 117,
+    "stamina": 286
+  },
+  {
+    "pokemonName": "Riolu",
+    "form": "Normal",
+    "attack": 127,
+    "defense": 78,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Lucario",
+    "form": "Normal",
+    "attack": 236,
+    "defense": 144,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Hippopotas",
+    "form": "Normal",
+    "attack": 124,
+    "defense": 118,
+    "stamina": 169
+  },
+  {
+    "pokemonName": "Hippowdon",
+    "form": "Normal",
+    "attack": 201,
+    "defense": 191,
+    "stamina": 239
+  },
+  {
+    "pokemonName": "Skorupi",
+    "form": "Normal",
+    "attack": 93,
+    "defense": 151,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Drapion",
+    "form": "Normal",
+    "attack": 180,
+    "defense": 202,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Croagunk",
+    "form": "Normal",
+    "attack": 116,
+    "defense": 76,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Toxicroak",
+    "form": "Normal",
+    "attack": 211,
+    "defense": 133,
+    "stamina": 195
+  },
+  {
+    "pokemonName": "Carnivine",
+    "form": "Normal",
+    "attack": 187,
+    "defense": 136,
+    "stamina": 179
+  },
+  {
+    "pokemonName": "Finneon",
+    "form": "Normal",
+    "attack": 96,
+    "defense": 116,
+    "stamina": 135
+  },
+  {
+    "pokemonName": "Lumineon",
+    "form": "Normal",
+    "attack": 142,
+    "defense": 170,
+    "stamina": 170
+  },
+  {
+    "pokemonName": "Mantyke",
+    "form": "Normal",
+    "attack": 105,
+    "defense": 179,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Snover",
+    "form": "Normal",
+    "attack": 115,
+    "defense": 105,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Abomasnow",
+    "form": "Normal",
+    "attack": 178,
+    "defense": 158,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Weavile",
+    "form": "Normal",
+    "attack": 243,
+    "defense": 171,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Magnezone",
+    "form": "Normal",
+    "attack": 238,
+    "defense": 205,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Lickilicky",
+    "form": "Normal",
+    "attack": 161,
+    "defense": 181,
+    "stamina": 242
+  },
+  {
+    "pokemonName": "Rhyperior",
+    "form": "Normal",
+    "attack": 241,
+    "defense": 190,
+    "stamina": 251
+  },
+  {
+    "pokemonName": "Tangrowth",
+    "form": "Normal",
+    "attack": 207,
+    "defense": 184,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Electivire",
+    "form": "Normal",
+    "attack": 249,
+    "defense": 163,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Magmortar",
+    "form": "Normal",
+    "attack": 247,
+    "defense": 172,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Togekiss",
+    "form": "Normal",
+    "attack": 225,
+    "defense": 217,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Yanmega",
+    "form": "Normal",
+    "attack": 231,
+    "defense": 156,
+    "stamina": 200
+  },
+  {
+    "pokemonName": "Leafeon",
+    "form": "Normal",
+    "attack": 216,
+    "defense": 219,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Glaceon",
+    "form": "Normal",
+    "attack": 238,
+    "defense": 205,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Gliscor",
+    "form": "Normal",
+    "attack": 185,
+    "defense": 222,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Mamoswine",
+    "form": "Normal",
+    "attack": 247,
+    "defense": 146,
+    "stamina": 242
+  },
+  {
+    "pokemonName": "Porygon-Z",
+    "form": "Normal",
+    "attack": 264,
+    "defense": 150,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Gallade",
+    "form": "Normal",
+    "attack": 237,
+    "defense": 195,
+    "stamina": 169
+  },
+  {
+    "pokemonName": "Probopass",
+    "form": "Normal",
+    "attack": 135,
+    "defense": 275,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Dusknoir",
+    "form": "Normal",
+    "attack": 180,
+    "defense": 254,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Froslass",
+    "form": "Normal",
+    "attack": 171,
+    "defense": 150,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Rotom",
+    "form": "Fan",
+    "attack": 204,
+    "defense": 219,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Rotom",
+    "form": "Frost",
+    "attack": 204,
+    "defense": 219,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Rotom",
+    "form": "Heat",
+    "attack": 204,
+    "defense": 219,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Rotom",
+    "form": "Mow",
+    "attack": 204,
+    "defense": 219,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Rotom",
+    "form": "Normal",
+    "attack": 185,
+    "defense": 159,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Rotom",
+    "form": "Wash",
+    "attack": 204,
+    "defense": 219,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Uxie",
+    "form": "Normal",
+    "attack": 156,
+    "defense": 270,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Mesprit",
+    "form": "Normal",
+    "attack": 212,
+    "defense": 212,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Azelf",
+    "form": "Normal",
+    "attack": 270,
+    "defense": 151,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Dialga",
+    "form": "Normal",
+    "attack": 275,
+    "defense": 211,
+    "stamina": 205
+  },
+  {
+    "pokemonName": "Dialga",
+    "form": "Origin",
+    "attack": 270,
+    "defense": 225,
+    "stamina": 205
+  },
+  {
+    "pokemonName": "Palkia",
+    "form": "Normal",
+    "attack": 280,
+    "defense": 215,
+    "stamina": 189
+  },
+  {
+    "pokemonName": "Palkia",
+    "form": "Origin",
+    "attack": 286,
+    "defense": 223,
+    "stamina": 189
+  },
+  {
+    "pokemonName": "Heatran",
+    "form": "Normal",
+    "attack": 251,
+    "defense": 213,
+    "stamina": 209
+  },
+  {
+    "pokemonName": "Regigigas",
+    "form": "Normal",
+    "attack": 287,
+    "defense": 210,
+    "stamina": 221
+  },
+  {
+    "pokemonName": "Giratina",
+    "form": "Altered",
+    "attack": 187,
+    "defense": 225,
+    "stamina": 284
+  },
+  {
+    "pokemonName": "Giratina",
+    "form": "Origin",
+    "attack": 225,
+    "defense": 187,
+    "stamina": 284
+  },
+  {
+    "pokemonName": "Cresselia",
+    "form": "Normal",
+    "attack": 152,
+    "defense": 258,
+    "stamina": 260
+  },
+  {
+    "pokemonName": "Phione",
+    "form": "Normal",
+    "attack": 162,
+    "defense": 162,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Manaphy",
+    "form": "Normal",
+    "attack": 210,
+    "defense": 210,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Darkrai",
+    "form": "Normal",
+    "attack": 285,
+    "defense": 198,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Shaymin",
+    "form": "Land",
+    "attack": 210,
+    "defense": 210,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Shaymin",
+    "form": "Sky",
+    "attack": 261,
+    "defense": 166,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Bug",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Dark",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Dragon",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Electric",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Fairy",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Fighting",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Fire",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Flying",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Ghost",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Grass",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Ground",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Ice",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Normal",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Poison",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Psychic",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Rock",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Steel",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Arceus",
+    "form": "Water",
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  {
+    "pokemonName": "Victini",
+    "form": "Normal",
+    "attack": 210,
+    "defense": 210,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Snivy",
+    "form": "Normal",
+    "attack": 88,
+    "defense": 107,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Servine",
+    "form": "Normal",
+    "attack": 122,
+    "defense": 152,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Serperior",
+    "form": "Normal",
+    "attack": 161,
+    "defense": 204,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Tepig",
+    "form": "Normal",
+    "attack": 115,
+    "defense": 85,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Pignite",
+    "form": "Normal",
+    "attack": 173,
+    "defense": 106,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Emboar",
+    "form": "Normal",
+    "attack": 235,
+    "defense": 127,
+    "stamina": 242
+  },
+  {
+    "pokemonName": "Oshawott",
+    "form": "Normal",
+    "attack": 117,
+    "defense": 85,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Dewott",
+    "form": "Normal",
+    "attack": 159,
+    "defense": 116,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Samurott",
+    "form": "Hisuian",
+    "attack": 218,
+    "defense": 152,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Samurott",
+    "form": "Normal",
+    "attack": 212,
+    "defense": 157,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Patrat",
+    "form": "Normal",
+    "attack": 98,
+    "defense": 73,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Watchog",
+    "form": "Normal",
+    "attack": 165,
+    "defense": 139,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Lillipup",
+    "form": "Normal",
+    "attack": 107,
+    "defense": 86,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Herdier",
+    "form": "Normal",
+    "attack": 145,
+    "defense": 126,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Stoutland",
+    "form": "Normal",
+    "attack": 206,
+    "defense": 182,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Purrloin",
+    "form": "Normal",
+    "attack": 98,
+    "defense": 73,
+    "stamina": 121
+  },
+  {
+    "pokemonName": "Liepard",
+    "form": "Normal",
+    "attack": 187,
+    "defense": 106,
+    "stamina": 162
+  },
+  {
+    "pokemonName": "Pansage",
+    "form": "Normal",
+    "attack": 104,
+    "defense": 94,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Simisage",
+    "form": "Normal",
+    "attack": 206,
+    "defense": 133,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Pansear",
+    "form": "Normal",
+    "attack": 104,
+    "defense": 94,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Simisear",
+    "form": "Normal",
+    "attack": 206,
+    "defense": 133,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Panpour",
+    "form": "Normal",
+    "attack": 104,
+    "defense": 94,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Simipour",
+    "form": "Normal",
+    "attack": 206,
+    "defense": 133,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Munna",
+    "form": "Normal",
+    "attack": 111,
+    "defense": 92,
+    "stamina": 183
+  },
+  {
+    "pokemonName": "Musharna",
+    "form": "Normal",
+    "attack": 183,
+    "defense": 166,
+    "stamina": 253
+  },
+  {
+    "pokemonName": "Pidove",
+    "form": "Normal",
+    "attack": 98,
+    "defense": 80,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Tranquill",
+    "form": "Normal",
+    "attack": 144,
+    "defense": 107,
+    "stamina": 158
+  },
+  {
+    "pokemonName": "Unfezant",
+    "form": "Normal",
+    "attack": 226,
+    "defense": 146,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Blitzle",
+    "form": "Normal",
+    "attack": 118,
+    "defense": 64,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Zebstrika",
+    "form": "Normal",
+    "attack": 211,
+    "defense": 136,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Roggenrola",
+    "form": "Normal",
+    "attack": 121,
+    "defense": 110,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Boldore",
+    "form": "Normal",
+    "attack": 174,
+    "defense": 143,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Gigalith",
+    "form": "Normal",
+    "attack": 226,
+    "defense": 201,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Woobat",
+    "form": "Normal",
+    "attack": 107,
+    "defense": 85,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Swoobat",
+    "form": "Normal",
+    "attack": 161,
+    "defense": 119,
+    "stamina": 167
+  },
+  {
+    "pokemonName": "Drilbur",
+    "form": "Normal",
+    "attack": 154,
+    "defense": 85,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Excadrill",
+    "form": "Normal",
+    "attack": 255,
+    "defense": 129,
+    "stamina": 242
+  },
+  {
+    "pokemonName": "Audino",
+    "form": "Normal",
+    "attack": 114,
+    "defense": 163,
+    "stamina": 230
+  },
+  {
+    "pokemonName": "Timburr",
+    "form": "Normal",
+    "attack": 134,
+    "defense": 87,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Gurdurr",
+    "form": "Normal",
+    "attack": 180,
+    "defense": 134,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Conkeldurr",
+    "form": "Normal",
+    "attack": 243,
+    "defense": 158,
+    "stamina": 233
+  },
+  {
+    "pokemonName": "Tympole",
+    "form": "Normal",
+    "attack": 98,
+    "defense": 78,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Palpitoad",
+    "form": "Normal",
+    "attack": 128,
+    "defense": 109,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Seismitoad",
+    "form": "Normal",
+    "attack": 188,
+    "defense": 150,
+    "stamina": 233
+  },
+  {
+    "pokemonName": "Throh",
+    "form": "Normal",
+    "attack": 172,
+    "defense": 160,
+    "stamina": 260
+  },
+  {
+    "pokemonName": "Sawk",
+    "form": "Normal",
+    "attack": 231,
+    "defense": 153,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Sewaddle",
+    "form": "Normal",
+    "attack": 96,
+    "defense": 124,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Swadloon",
+    "form": "Normal",
+    "attack": 115,
+    "defense": 162,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Leavanny",
+    "form": "Normal",
+    "attack": 205,
+    "defense": 165,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Venipede",
+    "form": "Normal",
+    "attack": 83,
+    "defense": 99,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Whirlipede",
+    "form": "Normal",
+    "attack": 100,
+    "defense": 173,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Scolipede",
+    "form": "Normal",
+    "attack": 203,
+    "defense": 175,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Cottonee",
+    "form": "Normal",
+    "attack": 71,
+    "defense": 111,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Whimsicott",
+    "form": "Normal",
+    "attack": 164,
+    "defense": 176,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Petilil",
+    "form": "Normal",
+    "attack": 119,
+    "defense": 91,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Lilligant",
+    "form": "Hisuian",
+    "attack": 208,
+    "defense": 159,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Lilligant",
+    "form": "Normal",
+    "attack": 214,
+    "defense": 155,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Basculin",
+    "form": "Blue_striped",
+    "attack": 189,
+    "defense": 129,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Basculin",
+    "form": "Red_striped",
+    "attack": 189,
+    "defense": 129,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Basculin",
+    "form": "White_striped",
+    "attack": 189,
+    "defense": 129,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Sandile",
+    "form": "Normal",
+    "attack": 132,
+    "defense": 69,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Krokorok",
+    "form": "Normal",
+    "attack": 155,
+    "defense": 90,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Krookodile",
+    "form": "Normal",
+    "attack": 229,
+    "defense": 158,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Darumaka",
+    "form": "Galarian",
+    "attack": 153,
+    "defense": 86,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Darumaka",
+    "form": "Normal",
+    "attack": 153,
+    "defense": 86,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Darmanitan",
+    "form": "Galarian_standard",
+    "attack": 263,
+    "defense": 114,
+    "stamina": 233
+  },
+  {
+    "pokemonName": "Darmanitan",
+    "form": "Galarian_zen",
+    "attack": 323,
+    "defense": 123,
+    "stamina": 233
+  },
+  {
+    "pokemonName": "Darmanitan",
+    "form": "Standard",
+    "attack": 263,
+    "defense": 114,
+    "stamina": 233
+  },
+  {
+    "pokemonName": "Darmanitan",
+    "form": "Zen",
+    "attack": 243,
+    "defense": 202,
+    "stamina": 233
+  },
+  {
+    "pokemonName": "Maractus",
+    "form": "Normal",
+    "attack": 201,
+    "defense": 130,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Dwebble",
+    "form": "Normal",
+    "attack": 118,
+    "defense": 128,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Crustle",
+    "form": "Normal",
+    "attack": 188,
+    "defense": 200,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Scraggy",
+    "form": "Normal",
+    "attack": 132,
+    "defense": 132,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Scrafty",
+    "form": "Normal",
+    "attack": 163,
+    "defense": 222,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Sigilyph",
+    "form": "Normal",
+    "attack": 204,
+    "defense": 167,
+    "stamina": 176
+  },
+  {
+    "pokemonName": "Yamask",
+    "form": "Galarian",
+    "attack": 95,
+    "defense": 141,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Yamask",
+    "form": "Normal",
+    "attack": 95,
+    "defense": 141,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Cofagrigus",
+    "form": "Normal",
+    "attack": 163,
+    "defense": 237,
+    "stamina": 151
+  },
+  {
+    "pokemonName": "Tirtouga",
+    "form": "Normal",
+    "attack": 134,
+    "defense": 146,
+    "stamina": 144
+  },
+  {
+    "pokemonName": "Carracosta",
+    "form": "Normal",
+    "attack": 192,
+    "defense": 197,
+    "stamina": 179
+  },
+  {
+    "pokemonName": "Archen",
+    "form": "Normal",
+    "attack": 213,
+    "defense": 89,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Archeops",
+    "form": "Normal",
+    "attack": 292,
+    "defense": 139,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Trubbish",
+    "form": "Normal",
+    "attack": 96,
+    "defense": 122,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Garbodor",
+    "form": "Normal",
+    "attack": 181,
+    "defense": 164,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Zorua",
+    "form": "Hisuian",
+    "attack": 162,
+    "defense": 79,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Zorua",
+    "form": "Normal",
+    "attack": 153,
+    "defense": 78,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Zoroark",
+    "form": "Hisuian",
+    "attack": 261,
+    "defense": 128,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Zoroark",
+    "form": "Normal",
+    "attack": 250,
+    "defense": 127,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Minccino",
+    "form": "Normal",
+    "attack": 98,
+    "defense": 80,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Cinccino",
+    "form": "Normal",
+    "attack": 198,
+    "defense": 130,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Gothita",
+    "form": "Normal",
+    "attack": 98,
+    "defense": 112,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Gothorita",
+    "form": "Normal",
+    "attack": 137,
+    "defense": 153,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Gothitelle",
+    "form": "Normal",
+    "attack": 176,
+    "defense": 205,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Solosis",
+    "form": "Normal",
+    "attack": 170,
+    "defense": 83,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Duosion",
+    "form": "Normal",
+    "attack": 208,
+    "defense": 103,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Reuniclus",
+    "form": "Normal",
+    "attack": 214,
+    "defense": 148,
+    "stamina": 242
+  },
+  {
+    "pokemonName": "Ducklett",
+    "form": "Normal",
+    "attack": 84,
+    "defense": 96,
+    "stamina": 158
+  },
+  {
+    "pokemonName": "Swanna",
+    "form": "Normal",
+    "attack": 182,
+    "defense": 132,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Vanillite",
+    "form": "Normal",
+    "attack": 118,
+    "defense": 106,
+    "stamina": 113
+  },
+  {
+    "pokemonName": "Vanillish",
+    "form": "Normal",
+    "attack": 151,
+    "defense": 138,
+    "stamina": 139
+  },
+  {
+    "pokemonName": "Vanilluxe",
+    "form": "Normal",
+    "attack": 218,
+    "defense": 184,
+    "stamina": 174
+  },
+  {
+    "pokemonName": "Deerling",
+    "form": "Autumn",
+    "attack": 115,
+    "defense": 100,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Deerling",
+    "form": "Spring",
+    "attack": 115,
+    "defense": 100,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Deerling",
+    "form": "Summer",
+    "attack": 115,
+    "defense": 100,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Deerling",
+    "form": "Winter",
+    "attack": 115,
+    "defense": 100,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Sawsbuck",
+    "form": "Autumn",
+    "attack": 198,
+    "defense": 146,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Sawsbuck",
+    "form": "Spring",
+    "attack": 198,
+    "defense": 146,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Sawsbuck",
+    "form": "Summer",
+    "attack": 198,
+    "defense": 146,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Sawsbuck",
+    "form": "Winter",
+    "attack": 198,
+    "defense": 146,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Emolga",
+    "form": "Normal",
+    "attack": 158,
+    "defense": 127,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Karrablast",
+    "form": "Normal",
+    "attack": 137,
+    "defense": 87,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Escavalier",
+    "form": "Normal",
+    "attack": 223,
+    "defense": 187,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Foongus",
+    "form": "Normal",
+    "attack": 97,
+    "defense": 91,
+    "stamina": 170
+  },
+  {
+    "pokemonName": "Amoonguss",
+    "form": "Normal",
+    "attack": 155,
+    "defense": 139,
+    "stamina": 249
+  },
+  {
+    "pokemonName": "Frillish",
+    "form": "Female",
+    "attack": 115,
+    "defense": 134,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Frillish",
+    "form": "Normal",
+    "attack": 115,
+    "defense": 134,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Jellicent",
+    "form": "Female",
+    "attack": 159,
+    "defense": 178,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Jellicent",
+    "form": "Normal",
+    "attack": 159,
+    "defense": 178,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Alomomola",
+    "form": "Normal",
+    "attack": 138,
+    "defense": 131,
+    "stamina": 338
+  },
+  {
+    "pokemonName": "Joltik",
+    "form": "Normal",
+    "attack": 110,
+    "defense": 98,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Galvantula",
+    "form": "Normal",
+    "attack": 201,
+    "defense": 128,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Ferroseed",
+    "form": "Normal",
+    "attack": 82,
+    "defense": 155,
+    "stamina": 127
+  },
+  {
+    "pokemonName": "Ferrothorn",
+    "form": "Normal",
+    "attack": 158,
+    "defense": 223,
+    "stamina": 179
+  },
+  {
+    "pokemonName": "Klink",
+    "form": "Normal",
+    "attack": 98,
+    "defense": 121,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Klang",
+    "form": "Normal",
+    "attack": 150,
+    "defense": 174,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Klinklang",
+    "form": "Normal",
+    "attack": 199,
+    "defense": 214,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Tynamo",
+    "form": "Normal",
+    "attack": 105,
+    "defense": 78,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Eelektrik",
+    "form": "Normal",
+    "attack": 156,
+    "defense": 130,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Eelektross",
+    "form": "Normal",
+    "attack": 217,
+    "defense": 152,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Elgyem",
+    "form": "Normal",
+    "attack": 148,
+    "defense": 100,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Beheeyem",
+    "form": "Normal",
+    "attack": 221,
+    "defense": 163,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Litwick",
+    "form": "Normal",
+    "attack": 108,
+    "defense": 98,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Lampent",
+    "form": "Normal",
+    "attack": 169,
+    "defense": 115,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Chandelure",
+    "form": "Normal",
+    "attack": 271,
+    "defense": 182,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Axew",
+    "form": "Normal",
+    "attack": 154,
+    "defense": 101,
+    "stamina": 130
+  },
+  {
+    "pokemonName": "Fraxure",
+    "form": "Normal",
+    "attack": 212,
+    "defense": 123,
+    "stamina": 165
+  },
+  {
+    "pokemonName": "Haxorus",
+    "form": "Normal",
+    "attack": 284,
+    "defense": 172,
+    "stamina": 183
+  },
+  {
+    "pokemonName": "Cubchoo",
+    "form": "Normal",
+    "attack": 128,
+    "defense": 74,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Cubchoo",
+    "form": "Winter_2020",
+    "attack": 128,
+    "defense": 74,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Beartic",
+    "form": "Normal",
+    "attack": 233,
+    "defense": 152,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Beartic",
+    "form": "Winter_2020",
+    "attack": 233,
+    "defense": 152,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Cryogonal",
+    "form": "Normal",
+    "attack": 190,
+    "defense": 218,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Shelmet",
+    "form": "Normal",
+    "attack": 72,
+    "defense": 140,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Accelgor",
+    "form": "Normal",
+    "attack": 220,
+    "defense": 120,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Stunfisk",
+    "form": "Galarian",
+    "attack": 144,
+    "defense": 171,
+    "stamina": 240
+  },
+  {
+    "pokemonName": "Stunfisk",
+    "form": "Normal",
+    "attack": 144,
+    "defense": 171,
+    "stamina": 240
+  },
+  {
+    "pokemonName": "Mienfoo",
+    "form": "Normal",
+    "attack": 160,
+    "defense": 98,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Mienshao",
+    "form": "Normal",
+    "attack": 258,
+    "defense": 127,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Druddigon",
+    "form": "Normal",
+    "attack": 213,
+    "defense": 170,
+    "stamina": 184
+  },
+  {
+    "pokemonName": "Golett",
+    "form": "Normal",
+    "attack": 127,
+    "defense": 92,
+    "stamina": 153
+  },
+  {
+    "pokemonName": "Golurk",
+    "form": "Normal",
+    "attack": 222,
+    "defense": 154,
+    "stamina": 205
+  },
+  {
+    "pokemonName": "Pawniard",
+    "form": "Normal",
+    "attack": 154,
+    "defense": 114,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Bisharp",
+    "form": "Normal",
+    "attack": 232,
+    "defense": 176,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Bouffalant",
+    "form": "Normal",
+    "attack": 195,
+    "defense": 182,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Rufflet",
+    "form": "Normal",
+    "attack": 150,
+    "defense": 97,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Braviary",
+    "form": "Hisuian",
+    "attack": 213,
+    "defense": 137,
+    "stamina": 242
+  },
+  {
+    "pokemonName": "Braviary",
+    "form": "Normal",
+    "attack": 232,
+    "defense": 152,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Vullaby",
+    "form": "Normal",
+    "attack": 105,
+    "defense": 139,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Mandibuzz",
+    "form": "Normal",
+    "attack": 129,
+    "defense": 205,
+    "stamina": 242
+  },
+  {
+    "pokemonName": "Heatmor",
+    "form": "Normal",
+    "attack": 204,
+    "defense": 129,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Durant",
+    "form": "Normal",
+    "attack": 217,
+    "defense": 188,
+    "stamina": 151
+  },
+  {
+    "pokemonName": "Deino",
+    "form": "Normal",
+    "attack": 116,
+    "defense": 93,
+    "stamina": 141
+  },
+  {
+    "pokemonName": "Zweilous",
+    "form": "Normal",
+    "attack": 159,
+    "defense": 135,
+    "stamina": 176
+  },
+  {
+    "pokemonName": "Hydreigon",
+    "form": "Normal",
+    "attack": 256,
+    "defense": 188,
+    "stamina": 211
+  },
+  {
+    "pokemonName": "Larvesta",
+    "form": "Normal",
+    "attack": 156,
+    "defense": 107,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Volcarona",
+    "form": "Normal",
+    "attack": 264,
+    "defense": 189,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Cobalion",
+    "form": "Normal",
+    "attack": 192,
+    "defense": 229,
+    "stamina": 209
+  },
+  {
+    "pokemonName": "Terrakion",
+    "form": "Normal",
+    "attack": 260,
+    "defense": 192,
+    "stamina": 209
+  },
+  {
+    "pokemonName": "Virizion",
+    "form": "Normal",
+    "attack": 192,
+    "defense": 229,
+    "stamina": 209
+  },
+  {
+    "pokemonName": "Tornadus",
+    "form": "Incarnate",
+    "attack": 266,
+    "defense": 164,
+    "stamina": 188
+  },
+  {
+    "pokemonName": "Tornadus",
+    "form": "Therian",
+    "attack": 238,
+    "defense": 189,
+    "stamina": 188
+  },
+  {
+    "pokemonName": "Thundurus",
+    "form": "Incarnate",
+    "attack": 266,
+    "defense": 164,
+    "stamina": 188
+  },
+  {
+    "pokemonName": "Thundurus",
+    "form": "Therian",
+    "attack": 295,
+    "defense": 161,
+    "stamina": 188
+  },
+  {
+    "pokemonName": "Reshiram",
+    "form": "Normal",
+    "attack": 275,
+    "defense": 211,
+    "stamina": 205
+  },
+  {
+    "pokemonName": "Zekrom",
+    "form": "Normal",
+    "attack": 275,
+    "defense": 211,
+    "stamina": 205
+  },
+  {
+    "pokemonName": "Landorus",
+    "form": "Incarnate",
+    "attack": 261,
+    "defense": 182,
+    "stamina": 205
+  },
+  {
+    "pokemonName": "Landorus",
+    "form": "Therian",
+    "attack": 289,
+    "defense": 179,
+    "stamina": 205
+  },
+  {
+    "pokemonName": "Kyurem",
+    "form": "Black",
+    "attack": 310,
+    "defense": 183,
+    "stamina": 245
+  },
+  {
+    "pokemonName": "Kyurem",
+    "form": "Normal",
+    "attack": 246,
+    "defense": 170,
+    "stamina": 245
+  },
+  {
+    "pokemonName": "Kyurem",
+    "form": "White",
+    "attack": 310,
+    "defense": 183,
+    "stamina": 245
+  },
+  {
+    "pokemonName": "Keldeo",
+    "form": "Ordinary",
+    "attack": 260,
+    "defense": 192,
+    "stamina": 209
+  },
+  {
+    "pokemonName": "Keldeo",
+    "form": "Resolute",
+    "attack": 260,
+    "defense": 192,
+    "stamina": 209
+  },
+  {
+    "pokemonName": "Meloetta",
+    "form": "Aria",
+    "attack": 250,
+    "defense": 225,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Meloetta",
+    "form": "Pirouette",
+    "attack": 269,
+    "defense": 188,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Genesect",
+    "form": "Burn",
+    "attack": 252,
+    "defense": 199,
+    "stamina": 174
+  },
+  {
+    "pokemonName": "Genesect",
+    "form": "Chill",
+    "attack": 252,
+    "defense": 199,
+    "stamina": 174
+  },
+  {
+    "pokemonName": "Genesect",
+    "form": "Douse",
+    "attack": 252,
+    "defense": 199,
+    "stamina": 174
+  },
+  {
+    "pokemonName": "Genesect",
+    "form": "Normal",
+    "attack": 252,
+    "defense": 199,
+    "stamina": 174
+  },
+  {
+    "pokemonName": "Genesect",
+    "form": "Shock",
+    "attack": 252,
+    "defense": 199,
+    "stamina": 174
+  },
+  {
+    "pokemonName": "Chespin",
+    "form": "Normal",
+    "attack": 110,
+    "defense": 106,
+    "stamina": 148
+  },
+  {
+    "pokemonName": "Quilladin",
+    "form": "Normal",
+    "attack": 146,
+    "defense": 156,
+    "stamina": 156
+  },
+  {
+    "pokemonName": "Chesnaught",
+    "form": "Normal",
+    "attack": 201,
+    "defense": 204,
+    "stamina": 204
+  },
+  {
+    "pokemonName": "Fennekin",
+    "form": "Normal",
+    "attack": 116,
+    "defense": 102,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Braixen",
+    "form": "Normal",
+    "attack": 171,
+    "defense": 130,
+    "stamina": 153
+  },
+  {
+    "pokemonName": "Delphox",
+    "form": "Normal",
+    "attack": 230,
+    "defense": 189,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Froakie",
+    "form": "Normal",
+    "attack": 122,
+    "defense": 84,
+    "stamina": 121
+  },
+  {
+    "pokemonName": "Frogadier",
+    "form": "Normal",
+    "attack": 168,
+    "defense": 114,
+    "stamina": 144
+  },
+  {
+    "pokemonName": "Greninja",
+    "form": "Normal",
+    "attack": 223,
+    "defense": 152,
+    "stamina": 176
+  },
+  {
+    "pokemonName": "Bunnelby",
+    "form": "Normal",
+    "attack": 68,
+    "defense": 72,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Diggersby",
+    "form": "Normal",
+    "attack": 112,
+    "defense": 155,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Fletchling",
+    "form": "Normal",
+    "attack": 95,
+    "defense": 80,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Fletchinder",
+    "form": "Normal",
+    "attack": 145,
+    "defense": 110,
+    "stamina": 158
+  },
+  {
+    "pokemonName": "Talonflame",
+    "form": "Normal",
+    "attack": 176,
+    "defense": 155,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Archipelago",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Continental",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Elegant",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Fancy",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Garden",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "High_plains",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Icy_snow",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Jungle",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Marine",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Meadow",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Modern",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Monsoon",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Ocean",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Pokeball",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Polar",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "River",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Sandstorm",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Savanna",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Sun",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Scatterbug",
+    "form": "Tundra",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Archipelago",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Continental",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Elegant",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Fancy",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Garden",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "High_plains",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Icy_snow",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Jungle",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Marine",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Meadow",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Modern",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Monsoon",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Ocean",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Pokeball",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Polar",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "River",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Sandstorm",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Savanna",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Sun",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Spewpa",
+    "form": "Tundra",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Archipelago",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Continental",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Elegant",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Fancy",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Garden",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "High_plains",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Icy_snow",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Jungle",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Marine",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Meadow",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Modern",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Monsoon",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Ocean",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Pokeball",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Polar",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "River",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Sandstorm",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Savanna",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Sun",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Vivillon",
+    "form": "Tundra",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Litleo",
+    "form": "Normal",
+    "attack": 139,
+    "defense": 112,
+    "stamina": 158
+  },
+  {
+    "pokemonName": "Pyroar",
+    "form": "Female",
+    "attack": 221,
+    "defense": 149,
+    "stamina": 200
+  },
+  {
+    "pokemonName": "Pyroar",
+    "form": "Normal",
+    "attack": 221,
+    "defense": 149,
+    "stamina": 200
+  },
+  {
+    "pokemonName": "Flabebe",
+    "form": "Blue",
+    "attack": 108,
+    "defense": 120,
+    "stamina": 127
+  },
+  {
+    "pokemonName": "Flabebe",
+    "form": "Orange",
+    "attack": 108,
+    "defense": 120,
+    "stamina": 127
+  },
+  {
+    "pokemonName": "Flabebe",
+    "form": "Red",
+    "attack": 108,
+    "defense": 120,
+    "stamina": 127
+  },
+  {
+    "pokemonName": "Flabebe",
+    "form": "White",
+    "attack": 108,
+    "defense": 120,
+    "stamina": 127
+  },
+  {
+    "pokemonName": "Flabebe",
+    "form": "Yellow",
+    "attack": 108,
+    "defense": 120,
+    "stamina": 127
+  },
+  {
+    "pokemonName": "Floette",
+    "form": "Blue",
+    "attack": 136,
+    "defense": 151,
+    "stamina": 144
+  },
+  {
+    "pokemonName": "Floette",
+    "form": "Orange",
+    "attack": 136,
+    "defense": 151,
+    "stamina": 144
+  },
+  {
+    "pokemonName": "Floette",
+    "form": "Red",
+    "attack": 136,
+    "defense": 151,
+    "stamina": 144
+  },
+  {
+    "pokemonName": "Floette",
+    "form": "White",
+    "attack": 136,
+    "defense": 151,
+    "stamina": 144
+  },
+  {
+    "pokemonName": "Floette",
+    "form": "Yellow",
+    "attack": 136,
+    "defense": 151,
+    "stamina": 144
+  },
+  {
+    "pokemonName": "Florges",
+    "form": "Blue",
+    "attack": 212,
+    "defense": 244,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Florges",
+    "form": "Orange",
+    "attack": 212,
+    "defense": 244,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Florges",
+    "form": "Red",
+    "attack": 212,
+    "defense": 244,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Florges",
+    "form": "White",
+    "attack": 212,
+    "defense": 244,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Florges",
+    "form": "Yellow",
+    "attack": 212,
+    "defense": 244,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Skiddo",
+    "form": "Normal",
+    "attack": 123,
+    "defense": 102,
+    "stamina": 165
+  },
+  {
+    "pokemonName": "Gogoat",
+    "form": "Normal",
+    "attack": 196,
+    "defense": 146,
+    "stamina": 265
+  },
+  {
+    "pokemonName": "Pancham",
+    "form": "Normal",
+    "attack": 145,
+    "defense": 107,
+    "stamina": 167
+  },
+  {
+    "pokemonName": "Pangoro",
+    "form": "Normal",
+    "attack": 226,
+    "defense": 146,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Furfrou",
+    "form": "Dandy",
+    "attack": 164,
+    "defense": 167,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Furfrou",
+    "form": "Debutante",
+    "attack": 164,
+    "defense": 167,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Furfrou",
+    "form": "Diamond",
+    "attack": 164,
+    "defense": 167,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Furfrou",
+    "form": "Heart",
+    "attack": 164,
+    "defense": 167,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Furfrou",
+    "form": "Kabuki",
+    "attack": 164,
+    "defense": 167,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Furfrou",
+    "form": "La_reine",
+    "attack": 164,
+    "defense": 167,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Furfrou",
+    "form": "Matron",
+    "attack": 164,
+    "defense": 167,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Furfrou",
+    "form": "Natural",
+    "attack": 164,
+    "defense": 167,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Furfrou",
+    "form": "Pharaoh",
+    "attack": 164,
+    "defense": 167,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Furfrou",
+    "form": "Star",
+    "attack": 164,
+    "defense": 167,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Espurr",
+    "form": "Normal",
+    "attack": 120,
+    "defense": 114,
+    "stamina": 158
+  },
+  {
+    "pokemonName": "Meowstic",
+    "form": "Female",
+    "attack": 166,
+    "defense": 167,
+    "stamina": 179
+  },
+  {
+    "pokemonName": "Meowstic",
+    "form": "Normal",
+    "attack": 166,
+    "defense": 167,
+    "stamina": 179
+  },
+  {
+    "pokemonName": "Honedge",
+    "form": "Normal",
+    "attack": 135,
+    "defense": 139,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Doublade",
+    "form": "Normal",
+    "attack": 188,
+    "defense": 206,
+    "stamina": 153
+  },
+  {
+    "pokemonName": "Aegislash",
+    "form": "Blade",
+    "attack": 272,
+    "defense": 97,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Aegislash",
+    "form": "Shield",
+    "attack": 97,
+    "defense": 272,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Spritzee",
+    "form": "Normal",
+    "attack": 110,
+    "defense": 113,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Aromatisse",
+    "form": "Normal",
+    "attack": 173,
+    "defense": 150,
+    "stamina": 226
+  },
+  {
+    "pokemonName": "Swirlix",
+    "form": "Normal",
+    "attack": 109,
+    "defense": 119,
+    "stamina": 158
+  },
+  {
+    "pokemonName": "Slurpuff",
+    "form": "Normal",
+    "attack": 168,
+    "defense": 163,
+    "stamina": 193
+  },
+  {
+    "pokemonName": "Inkay",
+    "form": "Normal",
+    "attack": 98,
+    "defense": 95,
+    "stamina": 142
+  },
+  {
+    "pokemonName": "Malamar",
+    "form": "Normal",
+    "attack": 177,
+    "defense": 165,
+    "stamina": 200
+  },
+  {
+    "pokemonName": "Binacle",
+    "form": "Normal",
+    "attack": 96,
+    "defense": 120,
+    "stamina": 123
+  },
+  {
+    "pokemonName": "Barbaracle",
+    "form": "Normal",
+    "attack": 194,
+    "defense": 205,
+    "stamina": 176
+  },
+  {
+    "pokemonName": "Skrelp",
+    "form": "Normal",
+    "attack": 109,
+    "defense": 109,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Dragalge",
+    "form": "Normal",
+    "attack": 177,
+    "defense": 207,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Clauncher",
+    "form": "Normal",
+    "attack": 108,
+    "defense": 117,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Clawitzer",
+    "form": "Normal",
+    "attack": 221,
+    "defense": 171,
+    "stamina": 174
+  },
+  {
+    "pokemonName": "Helioptile",
+    "form": "Normal",
+    "attack": 115,
+    "defense": 78,
+    "stamina": 127
+  },
+  {
+    "pokemonName": "Heliolisk",
+    "form": "Normal",
+    "attack": 219,
+    "defense": 168,
+    "stamina": 158
+  },
+  {
+    "pokemonName": "Tyrunt",
+    "form": "Normal",
+    "attack": 158,
+    "defense": 123,
+    "stamina": 151
+  },
+  {
+    "pokemonName": "Tyrantrum",
+    "form": "Normal",
+    "attack": 227,
+    "defense": 191,
+    "stamina": 193
+  },
+  {
+    "pokemonName": "Amaura",
+    "form": "Normal",
+    "attack": 124,
+    "defense": 109,
+    "stamina": 184
+  },
+  {
+    "pokemonName": "Aurorus",
+    "form": "Normal",
+    "attack": 186,
+    "defense": 163,
+    "stamina": 265
+  },
+  {
+    "pokemonName": "Sylveon",
+    "form": "Normal",
+    "attack": 203,
+    "defense": 205,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Hawlucha",
+    "form": "Normal",
+    "attack": 195,
+    "defense": 153,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Dedenne",
+    "form": "Normal",
+    "attack": 164,
+    "defense": 134,
+    "stamina": 167
+  },
+  {
+    "pokemonName": "Carbink",
+    "form": "Normal",
+    "attack": 95,
+    "defense": 285,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Goomy",
+    "form": "Normal",
+    "attack": 101,
+    "defense": 112,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Sliggoo",
+    "form": "Normal",
+    "attack": 159,
+    "defense": 176,
+    "stamina": 169
+  },
+  {
+    "pokemonName": "Goodra",
+    "form": "Normal",
+    "attack": 220,
+    "defense": 242,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Klefki",
+    "form": "Normal",
+    "attack": 160,
+    "defense": 179,
+    "stamina": 149
+  },
+  {
+    "pokemonName": "Phantump",
+    "form": "Normal",
+    "attack": 125,
+    "defense": 103,
+    "stamina": 125
+  },
+  {
+    "pokemonName": "Trevenant",
+    "form": "Normal",
+    "attack": 201,
+    "defense": 154,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Pumpkaboo",
+    "form": "Average",
+    "attack": 121,
+    "defense": 123,
+    "stamina": 135
+  },
+  {
+    "pokemonName": "Pumpkaboo",
+    "form": "Large",
+    "attack": 120,
+    "defense": 122,
+    "stamina": 144
+  },
+  {
+    "pokemonName": "Pumpkaboo",
+    "form": "Small",
+    "attack": 122,
+    "defense": 124,
+    "stamina": 127
+  },
+  {
+    "pokemonName": "Pumpkaboo",
+    "form": "Super",
+    "attack": 118,
+    "defense": 120,
+    "stamina": 153
+  },
+  {
+    "pokemonName": "Gourgeist",
+    "form": "Average",
+    "attack": 175,
+    "defense": 213,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Gourgeist",
+    "form": "Large",
+    "attack": 179,
+    "defense": 206,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Gourgeist",
+    "form": "Small",
+    "attack": 171,
+    "defense": 219,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Gourgeist",
+    "form": "Super",
+    "attack": 182,
+    "defense": 200,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Bergmite",
+    "form": "Normal",
+    "attack": 117,
+    "defense": 120,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Avalugg",
+    "form": "Hisuian",
+    "attack": 214,
+    "defense": 238,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Avalugg",
+    "form": "Normal",
+    "attack": 196,
+    "defense": 240,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Noibat",
+    "form": "Normal",
+    "attack": 83,
+    "defense": 73,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Noivern",
+    "form": "Normal",
+    "attack": 205,
+    "defense": 175,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Xerneas",
+    "form": "Normal",
+    "attack": 250,
+    "defense": 185,
+    "stamina": 246
+  },
+  {
+    "pokemonName": "Yveltal",
+    "form": "Normal",
+    "attack": 250,
+    "defense": 185,
+    "stamina": 246
+  },
+  {
+    "pokemonName": "Zygarde",
+    "form": "Complete",
+    "attack": 184,
+    "defense": 207,
+    "stamina": 389
+  },
+  {
+    "pokemonName": "Zygarde",
+    "form": "Complete_fifty_percent",
+    "attack": 203,
+    "defense": 232,
+    "stamina": 239
+  },
+  {
+    "pokemonName": "Zygarde",
+    "form": "Complete_ten_percent",
+    "attack": 205,
+    "defense": 173,
+    "stamina": 144
+  },
+  {
+    "pokemonName": "Zygarde",
+    "form": "Fifty_percent",
+    "attack": 203,
+    "defense": 232,
+    "stamina": 239
+  },
+  {
+    "pokemonName": "Zygarde",
+    "form": "Ten_percent",
+    "attack": 205,
+    "defense": 173,
+    "stamina": 144
+  },
+  {
+    "pokemonName": "Diancie",
+    "form": "Normal",
+    "attack": 190,
+    "defense": 285,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Hoopa",
+    "form": "Confined",
+    "attack": 261,
+    "defense": 187,
+    "stamina": 173
+  },
+  {
+    "pokemonName": "Hoopa",
+    "form": "Unbound",
+    "attack": 311,
+    "defense": 191,
+    "stamina": 173
+  },
+  {
+    "pokemonName": "Volcanion",
+    "form": "Normal",
+    "attack": 252,
+    "defense": 216,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Rowlet",
+    "form": "Normal",
+    "attack": 102,
+    "defense": 99,
+    "stamina": 169
+  },
+  {
+    "pokemonName": "Dartrix",
+    "form": "Normal",
+    "attack": 142,
+    "defense": 139,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Decidueye",
+    "form": "Hisuian",
+    "attack": 213,
+    "defense": 174,
+    "stamina": 204
+  },
+  {
+    "pokemonName": "Decidueye",
+    "form": "Normal",
+    "attack": 210,
+    "defense": 179,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Litten",
+    "form": "Normal",
+    "attack": 128,
+    "defense": 79,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Torracat",
+    "form": "Normal",
+    "attack": 174,
+    "defense": 103,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Incineroar",
+    "form": "Normal",
+    "attack": 214,
+    "defense": 175,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Popplio",
+    "form": "Normal",
+    "attack": 120,
+    "defense": 103,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Brionne",
+    "form": "Normal",
+    "attack": 168,
+    "defense": 145,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Primarina",
+    "form": "Normal",
+    "attack": 232,
+    "defense": 195,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Pikipek",
+    "form": "Normal",
+    "attack": 136,
+    "defense": 59,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Trumbeak",
+    "form": "Normal",
+    "attack": 159,
+    "defense": 100,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Toucannon",
+    "form": "Normal",
+    "attack": 222,
+    "defense": 146,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Yungoos",
+    "form": "Normal",
+    "attack": 122,
+    "defense": 56,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Gumshoos",
+    "form": "Normal",
+    "attack": 194,
+    "defense": 113,
+    "stamina": 204
+  },
+  {
+    "pokemonName": "Grubbin",
+    "form": "Normal",
+    "attack": 115,
+    "defense": 85,
+    "stamina": 132
+  },
+  {
+    "pokemonName": "Charjabug",
+    "form": "Normal",
+    "attack": 145,
+    "defense": 161,
+    "stamina": 149
+  },
+  {
+    "pokemonName": "Vikavolt",
+    "form": "Normal",
+    "attack": 254,
+    "defense": 158,
+    "stamina": 184
+  },
+  {
+    "pokemonName": "Crabrawler",
+    "form": "Normal",
+    "attack": 150,
+    "defense": 104,
+    "stamina": 132
+  },
+  {
+    "pokemonName": "Crabominable",
+    "form": "Normal",
+    "attack": 231,
+    "defense": 138,
+    "stamina": 219
+  },
+  {
+    "pokemonName": "Oricorio",
+    "form": "Baile",
+    "attack": 196,
+    "defense": 145,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Oricorio",
+    "form": "Pau",
+    "attack": 196,
+    "defense": 145,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Oricorio",
+    "form": "Pompom",
+    "attack": 196,
+    "defense": 145,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Oricorio",
+    "form": "Sensu",
+    "attack": 196,
+    "defense": 145,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Cutiefly",
+    "form": "Normal",
+    "attack": 110,
+    "defense": 81,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Ribombee",
+    "form": "Normal",
+    "attack": 198,
+    "defense": 146,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Rockruff",
+    "form": "Dusk",
+    "attack": 117,
+    "defense": 78,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Rockruff",
+    "form": "Normal",
+    "attack": 117,
+    "defense": 78,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Lycanroc",
+    "form": "Dusk",
+    "attack": 234,
+    "defense": 139,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Lycanroc",
+    "form": "Midday",
+    "attack": 231,
+    "defense": 140,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Lycanroc",
+    "form": "Midnight",
+    "attack": 218,
+    "defense": 152,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Wishiwashi",
+    "form": "School",
+    "attack": 255,
+    "defense": 242,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Wishiwashi",
+    "form": "Solo",
+    "attack": 46,
+    "defense": 43,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Mareanie",
+    "form": "Normal",
+    "attack": 98,
+    "defense": 110,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Toxapex",
+    "form": "Normal",
+    "attack": 114,
+    "defense": 273,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Mudbray",
+    "form": "Normal",
+    "attack": 175,
+    "defense": 121,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Mudsdale",
+    "form": "Normal",
+    "attack": 214,
+    "defense": 174,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Dewpider",
+    "form": "Normal",
+    "attack": 72,
+    "defense": 117,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Araquanid",
+    "form": "Normal",
+    "attack": 126,
+    "defense": 219,
+    "stamina": 169
+  },
+  {
+    "pokemonName": "Fomantis",
+    "form": "Normal",
+    "attack": 100,
+    "defense": 64,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Lurantis",
+    "form": "Normal",
+    "attack": 192,
+    "defense": 169,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Morelull",
+    "form": "Normal",
+    "attack": 108,
+    "defense": 119,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Shiinotic",
+    "form": "Normal",
+    "attack": 154,
+    "defense": 168,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Salandit",
+    "form": "Normal",
+    "attack": 136,
+    "defense": 80,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Salazzle",
+    "form": "Normal",
+    "attack": 228,
+    "defense": 130,
+    "stamina": 169
+  },
+  {
+    "pokemonName": "Stufful",
+    "form": "Normal",
+    "attack": 136,
+    "defense": 95,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Bewear",
+    "form": "Normal",
+    "attack": 226,
+    "defense": 141,
+    "stamina": 260
+  },
+  {
+    "pokemonName": "Bewear",
+    "form": "Wildarea_2025",
+    "attack": 226,
+    "defense": 141,
+    "stamina": 260
+  },
+  {
+    "pokemonName": "Bounsweet",
+    "form": "Normal",
+    "attack": 55,
+    "defense": 69,
+    "stamina": 123
+  },
+  {
+    "pokemonName": "Steenee",
+    "form": "Normal",
+    "attack": 78,
+    "defense": 94,
+    "stamina": 141
+  },
+  {
+    "pokemonName": "Tsareena",
+    "form": "Normal",
+    "attack": 222,
+    "defense": 195,
+    "stamina": 176
+  },
+  {
+    "pokemonName": "Comfey",
+    "form": "Normal",
+    "attack": 165,
+    "defense": 215,
+    "stamina": 139
+  },
+  {
+    "pokemonName": "Oranguru",
+    "form": "Normal",
+    "attack": 168,
+    "defense": 192,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Passimian",
+    "form": "Normal",
+    "attack": 222,
+    "defense": 160,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Wimpod",
+    "form": "Normal",
+    "attack": 67,
+    "defense": 74,
+    "stamina": 93
+  },
+  {
+    "pokemonName": "Golisopod",
+    "form": "Normal",
+    "attack": 218,
+    "defense": 226,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Sandygast",
+    "form": "Normal",
+    "attack": 120,
+    "defense": 118,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Palossand",
+    "form": "Normal",
+    "attack": 178,
+    "defense": 178,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Pyukumuku",
+    "form": "Normal",
+    "attack": 97,
+    "defense": 224,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Type: Null",
+    "form": "Normal",
+    "attack": 184,
+    "defense": 184,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Bug",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Dark",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Dragon",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Electric",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Fairy",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Fighting",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Fire",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Flying",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Ghost",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Grass",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Ground",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Ice",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Normal",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Poison",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Psychic",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Rock",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Steel",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Silvally",
+    "form": "Water",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Minior",
+    "form": "Blue",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Minior",
+    "form": "Green",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Minior",
+    "form": "Indigo",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Minior",
+    "form": "Orange",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Minior",
+    "form": "Red",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Minior",
+    "form": "Violet",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Minior",
+    "form": "Yellow",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Komala",
+    "form": "Normal",
+    "attack": 216,
+    "defense": 165,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Turtonator",
+    "form": "Normal",
+    "attack": 165,
+    "defense": 215,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Togedemaru",
+    "form": "Normal",
+    "attack": 190,
+    "defense": 145,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Mimikyu",
+    "form": "Busted",
+    "attack": 177,
+    "defense": 199,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Mimikyu",
+    "form": "Disguised",
+    "attack": 177,
+    "defense": 199,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Bruxish",
+    "form": "Normal",
+    "attack": 208,
+    "defense": 145,
+    "stamina": 169
+  },
+  {
+    "pokemonName": "Drampa",
+    "form": "Normal",
+    "attack": 231,
+    "defense": 164,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Dhelmise",
+    "form": "Normal",
+    "attack": 233,
+    "defense": 179,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Jangmo-o",
+    "form": "Normal",
+    "attack": 102,
+    "defense": 108,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Hakamo-o",
+    "form": "Normal",
+    "attack": 145,
+    "defense": 162,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Kommo-o",
+    "form": "Normal",
+    "attack": 222,
+    "defense": 240,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Tapu Koko",
+    "form": "Normal",
+    "attack": 250,
+    "defense": 181,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Tapu Lele",
+    "form": "Normal",
+    "attack": 259,
+    "defense": 208,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Tapu Bulu",
+    "form": "Normal",
+    "attack": 249,
+    "defense": 215,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Tapu Fini",
+    "form": "Normal",
+    "attack": 189,
+    "defense": 254,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Cosmog",
+    "form": "Normal",
+    "attack": 54,
+    "defense": 57,
+    "stamina": 125
+  },
+  {
+    "pokemonName": "Cosmoem",
+    "form": "Normal",
+    "attack": 54,
+    "defense": 242,
+    "stamina": 125
+  },
+  {
+    "pokemonName": "Solgaleo",
+    "form": "Normal",
+    "attack": 255,
+    "defense": 191,
+    "stamina": 264
+  },
+  {
+    "pokemonName": "Lunala",
+    "form": "Normal",
+    "attack": 255,
+    "defense": 191,
+    "stamina": 264
+  },
+  {
+    "pokemonName": "Nihilego",
+    "form": "Normal",
+    "attack": 249,
+    "defense": 210,
+    "stamina": 240
+  },
+  {
+    "pokemonName": "Buzzwole",
+    "form": "Normal",
+    "attack": 236,
+    "defense": 196,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Pheromosa",
+    "form": "Normal",
+    "attack": 316,
+    "defense": 85,
+    "stamina": 174
+  },
+  {
+    "pokemonName": "Xurkitree",
+    "form": "Normal",
+    "attack": 330,
+    "defense": 144,
+    "stamina": 195
+  },
+  {
+    "pokemonName": "Celesteela",
+    "form": "Normal",
+    "attack": 207,
+    "defense": 199,
+    "stamina": 219
+  },
+  {
+    "pokemonName": "Kartana",
+    "form": "Normal",
+    "attack": 323,
+    "defense": 182,
+    "stamina": 139
+  },
+  {
+    "pokemonName": "Guzzlord",
+    "form": "Normal",
+    "attack": 188,
+    "defense": 99,
+    "stamina": 440
+  },
+  {
+    "pokemonName": "Necrozma",
+    "form": "Dawn_wings",
+    "attack": 277,
+    "defense": 220,
+    "stamina": 200
+  },
+  {
+    "pokemonName": "Necrozma",
+    "form": "Dusk_mane",
+    "attack": 277,
+    "defense": 220,
+    "stamina": 200
+  },
+  {
+    "pokemonName": "Necrozma",
+    "form": "Normal",
+    "attack": 251,
+    "defense": 195,
+    "stamina": 219
+  },
+  {
+    "pokemonName": "Necrozma",
+    "form": "Ultra",
+    "attack": 337,
+    "defense": 196,
+    "stamina": 200
+  },
+  {
+    "pokemonName": "Magearna",
+    "form": "Normal",
+    "attack": 246,
+    "defense": 225,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Magearna",
+    "form": "Original_color",
+    "attack": 246,
+    "defense": 225,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Marshadow",
+    "form": "Normal",
+    "attack": 265,
+    "defense": 190,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Poipole",
+    "form": "Normal",
+    "attack": 145,
+    "defense": 133,
+    "stamina": 167
+  },
+  {
+    "pokemonName": "Naganadel",
+    "form": "Normal",
+    "attack": 263,
+    "defense": 159,
+    "stamina": 177
+  },
+  {
+    "pokemonName": "Stakataka",
+    "form": "Normal",
+    "attack": 213,
+    "defense": 298,
+    "stamina": 156
+  },
+  {
+    "pokemonName": "Blacephalon",
+    "form": "Normal",
+    "attack": 315,
+    "defense": 148,
+    "stamina": 142
+  },
+  {
+    "pokemonName": "Zeraora",
+    "form": "Normal",
+    "attack": 252,
+    "defense": 177,
+    "stamina": 204
+  },
+  {
+    "pokemonName": "Meltan",
+    "form": "Normal",
+    "attack": 118,
+    "defense": 99,
+    "stamina": 130
+  },
+  {
+    "pokemonName": "Melmetal",
+    "form": "Normal",
+    "attack": 226,
+    "defense": 190,
+    "stamina": 264
+  },
+  {
+    "pokemonName": "Grookey",
+    "form": "Normal",
+    "attack": 122,
+    "defense": 91,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Thwackey",
+    "form": "Normal",
+    "attack": 165,
+    "defense": 134,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Rillaboom",
+    "form": "Normal",
+    "attack": 239,
+    "defense": 168,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Scorbunny",
+    "form": "Normal",
+    "attack": 132,
+    "defense": 79,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Raboot",
+    "form": "Normal",
+    "attack": 170,
+    "defense": 125,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Cinderace",
+    "form": "Normal",
+    "attack": 238,
+    "defense": 163,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Sobble",
+    "form": "Normal",
+    "attack": 132,
+    "defense": 79,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Drizzile",
+    "form": "Normal",
+    "attack": 186,
+    "defense": 113,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Inteleon",
+    "form": "Normal",
+    "attack": 262,
+    "defense": 142,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Skwovet",
+    "form": "Normal",
+    "attack": 95,
+    "defense": 86,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Greedent",
+    "form": "Normal",
+    "attack": 160,
+    "defense": 156,
+    "stamina": 260
+  },
+  {
+    "pokemonName": "Rookidee",
+    "form": "Normal",
+    "attack": 88,
+    "defense": 67,
+    "stamina": 116
+  },
+  {
+    "pokemonName": "Corvisquire",
+    "form": "Normal",
+    "attack": 129,
+    "defense": 110,
+    "stamina": 169
+  },
+  {
+    "pokemonName": "Corviknight",
+    "form": "Normal",
+    "attack": 163,
+    "defense": 192,
+    "stamina": 221
+  },
+  {
+    "pokemonName": "Blipbug",
+    "form": "Normal",
+    "attack": 46,
+    "defense": 67,
+    "stamina": 93
+  },
+  {
+    "pokemonName": "Dottler",
+    "form": "Normal",
+    "attack": 87,
+    "defense": 157,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Orbeetle",
+    "form": "Normal",
+    "attack": 156,
+    "defense": 240,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Nickit",
+    "form": "Normal",
+    "attack": 85,
+    "defense": 82,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Thievul",
+    "form": "Normal",
+    "attack": 172,
+    "defense": 164,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Gossifleur",
+    "form": "Normal",
+    "attack": 70,
+    "defense": 104,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Eldegoss",
+    "form": "Normal",
+    "attack": 148,
+    "defense": 211,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Wooloo",
+    "form": "Normal",
+    "attack": 76,
+    "defense": 97,
+    "stamina": 123
+  },
+  {
+    "pokemonName": "Dubwool",
+    "form": "Normal",
+    "attack": 159,
+    "defense": 198,
+    "stamina": 176
+  },
+  {
+    "pokemonName": "Chewtle",
+    "form": "Normal",
+    "attack": 114,
+    "defense": 85,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Drednaw",
+    "form": "Normal",
+    "attack": 213,
+    "defense": 164,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Yamper",
+    "form": "Normal",
+    "attack": 80,
+    "defense": 90,
+    "stamina": 153
+  },
+  {
+    "pokemonName": "Boltund",
+    "form": "Normal",
+    "attack": 197,
+    "defense": 131,
+    "stamina": 170
+  },
+  {
+    "pokemonName": "Rolycoly",
+    "form": "Normal",
+    "attack": 73,
+    "defense": 91,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Carkol",
+    "form": "Normal",
+    "attack": 114,
+    "defense": 157,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Coalossal",
+    "form": "Normal",
+    "attack": 146,
+    "defense": 198,
+    "stamina": 242
+  },
+  {
+    "pokemonName": "Applin",
+    "form": "Normal",
+    "attack": 71,
+    "defense": 116,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Flapple",
+    "form": "Normal",
+    "attack": 214,
+    "defense": 144,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Appletun",
+    "form": "Normal",
+    "attack": 178,
+    "defense": 146,
+    "stamina": 242
+  },
+  {
+    "pokemonName": "Silicobra",
+    "form": "Normal",
+    "attack": 103,
+    "defense": 123,
+    "stamina": 141
+  },
+  {
+    "pokemonName": "Sandaconda",
+    "form": "Normal",
+    "attack": 202,
+    "defense": 207,
+    "stamina": 176
+  },
+  {
+    "pokemonName": "Cramorant",
+    "form": "Normal",
+    "attack": 173,
+    "defense": 163,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Arrokuda",
+    "form": "Normal",
+    "attack": 118,
+    "defense": 72,
+    "stamina": 121
+  },
+  {
+    "pokemonName": "Barraskewda",
+    "form": "Normal",
+    "attack": 258,
+    "defense": 127,
+    "stamina": 156
+  },
+  {
+    "pokemonName": "Toxel",
+    "form": "Normal",
+    "attack": 97,
+    "defense": 65,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Toxtricity",
+    "form": "Amped",
+    "attack": 224,
+    "defense": 140,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Toxtricity",
+    "form": "Low_key",
+    "attack": 224,
+    "defense": 140,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Sizzlipede",
+    "form": "Normal",
+    "attack": 118,
+    "defense": 90,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Centiskorch",
+    "form": "Normal",
+    "attack": 220,
+    "defense": 158,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Clobbopus",
+    "form": "Normal",
+    "attack": 121,
+    "defense": 103,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Grapploct",
+    "form": "Normal",
+    "attack": 209,
+    "defense": 162,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Sinistea",
+    "form": "Antique",
+    "attack": 134,
+    "defense": 96,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Sinistea",
+    "form": "Phony",
+    "attack": 134,
+    "defense": 96,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Polteageist",
+    "form": "Antique",
+    "attack": 248,
+    "defense": 189,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Polteageist",
+    "form": "Phony",
+    "attack": 248,
+    "defense": 189,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Hatenna",
+    "form": "Normal",
+    "attack": 98,
+    "defense": 93,
+    "stamina": 123
+  },
+  {
+    "pokemonName": "Hattrem",
+    "form": "Normal",
+    "attack": 153,
+    "defense": 133,
+    "stamina": 149
+  },
+  {
+    "pokemonName": "Hatterene",
+    "form": "Normal",
+    "attack": 237,
+    "defense": 182,
+    "stamina": 149
+  },
+  {
+    "pokemonName": "Impidimp",
+    "form": "Normal",
+    "attack": 103,
+    "defense": 69,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Morgrem",
+    "form": "Normal",
+    "attack": 145,
+    "defense": 102,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Grimmsnarl",
+    "form": "Normal",
+    "attack": 227,
+    "defense": 139,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Obstagoon",
+    "form": "Galarian",
+    "attack": 180,
+    "defense": 194,
+    "stamina": 212
+  },
+  {
+    "pokemonName": "Perrserker",
+    "form": "Galarian",
+    "attack": 195,
+    "defense": 162,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Cursola",
+    "form": "Normal",
+    "attack": 253,
+    "defense": 182,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Sirfetch’d",
+    "form": "Galarian",
+    "attack": 248,
+    "defense": 176,
+    "stamina": 158
+  },
+  {
+    "pokemonName": "Mr. Rime",
+    "form": "Galarian",
+    "attack": 212,
+    "defense": 179,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Runerigus",
+    "form": "Galarian",
+    "attack": 163,
+    "defense": 237,
+    "stamina": 151
+  },
+  {
+    "pokemonName": "Milcery",
+    "form": "Normal",
+    "attack": 90,
+    "defense": 97,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Alcremie",
+    "form": "Normal",
+    "attack": 203,
+    "defense": 203,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Falinks",
+    "form": "Gofest_2025_train_conductor",
+    "attack": 193,
+    "defense": 170,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Falinks",
+    "form": "Normal",
+    "attack": 193,
+    "defense": 170,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Pincurchin",
+    "form": "Normal",
+    "attack": 176,
+    "defense": 161,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Snom",
+    "form": "Normal",
+    "attack": 76,
+    "defense": 59,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Frosmoth",
+    "form": "Normal",
+    "attack": 230,
+    "defense": 155,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Stonjourner",
+    "form": "Normal",
+    "attack": 222,
+    "defense": 182,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Eiscue",
+    "form": "Ice",
+    "attack": 148,
+    "defense": 195,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Eiscue",
+    "form": "Noice",
+    "attack": 173,
+    "defense": 139,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Indeedee",
+    "form": "Female",
+    "attack": 184,
+    "defense": 184,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Indeedee",
+    "form": "Male",
+    "attack": 208,
+    "defense": 166,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Morpeko",
+    "form": "Full_belly",
+    "attack": 192,
+    "defense": 121,
+    "stamina": 151
+  },
+  {
+    "pokemonName": "Morpeko",
+    "form": "Hangry",
+    "attack": 192,
+    "defense": 121,
+    "stamina": 151
+  },
+  {
+    "pokemonName": "Cufant",
+    "form": "Normal",
+    "attack": 140,
+    "defense": 91,
+    "stamina": 176
+  },
+  {
+    "pokemonName": "Copperajah",
+    "form": "Normal",
+    "attack": 226,
+    "defense": 126,
+    "stamina": 263
+  },
+  {
+    "pokemonName": "Dracozolt",
+    "form": "Normal",
+    "attack": 195,
+    "defense": 165,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Arctozolt",
+    "form": "Normal",
+    "attack": 190,
+    "defense": 166,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Dracovish",
+    "form": "Normal",
+    "attack": 175,
+    "defense": 185,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Arctovish",
+    "form": "Normal",
+    "attack": 171,
+    "defense": 185,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Duraludon",
+    "form": "Normal",
+    "attack": 239,
+    "defense": 185,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Dreepy",
+    "form": "Normal",
+    "attack": 117,
+    "defense": 61,
+    "stamina": 99
+  },
+  {
+    "pokemonName": "Drakloak",
+    "form": "Normal",
+    "attack": 163,
+    "defense": 105,
+    "stamina": 169
+  },
+  {
+    "pokemonName": "Dragapult",
+    "form": "Normal",
+    "attack": 266,
+    "defense": 170,
+    "stamina": 204
+  },
+  {
+    "pokemonName": "Zacian",
+    "form": "Crowned_sword",
+    "attack": 332,
+    "defense": 240,
+    "stamina": 192
+  },
+  {
+    "pokemonName": "Zacian",
+    "form": "Hero",
+    "attack": 254,
+    "defense": 236,
+    "stamina": 192
+  },
+  {
+    "pokemonName": "Zamazenta",
+    "form": "Crowned_shield",
+    "attack": 250,
+    "defense": 292,
+    "stamina": 192
+  },
+  {
+    "pokemonName": "Zamazenta",
+    "form": "Hero",
+    "attack": 254,
+    "defense": 236,
+    "stamina": 192
+  },
+  {
+    "pokemonName": "Eternatus",
+    "form": "Eternamax",
+    "attack": 251,
+    "defense": 505,
+    "stamina": 452
+  },
+  {
+    "pokemonName": "Eternatus",
+    "form": "Normal",
+    "attack": 278,
+    "defense": 192,
+    "stamina": 268
+  },
+  {
+    "pokemonName": "Kubfu",
+    "form": "Normal",
+    "attack": 170,
+    "defense": 112,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Urshifu",
+    "form": "Rapid_strike",
+    "attack": 254,
+    "defense": 177,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Urshifu",
+    "form": "Single_strike",
+    "attack": 254,
+    "defense": 177,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Zarude",
+    "form": "Normal",
+    "attack": 242,
+    "defense": 215,
+    "stamina": 233
+  },
+  {
+    "pokemonName": "Regieleki",
+    "form": "Normal",
+    "attack": 250,
+    "defense": 125,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Regidrago",
+    "form": "Normal",
+    "attack": 202,
+    "defense": 101,
+    "stamina": 400
+  },
+  {
+    "pokemonName": "Glastrier",
+    "form": "Normal",
+    "attack": 246,
+    "defense": 223,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Spectrier",
+    "form": "Normal",
+    "attack": 273,
+    "defense": 146,
+    "stamina": 205
+  },
+  {
+    "pokemonName": "Calyrex",
+    "form": "Ice_rider",
+    "attack": 268,
+    "defense": 246,
+    "stamina": 205
+  },
+  {
+    "pokemonName": "Calyrex",
+    "form": "Normal",
+    "attack": 162,
+    "defense": 162,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Calyrex",
+    "form": "Shadow_rider",
+    "attack": 324,
+    "defense": 194,
+    "stamina": 205
+  },
+  {
+    "pokemonName": "Wyrdeer",
+    "form": "Normal",
+    "attack": 206,
+    "defense": 145,
+    "stamina": 230
+  },
+  {
+    "pokemonName": "Kleavor",
+    "form": "Normal",
+    "attack": 253,
+    "defense": 174,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Ursaluna",
+    "form": "Normal",
+    "attack": 243,
+    "defense": 181,
+    "stamina": 277
+  },
+  {
+    "pokemonName": "Sneasler",
+    "form": "Normal",
+    "attack": 259,
+    "defense": 158,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Overqwil",
+    "form": "Normal",
+    "attack": 222,
+    "defense": 171,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Enamorus",
+    "form": "Incarnate",
+    "attack": 281,
+    "defense": 162,
+    "stamina": 179
+  },
+  {
+    "pokemonName": "Enamorus",
+    "form": "Therian",
+    "attack": 250,
+    "defense": 201,
+    "stamina": 179
+  },
+  {
+    "pokemonName": "Sprigatito",
+    "form": "Normal",
+    "attack": 116,
+    "defense": 99,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Floragato",
+    "form": "Normal",
+    "attack": 157,
+    "defense": 128,
+    "stamina": 156
+  },
+  {
+    "pokemonName": "Meowscarada",
+    "form": "Normal",
+    "attack": 233,
+    "defense": 153,
+    "stamina": 183
+  },
+  {
+    "pokemonName": "Fuecoco",
+    "form": "Normal",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 167
+  },
+  {
+    "pokemonName": "Crocalor",
+    "form": "Normal",
+    "attack": 162,
+    "defense": 134,
+    "stamina": 191
+  },
+  {
+    "pokemonName": "Skeledirge",
+    "form": "Normal",
+    "attack": 207,
+    "defense": 178,
+    "stamina": 232
+  },
+  {
+    "pokemonName": "Quaxly",
+    "form": "Normal",
+    "attack": 120,
+    "defense": 86,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Quaxwell",
+    "form": "Normal",
+    "attack": 162,
+    "defense": 123,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Quaquaval",
+    "form": "Normal",
+    "attack": 236,
+    "defense": 159,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Lechonk",
+    "form": "Normal",
+    "attack": 81,
+    "defense": 79,
+    "stamina": 144
+  },
+  {
+    "pokemonName": "Oinkologne",
+    "form": "Female",
+    "attack": 169,
+    "defense": 162,
+    "stamina": 251
+  },
+  {
+    "pokemonName": "Oinkologne",
+    "form": "Normal",
+    "attack": 186,
+    "defense": 153,
+    "stamina": 242
+  },
+  {
+    "pokemonName": "Tarountula",
+    "form": "Normal",
+    "attack": 70,
+    "defense": 77,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Spidops",
+    "form": "Normal",
+    "attack": 139,
+    "defense": 166,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Nymble",
+    "form": "Normal",
+    "attack": 81,
+    "defense": 65,
+    "stamina": 107
+  },
+  {
+    "pokemonName": "Lokix",
+    "form": "Normal",
+    "attack": 199,
+    "defense": 144,
+    "stamina": 174
+  },
+  {
+    "pokemonName": "Pawmi",
+    "form": "Normal",
+    "attack": 95,
+    "defense": 45,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Pawmo",
+    "form": "Normal",
+    "attack": 147,
+    "defense": 82,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Pawmot",
+    "form": "Normal",
+    "attack": 232,
+    "defense": 141,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Tandemaus",
+    "form": "Normal",
+    "attack": 98,
+    "defense": 90,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Maushold",
+    "form": "Family_of_four",
+    "attack": 159,
+    "defense": 157,
+    "stamina": 179
+  },
+  {
+    "pokemonName": "Maushold",
+    "form": "Family_of_three",
+    "attack": 159,
+    "defense": 157,
+    "stamina": 179
+  },
+  {
+    "pokemonName": "Fidough",
+    "form": "Normal",
+    "attack": 102,
+    "defense": 126,
+    "stamina": 114
+  },
+  {
+    "pokemonName": "Dachsbun",
+    "form": "Normal",
+    "attack": 159,
+    "defense": 212,
+    "stamina": 149
+  },
+  {
+    "pokemonName": "Smoliv",
+    "form": "Normal",
+    "attack": 100,
+    "defense": 89,
+    "stamina": 121
+  },
+  {
+    "pokemonName": "Dolliv",
+    "form": "Normal",
+    "attack": 137,
+    "defense": 131,
+    "stamina": 141
+  },
+  {
+    "pokemonName": "Arboliva",
+    "form": "Normal",
+    "attack": 219,
+    "defense": 189,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Squawkabilly",
+    "form": "Blue",
+    "attack": 185,
+    "defense": 105,
+    "stamina": 193
+  },
+  {
+    "pokemonName": "Squawkabilly",
+    "form": "Green",
+    "attack": 185,
+    "defense": 105,
+    "stamina": 193
+  },
+  {
+    "pokemonName": "Squawkabilly",
+    "form": "White",
+    "attack": 185,
+    "defense": 105,
+    "stamina": 193
+  },
+  {
+    "pokemonName": "Squawkabilly",
+    "form": "Yellow",
+    "attack": 185,
+    "defense": 105,
+    "stamina": 193
+  },
+  {
+    "pokemonName": "Nacli",
+    "form": "Normal",
+    "attack": 95,
+    "defense": 108,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Naclstack",
+    "form": "Normal",
+    "attack": 105,
+    "defense": 160,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Garganacl",
+    "form": "Normal",
+    "attack": 171,
+    "defense": 212,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Charcadet",
+    "form": "Normal",
+    "attack": 92,
+    "defense": 74,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Armarouge",
+    "form": "Normal",
+    "attack": 234,
+    "defense": 185,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Ceruledge",
+    "form": "Normal",
+    "attack": 239,
+    "defense": 189,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Tadbulb",
+    "form": "Normal",
+    "attack": 104,
+    "defense": 73,
+    "stamina": 156
+  },
+  {
+    "pokemonName": "Bellibolt",
+    "form": "Normal",
+    "attack": 184,
+    "defense": 165,
+    "stamina": 240
+  },
+  {
+    "pokemonName": "Wattrel",
+    "form": "Normal",
+    "attack": 105,
+    "defense": 75,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Kilowattrel",
+    "form": "Normal",
+    "attack": 221,
+    "defense": 132,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Maschiff",
+    "form": "Normal",
+    "attack": 140,
+    "defense": 108,
+    "stamina": 155
+  },
+  {
+    "pokemonName": "Mabosstiff",
+    "form": "Normal",
+    "attack": 230,
+    "defense": 168,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Shroodle",
+    "form": "Normal",
+    "attack": 124,
+    "defense": 70,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Grafaiai",
+    "form": "Normal",
+    "attack": 199,
+    "defense": 149,
+    "stamina": 160
+  },
+  {
+    "pokemonName": "Bramblin",
+    "form": "Normal",
+    "attack": 121,
+    "defense": 64,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Brambleghast",
+    "form": "Normal",
+    "attack": 228,
+    "defense": 144,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Toedscool",
+    "form": "Normal",
+    "attack": 97,
+    "defense": 149,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Toedscruel",
+    "form": "Normal",
+    "attack": 166,
+    "defense": 209,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Klawf",
+    "form": "Normal",
+    "attack": 184,
+    "defense": 185,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Capsakid",
+    "form": "Normal",
+    "attack": 118,
+    "defense": 76,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Scovillain",
+    "form": "Normal",
+    "attack": 216,
+    "defense": 130,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Rellor",
+    "form": "Normal",
+    "attack": 86,
+    "defense": 108,
+    "stamina": 121
+  },
+  {
+    "pokemonName": "Rabsca",
+    "form": "Normal",
+    "attack": 201,
+    "defense": 178,
+    "stamina": 181
+  },
+  {
+    "pokemonName": "Flittle",
+    "form": "Normal",
+    "attack": 105,
+    "defense": 60,
+    "stamina": 102
+  },
+  {
+    "pokemonName": "Espathra",
+    "form": "Normal",
+    "attack": 204,
+    "defense": 127,
+    "stamina": 216
+  },
+  {
+    "pokemonName": "Tinkatink",
+    "form": "Normal",
+    "attack": 85,
+    "defense": 110,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Tinkatuff",
+    "form": "Normal",
+    "attack": 109,
+    "defense": 145,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Tinkaton",
+    "form": "Normal",
+    "attack": 155,
+    "defense": 196,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Wiglett",
+    "form": "Normal",
+    "attack": 109,
+    "defense": 52,
+    "stamina": 67
+  },
+  {
+    "pokemonName": "Wugtrio",
+    "form": "Normal",
+    "attack": 205,
+    "defense": 136,
+    "stamina": 111
+  },
+  {
+    "pokemonName": "Bombirdier",
+    "form": "Normal",
+    "attack": 198,
+    "defense": 172,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Finizen",
+    "form": "Normal",
+    "attack": 90,
+    "defense": 80,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Palafin",
+    "form": "Hero",
+    "attack": 322,
+    "defense": 196,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Palafin",
+    "form": "Zero",
+    "attack": 143,
+    "defense": 144,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Varoom",
+    "form": "Normal",
+    "attack": 123,
+    "defense": 107,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Revavroom",
+    "form": "Normal",
+    "attack": 229,
+    "defense": 168,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Cyclizar",
+    "form": "Normal",
+    "attack": 205,
+    "defense": 142,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Orthworm",
+    "form": "Normal",
+    "attack": 161,
+    "defense": 219,
+    "stamina": 172
+  },
+  {
+    "pokemonName": "Glimmet",
+    "form": "Normal",
+    "attack": 187,
+    "defense": 104,
+    "stamina": 134
+  },
+  {
+    "pokemonName": "Glimmora",
+    "form": "Normal",
+    "attack": 246,
+    "defense": 177,
+    "stamina": 195
+  },
+  {
+    "pokemonName": "Greavard",
+    "form": "Normal",
+    "attack": 105,
+    "defense": 106,
+    "stamina": 137
+  },
+  {
+    "pokemonName": "Houndstone",
+    "form": "Normal",
+    "attack": 186,
+    "defense": 195,
+    "stamina": 176
+  },
+  {
+    "pokemonName": "Flamigo",
+    "form": "Normal",
+    "attack": 227,
+    "defense": 145,
+    "stamina": 193
+  },
+  {
+    "pokemonName": "Cetoddle",
+    "form": "Normal",
+    "attack": 119,
+    "defense": 80,
+    "stamina": 239
+  },
+  {
+    "pokemonName": "Cetitan",
+    "form": "Normal",
+    "attack": 208,
+    "defense": 123,
+    "stamina": 347
+  },
+  {
+    "pokemonName": "Veluza",
+    "form": "Normal",
+    "attack": 196,
+    "defense": 139,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Dondozo",
+    "form": "Normal",
+    "attack": 176,
+    "defense": 178,
+    "stamina": 312
+  },
+  {
+    "pokemonName": "Tatsugiri",
+    "form": "Curly",
+    "attack": 226,
+    "defense": 166,
+    "stamina": 169
+  },
+  {
+    "pokemonName": "Tatsugiri",
+    "form": "Droopy",
+    "attack": 226,
+    "defense": 166,
+    "stamina": 169
+  },
+  {
+    "pokemonName": "Tatsugiri",
+    "form": "Stretchy",
+    "attack": 226,
+    "defense": 166,
+    "stamina": 169
+  },
+  {
+    "pokemonName": "Annihilape",
+    "form": "Normal",
+    "attack": 220,
+    "defense": 178,
+    "stamina": 242
+  },
+  {
+    "pokemonName": "Clodsire",
+    "form": "Normal",
+    "attack": 127,
+    "defense": 151,
+    "stamina": 277
+  },
+  {
+    "pokemonName": "Farigiraf",
+    "form": "Normal",
+    "attack": 209,
+    "defense": 136,
+    "stamina": 260
+  },
+  {
+    "pokemonName": "Dudunsparce",
+    "form": "Three",
+    "attack": 188,
+    "defense": 150,
+    "stamina": 268
+  },
+  {
+    "pokemonName": "Dudunsparce",
+    "form": "Two",
+    "attack": 188,
+    "defense": 150,
+    "stamina": 268
+  },
+  {
+    "pokemonName": "Kingambit",
+    "form": "Normal",
+    "attack": 238,
+    "defense": 203,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Great Tusk",
+    "form": "Normal",
+    "attack": 249,
+    "defense": 209,
+    "stamina": 251
+  },
+  {
+    "pokemonName": "Scream Tail",
+    "form": "Normal",
+    "attack": 139,
+    "defense": 234,
+    "stamina": 251
+  },
+  {
+    "pokemonName": "Brute Bonnet",
+    "form": "Normal",
+    "attack": 232,
+    "defense": 190,
+    "stamina": 244
+  },
+  {
+    "pokemonName": "Flutter Mane",
+    "form": "Normal",
+    "attack": 280,
+    "defense": 235,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Slither Wing",
+    "form": "Normal",
+    "attack": 261,
+    "defense": 193,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Sandy Shocks",
+    "form": "Normal",
+    "attack": 244,
+    "defense": 195,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Iron Treads",
+    "form": "Normal",
+    "attack": 227,
+    "defense": 216,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Iron Bundle",
+    "form": "Normal",
+    "attack": 266,
+    "defense": 211,
+    "stamina": 148
+  },
+  {
+    "pokemonName": "Iron Hands",
+    "form": "Normal",
+    "attack": 245,
+    "defense": 177,
+    "stamina": 319
+  },
+  {
+    "pokemonName": "Iron Jugulis",
+    "form": "Normal",
+    "attack": 249,
+    "defense": 179,
+    "stamina": 214
+  },
+  {
+    "pokemonName": "Iron Moth",
+    "form": "Normal",
+    "attack": 281,
+    "defense": 196,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Iron Thorns",
+    "form": "Normal",
+    "attack": 250,
+    "defense": 200,
+    "stamina": 225
+  },
+  {
+    "pokemonName": "Frigibax",
+    "form": "Normal",
+    "attack": 134,
+    "defense": 86,
+    "stamina": 163
+  },
+  {
+    "pokemonName": "Arctibax",
+    "form": "Normal",
+    "attack": 173,
+    "defense": 128,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Baxcalibur",
+    "form": "Normal",
+    "attack": 254,
+    "defense": 168,
+    "stamina": 229
+  },
+  {
+    "pokemonName": "Gimmighoul",
+    "form": "Coin_a1",
+    "attack": 140,
+    "defense": 76,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Gimmighoul",
+    "form": "Normal",
+    "attack": 140,
+    "defense": 76,
+    "stamina": 128
+  },
+  {
+    "pokemonName": "Gholdengo",
+    "form": "Normal",
+    "attack": 252,
+    "defense": 190,
+    "stamina": 202
+  },
+  {
+    "pokemonName": "Wo-Chien",
+    "form": "Normal",
+    "attack": 186,
+    "defense": 242,
+    "stamina": 198
+  },
+  {
+    "pokemonName": "Chien-Pao",
+    "form": "Normal",
+    "attack": 261,
+    "defense": 167,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Ting-Lu",
+    "form": "Normal",
+    "attack": 194,
+    "defense": 203,
+    "stamina": 321
+  },
+  {
+    "pokemonName": "Chi-Yu",
+    "form": "Normal",
+    "attack": 269,
+    "defense": 221,
+    "stamina": 146
+  },
+  {
+    "pokemonName": "Roaring Moon",
+    "form": "Normal",
+    "attack": 280,
+    "defense": 196,
+    "stamina": 233
+  },
+  {
+    "pokemonName": "Iron Valiant",
+    "form": "Normal",
+    "attack": 279,
+    "defense": 171,
+    "stamina": 179
+  },
+  {
+    "pokemonName": "Koraidon",
+    "form": "Apex",
+    "attack": 263,
+    "defense": 223,
+    "stamina": 205
+  },
+  {
+    "pokemonName": "Miraidon",
+    "form": "Ultimate",
+    "attack": 263,
+    "defense": 223,
+    "stamina": 205
+  },
+  {
+    "pokemonName": "Walking Wake",
+    "form": "Normal",
+    "attack": 233,
+    "defense": 171,
+    "stamina": 203
+  },
+  {
+    "pokemonName": "Iron Leaves",
+    "form": "Normal",
+    "attack": 236,
+    "defense": 194,
+    "stamina": 189
+  },
+  {
+    "pokemonName": "Dipplin",
+    "form": "Normal",
+    "attack": 173,
+    "defense": 184,
+    "stamina": 190
+  },
+  {
+    "pokemonName": "Poltchageist",
+    "form": "Artisan",
+    "attack": 134,
+    "defense": 96,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Poltchageist",
+    "form": "Counterfeit",
+    "attack": 134,
+    "defense": 96,
+    "stamina": 120
+  },
+  {
+    "pokemonName": "Sinistcha",
+    "form": "Masterpiece",
+    "attack": 225,
+    "defense": 191,
+    "stamina": 174
+  },
+  {
+    "pokemonName": "Sinistcha",
+    "form": "Unremarkable",
+    "attack": 225,
+    "defense": 191,
+    "stamina": 174
+  },
+  {
+    "pokemonName": "Okidogi",
+    "form": "Normal",
+    "attack": 220,
+    "defense": 191,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Munkidori",
+    "form": "Normal",
+    "attack": 238,
+    "defense": 157,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Fezandipiti",
+    "form": "Normal",
+    "attack": 169,
+    "defense": 208,
+    "stamina": 186
+  },
+  {
+    "pokemonName": "Ogerpon",
+    "form": "Normal",
+    "attack": 219,
+    "defense": 178,
+    "stamina": 173
+  },
+  {
+    "pokemonName": "Archaludon",
+    "form": "Normal",
+    "attack": 250,
+    "defense": 215,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Hydrapple",
+    "form": "Normal",
+    "attack": 216,
+    "defense": 186,
+    "stamina": 235
+  },
+  {
+    "pokemonName": "Gouging Fire",
+    "form": "Normal",
+    "attack": 205,
+    "defense": 208,
+    "stamina": 213
+  },
+  {
+    "pokemonName": "Raging Bolt",
+    "form": "Normal",
+    "attack": 235,
+    "defense": 165,
+    "stamina": 245
+  },
+  {
+    "pokemonName": "Iron Boulder",
+    "form": "Normal",
+    "attack": 227,
+    "defense": 195,
+    "stamina": 189
+  },
+  {
+    "pokemonName": "Iron Crown",
+    "form": "Normal",
+    "attack": 221,
+    "defense": 200,
+    "stamina": 189
+  },
+  {
+    "pokemonName": "Terapagos",
+    "form": "Normal",
+    "attack": 126,
+    "defense": 165,
+    "stamina": 207
+  },
+  {
+    "pokemonName": "Pecharunt",
+    "form": "Normal",
+    "attack": 164,
+    "defense": 248,
+    "stamina": 186
+  }
+]

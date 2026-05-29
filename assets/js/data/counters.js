@@ -18,6 +18,18 @@ export const counterMonths = [
                 "weaknesses": "Water, Rock, Ground, Ghost, Dark",
                 "difficultyLabel": "Standard",
                 "difficulty": "Dark and Ghost attackers perform best against Blacephalon",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1884,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2355,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Primal Kyogre",
@@ -271,6 +283,18 @@ export const counterMonths = [
                 "weaknesses": "Grass",
                 "difficultyLabel": "Focus",
                 "difficulty": "Grass attackers dominate due to double weakness",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1699,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2124,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Sceptile",
@@ -523,6 +547,18 @@ export const counterMonths = [
                 "weaknesses": "Fire",
                 "difficultyLabel": "Focus",
                 "difficulty": "Fire attackers dominate due to double weakness",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1916,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2395,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Blaziken",
@@ -771,6 +807,18 @@ export const counterMonths = [
                 "weaknesses": "Water, Flying, Ground, Psychic",
                 "difficultyLabel": "Standard",
                 "difficulty": "Water, Flying, Ground, and Psychic attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1627,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2034,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Mewtwo Y",
@@ -1022,6 +1070,18 @@ export const counterMonths = [
                 "weaknesses": "Ice, Rock",
                 "difficultyLabel": "Standard",
                 "difficulty": "Ice and Rock attackers perform consistently well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1911,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2389,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "White Kyurem",
@@ -1269,6 +1329,18 @@ export const counterMonths = [
                 "weaknesses": "Ice, Fairy, Dragon, Flying, Poison, Bug",
                 "difficultyLabel": "Focus",
                 "difficulty": "Ice attackers dominate due to double weakness",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1575,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1969,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "White Kyurem",
@@ -1513,6 +1585,18 @@ export const counterMonths = [
                 "weaknesses": "Electric, Ice, Rock",
                 "difficultyLabel": "Standard",
                 "difficulty": "Electric, Ice, and Rock attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1911,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2389,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "White Kyurem",
@@ -1757,6 +1841,18 @@ export const counterMonths = [
                 "weaknesses": "Ground, Ice, Dragon, Fairy",
                 "difficultyLabel": "Standard",
                 "difficulty": "Ground, Ice, Dragon, and Fairy attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1630,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2037,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Eternatus",
@@ -2013,6 +2109,18 @@ export const counterMonths = [
                 "weaknesses": "Electric, Ice, Rock",
                 "difficultyLabel": "Standard",
                 "difficulty": "Electric, Ice, and Rock attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1911,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2389,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "White Kyurem",
@@ -2257,6 +2365,18 @@ export const counterMonths = [
                 "weaknesses": "Ground, Ice, Dragon, Fairy",
                 "difficultyLabel": "Standard",
                 "difficulty": "Ground, Ice, Dragon, and Fairy attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1630,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2037,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Eternatus",
@@ -2507,6 +2627,18 @@ export const counterMonths = [
                 "weaknesses": "Fighting, Ground",
                 "difficultyLabel": "Standard",
                 "difficulty": "Fighting and Ground attackers perform consistently well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2337,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2921,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Lucario",
@@ -2759,6 +2891,18 @@ export const counterMonths = [
                 "weaknesses": "Dragon, Fairy",
                 "difficultyLabel": "Standard",
                 "difficulty": "Dragon and Fairy attackers perform consistently well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2367,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2958,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Eternatus",
@@ -3007,6 +3151,18 @@ export const counterMonths = [
                 "weaknesses": "Rock, Electric, Ice",
                 "difficultyLabel": "Standard",
                 "difficulty": "Rock, Electric, and Ice attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1216,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1521,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "White Kyurem",
@@ -3251,6 +3407,18 @@ export const counterMonths = [
                 "weaknesses": "Fire, Ground, Ghost, Dark",
                 "difficultyLabel": "Standard",
                 "difficulty": "Fire, Ground, Ghost, and Dark attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2310,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2887,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Necrozma - Dawn Wings",
@@ -3500,6 +3668,18 @@ export const counterMonths = [
                 "weaknesses": "Fairy",
                 "difficultyLabel": "Focus",
                 "difficulty": "Fairy attackers are the only super-effective option",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 843,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1054,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Gardevoir",
@@ -3746,6 +3926,18 @@ export const counterMonths = [
                 "weaknesses": "Ghost, Dark",
                 "difficultyLabel": "Focus",
                 "difficulty": "Ghost and Dark attackers dominate due to double weakness",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2310,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2887,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Shadow Tyranitar",
@@ -3997,6 +4189,18 @@ export const counterMonths = [
                 "weaknesses": "Fighting, Fairy, Bug",
                 "difficultyLabel": "Easy",
                 "difficulty": "Fairy, Fighting, and Bug attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1443,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1805,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Lucario",
@@ -4253,6 +4457,18 @@ export const counterMonths = [
                 "weaknesses": "Ghost, Dark",
                 "difficultyLabel": "Focus",
                 "difficulty": "Ghost and Dark attackers dominate due to double weakness",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2310,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2887,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Shadow Tyranitar",
@@ -4504,6 +4720,18 @@ export const counterMonths = [
                 "weaknesses": "Fighting, Fairy, Bug",
                 "difficultyLabel": "Easy",
                 "difficulty": "Fairy, Fighting, and Bug attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1443,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1805,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Lucario",
@@ -4753,6 +4981,18 @@ export const counterMonths = [
                 "weaknesses": "Rock, Fire, Electric, Steel",
                 "difficultyLabel": "Focus",
                 "difficulty": "Rock attackers dominate due to double weakness",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1743,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2179,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Shadow Rampardos",
@@ -5002,6 +5242,18 @@ export const counterMonths = [
                 "weaknesses": "Ice, Rock",
                 "difficultyLabel": "Standard",
                 "difficulty": "Ice and Rock attackers perform consistently well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2015,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2519,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "White Kyurem",
@@ -5250,6 +5502,18 @@ export const counterMonths = [
                 "weaknesses": "Rock, Water, Electric",
                 "difficultyLabel": "Focus",
                 "difficulty": "Rock attackers dominate due to double weakness",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1980,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2475,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Shadow Rampardos",
@@ -5497,6 +5761,18 @@ export const counterMonths = [
                 "weaknesses": "Rock, Fire, Electric, Ice, Flying",
                 "difficultyLabel": "Focus",
                 "difficulty": "Rock attackers dominate due to double weakness",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1690,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2113,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Diancie",
@@ -5742,6 +6018,18 @@ export const counterMonths = [
                 "weaknesses": "Poison, Steel",
                 "difficultyLabel": "Standard",
                 "difficulty": "Poison and Steel attackers perform consistently well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2188,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2735,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Zamazenta (Crowned Shield)",
@@ -5997,6 +6285,18 @@ export const counterMonths = [
                 "weaknesses": "Fire, Water, Fighting, Ground",
                 "difficultyLabel": "Standard",
                 "difficulty": "Fire, Water, Fighting, and Ground attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1379,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1724,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Lucario",
@@ -6247,6 +6547,18 @@ export const counterMonths = [
                 "weaknesses": "Flying, Psychic, Fairy",
                 "difficultyLabel": "Standard",
                 "difficulty": "Flying, Psychic, and Fairy attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2188,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2735,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Mewtwo Y",
@@ -6497,6 +6809,18 @@ export const counterMonths = [
                 "weaknesses": "Electric, Grass, Bug, Ghost, Dark",
                 "difficultyLabel": "Standard",
                 "difficulty": "Electric, Grass, Ghost, and Dark attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1454,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1817,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Necrozma - Dawn Wings",
@@ -6749,6 +7073,18 @@ export const counterMonths = [
                 "weaknesses": "Ground",
                 "difficultyLabel": "Focus",
                 "difficulty": "Ground attackers are the only super-effective option",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1602,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2002,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Primal Groudon",
@@ -7001,6 +7337,18 @@ export const counterMonths = [
                 "weaknesses": "Water, Fighting, Ground, Rock",
                 "difficultyLabel": "Standard",
                 "difficulty": "Water, Fighting, Ground, and Rock attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1505,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1882,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Blaziken",
@@ -7256,6 +7604,18 @@ export const counterMonths = [
                 "weaknesses": "Ice, Dragon, Fairy",
                 "difficultyLabel": "Standard",
                 "difficulty": "Ice, Dragon, and Fairy attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1699,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2124,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Rayquaza",
@@ -7504,6 +7864,18 @@ export const counterMonths = [
                 "weaknesses": "Ground",
                 "difficultyLabel": "Focus",
                 "difficulty": "Ground attackers are the only super-effective option",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1337,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1672,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Primal Groudon",
@@ -7754,6 +8126,18 @@ export const counterMonths = [
                 "weaknesses": "Grass, Electric",
                 "difficultyLabel": "Focus",
                 "difficulty": "Strong legendary raid, not built for solo play",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2351,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2939,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Mewtwo Y",
@@ -7999,6 +8383,18 @@ export const counterMonths = [
                 "weaknesses": "Rock, Steel, Water, Electric, Ice",
                 "difficultyLabel": "Focus",
                 "difficulty": "Strong Steel, Water and Rock attackers",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1590,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1988,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Zamazenta (Crowned Shield)",
@@ -8254,6 +8650,18 @@ export const counterMonths = [
                 "weaknesses": "Water, Grass, Ice",
                 "difficultyLabel": "Focus",
                 "difficulty": "Legendary raid with strong offensive pressure",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2351,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2939,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "White Kyurem",
@@ -8503,6 +8911,18 @@ export const counterMonths = [
                 "weaknesses": "Bug, Ghost, Dark",
                 "difficultyLabel": "Focus",
                 "difficulty": "Dark and Ghost attackers",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1747,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2184,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Absol",
@@ -8754,6 +9174,18 @@ export const counterMonths = [
                 "weaknesses": "Poison, Ground",
                 "difficultyLabel": "Focus",
                 "difficulty": "Ground attackers are the most natural answer",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1810,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2263,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Primal Groudon",
@@ -9007,6 +9439,18 @@ export const counterMonths = [
                 "weaknesses": "Fighting, Bug, Grass, Electric, Fairy",
                 "difficultyLabel": "Focus",
                 "difficulty": "Fighting attackers are especially strong",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1246,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1558,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Lucario",
@@ -9256,6 +9700,18 @@ export const counterMonths = [
                 "weaknesses": "Poison, Ghost, Steel",
                 "difficultyLabel": "Focus",
                 "difficulty": "Steel and Ghost attackers work especially well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1996,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2496,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Zamazenta (Crowned Shield)",
@@ -9510,6 +9966,18 @@ export const counterMonths = [
                 "weaknesses": "Ghost, Dark",
                 "difficultyLabel": "Focus",
                 "difficulty": "Dark attackers are very easy to build",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1313,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1642,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Tyranitar",
@@ -9769,6 +10237,18 @@ export const counterMonths = [
                 "weaknesses": "Poison, Ghost, Steel",
                 "difficultyLabel": "Focus",
                 "difficulty": "Steel and Ghost attackers work especially well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1996,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2496,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Zamazenta (Crowned Shield)",
@@ -10023,6 +10503,18 @@ export const counterMonths = [
                 "weaknesses": "Ghost, Dark",
                 "difficultyLabel": "Focus",
                 "difficulty": "Dark attackers are very easy to build",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1313,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1642,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Tyranitar",
@@ -10275,6 +10767,18 @@ export const counterMonths = [
                 "weaknesses": "Ground, Psychic, Steel, Water",
                 "difficultyLabel": "Focus",
                 "difficulty": "Ground attackers dominate due to double weakness",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2256,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2821,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Primal Groudon",
@@ -10528,6 +11032,18 @@ export const counterMonths = [
                 "weaknesses": "Water, Ground",
                 "difficultyLabel": "Focus",
                 "difficulty": "Use Water attackers due to double weakness.",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1253,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1566,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Primal Kyogre",
@@ -10778,6 +11294,18 @@ export const counterMonths = [
                 "weaknesses": "Flying, Fire, Psychic, Fairy",
                 "difficultyLabel": "Standard",
                 "difficulty": "Flying attackers dominate due to double weakness",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1977,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2472,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Rayquaza",
@@ -11034,6 +11562,18 @@ export const counterMonths = [
                 "weaknesses": "Flying, Fire, Psychic, Fairy",
                 "difficultyLabel": "Standard",
                 "difficulty": "Flying attackers dominate due to double weakness",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1624,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2030,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Rayquaza",
@@ -11287,6 +11827,18 @@ export const counterMonths = [
                 "weaknesses": "Ground",
                 "difficultyLabel": "Standard",
                 "difficulty": "Ground attackers completely dominate due to single weakness",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2249,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2812,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Primal Groudon",
@@ -11539,6 +12091,18 @@ export const counterMonths = [
                 "weaknesses": "Fighting, Rock, Steel, Fire",
                 "difficultyLabel": "Focus",
                 "difficulty": "Steel and Fighting attackers perform best overall",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1203,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1504,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Lucario",
@@ -11791,6 +12355,18 @@ export const counterMonths = [
                 "weaknesses": "Poison, Flying, Fire, Ice, Steel",
                 "difficultyLabel": "Standard",
                 "difficulty": "Poison attackers dominate due to double weakness",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1953,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2442,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Beedrill",
@@ -12038,6 +12614,18 @@ export const counterMonths = [
                 "weaknesses": "Ice, Poison, Steel, Fairy",
                 "difficultyLabel": "Mega",
                 "difficulty": "Steel and Poison attackers are the safest general picks",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1145,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1432,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Zacian (Crowned Sword)",
@@ -12291,6 +12879,18 @@ export const counterMonths = [
                 "weaknesses": "Electric, Grass, Poison",
                 "difficultyLabel": "Standard",
                 "difficulty": "Electric, Grass, and Poison attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1632,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2041,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Sceptile",
@@ -12536,6 +13136,18 @@ export const counterMonths = [
                 "weaknesses": "Flying, Ghost, Fairy",
                 "difficultyLabel": "Mega",
                 "difficulty": "Flying and Ghost attackers are strong",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 817,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1022,
+                        "label": "Level 25 weather boost"
+                    }
+                },
                 "bestCounters": [
                     {
                         "name": "Mega Rayquaza",

@@ -4,6 +4,7 @@ import { legacyMoves } from "./legacy-moves.js";
 import { moveTypes } from "./move-types.js";
 import { raidRotations } from "../assets/js/data/rotations.js";
 import { pokemonTypes } from "./pokemon-types.js";
+import { getCatchCpForBoss } from "./catch-cp.js";
 
 const monthNames = {
     Jan: 0, January: 0,
@@ -207,6 +208,7 @@ function transformDraft(draft) {
         weaknesses: draft.meta.weaknesses,
         difficultyLabel: draft.meta.difficultyLabel,
         difficulty: draft.meta.difficulty,
+        catchCp: getCatchCpForBoss(draft),
 
         bestCounters: bestTop.map(counter => transformCounter(counter, bestTime)),
         budgetCounters: budgetTop.map(counter => transformCounter(counter, budgetBestTime))
