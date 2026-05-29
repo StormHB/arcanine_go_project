@@ -15,6 +15,27 @@ function findBossById(id) {
     .find((boss) => boss.id === id);
 }
 
+function renderCatchCp(catchCp) {
+  if (!catchCp?.normal?.max && !catchCp?.boosted?.max) {
+    return "";
+  }
+
+  const normalCp = catchCp.normal?.max
+    ? `<span>100% CP: ${catchCp.normal.max}</span>`
+    : "";
+
+  const boostedCp = catchCp.boosted?.max
+    ? `<span>WB: ${catchCp.boosted.max}</span>`
+    : "";
+
+  return `
+    <div class="boss-catch-cp" aria-label="Raid boss catch CP">
+      ${normalCp}
+      ${boostedCp}
+    </div>
+  `;
+}
+
 function formatType(type) {
   return type.charAt(0).toUpperCase() + type.slice(1);
 }
@@ -176,10 +197,11 @@ function renderBossDetail(boss) {
           <h1>${boss.name}</h1>
 
           <div class="boss-detail-badges">
-
             ${boss.types
-      .map((type) => `<span class="type-badge type-${type}">${formatType(type)}</span>`)
-      .join("")}
+              .map((type) => `<span class="type-badge type-${type}">${formatType(type)}</span>`)
+              .join("")}
+
+            ${renderCatchCp(boss.catchCp)}
           </div>
 
           <div class="boss-detail-date-row">

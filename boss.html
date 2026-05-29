@@ -5,6 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Boss Details | Arcanine Go Project</title>
+
+  <script>
+    (() => {
+      const savedTheme = localStorage.getItem("arcanine-theme");
+
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.setAttribute("data-theme", savedTheme);
+      } else {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    })();
+  </script>
+
   <link rel="stylesheet" href="css/style.css">
   <script type="module" src="assets/js/render-boss.js" defer></script>
 </head>

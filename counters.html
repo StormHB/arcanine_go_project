@@ -32,6 +32,18 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
   <link rel="shortcut icon" href="assets/img/favicon.ico">
   <link rel="canonical" href="https://stormhb.github.io/arcanine_go_project/counters.html">
+
+  <script>
+    (() => {
+      const savedTheme = localStorage.getItem("arcanine-theme");
+
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.setAttribute("data-theme", savedTheme);
+      } else {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    })();
+  </script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 

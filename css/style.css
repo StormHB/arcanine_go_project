@@ -339,38 +339,38 @@ h2 {
 ========================= */
 
 .boss-page-hint-section {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .boss-page-hint-card {
-    padding: 1.25rem 1.4rem;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 16px;
-    width: 100%;
-    max-width: none;
-    background: var(--hint-gradient);
-    backdrop-filter: blur(10px);
+  padding: 1.25rem 1.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  width: 100%;
+  max-width: none;
+  background: var(--hint-gradient);
+  backdrop-filter: blur(10px);
 }
 
 .boss-page-hint-card p {
-    font-size: 1.05rem;
-    font-weight: 500;
-    line-height: 1.6;
-    color: var(--text-primary);
-    margin: 0;
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--text-primary);
+  margin: 0;
 }
 
 .hint-label {
-    display: inline-block;
-    margin-bottom: 0.75rem;
-    padding: 0.35rem 0.85rem;
-    border-radius: 999px;
-    background: rgba(255, 166, 77, 0.12);
-    color: #ffb366;
-    font-size: 0.82rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(255, 166, 77, 0.12);
+  color: #ffb366;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .skip-link {
@@ -2001,6 +2001,30 @@ label:focus-visible {
   margin-bottom: 1.2rem;
 }
 
+.form-status {
+  margin-top: 1rem;
+  min-height: 1.5rem;
+  font-weight: 700;
+}
+
+.form-status-loading {
+  color: var(--muted);
+}
+
+.form-status-success {
+  color: #4ade80;
+}
+
+.form-status-error {
+  color: #f87171;
+}
+
+button:disabled,
+.btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
 
 
 /* =========================
@@ -2151,6 +2175,31 @@ label:focus-visible {
   gap: 0.75rem;
   margin-bottom: 1rem;
   align-items: center;
+}
+
+.boss-catch-cp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+
+  padding: 0.32rem 0.68rem;
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+
+  color: var(--text-soft);
+  color: #60708f;
+
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.boss-catch-cp span+span::before {
+  content: "•";
+  margin-right: 0.45rem;
+  color: var(--text-muted);
 }
 
 .boss-raid-badge {
@@ -2597,6 +2646,13 @@ label:focus-visible {
   .boss-detail-meta-grid,
   .boss-detail-columns {
     grid-template-columns: 1fr;
+  }
+
+  .boss-catch-cp {
+    flex-basis: 100%;
+    justify-content: center;
+    width: fit-content;
+    margin: 0.15rem auto 0;
   }
 
   .boss-detail-heading {
