@@ -1,0 +1,297 @@
+import fs from "fs";
+
+const bosses = [
+    { name: "Reshiram" },
+    { name: "Zekrom" },
+    { name: "Necrozma" },
+
+    {
+        name: "Kartana",
+        leekDuckUrl:
+            "https://leekduck.com/events/celesteela-kartana-in-5-star-raid-battles-june-2026/"
+    },
+
+    {
+        name: "Celesteela",
+        leekDuckUrl:
+            "https://leekduck.com/events/celesteela-kartana-in-5-star-raid-battles-june-2026/"
+    },
+
+    { name: "Mega Audino" },
+    {
+        name: "Mega Blaziken",
+        leekDuckUrl: "https://leekduck.com/events/catching-some-zs/",
+        overrideDates: "June 10 to June 16"
+    },
+    { name: "Mega Scizor" },
+    { name: "Mega Pidgeot" }
+];
+
+const TYPE_WEAKNESSES = {
+    normal: ["fighting"],
+    fire: ["water", "ground", "rock"],
+    water: ["grass", "electric"],
+    electric: ["ground"],
+    grass: ["fire", "ice", "poison", "flying", "bug"],
+    ice: ["fire", "fighting", "rock", "steel"],
+    fighting: ["flying", "psychic", "fairy"],
+    poison: ["ground", "psychic"],
+    ground: ["water", "grass", "ice"],
+    flying: ["electric", "ice", "rock"],
+    psychic: ["bug", "ghost", "dark"],
+    bug: ["fire", "flying", "rock"],
+    rock: ["water", "grass", "fighting", "ground", "steel"],
+    ghost: ["ghost", "dark"],
+    dragon: ["ice", "dragon", "fairy"],
+    dark: ["fighting", "bug", "fairy"],
+    steel: ["fire", "fighting", "ground"],
+    fairy: ["poison", "steel"]
+};
+
+function toId(name) {
+    return name
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "");
+}
+
+function toKey(name) {
+    const id = toId(name);
+
+    return id.replace(/-([a-z0-9])/g, (_, char) =>
+        char.toUpperCase()
+    );
+}
+
+function capitalize(value) {
+    return value.charAt(0).toUpperCase() + value.slice(1);
+}
+
+function getWeaknesses(types) {
+    const score = {};
+
+    types.forEach((type) => {
+        TYPE_WEAKNESSES[type].forEach((weakness) => {
+            score[weakness] = (score[weakness] || 0) + 1;
+        });
+    });
+
+    return Object.entries(score)
+        .sort((a, b) => b[1] - a[1])
+        .map(([type]) => type);
+}
+
+function buildDifficulty(weaknesses) {
+    const top = weaknesses.slice(0, 3).map(capitalize);
+
+    if (top.length === 1) {
+        return `${top[0]} attackers`;
+    }
+
+    if (top.length === 2) {
+        return `${top[0]} and ${top[1]} attackers`;
+    }
+
+    return `${top[0]}, ${top[1]} and ${top[2]} attackers`;
+}
+
+function getThemeClass(types) {
+    return `${types[0]}-theme`;
+}
+
+function buildPokeApiSlug(name) {
+    if (name.startsWith("Mega ")) {
+        return `${name
+            .replace("Mega ", "")
+            .toLowerCase()
+            .replace(/\s+/g, "-")}-mega`;
+    }
+
+    return name.toLowerCase().replace(/\s+/g, "-");
+}
+
+function buildPokebattlerCode(name) {
+    if (name.startsWith("Mega ")) {
+        return `${name
+            .replace("Mega ", "")
+            .toUpperCase()
+            .replace(/\s+/g, "_")}_MEGA`;
+    }
+
+    return name.toUpperCase().replace(/\s+/g, "_");
+}
+
+function buildRaidLevel(tier) {
+    if (tier === "Mega Raid") {
+        return "RAID_LEVEL_MEGA";
+    }
+
+    return "RAID_LEVEL_5";
+}
+
+function buildPokebattlerUrl({
+    code,
+    raidLevel,
+    includeLegendary,
+    includeShadow,
+    includeMegas
+}) {
+    return `https://www.pokebattler.com/raids/defenders/${code}/levels/${raidLevel}/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=${includeLegendary}&includeShadow=${includeShadow}&includeMegas=${includeMegas}&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1`;
+}
+
+async function fetchPokemonData(name) {
+    const slug = buildPokeApiSlug(name);
+
+    const response = await fetch(
+        `https://pokeapi.co/api/v2/pokemon/${slug}`
+    );
+
+    if (!response.ok) {
+        throw new Error(
+            `Could not fetch PokeAPI data for ${name}`
+        );
+    }
+
+    return response.json();
+}
+
+function formatLeekDuckDates(startText, endText) {
+    const startDate = new Date(startText.replace("Local Time", "").trim());
+    const endDate = new Date(endText.replace("Local Time", "").trim());
+
+    const start = startDate.toLocaleDateString("en-US", {
+        month: "long",
+        day: "numeric"
+    });
+
+    const end = endDate.toLocaleDateString("en-US", {
+        month: "long",
+        day: "numeric"
+    });
+
+    return `${start} to ${end}`;
+}
+
+async function fetchLeekDuckData(boss) {
+    const slug = toId(boss.name);
+
+    const possibleUrls = boss.leekDuckUrl
+        ? [boss.leekDuckUrl]
+        : [
+            `https://leekduck.com/events/${slug}-in-5-star-raid-battles-june-2026/`,
+            `https://leekduck.com/events/${slug}-in-mega-raids-june-2026/`,
+            `https://leekduck.com/events/${slug}-in-mega-raid-battles-june-2026/`
+        ];
+
+    for (const url of possibleUrls) {
+        const response = await fetch(url);
+
+        if (!response.ok) {
+            continue;
+        }
+
+        const html = await response.text();
+
+        const text = html
+            .replace(/&nbsp;/g, " ")
+            .replace(/&#160;/g, " ")
+            .replace(/[\u00A0]+/g, " ")
+            .replace(/<[^>]+>/g, "\n")
+            .replace(/[ \t]+/g, " ")
+            .replace(/\n\s*\n/g, "\n")
+            .trim();
+
+        const startMatch = text.match(/Starts:\s*\n\s*([^\n]+)/i);
+        const endMatch = text.match(/Ends:\s*\n\s*([^\n]+)/i);
+
+        if (!startMatch || !endMatch) {
+            continue;
+        }
+
+        const lowerText = text.toLowerCase();
+
+        const tier =
+            boss.name.toLowerCase().startsWith("mega ") ||
+                lowerText.includes("mega raid battles")
+                ? "Mega Raid"
+                : "5★ Raid";
+
+        return {
+            tier,
+            dates:
+                boss.overrideDates ||
+                formatLeekDuckDates(
+                    startMatch[1],
+                    endMatch[1]
+                )
+        };
+    }
+
+    throw new Error(`Could not fetch Leek Duck data for ${boss.name}`);
+}
+
+async function generateTarget(boss) {
+    const pokeData = await fetchPokemonData(boss.name);
+    const leekData = await fetchLeekDuckData(boss);
+
+    const id = toId(boss.name);
+    const key = toKey(boss.name);
+
+    const types = pokeData.types.map(
+        (entry) => entry.type.name
+    );
+
+    const weaknesses = getWeaknesses(types);
+
+    const code = buildPokebattlerCode(boss.name);
+
+    const raidLevel = buildRaidLevel(leekData.tier);
+
+    return `${key}: {
+    id: "${id}",
+    name: "${boss.name}",
+    tier: "${leekData.tier}",
+    themeClass: "${getThemeClass(types)}",
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokeData.id}.png",
+    imageAlt: "Official artwork of ${boss.name}",
+    subtitle: "${leekData.tier} • ${leekData.dates}",
+    types: ${JSON.stringify(types)},
+    weaknesses: "${weaknesses
+            .map(capitalize)
+            .join(", ")}",
+    difficultyLabel: "Focus",
+    difficulty: "${buildDifficulty(weaknesses)}",
+    bestUrl: "${buildPokebattlerUrl({
+                code,
+                raidLevel,
+                includeLegendary: true,
+                includeShadow: true,
+                includeMegas: true
+            })}",
+    budgetUrl: "${buildPokebattlerUrl({
+                code,
+                raidLevel,
+                includeLegendary: false,
+                includeShadow: false,
+                includeMegas: false
+            })}"
+}`;
+}
+
+async function main() {
+    const output = [];
+
+    for (const boss of bosses) {
+        console.log(`Generating ${boss.name}...`);
+
+        output.push(await generateTarget(boss));
+    }
+
+    console.log("\n\n");
+    console.log(output.join(",\n\n"));
+}
+
+main().catch((error) => {
+    console.error(error);
+    process.exit(1);
+});
