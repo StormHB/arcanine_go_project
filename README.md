@@ -297,6 +297,7 @@ The project follows a data-driven frontend architecture:
 * Styling is centralized through reusable CSS systems and theme variables
 * Theme state is handled independently from page rendering logic
 * Raid status logic is derived from shared rotation schedule metadata
+* Recurring raid bosses are handled through a generated appearance layer instead of duplicating schedule metadata across reusable boss definitions
 
 This approach improves scalability, maintainability and future automation support.
 
@@ -463,6 +464,8 @@ node tools/generate-sitemap.js
 Generates a dynamic `sitemap.xml` file based on all current pages and boss routes.
 
 Typical monthly workflow:
+
+The monthly workflow now supports fully reproducible raid updates without manual HTML editing. Rotation schedules, recurring raid appearances, counters and frontend rendering are all generated from shared structured data.
 
 ```bash
 node tools/scrape.js 2026-06

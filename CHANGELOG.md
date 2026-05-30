@@ -26,12 +26,22 @@ All notable changes to this project are documented here.
 * Fixed missing budget counters for Mega Steelix
 * Fixed inconsistent raid status rendering between raids, counters and boss pages
 * Fixed duplicate featured raid rendering during overlapping rotations
+* Fixed incorrect Mega/5★ labeling inside featured raid cards
+* Fixed inconsistent date rendering between overview and featured raid cards
 
 ### Improved
 
 * Improved long-term maintainability of raid schedule architecture
 * Improved synchronization between scraping, rotation generation and frontend rendering
 * Improved support for future archive expansion and recurring raid bosses
+
+### UI
+
+* Unified raid card text generation across featured, overview and archive cards
+* Removed hardcoded DialgaDex-style descriptive text from generated raid cards
+* Added reusable weakness/focus summary generation based on boss weaknesses
+* Improved consistency between January, May and June raid card rendering
+* Standardized featured raid card metadata and focus rendering
 
 ### Technical
 
