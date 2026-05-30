@@ -159,6 +159,7 @@ function buildDraft(target) {
       weaknesses: target.weaknesses,
       difficultyLabel: target.difficultyLabel,
       difficulty: target.difficulty,
+      dateRange: target.dateRange,
       catchCp
     },
     bestCountersRaw: parseCounters(raw, 30),

@@ -208,6 +208,7 @@ function transformDraft(draft) {
         weaknesses: draft.meta.weaknesses,
         difficultyLabel: draft.meta.difficultyLabel,
         difficulty: draft.meta.difficulty,
+        dateRange: draft.meta.dateRange,
         catchCp: getCatchCpForBoss(draft),
 
         bestCounters: bestTop.map(counter => transformCounter(counter, bestTime)),
