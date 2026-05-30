@@ -1,22 +1,22 @@
 import fs from "fs";
 
+const TARGETS_PATH = "./tools/scrape-targets.js";
+const APPEARANCES_PATH = "./tools/generated-raid-appearances.generated.js";
+
 const bosses = [
     { name: "Reshiram" },
     { name: "Zekrom" },
     { name: "Necrozma" },
-
     {
         name: "Kartana",
         leekDuckUrl:
             "https://leekduck.com/events/celesteela-kartana-in-5-star-raid-battles-june-2026/"
     },
-
     {
         name: "Celesteela",
         leekDuckUrl:
             "https://leekduck.com/events/celesteela-kartana-in-5-star-raid-battles-june-2026/"
     },
-
     { name: "Mega Audino" },
     {
         name: "Mega Blaziken",
@@ -56,15 +56,37 @@ function toId(name) {
 }
 
 function toKey(name) {
-    const id = toId(name);
-
-    return id.replace(/-([a-z0-9])/g, (_, char) =>
-        char.toUpperCase()
-    );
+    return toId(name).replace(/-([a-z0-9])/g, (_, char) => char.toUpperCase());
 }
 
 function capitalize(value) {
     return value.charAt(0).toUpperCase() + value.slice(1);
+}
+
+function joinTypes(types) {
+    if (types.length === 1) return types[0];
+    if (types.length === 2) return `${types[0]} and ${types[1]}`;
+    return `${types[0]}, ${types[1]} and ${types[2]}`;
+}
+
+function hashString(value) {
+    return [...value].reduce((sum, char) => sum + char.charCodeAt(0), 0);
+}
+
+function buildDifficulty(name, weaknesses) {
+    const top = weaknesses.slice(0, 3).map(capitalize);
+    const joined = joinTypes(top);
+
+    const templates = [
+        `Use ${joined} attackers for consistent raid damage`,
+        `${joined} Pokémon perform best in this raid`,
+        `Strong ${joined} counters are recommended`,
+        `Focus on high-level ${joined} attackers`,
+        `${joined}-type teams are especially effective here`,
+        `Prepare powerful ${joined} counters for this battle`
+    ];
+
+    return templates[hashString(name) % templates.length];
 }
 
 function getWeaknesses(types) {
@@ -81,30 +103,13 @@ function getWeaknesses(types) {
         .map(([type]) => type);
 }
 
-function buildDifficulty(weaknesses) {
-    const top = weaknesses.slice(0, 3).map(capitalize);
-
-    if (top.length === 1) {
-        return `${top[0]} attackers`;
-    }
-
-    if (top.length === 2) {
-        return `${top[0]} and ${top[1]} attackers`;
-    }
-
-    return `${top[0]}, ${top[1]} and ${top[2]} attackers`;
-}
-
 function getThemeClass(types) {
     return `${types[0]}-theme`;
 }
 
 function buildPokeApiSlug(name) {
     if (name.startsWith("Mega ")) {
-        return `${name
-            .replace("Mega ", "")
-            .toLowerCase()
-            .replace(/\s+/g, "-")}-mega`;
+        return `${name.replace("Mega ", "").toLowerCase().replace(/\s+/g, "-")}-mega`;
     }
 
     return name.toLowerCase().replace(/\s+/g, "-");
@@ -112,21 +117,31 @@ function buildPokeApiSlug(name) {
 
 function buildPokebattlerCode(name) {
     if (name.startsWith("Mega ")) {
-        return `${name
-            .replace("Mega ", "")
-            .toUpperCase()
-            .replace(/\s+/g, "_")}_MEGA`;
+        return `${name.replace("Mega ", "").toUpperCase().replace(/\s+/g, "_")}_MEGA`;
     }
 
     return name.toUpperCase().replace(/\s+/g, "_");
 }
 
 function buildRaidLevel(tier) {
-    if (tier === "Mega Raid") {
-        return "RAID_LEVEL_MEGA";
-    }
+    return tier === "Mega Raid" ? "RAID_LEVEL_MEGA" : "RAID_LEVEL_5";
+}
 
-    return "RAID_LEVEL_5";
+function buildDateRangeFromSubtitleDates(dates) {
+    const [startText, endText] = dates.split(" to ");
+
+    const startDate = new Date(`${startText}, 2026 10:00:00`);
+    const endDate = new Date(`${endText}, 2026 10:00:00`);
+
+    const toLocalIso = (date) => {
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, "0");
+        const day = String(date.getDate()).padStart(2, "0");
+
+        return `${year}-${month}-${day}T10:00:00`;
+    };
+
+    return [toLocalIso(startDate), toLocalIso(endDate)];
 }
 
 function buildPokebattlerUrl({
@@ -141,15 +156,10 @@ function buildPokebattlerUrl({
 
 async function fetchPokemonData(name) {
     const slug = buildPokeApiSlug(name);
-
-    const response = await fetch(
-        `https://pokeapi.co/api/v2/pokemon/${slug}`
-    );
+    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${slug}`);
 
     if (!response.ok) {
-        throw new Error(
-            `Could not fetch PokeAPI data for ${name}`
-        );
+        throw new Error(`Could not fetch PokeAPI data for ${name}`);
     }
 
     return response.json();
@@ -186,9 +196,7 @@ async function fetchLeekDuckData(boss) {
     for (const url of possibleUrls) {
         const response = await fetch(url);
 
-        if (!response.ok) {
-            continue;
-        }
+        if (!response.ok) continue;
 
         const html = await response.text();
 
@@ -204,9 +212,7 @@ async function fetchLeekDuckData(boss) {
         const startMatch = text.match(/Starts:\s*\n\s*([^\n]+)/i);
         const endMatch = text.match(/Ends:\s*\n\s*([^\n]+)/i);
 
-        if (!startMatch || !endMatch) {
-            continue;
-        }
+        if (!startMatch || !endMatch) continue;
 
         const lowerText = text.toLowerCase();
 
@@ -220,34 +226,26 @@ async function fetchLeekDuckData(boss) {
             tier,
             dates:
                 boss.overrideDates ||
-                formatLeekDuckDates(
-                    startMatch[1],
-                    endMatch[1]
-                )
+                formatLeekDuckDates(startMatch[1], endMatch[1])
         };
     }
 
     throw new Error(`Could not fetch Leek Duck data for ${boss.name}`);
 }
 
-async function generateTarget(boss) {
+async function generateTargetAndAppearance(boss) {
     const pokeData = await fetchPokemonData(boss.name);
     const leekData = await fetchLeekDuckData(boss);
 
     const id = toId(boss.name);
     const key = toKey(boss.name);
-
-    const types = pokeData.types.map(
-        (entry) => entry.type.name
-    );
-
+    const types = pokeData.types.map((entry) => entry.type.name);
     const weaknesses = getWeaknesses(types);
-
     const code = buildPokebattlerCode(boss.name);
-
     const raidLevel = buildRaidLevel(leekData.tier);
+    const dateRange = buildDateRangeFromSubtitleDates(leekData.dates);
 
-    return `${key}: {
+    const target = `${key}: {
     id: "${id}",
     name: "${boss.name}",
     tier: "${leekData.tier}",
@@ -256,39 +254,76 @@ async function generateTarget(boss) {
     imageAlt: "Official artwork of ${boss.name}",
     subtitle: "${leekData.tier} • ${leekData.dates}",
     types: ${JSON.stringify(types)},
-    weaknesses: "${weaknesses
-            .map(capitalize)
-            .join(", ")}",
+    weaknesses: "${weaknesses.map(capitalize).join(", ")}",
     difficultyLabel: "Focus",
-    difficulty: "${buildDifficulty(weaknesses)}",
+    difficulty: "${buildDifficulty(boss.name, weaknesses)}",
     bestUrl: "${buildPokebattlerUrl({
-                code,
-                raidLevel,
-                includeLegendary: true,
-                includeShadow: true,
-                includeMegas: true
-            })}",
+        code,
+        raidLevel,
+        includeLegendary: true,
+        includeShadow: true,
+        includeMegas: true
+    })}",
     budgetUrl: "${buildPokebattlerUrl({
-                code,
-                raidLevel,
-                includeLegendary: false,
-                includeShadow: false,
-                includeMegas: false
-            })}"
+        code,
+        raidLevel,
+        includeLegendary: false,
+        includeShadow: false,
+        includeMegas: false
+    })}"
 }`;
+
+    const appearance = {
+        bossId: id,
+        dateRange
+    };
+
+    return { target, appearance };
+}
+
+function writeGeneratedTargets(targets) {
+    const existingFile = fs.readFileSync(TARGETS_PATH, "utf8");
+
+    const updatedFile = existingFile.replace(
+        /\/\/ AUTO-GENERATED START[\s\S]*?\/\/ AUTO-GENERATED END/,
+        `// AUTO-GENERATED START
+
+${targets.join(",\n\n")}
+
+// AUTO-GENERATED END`
+    );
+
+    fs.writeFileSync(TARGETS_PATH, updatedFile);
+}
+
+function writeGeneratedAppearances(appearances) {
+    const output = `export const generatedRaidAppearances = ${JSON.stringify(
+        appearances,
+        null,
+        2
+    )};\n`;
+
+    fs.writeFileSync(APPEARANCES_PATH, output);
 }
 
 async function main() {
-    const output = [];
+    const targets = [];
+    const appearances = [];
 
     for (const boss of bosses) {
         console.log(`Generating ${boss.name}...`);
 
-        output.push(await generateTarget(boss));
+        const generated = await generateTargetAndAppearance(boss);
+
+        targets.push(generated.target);
+        appearances.push(generated.appearance);
     }
 
-    console.log("\n\n");
-    console.log(output.join(",\n\n"));
+    writeGeneratedTargets(targets);
+    writeGeneratedAppearances(appearances);
+
+    console.log("Updated tools/scrape-targets.js");
+    console.log("Updated tools/generated-raid-appearances.generated.js");
 }
 
 main().catch((error) => {

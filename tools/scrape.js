@@ -1,23 +1,71 @@
 import { chromium } from "playwright";
 import fs from "fs";
 import { scrapeTargets } from "./scrape-targets.js";
+import { raidRotations } from "../assets/js/data/rotations.js";
 
-const targetId = process.argv[2];
-const targets = getTargets(targetId);
+function normalize(value) {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
 
-function getTargets(id) {
-  if (!id || id === "all") {
+function getTargetIdsFromMonth(arg) {
+  const normalizedArg = normalize(arg);
+
+  const month = raidRotations.find((rotation) =>
+    normalize(rotation.id) === normalizedArg ||
+    normalize(rotation.label) === normalizedArg ||
+    normalize(rotation.label).startsWith(normalizedArg)
+  );
+
+  if (!month) {
+    return null;
+  }
+
+  return [
+    ...new Set(
+      month.schedule.flatMap((entry) => entry.bossIds ?? [])
+    )
+  ];
+}
+
+function getSelectedTargets() {
+  const arg = process.argv[2];
+
+  if (!arg || arg === "all") {
     return Object.values(scrapeTargets);
   }
 
-  if (!scrapeTargets[id]) {
-    console.error("Usage: node tools/scrape.js [target-id|all]");
-    console.error("Available targets:", Object.keys(scrapeTargets).join(", "));
+  const monthTargetIds = getTargetIdsFromMonth(arg);
+
+  if (monthTargetIds) {
+    return Object.values(scrapeTargets).filter((target) =>
+      monthTargetIds.includes(target.id)
+    );
+  }
+
+  const normalizedArg = normalize(arg);
+
+  const target = Object.entries(scrapeTargets).find(([key, value]) =>
+    normalize(key) === normalizedArg ||
+    normalize(value.id) === normalizedArg
+  )?.[1];
+
+  if (!target) {
+    console.log("Usage: node tools/scrape.js [target-id|month|all]");
+    console.log("Examples:");
+    console.log("  node tools/scrape.js all");
+    console.log("  node tools/scrape.js mega-blaziken");
+    console.log("  node tools/scrape.js megaBlaziken");
+    console.log("  node tools/scrape.js 2026-06");
+    console.log("  node tools/scrape.js June");
+    console.log("");
+    console.log(`Available targets: ${Object.keys(scrapeTargets).join(", ")}`);
     process.exit(1);
   }
 
-  return [scrapeTargets[id]];
+  return [target];
 }
+
+const targets = getSelectedTargets();
 
 async function saveBodyText(page, url, outputPath) {
   console.log(`Opening ${url}`);
