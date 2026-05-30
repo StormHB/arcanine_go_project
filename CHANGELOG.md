@@ -2,6 +2,49 @@
 
 All notable changes to this project are documented here.
 
+## [1.21.0] - Rotation Appearance Pipeline & Unified Status System
+
+### Added
+
+* Added generated raid appearance pipeline (`generated-raid-appearances.generated.js`)
+* Added automatic rollover support for cross-month raid windows
+* Added support for returning raid bosses across historical rotations
+* Added month-based scraping workflow support in `tools/scrape.js`
+
+### Changed
+
+* Refactored raid schedule generation so rotations own all schedule date metadata
+* Removed date ownership from reusable `scrapeTargets` boss metadata
+* Unified raid status handling across raids, counters and boss detail pages
+* Updated counters page to resolve boss status from rotation schedule data
+* Improved featured raid handling for active and next upcoming rotations
+
+### Fixed
+
+* Fixed incorrect status inheritance for returning bosses such as Mega Blaziken
+* Fixed cross-month raid rollover rendering for June 2026 rotations
+* Fixed missing budget counters for Mega Steelix
+* Fixed inconsistent raid status rendering between raids, counters and boss pages
+* Fixed duplicate featured raid rendering during overlapping rotations
+
+### Improved
+
+* Improved long-term maintainability of raid schedule architecture
+* Improved synchronization between scraping, rotation generation and frontend rendering
+* Improved support for future archive expansion and recurring raid bosses
+
+### Technical
+
+* Added `generate-rotation.js` automation tooling
+* Added generated raid appearance data layer separate from reusable boss metadata
+* Extended `scrape.js` to support:
+  * all targets
+  * individual targets
+  * month-based scraping
+* Refactored renderers to use shared schedule-derived status logic
+
+---
+
 ## [1.20.1] - Light Theme Contrast Polish
 
 ### Improved

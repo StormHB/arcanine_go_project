@@ -4,7 +4,7 @@ Arcanine Go Project is a responsive Pokémon GO raid guide built around dynamic 
 
 The project combines:
 
-* JavaScript-driven raid and counter rendering
+* JavaScript-driven raid, schedule, archive and counter rendering
 * Dedicated boss detail pages
 * Pokebattler-based counter data
 * Persistent light/dark theme support
@@ -46,6 +46,9 @@ The project combines:
 * Monthly rotation support with history/current/upcoming states
 * Historical monthly raid archive support from January 2026 onward
 * Cross-month raid window handling
+* Generated raid appearance pipeline for recurring and cross-month raid bosses
+* Rotation schedule generation separated from reusable boss metadata
+* Automatic rollover support for raids spanning multiple months
 * Support for multiple simultaneous raid bosses in a single rotation period
 * Support for regional raid distributions
 * Shared rendering structure between raids, counters and boss detail pages
@@ -55,6 +58,7 @@ The project combines:
 ### Raid Overview
 
 * Featured raids automatically selected from current and upcoming rotations
+* Featured raids support rollover handling across monthly boundaries
 * Clean card-based layout
 * Fully clickable raid and summary cards
 * Type-based visual styling
@@ -72,6 +76,8 @@ The project combines:
 * Semantic list structure for accessibility
 * Consistent formatting across rotation blocks
 * Archive browsing through month selection
+* Shared 10:00 AM local rotation timing support
+* Automatic rollover rendering for cross-month raid windows
 
 ---
 
@@ -103,6 +109,7 @@ The project combines:
 * Persistent filters between monthly rotation changes
 * Mobile-friendly counters discovery system
 * Shared boss metadata between raids and counters
+* Rotation-derived status handling for recurring raid bosses
 
 #### JS-driven system
 
@@ -128,6 +135,7 @@ Features include:
 * Responsive dual-column layouts
 * Optimized mobile counter card layouts
 * Date-based boss status detection from rotation metadata
+* Shared rotation-derived status logic across pages
 * Cleaner mobile spacing after removing redundant raid-tier pills
 * Shared boss metadata between counters, raids and schedule data
 
@@ -215,6 +223,12 @@ css/style.css
   * Theme handling (`theme.js`)
   * Layout and styling (`HTML + CSS`)
 * Fully reproducible counter generation pipeline (`scrape → parse → transform`)
+* Generated raid appearance and schedule generation tooling
+* Month-based scraping support
+* Automatic rollover handling for recurring raid bosses
+* Generated raid appearance layer separate from reusable boss metadata
+* Rotation schedule generation automation
+* Unified schedule-derived status handling across pages
 * Deployed via GitHub Pages
 * Unified type color system using CSS variables
 * Automatic single-type and dual-type glow rendering
@@ -275,12 +289,14 @@ This approach keeps the UI scalable while preserving the lightweight no-framewor
 
 The project follows a data-driven frontend architecture:
 
-* Rotation data is stored separately from rendering logic
+* Rotation schedules and raid appearances are stored separately from reusable boss metadata
+* Reusable raid boss metadata is isolated from recurring schedule appearances
 * Counter datasets are generated through a tooling pipeline
 * Pages consume shared structured data instead of hardcoded HTML
 * Rendering is handled through reusable JavaScript modules
 * Styling is centralized through reusable CSS systems and theme variables
 * Theme state is handled independently from page rendering logic
+* Raid status logic is derived from shared rotation schedule metadata
 
 This approach improves scalability, maintainability and future automation support.
 
@@ -300,9 +316,13 @@ Current automation features include:
 * Counter artwork download and image map generation
 * Dynamic sitemap generation
 * Shared metadata handling across raids and counters
+* Generated raid appearance and schedule generation tooling
+* Month-based scraping support
+* Automatic rollover handling for recurring raid bosses
+* Rotation generation tooling for cross-month schedules
+* Automatic featured raid synchronization
 
 This reduces manual maintenance and keeps frontend content synchronized with structured data sources.
-
 ---
 
 ## Project Structure
@@ -417,13 +437,23 @@ Generated output:
 
 ```bash
 node tools/scrape.js <target-id>
-node tools/parse-pokebattler.js <target-id>
+node tools/scrape.js <month-id>
+node tools/scrape.js all
+
+node tools/parse-pokebattler.js
 node tools/transform-counter-draft.js
 
-# or run scrape/parse for every target
+node tools/generate-scrape-targets.js
+node tools/generate-rotation.js
+```
+
+Examples:
+
+```bash
+node tools/scrape.js mega-blaziken
+node tools/scrape.js 2026-06
+node tools/scrape.js June
 node tools/scrape.js all
-node tools/parse-pokebattler.js all
-node tools/transform-counter-draft.js
 ```
 
 ```bash
@@ -431,6 +461,16 @@ node tools/generate-sitemap.js
 ```
 
 Generates a dynamic `sitemap.xml` file based on all current pages and boss routes.
+
+Typical monthly workflow:
+
+```bash
+node tools/scrape.js 2026-06
+node tools/parse-pokebattler.js
+node tools/transform-counter-draft.js
+node tools/generate-scrape-targets.js
+node tools/generate-rotation.js
+```
 
 ### Output files
 
@@ -529,8 +569,9 @@ This would keep the README focused on project overview, setup, structure and cor
 * Improved offline/mobile caching
 * Additional UI interactions and animations
 * Performance optimizations
-* Shared status/date helper used across raids, counters and boss detail pages
 * Further CSS modularization once the stylesheet grows larger
+* Fully automatic monthly raid discovery pipeline
+* Automated regional raid schedule ingestion
 
 ---
 
@@ -543,7 +584,6 @@ This would keep the README focused on project overview, setup, structure and cor
   * suggested team size
   * difficulty indicators
 * Optional advanced filtering and sorting system
-* URL-persistent filters and shareable filtered views
 
 ---
 
