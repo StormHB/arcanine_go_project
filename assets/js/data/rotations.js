@@ -6,6 +6,7 @@ export const raidRotations = [
     schedule: [
       {
         date: "Jan 1 – Jan 5",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Blacephalon"],
         mega: ["Mega Swampert"],
         bossIds: ["blacephalon", "mega-swampert"],
@@ -22,6 +23,7 @@ export const raidRotations = [
       },
       {
         date: "Jan 5 – Jan 16",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Genesect (Burn Drive)"],
         mega: ["Mega Blaziken"],
         bossIds: ["genesect-burn", "mega-blaziken"],
@@ -38,6 +40,7 @@ export const raidRotations = [
       },
       {
         date: "Jan 16 – Jan 25",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Thundurus (Incarnate Forme)"],
         mega: ["Mega Sceptile"],
         bossIds: ["thundurus-incarnate", "mega-sceptile"],
@@ -54,6 +57,7 @@ export const raidRotations = [
       },
       {
         date: "Jan 25 – Feb 4",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Tornadus (Incarnate Forme)"],
         mega: ["Mega Ampharos"],
         bossIds: ["tornadus-incarnate", "mega-ampharos"],
@@ -77,6 +81,7 @@ export const raidRotations = [
     schedule: [
       {
         date: "Jan 25 – Feb 4",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Tornadus (Incarnate Forme)"],
         mega: ["Mega Ampharos"],
         bossIds: ["tornadus-incarnate", "mega-ampharos"],
@@ -93,6 +98,7 @@ export const raidRotations = [
       },
       {
         date: "Feb 4 – Feb 16",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Dialga", "Palkia"],
         mega: ["Mega Pidgeot"],
         bossIds: ["dialga", "palkia", "mega-pidgeot"],
@@ -113,6 +119,7 @@ export const raidRotations = [
       },
       {
         date: "Feb 16 – Feb 21",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Solgaleo"],
         mega: ["Mega Sableye"],
         bossIds: ["solgaleo", "mega-sableye"],
@@ -129,6 +136,7 @@ export const raidRotations = [
       },
       {
         date: "Feb 21 – Mar 4",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Lunala"],
         mega: ["Mega Absol"],
         bossIds: ["lunala", "mega-absol"],
@@ -152,6 +160,7 @@ export const raidRotations = [
     schedule: [
       {
         date: "Feb 21 – Mar 4",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Lunala"],
         mega: ["Mega Absol"],
         bossIds: ["lunala", "mega-absol"],
@@ -168,6 +177,7 @@ export const raidRotations = [
       },
       {
         date: "Mar 4 – Mar 10",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Articuno", "Zapdos", "Moltres"],
         mega: ["Mega Pinsir"],
         bossIds: ["articuno", "zapdos", "moltres", "mega-pinsir"],
@@ -192,6 +202,7 @@ export const raidRotations = [
       },
       {
         date: "Mar 11 – Mar 17",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Zacian"],
         mega: ["Mega Steelix"],
         bossIds: ["zacian", "mega-steelix"],
@@ -208,6 +219,7 @@ export const raidRotations = [
       },
       {
         date: "Mar 18 – Mar 24",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Zamazenta"],
         mega: ["Mega Slowbro"],
         bossIds: ["zamazenta", "mega-slowbro"],
@@ -224,6 +236,7 @@ export const raidRotations = [
       },
       {
         date: "Mar 25 – Mar 31",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Regieleki"],
         mega: ["Mega Houndoom"],
         bossIds: ["regieleki", "mega-houndoom"],
@@ -247,6 +260,7 @@ export const raidRotations = [
     schedule: [
       {
         date: "Apr 1 – Apr 7",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Regidrago"],
         mega: ["Mega Manectric"],
         bossIds: ["regidrago", "mega-manectric"],
@@ -737,5 +751,158 @@ export const raidRotations = [
         description: "A niche mega with unique typing and useful matchup coverage."
       }
     ]
-  }
+  },
+  {
+  id: "2026-06",
+  label: "June 2026",
+  status: "current",
+  schedule: [
+    {
+      date: "May 27 – Jun 2",
+      time: "10:00 AM → 10:00 AM local time",
+      dateRange: [
+        "2026-05-27T10:00:00",
+        "2026-06-02T10:00:00"
+      ],
+      fiveStar: [
+        "Tapu Fini"
+      ],
+      mega: [
+        "Mega Medicham"
+      ],
+      bossIds: [
+        "tapu-fini",
+        "mega-medicham"
+      ],
+      icons: [
+        {
+          name: "Tapu Fini",
+          image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/788.png"
+        },
+        {
+          name: "Mega Medicham",
+          image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10054.png"
+        }
+      ]
+    },
+    {
+      date: "Jun 3 – Jun 9",
+      time: "10:00 AM → 10:00 AM local time",
+      dateRange: [
+        "2026-06-03T10:00:00",
+        "2026-06-09T10:00:00"
+      ],
+      fiveStar: [
+        "Reshiram"
+      ],
+      mega: [
+        "Mega Audino"
+      ],
+      bossIds: [
+        "reshiram",
+        "mega-audino"
+      ],
+      icons: [
+        {
+          name: "Reshiram",
+          image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/643.png"
+        },
+        {
+          name: "Mega Audino",
+          image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10069.png"
+        }
+      ]
+    },
+    {
+      date: "Jun 10 – Jun 16",
+      time: "10:00 AM → 10:00 AM local time",
+      dateRange: [
+        "2026-06-10T10:00:00",
+        "2026-06-16T10:00:00"
+      ],
+      fiveStar: [
+        "Zekrom"
+      ],
+      mega: [
+        "Mega Blaziken"
+      ],
+      bossIds: [
+        "zekrom",
+        "mega-blaziken"
+      ],
+      icons: [
+        {
+          name: "Zekrom",
+          image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/644.png"
+        },
+        {
+          name: "Mega Blaziken",
+          image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10050.png"
+        }
+      ]
+    },
+    {
+      date: "Jun 17 – Jun 23",
+      time: "10:00 AM → 10:00 AM local time",
+      dateRange: [
+        "2026-06-17T10:00:00",
+        "2026-06-23T10:00:00"
+      ],
+      fiveStar: [
+        "Necrozma"
+      ],
+      mega: [
+        "Mega Scizor"
+      ],
+      bossIds: [
+        "necrozma",
+        "mega-scizor"
+      ],
+      icons: [
+        {
+          name: "Necrozma",
+          image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/800.png"
+        },
+        {
+          name: "Mega Scizor",
+          image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10046.png"
+        }
+      ]
+    },
+    {
+      date: "Jun 24 – Jun 30",
+      time: "10:00 AM → 10:00 AM local time",
+      dateRange: [
+        "2026-06-24T10:00:00",
+        "2026-06-30T10:00:00"
+      ],
+      fiveStar: [
+        "Kartana",
+        "Celesteela"
+      ],
+      mega: [
+        "Mega Pidgeot"
+      ],
+      bossIds: [
+        "kartana",
+        "celesteela",
+        "mega-pidgeot"
+      ],
+      icons: [
+        {
+          name: "Kartana",
+          image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/798.png"
+        },
+        {
+          name: "Celesteela",
+          image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/797.png"
+        },
+        {
+          name: "Mega Pidgeot",
+          image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10073.png"
+        }
+      ]
+    }
+  ]
+},
 ];

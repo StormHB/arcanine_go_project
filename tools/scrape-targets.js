@@ -717,5 +717,153 @@ export const scrapeTargets = {
         bestUrl: "https://www.pokebattler.com/raids/defenders/MANECTRIC_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
         budgetUrl: "https://www.pokebattler.com/raids/defenders/MANECTRIC_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
     },
+
+    // AUTO-GENERATED START
+
+reshiram: {
+    id: "reshiram",
+    name: "Reshiram",
+    tier: "5★ Raid",
+    themeClass: "dragon-theme",
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/643.png",
+    imageAlt: "Official artwork of Reshiram",
+    subtitle: "5★ Raid • June 3 to June 9",
+    types: ["dragon","fire"],
+    weaknesses: "Ice, Dragon, Fairy, Water, Ground, Rock",
+    difficultyLabel: "Focus",
+    difficulty: "Prepare powerful Ice, Dragon and Fairy counters for this battle",
+    bestUrl: "https://www.pokebattler.com/raids/defenders/RESHIRAM/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+    budgetUrl: "https://www.pokebattler.com/raids/defenders/RESHIRAM/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+},
+
+zekrom: {
+    id: "zekrom",
+    name: "Zekrom",
+    tier: "5★ Raid",
+    themeClass: "dragon-theme",
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/644.png",
+    imageAlt: "Official artwork of Zekrom",
+    subtitle: "5★ Raid • June 10 to June 16",
+    types: ["dragon","electric"],
+    weaknesses: "Ice, Dragon, Fairy, Ground",
+    difficultyLabel: "Focus",
+    difficulty: "Strong Ice, Dragon and Fairy counters are recommended",
+    bestUrl: "https://www.pokebattler.com/raids/defenders/ZEKROM/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+    budgetUrl: "https://www.pokebattler.com/raids/defenders/ZEKROM/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+},
+
+necrozma: {
+    id: "necrozma",
+    name: "Necrozma",
+    tier: "5★ Raid",
+    themeClass: "psychic-theme",
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/800.png",
+    imageAlt: "Official artwork of Necrozma",
+    subtitle: "5★ Raid • June 17 to June 23",
+    types: ["psychic"],
+    weaknesses: "Bug, Ghost, Dark",
+    difficultyLabel: "Focus",
+    difficulty: "Focus on high-level Bug, Ghost and Dark attackers",
+    bestUrl: "https://www.pokebattler.com/raids/defenders/NECROZMA/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+    budgetUrl: "https://www.pokebattler.com/raids/defenders/NECROZMA/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+},
+
+kartana: {
+    id: "kartana",
+    name: "Kartana",
+    tier: "5★ Raid",
+    themeClass: "grass-theme",
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/798.png",
+    imageAlt: "Official artwork of Kartana",
+    subtitle: "5★ Raid • June 24 to June 30",
+    types: ["grass","steel"],
+    weaknesses: "Fire, Ice, Poison, Flying, Bug, Fighting, Ground",
+    difficultyLabel: "Focus",
+    difficulty: "Fire, Ice and Poison-type teams are especially effective here",
+    bestUrl: "https://www.pokebattler.com/raids/defenders/KARTANA/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+    budgetUrl: "https://www.pokebattler.com/raids/defenders/KARTANA/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+},
+
+celesteela: {
+    id: "celesteela",
+    name: "Celesteela",
+    tier: "5★ Raid",
+    themeClass: "steel-theme",
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/797.png",
+    imageAlt: "Official artwork of Celesteela",
+    subtitle: "5★ Raid • June 24 to June 30",
+    types: ["steel","flying"],
+    weaknesses: "Fire, Fighting, Ground, Electric, Ice, Rock",
+    difficultyLabel: "Focus",
+    difficulty: "Fire, Fighting and Ground Pokémon perform best in this raid",
+    bestUrl: "https://www.pokebattler.com/raids/defenders/CELESTEELA/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+    budgetUrl: "https://www.pokebattler.com/raids/defenders/CELESTEELA/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+},
+
+megaAudino: {
+    id: "mega-audino",
+    name: "Mega Audino",
+    tier: "Mega Raid",
+    themeClass: "normal-theme",
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10069.png",
+    imageAlt: "Official artwork of Mega Audino",
+    subtitle: "Mega Raid • June 3 to June 10",
+    types: ["normal","fairy"],
+    weaknesses: "Fighting, Poison, Steel",
+    difficultyLabel: "Focus",
+    difficulty: "Fighting, Poison and Steel-type teams are especially effective here",
+    bestUrl: "https://www.pokebattler.com/raids/defenders/AUDINO_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+    budgetUrl: "https://www.pokebattler.com/raids/defenders/AUDINO_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+},
+
+megaBlaziken: {
+    id: "mega-blaziken",
+    name: "Mega Blaziken",
+    tier: "Mega Raid",
+    themeClass: "fire-theme",
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10050.png",
+    imageAlt: "Official artwork of Mega Blaziken",
+    subtitle: "Mega Raid • June 10 to June 16",
+    types: ["fire","fighting"],
+    weaknesses: "Water, Ground, Rock, Flying, Psychic, Fairy",
+    difficultyLabel: "Focus",
+    difficulty: "Strong Water, Ground and Rock counters are recommended",
+    bestUrl: "https://www.pokebattler.com/raids/defenders/BLAZIKEN_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+    budgetUrl: "https://www.pokebattler.com/raids/defenders/BLAZIKEN_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+},
+
+megaScizor: {
+    id: "mega-scizor",
+    name: "Mega Scizor",
+    tier: "Mega Raid",
+    themeClass: "bug-theme",
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10046.png",
+    imageAlt: "Official artwork of Mega Scizor",
+    subtitle: "Mega Raid • June 17 to June 24",
+    types: ["bug","steel"],
+    weaknesses: "Fire, Flying, Rock, Fighting, Ground",
+    difficultyLabel: "Focus",
+    difficulty: "Use Fire, Flying and Rock attackers for consistent raid damage",
+    bestUrl: "https://www.pokebattler.com/raids/defenders/SCIZOR_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+    budgetUrl: "https://www.pokebattler.com/raids/defenders/SCIZOR_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+},
+
+megaPidgeot: {
+    id: "mega-pidgeot",
+    name: "Mega Pidgeot",
+    tier: "Mega Raid",
+    themeClass: "normal-theme",
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10073.png",
+    imageAlt: "Official artwork of Mega Pidgeot",
+    subtitle: "Mega Raid • June 24 to July 1",
+    types: ["normal","flying"],
+    weaknesses: "Fighting, Electric, Ice, Rock",
+    difficultyLabel: "Focus",
+    difficulty: "Fighting, Electric and Ice-type teams are especially effective here",
+    bestUrl: "https://www.pokebattler.com/raids/defenders/PIDGEOT_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
+    budgetUrl: "https://www.pokebattler.com/raids/defenders/PIDGEOT_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
+}
+
+// AUTO-GENERATED END
 };
 
