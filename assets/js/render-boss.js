@@ -127,24 +127,53 @@ function renderCounter(counter, index) {
   `;
 }
 
-function findRaidCardByBossId(bossId) {
+function getScheduleEntriesByBossId(bossId) {
   return raidRotations
-    .flatMap((rotation) => rotation.raidCards ?? [])
-    .find((card) => card.id === bossId);
+    .flatMap((rotation) =>
+      (rotation.schedule ?? []).map((entry) => ({
+        ...entry,
+        rotationId: rotation.id
+      }))
+    )
+    .filter((entry) => entry.bossIds?.includes(bossId));
+}
+
+function getBestScheduleEntryForBoss(bossId) {
+  const entries = getScheduleEntriesByBossId(bossId);
+
+  if (entries.length === 0) return null;
+
+  const now = new Date();
+
+  const active = entries.find((entry) => {
+    if (!entry.dateRange) return false;
+
+    const [start, end] = entry.dateRange.map((date) => new Date(date));
+
+    return now >= start && now < end;
+  });
+
+  if (active) return active;
+
+  const upcoming = entries
+    .filter((entry) => {
+      if (!entry.dateRange) return false;
+
+      const [start] = entry.dateRange.map((date) => new Date(date));
+
+      return now < start;
+    })
+    .sort((a, b) => new Date(a.dateRange[0]) - new Date(b.dateRange[0]))[0];
+
+  if (upcoming) return upcoming;
+
+  return entries
+    .filter((entry) => entry.dateRange)
+    .sort((a, b) => new Date(b.dateRange[1]) - new Date(a.dateRange[1]))[0];
 }
 
 function getBossDateRange(boss) {
-  const raidCard = findRaidCardByBossId(boss.id);
-
-  if (raidCard?.dateRange) {
-    return raidCard.dateRange;
-  }
-
-  const scheduleEntry = raidRotations
-    .flatMap((rotation) => rotation.schedule ?? [])
-    .find((entry) =>
-      entry.bosses?.some((scheduleBoss) => scheduleBoss.id === boss.id)
-    );
+  const scheduleEntry = getBestScheduleEntryForBoss(boss.id);
 
   return scheduleEntry?.dateRange ?? null;
 }
@@ -157,13 +186,7 @@ function getBossStatus(boss) {
   }
 
   const now = new Date();
-
-  const start = new Date(dateRange[0]);
-  start.setHours(10, 0, 0, 0);
-
-  const end = new Date(dateRange[1]);
-  end.setDate(end.getDate() + 1);
-  end.setHours(10, 0, 0, 0);
+  const [start, end] = dateRange.map((date) => new Date(date));
 
   if (now >= start && now < end) {
     return { text: "Active", class: "active" };
@@ -198,8 +221,8 @@ function renderBossDetail(boss) {
 
           <div class="boss-detail-badges">
             ${boss.types
-              .map((type) => `<span class="type-badge type-${type}">${formatType(type)}</span>`)
-              .join("")}
+      .map((type) => `<span class="type-badge type-${type}">${formatType(type)}</span>`)
+      .join("")}
 
             ${renderCatchCp(boss.catchCp)}
           </div>

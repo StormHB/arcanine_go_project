@@ -149,7 +149,9 @@ function renderSchedule(monthId) {
 
         <div>
           <h3>${rotation.date}</h3>
-          ${rotation.time ? `<p class="raid-schedule-dates">${rotation.time}</p>` : ""}
+          <p class="raid-schedule-dates">
+            ${rotation.time || "10:00 AM → 10:00 AM local time"}
+          </p>
         </div>
       </div>
 
@@ -162,36 +164,70 @@ function renderSchedule(monthId) {
 }
 
 function renderSummaryCards() {
-  const selectedMonth =
-    raidRotations.find((month) => month.status === "current") ||
-    raidRotations.find((month) => month.status === "upcoming") ||
-    raidRotations.at(-1);
+  const candidateMonths = raidRotations.filter((month) =>
+    month.status === "current" || month.status === "upcoming"
+  );
 
   summaryGrid.innerHTML = "";
 
-  if (!selectedMonth) {
+  if (candidateMonths.length === 0) {
     summaryGrid.innerHTML = `
-      <p class="meta-copy">No featured raids added for this month yet.</p>
+      <p class="meta-copy">No featured raids added yet.</p>
     `;
     return;
   }
 
-  const cards = selectedMonth.raidCards ?? buildCardsFromSchedule(selectedMonth);
+  const cards = candidateMonths.flatMap((month) =>
+    month.raidCards ?? buildCardsFromSchedule(month)
+  );
 
-  const featuredRaids = cards
+  const cardsWithStatus = cards
     .map((raid) => {
       const status = raid.dateRange
         ? getRaidStatus(raid.dateRange)
-        : { text: selectedMonth.status === "current" ? "Active" : "Ended", class: selectedMonth.status === "current" ? "active" : "ended" };
+        : {
+          text: "Upcoming",
+          class: "upcoming"
+        };
 
       return {
         ...raid,
         computedStatus: status
       };
     })
-    .filter((raid) => raid.computedStatus.class === "active" || raid.computedStatus.class === "upcoming")
-    .sort((a, b) => new Date(a.dateRange?.[0] ?? 0) - new Date(b.dateRange?.[0] ?? 0))
-    .slice(0, 4);
+    .sort(
+      (a, b) =>
+        new Date(a.dateRange?.[0] ?? 0) -
+        new Date(b.dateRange?.[0] ?? 0)
+    );
+
+  const activeRaids = cardsWithStatus
+    .filter((raid) => raid.computedStatus.class === "active")
+    .slice(0, 2)
+    .map((raid) => ({
+      ...raid,
+      featuredRole: "active"
+    }));
+
+  const activeIds = new Set(activeRaids.map((raid) => raid.id));
+
+  const nextRaids = cardsWithStatus
+    .filter((raid) =>
+      raid.computedStatus.class === "upcoming" &&
+      !activeIds.has(raid.id)
+    )
+    .slice(0, 2)
+    .map((raid) => ({
+      ...raid,
+      featuredRole: "next",
+      computedStatus: {
+        ...raid.computedStatus,
+        text: "Next",
+        class: "next"
+      }
+    }));
+
+  const featuredRaids = [...activeRaids, ...nextRaids];
 
   if (featuredRaids.length === 0) {
     summaryGrid.innerHTML = `
@@ -202,11 +238,15 @@ function renderSummaryCards() {
 
   featuredRaids.forEach((raid) => {
     const [primaryType, secondaryType] = raid.types ?? ["normal"];
+
     const card = document.createElement("a");
+
     const statusClass =
-      raid.computedStatus.class === "active" ? "current-boss" :
-        raid.computedStatus.class === "upcoming" ? "upcoming-boss" :
-          "";
+      raid.featuredRole === "active"
+        ? "current-boss"
+        : raid.featuredRole === "next"
+          ? "next-boss"
+          : "";
 
     card.href = `boss.html?id=${raid.id}`;
     card.className = `summary-card ${secondaryType ? "dual-glow" : "single-glow"} summary-card-link ${statusClass}`;
@@ -278,8 +318,8 @@ function renderRaidCards(monthId) {
     const card = document.createElement("a");
 
     const statusClass =
-      status.class === "active" ? "current-boss" :
-        status.class === "upcoming" ? "upcoming-boss" :
+      raid.featuredRole === "active" ? "current-boss" :
+        raid.featuredRole === "next" ? "next-boss" :
           "";
 
     card.href = `boss.html?id=${raid.id}`;
@@ -330,18 +370,25 @@ function buildCardsFromSchedule(month) {
 
   if (!counterMonth) return [];
 
-  return counterMonth.bosses.map((boss) => ({
-    id: boss.id,
-    name: boss.name,
-    image: boss.image,
-    imageAlt: boss.imageAlt,
-    badge: boss.tier?.includes("Mega") ? "Mega" : "5★",
-    badgeClass: boss.tier?.includes("Mega") ? "mega-badge" : "legendary-badge",
-    types: boss.types,
-    dexRank: boss.difficultyLabel,
-    description: boss.difficulty,
-    subtitle: boss.subtitle
-  }));
+  return counterMonth.bosses.map((boss) => {
+    const scheduleEntry = month.schedule?.find((entry) =>
+      entry.bossIds?.includes(boss.id)
+    );
+
+    return {
+      id: boss.id,
+      name: boss.name,
+      image: boss.image,
+      imageAlt: boss.imageAlt,
+      badge: boss.tier?.includes("Mega") ? "Mega" : "5★",
+      badgeClass: boss.tier?.includes("Mega") ? "mega-badge" : "legendary-badge",
+      types: boss.types,
+      dexRank: boss.difficultyLabel,
+      description: boss.difficulty,
+      subtitle: boss.subtitle,
+      dateRange: scheduleEntry?.dateRange
+    };
+  });
 }
 
 renderMonthOptions();
