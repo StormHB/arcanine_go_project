@@ -47,27 +47,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "359s",
+                        "ttw": "358s",
                         "diff": "Best"
-                    },
-                    {
-                        "name": "Shadow Kyogre",
-                        "types": [
-                            "water"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Waterfall",
-                                "type": "water"
-                            },
-                            {
-                                "name": "Origin Pulse",
-                                "type": "water",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "396s",
-                        "diff": "+10%"
                     },
                     {
                         "name": "Shadow Hydreigon",
@@ -87,6 +68,25 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "398s",
+                        "diff": "+11%"
+                    },
+                    {
+                        "name": "Shadow Kyogre",
+                        "types": [
+                            "water"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Waterfall",
+                                "type": "water"
+                            },
+                            {
+                                "name": "Origin Pulse",
+                                "type": "water",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "400s",
                         "diff": "+11%"
                     },
                     {
@@ -125,23 +125,23 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "408s",
-                        "diff": "+14%"
+                        "ttw": "402s",
+                        "diff": "+12%"
                     },
                     {
-                        "name": "Shadow Greninja",
+                        "name": "Necrozma - Dawn Wings",
                         "types": [
-                            "water",
-                            "dark"
+                            "psychic",
+                            "ghost"
                         ],
                         "moves": [
                             {
-                                "name": "Water Shuriken",
-                                "type": "water"
+                                "name": "Shadow Claw",
+                                "type": "ghost"
                             },
                             {
-                                "name": "Hydro Cannon",
-                                "type": "water",
+                                "name": "Moongeist Beam",
+                                "type": "ghost",
                                 "legacy": true
                             }
                         ],
@@ -187,7 +187,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "482s",
+                        "ttw": "483s",
                         "diff": "+1%"
                     },
                     {
@@ -207,8 +207,28 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "484s",
+                        "ttw": "483s",
                         "diff": "+1%"
+                    },
+                    {
+                        "name": "Greninja",
+                        "types": [
+                            "water",
+                            "dark"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Water Shuriken",
+                                "type": "water"
+                            },
+                            {
+                                "name": "Hydro Cannon",
+                                "type": "water",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "495s",
+                        "diff": "+3%"
                     },
                     {
                         "name": "Glimmora",
@@ -226,8 +246,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "494s",
-                        "diff": "+3%"
+                        "ttw": "496s",
+                        "diff": "+4%"
                     },
                     {
                         "name": "Kingler",
@@ -244,27 +264,7 @@ export const counterMonths = [
                                 "type": "water"
                             }
                         ],
-                        "ttw": "495s",
-                        "diff": "+3%"
-                    },
-                    {
-                        "name": "Greninja",
-                        "types": [
-                            "water",
-                            "dark"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Bubble",
-                                "type": "water"
-                            },
-                            {
-                                "name": "Hydro Cannon",
-                                "type": "water",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "496s",
+                        "ttw": "499s",
                         "diff": "+4%"
                     }
                 ]
@@ -312,7 +312,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "207s",
+                        "ttw": "209s",
                         "diff": "Best"
                     },
                     {
@@ -331,8 +331,8 @@ export const counterMonths = [
                                 "type": "grass"
                             }
                         ],
-                        "ttw": "236s",
-                        "diff": "+14%"
+                        "ttw": "240s",
+                        "diff": "+15%"
                     },
                     {
                         "name": "Shadow Chesnaught",
@@ -351,8 +351,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "242s",
-                        "diff": "+17%"
+                        "ttw": "241s",
+                        "diff": "+15%"
                     },
                     {
                         "name": "Shaymin - Sky",
@@ -370,28 +370,8 @@ export const counterMonths = [
                                 "type": "grass"
                             }
                         ],
-                        "ttw": "248s",
-                        "diff": "+20%"
-                    },
-                    {
-                        "name": "Shadow Venusaur",
-                        "types": [
-                            "grass",
-                            "poison"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Vine Whip",
-                                "type": "grass"
-                            },
-                            {
-                                "name": "Frenzy Plant",
-                                "type": "grass",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "249s",
-                        "diff": "+20%"
+                        "ttw": "247s",
+                        "diff": "+18%"
                     },
                     {
                         "name": "Shadow Tangrowth",
@@ -408,8 +388,27 @@ export const counterMonths = [
                                 "type": "grass"
                             }
                         ],
-                        "ttw": "250s",
-                        "diff": "+21%"
+                        "ttw": "251s",
+                        "diff": "+20%"
+                    },
+                    {
+                        "name": "Zarude",
+                        "types": [
+                            "dark",
+                            "grass"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Vine Whip",
+                                "type": "grass"
+                            },
+                            {
+                                "name": "Power Whip",
+                                "type": "grass"
+                            }
+                        ],
+                        "ttw": "257s",
+                        "diff": "+23%"
                     }
                 ],
                 "budgetCounters": [
@@ -429,7 +428,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "263s",
+                        "ttw": "262s",
                         "diff": "Best"
                     },
                     {
@@ -448,8 +447,8 @@ export const counterMonths = [
                                 "type": "grass"
                             }
                         ],
-                        "ttw": "280s",
-                        "diff": "+6%"
+                        "ttw": "281s",
+                        "diff": "+7%"
                     },
                     {
                         "name": "Meowscarada",
@@ -468,8 +467,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "283s",
-                        "diff": "+7%"
+                        "ttw": "282s",
+                        "diff": "+8%"
                     },
                     {
                         "name": "Decidueye",
@@ -488,8 +487,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "286s",
-                        "diff": "+9%"
+                        "ttw": "288s",
+                        "diff": "+10%"
                     },
                     {
                         "name": "Chesnaught",
@@ -508,24 +507,22 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "288s",
-                        "diff": "+10%"
+                        "ttw": "290s",
+                        "diff": "+11%"
                     },
                     {
-                        "name": "Venusaur",
+                        "name": "Tsareena",
                         "types": [
-                            "grass",
-                            "poison"
+                            "grass"
                         ],
                         "moves": [
                             {
-                                "name": "Vine Whip",
+                                "name": "Magical Leaf",
                                 "type": "grass"
                             },
                             {
-                                "name": "Frenzy Plant",
-                                "type": "grass",
-                                "legacy": true
+                                "name": "Grass Knot",
+                                "type": "grass"
                             }
                         ],
                         "ttw": "294s",
@@ -597,7 +594,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "292s",
-                        "diff": "+2%"
+                        "diff": "+1%"
                     },
                     {
                         "name": "Shadow Chandelure",
@@ -619,23 +616,21 @@ export const counterMonths = [
                         "diff": "+13%"
                     },
                     {
-                        "name": "Shadow Blaziken",
+                        "name": "Shadow Darmanitan",
                         "types": [
-                            "fire",
-                            "fighting"
+                            "fire"
                         ],
                         "moves": [
                             {
-                                "name": "Fire Spin",
+                                "name": "Fire Fang",
                                 "type": "fire"
                             },
                             {
-                                "name": "Blast Burn",
-                                "type": "fire",
-                                "legacy": true
+                                "name": "Overheat",
+                                "type": "fire"
                             }
                         ],
-                        "ttw": "326s",
+                        "ttw": "325s",
                         "diff": "+13%"
                     },
                     {
@@ -654,25 +649,27 @@ export const counterMonths = [
                                 "type": "fire"
                             }
                         ],
-                        "ttw": "327s",
+                        "ttw": "326s",
                         "diff": "+14%"
                     },
                     {
-                        "name": "Shadow Darmanitan",
+                        "name": "Shadow Blaziken",
                         "types": [
-                            "fire"
+                            "fire",
+                            "fighting"
                         ],
                         "moves": [
                             {
-                                "name": "Fire Fang",
+                                "name": "Fire Spin",
                                 "type": "fire"
                             },
                             {
-                                "name": "Overheat",
-                                "type": "fire"
+                                "name": "Blast Burn",
+                                "type": "fire",
+                                "legacy": true
                             }
                         ],
-                        "ttw": "327s",
+                        "ttw": "328s",
                         "diff": "+14%"
                     }
                 ],
@@ -692,7 +689,7 @@ export const counterMonths = [
                                 "type": "fire"
                             }
                         ],
-                        "ttw": "379s",
+                        "ttw": "377s",
                         "diff": "Best"
                     },
                     {
@@ -711,7 +708,7 @@ export const counterMonths = [
                                 "type": "fire"
                             }
                         ],
-                        "ttw": "389s",
+                        "ttw": "388s",
                         "diff": "+3%"
                     },
                     {
@@ -730,7 +727,7 @@ export const counterMonths = [
                                 "type": "fire"
                             }
                         ],
-                        "ttw": "389s",
+                        "ttw": "390s",
                         "diff": "+3%"
                     },
                     {
@@ -750,7 +747,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "392s",
+                        "ttw": "391s",
                         "diff": "+4%"
                     },
                     {
@@ -768,8 +765,8 @@ export const counterMonths = [
                                 "type": "fire"
                             }
                         ],
-                        "ttw": "396s",
-                        "diff": "+5%"
+                        "ttw": "398s",
+                        "diff": "+6%"
                     },
                     {
                         "name": "Delphox",
@@ -788,7 +785,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "409s",
+                        "ttw": "407s",
                         "diff": "+8%"
                     }
                 ]
@@ -799,14 +796,14 @@ export const counterMonths = [
                 "themeClass": "fire-theme",
                 "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10050.png",
                 "imageAlt": "Official artwork of Mega Blaziken",
-                "subtitle": "Mega Raid • Jan 5 to Jan 16",
+                "subtitle": "Mega Raid • June 10 to June 16",
                 "types": [
                     "fire",
                     "fighting"
                 ],
-                "weaknesses": "Water, Flying, Ground, Psychic",
-                "difficultyLabel": "Standard",
-                "difficulty": "Water, Flying, Ground, and Psychic attackers all perform well",
+                "weaknesses": "Water, Ground, Rock, Flying, Psychic, Fairy",
+                "difficultyLabel": "Focus",
+                "difficulty": "Strong Water, Ground and Rock counters are recommended",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -827,7 +824,7 @@ export const counterMonths = [
                         ],
                         "moves": [
                             {
-                                "name": "Psycho Cut",
+                                "name": "Confusion",
                                 "type": "psychic"
                             },
                             {
@@ -835,7 +832,7 @@ export const counterMonths = [
                                 "type": "psychic"
                             }
                         ],
-                        "ttw": "188s",
+                        "ttw": "196s",
                         "diff": "Best"
                     },
                     {
@@ -854,8 +851,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "237s",
-                        "diff": "+26%"
+                        "ttw": "239s",
+                        "diff": "+22%"
                     },
                     {
                         "name": "Shadow Moltres",
@@ -875,27 +872,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "257s",
-                        "diff": "+36%"
-                    },
-                    {
-                        "name": "Rayquaza",
-                        "types": [
-                            "dragon",
-                            "flying"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Air Slash",
-                                "type": "flying"
-                            },
-                            {
-                                "name": "Dragon Ascent",
-                                "type": "flying",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "262s",
-                        "diff": "+39%"
+                        "diff": "+31%"
                     },
                     {
                         "name": "Shadow Salamence",
@@ -914,8 +891,28 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "262s",
-                        "diff": "+39%"
+                        "ttw": "260s",
+                        "diff": "+33%"
+                    },
+                    {
+                        "name": "Rayquaza",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Air Slash",
+                                "type": "flying"
+                            },
+                            {
+                                "name": "Dragon Ascent",
+                                "type": "flying",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "264s",
+                        "diff": "+35%"
                     },
                     {
                         "name": "Shadow Kyogre",
@@ -933,8 +930,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "267s",
-                        "diff": "+42%"
+                        "ttw": "271s",
+                        "diff": "+38%"
                     }
                 ],
                 "budgetCounters": [
@@ -994,27 +991,8 @@ export const counterMonths = [
                                 "type": "flying"
                             }
                         ],
-                        "ttw": "357s",
-                        "diff": "+13%"
-                    },
-                    {
-                        "name": "Staraptor",
-                        "types": [
-                            "normal",
-                            "flying"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Wing Attack",
-                                "type": "flying"
-                            },
-                            {
-                                "name": "Fly",
-                                "type": "flying"
-                            }
-                        ],
-                        "ttw": "360s",
-                        "diff": "+14%"
+                        "ttw": "362s",
+                        "diff": "+15%"
                     },
                     {
                         "name": "Quaquaval",
@@ -1037,22 +1015,44 @@ export const counterMonths = [
                         "diff": "+15%"
                     },
                     {
-                        "name": "Kingler",
+                        "name": "Garchomp",
                         "types": [
-                            "water"
+                            "dragon",
+                            "ground"
                         ],
                         "moves": [
                             {
-                                "name": "Bubble",
-                                "type": "water"
+                                "name": "Mud Shot",
+                                "type": "ground"
                             },
                             {
-                                "name": "Crabhammer",
-                                "type": "water"
+                                "name": "Earth Power",
+                                "type": "ground",
+                                "legacy": true
                             }
                         ],
-                        "ttw": "363s",
-                        "diff": "+15%"
+                        "ttw": "366s",
+                        "diff": "+16%"
+                    },
+                    {
+                        "name": "Swampert",
+                        "types": [
+                            "water",
+                            "ground"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Mud Shot",
+                                "type": "ground"
+                            },
+                            {
+                                "name": "Hydro Cannon",
+                                "type": "water",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "367s",
+                        "diff": "+16%"
                     }
                 ]
             },
@@ -1120,8 +1120,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "434s",
-                        "diff": "+8%"
+                        "ttw": "432s",
+                        "diff": "+7%"
                     },
                     {
                         "name": "Shadow Regigigas",
@@ -1139,26 +1139,27 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "455s",
+                        "ttw": "456s",
                         "diff": "+13%"
                     },
                     {
-                        "name": "Mega Mewtwo Y",
+                        "name": "Mega Diancie",
                         "types": [
-                            "psychic"
+                            "rock",
+                            "fairy"
                         ],
                         "moves": [
                             {
-                                "name": "Psycho Cut",
-                                "type": "psychic"
+                                "name": "Rock Throw",
+                                "type": "rock"
                             },
                             {
-                                "name": "Ice Beam",
-                                "type": "ice"
+                                "name": "Rock Slide",
+                                "type": "rock"
                             }
                         ],
                         "ttw": "457s",
-                        "diff": "+14%"
+                        "diff": "+13%"
                     },
                     {
                         "name": "Shadow Rhyperior",
@@ -1177,8 +1178,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "467s",
-                        "diff": "+16%"
+                        "ttw": "465s",
+                        "diff": "+15%"
                     },
                     {
                         "name": "Shadow Rampardos",
@@ -1195,8 +1196,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "467s",
-                        "diff": "+16%"
+                        "ttw": "465s",
+                        "diff": "+15%"
                     }
                 ],
                 "budgetCounters": [
@@ -1215,7 +1216,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "521s",
+                        "ttw": "522s",
                         "diff": "Best"
                     },
                     {
@@ -1234,7 +1235,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "523s",
+                        "ttw": "524s",
                         "diff": "+0%"
                     },
                     {
@@ -1252,7 +1253,7 @@ export const counterMonths = [
                                 "type": "ice"
                             }
                         ],
-                        "ttw": "553s",
+                        "ttw": "552s",
                         "diff": "+6%"
                     },
                     {
@@ -1271,7 +1272,7 @@ export const counterMonths = [
                                 "type": "ice"
                             }
                         ],
-                        "ttw": "559s",
+                        "ttw": "558s",
                         "diff": "+7%"
                     },
                     {
@@ -1291,8 +1292,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "563s",
-                        "diff": "+8%"
+                        "ttw": "560s",
+                        "diff": "+7%"
                     },
                     {
                         "name": "Tyrantrum",
@@ -1359,7 +1360,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "172s",
+                        "ttw": "173s",
                         "diff": "Best"
                     },
                     {
@@ -1379,26 +1380,28 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "190s",
-                        "diff": "+10%"
+                        "ttw": "192s",
+                        "diff": "+11%"
                     },
                     {
-                        "name": "Mega Mewtwo Y",
+                        "name": "Mega Rayquaza",
                         "types": [
-                            "psychic"
+                            "dragon",
+                            "flying"
                         ],
                         "moves": [
                             {
-                                "name": "Psycho Cut",
-                                "type": "psychic"
+                                "name": "Dragon Tail",
+                                "type": "dragon"
                             },
                             {
-                                "name": "Ice Beam",
-                                "type": "ice"
+                                "name": "Dragon Ascent",
+                                "type": "flying",
+                                "legacy": true
                             }
                         ],
-                        "ttw": "205s",
-                        "diff": "+19%"
+                        "ttw": "207s",
+                        "diff": "+20%"
                     },
                     {
                         "name": "Shadow Mamoswine",
@@ -1435,8 +1438,8 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "223s",
-                        "diff": "+29%"
+                        "ttw": "226s",
+                        "diff": "+31%"
                     },
                     {
                         "name": "Shadow Weavile",
@@ -1454,8 +1457,8 @@ export const counterMonths = [
                                 "type": "ice"
                             }
                         ],
-                        "ttw": "226s",
-                        "diff": "+31%"
+                        "ttw": "228s",
+                        "diff": "+32%"
                     }
                 ],
                 "budgetCounters": [
@@ -1512,7 +1515,7 @@ export const counterMonths = [
                                 "type": "ice"
                             }
                         ],
-                        "ttw": "250s",
+                        "ttw": "249s",
                         "diff": "+3%"
                     },
                     {
@@ -1531,7 +1534,7 @@ export const counterMonths = [
                                 "type": "ice"
                             }
                         ],
-                        "ttw": "263s",
+                        "ttw": "265s",
                         "diff": "+9%"
                     },
                     {
@@ -1549,8 +1552,8 @@ export const counterMonths = [
                                 "type": "ice"
                             }
                         ],
-                        "ttw": "266s",
-                        "diff": "+10%"
+                        "ttw": "265s",
+                        "diff": "+9%"
                     },
                     {
                         "name": "Cetitan",
@@ -1567,8 +1570,8 @@ export const counterMonths = [
                                 "type": "ice"
                             }
                         ],
-                        "ttw": "272s",
-                        "diff": "+12%"
+                        "ttw": "273s",
+                        "diff": "+13%"
                     }
                 ]
             },
@@ -1615,26 +1618,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "407s",
+                        "ttw": "404s",
                         "diff": "Best"
-                    },
-                    {
-                        "name": "Mega Mewtwo Y",
-                        "types": [
-                            "psychic"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Psycho Cut",
-                                "type": "psychic"
-                            },
-                            {
-                                "name": "Thunderbolt",
-                                "type": "electric"
-                            }
-                        ],
-                        "ttw": "444s",
-                        "diff": "+9%"
                     },
                     {
                         "name": "Black Kyurem",
@@ -1653,8 +1638,26 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "445s",
-                        "diff": "+9%"
+                        "ttw": "447s",
+                        "diff": "+11%"
+                    },
+                    {
+                        "name": "Mega Mewtwo Y",
+                        "types": [
+                            "psychic"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Psycho Cut",
+                                "type": "psychic"
+                            },
+                            {
+                                "name": "Thunderbolt",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "454s",
+                        "diff": "+12%"
                     },
                     {
                         "name": "Shadow Raikou",
@@ -1671,8 +1674,8 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "457s",
-                        "diff": "+12%"
+                        "ttw": "459s",
+                        "diff": "+13%"
                     },
                     {
                         "name": "Shadow Regigigas",
@@ -1690,26 +1693,26 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "460s",
-                        "diff": "+13%"
+                        "ttw": "464s",
+                        "diff": "+15%"
                     },
                     {
-                        "name": "Xurkitree",
+                        "name": "Shadow Rampardos",
                         "types": [
-                            "electric"
+                            "rock"
                         ],
                         "moves": [
                             {
-                                "name": "Thunder Shock",
-                                "type": "electric"
+                                "name": "Smack Down",
+                                "type": "rock"
                             },
                             {
-                                "name": "Discharge",
-                                "type": "electric"
+                                "name": "Rock Slide",
+                                "type": "rock"
                             }
                         ],
-                        "ttw": "469s",
-                        "diff": "+15%"
+                        "ttw": "468s",
+                        "diff": "+16%"
                     }
                 ],
                 "budgetCounters": [
@@ -1729,26 +1732,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "529s",
+                        "ttw": "528s",
                         "diff": "Best"
-                    },
-                    {
-                        "name": "Rampardos",
-                        "types": [
-                            "rock"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Smack Down",
-                                "type": "rock"
-                            },
-                            {
-                                "name": "Rock Slide",
-                                "type": "rock"
-                            }
-                        ],
-                        "ttw": "544s",
-                        "diff": "+3%"
                     },
                     {
                         "name": "Electivire",
@@ -1765,8 +1750,46 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "546s",
+                        "ttw": "547s",
                         "diff": "+3%"
+                    },
+                    {
+                        "name": "Rampardos",
+                        "types": [
+                            "rock"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Smack Down",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Rock Slide",
+                                "type": "rock"
+                            }
+                        ],
+                        "ttw": "550s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Rhyperior",
+                        "types": [
+                            "ground",
+                            "rock"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Smack Down",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Rock Wrecker",
+                                "type": "rock",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "573s",
+                        "diff": "+8%"
                     },
                     {
                         "name": "Tyrantrum",
@@ -1784,26 +1807,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "571s",
-                        "diff": "+8%"
-                    },
-                    {
-                        "name": "Baxcalibur",
-                        "types": [
-                            "dragon",
-                            "ice"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Ice Fang",
-                                "type": "ice"
-                            },
-                            {
-                                "name": "Avalanche",
-                                "type": "ice"
-                            }
-                        ],
-                        "ttw": "571s",
+                        "ttw": "573s",
                         "diff": "+8%"
                     },
                     {
@@ -1822,8 +1826,8 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "575s",
-                        "diff": "+9%"
+                        "ttw": "573s",
+                        "diff": "+8%"
                     }
                 ]
             },
@@ -1870,7 +1874,7 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "243s",
+                        "ttw": "244s",
                         "diff": "Best"
                     },
                     {
@@ -1890,8 +1894,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "247s",
-                        "diff": "+2%"
+                        "ttw": "246s",
+                        "diff": "+1%"
                     },
                     {
                         "name": "Black Kyurem",
@@ -1910,8 +1914,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "261s",
-                        "diff": "+7%"
+                        "ttw": "259s",
+                        "diff": "+6%"
                     },
                     {
                         "name": "Shadow Garchomp",
@@ -1929,7 +1933,7 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "295s",
+                        "ttw": "296s",
                         "diff": "+21%"
                     },
                     {
@@ -1950,7 +1954,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "296s",
-                        "diff": "+22%"
+                        "diff": "+21%"
                     },
                     {
                         "name": "Shadow Groudon",
@@ -1968,7 +1972,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "308s",
+                        "ttw": "307s",
                         "diff": "+26%"
                     }
                 ],
@@ -2066,7 +2070,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "382s",
-                        "diff": "+16%"
+                        "diff": "+17%"
                     },
                     {
                         "name": "Baxcalibur",
@@ -2084,7 +2088,7 @@ export const counterMonths = [
                                 "type": "ice"
                             }
                         ],
-                        "ttw": "402s",
+                        "ttw": "400s",
                         "diff": "+22%"
                     }
                 ]
@@ -2139,26 +2143,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "407s",
+                        "ttw": "404s",
                         "diff": "Best"
-                    },
-                    {
-                        "name": "Mega Mewtwo Y",
-                        "types": [
-                            "psychic"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Psycho Cut",
-                                "type": "psychic"
-                            },
-                            {
-                                "name": "Thunderbolt",
-                                "type": "electric"
-                            }
-                        ],
-                        "ttw": "444s",
-                        "diff": "+9%"
                     },
                     {
                         "name": "Black Kyurem",
@@ -2177,8 +2163,26 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "445s",
-                        "diff": "+9%"
+                        "ttw": "447s",
+                        "diff": "+11%"
+                    },
+                    {
+                        "name": "Mega Mewtwo Y",
+                        "types": [
+                            "psychic"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Psycho Cut",
+                                "type": "psychic"
+                            },
+                            {
+                                "name": "Thunderbolt",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "454s",
+                        "diff": "+12%"
                     },
                     {
                         "name": "Shadow Raikou",
@@ -2195,8 +2199,8 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "457s",
-                        "diff": "+12%"
+                        "ttw": "459s",
+                        "diff": "+13%"
                     },
                     {
                         "name": "Shadow Regigigas",
@@ -2214,26 +2218,26 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "460s",
-                        "diff": "+13%"
+                        "ttw": "464s",
+                        "diff": "+15%"
                     },
                     {
-                        "name": "Xurkitree",
+                        "name": "Shadow Rampardos",
                         "types": [
-                            "electric"
+                            "rock"
                         ],
                         "moves": [
                             {
-                                "name": "Thunder Shock",
-                                "type": "electric"
+                                "name": "Smack Down",
+                                "type": "rock"
                             },
                             {
-                                "name": "Discharge",
-                                "type": "electric"
+                                "name": "Rock Slide",
+                                "type": "rock"
                             }
                         ],
-                        "ttw": "469s",
-                        "diff": "+15%"
+                        "ttw": "468s",
+                        "diff": "+16%"
                     }
                 ],
                 "budgetCounters": [
@@ -2253,26 +2257,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "529s",
+                        "ttw": "528s",
                         "diff": "Best"
-                    },
-                    {
-                        "name": "Rampardos",
-                        "types": [
-                            "rock"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Smack Down",
-                                "type": "rock"
-                            },
-                            {
-                                "name": "Rock Slide",
-                                "type": "rock"
-                            }
-                        ],
-                        "ttw": "544s",
-                        "diff": "+3%"
                     },
                     {
                         "name": "Electivire",
@@ -2289,8 +2275,46 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "546s",
+                        "ttw": "547s",
                         "diff": "+3%"
+                    },
+                    {
+                        "name": "Rampardos",
+                        "types": [
+                            "rock"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Smack Down",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Rock Slide",
+                                "type": "rock"
+                            }
+                        ],
+                        "ttw": "550s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Rhyperior",
+                        "types": [
+                            "ground",
+                            "rock"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Smack Down",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Rock Wrecker",
+                                "type": "rock",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "573s",
+                        "diff": "+8%"
                     },
                     {
                         "name": "Tyrantrum",
@@ -2308,26 +2332,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "571s",
-                        "diff": "+8%"
-                    },
-                    {
-                        "name": "Baxcalibur",
-                        "types": [
-                            "dragon",
-                            "ice"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Ice Fang",
-                                "type": "ice"
-                            },
-                            {
-                                "name": "Avalanche",
-                                "type": "ice"
-                            }
-                        ],
-                        "ttw": "571s",
+                        "ttw": "573s",
                         "diff": "+8%"
                     },
                     {
@@ -2346,8 +2351,8 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "575s",
-                        "diff": "+9%"
+                        "ttw": "573s",
+                        "diff": "+8%"
                     }
                 ]
             },
@@ -2394,7 +2399,7 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "243s",
+                        "ttw": "244s",
                         "diff": "Best"
                     },
                     {
@@ -2414,8 +2419,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "247s",
-                        "diff": "+2%"
+                        "ttw": "246s",
+                        "diff": "+1%"
                     },
                     {
                         "name": "Black Kyurem",
@@ -2434,8 +2439,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "261s",
-                        "diff": "+7%"
+                        "ttw": "259s",
+                        "diff": "+6%"
                     },
                     {
                         "name": "Shadow Garchomp",
@@ -2453,7 +2458,7 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "295s",
+                        "ttw": "296s",
                         "diff": "+21%"
                     },
                     {
@@ -2474,7 +2479,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "296s",
-                        "diff": "+22%"
+                        "diff": "+21%"
                     },
                     {
                         "name": "Shadow Groudon",
@@ -2492,7 +2497,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "308s",
+                        "ttw": "307s",
                         "diff": "+26%"
                     }
                 ],
@@ -2590,7 +2595,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "382s",
-                        "diff": "+16%"
+                        "diff": "+17%"
                     },
                     {
                         "name": "Baxcalibur",
@@ -2608,7 +2613,7 @@ export const counterMonths = [
                                 "type": "ice"
                             }
                         ],
-                        "ttw": "402s",
+                        "ttw": "400s",
                         "diff": "+22%"
                     }
                 ]
@@ -2696,8 +2701,8 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "540s",
-                        "diff": "+23%"
+                        "ttw": "555s",
+                        "diff": "+26%"
                     },
                     {
                         "name": "Lucario",
@@ -2716,7 +2721,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "558s",
+                        "ttw": "560s",
                         "diff": "+27%"
                     },
                     {
@@ -2735,7 +2740,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "560s",
+                        "ttw": "562s",
                         "diff": "+28%"
                     },
                     {
@@ -2776,7 +2781,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "558s",
+                        "ttw": "560s",
                         "diff": "Best"
                     },
                     {
@@ -2795,8 +2800,8 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "635s",
-                        "diff": "+14%"
+                        "ttw": "650s",
+                        "diff": "+16%"
                     },
                     {
                         "name": "Conkeldurr",
@@ -2813,8 +2818,8 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "691s",
-                        "diff": "+24%"
+                        "ttw": "689s",
+                        "diff": "+23%"
                     },
                     {
                         "name": "Excadrill",
@@ -2833,7 +2838,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "704s",
+                        "ttw": "706s",
                         "diff": "+26%"
                     },
                     {
@@ -2852,8 +2857,8 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "729s",
-                        "diff": "+31%"
+                        "ttw": "728s",
+                        "diff": "+30%"
                     },
                     {
                         "name": "Mamoswine",
@@ -2872,8 +2877,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "737s",
-                        "diff": "+32%"
+                        "ttw": "736s",
+                        "diff": "+31%"
                     }
                 ]
             },
@@ -2920,7 +2925,7 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "445s",
+                        "ttw": "441s",
                         "diff": "Best"
                     },
                     {
@@ -2940,8 +2945,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "448s",
-                        "diff": "+1%"
+                        "ttw": "450s",
+                        "diff": "+2%"
                     },
                     {
                         "name": "Shadow Garchomp",
@@ -2959,8 +2964,8 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "521s",
-                        "diff": "+17%"
+                        "ttw": "523s",
+                        "diff": "+18%"
                     },
                     {
                         "name": "Dialga - Origin",
@@ -2978,8 +2983,8 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "580s",
-                        "diff": "+30%"
+                        "ttw": "581s",
+                        "diff": "+32%"
                     },
                     {
                         "name": "Rayquaza",
@@ -2998,8 +3003,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "585s",
-                        "diff": "+31%"
+                        "ttw": "588s",
+                        "diff": "+33%"
                     },
                     {
                         "name": "Shadow Palkia",
@@ -3017,8 +3022,8 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "589s",
-                        "diff": "+32%"
+                        "ttw": "588s",
+                        "diff": "+33%"
                     }
                 ],
                 "budgetCounters": [
@@ -3037,7 +3042,7 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "593s",
+                        "ttw": "594s",
                         "diff": "Best"
                     },
                     {
@@ -3056,7 +3061,7 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "624s",
+                        "ttw": "625s",
                         "diff": "+5%"
                     },
                     {
@@ -3075,7 +3080,7 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "625s",
+                        "ttw": "629s",
                         "diff": "+6%"
                     },
                     {
@@ -3094,8 +3099,8 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "690s",
-                        "diff": "+16%"
+                        "ttw": "693s",
+                        "diff": "+17%"
                     },
                     {
                         "name": "Dragonite",
@@ -3113,18 +3118,18 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "706s",
+                        "ttw": "707s",
                         "diff": "+19%"
                     },
                     {
-                        "name": "Baxcalibur",
+                        "name": "Duraludon",
                         "types": [
-                            "dragon",
-                            "ice"
+                            "steel",
+                            "dragon"
                         ],
                         "moves": [
                             {
-                                "name": "Dragon Breath",
+                                "name": "Dragon Tail",
                                 "type": "dragon"
                             },
                             {
@@ -3140,17 +3145,17 @@ export const counterMonths = [
             {
                 "id": "mega-pidgeot",
                 "name": "Mega Pidgeot",
-                "themeClass": "flying-theme",
+                "themeClass": "normal-theme",
                 "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10073.png",
                 "imageAlt": "Official artwork of Mega Pidgeot",
-                "subtitle": "Mega Raid • Feb 4 to Feb 16",
+                "subtitle": "Mega Raid • June 24 to July 1",
                 "types": [
                     "normal",
                     "flying"
                 ],
-                "weaknesses": "Rock, Electric, Ice",
-                "difficultyLabel": "Standard",
-                "difficulty": "Rock, Electric, and Ice attackers all perform well",
+                "weaknesses": "Fighting, Electric, Ice, Rock",
+                "difficultyLabel": "Focus",
+                "difficulty": "Fighting, Electric and Ice-type teams are especially effective here",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -3181,7 +3186,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "260s",
+                        "ttw": "256s",
                         "diff": "Best"
                     },
                     {
@@ -3201,26 +3206,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "276s",
-                        "diff": "+7%"
-                    },
-                    {
-                        "name": "Mega Mewtwo Y",
-                        "types": [
-                            "psychic"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Psycho Cut",
-                                "type": "psychic"
-                            },
-                            {
-                                "name": "Thunderbolt",
-                                "type": "electric"
-                            }
-                        ],
-                        "ttw": "282s",
-                        "diff": "+8%"
+                        "ttw": "279s",
+                        "diff": "+9%"
                     },
                     {
                         "name": "Shadow Rampardos",
@@ -3238,7 +3225,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "282s",
-                        "diff": "+9%"
+                        "diff": "+10%"
                     },
                     {
                         "name": "Shadow Electivire",
@@ -3255,8 +3242,8 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "286s",
-                        "diff": "+10%"
+                        "ttw": "285s",
+                        "diff": "+11%"
                     },
                     {
                         "name": "Regieleki",
@@ -3273,8 +3260,26 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "290s",
+                        "ttw": "287s",
                         "diff": "+12%"
+                    },
+                    {
+                        "name": "Mega Mewtwo Y",
+                        "types": [
+                            "psychic"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Psycho Cut",
+                                "type": "psychic"
+                            },
+                            {
+                                "name": "Thunderbolt",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "289s",
+                        "diff": "+13%"
                     }
                 ],
                 "budgetCounters": [
@@ -3312,7 +3317,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "337s",
+                        "ttw": "338s",
                         "diff": "+2%"
                     },
                     {
@@ -3330,8 +3335,8 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "341s",
-                        "diff": "+3%"
+                        "ttw": "343s",
+                        "diff": "+4%"
                     },
                     {
                         "name": "Rhyperior",
@@ -3350,27 +3355,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "358s",
+                        "ttw": "356s",
                         "diff": "+8%"
-                    },
-                    {
-                        "name": "Magnezone",
-                        "types": [
-                            "electric",
-                            "steel"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Spark",
-                                "type": "electric"
-                            },
-                            {
-                                "name": "Wild Charge",
-                                "type": "electric"
-                            }
-                        ],
-                        "ttw": "364s",
-                        "diff": "+10%"
                     },
                     {
                         "name": "Tyrantrum",
@@ -3390,6 +3376,25 @@ export const counterMonths = [
                         ],
                         "ttw": "365s",
                         "diff": "+10%"
+                    },
+                    {
+                        "name": "Magnezone",
+                        "types": [
+                            "electric",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Spark",
+                                "type": "electric"
+                            },
+                            {
+                                "name": "Wild Charge",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "366s",
+                        "diff": "+11%"
                     }
                 ]
             },
@@ -3437,14 +3442,14 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "448s",
+                        "ttw": "446s",
                         "diff": "Best"
                     },
                     {
-                        "name": "Mega Charizard Y",
+                        "name": "Mega Blaziken",
                         "types": [
                             "fire",
-                            "flying"
+                            "fighting"
                         ],
                         "moves": [
                             {
@@ -3453,11 +3458,12 @@ export const counterMonths = [
                             },
                             {
                                 "name": "Blast Burn",
-                                "type": "fire"
+                                "type": "fire",
+                                "legacy": true
                             }
                         ],
                         "ttw": "454s",
-                        "diff": "+1%"
+                        "diff": "+2%"
                     },
                     {
                         "name": "Blacephalon",
@@ -3475,8 +3481,8 @@ export const counterMonths = [
                                 "type": "fire"
                             }
                         ],
-                        "ttw": "459s",
-                        "diff": "+2%"
+                        "ttw": "458s",
+                        "diff": "+3%"
                     },
                     {
                         "name": "Shadow Chandelure",
@@ -3494,8 +3500,8 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "486s",
-                        "diff": "+8%"
+                        "ttw": "485s",
+                        "diff": "+9%"
                     },
                     {
                         "name": "Shadow Hydreigon",
@@ -3533,8 +3539,8 @@ export const counterMonths = [
                                 "type": "fire"
                             }
                         ],
-                        "ttw": "496s",
-                        "diff": "+11%"
+                        "ttw": "499s",
+                        "diff": "+12%"
                     }
                 ],
                 "budgetCounters": [
@@ -3554,7 +3560,7 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "571s",
+                        "ttw": "569s",
                         "diff": "Best"
                     },
                     {
@@ -3572,7 +3578,7 @@ export const counterMonths = [
                                 "type": "fire"
                             }
                         ],
-                        "ttw": "582s",
+                        "ttw": "578s",
                         "diff": "+2%"
                     },
                     {
@@ -3610,7 +3616,7 @@ export const counterMonths = [
                                 "type": "fire"
                             }
                         ],
-                        "ttw": "605s",
+                        "ttw": "603s",
                         "diff": "+6%"
                     },
                     {
@@ -3630,23 +3636,23 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "605s",
-                        "diff": "+6%"
+                        "ttw": "607s",
+                        "diff": "+7%"
                     },
                     {
-                        "name": "Dragapult",
+                        "name": "Volcarona",
                         "types": [
-                            "dragon",
-                            "ghost"
+                            "bug",
+                            "fire"
                         ],
                         "moves": [
                             {
-                                "name": "Astonish",
-                                "type": "ghost"
+                                "name": "Fire Spin",
+                                "type": "fire"
                             },
                             {
-                                "name": "Shadow Ball",
-                                "type": "ghost"
+                                "name": "Overheat",
+                                "type": "fire"
                             }
                         ],
                         "ttw": "608s",
@@ -3697,7 +3703,7 @@ export const counterMonths = [
                                 "type": "fairy"
                             }
                         ],
-                        "ttw": "350s",
+                        "ttw": "349s",
                         "diff": "Best"
                     },
                     {
@@ -3716,8 +3722,8 @@ export const counterMonths = [
                                 "type": "fairy"
                             }
                         ],
-                        "ttw": "376s",
-                        "diff": "+8%"
+                        "ttw": "374s",
+                        "diff": "+7%"
                     },
                     {
                         "name": "Shadow Gardevoir",
@@ -3735,7 +3741,7 @@ export const counterMonths = [
                                 "type": "fairy"
                             }
                         ],
-                        "ttw": "398s",
+                        "ttw": "397s",
                         "diff": "+14%"
                     },
                     {
@@ -3754,7 +3760,7 @@ export const counterMonths = [
                                 "type": "fairy"
                             }
                         ],
-                        "ttw": "403s",
+                        "ttw": "402s",
                         "diff": "+15%"
                     },
                     {
@@ -3793,7 +3799,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "419s",
+                        "ttw": "420s",
                         "diff": "+20%"
                     }
                 ],
@@ -3814,7 +3820,7 @@ export const counterMonths = [
                                 "type": "fairy"
                             }
                         ],
-                        "ttw": "481s",
+                        "ttw": "482s",
                         "diff": "Best"
                     },
                     {
@@ -3852,7 +3858,7 @@ export const counterMonths = [
                                 "type": "fairy"
                             }
                         ],
-                        "ttw": "492s",
+                        "ttw": "493s",
                         "diff": "+2%"
                     },
                     {
@@ -3871,7 +3877,7 @@ export const counterMonths = [
                                 "type": "fairy"
                             }
                         ],
-                        "ttw": "514s",
+                        "ttw": "516s",
                         "diff": "+7%"
                     },
                     {
@@ -3889,7 +3895,7 @@ export const counterMonths = [
                                 "type": "fairy"
                             }
                         ],
-                        "ttw": "522s",
+                        "ttw": "521s",
                         "diff": "+8%"
                     },
                     {
@@ -3956,7 +3962,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "317s",
+                        "ttw": "318s",
                         "diff": "Best"
                     },
                     {
@@ -3976,8 +3982,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "320s",
-                        "diff": "+1%"
+                        "ttw": "319s",
+                        "diff": "+0%"
                     },
                     {
                         "name": "Necrozma - Dawn Wings",
@@ -3996,27 +4002,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "331s",
+                        "ttw": "332s",
                         "diff": "+4%"
-                    },
-                    {
-                        "name": "Shadow Absol",
-                        "types": [
-                            "dark"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Snarl",
-                                "type": "dark"
-                            },
-                            {
-                                "name": "Brutal Swing",
-                                "type": "dark",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "335s",
-                        "diff": "+5%"
                     },
                     {
                         "name": "Shadow Hydreigon",
@@ -4035,8 +4022,27 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "335s",
-                        "diff": "+6%"
+                        "ttw": "340s",
+                        "diff": "+7%"
+                    },
+                    {
+                        "name": "Shadow Absol",
+                        "types": [
+                            "dark"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Snarl",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Brutal Swing",
+                                "type": "dark",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "340s",
+                        "diff": "+7%"
                     },
                     {
                         "name": "Shadow Darkrai",
@@ -4053,8 +4059,8 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "336s",
-                        "diff": "+6%"
+                        "ttw": "341s",
+                        "diff": "+7%"
                     }
                 ],
                 "budgetCounters": [
@@ -4075,7 +4081,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "389s",
+                        "ttw": "388s",
                         "diff": "Best"
                     },
                     {
@@ -4095,26 +4101,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "398s",
-                        "diff": "+2%"
-                    },
-                    {
-                        "name": "Absol",
-                        "types": [
-                            "dark"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Snarl",
-                                "type": "dark"
-                            },
-                            {
-                                "name": "Brutal Swing",
-                                "type": "dark",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "400s",
+                        "ttw": "401s",
                         "diff": "+3%"
                     },
                     {
@@ -4133,8 +4120,27 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "402s",
-                        "diff": "+3%"
+                        "ttw": "403s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Absol",
+                        "types": [
+                            "dark"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Snarl",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Brutal Swing",
+                                "type": "dark",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "405s",
+                        "diff": "+4%"
                     },
                     {
                         "name": "Kingambit",
@@ -4152,7 +4158,7 @@ export const counterMonths = [
                                 "type": "dark"
                             }
                         ],
-                        "ttw": "409s",
+                        "ttw": "408s",
                         "diff": "+5%"
                     },
                     {
@@ -4258,7 +4264,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "195s",
+                        "ttw": "196s",
                         "diff": "+16%"
                     },
                     {
@@ -4279,7 +4285,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "218s",
-                        "diff": "+29%"
+                        "diff": "+30%"
                     },
                     {
                         "name": "Terrakion",
@@ -4297,7 +4303,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "221s",
+                        "ttw": "220s",
                         "diff": "+31%"
                     },
                     {
@@ -4357,8 +4363,8 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "234s",
-                        "diff": "+7%"
+                        "ttw": "232s",
+                        "diff": "+6%"
                     },
                     {
                         "name": "Conkeldurr",
@@ -4379,6 +4385,43 @@ export const counterMonths = [
                         "diff": "+23%"
                     },
                     {
+                        "name": "Machamp",
+                        "types": [
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Counter",
+                                "type": "fighting"
+                            },
+                            {
+                                "name": "Dynamic Punch",
+                                "type": "fighting"
+                            }
+                        ],
+                        "ttw": "283s",
+                        "diff": "+30%"
+                    },
+                    {
+                        "name": "Hisuian Decidueye",
+                        "types": [
+                            "grass",
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Magical Leaf",
+                                "type": "grass"
+                            },
+                            {
+                                "name": "Aura Sphere",
+                                "type": "fighting"
+                            }
+                        ],
+                        "ttw": "285s",
+                        "diff": "+30%"
+                    },
+                    {
                         "name": "Breloom",
                         "types": [
                             "grass",
@@ -4394,45 +4437,8 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "284s",
-                        "diff": "+30%"
-                    },
-                    {
-                        "name": "Machamp",
-                        "types": [
-                            "fighting"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Counter",
-                                "type": "fighting"
-                            },
-                            {
-                                "name": "Dynamic Punch",
-                                "type": "fighting"
-                            }
-                        ],
                         "ttw": "285s",
-                        "diff": "+31%"
-                    },
-                    {
-                        "name": "Togekiss",
-                        "types": [
-                            "fairy",
-                            "flying"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Charm",
-                                "type": "fairy"
-                            },
-                            {
-                                "name": "Aura Sphere",
-                                "type": "fighting"
-                            }
-                        ],
-                        "ttw": "287s",
-                        "diff": "+32%"
+                        "diff": "+30%"
                     }
                 ]
             }
@@ -4487,7 +4493,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "317s",
+                        "ttw": "318s",
                         "diff": "Best"
                     },
                     {
@@ -4507,8 +4513,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "320s",
-                        "diff": "+1%"
+                        "ttw": "319s",
+                        "diff": "+0%"
                     },
                     {
                         "name": "Necrozma - Dawn Wings",
@@ -4527,27 +4533,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "331s",
+                        "ttw": "332s",
                         "diff": "+4%"
-                    },
-                    {
-                        "name": "Shadow Absol",
-                        "types": [
-                            "dark"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Snarl",
-                                "type": "dark"
-                            },
-                            {
-                                "name": "Brutal Swing",
-                                "type": "dark",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "335s",
-                        "diff": "+5%"
                     },
                     {
                         "name": "Shadow Hydreigon",
@@ -4566,8 +4553,27 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "335s",
-                        "diff": "+6%"
+                        "ttw": "340s",
+                        "diff": "+7%"
+                    },
+                    {
+                        "name": "Shadow Absol",
+                        "types": [
+                            "dark"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Snarl",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Brutal Swing",
+                                "type": "dark",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "340s",
+                        "diff": "+7%"
                     },
                     {
                         "name": "Shadow Darkrai",
@@ -4584,8 +4590,8 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "336s",
-                        "diff": "+6%"
+                        "ttw": "341s",
+                        "diff": "+7%"
                     }
                 ],
                 "budgetCounters": [
@@ -4606,7 +4612,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "389s",
+                        "ttw": "388s",
                         "diff": "Best"
                     },
                     {
@@ -4626,26 +4632,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "398s",
-                        "diff": "+2%"
-                    },
-                    {
-                        "name": "Absol",
-                        "types": [
-                            "dark"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Snarl",
-                                "type": "dark"
-                            },
-                            {
-                                "name": "Brutal Swing",
-                                "type": "dark",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "400s",
+                        "ttw": "401s",
                         "diff": "+3%"
                     },
                     {
@@ -4664,8 +4651,27 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "402s",
-                        "diff": "+3%"
+                        "ttw": "403s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Absol",
+                        "types": [
+                            "dark"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Snarl",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Brutal Swing",
+                                "type": "dark",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "405s",
+                        "diff": "+4%"
                     },
                     {
                         "name": "Kingambit",
@@ -4683,7 +4689,7 @@ export const counterMonths = [
                                 "type": "dark"
                             }
                         ],
-                        "ttw": "409s",
+                        "ttw": "408s",
                         "diff": "+5%"
                     },
                     {
@@ -4789,7 +4795,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "195s",
+                        "ttw": "196s",
                         "diff": "+16%"
                     },
                     {
@@ -4810,7 +4816,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "218s",
-                        "diff": "+29%"
+                        "diff": "+30%"
                     },
                     {
                         "name": "Terrakion",
@@ -4828,7 +4834,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "221s",
+                        "ttw": "220s",
                         "diff": "+31%"
                     },
                     {
@@ -4888,8 +4894,8 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "234s",
-                        "diff": "+7%"
+                        "ttw": "232s",
+                        "diff": "+6%"
                     },
                     {
                         "name": "Conkeldurr",
@@ -4910,6 +4916,43 @@ export const counterMonths = [
                         "diff": "+23%"
                     },
                     {
+                        "name": "Machamp",
+                        "types": [
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Counter",
+                                "type": "fighting"
+                            },
+                            {
+                                "name": "Dynamic Punch",
+                                "type": "fighting"
+                            }
+                        ],
+                        "ttw": "283s",
+                        "diff": "+30%"
+                    },
+                    {
+                        "name": "Hisuian Decidueye",
+                        "types": [
+                            "grass",
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Magical Leaf",
+                                "type": "grass"
+                            },
+                            {
+                                "name": "Aura Sphere",
+                                "type": "fighting"
+                            }
+                        ],
+                        "ttw": "285s",
+                        "diff": "+30%"
+                    },
+                    {
                         "name": "Breloom",
                         "types": [
                             "grass",
@@ -4925,45 +4968,8 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "284s",
-                        "diff": "+30%"
-                    },
-                    {
-                        "name": "Machamp",
-                        "types": [
-                            "fighting"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Counter",
-                                "type": "fighting"
-                            },
-                            {
-                                "name": "Dynamic Punch",
-                                "type": "fighting"
-                            }
-                        ],
                         "ttw": "285s",
-                        "diff": "+31%"
-                    },
-                    {
-                        "name": "Togekiss",
-                        "types": [
-                            "fairy",
-                            "flying"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Charm",
-                                "type": "fairy"
-                            },
-                            {
-                                "name": "Aura Sphere",
-                                "type": "fighting"
-                            }
-                        ],
-                        "ttw": "287s",
-                        "diff": "+32%"
+                        "diff": "+30%"
                     }
                 ]
             },
@@ -5009,7 +5015,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "382s",
+                        "ttw": "383s",
                         "diff": "Best"
                     },
                     {
@@ -5028,7 +5034,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "393s",
+                        "ttw": "394s",
                         "diff": "+3%"
                     },
                     {
@@ -5048,7 +5054,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "419s",
+                        "ttw": "421s",
                         "diff": "+10%"
                     },
                     {
@@ -5067,8 +5073,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "424s",
-                        "diff": "+11%"
+                        "ttw": "427s",
+                        "diff": "+12%"
                     },
                     {
                         "name": "Shadow Gigalith",
@@ -5086,7 +5092,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "428s",
+                        "ttw": "430s",
                         "diff": "+12%"
                     },
                     {
@@ -5106,8 +5112,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "450s",
-                        "diff": "+18%"
+                        "ttw": "449s",
+                        "diff": "+17%"
                     }
                 ],
                 "budgetCounters": [
@@ -5145,8 +5151,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "464s",
-                        "diff": "+3%"
+                        "ttw": "469s",
+                        "diff": "+4%"
                     },
                     {
                         "name": "Rhyperior",
@@ -5165,7 +5171,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "492s",
+                        "ttw": "491s",
                         "diff": "+9%"
                     },
                     {
@@ -5184,7 +5190,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "505s",
+                        "ttw": "504s",
                         "diff": "+12%"
                     },
                     {
@@ -5203,7 +5209,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "513s",
+                        "ttw": "512s",
                         "diff": "+14%"
                     },
                     {
@@ -5223,7 +5229,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "529s",
+                        "ttw": "531s",
                         "diff": "+18%"
                     }
                 ]
@@ -5272,45 +5278,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "450s",
+                        "ttw": "449s",
                         "diff": "Best"
-                    },
-                    {
-                        "name": "Shadow Rampardos",
-                        "types": [
-                            "rock"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Smack Down",
-                                "type": "rock"
-                            },
-                            {
-                                "name": "Rock Slide",
-                                "type": "rock"
-                            }
-                        ],
-                        "ttw": "498s",
-                        "diff": "+11%"
-                    },
-                    {
-                        "name": "Mega Diancie",
-                        "types": [
-                            "rock",
-                            "fairy"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Rock Throw",
-                                "type": "rock"
-                            },
-                            {
-                                "name": "Rock Slide",
-                                "type": "rock"
-                            }
-                        ],
-                        "ttw": "501s",
-                        "diff": "+11%"
                     },
                     {
                         "name": "Black Kyurem",
@@ -5329,7 +5298,44 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "503s",
+                        "ttw": "499s",
+                        "diff": "+11%"
+                    },
+                    {
+                        "name": "Shadow Rampardos",
+                        "types": [
+                            "rock"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Smack Down",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Rock Slide",
+                                "type": "rock"
+                            }
+                        ],
+                        "ttw": "505s",
+                        "diff": "+12%"
+                    },
+                    {
+                        "name": "Mega Diancie",
+                        "types": [
+                            "rock",
+                            "fairy"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Rock Throw",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Rock Slide",
+                                "type": "rock"
+                            }
+                        ],
+                        "ttw": "505s",
                         "diff": "+12%"
                     },
                     {
@@ -5368,8 +5374,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "515s",
-                        "diff": "+15%"
+                        "ttw": "514s",
+                        "diff": "+14%"
                     }
                 ],
                 "budgetCounters": [
@@ -5389,7 +5395,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "586s",
+                        "ttw": "592s",
                         "diff": "Best"
                     },
                     {
@@ -5407,8 +5413,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "595s",
-                        "diff": "+2%"
+                        "ttw": "598s",
+                        "diff": "+1%"
                     },
                     {
                         "name": "Tyrantrum",
@@ -5427,7 +5433,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "622s",
-                        "diff": "+6%"
+                        "diff": "+5%"
                     },
                     {
                         "name": "Baxcalibur",
@@ -5445,26 +5451,8 @@ export const counterMonths = [
                                 "type": "ice"
                             }
                         ],
-                        "ttw": "626s",
-                        "diff": "+7%"
-                    },
-                    {
-                        "name": "Galarian Darmanitan",
-                        "types": [
-                            "ice"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Ice Fang",
-                                "type": "ice"
-                            },
-                            {
-                                "name": "Avalanche",
-                                "type": "ice"
-                            }
-                        ],
-                        "ttw": "630s",
-                        "diff": "+7%"
+                        "ttw": "624s",
+                        "diff": "+5%"
                     },
                     {
                         "name": "Rhyperior",
@@ -5483,8 +5471,26 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
+                        "ttw": "628s",
+                        "diff": "+6%"
+                    },
+                    {
+                        "name": "Galarian Darmanitan",
+                        "types": [
+                            "ice"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Ice Fang",
+                                "type": "ice"
+                            },
+                            {
+                                "name": "Avalanche",
+                                "type": "ice"
+                            }
+                        ],
                         "ttw": "630s",
-                        "diff": "+8%"
+                        "diff": "+6%"
                     }
                 ]
             },
@@ -5530,7 +5536,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "306s",
+                        "ttw": "305s",
                         "diff": "Best"
                     },
                     {
@@ -5549,7 +5555,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "314s",
+                        "ttw": "313s",
                         "diff": "+3%"
                     },
                     {
@@ -5589,7 +5595,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "328s",
-                        "diff": "+7%"
+                        "diff": "+8%"
                     },
                     {
                         "name": "Shadow Gigalith",
@@ -5607,8 +5613,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "344s",
-                        "diff": "+12%"
+                        "ttw": "347s",
+                        "diff": "+14%"
                     },
                     {
                         "name": "Rampardos",
@@ -5625,7 +5631,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "354s",
+                        "ttw": "355s",
                         "diff": "+16%"
                     }
                 ],
@@ -5645,7 +5651,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "354s",
+                        "ttw": "355s",
                         "diff": "Best"
                     },
                     {
@@ -5664,7 +5670,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "371s",
+                        "ttw": "372s",
                         "diff": "+5%"
                     },
                     {
@@ -5684,7 +5690,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "380s",
+                        "ttw": "381s",
                         "diff": "+7%"
                     },
                     {
@@ -5703,7 +5709,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "388s",
+                        "ttw": "389s",
                         "diff": "+10%"
                     },
                     {
@@ -5722,8 +5728,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "409s",
-                        "diff": "+16%"
+                        "ttw": "408s",
+                        "diff": "+15%"
                     },
                     {
                         "name": "Tyranitar",
@@ -5742,8 +5748,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "420s",
-                        "diff": "+19%"
+                        "ttw": "419s",
+                        "diff": "+18%"
                     }
                 ]
             },
@@ -5808,27 +5814,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "251s",
-                        "diff": "+5%"
-                    },
-                    {
-                        "name": "Shadow Tyrantrum",
-                        "types": [
-                            "rock",
-                            "dragon"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Rock Throw",
-                                "type": "rock"
-                            },
-                            {
-                                "name": "Meteor Beam",
-                                "type": "rock"
-                            }
-                        ],
-                        "ttw": "261s",
-                        "diff": "+9%"
+                        "ttw": "254s",
+                        "diff": "+7%"
                     },
                     {
                         "name": "Shadow Rhyperior",
@@ -5847,7 +5834,26 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "264s",
+                        "ttw": "260s",
+                        "diff": "+9%"
+                    },
+                    {
+                        "name": "Shadow Tyrantrum",
+                        "types": [
+                            "rock",
+                            "dragon"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Rock Throw",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Meteor Beam",
+                                "type": "rock"
+                            }
+                        ],
+                        "ttw": "265s",
                         "diff": "+11%"
                     },
                     {
@@ -5866,8 +5872,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "270s",
-                        "diff": "+13%"
+                        "ttw": "265s",
+                        "diff": "+11%"
                     },
                     {
                         "name": "Glimmora",
@@ -5885,8 +5891,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "274s",
-                        "diff": "+15%"
+                        "ttw": "271s",
+                        "diff": "+14%"
                     }
                 ],
                 "budgetCounters": [
@@ -5906,7 +5912,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "274s",
+                        "ttw": "271s",
                         "diff": "Best"
                     },
                     {
@@ -5924,8 +5930,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "290s",
-                        "diff": "+6%"
+                        "ttw": "296s",
+                        "diff": "+9%"
                     },
                     {
                         "name": "Tyrantrum",
@@ -5943,8 +5949,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "298s",
-                        "diff": "+9%"
+                        "ttw": "297s",
+                        "diff": "+10%"
                     },
                     {
                         "name": "Rhyperior",
@@ -5963,8 +5969,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "303s",
-                        "diff": "+11%"
+                        "ttw": "305s",
+                        "diff": "+13%"
                     },
                     {
                         "name": "Gigalith",
@@ -5982,8 +5988,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "305s",
-                        "diff": "+11%"
+                        "ttw": "306s",
+                        "diff": "+13%"
                     },
                     {
                         "name": "Stonjourner",
@@ -6000,8 +6006,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "337s",
-                        "diff": "+23%"
+                        "ttw": "338s",
+                        "diff": "+25%"
                     }
                 ]
             },
@@ -6068,7 +6074,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "506s",
+                        "ttw": "504s",
                         "diff": "+6%"
                     },
                     {
@@ -6088,7 +6094,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "514s",
+                        "ttw": "517s",
                         "diff": "+8%"
                     },
                     {
@@ -6128,7 +6134,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "586s",
+                        "ttw": "584s",
                         "diff": "+23%"
                     },
                     {
@@ -6147,8 +6153,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "634s",
-                        "diff": "+33%"
+                        "ttw": "637s",
+                        "diff": "+34%"
                     }
                 ],
                 "budgetCounters": [
@@ -6189,7 +6195,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "785s",
+                        "ttw": "784s",
                         "diff": "+15%"
                     },
                     {
@@ -6208,7 +6214,7 @@ export const counterMonths = [
                                 "type": "steel"
                             }
                         ],
-                        "ttw": "791s",
+                        "ttw": "793s",
                         "diff": "+16%"
                     },
                     {
@@ -6227,7 +6233,7 @@ export const counterMonths = [
                                 "type": "poison"
                             }
                         ],
-                        "ttw": "800s",
+                        "ttw": "798s",
                         "diff": "+17%"
                     },
                     {
@@ -6246,28 +6252,27 @@ export const counterMonths = [
                                 "type": "steel"
                             }
                         ],
-                        "ttw": "829s",
-                        "diff": "+22%"
+                        "ttw": "836s",
+                        "diff": "+23%"
                     },
                     {
-                        "name": "Gengar",
+                        "name": "Overqwil",
                         "types": [
-                            "ghost",
+                            "dark",
                             "poison"
                         ],
                         "moves": [
                             {
-                                "name": "Lick",
-                                "type": "ghost",
-                                "legacy": true
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
                                 "name": "Sludge Bomb",
                                 "type": "poison"
                             }
                         ],
-                        "ttw": "836s",
-                        "diff": "+23%"
+                        "ttw": "853s",
+                        "diff": "+25%"
                     }
                 ]
             },
@@ -6315,7 +6320,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "395s",
+                        "ttw": "396s",
                         "diff": "Best"
                     },
                     {
@@ -6335,8 +6340,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "456s",
-                        "diff": "+15%"
+                        "ttw": "453s",
+                        "diff": "+14%"
                     },
                     {
                         "name": "Shadow Blaziken",
@@ -6354,7 +6359,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "460s",
+                        "ttw": "458s",
                         "diff": "+16%"
                     },
                     {
@@ -6373,7 +6378,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "482s",
+                        "ttw": "483s",
                         "diff": "+22%"
                     },
                     {
@@ -6392,7 +6397,7 @@ export const counterMonths = [
                                 "type": "fire"
                             }
                         ],
-                        "ttw": "491s",
+                        "ttw": "493s",
                         "diff": "+24%"
                     },
                     {
@@ -6411,8 +6416,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "495s",
-                        "diff": "+25%"
+                        "ttw": "498s",
+                        "diff": "+26%"
                     }
                 ],
                 "budgetCounters": [
@@ -6452,8 +6457,8 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "555s",
-                        "diff": "+10%"
+                        "ttw": "552s",
+                        "diff": "+9%"
                     },
                     {
                         "name": "Volcarona",
@@ -6471,7 +6476,7 @@ export const counterMonths = [
                                 "type": "fire"
                             }
                         ],
-                        "ttw": "584s",
+                        "ttw": "583s",
                         "diff": "+16%"
                     },
                     {
@@ -6491,7 +6496,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "591s",
+                        "ttw": "589s",
                         "diff": "+17%"
                     },
                     {
@@ -6529,8 +6534,8 @@ export const counterMonths = [
                                 "type": "fire"
                             }
                         ],
-                        "ttw": "594s",
-                        "diff": "+18%"
+                        "ttw": "600s",
+                        "diff": "+19%"
                     }
                 ]
             },
@@ -6575,7 +6580,7 @@ export const counterMonths = [
                                 "type": "psychic"
                             }
                         ],
-                        "ttw": "419s",
+                        "ttw": "433s",
                         "diff": "Best"
                     },
                     {
@@ -6585,7 +6590,7 @@ export const counterMonths = [
                         ],
                         "moves": [
                             {
-                                "name": "Psycho Cut",
+                                "name": "Confusion",
                                 "type": "psychic"
                             },
                             {
@@ -6594,8 +6599,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "500s",
-                        "diff": "+19%"
+                        "ttw": "503s",
+                        "diff": "+16%"
                     },
                     {
                         "name": "Shadow Moltres",
@@ -6614,27 +6619,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "567s",
-                        "diff": "+35%"
-                    },
-                    {
-                        "name": "Mewtwo",
-                        "types": [
-                            "psychic"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Psycho Cut",
-                                "type": "psychic"
-                            },
-                            {
-                                "name": "Psystrike",
-                                "type": "psychic",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "596s",
-                        "diff": "+42%"
+                        "ttw": "569s",
+                        "diff": "+31%"
                     },
                     {
                         "name": "Rayquaza",
@@ -6653,8 +6639,27 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "598s",
-                        "diff": "+43%"
+                        "ttw": "591s",
+                        "diff": "+36%"
+                    },
+                    {
+                        "name": "Mewtwo",
+                        "types": [
+                            "psychic"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Confusion",
+                                "type": "psychic"
+                            },
+                            {
+                                "name": "Psystrike",
+                                "type": "psychic",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "599s",
+                        "diff": "+38%"
                     },
                     {
                         "name": "Shadow Toucannon",
@@ -6673,8 +6678,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "600s",
-                        "diff": "+43%"
+                        "ttw": "602s",
+                        "diff": "+39%"
                     }
                 ],
                 "budgetCounters": [
@@ -6695,7 +6700,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "680s",
+                        "ttw": "678s",
                         "diff": "Best"
                     },
                     {
@@ -6715,7 +6720,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "716s",
+                        "ttw": "715s",
                         "diff": "+5%"
                     },
                     {
@@ -6735,8 +6740,8 @@ export const counterMonths = [
                                 "type": "flying"
                             }
                         ],
-                        "ttw": "735s",
-                        "diff": "+8%"
+                        "ttw": "736s",
+                        "diff": "+9%"
                     },
                     {
                         "name": "Braviary",
@@ -6754,26 +6759,8 @@ export const counterMonths = [
                                 "type": "flying"
                             }
                         ],
-                        "ttw": "741s",
+                        "ttw": "742s",
                         "diff": "+9%"
-                    },
-                    {
-                        "name": "Alakazam",
-                        "types": [
-                            "psychic"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Psycho Cut",
-                                "type": "psychic"
-                            },
-                            {
-                                "name": "Psychic",
-                                "type": "psychic"
-                            }
-                        ],
-                        "ttw": "763s",
-                        "diff": "+12%"
                     },
                     {
                         "name": "Espeon",
@@ -6790,8 +6777,26 @@ export const counterMonths = [
                                 "type": "psychic"
                             }
                         ],
-                        "ttw": "764s",
+                        "ttw": "762s",
                         "diff": "+12%"
+                    },
+                    {
+                        "name": "Alakazam",
+                        "types": [
+                            "psychic"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Psycho Cut",
+                                "type": "psychic"
+                            },
+                            {
+                                "name": "Psychic",
+                                "type": "psychic"
+                            }
+                        ],
+                        "ttw": "764s",
+                        "diff": "+13%"
                     }
                 ]
             },
@@ -6839,7 +6844,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "346s",
+                        "ttw": "349s",
                         "diff": "Best"
                     },
                     {
@@ -6859,8 +6864,8 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "371s",
-                        "diff": "+7%"
+                        "ttw": "369s",
+                        "diff": "+6%"
                     },
                     {
                         "name": "Shadow Absol",
@@ -6879,7 +6884,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "401s",
-                        "diff": "+16%"
+                        "diff": "+15%"
                     },
                     {
                         "name": "Shadow Hydreigon",
@@ -6898,8 +6903,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "404s",
-                        "diff": "+17%"
+                        "ttw": "405s",
+                        "diff": "+16%"
                     },
                     {
                         "name": "Shadow Darkrai",
@@ -6916,28 +6921,26 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "405s",
-                        "diff": "+17%"
+                        "ttw": "406s",
+                        "diff": "+16%"
                     },
                     {
-                        "name": "Shadow Tyranitar",
+                        "name": "Shadow Raikou",
                         "types": [
-                            "rock",
-                            "dark"
+                            "electric"
                         ],
                         "moves": [
                             {
-                                "name": "Bite",
-                                "type": "dark"
+                                "name": "Thunder Shock",
+                                "type": "electric"
                             },
                             {
-                                "name": "Brutal Swing",
-                                "type": "dark",
-                                "legacy": true
+                                "name": "Wild Charge",
+                                "type": "electric"
                             }
                         ],
                         "ttw": "410s",
-                        "diff": "+19%"
+                        "diff": "+17%"
                     }
                 ],
                 "budgetCounters": [
@@ -6957,27 +6960,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "480s",
+                        "ttw": "479s",
                         "diff": "Best"
-                    },
-                    {
-                        "name": "Rillaboom",
-                        "types": [
-                            "grass"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Razor Leaf",
-                                "type": "grass"
-                            },
-                            {
-                                "name": "Frenzy Plant",
-                                "type": "grass",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "480s",
-                        "diff": "+0%"
                     },
                     {
                         "name": "Chandelure",
@@ -6995,8 +6979,27 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "481s",
+                        "ttw": "480s",
                         "diff": "+0%"
+                    },
+                    {
+                        "name": "Rillaboom",
+                        "types": [
+                            "grass"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Razor Leaf",
+                                "type": "grass"
+                            },
+                            {
+                                "name": "Frenzy Plant",
+                                "type": "grass",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "482s",
+                        "diff": "+1%"
                     },
                     {
                         "name": "Meowscarada",
@@ -7015,7 +7018,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "484s",
+                        "ttw": "483s",
                         "diff": "+1%"
                     },
                     {
@@ -7035,7 +7038,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "485s",
+                        "ttw": "484s",
                         "diff": "+1%"
                     },
                     {
@@ -7056,7 +7059,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "486s",
-                        "diff": "+1%"
+                        "diff": "+2%"
                     }
                 ]
             },
@@ -7121,8 +7124,27 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "347s",
-                        "diff": "+12%"
+                        "ttw": "344s",
+                        "diff": "+11%"
+                    },
+                    {
+                        "name": "Shadow Regigigas",
+                        "types": [
+                            "normal"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Hidden Power",
+                                "type": "grass"
+                            },
+                            {
+                                "name": "Crush Grip",
+                                "type": "normal",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "365s",
+                        "diff": "+18%"
                     },
                     {
                         "name": "Shadow Excadrill",
@@ -7145,25 +7167,6 @@ export const counterMonths = [
                         "diff": "+18%"
                     },
                     {
-                        "name": "Shadow Regigigas",
-                        "types": [
-                            "normal"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Hidden Power",
-                                "type": "grass"
-                            },
-                            {
-                                "name": "Crush Grip",
-                                "type": "normal",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "367s",
-                        "diff": "+18%"
-                    },
-                    {
                         "name": "Landorus Therian",
                         "types": [
                             "ground",
@@ -7179,7 +7182,7 @@ export const counterMonths = [
                                 "type": "ground"
                             }
                         ],
-                        "ttw": "370s",
+                        "ttw": "369s",
                         "diff": "+19%"
                     },
                     {
@@ -7199,7 +7202,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "373s",
+                        "ttw": "372s",
                         "diff": "+20%"
                     }
                 ],
@@ -7221,7 +7224,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "432s",
+                        "ttw": "433s",
                         "diff": "Best"
                     },
                     {
@@ -7241,8 +7244,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "445s",
-                        "diff": "+3%"
+                        "ttw": "449s",
+                        "diff": "+4%"
                     },
                     {
                         "name": "Garchomp",
@@ -7261,7 +7264,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "448s",
+                        "ttw": "450s",
                         "diff": "+4%"
                     },
                     {
@@ -7280,7 +7283,7 @@ export const counterMonths = [
                                 "type": "ground"
                             }
                         ],
-                        "ttw": "465s",
+                        "ttw": "463s",
                         "diff": "+7%"
                     },
                     {
@@ -7299,7 +7302,7 @@ export const counterMonths = [
                                 "type": "ground"
                             }
                         ],
-                        "ttw": "501s",
+                        "ttw": "503s",
                         "diff": "+16%"
                     },
                     {
@@ -7318,7 +7321,7 @@ export const counterMonths = [
                                 "type": "ground"
                             }
                         ],
-                        "ttw": "505s",
+                        "ttw": "507s",
                         "diff": "+17%"
                     }
                 ]
@@ -7366,7 +7369,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "244s",
+                        "ttw": "246s",
                         "diff": "Best"
                     },
                     {
@@ -7386,8 +7389,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "273s",
-                        "diff": "+12%"
+                        "ttw": "272s",
+                        "diff": "+11%"
                     },
                     {
                         "name": "Shadow Blaziken",
@@ -7405,8 +7408,8 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "276s",
-                        "diff": "+13%"
+                        "ttw": "275s",
+                        "diff": "+12%"
                     },
                     {
                         "name": "Shadow Groudon",
@@ -7424,8 +7427,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "304s",
-                        "diff": "+24%"
+                        "ttw": "299s",
+                        "diff": "+22%"
                     },
                     {
                         "name": "Shadow Kyogre",
@@ -7444,7 +7447,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "304s",
-                        "diff": "+25%"
+                        "diff": "+24%"
                     },
                     {
                         "name": "Shadow Rampardos",
@@ -7461,8 +7464,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "315s",
-                        "diff": "+29%"
+                        "ttw": "314s",
+                        "diff": "+28%"
                     }
                 ],
                 "budgetCounters": [
@@ -7502,8 +7505,8 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "330s",
-                        "diff": "+1%"
+                        "ttw": "333s",
+                        "diff": "+2%"
                     },
                     {
                         "name": "Rampardos",
@@ -7520,27 +7523,8 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "371s",
-                        "diff": "+14%"
-                    },
-                    {
-                        "name": "Glimmora",
-                        "types": [
-                            "rock",
-                            "poison"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Rock Throw",
-                                "type": "rock"
-                            },
-                            {
-                                "name": "Meteor Beam",
-                                "type": "rock"
-                            }
-                        ],
-                        "ttw": "376s",
-                        "diff": "+15%"
+                        "ttw": "368s",
+                        "diff": "+12%"
                     },
                     {
                         "name": "Quaquaval",
@@ -7559,7 +7543,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "377s",
+                        "ttw": "376s",
                         "diff": "+15%"
                     },
                     {
@@ -7580,6 +7564,25 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "379s",
+                        "diff": "+16%"
+                    },
+                    {
+                        "name": "Glimmora",
+                        "types": [
+                            "rock",
+                            "poison"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Rock Throw",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Meteor Beam",
+                                "type": "rock"
+                            }
+                        ],
+                        "ttw": "381s",
                         "diff": "+16%"
                     }
                 ]
@@ -7653,8 +7656,8 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "224s",
-                        "diff": "+1%"
+                        "ttw": "228s",
+                        "diff": "+3%"
                     },
                     {
                         "name": "Black Kyurem",
@@ -7673,8 +7676,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "239s",
-                        "diff": "+8%"
+                        "ttw": "241s",
+                        "diff": "+9%"
                     },
                     {
                         "name": "Shadow Garchomp",
@@ -7692,7 +7695,7 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "262s",
+                        "ttw": "261s",
                         "diff": "+18%"
                     },
                     {
@@ -7712,14 +7715,14 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "264s",
+                        "ttw": "263s",
                         "diff": "+19%"
                     },
                     {
-                        "name": "Shadow Salamence",
+                        "name": "Shadow Palkia",
                         "types": [
-                            "dragon",
-                            "flying"
+                            "water",
+                            "dragon"
                         ],
                         "moves": [
                             {
@@ -7731,8 +7734,8 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "273s",
-                        "diff": "+23%"
+                        "ttw": "274s",
+                        "diff": "+24%"
                     }
                 ],
                 "budgetCounters": [
@@ -7751,7 +7754,7 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "296s",
+                        "ttw": "297s",
                         "diff": "Best"
                     },
                     {
@@ -7789,7 +7792,7 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "318s",
+                        "ttw": "316s",
                         "diff": "+7%"
                     },
                     {
@@ -7808,7 +7811,7 @@ export const counterMonths = [
                                 "type": "dragon"
                             }
                         ],
-                        "ttw": "333s",
+                        "ttw": "334s",
                         "diff": "+12%"
                     },
                     {
@@ -7828,26 +7831,27 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "345s",
-                        "diff": "+16%"
+                        "ttw": "347s",
+                        "diff": "+17%"
                     },
                     {
-                        "name": "Galarian Darmanitan",
+                        "name": "Baxcalibur",
                         "types": [
+                            "dragon",
                             "ice"
                         ],
                         "moves": [
                             {
-                                "name": "Ice Fang",
-                                "type": "ice"
+                                "name": "Dragon Breath",
+                                "type": "dragon"
                             },
                             {
                                 "name": "Avalanche",
                                 "type": "ice"
                             }
                         ],
-                        "ttw": "361s",
-                        "diff": "+22%"
+                        "ttw": "360s",
+                        "diff": "+21%"
                     }
                 ]
             },
@@ -7893,7 +7897,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "258s",
+                        "ttw": "256s",
                         "diff": "Best"
                     },
                     {
@@ -7912,8 +7916,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "286s",
-                        "diff": "+11%"
+                        "ttw": "287s",
+                        "diff": "+12%"
                     },
                     {
                         "name": "Shadow Regigigas",
@@ -7932,7 +7936,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "300s",
-                        "diff": "+16%"
+                        "diff": "+17%"
                     },
                     {
                         "name": "Landorus Therian",
@@ -7950,7 +7954,7 @@ export const counterMonths = [
                                 "type": "ground"
                             }
                         ],
-                        "ttw": "301s",
+                        "ttw": "300s",
                         "diff": "+17%"
                     },
                     {
@@ -7970,8 +7974,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "308s",
-                        "diff": "+19%"
+                        "ttw": "309s",
+                        "diff": "+21%"
                     },
                     {
                         "name": "Shadow Landorus",
@@ -7989,8 +7993,8 @@ export const counterMonths = [
                                 "type": "ground"
                             }
                         ],
-                        "ttw": "325s",
-                        "diff": "+26%"
+                        "ttw": "324s",
+                        "diff": "+27%"
                     }
                 ],
                 "budgetCounters": [
@@ -8011,7 +8015,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "369s",
+                        "ttw": "371s",
                         "diff": "Best"
                     },
                     {
@@ -8030,8 +8034,8 @@ export const counterMonths = [
                                 "type": "ground"
                             }
                         ],
-                        "ttw": "382s",
-                        "diff": "+3%"
+                        "ttw": "384s",
+                        "diff": "+4%"
                     },
                     {
                         "name": "Excadrill",
@@ -8050,8 +8054,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "390s",
-                        "diff": "+6%"
+                        "ttw": "391s",
+                        "diff": "+5%"
                     },
                     {
                         "name": "Mamoswine",
@@ -8070,7 +8074,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "405s",
+                        "ttw": "407s",
                         "diff": "+10%"
                     },
                     {
@@ -8090,7 +8094,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "416s",
-                        "diff": "+13%"
+                        "diff": "+12%"
                     },
                     {
                         "name": "Rhydon",
@@ -8109,7 +8113,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "420s",
-                        "diff": "+14%"
+                        "diff": "+13%"
                     }
                 ]
             },
@@ -8154,7 +8158,7 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "584s",
+                        "ttw": "601s",
                         "diff": "Best"
                     },
                     {
@@ -8172,8 +8176,8 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "620s",
-                        "diff": "+6%"
+                        "ttw": "624s",
+                        "diff": "+4%"
                     },
                     {
                         "name": "Shadow Electivire",
@@ -8190,8 +8194,8 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "626s",
-                        "diff": "+7%"
+                        "ttw": "633s",
+                        "diff": "+5%"
                     },
                     {
                         "name": "Kartana",
@@ -8209,8 +8213,8 @@ export const counterMonths = [
                                 "type": "grass"
                             }
                         ],
-                        "ttw": "632s",
-                        "diff": "+8%"
+                        "ttw": "636s",
+                        "diff": "+6%"
                     },
                     {
                         "name": "Shadow Regigigas",
@@ -8228,8 +8232,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "633s",
-                        "diff": "+8%"
+                        "ttw": "636s",
+                        "diff": "+6%"
                     },
                     {
                         "name": "Xurkitree",
@@ -8246,8 +8250,8 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "648s",
-                        "diff": "+11%"
+                        "ttw": "649s",
+                        "diff": "+8%"
                     }
                 ],
                 "budgetCounters": [
@@ -8267,7 +8271,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "721s",
+                        "ttw": "717s",
                         "diff": "Best"
                     },
                     {
@@ -8285,8 +8289,8 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "728s",
-                        "diff": "+1%"
+                        "ttw": "735s",
+                        "diff": "+3%"
                     },
                     {
                         "name": "Chesnaught",
@@ -8305,8 +8309,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "767s",
-                        "diff": "+6%"
+                        "ttw": "769s",
+                        "diff": "+7%"
                     },
                     {
                         "name": "Meowscarada",
@@ -8325,7 +8329,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "777s",
+                        "ttw": "775s",
                         "diff": "+8%"
                     },
                     {
@@ -8344,28 +8348,27 @@ export const counterMonths = [
                                 "type": "grass"
                             }
                         ],
-                        "ttw": "785s",
-                        "diff": "+9%"
+                        "ttw": "790s",
+                        "diff": "+10%"
                     },
                     {
-                        "name": "Venusaur",
+                        "name": "Magnezone",
                         "types": [
-                            "grass",
-                            "poison"
+                            "electric",
+                            "steel"
                         ],
                         "moves": [
                             {
-                                "name": "Vine Whip",
-                                "type": "grass"
+                                "name": "Volt Switch",
+                                "type": "electric"
                             },
                             {
-                                "name": "Frenzy Plant",
-                                "type": "grass",
-                                "legacy": true
+                                "name": "Wild Charge",
+                                "type": "electric"
                             }
                         ],
-                        "ttw": "786s",
-                        "diff": "+9%"
+                        "ttw": "802s",
+                        "diff": "+12%"
                     }
                 ]
             },
@@ -8413,7 +8416,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "272s",
+                        "ttw": "271s",
                         "diff": "Best"
                     },
                     {
@@ -8433,8 +8436,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "274s",
-                        "diff": "+1%"
+                        "ttw": "272s",
+                        "diff": "+0%"
                     },
                     {
                         "name": "Necrozma (Dusk Mane)",
@@ -8453,8 +8456,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "276s",
-                        "diff": "+2%"
+                        "ttw": "279s",
+                        "diff": "+3%"
                     },
                     {
                         "name": "Primal Kyogre",
@@ -8472,7 +8475,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "301s",
+                        "ttw": "300s",
                         "diff": "+11%"
                     },
                     {
@@ -8492,8 +8495,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "308s",
-                        "diff": "+13%"
+                        "ttw": "309s",
+                        "diff": "+14%"
                     },
                     {
                         "name": "Shadow Metagross",
@@ -8512,8 +8515,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "317s",
-                        "diff": "+17%"
+                        "ttw": "313s",
+                        "diff": "+16%"
                     }
                 ],
                 "budgetCounters": [
@@ -8534,7 +8537,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "376s",
+                        "ttw": "375s",
                         "diff": "Best"
                     },
                     {
@@ -8555,7 +8558,25 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "399s",
-                        "diff": "+6%"
+                        "diff": "+7%"
+                    },
+                    {
+                        "name": "Rampardos",
+                        "types": [
+                            "rock"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Smack Down",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Rock Slide",
+                                "type": "rock"
+                            }
+                        ],
+                        "ttw": "412s",
+                        "diff": "+10%"
                     },
                     {
                         "name": "Greninja",
@@ -8578,21 +8599,23 @@ export const counterMonths = [
                         "diff": "+10%"
                     },
                     {
-                        "name": "Rampardos",
+                        "name": "Primarina",
                         "types": [
-                            "rock"
+                            "water",
+                            "fairy"
                         ],
                         "moves": [
                             {
-                                "name": "Smack Down",
-                                "type": "rock"
+                                "name": "Waterfall",
+                                "type": "water"
                             },
                             {
-                                "name": "Rock Slide",
-                                "type": "rock"
+                                "name": "Hydro Cannon",
+                                "type": "water",
+                                "legacy": true
                             }
                         ],
-                        "ttw": "413s",
+                        "ttw": "414s",
                         "diff": "+10%"
                     },
                     {
@@ -8612,27 +8635,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "415s",
-                        "diff": "+10%"
-                    },
-                    {
-                        "name": "Primarina",
-                        "types": [
-                            "water",
-                            "fairy"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Waterfall",
-                                "type": "water"
-                            },
-                            {
-                                "name": "Hydro Cannon",
-                                "type": "water",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "417s",
+                        "ttw": "416s",
                         "diff": "+11%"
                     }
                 ]
@@ -8680,7 +8683,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "552s",
+                        "ttw": "551s",
                         "diff": "Best"
                     },
                     {
@@ -8699,7 +8702,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "553s",
+                        "ttw": "552s",
                         "diff": "+0%"
                     },
                     {
@@ -8719,7 +8722,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "606s",
+                        "ttw": "607s",
                         "diff": "+10%"
                     },
                     {
@@ -8738,7 +8741,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "640s",
+                        "ttw": "641s",
                         "diff": "+16%"
                     },
                     {
@@ -8756,8 +8759,8 @@ export const counterMonths = [
                                 "type": "water"
                             }
                         ],
-                        "ttw": "654s",
-                        "diff": "+18%"
+                        "ttw": "664s",
+                        "diff": "+20%"
                     },
                     {
                         "name": "Zarude",
@@ -8775,8 +8778,8 @@ export const counterMonths = [
                                 "type": "grass"
                             }
                         ],
-                        "ttw": "688s",
-                        "diff": "+25%"
+                        "ttw": "692s",
+                        "diff": "+26%"
                     }
                 ],
                 "budgetCounters": [
@@ -8796,7 +8799,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "728s",
+                        "ttw": "722s",
                         "diff": "Best"
                     },
                     {
@@ -8816,8 +8819,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "771s",
-                        "diff": "+6%"
+                        "ttw": "778s",
+                        "diff": "+8%"
                     },
                     {
                         "name": "Baxcalibur",
@@ -8835,7 +8838,7 @@ export const counterMonths = [
                                 "type": "ice"
                             }
                         ],
-                        "ttw": "785s",
+                        "ttw": "781s",
                         "diff": "+8%"
                     },
                     {
@@ -8853,48 +8856,46 @@ export const counterMonths = [
                                 "type": "grass"
                             }
                         ],
-                        "ttw": "810s",
-                        "diff": "+11%"
-                    },
-                    {
-                        "name": "Quaquaval",
-                        "types": [
-                            "water",
-                            "fighting"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Water Gun",
-                                "type": "water"
-                            },
-                            {
-                                "name": "Hydro Cannon",
-                                "type": "water",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "816s",
+                        "ttw": "812s",
                         "diff": "+12%"
                     },
                     {
-                        "name": "Primarina",
+                        "name": "Meowscarada",
                         "types": [
-                            "water",
-                            "fairy"
+                            "grass",
+                            "dark"
                         ],
                         "moves": [
                             {
-                                "name": "Waterfall",
-                                "type": "water"
+                                "name": "Leafage",
+                                "type": "grass"
                             },
                             {
-                                "name": "Hydro Cannon",
-                                "type": "water",
+                                "name": "Frenzy Plant",
+                                "type": "grass",
                                 "legacy": true
                             }
                         ],
-                        "ttw": "817s",
-                        "diff": "+12%"
+                        "ttw": "823s",
+                        "diff": "+14%"
+                    },
+                    {
+                        "name": "Kingler",
+                        "types": [
+                            "water"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Bubble",
+                                "type": "water"
+                            },
+                            {
+                                "name": "Razor Shell",
+                                "type": null
+                            }
+                        ],
+                        "ttw": "836s",
+                        "diff": "+16%"
                     }
                 ]
             },
@@ -8925,22 +8926,21 @@ export const counterMonths = [
                 },
                 "bestCounters": [
                     {
-                        "name": "Mega Absol",
+                        "name": "Mega Mewtwo Y",
                         "types": [
-                            "dark"
+                            "psychic"
                         ],
                         "moves": [
                             {
-                                "name": "Snarl",
-                                "type": "dark"
+                                "name": "Psycho Cut",
+                                "type": "psychic"
                             },
                             {
-                                "name": "Brutal Swing",
-                                "type": "dark",
-                                "legacy": true
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
-                        "ttw": "333s",
+                        "ttw": "330s",
                         "diff": "Best"
                     },
                     {
@@ -8960,8 +8960,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "341s",
-                        "diff": "+2%"
+                        "ttw": "344s",
+                        "diff": "+4%"
                     },
                     {
                         "name": "Necrozma - Dawn Wings",
@@ -8980,8 +8980,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "343s",
-                        "diff": "+3%"
+                        "ttw": "346s",
+                        "diff": "+5%"
                     },
                     {
                         "name": "Shadow Absol",
@@ -9000,7 +9000,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "347s",
-                        "diff": "+4%"
+                        "diff": "+5%"
                     },
                     {
                         "name": "Shadow Tyranitar",
@@ -9019,8 +9019,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "347s",
-                        "diff": "+4%"
+                        "ttw": "349s",
+                        "diff": "+6%"
                     },
                     {
                         "name": "Shadow Darkrai",
@@ -9037,8 +9037,8 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "349s",
-                        "diff": "+5%"
+                        "ttw": "353s",
+                        "diff": "+7%"
                     }
                 ],
                 "budgetCounters": [
@@ -9059,7 +9059,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "400s",
+                        "ttw": "402s",
                         "diff": "Best"
                     },
                     {
@@ -9078,27 +9078,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "414s",
-                        "diff": "+4%"
-                    },
-                    {
-                        "name": "Gholdengo",
-                        "types": [
-                            "steel",
-                            "ghost"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Hex",
-                                "type": "ghost"
-                            },
-                            {
-                                "name": "Shadow Ball",
-                                "type": "ghost"
-                            }
-                        ],
-                        "ttw": "423s",
-                        "diff": "+6%"
+                        "ttw": "413s",
+                        "diff": "+3%"
                     },
                     {
                         "name": "Salamence",
@@ -9116,7 +9097,26 @@ export const counterMonths = [
                                 "type": "dark"
                             }
                         ],
-                        "ttw": "427s",
+                        "ttw": "429s",
+                        "diff": "+7%"
+                    },
+                    {
+                        "name": "Gholdengo",
+                        "types": [
+                            "steel",
+                            "ghost"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Hex",
+                                "type": "ghost"
+                            },
+                            {
+                                "name": "Shadow Ball",
+                                "type": "ghost"
+                            }
+                        ],
+                        "ttw": "429s",
                         "diff": "+7%"
                     },
                     {
@@ -9136,8 +9136,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "430s",
-                        "diff": "+7%"
+                        "ttw": "434s",
+                        "diff": "+8%"
                     },
                     {
                         "name": "Dragapult",
@@ -9155,8 +9155,8 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "434s",
-                        "diff": "+9%"
+                        "ttw": "435s",
+                        "diff": "+8%"
                     }
                 ]
             },
@@ -9203,7 +9203,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "426s",
+                        "ttw": "427s",
                         "diff": "Best"
                     },
                     {
@@ -9222,7 +9222,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "482s",
+                        "ttw": "483s",
                         "diff": "+13%"
                     },
                     {
@@ -9241,7 +9241,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "501s",
+                        "ttw": "504s",
                         "diff": "+18%"
                     },
                     {
@@ -9262,7 +9262,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "506s",
-                        "diff": "+19%"
+                        "diff": "+18%"
                     },
                     {
                         "name": "Eternatus",
@@ -9280,7 +9280,7 @@ export const counterMonths = [
                                 "type": "poison"
                             }
                         ],
-                        "ttw": "517s",
+                        "ttw": "516s",
                         "diff": "+21%"
                     },
                     {
@@ -9300,8 +9300,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "526s",
-                        "diff": "+24%"
+                        "ttw": "524s",
+                        "diff": "+23%"
                     }
                 ],
                 "budgetCounters": [
@@ -9322,7 +9322,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "600s",
+                        "ttw": "601s",
                         "diff": "Best"
                     },
                     {
@@ -9342,8 +9342,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "623s",
-                        "diff": "+4%"
+                        "ttw": "621s",
+                        "diff": "+3%"
                     },
                     {
                         "name": "Mamoswine",
@@ -9362,8 +9362,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "624s",
-                        "diff": "+4%"
+                        "ttw": "622s",
+                        "diff": "+3%"
                     },
                     {
                         "name": "Rhyperior",
@@ -9381,8 +9381,8 @@ export const counterMonths = [
                                 "type": "ground"
                             }
                         ],
-                        "ttw": "652s",
-                        "diff": "+9%"
+                        "ttw": "651s",
+                        "diff": "+8%"
                     },
                     {
                         "name": "Roserade",
@@ -9400,28 +9400,27 @@ export const counterMonths = [
                                 "type": "poison"
                             }
                         ],
-                        "ttw": "655s",
+                        "ttw": "656s",
                         "diff": "+9%"
                     },
                     {
-                        "name": "Gengar",
+                        "name": "Overqwil",
                         "types": [
-                            "ghost",
+                            "dark",
                             "poison"
                         ],
                         "moves": [
                             {
-                                "name": "Lick",
-                                "type": "ghost",
-                                "legacy": true
+                                "name": "Poison Jab",
+                                "type": "poison"
                             },
                             {
                                 "name": "Sludge Bomb",
                                 "type": "poison"
                             }
                         ],
-                        "ttw": "666s",
-                        "diff": "+11%"
+                        "ttw": "663s",
+                        "diff": "+10%"
                     }
                 ]
             },
@@ -9469,7 +9468,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "187s",
+                        "ttw": "189s",
                         "diff": "Best"
                     },
                     {
@@ -9490,7 +9489,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "211s",
-                        "diff": "+13%"
+                        "diff": "+12%"
                     },
                     {
                         "name": "Shadow Blaziken",
@@ -9508,8 +9507,8 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "224s",
-                        "diff": "+19%"
+                        "ttw": "225s",
+                        "diff": "+20%"
                     },
                     {
                         "name": "Shadow Raikou",
@@ -9527,7 +9526,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "238s",
-                        "diff": "+27%"
+                        "diff": "+26%"
                     },
                     {
                         "name": "Kartana",
@@ -9564,8 +9563,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "247s",
-                        "diff": "+32%"
+                        "ttw": "246s",
+                        "diff": "+31%"
                     }
                 ],
                 "budgetCounters": [
@@ -9586,7 +9585,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "255s",
+                        "ttw": "254s",
                         "diff": "Best"
                     },
                     {
@@ -9605,7 +9604,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "269s",
+                        "ttw": "268s",
                         "diff": "+5%"
                     },
                     {
@@ -9624,7 +9623,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "281s",
+                        "ttw": "280s",
                         "diff": "+10%"
                     },
                     {
@@ -9644,8 +9643,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "285s",
-                        "diff": "+12%"
+                        "ttw": "286s",
+                        "diff": "+13%"
                     },
                     {
                         "name": "Rillaboom",
@@ -9663,7 +9662,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "288s",
+                        "ttw": "286s",
                         "diff": "+13%"
                     },
                     {
@@ -9681,7 +9680,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "293s",
+                        "ttw": "292s",
                         "diff": "+15%"
                     }
                 ]
@@ -9750,7 +9749,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "446s",
+                        "ttw": "445s",
                         "diff": "+2%"
                     },
                     {
@@ -9770,8 +9769,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "449s",
-                        "diff": "+2%"
+                        "ttw": "451s",
+                        "diff": "+3%"
                     },
                     {
                         "name": "Necrozma - Dawn Wings",
@@ -9790,7 +9789,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "473s",
+                        "ttw": "474s",
                         "diff": "+8%"
                     },
                     {
@@ -9830,8 +9829,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "529s",
-                        "diff": "+21%"
+                        "ttw": "527s",
+                        "diff": "+20%"
                     }
                 ],
                 "budgetCounters": [
@@ -9872,26 +9871,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "674s",
-                        "diff": "+9%"
-                    },
-                    {
-                        "name": "Chandelure",
-                        "types": [
-                            "ghost",
-                            "fire"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Hex",
-                                "type": "ghost"
-                            },
-                            {
-                                "name": "Shadow Ball",
-                                "type": "ghost"
-                            }
-                        ],
-                        "ttw": "680s",
+                        "ttw": "677s",
                         "diff": "+10%"
                     },
                     {
@@ -9910,8 +9890,27 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
+                        "ttw": "678s",
+                        "diff": "+10%"
+                    },
+                    {
+                        "name": "Chandelure",
+                        "types": [
+                            "ghost",
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Hex",
+                                "type": "ghost"
+                            },
+                            {
+                                "name": "Shadow Ball",
+                                "type": "ghost"
+                            }
+                        ],
                         "ttw": "681s",
-                        "diff": "+11%"
+                        "diff": "+10%"
                     },
                     {
                         "name": "Gengar",
@@ -9925,12 +9924,12 @@ export const counterMonths = [
                                 "type": "ghost"
                             },
                             {
-                                "name": "Sludge Bomb",
-                                "type": "poison"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
-                        "ttw": "700s",
-                        "diff": "+14%"
+                        "ttw": "692s",
+                        "diff": "+12%"
                     },
                     {
                         "name": "Dragapult",
@@ -9948,8 +9947,8 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "718s",
-                        "diff": "+17%"
+                        "ttw": "731s",
+                        "diff": "+19%"
                     }
                 ]
             },
@@ -9980,23 +9979,21 @@ export const counterMonths = [
                 },
                 "bestCounters": [
                     {
-                        "name": "Mega Tyranitar",
+                        "name": "Mega Mewtwo Y",
                         "types": [
-                            "rock",
-                            "dark"
+                            "psychic"
                         ],
                         "moves": [
                             {
-                                "name": "Bite",
-                                "type": "dark"
+                                "name": "Psycho Cut",
+                                "type": "psychic"
                             },
                             {
-                                "name": "Brutal Swing",
-                                "type": "dark",
-                                "legacy": true
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
-                        "ttw": "261s",
+                        "ttw": "251s",
                         "diff": "Best"
                     },
                     {
@@ -10017,27 +10014,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "265s",
-                        "diff": "+2%"
-                    },
-                    {
-                        "name": "Shadow Hydreigon",
-                        "types": [
-                            "dark",
-                            "dragon"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Bite",
-                                "type": "dark"
-                            },
-                            {
-                                "name": "Brutal Swing",
-                                "type": "dark",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "281s",
-                        "diff": "+8%"
+                        "diff": "+6%"
                     },
                     {
                         "name": "Necrozma - Dawn Wings",
@@ -10056,8 +10033,28 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "286s",
-                        "diff": "+10%"
+                        "ttw": "281s",
+                        "diff": "+12%"
+                    },
+                    {
+                        "name": "Shadow Hydreigon",
+                        "types": [
+                            "dark",
+                            "dragon"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Bite",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Brutal Swing",
+                                "type": "dark",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "291s",
+                        "diff": "+16%"
                     },
                     {
                         "name": "Shadow Darkrai",
@@ -10074,8 +10071,8 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "286s",
-                        "diff": "+10%"
+                        "ttw": "297s",
+                        "diff": "+18%"
                     },
                     {
                         "name": "Shadow Salamence",
@@ -10093,8 +10090,8 @@ export const counterMonths = [
                                 "type": "dark"
                             }
                         ],
-                        "ttw": "303s",
-                        "diff": "+16%"
+                        "ttw": "304s",
+                        "diff": "+21%"
                     }
                 ],
                 "budgetCounters": [
@@ -10134,27 +10131,8 @@ export const counterMonths = [
                                 "type": "dark"
                             }
                         ],
-                        "ttw": "333s",
+                        "ttw": "332s",
                         "diff": "+5%"
-                    },
-                    {
-                        "name": "Absol",
-                        "types": [
-                            "dark"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Snarl",
-                                "type": "dark"
-                            },
-                            {
-                                "name": "Brutal Swing",
-                                "type": "dark",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "341s",
-                        "diff": "+8%"
                     },
                     {
                         "name": "Salamence",
@@ -10172,18 +10150,17 @@ export const counterMonths = [
                                 "type": "dark"
                             }
                         ],
-                        "ttw": "341s",
-                        "diff": "+8%"
+                        "ttw": "340s",
+                        "diff": "+7%"
                     },
                     {
-                        "name": "Hydreigon",
+                        "name": "Absol",
                         "types": [
-                            "dark",
-                            "dragon"
+                            "dark"
                         ],
                         "moves": [
                             {
-                                "name": "Bite",
+                                "name": "Snarl",
                                 "type": "dark"
                             },
                             {
@@ -10192,8 +10169,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "346s",
-                        "diff": "+9%"
+                        "ttw": "347s",
+                        "diff": "+10%"
                     },
                     {
                         "name": "Incineroar",
@@ -10211,8 +10188,27 @@ export const counterMonths = [
                                 "type": "dark"
                             }
                         ],
-                        "ttw": "348s",
+                        "ttw": "349s",
                         "diff": "+10%"
+                    },
+                    {
+                        "name": "Gholdengo",
+                        "types": [
+                            "steel",
+                            "ghost"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Hex",
+                                "type": "ghost"
+                            },
+                            {
+                                "name": "Shadow Ball",
+                                "type": "ghost"
+                            }
+                        ],
+                        "ttw": "353s",
+                        "diff": "+11%"
                     }
                 ]
             }
@@ -10287,7 +10283,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "446s",
+                        "ttw": "445s",
                         "diff": "+2%"
                     },
                     {
@@ -10307,8 +10303,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "449s",
-                        "diff": "+2%"
+                        "ttw": "451s",
+                        "diff": "+3%"
                     },
                     {
                         "name": "Necrozma - Dawn Wings",
@@ -10327,7 +10323,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "473s",
+                        "ttw": "474s",
                         "diff": "+8%"
                     },
                     {
@@ -10367,8 +10363,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "529s",
-                        "diff": "+21%"
+                        "ttw": "527s",
+                        "diff": "+20%"
                     }
                 ],
                 "budgetCounters": [
@@ -10409,26 +10405,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "674s",
-                        "diff": "+9%"
-                    },
-                    {
-                        "name": "Chandelure",
-                        "types": [
-                            "ghost",
-                            "fire"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Hex",
-                                "type": "ghost"
-                            },
-                            {
-                                "name": "Shadow Ball",
-                                "type": "ghost"
-                            }
-                        ],
-                        "ttw": "680s",
+                        "ttw": "677s",
                         "diff": "+10%"
                     },
                     {
@@ -10447,8 +10424,27 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
+                        "ttw": "678s",
+                        "diff": "+10%"
+                    },
+                    {
+                        "name": "Chandelure",
+                        "types": [
+                            "ghost",
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Hex",
+                                "type": "ghost"
+                            },
+                            {
+                                "name": "Shadow Ball",
+                                "type": "ghost"
+                            }
+                        ],
                         "ttw": "681s",
-                        "diff": "+11%"
+                        "diff": "+10%"
                     },
                     {
                         "name": "Gengar",
@@ -10462,12 +10458,12 @@ export const counterMonths = [
                                 "type": "ghost"
                             },
                             {
-                                "name": "Sludge Bomb",
-                                "type": "poison"
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
-                        "ttw": "700s",
-                        "diff": "+14%"
+                        "ttw": "692s",
+                        "diff": "+12%"
                     },
                     {
                         "name": "Dragapult",
@@ -10485,8 +10481,8 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "718s",
-                        "diff": "+17%"
+                        "ttw": "731s",
+                        "diff": "+19%"
                     }
                 ]
             },
@@ -10517,23 +10513,21 @@ export const counterMonths = [
                 },
                 "bestCounters": [
                     {
-                        "name": "Mega Tyranitar",
+                        "name": "Mega Mewtwo Y",
                         "types": [
-                            "rock",
-                            "dark"
+                            "psychic"
                         ],
                         "moves": [
                             {
-                                "name": "Bite",
-                                "type": "dark"
+                                "name": "Psycho Cut",
+                                "type": "psychic"
                             },
                             {
-                                "name": "Brutal Swing",
-                                "type": "dark",
-                                "legacy": true
+                                "name": "Shadow Ball",
+                                "type": "ghost"
                             }
                         ],
-                        "ttw": "261s",
+                        "ttw": "251s",
                         "diff": "Best"
                     },
                     {
@@ -10554,27 +10548,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "265s",
-                        "diff": "+2%"
-                    },
-                    {
-                        "name": "Shadow Hydreigon",
-                        "types": [
-                            "dark",
-                            "dragon"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Bite",
-                                "type": "dark"
-                            },
-                            {
-                                "name": "Brutal Swing",
-                                "type": "dark",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "281s",
-                        "diff": "+8%"
+                        "diff": "+6%"
                     },
                     {
                         "name": "Necrozma - Dawn Wings",
@@ -10593,8 +10567,28 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "286s",
-                        "diff": "+10%"
+                        "ttw": "281s",
+                        "diff": "+12%"
+                    },
+                    {
+                        "name": "Shadow Hydreigon",
+                        "types": [
+                            "dark",
+                            "dragon"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Bite",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Brutal Swing",
+                                "type": "dark",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "291s",
+                        "diff": "+16%"
                     },
                     {
                         "name": "Shadow Darkrai",
@@ -10611,8 +10605,8 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "286s",
-                        "diff": "+10%"
+                        "ttw": "297s",
+                        "diff": "+18%"
                     },
                     {
                         "name": "Shadow Salamence",
@@ -10630,8 +10624,8 @@ export const counterMonths = [
                                 "type": "dark"
                             }
                         ],
-                        "ttw": "303s",
-                        "diff": "+16%"
+                        "ttw": "304s",
+                        "diff": "+21%"
                     }
                 ],
                 "budgetCounters": [
@@ -10671,27 +10665,8 @@ export const counterMonths = [
                                 "type": "dark"
                             }
                         ],
-                        "ttw": "333s",
+                        "ttw": "332s",
                         "diff": "+5%"
-                    },
-                    {
-                        "name": "Absol",
-                        "types": [
-                            "dark"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Snarl",
-                                "type": "dark"
-                            },
-                            {
-                                "name": "Brutal Swing",
-                                "type": "dark",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "341s",
-                        "diff": "+8%"
                     },
                     {
                         "name": "Salamence",
@@ -10709,18 +10684,17 @@ export const counterMonths = [
                                 "type": "dark"
                             }
                         ],
-                        "ttw": "341s",
-                        "diff": "+8%"
+                        "ttw": "340s",
+                        "diff": "+7%"
                     },
                     {
-                        "name": "Hydreigon",
+                        "name": "Absol",
                         "types": [
-                            "dark",
-                            "dragon"
+                            "dark"
                         ],
                         "moves": [
                             {
-                                "name": "Bite",
+                                "name": "Snarl",
                                 "type": "dark"
                             },
                             {
@@ -10729,8 +10703,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "346s",
-                        "diff": "+9%"
+                        "ttw": "347s",
+                        "diff": "+10%"
                     },
                     {
                         "name": "Incineroar",
@@ -10748,8 +10722,27 @@ export const counterMonths = [
                                 "type": "dark"
                             }
                         ],
-                        "ttw": "348s",
+                        "ttw": "349s",
                         "diff": "+10%"
+                    },
+                    {
+                        "name": "Gholdengo",
+                        "types": [
+                            "steel",
+                            "ghost"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Hex",
+                                "type": "ghost"
+                            },
+                            {
+                                "name": "Shadow Ball",
+                                "type": "ghost"
+                            }
+                        ],
+                        "ttw": "353s",
+                        "diff": "+11%"
                     }
                 ]
             },
@@ -10796,7 +10789,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "310s",
+                        "ttw": "312s",
                         "diff": "Best"
                     },
                     {
@@ -10816,7 +10809,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "338s",
-                        "diff": "+9%"
+                        "diff": "+8%"
                     },
                     {
                         "name": "Shadow Excadrill",
@@ -10855,7 +10848,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "369s",
+                        "ttw": "370s",
                         "diff": "+19%"
                     },
                     {
@@ -10874,8 +10867,8 @@ export const counterMonths = [
                                 "type": "ground"
                             }
                         ],
-                        "ttw": "370s",
-                        "diff": "+19%"
+                        "ttw": "375s",
+                        "diff": "+20%"
                     },
                     {
                         "name": "Shadow Mamoswine",
@@ -10894,8 +10887,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "383s",
-                        "diff": "+24%"
+                        "ttw": "384s",
+                        "diff": "+23%"
                     }
                 ],
                 "budgetCounters": [
@@ -10916,7 +10909,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "432s",
+                        "ttw": "433s",
                         "diff": "Best"
                     },
                     {
@@ -10936,7 +10929,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "451s",
+                        "ttw": "448s",
                         "diff": "+4%"
                     },
                     {
@@ -10956,8 +10949,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "451s",
-                        "diff": "+4%"
+                        "ttw": "453s",
+                        "diff": "+5%"
                     },
                     {
                         "name": "Rhyperior",
@@ -10975,8 +10968,27 @@ export const counterMonths = [
                                 "type": "ground"
                             }
                         ],
-                        "ttw": "464s",
+                        "ttw": "463s",
                         "diff": "+7%"
+                    },
+                    {
+                        "name": "Golurk",
+                        "types": [
+                            "ground",
+                            "ghost"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Mud-Slap",
+                                "type": "ground"
+                            },
+                            {
+                                "name": "Earth Power",
+                                "type": "ground"
+                            }
+                        ],
+                        "ttw": "506s",
+                        "diff": "+17%"
                     },
                     {
                         "name": "Krookodile",
@@ -10996,25 +11008,6 @@ export const counterMonths = [
                         ],
                         "ttw": "508s",
                         "diff": "+17%"
-                    },
-                    {
-                        "name": "Golurk",
-                        "types": [
-                            "ground",
-                            "ghost"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Mud-Slap",
-                                "type": "ground"
-                            },
-                            {
-                                "name": "Earth Power",
-                                "type": "ground"
-                            }
-                        ],
-                        "ttw": "508s",
-                        "diff": "+18%"
                     }
                 ]
             },
@@ -11080,8 +11073,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "189s",
-                        "diff": "+13%"
+                        "ttw": "195s",
+                        "diff": "+16%"
                     },
                     {
                         "name": "Shadow Greninja",
@@ -11091,7 +11084,7 @@ export const counterMonths = [
                         ],
                         "moves": [
                             {
-                                "name": "Water Shuriken",
+                                "name": "Bubble",
                                 "type": "water"
                             },
                             {
@@ -11100,8 +11093,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "204s",
-                        "diff": "+22%"
+                        "ttw": "207s",
+                        "diff": "+24%"
                     },
                     {
                         "name": "Shadow Samurott",
@@ -11119,8 +11112,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "212s",
-                        "diff": "+27%"
+                        "ttw": "216s",
+                        "diff": "+29%"
                     },
                     {
                         "name": "Shadow Swampert",
@@ -11139,51 +11132,30 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "216s",
-                        "diff": "+29%"
+                        "ttw": "219s",
+                        "diff": "+31%"
                     },
                     {
-                        "name": "Shadow Feraligatr",
+                        "name": "Kyogre",
                         "types": [
                             "water"
                         ],
                         "moves": [
                             {
-                                "name": "Water Gun",
-                                "type": "water",
-                                "legacy": true
-                            },
-                            {
-                                "name": "Hydro Cannon",
-                                "type": "water",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "221s",
-                        "diff": "+32%"
-                    }
-                ],
-                "budgetCounters": [
-                    {
-                        "name": "Greninja",
-                        "types": [
-                            "water",
-                            "dark"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Water Shuriken",
+                                "name": "Waterfall",
                                 "type": "water"
                             },
                             {
-                                "name": "Hydro Cannon",
+                                "name": "Origin Pulse",
                                 "type": "water",
                                 "legacy": true
                             }
                         ],
-                        "ttw": "235s",
-                        "diff": "Best"
-                    },
+                        "ttw": "224s",
+                        "diff": "+34%"
+                    }
+                ],
+                "budgetCounters": [
                     {
                         "name": "Quaquaval",
                         "types": [
@@ -11201,25 +11173,27 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "236s",
-                        "diff": "+0%"
+                        "ttw": "238s",
+                        "diff": "Best"
                     },
                     {
-                        "name": "Kingler",
+                        "name": "Greninja",
                         "types": [
-                            "water"
+                            "water",
+                            "dark"
                         ],
                         "moves": [
                             {
-                                "name": "Bubble",
+                                "name": "Water Shuriken",
                                 "type": "water"
                             },
                             {
-                                "name": "Crabhammer",
-                                "type": "water"
+                                "name": "Hydro Cannon",
+                                "type": "water",
+                                "legacy": true
                             }
                         ],
-                        "ttw": "237s",
+                        "ttw": "241s",
                         "diff": "+1%"
                     },
                     {
@@ -11239,35 +11213,17 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "238s",
-                        "diff": "+1%"
+                        "ttw": "242s",
+                        "diff": "+2%"
                     },
                     {
-                        "name": "Inteleon",
+                        "name": "Kingler",
                         "types": [
                             "water"
                         ],
                         "moves": [
                             {
-                                "name": "Water Gun",
-                                "type": "water"
-                            },
-                            {
-                                "name": "Surf",
-                                "type": "water"
-                            }
-                        ],
-                        "ttw": "257s",
-                        "diff": "+9%"
-                    },
-                    {
-                        "name": "Clawitzer",
-                        "types": [
-                            "water"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Water Gun",
+                                "name": "Bubble",
                                 "type": "water"
                             },
                             {
@@ -11275,8 +11231,46 @@ export const counterMonths = [
                                 "type": "water"
                             }
                         ],
-                        "ttw": "258s",
-                        "diff": "+9%"
+                        "ttw": "243s",
+                        "diff": "+2%"
+                    },
+                    {
+                        "name": "Golisopod",
+                        "types": [
+                            "bug",
+                            "water"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Waterfall",
+                                "type": "water"
+                            },
+                            {
+                                "name": "Razor Shell",
+                                "type": null
+                            }
+                        ],
+                        "ttw": "257s",
+                        "diff": "+8%"
+                    },
+                    {
+                        "name": "Samurott",
+                        "types": [
+                            "water"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Waterfall",
+                                "type": "water"
+                            },
+                            {
+                                "name": "Hydro Cannon",
+                                "type": "water",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "261s",
+                        "diff": "+10%"
                     }
                 ]
             },
@@ -11324,7 +11318,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "230s",
+                        "ttw": "231s",
                         "diff": "Best"
                     },
                     {
@@ -11344,8 +11338,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "304s",
-                        "diff": "+32%"
+                        "ttw": "302s",
+                        "diff": "+31%"
                     },
                     {
                         "name": "Rayquaza",
@@ -11364,7 +11358,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "305s",
+                        "ttw": "304s",
                         "diff": "+32%"
                     },
                     {
@@ -11404,8 +11398,8 @@ export const counterMonths = [
                                 "type": "flying"
                             }
                         ],
-                        "ttw": "318s",
-                        "diff": "+38%"
+                        "ttw": "320s",
+                        "diff": "+39%"
                     },
                     {
                         "name": "Shadow Salamence",
@@ -11424,7 +11418,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "323s",
+                        "ttw": "322s",
                         "diff": "+40%"
                     }
                 ],
@@ -11446,7 +11440,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "360s",
+                        "ttw": "362s",
                         "diff": "Best"
                     },
                     {
@@ -11466,7 +11460,7 @@ export const counterMonths = [
                                 "type": "flying"
                             }
                         ],
-                        "ttw": "381s",
+                        "ttw": "382s",
                         "diff": "+6%"
                     },
                     {
@@ -11543,8 +11537,8 @@ export const counterMonths = [
                                 "type": "flying"
                             }
                         ],
-                        "ttw": "431s",
-                        "diff": "+20%"
+                        "ttw": "429s",
+                        "diff": "+19%"
                     }
                 ]
             },
@@ -11592,7 +11586,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "112s",
+                        "ttw": "111s",
                         "diff": "Best"
                     },
                     {
@@ -11612,8 +11606,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "147s",
-                        "diff": "+32%"
+                        "ttw": "146s",
+                        "diff": "+31%"
                     },
                     {
                         "name": "Rayquaza",
@@ -11632,7 +11626,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "151s",
+                        "ttw": "150s",
                         "diff": "+35%"
                     },
                     {
@@ -11652,8 +11646,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "157s",
-                        "diff": "+41%"
+                        "ttw": "158s",
+                        "diff": "+42%"
                     },
                     {
                         "name": "Enamorus",
@@ -11672,7 +11666,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "171s",
-                        "diff": "+53%"
+                        "diff": "+54%"
                     },
                     {
                         "name": "Moltres",
@@ -11691,8 +11685,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "177s",
-                        "diff": "+59%"
+                        "ttw": "178s",
+                        "diff": "+60%"
                     }
                 ],
                 "budgetCounters": [
@@ -11713,7 +11707,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "191s",
+                        "ttw": "190s",
                         "diff": "Best"
                     },
                     {
@@ -11732,7 +11726,7 @@ export const counterMonths = [
                                 "type": "flying"
                             }
                         ],
-                        "ttw": "194s",
+                        "ttw": "193s",
                         "diff": "+2%"
                     },
                     {
@@ -11752,7 +11746,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "204s",
-                        "diff": "+7%"
+                        "diff": "+8%"
                     },
                     {
                         "name": "Toucannon",
@@ -11771,8 +11765,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "204s",
-                        "diff": "+7%"
+                        "ttw": "206s",
+                        "diff": "+9%"
                     },
                     {
                         "name": "Staraptor",
@@ -11790,8 +11784,8 @@ export const counterMonths = [
                                 "type": "flying"
                             }
                         ],
-                        "ttw": "204s",
-                        "diff": "+7%"
+                        "ttw": "208s",
+                        "diff": "+9%"
                     },
                     {
                         "name": "Flamigo",
@@ -11810,7 +11804,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "221s",
-                        "diff": "+16%"
+                        "diff": "+17%"
                     }
                 ]
             },
@@ -11856,7 +11850,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "360s",
+                        "ttw": "359s",
                         "diff": "Best"
                     },
                     {
@@ -11875,7 +11869,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "393s",
+                        "ttw": "392s",
                         "diff": "+9%"
                     },
                     {
@@ -11914,8 +11908,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "419s",
-                        "diff": "+16%"
+                        "ttw": "421s",
+                        "diff": "+17%"
                     },
                     {
                         "name": "Shadow Excadrill",
@@ -11934,8 +11928,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "423s",
-                        "diff": "+18%"
+                        "ttw": "421s",
+                        "diff": "+17%"
                     },
                     {
                         "name": "Shadow Mamoswine",
@@ -11954,7 +11948,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "425s",
+                        "ttw": "423s",
                         "diff": "+18%"
                     }
                 ],
@@ -11976,7 +11970,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "509s",
+                        "ttw": "504s",
                         "diff": "Best"
                     },
                     {
@@ -11997,7 +11991,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "511s",
-                        "diff": "+0%"
+                        "diff": "+1%"
                     },
                     {
                         "name": "Garchomp",
@@ -12016,8 +12010,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "514s",
-                        "diff": "+1%"
+                        "ttw": "516s",
+                        "diff": "+2%"
                     },
                     {
                         "name": "Rhyperior",
@@ -12035,7 +12029,7 @@ export const counterMonths = [
                                 "type": "ground"
                             }
                         ],
-                        "ttw": "551s",
+                        "ttw": "546s",
                         "diff": "+8%"
                     },
                     {
@@ -12054,7 +12048,7 @@ export const counterMonths = [
                                 "type": "ground"
                             }
                         ],
-                        "ttw": "588s",
+                        "ttw": "583s",
                         "diff": "+16%"
                     },
                     {
@@ -12073,7 +12067,7 @@ export const counterMonths = [
                                 "type": "ground"
                             }
                         ],
-                        "ttw": "596s",
+                        "ttw": "591s",
                         "diff": "+17%"
                     }
                 ]
@@ -12121,7 +12115,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "211s",
+                        "ttw": "209s",
                         "diff": "Best"
                     },
                     {
@@ -12162,7 +12156,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "220s",
-                        "diff": "+4%"
+                        "diff": "+5%"
                     },
                     {
                         "name": "Necrozma (Dusk Mane)",
@@ -12181,8 +12175,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "222s",
-                        "diff": "+5%"
+                        "ttw": "226s",
+                        "diff": "+8%"
                     },
                     {
                         "name": "Keldeo",
@@ -12201,7 +12195,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "240s",
+                        "ttw": "239s",
                         "diff": "+14%"
                     },
                     {
@@ -12221,7 +12215,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "244s",
-                        "diff": "+16%"
+                        "diff": "+17%"
                     }
                 ],
                 "budgetCounters": [
@@ -12242,7 +12236,7 @@ export const counterMonths = [
                                 "type": "fighting"
                             }
                         ],
-                        "ttw": "272s",
+                        "ttw": "271s",
                         "diff": "Best"
                     },
                     {
@@ -12281,7 +12275,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "306s",
+                        "ttw": "305s",
                         "diff": "+13%"
                     },
                     {
@@ -12317,7 +12311,7 @@ export const counterMonths = [
                                 "type": "rock"
                             }
                         ],
-                        "ttw": "320s",
+                        "ttw": "319s",
                         "diff": "+18%"
                     },
                     {
@@ -12337,7 +12331,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "327s",
-                        "diff": "+20%"
+                        "diff": "+21%"
                     }
                 ]
             },
@@ -12384,7 +12378,7 @@ export const counterMonths = [
                                 "type": "poison"
                             }
                         ],
-                        "ttw": "368s",
+                        "ttw": "369s",
                         "diff": "Best"
                     },
                     {
@@ -12422,8 +12416,8 @@ export const counterMonths = [
                                 "type": "poison"
                             }
                         ],
-                        "ttw": "407s",
-                        "diff": "+11%"
+                        "ttw": "408s",
+                        "diff": "+10%"
                     },
                     {
                         "name": "Naganadel",
@@ -12461,7 +12455,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "429s",
-                        "diff": "+17%"
+                        "diff": "+16%"
                     },
                     {
                         "name": "Shadow Toxicroak",
@@ -12480,7 +12474,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "433s",
-                        "diff": "+18%"
+                        "diff": "+17%"
                     }
                 ],
                 "budgetCounters": [
@@ -12500,7 +12494,7 @@ export const counterMonths = [
                                 "type": "poison"
                             }
                         ],
-                        "ttw": "454s",
+                        "ttw": "451s",
                         "diff": "Best"
                     },
                     {
@@ -12519,8 +12513,8 @@ export const counterMonths = [
                                 "type": "poison"
                             }
                         ],
-                        "ttw": "484s",
-                        "diff": "+7%"
+                        "ttw": "486s",
+                        "diff": "+8%"
                     },
                     {
                         "name": "Overqwil",
@@ -12538,8 +12532,8 @@ export const counterMonths = [
                                 "type": "poison"
                             }
                         ],
-                        "ttw": "490s",
-                        "diff": "+8%"
+                        "ttw": "491s",
+                        "diff": "+9%"
                     },
                     {
                         "name": "Toxicroak",
@@ -12557,8 +12551,8 @@ export const counterMonths = [
                                 "type": "poison"
                             }
                         ],
-                        "ttw": "510s",
-                        "diff": "+12%"
+                        "ttw": "511s",
+                        "diff": "+13%"
                     },
                     {
                         "name": "Scolipede",
@@ -12576,8 +12570,8 @@ export const counterMonths = [
                                 "type": "poison"
                             }
                         ],
-                        "ttw": "533s",
-                        "diff": "+17%"
+                        "ttw": "536s",
+                        "diff": "+19%"
                     },
                     {
                         "name": "Victreebel",
@@ -12595,8 +12589,8 @@ export const counterMonths = [
                                 "type": "poison"
                             }
                         ],
-                        "ttw": "535s",
-                        "diff": "+18%"
+                        "ttw": "537s",
+                        "diff": "+19%"
                     }
                 ]
             },
@@ -12644,7 +12638,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "268s",
+                        "ttw": "269s",
                         "diff": "Best"
                     },
                     {
@@ -12664,7 +12658,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "275s",
+                        "ttw": "273s",
                         "diff": "+2%"
                     },
                     {
@@ -12704,28 +12698,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "317s",
+                        "ttw": "318s",
                         "diff": "+18%"
-                    },
-                    {
-                        "name": "Shadow Metagross",
-                        "types": [
-                            "steel",
-                            "psychic"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Bullet Punch",
-                                "type": "steel"
-                            },
-                            {
-                                "name": "Meteor Mash",
-                                "type": "steel",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "321s",
-                        "diff": "+20%"
                     },
                     {
                         "name": "Mega Lucario",
@@ -12743,31 +12717,30 @@ export const counterMonths = [
                                 "type": "steel"
                             }
                         ],
-                        "ttw": "332s",
-                        "diff": "+24%"
-                    }
-                ],
-                "budgetCounters": [
+                        "ttw": "331s",
+                        "diff": "+23%"
+                    },
                     {
-                        "name": "Metagross",
+                        "name": "Shadow Regigigas",
                         "types": [
-                            "steel",
-                            "psychic"
+                            "normal"
                         ],
                         "moves": [
                             {
-                                "name": "Bullet Punch",
-                                "type": "steel"
+                                "name": "Hidden Power",
+                                "type": "grass"
                             },
                             {
-                                "name": "Meteor Mash",
-                                "type": "steel",
+                                "name": "Crush Grip",
+                                "type": "normal",
                                 "legacy": true
                             }
                         ],
-                        "ttw": "380s",
-                        "diff": "Best"
-                    },
+                        "ttw": "349s",
+                        "diff": "+30%"
+                    }
+                ],
+                "budgetCounters": [
                     {
                         "name": "Tinkaton",
                         "types": [
@@ -12785,27 +12758,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "393s",
-                        "diff": "+4%"
-                    },
-                    {
-                        "name": "Lucario",
-                        "types": [
-                            "fighting",
-                            "steel"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Bullet Punch",
-                                "type": "steel"
-                            },
-                            {
-                                "name": "Meteor Mash",
-                                "type": "steel"
-                            }
-                        ],
-                        "ttw": "434s",
-                        "diff": "+14%"
+                        "ttw": "395s",
+                        "diff": "Best"
                     },
                     {
                         "name": "Galarian Darmanitan",
@@ -12822,8 +12776,8 @@ export const counterMonths = [
                                 "type": "ice"
                             }
                         ],
-                        "ttw": "440s",
-                        "diff": "+16%"
+                        "ttw": "441s",
+                        "diff": "+12%"
                     },
                     {
                         "name": "Baxcalibur",
@@ -12842,7 +12796,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "441s",
-                        "diff": "+16%"
+                        "diff": "+12%"
                     },
                     {
                         "name": "Mamoswine",
@@ -12861,7 +12815,44 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "454s",
-                        "diff": "+20%"
+                        "diff": "+15%"
+                    },
+                    {
+                        "name": "Overqwil",
+                        "types": [
+                            "dark",
+                            "poison"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Poison Jab",
+                                "type": "poison"
+                            },
+                            {
+                                "name": "Sludge Bomb",
+                                "type": "poison"
+                            }
+                        ],
+                        "ttw": "470s",
+                        "diff": "+19%"
+                    },
+                    {
+                        "name": "Glaceon",
+                        "types": [
+                            "ice"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Frost Breath",
+                                "type": "ice"
+                            },
+                            {
+                                "name": "Avalanche",
+                                "type": "ice"
+                            }
+                        ],
+                        "ttw": "480s",
+                        "diff": "+22%"
                     }
                 ]
             },
@@ -12908,26 +12899,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "639s",
+                        "ttw": "644s",
                         "diff": "Best"
-                    },
-                    {
-                        "name": "Regieleki",
-                        "types": [
-                            "electric"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Thunder Shock",
-                                "type": "electric"
-                            },
-                            {
-                                "name": "Thunder Cage",
-                                "type": "electric"
-                            }
-                        ],
-                        "ttw": "664s",
-                        "diff": "+4%"
                     },
                     {
                         "name": "Shadow Electivire",
@@ -12944,11 +12917,11 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "672s",
-                        "diff": "+5%"
+                        "ttw": "671s",
+                        "diff": "+4%"
                     },
                     {
-                        "name": "Shadow Raikou",
+                        "name": "Regieleki",
                         "types": [
                             "electric"
                         ],
@@ -12958,12 +12931,31 @@ export const counterMonths = [
                                 "type": "electric"
                             },
                             {
-                                "name": "Wild Charge",
+                                "name": "Thunder Cage",
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "678s",
-                        "diff": "+6%"
+                        "ttw": "674s",
+                        "diff": "+5%"
+                    },
+                    {
+                        "name": "Shadow Regigigas",
+                        "types": [
+                            "normal"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Hidden Power",
+                                "type": "grass"
+                            },
+                            {
+                                "name": "Crush Grip",
+                                "type": "normal",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "675s",
+                        "diff": "+5%"
                     },
                     {
                         "name": "Kartana",
@@ -12982,26 +12974,25 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "682s",
-                        "diff": "+7%"
+                        "diff": "+6%"
                     },
                     {
-                        "name": "Shadow Regigigas",
+                        "name": "Shadow Raikou",
                         "types": [
-                            "normal"
+                            "electric"
                         ],
                         "moves": [
                             {
-                                "name": "Hidden Power",
-                                "type": "grass"
+                                "name": "Thunder Shock",
+                                "type": "electric"
                             },
                             {
-                                "name": "Crush Grip",
-                                "type": "normal",
-                                "legacy": true
+                                "name": "Wild Charge",
+                                "type": "electric"
                             }
                         ],
-                        "ttw": "687s",
-                        "diff": "+8%"
+                        "ttw": "682s",
+                        "diff": "+6%"
                     }
                 ],
                 "budgetCounters": [
@@ -13021,7 +13012,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "793s",
+                        "ttw": "789s",
                         "diff": "Best"
                     },
                     {
@@ -13039,27 +13030,8 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "810s",
-                        "diff": "+2%"
-                    },
-                    {
-                        "name": "Roserade",
-                        "types": [
-                            "grass",
-                            "poison"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Magical Leaf",
-                                "type": "grass"
-                            },
-                            {
-                                "name": "Grass Knot",
-                                "type": "grass"
-                            }
-                        ],
-                        "ttw": "823s",
-                        "diff": "+4%"
+                        "ttw": "815s",
+                        "diff": "+3%"
                     },
                     {
                         "name": "Meowscarada",
@@ -13078,7 +13050,26 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "830s",
+                        "ttw": "824s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Roserade",
+                        "types": [
+                            "grass",
+                            "poison"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Poison Jab",
+                                "type": "poison"
+                            },
+                            {
+                                "name": "Grass Knot",
+                                "type": "grass"
+                            }
+                        ],
+                        "ttw": "826s",
                         "diff": "+5%"
                     },
                     {
@@ -13098,7 +13089,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "856s",
+                        "ttw": "854s",
                         "diff": "+8%"
                     },
                     {
@@ -13117,7 +13108,7 @@ export const counterMonths = [
                                 "type": "electric"
                             }
                         ],
-                        "ttw": "861s",
+                        "ttw": "858s",
                         "diff": "+9%"
                     }
                 ]
@@ -13166,28 +13157,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "208s",
+                        "ttw": "207s",
                         "diff": "Best"
-                    },
-                    {
-                        "name": "Necrozma - Dawn Wings",
-                        "types": [
-                            "psychic",
-                            "ghost"
-                        ],
-                        "moves": [
-                            {
-                                "name": "Psycho Cut",
-                                "type": "psychic"
-                            },
-                            {
-                                "name": "Moongeist Beam",
-                                "type": "ghost",
-                                "legacy": true
-                            }
-                        ],
-                        "ttw": "243s",
-                        "diff": "+17%"
                     },
                     {
                         "name": "Shadow Moltres",
@@ -13206,8 +13177,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "269s",
-                        "diff": "+29%"
+                        "ttw": "270s",
+                        "diff": "+30%"
                     },
                     {
                         "name": "Shadow Toucannon",
@@ -13226,8 +13197,8 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "275s",
-                        "diff": "+33%"
+                        "ttw": "274s",
+                        "diff": "+32%"
                     },
                     {
                         "name": "Rayquaza",
@@ -13246,7 +13217,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "276s",
+                        "ttw": "275s",
                         "diff": "+33%"
                     },
                     {
@@ -13266,8 +13237,27 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "280s",
+                        "ttw": "279s",
                         "diff": "+35%"
+                    },
+                    {
+                        "name": "Shadow Chandelure",
+                        "types": [
+                            "ghost",
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Hex",
+                                "type": "ghost"
+                            },
+                            {
+                                "name": "Shadow Ball",
+                                "type": "ghost"
+                            }
+                        ],
+                        "ttw": "287s",
+                        "diff": "+38%"
                     }
                 ],
                 "budgetCounters": [
@@ -13288,7 +13278,7 @@ export const counterMonths = [
                                 "legacy": true
                             }
                         ],
-                        "ttw": "330s",
+                        "ttw": "327s",
                         "diff": "Best"
                     },
                     {
@@ -13309,7 +13299,7 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "333s",
-                        "diff": "+1%"
+                        "diff": "+2%"
                     },
                     {
                         "name": "Chandelure",
@@ -13327,7 +13317,7 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "343s",
+                        "ttw": "341s",
                         "diff": "+4%"
                     },
                     {
@@ -13366,8 +13356,8 @@ export const counterMonths = [
                                 "type": "ghost"
                             }
                         ],
-                        "ttw": "348s",
-                        "diff": "+6%"
+                        "ttw": "349s",
+                        "diff": "+7%"
                     },
                     {
                         "name": "Braviary",
@@ -13386,7 +13376,2887 @@ export const counterMonths = [
                             }
                         ],
                         "ttw": "349s",
+                        "diff": "+7%"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2026-06",
+        "label": "June 2026",
+        "status": "current",
+        "bosses": [
+            {
+                "id": "tapu-fini",
+                "name": "Tapu Fini",
+                "themeClass": "water-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/788.png",
+                "imageAlt": "Official artwork of Tapu Fini",
+                "subtitle": "5★ Raid",
+                "types": [
+                    "water",
+                    "fairy"
+                ],
+                "weaknesses": "Electric, Grass, Poison",
+                "difficultyLabel": "Standard",
+                "difficulty": "Electric, Grass, and Poison attackers all perform well",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1632,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2041,
+                        "label": "Level 25 weather boost"
+                    }
+                },
+                "bestCounters": [
+                    {
+                        "name": "Mega Sceptile",
+                        "types": [
+                            "grass"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Bullet Seed",
+                                "type": "grass"
+                            },
+                            {
+                                "name": "Frenzy Plant",
+                                "type": "grass",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "644s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Shadow Electivire",
+                        "types": [
+                            "electric"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Thunder Shock",
+                                "type": "electric"
+                            },
+                            {
+                                "name": "Wild Charge",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "671s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Regieleki",
+                        "types": [
+                            "electric"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Thunder Shock",
+                                "type": "electric"
+                            },
+                            {
+                                "name": "Thunder Cage",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "674s",
+                        "diff": "+5%"
+                    },
+                    {
+                        "name": "Shadow Regigigas",
+                        "types": [
+                            "normal"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Hidden Power",
+                                "type": "grass"
+                            },
+                            {
+                                "name": "Crush Grip",
+                                "type": "normal",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "675s",
+                        "diff": "+5%"
+                    },
+                    {
+                        "name": "Kartana",
+                        "types": [
+                            "grass",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Razor Leaf",
+                                "type": "grass"
+                            },
+                            {
+                                "name": "Leaf Blade",
+                                "type": "grass"
+                            }
+                        ],
+                        "ttw": "682s",
                         "diff": "+6%"
+                    },
+                    {
+                        "name": "Shadow Raikou",
+                        "types": [
+                            "electric"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Thunder Shock",
+                                "type": "electric"
+                            },
+                            {
+                                "name": "Wild Charge",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "682s",
+                        "diff": "+6%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Rillaboom",
+                        "types": [
+                            "grass"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Razor Leaf",
+                                "type": "grass"
+                            },
+                            {
+                                "name": "Frenzy Plant",
+                                "type": "grass",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "789s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Electivire",
+                        "types": [
+                            "electric"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Thunder Shock",
+                                "type": "electric"
+                            },
+                            {
+                                "name": "Wild Charge",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "815s",
+                        "diff": "+3%"
+                    },
+                    {
+                        "name": "Meowscarada",
+                        "types": [
+                            "grass",
+                            "dark"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Leafage",
+                                "type": "grass"
+                            },
+                            {
+                                "name": "Frenzy Plant",
+                                "type": "grass",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "824s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Roserade",
+                        "types": [
+                            "grass",
+                            "poison"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Poison Jab",
+                                "type": "poison"
+                            },
+                            {
+                                "name": "Grass Knot",
+                                "type": "grass"
+                            }
+                        ],
+                        "ttw": "826s",
+                        "diff": "+5%"
+                    },
+                    {
+                        "name": "Toxtricity Low Key",
+                        "types": [
+                            "electric",
+                            "poison"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Poison Jab",
+                                "type": "poison"
+                            },
+                            {
+                                "name": "Wild Charge",
+                                "type": "electric",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "854s",
+                        "diff": "+8%"
+                    },
+                    {
+                        "name": "Magnezone",
+                        "types": [
+                            "electric",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Volt Switch",
+                                "type": "electric"
+                            },
+                            {
+                                "name": "Wild Charge",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "858s",
+                        "diff": "+9%"
+                    }
+                ]
+            },
+            {
+                "id": "mega-medicham",
+                "name": "Mega Medicham",
+                "themeClass": "psychic-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10054.png",
+                "imageAlt": "Official artwork of Mega Medicham",
+                "subtitle": "Mega Raid",
+                "types": [
+                    "fighting",
+                    "psychic"
+                ],
+                "weaknesses": "Flying, Ghost, Fairy",
+                "difficultyLabel": "Mega",
+                "difficulty": "Flying and Ghost attackers are strong",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 817,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1022,
+                        "label": "Level 25 weather boost"
+                    }
+                },
+                "bestCounters": [
+                    {
+                        "name": "Mega Rayquaza",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Air Slash",
+                                "type": "flying"
+                            },
+                            {
+                                "name": "Dragon Ascent",
+                                "type": "flying",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "207s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Shadow Moltres",
+                        "types": [
+                            "fire",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Wing Attack",
+                                "type": "flying"
+                            },
+                            {
+                                "name": "Fly",
+                                "type": "flying",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "270s",
+                        "diff": "+30%"
+                    },
+                    {
+                        "name": "Shadow Toucannon",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Peck",
+                                "type": "flying"
+                            },
+                            {
+                                "name": "Beak Blast",
+                                "type": "flying",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "274s",
+                        "diff": "+32%"
+                    },
+                    {
+                        "name": "Rayquaza",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Air Slash",
+                                "type": "flying"
+                            },
+                            {
+                                "name": "Dragon Ascent",
+                                "type": "flying",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "275s",
+                        "diff": "+33%"
+                    },
+                    {
+                        "name": "Shadow Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Fly",
+                                "type": "flying",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "279s",
+                        "diff": "+35%"
+                    },
+                    {
+                        "name": "Shadow Chandelure",
+                        "types": [
+                            "ghost",
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Hex",
+                                "type": "ghost"
+                            },
+                            {
+                                "name": "Shadow Ball",
+                                "type": "ghost"
+                            }
+                        ],
+                        "ttw": "287s",
+                        "diff": "+38%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Toucannon",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Peck",
+                                "type": "flying"
+                            },
+                            {
+                                "name": "Beak Blast",
+                                "type": "flying",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "327s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Fly",
+                                "type": "flying",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "333s",
+                        "diff": "+2%"
+                    },
+                    {
+                        "name": "Chandelure",
+                        "types": [
+                            "ghost",
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Hex",
+                                "type": "ghost"
+                            },
+                            {
+                                "name": "Shadow Ball",
+                                "type": "ghost"
+                            }
+                        ],
+                        "ttw": "341s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Staraptor",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Gust",
+                                "type": "flying",
+                                "legacy": true
+                            },
+                            {
+                                "name": "Fly",
+                                "type": "flying"
+                            }
+                        ],
+                        "ttw": "345s",
+                        "diff": "+5%"
+                    },
+                    {
+                        "name": "Dragapult",
+                        "types": [
+                            "dragon",
+                            "ghost"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Astonish",
+                                "type": "ghost"
+                            },
+                            {
+                                "name": "Shadow Ball",
+                                "type": "ghost"
+                            }
+                        ],
+                        "ttw": "349s",
+                        "diff": "+7%"
+                    },
+                    {
+                        "name": "Braviary",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Air Slash",
+                                "type": "flying"
+                            },
+                            {
+                                "name": "Fly",
+                                "type": "flying"
+                            }
+                        ],
+                        "ttw": "349s",
+                        "diff": "+7%"
+                    }
+                ]
+            },
+            {
+                "id": "reshiram",
+                "name": "Reshiram",
+                "themeClass": "dragon-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/643.png",
+                "imageAlt": "Official artwork of Reshiram",
+                "subtitle": "5★ Raid • June 3 to June 9",
+                "types": [
+                    "dragon",
+                    "fire"
+                ],
+                "weaknesses": "Ice, Dragon, Fairy, Water, Ground, Rock",
+                "difficultyLabel": "Focus",
+                "difficulty": "Prepare powerful Ice, Dragon and Fairy counters for this battle",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2307,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2884,
+                        "label": "Level 25 weather boost"
+                    }
+                },
+                "bestCounters": [
+                    {
+                        "name": "Eternatus",
+                        "types": [
+                            "poison",
+                            "dragon"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Dynamax Cannon",
+                                "type": "dragon"
+                            }
+                        ],
+                        "ttw": "427s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Mega Rayquaza",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Breaking Swipe",
+                                "type": "dragon",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "443s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Shadow Garchomp",
+                        "types": [
+                            "dragon",
+                            "ground"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Breaking Swipe",
+                                "type": "dragon"
+                            }
+                        ],
+                        "ttw": "529s",
+                        "diff": "+24%"
+                    },
+                    {
+                        "name": "Shadow Groudon",
+                        "types": [
+                            "ground"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Mud Shot",
+                                "type": "ground"
+                            },
+                            {
+                                "name": "Precipice Blades",
+                                "type": "ground",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "564s",
+                        "diff": "+32%"
+                    },
+                    {
+                        "name": "Shadow Palkia",
+                        "types": [
+                            "water",
+                            "dragon"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Draco Meteor",
+                                "type": "dragon"
+                            }
+                        ],
+                        "ttw": "567s",
+                        "diff": "+33%"
+                    },
+                    {
+                        "name": "Dialga - Origin",
+                        "types": [
+                            "steel",
+                            "dragon"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Breath",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Roar of Time",
+                                "type": "dragon"
+                            }
+                        ],
+                        "ttw": "576s",
+                        "diff": "+35%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Haxorus",
+                        "types": [
+                            "dragon"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Breaking Swipe",
+                                "type": "dragon"
+                            }
+                        ],
+                        "ttw": "598s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Garchomp",
+                        "types": [
+                            "dragon",
+                            "ground"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Breaking Swipe",
+                                "type": "dragon"
+                            }
+                        ],
+                        "ttw": "632s",
+                        "diff": "+6%"
+                    },
+                    {
+                        "name": "Dragapult",
+                        "types": [
+                            "dragon",
+                            "ghost"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Breaking Swipe",
+                                "type": "dragon"
+                            }
+                        ],
+                        "ttw": "636s",
+                        "diff": "+6%"
+                    },
+                    {
+                        "name": "Glimmora",
+                        "types": [
+                            "rock",
+                            "poison"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Rock Throw",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Meteor Beam",
+                                "type": "rock"
+                            }
+                        ],
+                        "ttw": "681s",
+                        "diff": "+14%"
+                    },
+                    {
+                        "name": "Rampardos",
+                        "types": [
+                            "rock"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Smack Down",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Rock Slide",
+                                "type": "rock"
+                            }
+                        ],
+                        "ttw": "691s",
+                        "diff": "+16%"
+                    },
+                    {
+                        "name": "Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Draco Meteor",
+                                "type": "dragon"
+                            }
+                        ],
+                        "ttw": "691s",
+                        "diff": "+16%"
+                    }
+                ]
+            },
+            {
+                "id": "mega-audino",
+                "name": "Mega Audino",
+                "themeClass": "normal-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10069.png",
+                "imageAlt": "Official artwork of Mega Audino",
+                "subtitle": "Mega Raid • June 3 to June 10",
+                "types": [
+                    "normal",
+                    "fairy"
+                ],
+                "weaknesses": "Fighting, Poison, Steel",
+                "difficultyLabel": "Focus",
+                "difficulty": "Fighting, Poison and Steel-type teams are especially effective here",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 961,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1201,
+                        "label": "Level 25 weather boost"
+                    }
+                },
+                "bestCounters": [
+                    {
+                        "name": "Zamazenta (Crowned Shield)",
+                        "types": [
+                            "fighting",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Metal Claw",
+                                "type": "steel"
+                            },
+                            {
+                                "name": "Behemoth Bash",
+                                "type": "steel",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "292s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Zacian (Crowned Sword)",
+                        "types": [
+                            "fairy",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Metal Claw",
+                                "type": "steel"
+                            },
+                            {
+                                "name": "Behemoth Blade",
+                                "type": "steel",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "295s",
+                        "diff": "+1%"
+                    },
+                    {
+                        "name": "Necrozma (Dusk Mane)",
+                        "types": [
+                            "psychic",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Metal Claw",
+                                "type": "steel"
+                            },
+                            {
+                                "name": "Sunsteel Strike",
+                                "type": "steel",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "305s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Shadow Metagross",
+                        "types": [
+                            "steel",
+                            "psychic"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Bullet Punch",
+                                "type": "steel"
+                            },
+                            {
+                                "name": "Meteor Mash",
+                                "type": "steel",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "346s",
+                        "diff": "+18%"
+                    },
+                    {
+                        "name": "Mega Lucario",
+                        "types": [
+                            "fighting",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Force Palm",
+                                "type": "fighting",
+                                "legacy": true
+                            },
+                            {
+                                "name": "Meteor Mash",
+                                "type": "steel"
+                            }
+                        ],
+                        "ttw": "348s",
+                        "diff": "+19%"
+                    },
+                    {
+                        "name": "Shadow Regigigas",
+                        "types": [
+                            "normal"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Hidden Power",
+                                "type": "grass"
+                            },
+                            {
+                                "name": "Crush Grip",
+                                "type": "normal",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "381s",
+                        "diff": "+30%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Metagross",
+                        "types": [
+                            "steel",
+                            "psychic"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Bullet Punch",
+                                "type": "steel"
+                            },
+                            {
+                                "name": "Meteor Mash",
+                                "type": "steel",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "415s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Lucario",
+                        "types": [
+                            "fighting",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Force Palm",
+                                "type": "fighting",
+                                "legacy": true
+                            },
+                            {
+                                "name": "Meteor Mash",
+                                "type": "steel"
+                            }
+                        ],
+                        "ttw": "454s",
+                        "diff": "+9%"
+                    },
+                    {
+                        "name": "Tinkaton",
+                        "types": [
+                            "fairy",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fairy Wind",
+                                "type": "fairy"
+                            },
+                            {
+                                "name": "Gigaton Hammer",
+                                "type": "steel",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "455s",
+                        "diff": "+10%"
+                    },
+                    {
+                        "name": "Toxicroak",
+                        "types": [
+                            "poison",
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Poison Jab",
+                                "type": "poison"
+                            },
+                            {
+                                "name": "Sludge Bomb",
+                                "type": "poison"
+                            }
+                        ],
+                        "ttw": "526s",
+                        "diff": "+27%"
+                    },
+                    {
+                        "name": "Kingambit",
+                        "types": [
+                            "dark",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Metal Claw",
+                                "type": "steel"
+                            },
+                            {
+                                "name": "Iron Head",
+                                "type": "steel"
+                            }
+                        ],
+                        "ttw": "531s",
+                        "diff": "+28%"
+                    },
+                    {
+                        "name": "Bisharp",
+                        "types": [
+                            "dark",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Metal Claw",
+                                "type": "steel"
+                            },
+                            {
+                                "name": "Iron Head",
+                                "type": "steel"
+                            }
+                        ],
+                        "ttw": "548s",
+                        "diff": "+32%"
+                    }
+                ]
+            },
+            {
+                "id": "zekrom",
+                "name": "Zekrom",
+                "themeClass": "dragon-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/644.png",
+                "imageAlt": "Official artwork of Zekrom",
+                "subtitle": "5★ Raid • June 10 to June 16",
+                "types": [
+                    "dragon",
+                    "electric"
+                ],
+                "weaknesses": "Ice, Dragon, Fairy, Ground",
+                "difficultyLabel": "Focus",
+                "difficulty": "Strong Ice, Dragon and Fairy counters are recommended",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2307,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2884,
+                        "label": "Level 25 weather boost"
+                    }
+                },
+                "bestCounters": [
+                    {
+                        "name": "Mega Rayquaza",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Breaking Swipe",
+                                "type": "dragon",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "424s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Eternatus",
+                        "types": [
+                            "poison",
+                            "dragon"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Dynamax Cannon",
+                                "type": "dragon"
+                            }
+                        ],
+                        "ttw": "425s",
+                        "diff": "+0%"
+                    },
+                    {
+                        "name": "Black Kyurem",
+                        "types": [
+                            "dragon",
+                            "ice"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Freeze Shock",
+                                "type": "ice",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "457s",
+                        "diff": "+8%"
+                    },
+                    {
+                        "name": "White Kyurem",
+                        "types": [
+                            "dragon",
+                            "ice"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Breath",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Ice Burn",
+                                "type": "ice",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "498s",
+                        "diff": "+17%"
+                    },
+                    {
+                        "name": "Shadow Garchomp",
+                        "types": [
+                            "dragon",
+                            "ground"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Breaking Swipe",
+                                "type": "dragon"
+                            }
+                        ],
+                        "ttw": "503s",
+                        "diff": "+19%"
+                    },
+                    {
+                        "name": "Palkia - Origin",
+                        "types": [
+                            "water",
+                            "dragon"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Spacial Rend",
+                                "type": null
+                            }
+                        ],
+                        "ttw": "554s",
+                        "diff": "+31%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Garchomp",
+                        "types": [
+                            "dragon",
+                            "ground"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Breaking Swipe",
+                                "type": "dragon"
+                            }
+                        ],
+                        "ttw": "600s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Haxorus",
+                        "types": [
+                            "dragon"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Breaking Swipe",
+                                "type": "dragon"
+                            }
+                        ],
+                        "ttw": "600s",
+                        "diff": "+0%"
+                    },
+                    {
+                        "name": "Dragapult",
+                        "types": [
+                            "dragon",
+                            "ghost"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Breaking Swipe",
+                                "type": "dragon"
+                            }
+                        ],
+                        "ttw": "621s",
+                        "diff": "+3%"
+                    },
+                    {
+                        "name": "Dragonite",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Draco Meteor",
+                                "type": "dragon",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "664s",
+                        "diff": "+11%"
+                    },
+                    {
+                        "name": "Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Draco Meteor",
+                                "type": "dragon"
+                            }
+                        ],
+                        "ttw": "664s",
+                        "diff": "+11%"
+                    },
+                    {
+                        "name": "Mamoswine",
+                        "types": [
+                            "ice",
+                            "ground"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Mud-Slap",
+                                "type": "ground"
+                            },
+                            {
+                                "name": "Avalanche",
+                                "type": "ice"
+                            }
+                        ],
+                        "ttw": "695s",
+                        "diff": "+16%"
+                    }
+                ]
+            },
+            {
+                "id": "mega-blaziken",
+                "name": "Mega Blaziken",
+                "themeClass": "fire-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10050.png",
+                "imageAlt": "Official artwork of Mega Blaziken",
+                "subtitle": "Mega Raid • June 10 to June 16",
+                "types": [
+                    "fire",
+                    "fighting"
+                ],
+                "weaknesses": "Water, Ground, Rock, Flying, Psychic, Fairy",
+                "difficultyLabel": "Focus",
+                "difficulty": "Strong Water, Ground and Rock counters are recommended",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1627,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2034,
+                        "label": "Level 25 weather boost"
+                    }
+                },
+                "bestCounters": [
+                    {
+                        "name": "Mega Mewtwo Y",
+                        "types": [
+                            "psychic"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Confusion",
+                                "type": "psychic"
+                            },
+                            {
+                                "name": "Psystrike",
+                                "type": "psychic"
+                            }
+                        ],
+                        "ttw": "196s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Shadow Mewtwo",
+                        "types": [
+                            "psychic"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Psycho Cut",
+                                "type": "psychic"
+                            },
+                            {
+                                "name": "Psystrike",
+                                "type": "psychic",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "239s",
+                        "diff": "+22%"
+                    },
+                    {
+                        "name": "Shadow Moltres",
+                        "types": [
+                            "fire",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Wing Attack",
+                                "type": "flying"
+                            },
+                            {
+                                "name": "Fly",
+                                "type": "flying",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "257s",
+                        "diff": "+31%"
+                    },
+                    {
+                        "name": "Shadow Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Fly",
+                                "type": "flying",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "260s",
+                        "diff": "+33%"
+                    },
+                    {
+                        "name": "Rayquaza",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Air Slash",
+                                "type": "flying"
+                            },
+                            {
+                                "name": "Dragon Ascent",
+                                "type": "flying",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "264s",
+                        "diff": "+35%"
+                    },
+                    {
+                        "name": "Shadow Kyogre",
+                        "types": [
+                            "water"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Waterfall",
+                                "type": "water"
+                            },
+                            {
+                                "name": "Origin Pulse",
+                                "type": "water",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "271s",
+                        "diff": "+38%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Salamence",
+                        "types": [
+                            "dragon",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Fly",
+                                "type": "flying",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "316s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Primarina",
+                        "types": [
+                            "water",
+                            "fairy"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Waterfall",
+                                "type": "water"
+                            },
+                            {
+                                "name": "Hydro Cannon",
+                                "type": "water",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "342s",
+                        "diff": "+8%"
+                    },
+                    {
+                        "name": "Braviary",
+                        "types": [
+                            "normal",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Air Slash",
+                                "type": "flying"
+                            },
+                            {
+                                "name": "Fly",
+                                "type": "flying"
+                            }
+                        ],
+                        "ttw": "362s",
+                        "diff": "+15%"
+                    },
+                    {
+                        "name": "Quaquaval",
+                        "types": [
+                            "water",
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Water Gun",
+                                "type": "water"
+                            },
+                            {
+                                "name": "Hydro Cannon",
+                                "type": "water",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "363s",
+                        "diff": "+15%"
+                    },
+                    {
+                        "name": "Garchomp",
+                        "types": [
+                            "dragon",
+                            "ground"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Mud Shot",
+                                "type": "ground"
+                            },
+                            {
+                                "name": "Earth Power",
+                                "type": "ground",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "366s",
+                        "diff": "+16%"
+                    },
+                    {
+                        "name": "Swampert",
+                        "types": [
+                            "water",
+                            "ground"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Mud Shot",
+                                "type": "ground"
+                            },
+                            {
+                                "name": "Hydro Cannon",
+                                "type": "water",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "367s",
+                        "diff": "+16%"
+                    }
+                ]
+            },
+            {
+                "id": "necrozma",
+                "name": "Necrozma",
+                "themeClass": "psychic-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/800.png",
+                "imageAlt": "Official artwork of Necrozma",
+                "subtitle": "5★ Raid • June 17 to June 23",
+                "types": [
+                    "psychic"
+                ],
+                "weaknesses": "Bug, Ghost, Dark",
+                "difficultyLabel": "Focus",
+                "difficulty": "Focus on high-level Bug, Ghost and Dark attackers",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2675,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 3344,
+                        "label": "Level 25 weather boost"
+                    }
+                },
+                "bestCounters": [
+                    {
+                        "name": "Necrozma - Dawn Wings",
+                        "types": [
+                            "psychic",
+                            "ghost"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Shadow Claw",
+                                "type": "ghost"
+                            },
+                            {
+                                "name": "Moongeist Beam",
+                                "type": "ghost",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "458s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Mega Absol",
+                        "types": [
+                            "dark"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Snarl",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Brutal Swing",
+                                "type": "dark",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "493s",
+                        "diff": "+8%"
+                    },
+                    {
+                        "name": "Shadow Darkrai",
+                        "types": [
+                            "dark"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Snarl",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Shadow Ball",
+                                "type": "ghost"
+                            }
+                        ],
+                        "ttw": "513s",
+                        "diff": "+12%"
+                    },
+                    {
+                        "name": "Shadow Hydreigon",
+                        "types": [
+                            "dark",
+                            "dragon"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Bite",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Brutal Swing",
+                                "type": "dark",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "516s",
+                        "diff": "+12%"
+                    },
+                    {
+                        "name": "Shadow Tyranitar",
+                        "types": [
+                            "rock",
+                            "dark"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Bite",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Brutal Swing",
+                                "type": "dark",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "521s",
+                        "diff": "+14%"
+                    },
+                    {
+                        "name": "Shadow Absol",
+                        "types": [
+                            "dark"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Snarl",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Brutal Swing",
+                                "type": "dark",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "538s",
+                        "diff": "+17%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Hydreigon",
+                        "types": [
+                            "dark",
+                            "dragon"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Bite",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Brutal Swing",
+                                "type": "dark",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "610s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Tyranitar",
+                        "types": [
+                            "rock",
+                            "dark"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Bite",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Brutal Swing",
+                                "type": "dark",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "611s",
+                        "diff": "+0%"
+                    },
+                    {
+                        "name": "Absol",
+                        "types": [
+                            "dark"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Snarl",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Brutal Swing",
+                                "type": "dark",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "614s",
+                        "diff": "+1%"
+                    },
+                    {
+                        "name": "Chandelure",
+                        "types": [
+                            "ghost",
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Hex",
+                                "type": "ghost"
+                            },
+                            {
+                                "name": "Shadow Ball",
+                                "type": "ghost"
+                            }
+                        ],
+                        "ttw": "635s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Dragapult",
+                        "types": [
+                            "dragon",
+                            "ghost"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Astonish",
+                                "type": "ghost"
+                            },
+                            {
+                                "name": "Shadow Ball",
+                                "type": "ghost"
+                            }
+                        ],
+                        "ttw": "653s",
+                        "diff": "+7%"
+                    },
+                    {
+                        "name": "Zoroark",
+                        "types": [
+                            "dark"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Snarl",
+                                "type": "dark"
+                            },
+                            {
+                                "name": "Foul Play",
+                                "type": "dark"
+                            }
+                        ],
+                        "ttw": "655s",
+                        "diff": "+7%"
+                    }
+                ]
+            },
+            {
+                "id": "mega-scizor",
+                "name": "Mega Scizor",
+                "themeClass": "bug-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10046.png",
+                "imageAlt": "Official artwork of Mega Scizor",
+                "subtitle": "Mega Raid • June 17 to June 24",
+                "types": [
+                    "bug",
+                    "steel"
+                ],
+                "weaknesses": "Fire, Flying, Rock, Fighting, Ground",
+                "difficultyLabel": "Focus",
+                "difficulty": "Use Fire, Flying and Rock attackers for consistent raid damage",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1714,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2143,
+                        "label": "Level 25 weather boost"
+                    }
+                },
+                "bestCounters": [
+                    {
+                        "name": "Mega Blaziken",
+                        "types": [
+                            "fire",
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Blast Burn",
+                                "type": "fire",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "214s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Blacephalon",
+                        "types": [
+                            "fire",
+                            "ghost"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Incinerate",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Mind Blown",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "225s",
+                        "diff": "+5%"
+                    },
+                    {
+                        "name": "Shadow Heatran",
+                        "types": [
+                            "fire",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Magma Storm",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "239s",
+                        "diff": "+12%"
+                    },
+                    {
+                        "name": "Shadow Blaziken",
+                        "types": [
+                            "fire",
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Blast Burn",
+                                "type": "fire",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "241s",
+                        "diff": "+13%"
+                    },
+                    {
+                        "name": "Shadow Darmanitan",
+                        "types": [
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Fang",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Overheat",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "245s",
+                        "diff": "+15%"
+                    },
+                    {
+                        "name": "Shadow Moltres",
+                        "types": [
+                            "fire",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Overheat",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "249s",
+                        "diff": "+17%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Cinderace",
+                        "types": [
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Pyro Ball",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "281s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Volcarona",
+                        "types": [
+                            "bug",
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Overheat",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "285s",
+                        "diff": "+1%"
+                    },
+                    {
+                        "name": "Blaziken",
+                        "types": [
+                            "fire",
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Blast Burn",
+                                "type": "fire",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "287s",
+                        "diff": "+2%"
+                    },
+                    {
+                        "name": "Chandelure",
+                        "types": [
+                            "ghost",
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Overheat",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "293s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Darmanitan",
+                        "types": [
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Fang",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Overheat",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "298s",
+                        "diff": "+6%"
+                    },
+                    {
+                        "name": "Emboar",
+                        "types": [
+                            "fire",
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Ember",
+                                "type": null
+                            },
+                            {
+                                "name": "Blast Burn",
+                                "type": "fire",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "304s",
+                        "diff": "+8%"
+                    }
+                ]
+            },
+            {
+                "id": "kartana",
+                "name": "Kartana",
+                "themeClass": "grass-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/798.png",
+                "imageAlt": "Official artwork of Kartana",
+                "subtitle": "5★ Raid • June 24 to June 30",
+                "types": [
+                    "grass",
+                    "steel"
+                ],
+                "weaknesses": "Fire, Ice, Poison, Flying, Bug, Fighting, Ground",
+                "difficultyLabel": "Focus",
+                "difficulty": "Fire, Ice and Poison-type teams are especially effective here",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 2101,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2626,
+                        "label": "Level 25 weather boost"
+                    }
+                },
+                "bestCounters": [
+                    {
+                        "name": "Mega Charizard Y",
+                        "types": [
+                            "fire",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Blast Burn",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "274s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Blacephalon",
+                        "types": [
+                            "fire",
+                            "ghost"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Incinerate",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Mind Blown",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "289s",
+                        "diff": "+5%"
+                    },
+                    {
+                        "name": "Shadow Heatran",
+                        "types": [
+                            "fire",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Magma Storm",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "298s",
+                        "diff": "+9%"
+                    },
+                    {
+                        "name": "Reshiram",
+                        "types": [
+                            "dragon",
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Fang",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Fusion Flare",
+                                "type": null,
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "312s",
+                        "diff": "+14%"
+                    },
+                    {
+                        "name": "Shadow Moltres",
+                        "types": [
+                            "fire",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Overheat",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "316s",
+                        "diff": "+15%"
+                    },
+                    {
+                        "name": "Shadow Darmanitan",
+                        "types": [
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Fang",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Overheat",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "317s",
+                        "diff": "+16%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Cinderace",
+                        "types": [
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Pyro Ball",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "355s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Volcarona",
+                        "types": [
+                            "bug",
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Overheat",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "369s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Chandelure",
+                        "types": [
+                            "ghost",
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Overheat",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "371s",
+                        "diff": "+5%"
+                    },
+                    {
+                        "name": "Darmanitan",
+                        "types": [
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Fang",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Overheat",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "372s",
+                        "diff": "+5%"
+                    },
+                    {
+                        "name": "Blaziken",
+                        "types": [
+                            "fire",
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Blast Burn",
+                                "type": "fire",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "377s",
+                        "diff": "+6%"
+                    },
+                    {
+                        "name": "Delphox",
+                        "types": [
+                            "fire",
+                            "psychic"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Blast Burn",
+                                "type": "fire",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "380s",
+                        "diff": "+7%"
+                    }
+                ]
+            },
+            {
+                "id": "celesteela",
+                "name": "Celesteela",
+                "themeClass": "steel-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/797.png",
+                "imageAlt": "Official artwork of Celesteela",
+                "subtitle": "5★ Raid • June 24 to June 30",
+                "types": [
+                    "steel",
+                    "flying"
+                ],
+                "weaknesses": "Fire, Fighting, Ground, Electric, Ice, Rock",
+                "difficultyLabel": "Focus",
+                "difficulty": "Fire, Fighting and Ground Pokémon perform best in this raid",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1772,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 2216,
+                        "label": "Level 25 weather boost"
+                    }
+                },
+                "bestCounters": [
+                    {
+                        "name": "Mega Blaziken",
+                        "types": [
+                            "fire",
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Blast Burn",
+                                "type": "fire",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "464s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Blacephalon",
+                        "types": [
+                            "fire",
+                            "ghost"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Incinerate",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Mind Blown",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "494s",
+                        "diff": "+7%"
+                    },
+                    {
+                        "name": "Shadow Heatran",
+                        "types": [
+                            "fire",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Magma Storm",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "518s",
+                        "diff": "+12%"
+                    },
+                    {
+                        "name": "Regieleki",
+                        "types": [
+                            "electric"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Thunder Shock",
+                                "type": "electric"
+                            },
+                            {
+                                "name": "Thunder Cage",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "521s",
+                        "diff": "+12%"
+                    },
+                    {
+                        "name": "Shadow Chandelure",
+                        "types": [
+                            "ghost",
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Overheat",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "529s",
+                        "diff": "+14%"
+                    },
+                    {
+                        "name": "Thundurus Therian",
+                        "types": [
+                            "electric",
+                            "flying"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Volt Switch",
+                                "type": "electric"
+                            },
+                            {
+                                "name": "Wildbolt Storm",
+                                "type": null
+                            }
+                        ],
+                        "ttw": "539s",
+                        "diff": "+16%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Cinderace",
+                        "types": [
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Pyro Ball",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "601s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Blaziken",
+                        "types": [
+                            "fire",
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Blast Burn",
+                                "type": "fire",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "640s",
+                        "diff": "+6%"
+                    },
+                    {
+                        "name": "Volcarona",
+                        "types": [
+                            "bug",
+                            "fire"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Overheat",
+                                "type": "fire"
+                            }
+                        ],
+                        "ttw": "641s",
+                        "diff": "+7%"
+                    },
+                    {
+                        "name": "Electivire",
+                        "types": [
+                            "electric"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Thunder Shock",
+                                "type": "electric"
+                            },
+                            {
+                                "name": "Wild Charge",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "645s",
+                        "diff": "+7%"
+                    },
+                    {
+                        "name": "Emboar",
+                        "types": [
+                            "fire",
+                            "fighting"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Ember",
+                                "type": null
+                            },
+                            {
+                                "name": "Blast Burn",
+                                "type": "fire",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "647s",
+                        "diff": "+8%"
+                    },
+                    {
+                        "name": "Delphox",
+                        "types": [
+                            "fire",
+                            "psychic"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Fire Spin",
+                                "type": "fire"
+                            },
+                            {
+                                "name": "Blast Burn",
+                                "type": "fire",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "649s",
+                        "diff": "+8%"
+                    }
+                ]
+            },
+            {
+                "id": "mega-pidgeot",
+                "name": "Mega Pidgeot",
+                "themeClass": "normal-theme",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10073.png",
+                "imageAlt": "Official artwork of Mega Pidgeot",
+                "subtitle": "Mega Raid • June 24 to July 1",
+                "types": [
+                    "normal",
+                    "flying"
+                ],
+                "weaknesses": "Fighting, Electric, Ice, Rock",
+                "difficultyLabel": "Focus",
+                "difficulty": "Fighting, Electric and Ice-type teams are especially effective here",
+                "catchCp": {
+                    "normal": {
+                        "level": 20,
+                        "max": 1216,
+                        "label": "Level 20"
+                    },
+                    "boosted": {
+                        "level": 25,
+                        "max": 1521,
+                        "label": "Level 25 weather boost"
+                    }
+                },
+                "bestCounters": [
+                    {
+                        "name": "White Kyurem",
+                        "types": [
+                            "dragon",
+                            "ice"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Ice Fang",
+                                "type": "ice"
+                            },
+                            {
+                                "name": "Ice Burn",
+                                "type": "ice",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "256s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Black Kyurem",
+                        "types": [
+                            "dragon",
+                            "ice"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Dragon Tail",
+                                "type": "dragon"
+                            },
+                            {
+                                "name": "Freeze Shock",
+                                "type": "ice",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "279s",
+                        "diff": "+9%"
+                    },
+                    {
+                        "name": "Shadow Rampardos",
+                        "types": [
+                            "rock"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Smack Down",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Rock Slide",
+                                "type": "rock"
+                            }
+                        ],
+                        "ttw": "282s",
+                        "diff": "+10%"
+                    },
+                    {
+                        "name": "Shadow Electivire",
+                        "types": [
+                            "electric"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Thunder Shock",
+                                "type": "electric"
+                            },
+                            {
+                                "name": "Wild Charge",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "285s",
+                        "diff": "+11%"
+                    },
+                    {
+                        "name": "Regieleki",
+                        "types": [
+                            "electric"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Thunder Shock",
+                                "type": "electric"
+                            },
+                            {
+                                "name": "Thunder Cage",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "287s",
+                        "diff": "+12%"
+                    },
+                    {
+                        "name": "Mega Mewtwo Y",
+                        "types": [
+                            "psychic"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Psycho Cut",
+                                "type": "psychic"
+                            },
+                            {
+                                "name": "Thunderbolt",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "289s",
+                        "diff": "+13%"
+                    }
+                ],
+                "budgetCounters": [
+                    {
+                        "name": "Rampardos",
+                        "types": [
+                            "rock"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Smack Down",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Rock Slide",
+                                "type": "rock"
+                            }
+                        ],
+                        "ttw": "331s",
+                        "diff": "Best"
+                    },
+                    {
+                        "name": "Glimmora",
+                        "types": [
+                            "rock",
+                            "poison"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Rock Throw",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Meteor Beam",
+                                "type": "rock"
+                            }
+                        ],
+                        "ttw": "338s",
+                        "diff": "+2%"
+                    },
+                    {
+                        "name": "Electivire",
+                        "types": [
+                            "electric"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Thunder Shock",
+                                "type": "electric"
+                            },
+                            {
+                                "name": "Wild Charge",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "343s",
+                        "diff": "+4%"
+                    },
+                    {
+                        "name": "Rhyperior",
+                        "types": [
+                            "ground",
+                            "rock"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Smack Down",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Rock Wrecker",
+                                "type": "rock",
+                                "legacy": true
+                            }
+                        ],
+                        "ttw": "356s",
+                        "diff": "+8%"
+                    },
+                    {
+                        "name": "Tyrantrum",
+                        "types": [
+                            "rock",
+                            "dragon"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Rock Throw",
+                                "type": "rock"
+                            },
+                            {
+                                "name": "Meteor Beam",
+                                "type": "rock"
+                            }
+                        ],
+                        "ttw": "365s",
+                        "diff": "+10%"
+                    },
+                    {
+                        "name": "Magnezone",
+                        "types": [
+                            "electric",
+                            "steel"
+                        ],
+                        "moves": [
+                            {
+                                "name": "Spark",
+                                "type": "electric"
+                            },
+                            {
+                                "name": "Wild Charge",
+                                "type": "electric"
+                            }
+                        ],
+                        "ttw": "366s",
+                        "diff": "+11%"
                     }
                 ]
             }
