@@ -63,44 +63,55 @@ function capitalize(value) {
     return value.charAt(0).toUpperCase() + value.slice(1);
 }
 
-function joinTypes(types) {
-    if (types.length === 1) return types[0];
-    if (types.length === 2) return `${types[0]} and ${types[1]}`;
-    return `${types[0]}, ${types[1]} and ${types[2]}`;
-}
-
-function hashString(value) {
-    return [...value].reduce((sum, char) => sum + char.charCodeAt(0), 0);
-}
-
-function buildDifficulty(name, weaknesses) {
-    const top = weaknesses.slice(0, 3).map(capitalize);
-    const joined = joinTypes(top);
-
-    const templates = [
-        `Use ${joined} attackers for consistent raid damage`,
-        `${joined} Pokémon perform best in this raid`,
-        `Strong ${joined} counters are recommended`,
-        `Focus on high-level ${joined} attackers`,
-        `${joined}-type teams are especially effective here`,
-        `Prepare powerful ${joined} counters for this battle`
-    ];
-
-    return templates[hashString(name) % templates.length];
-}
-
-function getWeaknesses(types) {
-    const score = {};
+function getWeaknessProfile(types) {
+    const weaknessScores = {};
 
     types.forEach((type) => {
         TYPE_WEAKNESSES[type].forEach((weakness) => {
-            score[weakness] = (score[weakness] || 0) + 1;
+            weaknessScores[weakness] = (weaknessScores[weakness] || 0) + 1;
         });
     });
 
-    return Object.entries(score)
+    const weaknesses = Object.entries(weaknessScores)
+        .filter(([, score]) => score > 0)
         .sort((a, b) => b[1] - a[1])
         .map(([type]) => type);
+
+    const doubleWeaknesses = Object.entries(weaknessScores)
+        .filter(([, score]) => score >= 2)
+        .sort((a, b) => b[1] - a[1])
+        .map(([type]) => type);
+
+    return {
+        weaknesses,
+        doubleWeaknesses
+    };
+}
+
+function formatTypeList(types) {
+    const formatted = types.map(capitalize);
+
+    if (formatted.length === 1) {
+        return formatted[0];
+    }
+
+    if (formatted.length === 2) {
+        return `${formatted[0]} and ${formatted[1]}`;
+    }
+
+    return `${formatted.slice(0, -1).join(", ")} and ${formatted.at(-1)}`;
+}
+
+function buildDifficulty({ weaknesses, doubleWeaknesses }) {
+    if (doubleWeaknesses.length > 0) {
+        return `${capitalize(doubleWeaknesses[0])} attackers dominate due to double weakness`;
+    }
+
+    if (weaknesses.length === 1) {
+        return `${capitalize(weaknesses[0])} attackers are the only strong option`;
+    }
+
+    return `${formatTypeList(weaknesses)} attackers perform best`;
 }
 
 function getThemeClass(types) {
@@ -240,7 +251,8 @@ async function generateTargetAndAppearance(boss) {
     const id = toId(boss.name);
     const key = toKey(boss.name);
     const types = pokeData.types.map((entry) => entry.type.name);
-    const weaknesses = getWeaknesses(types);
+    const weaknessProfile = getWeaknessProfile(types);
+    const weaknesses = weaknessProfile.weaknesses;
     const code = buildPokebattlerCode(boss.name);
     const raidLevel = buildRaidLevel(leekData.tier);
     const dateRange = buildDateRangeFromSubtitleDates(leekData.dates);
@@ -256,7 +268,7 @@ async function generateTargetAndAppearance(boss) {
     types: ${JSON.stringify(types)},
     weaknesses: "${weaknesses.map(capitalize).join(", ")}",
     difficultyLabel: "Focus",
-    difficulty: "${buildDifficulty(boss.name, weaknesses)}",
+    difficulty: "${buildDifficulty(weaknessProfile)}",
     bestUrl: "${buildPokebattlerUrl({
         code,
         raidLevel,

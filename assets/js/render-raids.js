@@ -10,6 +10,80 @@ function formatType(type) {
   return type.charAt(0).toUpperCase() + type.slice(1);
 }
 
+function isMegaRaid(boss) {
+  return (
+    boss.name?.startsWith("Mega ") ||
+    boss.tier?.includes("Mega") ||
+    boss.subtitle?.includes("Mega Raid")
+  );
+}
+
+const TYPE_WEAKNESSES = {
+  normal: ["fighting"],
+  fire: ["water", "ground", "rock"],
+  water: ["grass", "electric"],
+  electric: ["ground"],
+  grass: ["fire", "ice", "poison", "flying", "bug"],
+  ice: ["fire", "fighting", "rock", "steel"],
+  fighting: ["flying", "psychic", "fairy"],
+  poison: ["ground", "psychic"],
+  ground: ["water", "grass", "ice"],
+  flying: ["electric", "ice", "rock"],
+  psychic: ["bug", "ghost", "dark"],
+  bug: ["fire", "flying", "rock"],
+  rock: ["water", "grass", "fighting", "ground", "steel"],
+  ghost: ["ghost", "dark"],
+  dragon: ["ice", "dragon", "fairy"],
+  dark: ["fighting", "bug", "fairy"],
+  steel: ["fire", "fighting", "ground"],
+  fairy: ["poison", "steel"]
+};
+
+function getWeaknessProfile(types = []) {
+  const weaknessScores = {};
+
+  types.forEach((type) => {
+    TYPE_WEAKNESSES[type]?.forEach((weakness) => {
+      weaknessScores[weakness] = (weaknessScores[weakness] || 0) + 1;
+    });
+  });
+
+  const weaknesses = Object.entries(weaknessScores)
+    .filter(([, score]) => score > 0)
+    .sort((a, b) => b[1] - a[1])
+    .map(([type]) => type);
+
+  const doubleWeaknesses = Object.entries(weaknessScores)
+    .filter(([, score]) => score >= 2)
+    .sort((a, b) => b[1] - a[1])
+    .map(([type]) => type);
+
+  return { weaknesses, doubleWeaknesses };
+}
+
+function formatTypeList(types) {
+  const formatted = types.map(formatType);
+
+  if (formatted.length === 1) return formatted[0];
+  if (formatted.length === 2) return `${formatted[0]} and ${formatted[1]}`;
+
+  return `${formatted.slice(0, -1).join(", ")} and ${formatted.at(-1)}`;
+}
+
+function buildFocusTextFromTypes(types = []) {
+  const { weaknesses, doubleWeaknesses } = getWeaknessProfile(types);
+
+  if (doubleWeaknesses.length > 0) {
+    return `${formatType(doubleWeaknesses[0])} attackers dominate due to double weakness`;
+  }
+
+  if (weaknesses.length === 1) {
+    return `${formatType(weaknesses[0])} attackers are the only strong option`;
+  }
+
+  return `${formatTypeList(weaknesses)} attackers perform best`;
+}
+
 function slugify(name) {
   return name
     .toLowerCase()
@@ -276,11 +350,11 @@ function renderSummaryCards() {
       </div>
 
       <p class="dialgadex-line">
-        ${raid.dexRank}
+        ${raid.badge} Raid
       </p>
 
       <p class="meta-copy">
-        ${raid.description}
+        ${buildFocusTextFromTypes(raid.types)}
       </p>
     `;
 
@@ -356,8 +430,8 @@ function renderRaidCards(monthId) {
         .join("")}
         </div>
 
-        <p class="raid-dex-rank">${raid.subtitle ?? raid.dexRank}</p>
-        <p class="raid-meta-text">${raid.description}</p>
+        <p class="raid-dex-rank">${raid.badge} Raid</p>
+        <p class="raid-meta-text">${buildFocusTextFromTypes(raid.types)}</p>
       </div>
     `;
 
@@ -380,8 +454,8 @@ function buildCardsFromSchedule(month) {
       name: boss.name,
       image: boss.image,
       imageAlt: boss.imageAlt,
-      badge: boss.tier?.includes("Mega") ? "Mega" : "5★",
-      badgeClass: boss.tier?.includes("Mega") ? "mega-badge" : "legendary-badge",
+      badge: isMegaRaid(boss) ? "Mega" : "5★",
+      badgeClass: isMegaRaid(boss) ? "mega-badge" : "legendary-badge",
       types: boss.types,
       dexRank: boss.difficultyLabel,
       description: boss.difficulty,

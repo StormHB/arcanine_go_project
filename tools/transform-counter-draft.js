@@ -182,6 +182,84 @@ function formatDiff(value, bestValue) {
     return `+${diff}%`;
 }
 
+const typeWeaknesses = {
+    normal: ["fighting"],
+    fire: ["water", "ground", "rock"],
+    water: ["grass", "electric"],
+    electric: ["ground"],
+    grass: ["fire", "ice", "poison", "flying", "bug"],
+    ice: ["fire", "fighting", "rock", "steel"],
+    fighting: ["flying", "psychic", "fairy"],
+    poison: ["ground", "psychic"],
+    ground: ["water", "grass", "ice"],
+    flying: ["electric", "ice", "rock"],
+    psychic: ["bug", "ghost", "dark"],
+    bug: ["fire", "flying", "rock"],
+    rock: ["water", "grass", "fighting", "ground", "steel"],
+    ghost: ["ghost", "dark"],
+    dragon: ["ice", "dragon", "fairy"],
+    dark: ["fighting", "bug", "fairy"],
+    steel: ["fire", "fighting", "ground"],
+    fairy: ["poison", "steel"]
+};
+
+function capitalize(value) {
+    return value.charAt(0).toUpperCase() + value.slice(1);
+}
+
+function getWeaknessProfile(types) {
+    const weaknessScores = {};
+
+    types.forEach((type) => {
+        typeWeaknesses[type].forEach((weakness) => {
+            weaknessScores[weakness] = (weaknessScores[weakness] || 0) + 1;
+        });
+    });
+
+    const weaknesses = Object.entries(weaknessScores)
+        .filter(([, score]) => score > 0)
+        .sort((a, b) => b[1] - a[1])
+        .map(([type]) => type);
+
+    const doubleWeaknesses = Object.entries(weaknessScores)
+        .filter(([, score]) => score >= 2)
+        .sort((a, b) => b[1] - a[1])
+        .map(([type]) => type);
+
+    return {
+        weaknesses,
+        doubleWeaknesses
+    };
+}
+
+function formatTypeList(types) {
+    const formatted = types.map(capitalize);
+
+    if (formatted.length === 1) {
+        return formatted[0];
+    }
+
+    if (formatted.length === 2) {
+        return `${formatted[0]} and ${formatted[1]}`;
+    }
+
+    return `${formatted.slice(0, -1).join(", ")} and ${formatted.at(-1)}`;
+}
+
+function buildDifficultyFromTypes(types) {
+    const { weaknesses, doubleWeaknesses } = getWeaknessProfile(types);
+
+    if (doubleWeaknesses.length > 0) {
+        return `${capitalize(doubleWeaknesses[0])} attackers dominate due to double weakness`;
+    }
+
+    if (weaknesses.length === 1) {
+        return `${capitalize(weaknesses[0])} attackers are the only strong option`;
+    }
+
+    return `${formatTypeList(weaknesses)} attackers perform best`;
+}
+
 function transformDraft(draft) {
     const sortedBest = [...draft.bestCountersRaw].sort(
         (a, b) => a.timeToWin - b.timeToWin
@@ -207,7 +285,7 @@ function transformDraft(draft) {
         types: draft.meta.types,
         weaknesses: draft.meta.weaknesses,
         difficultyLabel: draft.meta.difficultyLabel,
-        difficulty: draft.meta.difficulty,
+        difficulty: buildDifficultyFromTypes(draft.meta.types),
         dateRange: draft.meta.dateRange,
         catchCp: getCatchCpForBoss(draft),
 

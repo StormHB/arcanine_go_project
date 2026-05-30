@@ -731,7 +731,7 @@ reshiram: {
     types: ["dragon","fire"],
     weaknesses: "Ice, Dragon, Fairy, Water, Ground, Rock",
     difficultyLabel: "Focus",
-    difficulty: "Prepare powerful Ice, Dragon and Fairy counters for this battle",
+    difficulty: "Ice, Dragon, Fairy, Water, Ground and Rock attackers perform best",
     bestUrl: "https://www.pokebattler.com/raids/defenders/RESHIRAM/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
     budgetUrl: "https://www.pokebattler.com/raids/defenders/RESHIRAM/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
 },
@@ -747,7 +747,7 @@ zekrom: {
     types: ["dragon","electric"],
     weaknesses: "Ice, Dragon, Fairy, Ground",
     difficultyLabel: "Focus",
-    difficulty: "Strong Ice, Dragon and Fairy counters are recommended",
+    difficulty: "Ice, Dragon, Fairy and Ground attackers perform best",
     bestUrl: "https://www.pokebattler.com/raids/defenders/ZEKROM/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
     budgetUrl: "https://www.pokebattler.com/raids/defenders/ZEKROM/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
 },
@@ -763,7 +763,7 @@ necrozma: {
     types: ["psychic"],
     weaknesses: "Bug, Ghost, Dark",
     difficultyLabel: "Focus",
-    difficulty: "Focus on high-level Bug, Ghost and Dark attackers",
+    difficulty: "Bug, Ghost and Dark attackers perform best",
     bestUrl: "https://www.pokebattler.com/raids/defenders/NECROZMA/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
     budgetUrl: "https://www.pokebattler.com/raids/defenders/NECROZMA/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
 },
@@ -779,7 +779,7 @@ kartana: {
     types: ["grass","steel"],
     weaknesses: "Fire, Ice, Poison, Flying, Bug, Fighting, Ground",
     difficultyLabel: "Focus",
-    difficulty: "Fire, Ice and Poison-type teams are especially effective here",
+    difficulty: "Fire attackers dominate due to double weakness",
     bestUrl: "https://www.pokebattler.com/raids/defenders/KARTANA/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
     budgetUrl: "https://www.pokebattler.com/raids/defenders/KARTANA/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
 },
@@ -795,7 +795,7 @@ celesteela: {
     types: ["steel","flying"],
     weaknesses: "Fire, Fighting, Ground, Electric, Ice, Rock",
     difficultyLabel: "Focus",
-    difficulty: "Fire, Fighting and Ground Pokémon perform best in this raid",
+    difficulty: "Fire, Fighting, Ground, Electric, Ice and Rock attackers perform best",
     bestUrl: "https://www.pokebattler.com/raids/defenders/CELESTEELA/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
     budgetUrl: "https://www.pokebattler.com/raids/defenders/CELESTEELA/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
 },
@@ -811,7 +811,7 @@ megaAudino: {
     types: ["normal","fairy"],
     weaknesses: "Fighting, Poison, Steel",
     difficultyLabel: "Focus",
-    difficulty: "Fighting, Poison and Steel-type teams are especially effective here",
+    difficulty: "Fighting, Poison and Steel attackers perform best",
     bestUrl: "https://www.pokebattler.com/raids/defenders/AUDINO_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
     budgetUrl: "https://www.pokebattler.com/raids/defenders/AUDINO_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
 },
@@ -827,7 +827,7 @@ megaBlaziken: {
     types: ["fire","fighting"],
     weaknesses: "Water, Ground, Rock, Flying, Psychic, Fairy",
     difficultyLabel: "Focus",
-    difficulty: "Strong Water, Ground and Rock counters are recommended",
+    difficulty: "Water, Ground, Rock, Flying, Psychic and Fairy attackers perform best",
     bestUrl: "https://www.pokebattler.com/raids/defenders/BLAZIKEN_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
     budgetUrl: "https://www.pokebattler.com/raids/defenders/BLAZIKEN_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
 },
@@ -843,7 +843,7 @@ megaScizor: {
     types: ["bug","steel"],
     weaknesses: "Fire, Flying, Rock, Fighting, Ground",
     difficultyLabel: "Focus",
-    difficulty: "Use Fire, Flying and Rock attackers for consistent raid damage",
+    difficulty: "Fire attackers dominate due to double weakness",
     bestUrl: "https://www.pokebattler.com/raids/defenders/SCIZOR_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
     budgetUrl: "https://www.pokebattler.com/raids/defenders/SCIZOR_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
 },
@@ -859,7 +859,7 @@ megaPidgeot: {
     types: ["normal","flying"],
     weaknesses: "Fighting, Electric, Ice, Rock",
     difficultyLabel: "Focus",
-    difficulty: "Fighting, Electric and Ice-type teams are especially effective here",
+    difficulty: "Fighting, Electric, Ice and Rock attackers perform best",
     bestUrl: "https://www.pokebattler.com/raids/defenders/PIDGEOT_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=true&includeShadow=true&includeMegas=true&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1",
     budgetUrl: "https://www.pokebattler.com/raids/defenders/PIDGEOT_MEGA/levels/RAID_LEVEL_MEGA/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=ESTIMATOR&weatherCondition=NO_WEATHER&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&includeLegendary=false&includeShadow=false&includeMegas=false&attackerTypes=POKEMON_TYPE_ALL&primalAssistants=&numParty=1"
 }

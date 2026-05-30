@@ -17,7 +17,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Water, Rock, Ground, Ghost, Dark",
                 "difficultyLabel": "Standard",
-                "difficulty": "Dark and Ghost attackers perform best against Blacephalon",
+                "difficulty": "Water, Ground, Rock, Ghost and Dark attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -803,7 +803,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Water, Ground, Rock, Flying, Psychic, Fairy",
                 "difficultyLabel": "Focus",
-                "difficulty": "Strong Water, Ground and Rock counters are recommended",
+                "difficulty": "Water, Ground, Rock, Flying, Psychic and Fairy attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -1069,7 +1069,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ice, Rock",
                 "difficultyLabel": "Standard",
-                "difficulty": "Ice and Rock attackers perform consistently well",
+                "difficulty": "Ground, Electric, Ice and Rock attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -1587,7 +1587,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Electric, Ice, Rock",
                 "difficultyLabel": "Standard",
-                "difficulty": "Electric, Ice, and Rock attackers all perform well",
+                "difficulty": "Electric, Ice and Rock attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -1844,7 +1844,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ground, Ice, Dragon, Fairy",
                 "difficultyLabel": "Standard",
-                "difficulty": "Ground, Ice, Dragon, and Fairy attackers all perform well",
+                "difficulty": "Ground, Ice, Dragon and Fairy attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -2112,7 +2112,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Electric, Ice, Rock",
                 "difficultyLabel": "Standard",
-                "difficulty": "Electric, Ice, and Rock attackers all perform well",
+                "difficulty": "Electric, Ice and Rock attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -2369,7 +2369,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ground, Ice, Dragon, Fairy",
                 "difficultyLabel": "Standard",
-                "difficulty": "Ground, Ice, Dragon, and Fairy attackers all perform well",
+                "difficulty": "Ground, Ice, Dragon and Fairy attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -2631,7 +2631,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fighting, Ground",
                 "difficultyLabel": "Standard",
-                "difficulty": "Fighting and Ground attackers perform consistently well",
+                "difficulty": "Fire, Fighting, Ground, Ice, Dragon and Fairy attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -2895,7 +2895,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Dragon, Fairy",
                 "difficultyLabel": "Standard",
-                "difficulty": "Dragon and Fairy attackers perform consistently well",
+                "difficulty": "Grass, Electric, Ice, Dragon and Fairy attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -3155,7 +3155,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fighting, Electric, Ice, Rock",
                 "difficultyLabel": "Focus",
-                "difficulty": "Fighting, Electric and Ice-type teams are especially effective here",
+                "difficulty": "Fighting, Electric, Ice and Rock attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -3411,7 +3411,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fire, Ground, Ghost, Dark",
                 "difficultyLabel": "Standard",
-                "difficulty": "Fire, Ground, Ghost, and Dark attackers all perform well",
+                "difficulty": "Bug, Ghost, Dark, Fire, Fighting and Ground attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -3673,7 +3673,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fairy",
                 "difficultyLabel": "Focus",
-                "difficulty": "Fairy attackers are the only super-effective option",
+                "difficulty": "Fighting, Bug, Fairy, Ghost and Dark attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -3931,7 +3931,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ghost, Dark",
                 "difficultyLabel": "Focus",
-                "difficulty": "Ghost and Dark attackers dominate due to double weakness",
+                "difficulty": "Ghost attackers dominate due to double weakness",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -4194,7 +4194,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fighting, Fairy, Bug",
                 "difficultyLabel": "Easy",
-                "difficulty": "Fairy, Fighting, and Bug attackers all perform well",
+                "difficulty": "Fighting, Bug and Fairy attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -4462,7 +4462,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ghost, Dark",
                 "difficultyLabel": "Focus",
-                "difficulty": "Ghost and Dark attackers dominate due to double weakness",
+                "difficulty": "Ghost attackers dominate due to double weakness",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -4725,7 +4725,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fighting, Fairy, Bug",
                 "difficultyLabel": "Easy",
-                "difficulty": "Fairy, Fighting, and Bug attackers all perform well",
+                "difficulty": "Fighting, Bug and Fairy attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -5247,7 +5247,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ice, Rock",
                 "difficultyLabel": "Standard",
-                "difficulty": "Ice and Rock attackers perform consistently well",
+                "difficulty": "Ground, Electric, Ice and Rock attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -6023,7 +6023,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Poison, Steel",
                 "difficultyLabel": "Standard",
-                "difficulty": "Poison and Steel attackers perform consistently well",
+                "difficulty": "Poison and Steel attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -6289,7 +6289,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fire, Water, Fighting, Ground",
                 "difficultyLabel": "Standard",
-                "difficulty": "Fire, Water, Fighting, and Ground attackers all perform well",
+                "difficulty": "Fire, Fighting, Ground, Water, Grass and Ice attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -6551,7 +6551,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Flying, Psychic, Fairy",
                 "difficultyLabel": "Standard",
-                "difficulty": "Flying, Psychic, and Fairy attackers all perform well",
+                "difficulty": "Flying, Psychic and Fairy attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -6813,7 +6813,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Electric, Grass, Bug, Ghost, Dark",
                 "difficultyLabel": "Standard",
-                "difficulty": "Electric, Grass, Ghost, and Dark attackers all perform well",
+                "difficulty": "Grass, Electric, Bug, Ghost and Dark attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -7075,7 +7075,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ground",
                 "difficultyLabel": "Focus",
-                "difficulty": "Ground attackers are the only super-effective option",
+                "difficulty": "Ground attackers are the only strong option",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -7339,7 +7339,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Water, Fighting, Ground, Rock",
                 "difficultyLabel": "Standard",
-                "difficulty": "Water, Fighting, Ground, and Rock attackers all perform well",
+                "difficulty": "Fighting, Bug, Fairy, Water, Ground and Rock attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -7606,7 +7606,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ice, Dragon, Fairy",
                 "difficultyLabel": "Standard",
-                "difficulty": "Ice, Dragon, and Fairy attackers all perform well",
+                "difficulty": "Ice, Dragon and Fairy attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -7867,7 +7867,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ground",
                 "difficultyLabel": "Focus",
-                "difficulty": "Ground attackers are the only super-effective option",
+                "difficulty": "Ground attackers are the only strong option",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -8129,7 +8129,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Grass, Electric",
                 "difficultyLabel": "Focus",
-                "difficulty": "Strong legendary raid, not built for solo play",
+                "difficulty": "Grass and Electric attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -8385,7 +8385,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Rock, Steel, Water, Electric, Ice",
                 "difficultyLabel": "Focus",
-                "difficulty": "Strong Steel, Water and Rock attackers",
+                "difficulty": "Water, Grass, Fighting, Ground, Steel, Electric, Ice and Rock attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -8652,7 +8652,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Water, Grass, Ice",
                 "difficultyLabel": "Focus",
-                "difficulty": "Legendary raid with strong offensive pressure",
+                "difficulty": "Water, Grass and Ice attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -8911,7 +8911,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Bug, Ghost, Dark",
                 "difficultyLabel": "Focus",
-                "difficulty": "Dark and Ghost attackers",
+                "difficulty": "Bug, Ghost and Dark attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -9173,7 +9173,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Poison, Ground",
                 "difficultyLabel": "Focus",
-                "difficulty": "Ground attackers are the most natural answer",
+                "difficulty": "Ground, Poison and Steel attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -9437,7 +9437,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fighting, Bug, Grass, Electric, Fairy",
                 "difficultyLabel": "Focus",
-                "difficulty": "Fighting attackers are especially strong",
+                "difficulty": "Grass, Electric, Fighting, Bug and Fairy attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -9698,7 +9698,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Poison, Ghost, Steel",
                 "difficultyLabel": "Focus",
-                "difficulty": "Steel and Ghost attackers work especially well",
+                "difficulty": "Bug, Ghost, Dark, Poison and Steel attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -9964,7 +9964,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ghost, Dark",
                 "difficultyLabel": "Focus",
-                "difficulty": "Dark attackers are very easy to build",
+                "difficulty": "Ghost and Dark attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -10232,7 +10232,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Poison, Ghost, Steel",
                 "difficultyLabel": "Focus",
-                "difficulty": "Steel and Ghost attackers work especially well",
+                "difficulty": "Bug, Ghost, Dark, Poison and Steel attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -10498,7 +10498,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ghost, Dark",
                 "difficultyLabel": "Focus",
-                "difficulty": "Dark attackers are very easy to build",
+                "difficulty": "Ghost and Dark attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -11024,7 +11024,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Water, Ground",
                 "difficultyLabel": "Focus",
-                "difficulty": "Use Water attackers due to double weakness.",
+                "difficulty": "Water attackers dominate due to double weakness",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -11820,7 +11820,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ground",
                 "difficultyLabel": "Standard",
-                "difficulty": "Ground attackers completely dominate due to single weakness",
+                "difficulty": "Ground attackers are the only strong option",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -12084,7 +12084,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fighting, Rock, Steel, Fire",
                 "difficultyLabel": "Focus",
-                "difficulty": "Steel and Fighting attackers perform best overall",
+                "difficulty": "Fire, Fighting, Rock and Steel attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -12607,7 +12607,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ice, Poison, Steel, Fairy",
                 "difficultyLabel": "Mega",
-                "difficulty": "Steel and Poison attackers are the safest general picks",
+                "difficulty": "Ice, Dragon, Fairy, Poison and Steel attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -12869,7 +12869,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Electric, Grass, Poison",
                 "difficultyLabel": "Standard",
-                "difficulty": "Electric, Grass, and Poison attackers all perform well",
+                "difficulty": "Grass, Electric, Poison and Steel attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -13126,7 +13126,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Flying, Ghost, Fairy",
                 "difficultyLabel": "Mega",
-                "difficulty": "Flying and Ghost attackers are strong",
+                "difficulty": "Flying, Psychic, Fairy, Bug, Ghost and Dark attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -13400,7 +13400,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Electric, Grass, Poison",
                 "difficultyLabel": "Standard",
-                "difficulty": "Electric, Grass, and Poison attackers all perform well",
+                "difficulty": "Grass, Electric, Poison and Steel attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -13657,7 +13657,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Flying, Ghost, Fairy",
                 "difficultyLabel": "Mega",
-                "difficulty": "Flying and Ghost attackers are strong",
+                "difficulty": "Flying, Psychic, Fairy, Bug, Ghost and Dark attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -13924,7 +13924,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ice, Dragon, Fairy, Water, Ground, Rock",
                 "difficultyLabel": "Focus",
-                "difficulty": "Prepare powerful Ice, Dragon and Fairy counters for this battle",
+                "difficulty": "Ice, Dragon, Fairy, Water, Ground and Rock attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -14182,7 +14182,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fighting, Poison, Steel",
                 "difficultyLabel": "Focus",
-                "difficulty": "Fighting, Poison and Steel-type teams are especially effective here",
+                "difficulty": "Fighting, Poison and Steel attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -14449,7 +14449,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Ice, Dragon, Fairy, Ground",
                 "difficultyLabel": "Focus",
-                "difficulty": "Strong Ice, Dragon and Fairy counters are recommended",
+                "difficulty": "Ice, Dragon, Fairy and Ground attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -14711,7 +14711,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Water, Ground, Rock, Flying, Psychic, Fairy",
                 "difficultyLabel": "Focus",
-                "difficulty": "Strong Water, Ground and Rock counters are recommended",
+                "difficulty": "Water, Ground, Rock, Flying, Psychic and Fairy attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -14976,7 +14976,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Bug, Ghost, Dark",
                 "difficultyLabel": "Focus",
-                "difficulty": "Focus on high-level Bug, Ghost and Dark attackers",
+                "difficulty": "Bug, Ghost and Dark attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -15238,7 +15238,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fire, Flying, Rock, Fighting, Ground",
                 "difficultyLabel": "Focus",
-                "difficulty": "Use Fire, Flying and Rock attackers for consistent raid damage",
+                "difficulty": "Fire attackers dominate due to double weakness",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -15498,7 +15498,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fire, Ice, Poison, Flying, Bug, Fighting, Ground",
                 "difficultyLabel": "Focus",
-                "difficulty": "Fire, Ice and Poison-type teams are especially effective here",
+                "difficulty": "Fire attackers dominate due to double weakness",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -15757,7 +15757,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fire, Fighting, Ground, Electric, Ice, Rock",
                 "difficultyLabel": "Focus",
-                "difficulty": "Fire, Fighting and Ground Pokémon perform best in this raid",
+                "difficulty": "Fire, Fighting, Ground, Electric, Ice and Rock attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
@@ -16017,7 +16017,7 @@ export const counterMonths = [
                 ],
                 "weaknesses": "Fighting, Electric, Ice, Rock",
                 "difficultyLabel": "Focus",
-                "difficulty": "Fighting, Electric and Ice-type teams are especially effective here",
+                "difficulty": "Fighting, Electric, Ice and Rock attackers perform best",
                 "catchCp": {
                     "normal": {
                         "level": 20,
