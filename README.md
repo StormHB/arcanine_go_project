@@ -231,10 +231,16 @@ css/style.css
 * Unified schedule-derived status handling across pages
 * Deployed via GitHub Pages
 * Unified type color system using CSS variables
+* Shared centralized date and status utility layer for:
+  * month rollover handling
+  * raid active/upcoming/ended state calculation
+  * cross-page schedule synchronization
+  * recurring raid timing consistency
 * Automatic single-type and dual-type glow rendering
 * Shared month-based data model for raids and counters
 * Generated Pokémon type and move metadata datasets
 * Automatic counter artwork generation pipeline
+
 
 ---
 
@@ -297,6 +303,7 @@ The project follows a data-driven frontend architecture:
 * Styling is centralized through reusable CSS systems and theme variables
 * Theme state is handled independently from page rendering logic
 * Raid status logic is derived from shared rotation schedule metadata
+* Shared date utility modules centralize month rollover and raid timing calculations across all rendering systems
 * Recurring raid bosses are handled through a generated appearance layer instead of duplicating schedule metadata across reusable boss definitions
 
 This approach improves scalability, maintainability and future automation support.
@@ -346,6 +353,9 @@ assets/
     │   ├── counter-image-map.generated.js
     │   ├── pokemon-types.generated.js
     │   └── move-types.generated.js
+    │
+    ├── utils/
+    │   └── date-status.js
     │
     ├── render-raids.js
     ├── render-counters.js
