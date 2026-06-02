@@ -2,6 +2,41 @@
 
 All notable changes to this project are documented here.
 
+## [1.21.1] - Shared Date Status Utility & Automatic Month Rollover
+
+### Added
+
+* Added shared `date-status.js` utility module
+* Added centralized month status calculation logic
+* Added shared raid status handling across raids, counters and boss detail pages
+* Added automatic current/history month rollover based on real local time
+* Added shared date parsing utilities for mixed schedule formats
+
+### Changed
+
+* Refactored raids, counters and boss detail pages to use shared status utilities
+* Unified boss status handling across all rendering modules
+* Centralized rollover timing around shared 10:00 AM local rotation windows
+* Moved duplicated date/status logic out of individual render modules
+
+### Fixed
+
+* Fixed incorrect current month selection after monthly rollover
+* Fixed featured raid cards not updating correctly after month transitions
+* Fixed counters page defaulting to outdated months after rollover
+* Fixed inconsistent boss active/upcoming/ended states between pages
+* Fixed recurring raid rotations ending one day too early in rendered status handling
+* Fixed boss detail page status mismatches during cross-month rotations
+
+### Improved
+
+* Improved consistency of schedule-derived status rendering
+* Improved long-term maintainability of raid timing logic
+* Reduced duplicated frontend date handling logic
+* Improved synchronization between raids, counters and boss detail pages
+
+---
+
 ## [1.21.0] - Rotation Appearance Pipeline & Unified Status System
 
 ### Added
