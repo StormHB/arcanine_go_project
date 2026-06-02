@@ -10217,7 +10217,7 @@ export const counterMonths = [
     {
         "id": "2026-05",
         "label": "May 2026",
-        "status": "current",
+        "status": "history",
         "bosses": [
             {
                 "id": "tapu-lele",

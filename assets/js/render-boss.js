@@ -1,6 +1,10 @@
 import { counterMonths } from "./data/counters.js";
 import { raidRotations } from "./data/rotations.js";
 import { counterImageMap } from "./data/counter-image-map.generated.js";
+import {
+  getAdjustedDateRange,
+  getRaidStatus
+} from "./utils/date-status.js";
 
 const root = document.querySelector("#boss-detail-root");
 
@@ -146,24 +150,29 @@ function getBestScheduleEntryForBoss(bossId) {
   const now = new Date();
 
   const active = entries.find((entry) => {
-    if (!entry.dateRange) return false;
+    const range = getAdjustedDateRange(entry.dateRange);
 
-    const [start, end] = entry.dateRange.map((date) => new Date(date));
+    if (!range) return false;
 
-    return now >= start && now < end;
+    return now >= range.start && now < range.end;
   });
 
   if (active) return active;
 
   const upcoming = entries
     .filter((entry) => {
-      if (!entry.dateRange) return false;
+      const range = getAdjustedDateRange(entry.dateRange);
 
-      const [start] = entry.dateRange.map((date) => new Date(date));
+      if (!range) return false;
 
-      return now < start;
+      return now < range.start;
     })
-    .sort((a, b) => new Date(a.dateRange[0]) - new Date(b.dateRange[0]))[0];
+    .sort((a, b) => {
+      const rangeA = getAdjustedDateRange(a.dateRange);
+      const rangeB = getAdjustedDateRange(b.dateRange);
+
+      return rangeA.start - rangeB.start;
+    })[0];
 
   if (upcoming) return upcoming;
 
@@ -185,18 +194,17 @@ function getBossStatus(boss) {
     return { text: "Ended", class: "ended" };
   }
 
-  const now = new Date();
-  const [start, end] = dateRange.map((date) => new Date(date));
+  const status = getRaidStatus(dateRange);
 
-  if (now >= start && now < end) {
-    return { text: "Active", class: "active" };
+  if (status.class === "planned") {
+    return { text: "Planned", class: "planned" };
   }
 
-  if (now < start) {
+  if (status.class === "upcoming") {
     return { text: "Upcoming", class: "upcoming" };
   }
 
-  return { text: "Ended", class: "ended" };
+  return status;
 }
 
 function renderBossDetail(boss) {

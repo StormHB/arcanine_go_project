@@ -5,7 +5,7 @@ export const raidRotations = [
     status: "history",
     schedule: [
       {
-        date: "Jan 1 – Jan 5",
+        date: "Jan 1 – Jan 4",
         time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Blacephalon"],
         mega: ["Mega Swampert"],
@@ -22,7 +22,7 @@ export const raidRotations = [
         ]
       },
       {
-        date: "Jan 5 – Jan 16",
+        date: "Jan 5 – Jan 15",
         time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Genesect (Burn Drive)"],
         mega: ["Mega Blaziken"],
@@ -39,7 +39,7 @@ export const raidRotations = [
         ]
       },
       {
-        date: "Jan 16 – Jan 25",
+        date: "Jan 16 – Jan 24",
         time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Thundurus (Incarnate Forme)"],
         mega: ["Mega Sceptile"],
@@ -56,7 +56,7 @@ export const raidRotations = [
         ]
       },
       {
-        date: "Jan 25 – Feb 4",
+        date: "Jan 25 – Feb 3",
         time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Tornadus (Incarnate Forme)"],
         mega: ["Mega Ampharos"],
@@ -80,7 +80,7 @@ export const raidRotations = [
     status: "history",
     schedule: [
       {
-        date: "Jan 25 – Feb 4",
+        date: "Jan 25 – Feb 3",
         time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Tornadus (Incarnate Forme)"],
         mega: ["Mega Ampharos"],
@@ -97,7 +97,7 @@ export const raidRotations = [
         ]
       },
       {
-        date: "Feb 4 – Feb 16",
+        date: "Feb 4 – Feb 15",
         time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Dialga", "Palkia"],
         mega: ["Mega Pidgeot"],
@@ -118,7 +118,7 @@ export const raidRotations = [
         ]
       },
       {
-        date: "Feb 16 – Feb 21",
+        date: "Feb 16 – Feb 20",
         time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Solgaleo"],
         mega: ["Mega Sableye"],
@@ -135,7 +135,7 @@ export const raidRotations = [
         ]
       },
       {
-        date: "Feb 21 – Mar 4",
+        date: "Feb 21 – Mar 3",
         time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Lunala"],
         mega: ["Mega Absol"],
@@ -159,7 +159,7 @@ export const raidRotations = [
     status: "history",
     schedule: [
       {
-        date: "Feb 21 – Mar 4",
+        date: "Feb 21 – Mar 3",
         time: "10:00 AM → 10:00 AM local time",
         fiveStar: ["Lunala"],
         mega: ["Mega Absol"],
@@ -277,7 +277,7 @@ export const raidRotations = [
       },
       {
         date: "Apr 8 – Apr 14",
-        time: "10:00 AM → 10:00 PM local time",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: "Kyogre",
         mega: "Mega Aerodactyl",
         icons: [
@@ -293,7 +293,7 @@ export const raidRotations = [
       },
       {
         date: "Apr 15 – Apr 21",
-        time: "10:00 AM → 10:00 PM local time",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: "Groudon",
         mega: "Mega Alakazam",
         icons: [
@@ -309,7 +309,7 @@ export const raidRotations = [
       },
       {
         date: "Apr 22 – Apr 28",
-        time: "10:00 AM → 10:00 PM local time",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: "Tapu Koko",
         mega: "Mega Sharpedo",
         icons: [
@@ -325,7 +325,7 @@ export const raidRotations = [
       },
       {
         date: "Apr 29 – May 5",
-        time: "10:00 AM → 10:00 PM local time",
+        time: "10:00 AM → 10:00 AM local time",
         fiveStar: "Tapu Lele",
         mega: "Mega Banette",
         icons: [
@@ -485,7 +485,7 @@ export const raidRotations = [
   {
     id: "2026-05",
     label: "May 2026",
-    status: "current",
+    status: "history",
 
     schedule: [
       {

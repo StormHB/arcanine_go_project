@@ -1,5 +1,10 @@
 import { raidRotations } from "./data/rotations.js";
 import { counterMonths } from "./data/counters.js";
+import {
+  getMonthStatus,
+  getDefaultMonth,
+  getRaidStatus
+} from "./utils/date-status.js";
 
 const monthSelect = document.querySelector("#month-select");
 const scheduleList = document.querySelector("#raid-schedule-list");
@@ -129,52 +134,14 @@ function getScheduleBosses(rotation) {
   return bosses;
 }
 
-function getRaidStatus(dateRange) {
-  const today = new Date();
-
-  const start = new Date(dateRange[0]);
-  const end = new Date(dateRange[1]);
-
-  if (today >= start && today <= end) {
-    return {
-      text: "Active",
-      class: "active"
-    };
-  }
-
-  if (today < start) {
-    return {
-      text: `${start.toLocaleDateString("en-US", { month: "short", day: "numeric" })} → ${end.toLocaleDateString("en-US", { month: "short", day: "numeric" })}`,
-      class: "upcoming"
-    };
-  }
-
-  return {
-    text: "Ended",
-    class: "ended"
-  };
-}
-
-function getMonthComputedStatus(month) {
-  return month.status ?? "history";
-}
-
-function getDefaultMonth() {
-  return (
-    raidRotations.find((month) => month.status === "current") ||
-    raidRotations.find((month) => month.status === "upcoming") ||
-    raidRotations.at(-1)
-  );
-}
-
 function renderMonthOptions() {
   monthSelect.innerHTML = "";
 
-  const defaultMonth = getDefaultMonth();
+  const defaultMonth = getDefaultMonth(raidRotations);
 
   raidRotations.forEach((month) => {
     const option = document.createElement("option");
-    const computedStatus = getMonthComputedStatus(month);
+    const computedStatus = getMonthStatus(month.id);
 
     option.value = month.id;
     option.textContent = `${month.label} (${computedStatus})`;
@@ -238,9 +205,10 @@ function renderSchedule(monthId) {
 }
 
 function renderSummaryCards() {
-  const candidateMonths = raidRotations.filter((month) =>
-    month.status === "current" || month.status === "upcoming"
-  );
+  const candidateMonths = raidRotations.filter((month) => {
+    const status = getMonthStatus(month.id);
+    return status === "current" || status === "upcoming";
+  });
 
   summaryGrid.innerHTML = "";
 
@@ -386,7 +354,10 @@ function renderRaidCards(monthId) {
   cards.forEach((raid) => {
     const status = raid.dateRange
       ? getRaidStatus(raid.dateRange)
-      : { text: selectedMonth.status === "current" ? "Active" : "Ended", class: selectedMonth.status === "current" ? "active" : "ended" };
+      : {
+        text: getMonthStatus(selectedMonth.id) === "current" ? "Active" : "Ended",
+        class: getMonthStatus(selectedMonth.id) === "current" ? "active" : "ended"
+      };
 
     const [primaryType, secondaryType] = raid.types ?? ["normal"];
     const card = document.createElement("a");

@@ -1,5 +1,10 @@
 import { counterMonths } from "./data/counters.js";
 import { raidRotations } from "./data/rotations.js";
+import {
+  getDefaultMonth,
+  getAdjustedDateRange,
+  getBossStatusFromDateRange
+} from "./utils/date-status.js";
 
 const countersGrid = document.querySelector("#counters-grid");
 const searchInput = document.querySelector("#counter-search");
@@ -38,24 +43,29 @@ function getBestScheduleEntryForBoss(bossId, preferredMonthId = null) {
   const now = new Date();
 
   const active = entries.find((entry) => {
-    if (!entry.dateRange) return false;
+    const range = getAdjustedDateRange(entry.dateRange);
 
-    const [start, end] = entry.dateRange.map((date) => new Date(date));
+    if (!range) return false;
 
-    return now >= start && now < end;
+    return now >= range.start && now < range.end;
   });
 
   if (active) return active;
 
   const upcoming = entries
     .filter((entry) => {
-      if (!entry.dateRange) return false;
+      const range = getAdjustedDateRange(entry.dateRange);
 
-      const [start] = entry.dateRange.map((date) => new Date(date));
+      if (!range) return false;
 
-      return now < start;
+      return now < range.start;
     })
-    .sort((a, b) => new Date(a.dateRange[0]) - new Date(b.dateRange[0]))[0];
+    .sort((a, b) => {
+      const rangeA = getAdjustedDateRange(a.dateRange);
+      const rangeB = getAdjustedDateRange(b.dateRange);
+
+      return rangeA.start - rangeB.start;
+    })[0];
 
   if (upcoming) return upcoming;
 
@@ -72,27 +82,7 @@ function getBossStatusFromSchedule(entry) {
     };
   }
 
-  const now = new Date();
-  const [start, end] = entry.dateRange.map((date) => new Date(date));
-
-  if (now >= start && now < end) {
-    return {
-      className: "current-boss",
-      label: "Active"
-    };
-  }
-
-  if (now < start) {
-    return {
-      className: "upcoming-boss",
-      label: "Upcoming"
-    };
-  }
-
-  return {
-    className: "ended-boss",
-    label: "Ended"
-  };
+  return getBossStatusFromDateRange(entry.dateRange);
 }
 
 function formatCounterSubtitle(boss, preferredMonthId = null) {
@@ -118,18 +108,6 @@ function formatCounterSubtitle(boss, preferredMonthId = null) {
   return `${tier} • ${startMonth} ${startDay} to ${endMonth} ${endDay}`;
 }
 
-function getMonthStatus(monthId) {
-  const now = new Date();
-  const [year, month] = monthId.split("-").map(Number);
-
-  const start = new Date(year, month - 1, 1, 10, 0, 0);
-  const end = new Date(year, month, 1, 10, 0, 0);
-
-  if (now >= start && now < end) return "current";
-  if (now < start) return "upcoming";
-  return "history";
-}
-
 function renderMove(move) {
   const hiddenPowerType =
     move.name.toLowerCase().includes("hidden power") && move.type
@@ -150,9 +128,7 @@ function renderMonthFilterOptions() {
     <option value="all">All months</option>
   `;
 
-  const currentMonth =
-    counterMonths.find((month) => getMonthStatus(month.id) === "current") ||
-    counterMonths[0];
+  const currentMonth = getDefaultMonth(counterMonths);
 
   counterMonths.forEach((month) => {
     const option = document.createElement("option");
